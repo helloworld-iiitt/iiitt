@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sweet-loading{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  
+}
+@media only screen and (max-width: 800px){
+  .sweet-loading{
+    left: 40% !important;
+  }
+}

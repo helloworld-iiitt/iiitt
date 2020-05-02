@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Loadable from 'react-loadable';
+import { css } from '@emotion/core';
+import { ScaleLoader } from 'react-spinners';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+const override = css`
+display:inline;
+margin-top: 0 auto;
+border-color: red;
+`;
 function App() {
+
+  const loading=(<div className='sweet-loading'>
+   <ScaleLoader css={override}   sizeUnit={"px"}  color={'#3f51b5'} size={80} height={35} width={12}  radius={2} loading={true}/>
+  <div style={{fontSize:"30px"}}>Loading...</div>
+  </div>)
+
+  const Home = Loadable({
+    loader: () => import('./pages/home/index'),
+    loading: () =>loading ,
+});
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+      
+      <Switch>
+
+      <Route exact path="/" component={Home} />
+
+      </Switch>
+   
+    </BrowserRouter>
   );
 }
 
