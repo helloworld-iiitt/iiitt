@@ -10,9 +10,7 @@ display:none;
 
 
 @media only screen and (max-width: 800px){
-.iiitt_logo{
-    display: none;
-}
+
 #desktop_menu{
 display: none !important;
 }
@@ -29,4 +27,7 @@ display: none !important;
 }
 .navlink_button:hover{
     background:rgb(255,255,255,0.25) !important;
+}
+.iiitt_logo{
+    max-width: 100%;
 }
