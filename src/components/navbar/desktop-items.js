@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function MenuListComposition() {
+export default function MenuListComposition(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
@@ -58,7 +58,7 @@ export default function MenuListComposition() {
   return (
     <div className={classes.root}>
   
-      <div>
+      
         <Button
           ref={anchorRef}
           aria-controls={open ? 'menu-list-grow' : undefined}
@@ -69,9 +69,9 @@ export default function MenuListComposition() {
           className="navlink_button"
         
         >
-            
-                    Institute
-            
+            <Typography variant="button" >
+                    {props.nav_head}
+            </Typography>
         </Button>
         <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal onMouseEnter={handleToggle} onMouseLeave={handleToggle} > 
           {({ TransitionProps, placement }) => (
@@ -82,7 +82,7 @@ export default function MenuListComposition() {
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
                   <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                    <MenuItem onClick={handleClose}>About</MenuItem>
+                    <MenuItem onClick={handleClose}>About IIITT</MenuItem>
                     <MenuItem onClick={handleClose}>Director</MenuItem>
                     <MenuItem onClick={handleClose}>College</MenuItem>
                   </MenuList>
@@ -91,7 +91,7 @@ export default function MenuListComposition() {
             </Grow>
           )}
         </Popper>
-      </div>
+      
     </div>
   );
 }

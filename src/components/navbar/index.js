@@ -101,8 +101,12 @@ list = (anchor) => (
             <Drawer anchor={'right'} open={this.state.right} onClose={this.toggleDrawer('right', false)}>
             {this.list('right')}
             </Drawer>
+
+
             <div id="desktop_menu">
-            <MenuListComposition />
+            {['Institute','Academics','People','Admission','Notification','Students','Campus Life','Virtual Academy'].map(item=>{
+            return <MenuListComposition nav_head={item}/>
+            })}
             </div>
             
             </Toolbar>
