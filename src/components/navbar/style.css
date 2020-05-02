@@ -2,6 +2,9 @@
 #mobile_navigation{
 display:none;
 }
+.mobile_navbar{
+    display: none !important;
+}
 }
 
 
@@ -11,7 +14,7 @@ display:none;
     display: none;
 }
 #desktop_menu{
-display: none;
+display: none !important;
 }
 }
 
