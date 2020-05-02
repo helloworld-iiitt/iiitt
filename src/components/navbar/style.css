@@ -17,3 +17,9 @@ display: none;
 .navbar{
     text-align: center;
 }
+.navlink_button{
+    color:#fff !important;
+}
+.navlink_button:hover{
+    background:rgb(255,255,255,0.25) !important;
+}

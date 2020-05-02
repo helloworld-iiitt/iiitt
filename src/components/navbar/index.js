@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Menu from '@material-ui/icons/Menu';
-import MenuItem from '@material-ui/icons/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 import './style.css'
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
@@ -18,6 +18,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import HomeIcon from '@material-ui/icons/Home';
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
+import MenuListComposition from './desktop-items'
 
 export default class Navbar extends React.Component{
 
@@ -25,9 +26,12 @@ export default class Navbar extends React.Component{
     super();
     this.state={
       right: false,
+      anchorEl:null,
+
     }
   }
 
+   
   classes = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -98,12 +102,7 @@ list = (anchor) => (
             {this.list('right')}
             </Drawer>
             <div id="desktop_menu">
-            <Button style={{color:'#fff'}}>
-            <Typography variant="h6" className={this.classes.title}>
-                Home
-            </Typography>
-            </Button>
-            
+            <MenuListComposition />
             </div>
             
             </Toolbar>
