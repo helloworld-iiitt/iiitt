@@ -63,24 +63,28 @@ export default class Navbar extends React.Component{
         <img src="http://www.iiitt.ac.in/images/logo-iiit.png" alt="IIITT Logo" className="iiitt_logo"/> 
         <div className={this.classes.root}>
         <AppBar position="static">
-            <Toolbar>
-            <div id="mobile_navbar">
-              {/*Navbar Mobile Icons Start here */}
+            <Toolbar id="mobile_navbar">
             
-              <TemporaryDrawer items={arr}/>
-
+              {/*Navbar Mobile Icons Start here */}
+                <TemporaryDrawer items={arr}/>
+                <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
+                  IIIT Trichy
+                </Typography>
+                
+              
               {/*Navbar Mobile Ends here */}
-            </div>
+            
+            </Toolbar>
 
-            <div id="desktop_menu">
+            <Toolbar id="desktop_menu">
               {/*Navbar @Desktop start here*/}
             {arr.map(item=>(
             <MenuListComposition nav_head={item.text}/>
             ))}
             {/*Navbar @Desktop Ends here */}
-            </div>
-            
             </Toolbar>
+            
+            
         </AppBar>
         </div>
         </div>
