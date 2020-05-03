@@ -49,7 +49,14 @@ export default class Navbar extends React.Component{
 
 
     render(){
-      const arr=['Institute','Academics','People','Admission','Notification','Students','Campus Life','Virtual Academy'];
+      const arr=[{text:'Institute',icon:'AccountBalanceIcon'},
+                  {text:'Academics',icon:'LocalLibraryIcon'},
+                  {text:'People',icon:'PeopleIcon'},
+                  {text:'Admission',icon:'NoteAddIcon'},
+                  {text:'Notification',icon:'NotificationImportantIcon'},
+                  {text:'Students',icon:'PersonIcon'},
+                  {text:'Campus Life',icon:'SchoolIcon'},
+                  {text:'Virtual Academy',icon:'WebIcon'}];
         
         return(
         <div className="navbar">
@@ -67,9 +74,9 @@ export default class Navbar extends React.Component{
 
             <div id="desktop_menu">
               {/*Navbar @Desktop start here*/}
-            {arr.map(item=>{
-            return <MenuListComposition nav_head={item}/>
-            })}
+            {arr.map(item=>(
+            <MenuListComposition nav_head={item.text}/>
+            ))}
             {/*Navbar @Desktop Ends here */}
             </div>
             

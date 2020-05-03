@@ -10,8 +10,26 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
+import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
+import PeopleIcon from '@material-ui/icons/People';
+import NoteAddIcon from '@material-ui/icons/NoteAdd';
+import NotificationImportantIcon from '@material-ui/icons/NotificationImportant';
+import PersonIcon from '@material-ui/icons/Person';
+import SchoolIcon from '@material-ui/icons/School';
+import WebIcon from '@material-ui/icons/Web';
+
+const Icons={
+    AccountBalanceIcon,
+    LocalLibraryIcon,
+    PeopleIcon,
+    NoteAddIcon,
+    NotificationImportantIcon,
+    PersonIcon,
+    SchoolIcon,
+    WebIcon
+
+}
 
 const useStyles = makeStyles({
   list: {
@@ -49,12 +67,17 @@ export default function TemporaryDrawer(props) {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {props.items.map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon><MailIcon /></ListItemIcon>
-            <ListItemText primary={text} />
+        {props.items.map((menu_item, index) => {
+            /*let icon=menu_item.icon&&`@material-ui/icons/${menu_item.icon.substring(0,menu_item.icon.indexOf('Icon'))}`;*/
+           let Icon = Icons[menu_item.icon];
+           
+
+            
+         return (<ListItem button key={menu_item.text}>
+            <ListItemIcon><Icon /></ListItemIcon>
+            <ListItemText primary={menu_item.text} />
           </ListItem>
-        ))}
+        )})}
       </List>
       <Divider />
      
