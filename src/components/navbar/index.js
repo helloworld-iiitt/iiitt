@@ -60,7 +60,7 @@ export default class Navbar extends React.Component{
         
         return(
         <div className="navbar">
-        <img src="http://www.iiitt.ac.in/images/logo-iiit.png" alt="IIITT Logo" className="iiitt_logo"/> 
+        <img src={require('../../images/textlogo.png')} alt="IIITT Text Logo" className="iiitt_logo"/> 
         <div className={this.classes.root}>
         <AppBar position="static">
             <Toolbar id="mobile_navbar">
@@ -68,7 +68,7 @@ export default class Navbar extends React.Component{
               {/*Navbar Mobile Icons Start here */}
                 <TemporaryDrawer items={arr}/>
                 <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
-                  IIIT Trichy
+                  IIIT TRICHY
                 </Typography>
                 
               

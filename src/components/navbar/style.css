@@ -31,3 +31,9 @@ display: none !important;
 .iiitt_logo{
     max-width: 100%;
 }
+
+#iiitt_sidetop>li{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+

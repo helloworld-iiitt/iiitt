@@ -1,0 +1,38 @@
+
+
+#mission_vision{
+    
+    min-width: 23% !important;
+}
+@media only screen and (min-width: 800px) {
+    #mission_vision{
+        width: 23% !important;
+    }
+    
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1500px){
+    #vision{
+        font-size: 1.4vw !important;
+
+    }
+    #mission{
+        font-size: 1.35vw !important;
+    }
+  
+}
+@media only screen and (min-width: 1500px){
+    #vision{
+        font-size: 1.3vw !important;
+
+    }
+    #mission{
+        font-size: 1.2vw !important;
+    }
+}
+@media only screen and (max-width: 1500px){
+    #learn_more{
+        display: none;
+    }
+    }

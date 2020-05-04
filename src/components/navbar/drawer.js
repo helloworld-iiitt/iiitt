@@ -18,6 +18,7 @@ import NotificationImportantIcon from '@material-ui/icons/NotificationImportant'
 import PersonIcon from '@material-ui/icons/Person';
 import SchoolIcon from '@material-ui/icons/School';
 import WebIcon from '@material-ui/icons/Web';
+import Typography from '@material-ui/core/Typography';  
 
 const Icons={
     AccountBalanceIcon,
@@ -92,6 +93,15 @@ export default function TemporaryDrawer(props) {
                 <MenuIcon onClick={toggleDrawer('right', true)}/>
             </IconButton>
           <Drawer anchor='right' open={state['right']} onClose={toggleDrawer('right', false)}>
+            <List id="iiitt_sidetop">
+              <ListItem >
+                <ListItemIcon><img src={require('../../images/logo.png')} alt="IIITT Logo" className="main_logo" width="40px"/></ListItemIcon>
+                <ListItemText><Typography variant="h6" style={{color:'rgba(0, 0, 0, 0.75)'}}>
+                  IIIT TRICHY
+                </Typography></ListItemText>
+              </ListItem>
+            </List>
+            <Divider />
             {list('right')}
           </Drawer>
         </React.Fragment>
