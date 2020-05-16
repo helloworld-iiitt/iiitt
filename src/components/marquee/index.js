@@ -23,7 +23,7 @@ constructor(){
 render(){
 	const bull = <span className="bullet">•</span>;
 	
-	console.log(announcements.data);
+	
 	
     return(
 	<Card className="v_marquee" variant="outlined" >
