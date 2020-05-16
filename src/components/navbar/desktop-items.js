@@ -28,6 +28,9 @@ export default function MenuListComposition(props) {
  
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
+    
+    document.getElementsByClassName('carousel-root')[0].style.zIndex=-10;
+    
   };
 
   const handleClose = (event) => {
@@ -73,7 +76,7 @@ export default function MenuListComposition(props) {
                     {props.nav_head}
             </Typography>
         </Button>
-        <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal onMouseEnter={handleToggle} onMouseLeave={handleToggle} > 
+        <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal onMouseEnter={handleToggle} onMouseLeave={handleToggle} style={{zIndex:'10'}}> 
           {({ TransitionProps, placement }) => (
             <Grow
               {...TransitionProps}
@@ -81,7 +84,7 @@ export default function MenuListComposition(props) {
             >
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
+                  <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown} >
                     <MenuItem onClick={handleClose}>About IIITT</MenuItem>
                     <MenuItem onClick={handleClose}>Director</MenuItem>
                     <MenuItem onClick={handleClose}>College</MenuItem>

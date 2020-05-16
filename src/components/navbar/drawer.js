@@ -19,6 +19,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import SchoolIcon from '@material-ui/icons/School';
 import WebIcon from '@material-ui/icons/Web';
 import Typography from '@material-ui/core/Typography';  
+import NestedList from './nestedlist.js'
 
 const Icons={
     AccountBalanceIcon,
@@ -64,20 +65,12 @@ export default function TemporaryDrawer(props) {
         [classes.fullList]: anchor === 'top' || anchor === 'bottom',
       })}
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
         {props.items.map((menu_item, index) => {
-            /*let icon=menu_item.icon&&`@material-ui/icons/${menu_item.icon.substring(0,menu_item.icon.indexOf('Icon'))}`;*/
-           let Icon = Icons[menu_item.icon];
-           
-
-            
-         return (<ListItem button key={menu_item.text}>
-            <ListItemIcon><Icon /></ListItemIcon>
-            <ListItemText primary={menu_item.text} />
-          </ListItem>
+           return (
+           <NestedList menu={menu_item} toggleDrawer={toggleDrawer} anchor={anchor} />
         )})}
       </List>
       <Divider />

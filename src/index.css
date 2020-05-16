@@ -21,4 +21,12 @@ code {
   .sweet-loading{
     left: 40% !important;
   }
+  .only_on_desktop{
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 800px){
+  .only_on_mobile{
+    display: none !important;
+  }
 }

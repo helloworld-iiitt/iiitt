@@ -1,0 +1,29 @@
+.v_marquee{
+    
+    min-width: 23% !important;
+    max-height: 50vh !important;
+    
+}
+@media only screen and (max-width: 1400px){
+    .v_marquee{
+        max-height: 45vh !important;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .v_marquee{
+        width: 23% !important;
+        max-height: 50vh;
+    }
+    
+}
+@media only screen and (min-width: 1500px) {
+    .v_marquee{
+        max-height: 56vh !important;
+    }
+    
+}
+.bullet{
+    display: 'inline-block';
+    margin: '0 2px';
+    transform: 'scale(0.8)';
+}

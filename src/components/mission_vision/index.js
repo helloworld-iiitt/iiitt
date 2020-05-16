@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import './style.css';
 const useStyles = makeStyles({
   root: {
@@ -29,7 +30,8 @@ export default function MissionVision() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Card className={classes.root} variant="outlined" id="mission_vision">
+    <>
+    <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_desktop">
       <CardContent>
        
        
@@ -56,8 +58,39 @@ export default function MissionVision() {
         </Typography>
       </CardContent>
       <CardActions id="learn_more">
-        <Button variant="contained" color="primary">Learn More</Button>
+        <Button variant="contained" color="primary">Learn More about IIITT <ArrowForwardIcon /></Button>
+      </CardActions>
+    </Card > 
+      <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_mobile">
+      <CardContent>
+       
+       
+        <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
+          Vision
+        </Typography>
+        <Divider />
+        <Typography className={classes.pos} color="textSecondary" id="vision">
+            To achieve "World Class Excellence in Information and Communication Technology".
+        </Typography>
+        
+        <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
+          Mission
+        </Typography>
+        <Divider />
+        <Typography className={classes.pos} color="textSecondary" gutterBottom id="mission">
+        {bull} To impart Information Technology education to students and future leaders.
+
+        <br/>
+        {bull} To establish Center of Excellences in Information Technology.
+
+        <br/>
+        {bull} To engage in cutting edge technology research to meet the current needs and future challenges of India and the world at large.
+        </Typography>
+      </CardContent>
+      <CardActions id="learn_more">
+        <Button variant="contained" color="primary">Learn More about IIITT <ArrowForwardIcon /></Button>
       </CardActions>
     </Card>
+    </>
   );
 }

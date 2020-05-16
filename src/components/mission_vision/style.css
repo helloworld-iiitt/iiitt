@@ -10,25 +10,30 @@
     }
     
 }
-
+#mission_vision svg{
+    font-size: 17px;
+}
+#mission_vision .MuiButton-label{
+font-size: 0.8vw;
+}
 
 @media only screen and (min-width: 800px) and (max-width: 1500px){
     #vision{
-        font-size: 1.4vw !important;
+        font-size: 1.1vw !important;
 
     }
     #mission{
-        font-size: 1.35vw !important;
+        font-size: 1.15vw !important;
     }
   
 }
 @media only screen and (min-width: 1500px){
     #vision{
-        font-size: 1.3vw !important;
+        font-size: 1.1vw !important;
 
     }
     #mission{
-        font-size: 1.2vw !important;
+        font-size: 1.05vw !important;
     }
 }
 @media only screen and (max-width: 1500px){

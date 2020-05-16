@@ -49,14 +49,14 @@ export default class Navbar extends React.Component{
 
 
     render(){
-      const arr=[{text:'Institute',icon:'AccountBalanceIcon'},
-                  {text:'Academics',icon:'LocalLibraryIcon'},
-                  {text:'People',icon:'PeopleIcon'},
-                  {text:'Admission',icon:'NoteAddIcon'},
-                  {text:'Notification',icon:'NotificationImportantIcon'},
-                  {text:'Students',icon:'PersonIcon'},
-                  {text:'Campus Life',icon:'SchoolIcon'},
-                  {text:'Virtual Academy',icon:'WebIcon'}];
+      const arr=[{text:'Institute',icon:'AccountBalanceIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'Academics',icon:'LocalLibraryIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'People',icon:'PeopleIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'Admission',icon:'NoteAddIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'Notification',icon:'NotificationImportantIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'Students',icon:'PersonIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'Campus Life',icon:'SchoolIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
+                  {text:'Virtual Academy',icon:'WebIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]}];
         
         return(
         <div className="navbar">
