@@ -5,6 +5,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles({
@@ -37,7 +38,15 @@ export default function OutlinedCard(props) {
         <ul> 
             {props.items&&props.items.map(item=>{
                 return(
-                   <li> <Link href={item.link}>{item.title}</Link></li>
+                   <li style={{marginBottom:'5px'}}> 
+                       <Link href={item.link}>{item.title}</Link>
+                       <br/>
+                       <Typography variant="caption" color="textSecondary" gutterBottom>
+                          Posted:{item.date}
+                       </Typography>
+                      
+                   
+                   </li>
                 )
             })}
         </ul>

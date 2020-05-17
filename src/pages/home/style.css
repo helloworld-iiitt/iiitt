@@ -19,4 +19,11 @@
 
 .makeStyles-root-161 > *{
 width: 100% !important;
+height: 100%;
+}
+
+@media only screen and (max-width: 800px){
+#info_mob>div{
+    width: 100% !important;
+}
 }
