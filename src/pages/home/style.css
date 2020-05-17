@@ -1,0 +1,22 @@
+
+.customeflex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+}
+#info{
+    
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between !important;
+}
+
+
+#info>div{
+    width: 30% !important;
+}
+
+.makeStyles-root-161 > *{
+width: 100% !important;
+}

@@ -58,7 +58,7 @@ export default function MissionVision() {
         </Typography>
       </CardContent>
       <CardActions id="learn_more">
-        <Button variant="contained" color="primary">Learn More about IIITT <ArrowForwardIcon /></Button>
+        <Button size="small">Learn More about IIIT Trichy <ArrowForwardIcon /> </Button>
       </CardActions>
     </Card > 
       <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_mobile">
@@ -87,8 +87,8 @@ export default function MissionVision() {
         {bull} To engage in cutting edge technology research to meet the current needs and future challenges of India and the world at large.
         </Typography>
       </CardContent>
-      <CardActions id="learn_more">
-        <Button variant="contained" color="primary">Learn More about IIITT <ArrowForwardIcon /></Button>
+      <CardActions >
+        <Button size="small">Learn More about IIIT Trichy <ArrowForwardIcon /></Button>
       </CardActions>
     </Card>
     </>
