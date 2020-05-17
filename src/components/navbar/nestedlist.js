@@ -21,6 +21,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import SchoolIcon from '@material-ui/icons/School';
 import WebIcon from '@material-ui/icons/Web';
 import Typography from '@material-ui/core/Typography';  
+import { Link } from 'react-router-dom';
 
 const Icons={
     AccountBalanceIcon,
@@ -70,8 +71,9 @@ export default function NestedList(props) {
             return(
             <List component="div" disablePadding>
              <ListItem button className={classes.nested} onClick={props.toggleDrawer(props.anchor, false)}>
-               
-               <ListItemText primary={item.text} />
+                  <Link to={item.link} draggable="false" className="nav_routes">
+                      <ListItemText primary={item.text} />
+                  </Link>
              </ListItem>
            </List>)
         })}

@@ -7,6 +7,7 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 
 
@@ -85,9 +86,13 @@ export default function MenuListComposition(props) {
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
                   <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown} >
-                    <MenuItem onClick={handleClose}>About IIITT</MenuItem>
-                    <MenuItem onClick={handleClose}>Director</MenuItem>
-                    <MenuItem onClick={handleClose}>College</MenuItem>
+                    {props.submenu.map(item=>{
+                      return(
+                      <MenuItem onClick={handleClose}> <Link to={item.link} draggable="false" className="nav_routes">{item.text}</Link></MenuItem>
+                      )
+                    })}
+                    
+                    
                   </MenuList>
                 </ClickAwayListener>
               </Paper>

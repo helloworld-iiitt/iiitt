@@ -79,7 +79,7 @@ export default class Navbar extends React.Component{
             <Toolbar id="desktop_menu">
               {/*Navbar @Desktop start here*/}
             {arr.map(item=>(
-            <MenuListComposition nav_head={item.text}/>
+            <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
             ))}
             {/*Navbar @Desktop Ends here */}
             </Toolbar>
