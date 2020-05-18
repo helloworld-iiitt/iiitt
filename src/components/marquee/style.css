@@ -16,6 +16,12 @@
     }
     
 }
+@media only screen and (max-width: 800px) {
+    .v_marquee{
+        max-height: 80vh !important;
+    }
+    
+}
 
 .v_marquee>.MuiCardContent-root{
     max-height: 100%;

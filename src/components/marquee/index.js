@@ -31,7 +31,7 @@ render(){
 			<Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
 			 Announcements
 			</Typography>
-			<marquee direction="up" scrollamount="3" scrolldelay="60" behavior="scroll" height="100%" id="my_marquee">
+			<marquee direction="up" height="100%" id="my_marquee">
 				<ul >
 					{
 						announcements.data.map(item=>{
