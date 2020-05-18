@@ -30,22 +30,22 @@ document.getElementsByClassName('carousel-root')[0].style.zIndex='auto';
                     <br/>
                     <br/>
             </div>
-                
+          
             <div className="only_on_desktop customeflex" id="info">          
                 <PaperCard title="News" items={news.data}/>
                 <PaperCard title="Events" items={news.data}/>
                 <PaperCard title="Notice" items={news.data}/>
-                
             </div>
             <div onMouseOver={this.enable_slide_control} className="only_on_mobile customeflex">
                 <MainCarousel images={[{'name':'IIIT Trichy','path':'orion.jpg'},{'name':'#Ha[.sh] \'19' ,'path':'hash.jpg'},{'name':'director','path':'003.jpeg'}]}/>
                 <MissionVision />
                 <Marquee/>
+               
                 <div className="only_on_mobile customeflex" id="info_mob">   
                 <PaperCard title="News" items={news.data}/>
                 <PaperCard title="Events" items={news.data}/>
                 <PaperCard title="Notice" items={news.data}/>
-                </div>
+            </div>
                 
                
             </div>

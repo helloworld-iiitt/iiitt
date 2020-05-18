@@ -82,10 +82,10 @@ export default function TemporaryDrawer(props) {
     <div>
       
         <React.Fragment >
-            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" id="mobile_navigation" onClick={toggleDrawer('right', true)}>
-                <MenuIcon onClick={toggleDrawer('right', true)}/>
+            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" id="mobile_navigation" onClick={toggleDrawer('left', true)}>
+                <MenuIcon onClick={toggleDrawer('left', true)}/>
             </IconButton>
-          <Drawer anchor='right' open={state['right']} onClose={toggleDrawer('right', false)}>
+          <Drawer anchor='left' open={state['left']} onClose={toggleDrawer('left', false)}>
             <List id="iiitt_sidetop">
               <ListItem >
                 <ListItemIcon><img src={require('../../images/logo.png')} alt="IIITT Logo" className="main_logo" width="40px"/></ListItemIcon>
@@ -95,7 +95,7 @@ export default function TemporaryDrawer(props) {
               </ListItem>
             </List>
             <Divider />
-            {list('right')}
+            {list('left')}
           </Drawer>
         </React.Fragment>
       

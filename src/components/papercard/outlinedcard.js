@@ -6,8 +6,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import DescriptionIcon from '@material-ui/icons/Description';
 import Link from '@material-ui/core/Link';
-
+import './style.css'
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
@@ -30,11 +31,11 @@ export default function OutlinedCard(props) {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Card className={classes.root} variant="outlined">
+    <Card className={classes.root} id="simplecard">
       <CardContent>
-        <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
+        <div className="newshead">
           {props.title}
-        </Typography>
+        </div>
         <ul> 
             {props.items&&props.items.map(item=>{
                 return(

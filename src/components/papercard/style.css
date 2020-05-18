@@ -1,0 +1,16 @@
+.newshead{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 52px;
+    margin-bottom: 5px;
+}
+#simplecard {
+    box-shadow: none !important;
+}
+#simplecard ul>li>a{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
