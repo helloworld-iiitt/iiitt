@@ -28,9 +28,9 @@ render(){
     return(
 	<Card className="v_marquee" variant="outlined" >
 		<CardContent>
-			<Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
+			<div className="newshead" style={{fontSize:'25px'}}>
 			 Announcements
-			</Typography>
+			</div>
 			<marquee direction="up" height="100%" id="my_marquee">
 				<ul >
 					{

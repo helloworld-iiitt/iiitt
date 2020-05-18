@@ -1,7 +1,7 @@
 .v_marquee{
     
     min-width: 23% !important;
-    max-height: 50vh !important;
+    max-height: 55vh !important;
     
 }
 @media only screen and (max-width: 1400px){
