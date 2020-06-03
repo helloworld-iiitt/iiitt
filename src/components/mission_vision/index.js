@@ -31,7 +31,8 @@ export default function MissionVision() {
 
   return (
     <>
-    <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_desktop">
+
+<Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_desktop">
       <CardContent>
        
        
@@ -60,7 +61,8 @@ export default function MissionVision() {
       <CardActions id="learn_more">
         <Button size="small">Learn More about IIIT Trichy <ArrowForwardIcon /> </Button>
       </CardActions>
-    </Card > 
+    </Card >
+     
       <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_mobile">
       <CardContent>
        

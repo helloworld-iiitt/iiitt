@@ -49,14 +49,15 @@ export default class Navbar extends React.Component{
 
 
     render(){
-      const arr=[{text:'Institute',icon:'AccountBalanceIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'Academics',icon:'LocalLibraryIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'People',icon:'PeopleIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'Admission',icon:'NoteAddIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'Notification',icon:'NotificationImportantIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'Students',icon:'PersonIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'Campus Life',icon:'SchoolIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]},
-                  {text:'Virtual Academy',icon:'WebIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'},{text:'About IIITT',link:'/about'},{text:'Director',link:'/director'}]}];
+      const arr=[{text:'Institute',icon:'AccountBalanceIcon',submenu:[{text:'About IIITT',link:'/about'},{text:'Administration',link:'/administration'},{text:'BoG',link:'/bog'},{text:'Senate',link:'/senate'},{text:'FC',link:'/fc'},{text:'BwC',link:'bwc'},{text:'RTI',link:'/rti'},{text:'Industry Partners',link:'/industry_partners'}]},
+                  {text:'Academics',icon:'LocalLibraryIcon',submenu:[{text:'Programs',link:'/programs'},{text:'Departments',link:'/departments'},{text:'Curriculum',link:'/curriculum'},{text:'Calender',link:'/calender'},{text:'Holidays',link:'/holidays'}]},
+                  {text:'People',icon:'PeopleIcon',submenu:[{text:'Faculty',link:'/faculty'},{text:'Staff',link:'/staff'}]},
+                  {text:'Admission',icon:'NoteAddIcon',submenu:[{text:'Undergraduate',link:'/ugadmin'},{text:'Ph.D',link:'/phdadmin'}]},
+                  {text:'Notification',icon:'NotificationImportantIcon',submenu:[{text:'General',link:'/general'},{text:'Tenders',link:'/tenders'}]},
+                  {text:'Students',icon:'PersonIcon',submenu:[{text:'Undergraduate',link:'/undergraduate'},{text:"FAQ's",link:'/faq'}]},
+                  {text:'Campus Life',icon:'SchoolIcon',submenu:[{text:'Festivals',link:'/festivals'},{text:'Clubs',link:'/clubs'}]},
+                  {text:'Contact Us',icon:'SchoolIcon',submenu:[{text:'Contact Us',link:'/contactus'}]},
+                  {text:'Virtual Academy',icon:'WebIcon',submenu:[{text:'Virtual Learning Academy',link:'/vla'}]}];
         
         return(
         <div className="navbar">
