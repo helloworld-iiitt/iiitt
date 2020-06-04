@@ -4,6 +4,7 @@ import PaperCard from '../../components/papercard/index'
 import MainCarousel from '../../components/carousel/index';
 import MissionVision from '../../components/mission_vision/index'
 import Marquee from '../../components/marquee/index'
+import Footer from '../../components/footer/index'
 import Divider from '@material-ui/core/Divider';
 import news from '../../json/news.json';
 import './style.css'
@@ -46,9 +47,8 @@ document.getElementsByClassName('carousel-root')[0].style.zIndex='auto';
                 <PaperCard title="Events" items={news.data}/>
                 <PaperCard title="Notice" items={news.data}/>
             </div>
-                
-               
             </div>
+            <Footer/>
             </>
 
         );
