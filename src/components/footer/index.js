@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <footer class="footer">
                 <div >
-                    <p class='credits'>Copyright © by Web Devs Club, IIITT</p>
+                    <p class='credits'>&lt;/&gt; with &hearts; by Web Dev-IIITT</p>
                 </div>
             </footer>
         </div>
