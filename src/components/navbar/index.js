@@ -50,7 +50,8 @@ export default class Navbar extends React.Component{
 
 
     render(){
-      //For Icons get the name from https://material.io/resources/icons/?style=baseline  and then put out here
+      //Building from json/navbar_data.json file
+      //For Icons get the icon-name from https://material.io/resources/icons/?style=baseline  and then put out there
    
         
         return(
