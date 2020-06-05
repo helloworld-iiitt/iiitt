@@ -19,6 +19,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import MenuListComposition from './desktop-items';
 import TemporaryDrawer from './drawer';
+import navbar_data from '../../json/navbar_data.json';
 
 export default class Navbar extends React.Component{
 
@@ -49,15 +50,8 @@ export default class Navbar extends React.Component{
 
 
     render(){
-      const arr=[{text:'Institute',icon:'account_balance',submenu:[{text:'About IIITT',link:'/about'},{text:'Administration',link:'/administration'},{text:'BoG',link:'/bog'},{text:'Senate',link:'/senate'},{text:'FC',link:'/fc'},{text:'BwC',link:'bwc'},{text:'RTI',link:'/rti'},{text:'Industry Partners',link:'/industry_partners'}]},
-                  {text:'Academics',icon:'local_library',submenu:[{text:'Programs',link:'/programs'},{text:'Departments',link:'/departments'},{text:'Curriculum',link:'/curriculum'},{text:'Calender',link:'/calender'},{text:'Holidays',link:'/holidays'}]},
-                  {text:'People',icon:'people',submenu:[{text:'Faculty',link:'/faculty'},{text:'Staff',link:'/staff'}]},
-                  {text:'Admission',icon:'note_add',submenu:[{text:'Undergraduate',link:'/ugadmin'},{text:'Ph.D',link:'/phdadmin'}]},
-                  {text:'Notification',icon:'notification_important',submenu:[{text:'General',link:'/general'},{text:'Tenders',link:'/tenders'}]},
-                  {text:'Students',icon:'person',submenu:[{text:'Undergraduate',link:'/undergraduate'},{text:"FAQ's",link:'/faq'}]},
-                  {text:'Campus Life',icon:'school',submenu:[{text:'Festivals',link:'/festivals'},{text:'Clubs',link:'/clubs'}]},
-                  {text:'Contact Us',icon:'school',submenu:[{text:'Contact Us',link:'/contactus'}]},
-                  {text:'Virtual Academy',icon:'web',submenu:[{text:'Virtual Learning Academy',link:'/vla'}]}];
+      //For Icons get the name from https://material.io/resources/icons/?style=baseline  and then put out here
+   
         
         return(
         <div className="navbar">
@@ -67,7 +61,7 @@ export default class Navbar extends React.Component{
             <Toolbar id="mobile_navbar">
             
               {/*Navbar Mobile Icons Start here */}
-                <TemporaryDrawer items={arr}/>
+                <TemporaryDrawer items={navbar_data.data}/>
                 <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
                   IIIT TRICHY
                 </Typography>
@@ -79,7 +73,7 @@ export default class Navbar extends React.Component{
 
             <Toolbar id="desktop_menu">
               {/*Navbar @Desktop start here*/}
-            {arr.map(item=>(
+            {navbar_data.data.map(item=>(
             <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
             ))}
             {/*Navbar @Desktop Ends here */}
