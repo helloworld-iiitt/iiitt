@@ -149,7 +149,7 @@
           "icon":"web",
           "submenu":[
              {
-                "text":"Virtual Learning Academy",
+                "text":"VLA Home",
                 "link":"/vla"
              }
           ]
