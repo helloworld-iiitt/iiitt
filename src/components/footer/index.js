@@ -7,9 +7,9 @@ const Footer = () => {
 
     return(
         <div>
-            <footer class="footer">
+            <footer className="footer">
                 <div >
-                    <p class='credits'>&lt;/&gt; with &hearts; by Web Dev-IIITT</p>
+                    <p className='credits'>&lt;/&gt; with &hearts; by Web Dev-IIITT</p>
                 </div>
             </footer>
         </div>
