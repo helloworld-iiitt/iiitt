@@ -4,34 +4,15 @@ import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
-import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
-import PeopleIcon from '@material-ui/icons/People';
-import NoteAddIcon from '@material-ui/icons/NoteAdd';
-import NotificationImportantIcon from '@material-ui/icons/NotificationImportant';
-import PersonIcon from '@material-ui/icons/Person';
-import SchoolIcon from '@material-ui/icons/School';
-import WebIcon from '@material-ui/icons/Web';
 import Typography from '@material-ui/core/Typography';  
 import NestedList from './nestedlist.js'
 
-const Icons={
-    AccountBalanceIcon,
-    LocalLibraryIcon,
-    PeopleIcon,
-    NoteAddIcon,
-    NotificationImportantIcon,
-    PersonIcon,
-    SchoolIcon,
-    WebIcon
 
-}
 
 const useStyles = makeStyles({
   list: {
