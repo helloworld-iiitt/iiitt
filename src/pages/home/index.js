@@ -67,8 +67,9 @@ componentDidUpdate(){
                
                 <div className="only_on_mobile customeflex" id="info_mob">   
                 <PaperCard title="News" items={news.data}/>
-                <PaperCard title="Events" items={news.data}/>
                 <PaperCard title="Notice" items={news.data}/>
+                <PaperCard title="Events" items={news.data}/>
+                
             </div>
             </div>
             <Footer/>
