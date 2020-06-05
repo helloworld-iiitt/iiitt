@@ -20,6 +20,7 @@ import NotificationImportantIcon from '@material-ui/icons/NotificationImportant'
 import PersonIcon from '@material-ui/icons/Person';
 import SchoolIcon from '@material-ui/icons/School';
 import WebIcon from '@material-ui/icons/Web';
+import Icon from '@material-ui/core/Icon';
 import Typography from '@material-ui/core/Typography';  
 import { Link } from 'react-router-dom';
 
@@ -54,14 +55,14 @@ export default function NestedList(props) {
     setOpen(!open);
   };
 
-  let Icon = Icons[props.menu.icon];
+  //let Icon = Icons[props.menu.icon];
 
   return (
  
     <>
       <ListItem button onClick={handleClick}>
         <ListItemIcon>
-          <Icon />
+            <Icon >{props.menu.icon}</Icon>
         </ListItemIcon>
         <ListItemText primary={props.menu.text} />
         {open ? <ExpandLess /> : <ArrowForwardIosIcon style={{fontSize:'14px'}} />}
