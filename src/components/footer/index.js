@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
             <footer className="footer">
                 <div >
-                    <p className='credits'>&lt;/&gt; with <Icon id="favorite">favorite</Icon> by Web Dev-IIITT</p>
+                    <p className='credits'>&lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web Dev-IIITT</p>
                 </div>
             </footer>
         </div>
