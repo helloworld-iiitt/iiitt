@@ -36,10 +36,10 @@ export default function OutlinedCard(props) {
         <div className="newshead">
           {props.title}
         </div>
-        <ul> 
+        <ul className={props.title}> 
             {props.items&&props.items.map(item=>{
                 return(
-                   <li style={{marginBottom:'5px'}}> 
+                   <li style={{marginBottom:'15px'}} > 
                        <Link href={item.link}>{item.title}</Link>
                        <br/>
                        <Typography variant="caption" color="textSecondary" gutterBottom>

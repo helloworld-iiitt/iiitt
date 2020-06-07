@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from '@material-ui/core/Icon';
 import './style.css'
 import { css } from '@emotion/core';
 
@@ -7,9 +8,9 @@ const Footer = () => {
 
     return(
         <div>
-            <footer class="footer">
+            <footer className="footer">
                 <div >
-                    <p class='credits'>Copyright © by Web Devs Club, IIITT</p>
+                    <p className='credits'>&lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web Dev-IIITT</p>
                 </div>
             </footer>
         </div>

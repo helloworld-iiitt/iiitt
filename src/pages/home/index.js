@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Navbar from '../../components/navbar/index';
 import PaperCard from '../../components/papercard/index'
 import MainCarousel from '../../components/carousel/index';
@@ -38,15 +39,15 @@ document.getElementsByClassName('carousel-root')[0].style.zIndex='auto';
               <PaperCard title="Notice" items={news.data}/>
             </div>
             <div onMouseOver={this.enable_slide_control} className="only_on_mobile customeflex">
-              <MainCarousel images={[{'name':'IIIT Trichy','path':'orion.jpg'},{'name':'#Ha[.sh] \'19' ,'path':'hash.jpg'},{'name':'director','path':'003.jpeg'}]}/>
-              <MissionVision />
-              <Marquee/>
-              
-              <div className="only_on_mobile customeflex" id="info_mob">   
-                  <PaperCard title="News" items={news.data}/>
-                  <PaperCard title="Events" items={news.data}/>
-                  <PaperCard title="Notice" items={news.data}/>
-              </div>
+                <MainCarousel images={[{'name':'IIIT Trichy','path':'orion.jpg'},{'name':'#Ha[.sh] \'19' ,'path':'hash.jpg'},{'name':'director','path':'003.jpeg'}]}/>
+                <MissionVision />
+                <Marquee/>
+               
+                <div className="only_on_mobile customeflex" id="info_mob">   
+                <PaperCard title="News" items={news.data}/>
+                <PaperCard title="Notice" items={news.data}/>
+                <PaperCard title="Events" items={news.data}/>
+                
             </div>
             <Footer/>
             </>

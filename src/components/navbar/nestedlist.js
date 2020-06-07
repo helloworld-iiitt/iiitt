@@ -1,39 +1,15 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import ListSubheader from '@material-ui/core/ListSubheader';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Collapse from '@material-ui/core/Collapse';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
-import SendIcon from '@material-ui/icons/Send';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-import StarBorder from '@material-ui/icons/StarBorder';
-import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
-import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
-import PeopleIcon from '@material-ui/icons/People';
-import NoteAddIcon from '@material-ui/icons/NoteAdd';
-import NotificationImportantIcon from '@material-ui/icons/NotificationImportant';
-import PersonIcon from '@material-ui/icons/Person';
-import SchoolIcon from '@material-ui/icons/School';
-import WebIcon from '@material-ui/icons/Web';
-import Typography from '@material-ui/core/Typography';  
+import Icon from '@material-ui/core/Icon';
 import { Link } from 'react-router-dom';
 
-const Icons={
-    AccountBalanceIcon,
-    LocalLibraryIcon,
-    PeopleIcon,
-    NoteAddIcon,
-    NotificationImportantIcon,
-    PersonIcon,
-    SchoolIcon,
-    WebIcon
-
-}
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,14 +30,14 @@ export default function NestedList(props) {
     setOpen(!open);
   };
 
-  let Icon = Icons[props.menu.icon];
+  //let Icon = Icons[props.menu.icon];
 
   return (
  
     <>
       <ListItem button onClick={handleClick}>
         <ListItemIcon>
-          <Icon />
+            <Icon >{props.menu.icon}</Icon>
         </ListItemIcon>
         <ListItemText primary={props.menu.text} />
         {open ? <ExpandLess /> : <ArrowForwardIosIcon style={{fontSize:'14px'}} />}

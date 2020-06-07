@@ -1,5 +1,5 @@
 .footer {
-    margin-top: 20px;
+    margin-top: 50px;
     padding-bottom:1px;
     width: 100%;
     color:white;
@@ -13,4 +13,8 @@
     padding: 0px;
     margin: 2px;
     
-}    
+}   
+#favorite{
+    font-size: 20px;
+    line-height: 27.25px;
+} 

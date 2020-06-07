@@ -6,6 +6,7 @@ import './style.css'
 export default class MainCarousel extends Component {
 
 
+
     render() {
         return (
             <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} > 
