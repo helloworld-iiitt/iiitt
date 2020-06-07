@@ -47,7 +47,7 @@ document.getElementsByClassName('carousel-root')[0].style.zIndex='auto';
                 <PaperCard title="News" items={news.data}/>
                 <PaperCard title="Notice" items={news.data}/>
                 <PaperCard title="Events" items={news.data}/>
-                
+                </div>
             </div>
             <Footer/>
             </>
