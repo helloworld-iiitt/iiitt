@@ -11,7 +11,7 @@ export default function About() {
   return (
     <>
       <Navbar />
-      <Grid container spacing={4} style={{margin: '10px'}}>
+      <Grid container spacing={4} style={{width: "100%", padding: "35px"}}>
         <Grid item xs={12}>
           <Typography variant="h2" component="h2" style={{color: "#3f51b5"}}>
             About us
