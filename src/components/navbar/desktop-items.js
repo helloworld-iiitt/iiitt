@@ -29,8 +29,8 @@ export default function MenuListComposition(props) {
  
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
-    
-    document.getElementsByClassName('carousel-root')[0].style.zIndex=-10;
+    if (document.getElementsByClassName('carousel-root').length != 0)
+    	document.getElementsByClassName('carousel-root')[0].style.zIndex=-10;
     
   };
 
