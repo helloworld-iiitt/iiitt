@@ -89,7 +89,7 @@ export default class About extends React.Component {
               </Grid>
               <br />
               <Grid container xs={12} sm={4} alignItems="center" direction="row">
-                <img src="http://iiitt.ac.in/images/slide/8.jpg" width="95%" />
+                <img src={require("../../images/iiitt.jpg")} width="95%" />
               </Grid>
               </Grid>
             </Card>
