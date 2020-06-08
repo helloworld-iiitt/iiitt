@@ -3,8 +3,6 @@ import Navbar from '../../components/navbar/index'
 import MissionVision from '../../components/mission_vision/'
 import Footer from '../../components/footer/'
 import { Grid, Typography, Card, Divider, CardContent, Box, Link } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
-
 
 export default class About extends React.Component {
 
@@ -125,7 +123,7 @@ export default class About extends React.Component {
                 </Card >
               </Grid>
               <Grid container xs={12} sm={4} alignItems="center" direction="column">
-                <img src="http://iiitt.ac.in/images/iiitt-logo.png" width="60%" style={{marginTop: "1.2rem"}}/>
+                <img src={require('../../images/logo.png')} width="60%" style={{marginTop: "1.2rem"}}/>
               </Grid>
             </Grid>
         </div>
