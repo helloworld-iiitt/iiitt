@@ -20,6 +20,10 @@ function App() {
     loading: () =>loading ,
 });
 
+  const About = Loadable({
+    loader: () => import('./pages/about/index'),
+    loading: () => loading
+  });
 
   return (
     
@@ -30,6 +34,7 @@ function App() {
       <Switch>
 
       <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
       <Route  path="/*" component={Home}  />
 
       </Switch>
