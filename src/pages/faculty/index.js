@@ -20,7 +20,7 @@ export default function Faculty(props) {
   var branches = [];
   var grps = [];
   for (var grp in fac_data) {
-    grps.push(grp.toUpperCase());
+    grps.push(grp);
     var li = [];
     li.push(
       fac_data[`${grp}`].map((x) => {

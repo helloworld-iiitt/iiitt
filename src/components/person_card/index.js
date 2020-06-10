@@ -2,25 +2,28 @@ import React, { useState } from 'react';
 import { Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import './styles.css'
+const path = require('path')
+
+const useStyle = makeStyles({
+    show: {
+        cursor: "pointer",
+        fontSize: "0.8rem",
+        background: '#3f51b5',
+        padding: '0.2rem',
+        borderRadius: '5px',
+        color: 'white',
+        display: 'inline-block',
+        marginBottom: '0.2rem'
+    },
+    designation: {
+        color: '#424242',
+        fontSize: '1rem'
+    }
+});
 
 const PersonCard = (props) => {
     const [content,setContent] = useState(props.researchArea.slice(0,100));
-    const useStyle = makeStyles({
-        show: {
-            cursor: "pointer",
-            fontSize: "0.8rem",
-            background: '#3f51b5',
-            padding: '0.2rem',
-            borderRadius: '5px',
-            color: 'white',
-            display: 'inline-block',
-            marginBottom: '0.2rem'
-        },
-        designation: {
-            color: '#424242',
-            fontSize: '1rem'
-        }
-    });
+    
     const classes = useStyle();
 
     const showLess = (e)=>{
@@ -30,12 +33,13 @@ const PersonCard = (props) => {
     const showMore=(e)=>{
         setContent(props.researchArea);
     }
+    console.log(props.src);
 
     return (
         <>
-            <div className={`${classes.card} container`}>
+            <div className={`container`}>
                 <div className="pic">
-                    <img src={props.src} alt={props.name} className="image" />
+                    <img src={require(`../../images/${props.src}`)} alt={props.name} className="image" />
                 </div>
                 <div className="content">
                     <Typography variant="h5">
