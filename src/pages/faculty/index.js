@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./../../components/navbar/index";
 import PersonCard from "./../../components/person_card/index.js";
 import Footer from "./../../components/footer/index";
@@ -15,6 +15,16 @@ const useStyles = makeStyles({
 });
 
 export default function Faculty(props) {
+  useEffect(() => {
+    document.getElementsByTagName("title")[0].innerHTML = "Faculty";
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
+    };
+  }, []);
+
   const classes = useStyles();
 
   var branches = [];
