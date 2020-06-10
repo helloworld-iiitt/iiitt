@@ -1,69 +1,74 @@
-import React from 'react';
-import Navbar from './../../components/navbar/index';
-import PersonCard from './../../components/person_card/index.js';
-import Footer from './../../components/footer/index';
-import fac_data from '../../json/faculty.json';
-import { Grid, Typography } from '@material-ui/core';
+import React from "react";
+import Navbar from "./../../components/navbar/index";
+import PersonCard from "./../../components/person_card/index.js";
+import Footer from "./../../components/footer/index";
+import fac_data from "../../json/faculty.json";
+import { Grid, Typography } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+  grp: {
+    color: "#3f51b5",
+    marginTop: "0.5rem",
+    marginLeft: "1.3rem",
+  },
+});
 
 export default function Faculty(props) {
+  const classes = useStyles();
 
-    var groups = []
-    var grps = []
-    for(var grp in fac_data) {
-        grps.push(grp.toUpperCase())
-        var li = []
-        li.push(fac_data[`${grp}`].map( (x) => {
-            const { name, emailID, src, designation, researchArea } = x;
-            console.log(x)
+  var branches = [];
+  var grps = [];
+  for (var grp in fac_data) {
+    grps.push(grp.toUpperCase());
+    var li = [];
+    li.push(
+      fac_data[`${grp}`].map((x) => {
+        const { name, emailID, src, designation, researchArea } = x;
+        return (
+          <Grid item xs={12} md={6} lg={4}>
+            <PersonCard
+              name={name}
+              emailID={emailID}
+              src={src}
+              designation={designation}
+              researchArea={researchArea}
+            />
+          </Grid>
+        );
+      })
+    );
+    branches.push(li);
+  }
+
+  return (
+    <>
+      <Navbar />
+      <Grid container>
+        <Grid item xs={false} sm={1} />
+        <Grid container item xs={12} sm={10}>
+          {branches.map((x, ind) => {
             return (
-                <Grid item xs={12} sm={4}>
-                    <PersonCard
-                        name={name} 
-                        emailID={emailID} 
-                        src={src} 
-                        designation={designation} 
-                        researchArea={researchArea}
-                    />
+              <>
+                <Grid item sm={12}>
+                  <Typography
+                    variant="h3"
+                    component="h3"
+                    className={classes.grp}
+                  >
+                    {grps[ind]}
+                  </Typography>
                 </Grid>
-            )
-        }));
-        groups.push(li)
-    }
-
-    return (
-        <>
-            <Navbar />
-            <Grid container>
-                <Grid item xs={false} sm={1} />
-                <Grid container item xs={12} sm={10}>
-                    {
-                        groups.map((x,ind) => {
-                            return (
-                                <>
-                                    <Grid item sm={12}>
-                                        <Typography variant="h3" component="h3">
-                                            {grps[ind]}
-                                        </Typography>
-                                    </Grid>
-                                    <Grid container item spacing={1} style={{margin: "0.5rem"}}>
-                                    {x}
-                                </Grid>
-                                </>
-                            )
-                        })
-                    }
-                    {groups[0]}
-                    <Grid item sm={12}>
-                        <Typography variant="h2" component="h2">
-                            ECE
-                        </Typography>
-                    </Grid>
-                    {groups[1]}
+                <Grid container item spacing={1} style={{ margin: "0.5rem" }}>
+                  {x}
                 </Grid>
-                <Grid item xs={false} sm={1} />
-            </Grid>
-            <Footer />
-        </>
-    )
-
+              </>
+            );
+          })}
+        </Grid>
+        <Grid item xs={false} sm={1} />
+      </Grid>
+      <Footer />
+    </>
+  );
 }
