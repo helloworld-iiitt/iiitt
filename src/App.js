@@ -25,6 +25,11 @@ function App() {
     loading: () => loading
   });
 
+  const Faculty = Loadable({
+      loader: () => import('./pages/faculty/index'),
+      loading: () => loading
+  })
+
   return (
     
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
@@ -35,7 +40,8 @@ function App() {
 
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
-      <Route  path="/*" component={Home}  />
+      <Route path="/faculty" component={Faculty} />
+      <Route path="/*" component={Home}  />
 
       </Switch>
    
