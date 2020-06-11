@@ -41,6 +41,7 @@ export default function Faculty(props) {
               name={name}
               emailID={emailID}
               src={src}
+	      src_type='faculty'
               designation={designation}
               researchArea={researchArea}
             />
