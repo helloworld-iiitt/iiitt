@@ -37,6 +37,7 @@ display: none !important;
     padding-bottom: 0px !important;
 }
 .nav_routes {
+width: 100%;
 text-decoration: none ;
 color:#000;
 opacity:0.9;
