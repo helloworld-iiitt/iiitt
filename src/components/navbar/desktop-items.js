@@ -26,12 +26,12 @@ export default function MenuListComposition(props) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
- 
+
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
     if (document.getElementsByClassName('carousel-root').length != 0)
     	document.getElementsByClassName('carousel-root')[0].style.zIndex=-10;
-    
+
   };
 
   const handleClose = (event) => {
@@ -61,8 +61,8 @@ export default function MenuListComposition(props) {
 
   return (
     <div className={classes.root}>
-  
-      
+
+
         <Button
           ref={anchorRef}
           aria-controls={open ? 'menu-list-grow' : undefined}
@@ -71,13 +71,13 @@ export default function MenuListComposition(props) {
           onMouseEnter={handleToggle}
           onMouseLeave={handleToggle}
           className="navlink_button"
-        
+
         >
             <Typography variant="button" >
                     {props.nav_head}
             </Typography>
         </Button>
-        <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal onMouseEnter={handleToggle} onMouseLeave={handleToggle} style={{zIndex:'10'}}> 
+        <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal onMouseEnter={handleToggle} onMouseLeave={handleToggle} style={{zIndex:'10'}}>
           {({ TransitionProps, placement }) => (
             <Grow
               {...TransitionProps}
@@ -91,15 +91,15 @@ export default function MenuListComposition(props) {
                       <MenuItem onClick={handleClose}> <Link to={item.link} draggable="false" className="nav_routes">{item.text}</Link></MenuItem>
                       )
                     })}
-                    
-                    
+
+
                   </MenuList>
                 </ClickAwayListener>
               </Paper>
             </Grow>
           )}
         </Popper>
-      
+
     </div>
   );
 }
