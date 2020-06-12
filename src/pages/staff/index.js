@@ -60,6 +60,7 @@ export default function Staff() {
 	</Grid>
 	<Grid item xs={false} sm={1} />
       </Grid>
+	  <div style={{height:'90px'}}></div>
       <Footer />
     </>
   );
