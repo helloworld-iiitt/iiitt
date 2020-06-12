@@ -74,7 +74,7 @@ export default class Navbar extends React.Component{
 
             <Toolbar id="desktop_menu">
               {/*Navbar @Desktop start here*/}
-	      { <HomeIcon /> }
+	      { <HomeIcon color="white"/> }
             {navbar_data.data.map(item=>(
             <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
             ))}

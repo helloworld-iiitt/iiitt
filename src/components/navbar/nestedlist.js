@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 export default function NestedList(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  
+
   const handleClick = () => {
     setOpen(!open);
   };
@@ -33,7 +33,7 @@ export default function NestedList(props) {
   //let Icon = Icons[props.menu.icon];
 
   return (
- 
+
     <>
       <ListItem button onClick={handleClick}>
         <ListItemIcon>
@@ -53,7 +53,7 @@ export default function NestedList(props) {
              </ListItem>
            </List>)
         })}
-       
+
       </Collapse>
     </>
   );
