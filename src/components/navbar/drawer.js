@@ -56,7 +56,7 @@ export default function TemporaryDrawer(props) {
 	  <Link to='/' className='nav_routes'>
 	      <ListItem button>
 		  <ListItemIcon>
-		    <HomeIcon color='rgba(0,0,0,0.54)' nopadding={true}/>
+		    <HomeIcon color='rgba(0,0,0,0.54)' nopadding/>
 		  </ListItemIcon>
 		  <ListItemText primary='Home' />
 	      </ListItem>
