@@ -9,7 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import Typography from '@material-ui/core/Typography';  
+import Typography from '@material-ui/core/Typography';
 import NestedList from './nestedlist.js'
 
 
@@ -49,19 +49,20 @@ export default function TemporaryDrawer(props) {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
+	<div>OIOIOIOI</div>
         {props.items.map((menu_item, index) => {
            return (
            <NestedList menu={menu_item} toggleDrawer={toggleDrawer} anchor={anchor} />
         )})}
       </List>
       <Divider />
-     
+
     </div>
   );
 
   return (
     <div>
-      
+
         <React.Fragment >
             <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" id="mobile_navigation" onClick={toggleDrawer('left', true)}>
                 <MenuIcon onClick={toggleDrawer('left', true)}/>
@@ -79,7 +80,7 @@ export default function TemporaryDrawer(props) {
             {list('left')}
           </Drawer>
         </React.Fragment>
-      
+
     </div>
   );
 }

@@ -1,0 +1,107 @@
+{
+  "CSE": [
+    {
+      "name": "Dr. R. Dhanalakshmi",
+      "designation": "Associate Professor",
+      "researchArea": "Computer Networks, Combinatorial Optimization Techniques, Data Analytics",
+      "emailID": "dhanalakshmir@iiitt.ac.in",
+      "src": "cse_fac_1.jpg"
+    },
+    {
+      "name": "Dr. N. Renugadevi",
+      "designation": "Assistant Professor",
+      "researchArea": "Wireless Networks, Security and Cryptography, Cognitive Radio Networks",
+      "emailID": "renugadevin@iiitt.ac.in",
+      "src": "cse_fac_2.jpg"
+    },
+    {
+      "name": "Dr. G. Devasena",
+      "designation": "Assistant Professor",
+      "researchArea": "Image Processing, Video Processing, Machine Learning and Deep Learning ",
+      "emailID": "devasenag@iiitt.ac.in",
+      "src": "cse_fac_3.jpg"
+    },
+    {
+      "name": "Dr. Anoop Jacob Thomas",
+      "designation": "Assistant Professor",
+      "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, AlgorithmsProcessing, Algorithms ",
+      "emailID": "anoopjt@iiitt.ac.in",
+      "src": "cse_fac_4.jpg"
+    }
+  ],
+  "ECE": [
+    {
+      "name": "Dr. G. Seetharaman",
+      "designation": "Associate Professor",
+      "researchArea": "ASIC and FPGA Based Design",
+      "emailID": "gsraman@iiitt.ac.in",
+      "src": "ece_fac_1.jpg"
+    },
+    {
+      "name": "Dr. R. Krishnamurthy",
+      "designation": "Assistant Professor",
+      "researchArea": "Optical Networks and Wireless Communication",
+      "emailID": "krishnamurthyr@iiitt.ac.in",
+      "src": "ece_fac_2.jpg"
+    },
+    {
+      "name": "Dr. M. Senthil Sivakumar",
+      "designation": "Assistant Professor",
+      "researchArea": "VLSI Design",
+      "emailID": "msenthilsivakumar@iiitt.ac.in",
+      "src": "ece_fac_3.jpg"
+    },
+    {
+      "name": "Dr. Suresh Balanethiram",
+      "designation": "Assistant Professor",
+      "researchArea": "Optical Networks and Wireless Communication",
+      "emailID": "sureshb@iiitt.ac.in",
+      "src": "ece_fac_4.jpg"
+    }
+  ],
+  "ME": [
+    {
+      "name": "Dr. Velmurugan C",
+      "designation": "Assistant Professor",
+      "researchArea": "Shape Memory Alloys, Advanced Manufacturing Processes, Modelling and Simulation and Smart Materials",
+      "emailID": "velmuruganc@iiitt.ac.in",
+      "src": "mech_fac_1.jpg"
+    }
+  ],
+  "Mathematics": [
+    {
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Assistant Professor",
+      "researchArea": "Computational Fluid Dynamics",
+      "emailID": "jagadeeshwarp@iiitt.ac.in",
+      "src": "math_fac_1.jpg"
+    }
+  ],
+  "Economics": [
+    {
+      "name": "Dr. Rinshu",
+      "designation": "Assistant Professor",
+      "researchArea": "Health Economics, Health Technology Assessment, Development Economics",
+      "emailID": "rinshud@iiitt.ac.in",
+      "src": "eco_fac_1.jpg"
+    }
+  ],
+  "Physics": [
+    {
+      "name": "Dr. Kamakshi K",
+      "designation": "Assistant Professor",
+      "researchArea": "Photonics and Optoelectronic Devices",
+      "emailID": "kamakshi@iiitt.ac.in",
+      "src": "phy_fac_1.jpg"
+    }
+  ],
+  "English": [
+    {
+      "name": "Dr. V. Sindhu",
+      "designation": "Assistant Professor",
+      "researchArea": "English Language Teaching, Applied Linguistics",
+      "emailID": "sindhuv@iiitt.ac.in",
+      "src": "eng_fac_1.jpg"
+    }
+  ]
+}
