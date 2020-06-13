@@ -24,6 +24,10 @@ function App() {
     loader: () => import('./pages/about/index'),
     loading: () => loading
   });
+  const BoG = Loadable({
+    loader: () => import('./pages/bog/index'),
+    loading: () => loading
+  });
 
   return (
     
@@ -35,6 +39,7 @@ function App() {
 
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/bog" component={BoG} />
       <Route  path="/*" component={Home}  />
 
       </Switch>
