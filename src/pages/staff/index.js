@@ -37,7 +37,7 @@ export default function Staff() {
 	    <Typography variant="h2" gutterBottom className={classes.title}>
 	      Office staff
 	    </Typography>
-	  </Grid>>
+	  </Grid>
 	  {
 	    staff_data.map( staff => {
 	      const { name, designation, emailID, src } = staff

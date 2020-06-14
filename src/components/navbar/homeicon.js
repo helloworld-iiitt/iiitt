@@ -4,22 +4,29 @@ import { makeStyles } from '@material-ui/core/styles'
 import { Link, useLocation } from 'react-router-dom'
 import { Button } from '@material-ui/core'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   icon: {
-    color: "white"
+    color: props => `${props.color}`,
+    paddingLeft: props => !props.nopadding && `100`
   }
-}))
-export default function HomeIcon() {
-  const classes = useStyles()
+})
+
+
+export default function HomeIcon(props) {
+  const classes = useStyles(props)
   const location = useLocation().pathname
   return (
     <>
       {
 	(location !== '/') &&
 	  <Link to='/' draggable="false" id="home_button">
-      <Button >
-	      <HomeRoundedIcon className={classes.icon}/>
-      </Button> 
+	    {
+	      !props["nopadding"] ?
+	      <Button >
+		    <HomeRoundedIcon className={classes.icon}/>
+	      </Button> :
+	      <HomeRoundedIcon className={classes.icon} />
+	    }
 	  </Link>
       }
     </>

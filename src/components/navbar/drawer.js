@@ -11,7 +11,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import NestedList from './nestedlist.js'
-
+import HomeIcon from './homeicon'
+import { Link, useLocation } from 'react-router-dom'
 
 
 const useStyles = makeStyles({
@@ -24,6 +25,7 @@ const useStyles = makeStyles({
 });
 
 export default function TemporaryDrawer(props) {
+  const location = useLocation().pathname
   const classes = useStyles();
   const [state, setState] = React.useState({
     top: false,
@@ -49,7 +51,17 @@ export default function TemporaryDrawer(props) {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-	<div>OIOIOIOI</div>
+	{
+	  (location !== '/') &&
+	  <Link to='/' className='nav_routes'>
+	      <ListItem button>
+		  <ListItemIcon>
+		    <HomeIcon color='rgba(0,0,0,0.54)' nopadding/>
+		  </ListItemIcon>
+		  <ListItemText primary='Home' />
+	      </ListItem>
+	    </Link>
+	}
         {props.items.map((menu_item, index) => {
            return (
            <NestedList menu={menu_item} toggleDrawer={toggleDrawer} anchor={anchor} />
