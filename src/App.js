@@ -3,6 +3,8 @@ import Loadable from "react-loadable";
 import { css } from "@emotion/core";
 import { ScaleLoader } from "react-spinners";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import PageNotFound from './pages/pagenotfound/index'
+
 const override = css`
   display: inline;
   margin-top: 0 auto;
@@ -61,7 +63,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
-        <Route path="/*" component={Home} />
+        <Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
   );
