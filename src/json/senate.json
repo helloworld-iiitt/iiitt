@@ -1,0 +1,132 @@
+{
+    "data":[
+
+        {
+            "s.no":"1",
+            "name":"Dr. NVSN Sarma",
+            "designation":"Director, IIITT",
+            "senate":"Chairman"
+        },
+        {
+            "s.no":"2",
+            "name":	"Dr. Mini Shaji Thomas",
+            "designation":"Director, NITT",
+            "senate":"Special Invitee"
+        },
+        {
+            "s.no":"3",
+            "name":"Dr. N. Kumaresan",
+            "designation":"Professor of EEE -NITT",
+            "senate":"Special Invitee"
+        },
+        {
+            "s.no":"4",
+            "name":"Dr. P. Raja",
+            "designation":"Associate Professor of EEE- NITT",
+            "senate":"Special Invitee"
+        },
+        {
+            "s.no":"5",
+            "name":"Dr. J. Jerald",
+            "designation":"Associate Professor of Production Engg- NITT",
+            "senate":"Special Invitee"
+        },
+        {
+            "s.no":"6",
+            "name":"Dr. Rajeshwari Sridhar",
+            "designation":"Head, CSE, NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"7",
+            "name":"Dr. Lakshminarayanan",
+            "designation":"Head, ECE, NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"8",
+            "name":"Dr. R. Joseph Ponniah",
+            "designation":"Head, Humanities Dept. NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"9",
+            "name":"Dr. P. Saikrishnan",
+            "designation":"Head, Mathematics , NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"10",
+            "name":"Dr. Hemalatha",
+            "designation":"Head, Physics, NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"11",
+            "name":"Dr. S. Anandan",
+            "designation":"Head, Chemistry, NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"12",
+            "name":"Dr. M. S. Bhat",
+            "designation":"Professor of ECE -NIT Suratkal",
+            "senate":"Member"
+        },
+        {
+            "s.no":"13",
+            "name":"Dr. P. Uma Maheswari",
+            "designation":"Professor, ECE, Anna University",
+            "senate":"Member"
+        },
+        {
+            "s.no":"14",
+            "name":"Dr. Janakiraman",
+            "designation":"Professor, CSE, IITM Chennai",
+            "senate":"Member"
+        },
+        {
+            "s.no":"15",
+            "name":"Dr. Devendra Jalihal",
+            "designation":"Professor of EE IIIM, Chennai",
+            "senate":"Member"
+        },
+        {
+            "s.no":"16",
+            "name":"Prof. Banshidhar Majhi",
+            "designation":"Director, IIITDM Kancheepuram",
+            "senate":"Member"
+        },
+        {
+            "s.no":"17",
+            "name":"Dr. Leela Velusamy",
+            "designation":"Professor, Dept. of CSE, NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"18",
+            "name":"Dr. D. Sriramkumar",
+            "designation":"Professor, Dept. of ECE, NITT",
+            "senate":"Member"
+        },
+        {
+            "s.no":"19",
+            "name":"Shri. Vasu Uppli",
+            "designation":"Business Head, TCS",
+            "senate":"Member"
+        },
+        {
+            "s.no":"20",
+            "name":"Shri. Balaji Sethuraman",
+            "designation":"Asst. Vice President Global Delivery – Automation Leader",
+            "senate":"Member"
+        },
+        {
+            "s.no":"21",
+            "name":"Ms. Symala Natarajan",
+            "designation":"Shyamala Jayaraman Senior Vice President Ramco Systems,Chennai",
+            "senate":"Member"
+        }
+
+    ]
+}
