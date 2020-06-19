@@ -47,6 +47,11 @@ function App() {
     loading: () => loading,
   });
 
+  const AdmissionProcedure = Loadable({
+    loader: () => import("./pages/admissionprocedure/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -63,6 +68,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
+	      <Route path="/admission_procedure" component={AdmissionProcedure} />
         <Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
