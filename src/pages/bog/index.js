@@ -13,6 +13,22 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { Typography } from '@material-ui/core';
 
+const useStyles = makeStyles({
+    table: {
+      minWidth: 650,
+    },
+  });
+  
+  function createData(sno, name, designation) {
+    return { sno, name, designation };
+  }
+  
+  const rows = [
+    createData('1', 'hello', '123'),
+    
+  ];
+
+  const classes = useStyles();
 
 export default class BoG extends React.Component{
     
@@ -31,8 +47,29 @@ export default class BoG extends React.Component{
         return(
             <>
             <Navbar />
+
             <Typography class="title">Board of Governors (BoG)</Typography>
-            <Typography class="title">Hello World</Typography>
+
+            <TableContainer component={Paper}>
+                <Table className={classes.table} aria-label="simple table">
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>S.no</TableCell>
+                            <TableCell align="right">Name</TableCell>
+                            <TableCell align="right">Designation</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>{rows.map((row) => (
+                        <TableRow key={row.name}>
+                        <TableCell component="th" scope="row">{row.sno}</TableCell>
+                        <TableCell align="right">{row.name}</TableCell>
+                        <TableCell align="right">{row.designation}</TableCell>
+                        </TableRow>
+                    ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+            
             <Footer />
             </>
 
