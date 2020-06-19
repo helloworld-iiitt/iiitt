@@ -4,6 +4,7 @@ import { css } from "@emotion/core";
 import { ScaleLoader } from "react-spinners";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import PageNotFound from './pages/pagenotfound/index'
+import BoG from "./pages/bog";
 
 const override = css`
   display: inline;
@@ -36,6 +37,10 @@ function App() {
     loader: () => import("./pages/about/index"),
     loading: () => loading,
   });
+  const BoG = Loadable({
+    loader: () => import("./pages/bog/index"),
+    loading: () => loading,
+  });
 
   const Faculty = Loadable({
     loader: () => import("./pages/faculty/index"),
@@ -61,6 +66,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/bog" component={BoG} />
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
         <Route path="/*" component={PageNotFound} />
