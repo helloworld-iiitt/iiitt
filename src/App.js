@@ -52,6 +52,11 @@ function App() {
     loading: () => loading,
   });
 
+  const AdmissionFeeStructure = Loadable({
+    loader: () => import("./pages/admissionfeestructure/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -69,6 +74,7 @@ function App() {
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
 	      <Route path="/admission_procedure" component={AdmissionProcedure} />
+	      <Route path="/admission_fee_structure" component={AdmissionFeeStructure} />
         <Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
