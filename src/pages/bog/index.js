@@ -10,6 +10,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import './style.css'
 import { Typography, Card } from '@material-ui/core';
  
 export default class BoG extends React.Component{
@@ -34,19 +35,18 @@ export default class BoG extends React.Component{
             <Typography variant="h4" style={{color: "#000000", paddingBottom: "1.5rem",display:"flex", justifyContent:"center"}}>Members of Board of Governors (BoG)</Typography>
             
             <div >
-            <table id="customers" style={{color: "#000000", width:"100%",borderCollapse:"collapse",paddingBottom: "1.5rem", justifyContent:"center" }}>
-                <tr>
-                  <th className="th">S.no</th>
-                  <th className="th">Name</th>
-                  <th className="th">Designation</th>
-                </tr>
-                <tr style={{alignItems:"center"}}>
-                  <td className="td">abc</td>
-                  <td className="td">xyz</td>
-                  <td className="td">mno</td>
-                </tr>
-                
-              </table>
+            <table className="table">
+              <tr className="tr">
+                <th className="th">Company</th>
+                <th className="th">Contact</th>
+                <th className="th">Country</th>
+              </tr>
+              <tr>
+                <td items="bog_members"/>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+            </table>
 
             </div>
 
