@@ -12,6 +12,6 @@
     grid-area: span;
 }
 
-table > tr > td {
+table.table > tr.centered > td {
     text-align: center;
 }

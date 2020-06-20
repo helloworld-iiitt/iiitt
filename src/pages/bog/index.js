@@ -41,7 +41,7 @@ export default class BoG extends React.Component{
                 <th className="th">Contact</th>
                 <th className="th">Country</th>
               </tr>
-              <tr>
+              <tr className="centered">
                 <td items="bog_members"/>
                 <td>Maria Anders</td>
                 <td>Germany</td>
