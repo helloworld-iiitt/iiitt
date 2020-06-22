@@ -39,25 +39,25 @@ export default class PageNotFound extends React.Component {
   render() {
     return (
       <>
-	<Navbar />
-	<Grid container>
-	  <Grid item xs={false} sm={1} />
-	  <Grid container item xs={12} sm={10} style={{display: "flex", justifyContent: "center"}}>
-	    <Grid item xs={12} align="center" style={{margin: "2rem"}}>
-	      <img src={require('../../images/pagenotfound.png')} alt="notfound"/>
-	      {
-		this.state.redirect && <Redirect to='/' />
-	      }
-	    </Grid>
-	    <Grid item xs={12} >
-	      <Typography variant="h4" align="center" gutterBottom>
-		Redirecting you to home page in {this.state.time} seconds
-	      </Typography>
-	    </Grid>
-	  </Grid>
-	  <Grid item xs={false} sm={1} />
-	</Grid>
-	<Footer />
+        <Navbar />
+        <Grid container>
+          <Grid item xs={false} sm={1} />
+          <Grid container item xs={12} sm={10} style={{display: "flex", justifyContent: "center"}}>
+            <Grid item xs={12} align="center" style={{margin: "2rem"}}>
+              <img src={require('../../images/pagenotfound.png')} alt="notfound"/>
+              {
+          this.state.redirect && <Redirect to='/' />
+              }
+            </Grid>
+            <Grid item xs={12} >
+              <Typography variant="h4" align="center" gutterBottom>
+          Redirecting you to home page in {this.state.time} seconds
+              </Typography>
+            </Grid>
+          </Grid>
+          <Grid item xs={false} sm={1} />
+        </Grid>
+        <Footer />
       </>
     )
   }

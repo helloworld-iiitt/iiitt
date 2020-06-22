@@ -83,13 +83,26 @@
           "icon":"note_add",
           "submenu":[
              {
-                "text":"Undergraduate",
-                "link":"/ugadmin"
+                "text":"Admission Procedure",
+                "link":"/admission_procedure"
+             },
+             
+             {
+                "text":"Fee Structure",
+                "link":"/admission_fee_structure"
              },
              {
-                "text":"Ph.D",
-                "link":"/phdadmin"
-             }
+               "text":"Admission Forms",
+               "link":"/admission_forms"
+            },
+            {
+                "text":"Anti Ragging Committee",
+                "link":"/anti_ragging_committee"
+            },
+            {
+                "text":"Contact",
+                "link":"/admission_contact"
+            }
           ]
        },
        {
@@ -156,4 +169,4 @@
        }
     ]
  }
- 
+

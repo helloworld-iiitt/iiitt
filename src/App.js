@@ -47,6 +47,31 @@ function App() {
     loading: () => loading,
   });
 
+  const AdmissionProcedure = Loadable({
+    loader: () => import("./pages/admissionprocedure/index"),
+    loading: () => loading,
+  });
+
+  const AdmissionFeeStructure = Loadable({
+    loader: () => import("./pages/admissionfeestructure/index"),
+    loading: () => loading,
+  });
+
+  const AdmissionForms = Loadable({
+    loader: () => import("./pages/admissionforms/index"),
+    loading: () => loading,
+  });
+
+  const AntiRagging = Loadable({
+    loader: () => import("./pages/antiragging/index.js"),
+    loading: () => loading,
+  });
+
+  const AdmissionContact = Loadable({
+    loader: () => import("./pages/admissioncontact/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -63,6 +88,11 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
+	      <Route path="/admission_procedure" component={AdmissionProcedure} />
+	      <Route path="/admission_fee_structure" component={AdmissionFeeStructure} />
+	      <Route path="/admission_forms" component={AdmissionForms} />
+	      <Route path="/anti_ragging_committee" component={AntiRagging} />
+	      <Route path="/admission_contact" component={AdmissionContact} />
         <Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
