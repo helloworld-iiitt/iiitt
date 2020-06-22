@@ -10,6 +10,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import bog_members from '../../json/bog_members.json';
 import './style.css'
 import { Typography, Card } from '@material-ui/core';
  
@@ -31,18 +32,23 @@ export default class BoG extends React.Component{
             <Navbar />
             <div style={{width: "100%", padding: "35px"}}>
             <Typography variant="h2" component="h2" style={{color: "#3f51b5", paddingBottom: "1.5rem"}}>Board of Governors (BoG)</Typography>
-            <Card variant="outlined">
+            <Card variant="outlined" >
             <Typography variant="h4" style={{color: "#000000", paddingBottom: "1.5rem",display:"flex", justifyContent:"center"}}>Members of Board of Governors (BoG)</Typography>
             
             <div >
             <table className="table">
               <tr className="tr">
-                <th className="th">Company</th>
-                <th className="th">Contact</th>
-                <th className="th">Country</th>
+                <th className="th" >S.no</th>
+                <th className="th" >Name</th>
+                <th className="th" >Designation</th>
               </tr>
               <tr className="centered">
-                <td items="bog_members"/>
+                <td>Maria Anders</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr className="centered">
+                <td>Maria Anders</td>
                 <td>Maria Anders</td>
                 <td>Germany</td>
               </tr>
