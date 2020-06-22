@@ -86,18 +86,23 @@
                 "text":"Admission Procedure",
                 "link":"/admission_procedure"
              },
+             
              {
                 "text":"Fee Structure",
                 "link":"/admission_fee_structure"
              },
-	     {
+             {
+               "text":"Admission Forms",
+               "link":"/admission_forms"
+            },
+            {
                 "text":"Anti Ragging Committee",
-                "link":"/admission_fee_structure"
-	     },
-	     {
+                "link":"/anti_ragging_committee"
+            },
+            {
                 "text":"Contact",
                 "link":"/admission_contact"
-             }
+            }
           ]
        },
        {

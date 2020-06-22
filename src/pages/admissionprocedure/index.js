@@ -11,10 +11,8 @@ const createStyles = makeStyles({
   themeText: {
     color: "#3f51b5",
   }, 
-  paper: {
-    padding: "0.7rem",
-  },
   link: {
+    textDecoration: "none",
     display: "inline-block",
     paddingTop: "1rem",
     fontWeight: "500",
@@ -70,7 +68,7 @@ export default function AdmissionProcedure() {
                   For the candidates to qualify for the admission in the IITs/NITs/IIITs and such other CFTIs whose admissions are based on the JEE (Advanced)/JEE(Main) ranks, they should have secured at least 75% marks in the 12th class examination, or be in the top 20 percentile in the 12th class examination conducted by the respective Boards. For SC/ST students the qualifying marks would be 65% in the 12th class examination.
                 </li>
               </ol>
-              <center><a href="https://jeemain.nic.in" className={`${classes.themeText} ${classes.link} nav_routes`}>Visit website of JEE Main</a></center>
+              <center><a href="https://jeemain.nic.in" className={`${classes.themeText} ${classes.link}`}>Visit website of JEE Main</a></center>
             </Box>
           </section>
           <section className={classes.sectionPadding}>
@@ -85,8 +83,8 @@ export default function AdmissionProcedure() {
                   The Joint Seat Allocation Authority (JoSAA) 2019 has been set up by the Ministry of Human Resources Development (MHRD) to manage and regulate the joint seat allocation for admissions to 97 institutes for the academic year 2019-20. This includes 23 IITs, 31 NITs, 23 IIITs and 20 Other-Government Funded Technical Institutes (Other-GFTIs). Admission to all the academic programs offered by these Institutes will be made through a single platform.   
                 </Box>
               </Typography>
-              <center><a href="https://josaa.nic.in" className={`${classes.themeText} ${classes.link} nav_routes`}>Visit website of JoSAA</a></center>
-              <center><a href="https://josaa.nic.in" className={`${classes.themeText} ${classes.link} nav_routes`}>View IIIT Trichy on JoSAA</a></center>
+              <center><a href="https://josaa.nic.in" className={`${classes.themeText} ${classes.link}`}>Visit website of JoSAA</a></center>
+              <center><a href="https://josaa.nic.in" className={`${classes.themeText} ${classes.link}`}>View IIIT Trichy on JoSAA</a></center>
             </Box>
           </section>
           <Grid container>
