@@ -14,8 +14,7 @@
     "react-responsive-carousel": "^3.2.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-spinners": "^0.8.3",
-    "reactjs-pdf-reader": "^1.0.12"
+    "react-spinners": "^0.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
