@@ -1,13 +1,11 @@
 .table{
     width: 100%;
-    padding: 10px;
-    
+   
 }
 .tr{
     width: 100%;
     align-items: center;
     justify-content: center;
-    border: 1px solid black ;
 }
 tr:nth-child(even){
     background-color: #f2f2f2;
@@ -15,7 +13,6 @@ tr:nth-child(even){
 .th{
     align-items: center;
     grid-area: span;
-    border: 1px solid black ;
     color:#ffffff;
     padding: 15px;
     background-color: #3f51b5;
@@ -24,7 +21,6 @@ td{
     align-items: center;
     grid-area: span;
     padding: 5px;
-    border: 1px solid black ;
 }
 
 table.table > tr.centered > td {

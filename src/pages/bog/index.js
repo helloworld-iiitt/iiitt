@@ -34,46 +34,24 @@ export default class BoG extends React.Component{
             <Typography variant="h2" component="h2" style={{color: "#3f51b5", paddingBottom: "1.5rem"}}>Board of Governors (BoG)</Typography>
             <Card variant="outlined" >
             <Typography variant="h4" style={{color: "#000000", paddingBottom: "1.5rem",display:"flex", justifyContent:"center"}}>Members of Board of Governors (BoG)</Typography>
-            
-            //option 1 
-            <div>
-              <table className="table">
-              <tr className="centered" items={bog_members.data}>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr className="tr">
-                <td items={bog_members.sno}/>
-                <td items={bog_members.name}/>
-                <td items={bog_members.designation}/>
-              </tr>
-              </table>
-            </div>
 
-          //option 2 
           <div >
-            {bog_members.map((members, index) => {
+            <table border={0}>
+              <tr className="tr">
+                <th className="th" >S.no</th>
+                <th className="th" >Name</th>
+                <th className="th" >Designation</th>
+              </tr>
+              {bog_members.data.map(member => {
                 return (
-                  <table className="table">
-                    <tr className="tr">
-                      <th className="th" >S.no</th>
-                      <th className="th" >Name</th>
-                      <th className="th" >Designation</th>
-                    </tr>
-                    <tr className="centered">
-                      <td>Maria Anders</td>
-                      <td>Maria Anders</td>
-                      <td>Germany</td>
-                    </tr>
-                    <tr className="centered">
-                      <td>Maria Anders</td>
-                      <td>Maria Anders</td>
-                      <td>Germany</td>
-                    </tr>
-                  </table>
+                  <tr className="centered">
+                    <td>{member.sno}</td>
+                    <td>{member.name}</td>
+                    <td>{member.designation}</td>
+                  </tr>
                 )
               })}
+            </table>
           </div>
 
             </Card>
