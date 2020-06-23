@@ -35,26 +35,46 @@ export default class BoG extends React.Component{
             <Card variant="outlined" >
             <Typography variant="h4" style={{color: "#000000", paddingBottom: "1.5rem",display:"flex", justifyContent:"center"}}>Members of Board of Governors (BoG)</Typography>
             
-            <div >
-            <table className="table">
+            //option 1 
+            <div>
+              <table className="table">
+              <tr className="centered" items={bog_members.data}>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
               <tr className="tr">
-                <th className="th" >S.no</th>
-                <th className="th" >Name</th>
-                <th className="th" >Designation</th>
+                <td items={bog_members.sno}/>
+                <td items={bog_members.name}/>
+                <td items={bog_members.designation}/>
               </tr>
-              <tr className="centered">
-                <td>Maria Anders</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-              </tr>
-              <tr className="centered">
-                <td>Maria Anders</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-              </tr>
-            </table>
-
+              </table>
             </div>
+
+          //option 2 
+          <div >
+            {bog_members.map((members, index) => {
+                return (
+                  <table className="table">
+                    <tr className="tr">
+                      <th className="th" >S.no</th>
+                      <th className="th" >Name</th>
+                      <th className="th" >Designation</th>
+                    </tr>
+                    <tr className="centered">
+                      <td>Maria Anders</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr className="centered">
+                      <td>Maria Anders</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                  </table>
+                )
+              })}
+          </div>
 
             </Card>
             </div>
