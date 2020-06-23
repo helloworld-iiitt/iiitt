@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/index'
 import Footer from '../../components/footer/index'
 import { Typography, Grid, Box } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-
+import './style.css'
 const createStyles = makeStyles({
   container: {
     padding: "1rem 1rem"
@@ -38,9 +38,13 @@ export default function AdmissionFeeStructure() {
               Fee Structure
             </Box>
           </Typography>
-          <a href={require(`../../docs/${feeStructure}`)} download={`${feeStructure}`} className={classes.link}>
-            {feeStructure}
-          </a>
+          <ul className="doclist">
+            <li>
+              <a href={require(`../../docs/${feeStructure}`)} download={`${feeStructure}`} className={classes.link}>
+              {feeStructure}
+              </a>
+            </li>
+          </ul>
         </Grid>
       </Grid>
       <Footer />

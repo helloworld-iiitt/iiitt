@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/index'
 import Footer from '../../components/footer/index'
 import {  Typography, Grid, Box } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-
+import './style.css'
 const createStyles = makeStyles({
   container: {
     padding: "1rem 1rem"
@@ -39,23 +39,19 @@ export default function AdmissionForms() {
               Admission Forms
             </Box>
           </Typography>
-          <section>
-            <Typography variant="h5" className={classes.themeText}>
-              Reporting Details
-            </Typography>
-            <a href={require(`../../docs/${reportingDetails}`)} download={`${reportingDetails}`} className={classes.link}>
+
+          <ul className="doclist">           
+            <li>
+              <a href={require(`../../docs/${reportingDetails}`)} download={`${reportingDetails}`} className={classes.link}>
               {reportingDetails}
-            </a>
-          </section>
-          <br />
-          <section>
-            <Typography variant="h5" className={classes.themeText}>
-              Reporting Details
-            </Typography>
-            <a href={require(`../../docs/${admissionCancellation}`)} download={`${admissionCancellation}`} className={classes.link}>
+              </a>
+            </li>
+            <li>
+              <a href={require(`../../docs/${admissionCancellation}`)} download={`${admissionCancellation}`} className={classes.link}>
                 {admissionCancellation}
-            </a>
-          </section>
+             </a>
+            </li>
+          </ul>
         </Grid>
       </Grid>
       <Footer />
