@@ -27,27 +27,23 @@ const createStyles = makeStyles({
 export default function AdmissionFeeStructure() {
   const feeStructure = 'Fee Structure 2019-20.pdf'
   const classes = createStyles()
-	return (
-		<>
+  return (
+    <>
       <Navbar />
-      <Grid container>
-        <Grid item xs={false} sm={1} />
-        <Grid item xs={12} sm={10} >
-          <Typography variant="h2" component="h2" gutterBottom className={{...classes.themeText}}>
-            <Box component="span" fontWeight={380}>
-              Fee Structure
-            </Box>
-          </Typography>
-          <ul className="doclist">
-            <li>
-              <a href={require(`../../docs/${feeStructure}`)} download={`${feeStructure}`} className={classes.link}>
-              {feeStructure}
-              </a>
-            </li>
-          </ul>
-        </Grid>
+      <Grid container className={classes.container}>
+	<Grid item xs={false} sm={1} />
+	<Grid item xs={12} sm={10} >
+	  <Typography variant="h2" component="h2" gutterBottom className={{...classes.themeText}}>
+	    <Box component="span" fontWeight={380}>
+	      Fee Structure
+	    </Box>
+	  </Typography>
+	  <a href={require(`../../docs/${feeStructure}`)} download={`${feeStructure}`} className={classes.link}>
+	    {feeStructure}
+	  </a>
+	</Grid>
       </Grid>
       <Footer />
     </>
-	)
+  )
 }
