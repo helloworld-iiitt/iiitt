@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/navbar/index'
 import Footer from '../../components/footer/index'
 import { Card, Typography, Grid, Box, CardMedia, CardContent } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import admissionIncharge from '../../json/admission_contact.json'
 
 const createStyles = makeStyles({
   container: {
@@ -37,6 +36,14 @@ const createStyles = makeStyles({
 })
 
 export default function AdmissionContact() {
+  const [admissionIncharge, setAdmissionIncharge] = useState(undefined);
+  useEffect(() => {
+    import('../../json/admission_contact.json')
+      .then((data)=> {
+        console.log(data.name)
+        setAdmissionIncharge(data)
+      })
+  }, [])
   const classes = createStyles()
 	return (
 		<>
@@ -53,7 +60,7 @@ export default function AdmissionContact() {
             For Admission related queries, contact Admission Incharge of IIIT Trichy.
           </Typography>
           <br />
-          <Card className={classes.card}>
+          {admissionIncharge&&<Card className={classes.card}>
             <Grid container>
               <Grid item xs={12} >
                 <CardMedia
@@ -90,7 +97,7 @@ export default function AdmissionContact() {
                 </Typography>
               </CardContent>
             </Grid>
-          </Card>
+          </Card>}
         </Grid>
       </Grid>
       <Footer />

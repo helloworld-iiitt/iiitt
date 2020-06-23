@@ -45,13 +45,14 @@ export default function NestedList(props) {
       <Collapse in={open} timeout="auto" unmountOnExit>
         {props.menu.submenu.map(item=>{
             return(
-            <List component="div" disablePadding>
-             <ListItem button className={classes.nested} onClick={props.toggleDrawer(props.anchor, false)}>
-                  <Link to={item.link} draggable="false" className="nav_routes">
-                      <ListItemText primary={item.text} />
-                  </Link>
-             </ListItem>
-           </List>)
+              <Link to={item.link} draggable="false" className="nav_routes">
+                <List component="div" disablePadding>
+                  <ListItem button className={classes.nested} onClick={props.toggleDrawer(props.anchor, false)}>
+                    <ListItemText primary={item.text} />
+                  </ListItem>
+                </List>
+              </Link>
+           )
         })}
 
       </Collapse>
