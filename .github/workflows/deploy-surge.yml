@@ -1,4 +1,4 @@
-name: Deploy
+name: deploy-surge
 
 on:
   push:
