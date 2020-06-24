@@ -119,34 +119,34 @@ export default class BoG extends React.Component{
             </Card >
 
             <Card variant="outlined" className="card">
-            <Typography variant="h4" className="card_heading" style={{display:"flex", justifyContent:"center", padding:"1.5rem"}}>Members of Board of Governors (BoG)</Typography>
+            <Typography variant="h4" className="card_heading" style={{display:"flex", justifyContent:"center", padding:"1.5rem"}}>BoG Meeting</Typography>
             <Divider  variant="middle" />
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Ninth Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Minutes of The Ninth Meeting of The Board of Governors (Transit Board), held on 30 October, 2019 at 05:30PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Ninth Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Minutes of The Ninth Meeting of The c2oard of Governors (Transit Board), held on 30 October, 2019 at 05:30PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Eighth Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Minutes of The Eighth Meeting of The Board of Governors (Transit Board), held on 21 June, 2019 at 04:30PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Eighth Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Minutes of The Eighth Meeting of The Board of Governors (Transit Board), held on 21 June, 2019 at 04:30PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Seventh Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Minutes of The Seventh Meeting of The Board of Governors (Transit Board), held on 12 April, 2019 at 12:00PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Seventh Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Minutes of The Seventh Meeting of The Board of Governors (Transit Board), held on 12 April, 2019 at 12:00PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Sixth Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Minutes of The Sixth Meeting of The Board of Governors (Transit Board), held on 12 September, 2017 at 4PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Sixth Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Minutes of The Sixth Meeting of The Board of Governors (Transit Board), held on 12 September, 2017 at 4PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Fifth Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Minutes of The Fifth Meeting of The Board of Governors (Transit Board), held on 13 October, 2016 at 4PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Fifth Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Minutes of The Fifth Meeting of The Board of Governors (Transit Board), held on 13 October, 2016 at 4PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Fourth Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Proceedings of the Fourth Meeting of The Board of Governors (Transit Board), held on 2 February, 2016 at 5PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Fourth Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Proceedings of the Fourth Meeting of The Board of Governors (Transit Board), held on 2 February, 2016 at 5PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Third Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Proceedings of the Third Meeting of The Board of Governors (Transit Board), held on 24 February, 2015 at 4:30PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Third Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Proceedings of the Third Meeting of The Board of Governors (Transit Board), held on 24 February, 2015 at 4:30PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The Second Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Proceedings of the Second Meeting of The Board of Governors (Transit Board), held on 12 November, 2014 at 5:30PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The Second Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Proceedings of the Second Meeting of The Board of Governors (Transit Board), held on 12 November, 2014 at 5:30PM.</a></Typography>
             <Divider variant="middle"/>
-            <Typography variant="h6" className="card_heading" className="c1">Minutes of The First Meeting of The Board of Governors</Typography>
-            <Typography variant="h9" className="card_heading" className="c2">Proceedings of the First Meeting of The Board of Governors (Transit Board), held on 13 December, 2013 at 6PM.</Typography>
+            <Typography variant="h6" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c1">Minutes of The First Meeting of The Board of Governors</a></Typography>
+            <Typography variant="h9" className="card_heading"><a href="src\docs\IIITT_9th_BOG_Minutes.pdf" className="c2">Proceedings of the First Meeting of The Board of Governors (Transit Board), held on 13 December, 2013 at 6PM.</a></Typography>
             <Divider variant="middle"/>
             <br/>
             </Card>
