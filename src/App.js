@@ -51,6 +51,10 @@ function App() {
     loader: () => import("./pages/staff/index"),
     loading: () => loading,
   });
+  const Industry_Partners = Loadable({
+    loader: () => import("./pages/industry_partners/index"),
+    loading: () => loading,
+  });
 
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
@@ -67,6 +71,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/bog" component={BoG} />
+        <Route path="/industry_partners" component={Industry_Partners} />
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
         <Route path="/*" component={PageNotFound} />
