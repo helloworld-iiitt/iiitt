@@ -1,6 +1,23 @@
+.typography{
+    color: "#3f51b5";
+    padding-bottom:"1.5rem";
+}
+.card{
+    margin: 1rem;
+}
+.card_heading{
+    color: "#000000";
+    padding: "1.5rem";
+    
+}
+.divider{
+    padding: 1rem;
+}
 .table{
     width: 100%;
     padding: 10px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
     
 }
 .tr{
@@ -8,6 +25,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black ;
+    flex-wrap: nowrap;
 }
 tr:nth-child(even){
     background-color: #f2f2f2;
@@ -19,6 +37,7 @@ tr:nth-child(even){
     color:#ffffff;
     padding: 15px;
     background-color: #3f51b5;
+    flex-wrap: nowrap;
 }
 td{
     align-items: center;
@@ -29,6 +48,14 @@ td{
 
 table.table > tr.centered > td {
     text-align: center;
+}
+.c1{
+   padding: 10px;
+    color:#4B0082;
+}
+.c2{
+    padding: 10px;
+    
 }
 .footer{
     vertical-align: bottom;
