@@ -1,7 +1,9 @@
 name: pr-deploy-surge
 
 on:
-  pull_request
+  pull_request:
+    branches:
+        - master
 
 jobs:
 
