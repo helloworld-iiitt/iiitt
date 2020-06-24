@@ -1,8 +1,7 @@
 name: pr-deploy-surge
 
 on:
-  pull_request:
-    branches: [ master ]
+  pull_request
 
 jobs:
   build-for-dinesh:
