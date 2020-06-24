@@ -1,4 +1,4 @@
-name: pr-deploy-surge
+name: pr-deploy-surge-printer
 
 on:
   pull_request:
@@ -6,14 +6,13 @@ on:
         - master
 
 jobs:
-
   console-for-all:
-    name:Print Info
+  
     runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
-    - name: github event_path:
+    - name: github event_path
       run: echo(${{github.event_path}})
     - name: github event
       run: echo(${{github.event}})
@@ -24,7 +23,7 @@ jobs:
       
   build-for-dinesh:
     if: github.actor=='dinskid'
-    name:Deploy for PR by Dinesh
+    name: Deploy for PR by Dinesh
     runs-on: ubuntu-latest
 
     steps:
@@ -47,7 +46,7 @@ jobs:
 
   build-for-sarathchandra:
     if: github.actor=='saratchandraogirala'
-    name:Deploy for PR by Saratchandraogirala
+    name: Deploy for PR by Saratchandraogirala
     runs-on: ubuntu-latest
 
     steps:
@@ -70,7 +69,7 @@ jobs:
       
   build-for-fahad:
     if: github.actor=='fahad-israr'
-    name:Deploy for PR by Fahad Israr
+    name: Deploy for PR by Fahad Israr
     runs-on: ubuntu-latest
 
     steps:
