@@ -6,20 +6,6 @@ on:
         - master
 
 jobs:
-  console-for-all:
-  
-    runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v2
-    - name: github event_path
-      run: echo(${{github.event_path}})
-    - name: github event
-      run: echo(${{github.event}})
-    - name: github actor
-      run: echo(${{github.actor}})
-    - name: github head_ref
-      run: echo(${{github.head_ref}})
       
   build-for-dinesh:
     if: github.actor=='dinskid'
