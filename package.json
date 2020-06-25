@@ -3,24 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.9.12",
+    "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "build": "^0.1.4",
+    "deploy": "^1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-loadable": "^5.5.0",
-    "react-responsive-carousel": "^3.2.5",
+    "react-responsive-carousel": "^3.2.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-spinners": "^0.8.3"
+    "react-spinners": "^0.8.3",
+    "surge": "^0.21.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "node --version"
   },
   "eslintConfig": {
     "extends": "react-app"
