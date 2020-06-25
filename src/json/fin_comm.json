@@ -1,0 +1,40 @@
+{
+    "data":[
+        {
+            "s.no":"1",
+            "name":"Shri. K. Shanmugam, I.A.S",
+            "designation":"Chief Secretary to Govt. of Tamil Nadu & Chairperson, BoG, IIIT Tiruchirappalli",
+            "role":"Chairperson"
+        },
+        {
+            "s.no":"2",
+            "name":"Dr. N. V. S. N. Sarma",
+            "designation":"Director,IIIT Tiruchirappalli",
+            "role":"Member"
+        },
+        {
+            "s.no":"3",
+            "name":"Smt. Darshana M Dabral, I.A.S",
+            "designation":"Joint Secretary Finance Department MHRD, GOI",
+            "role":"Member"
+        },
+        {
+            "s.no":"4",
+            "name":"Shri. Mangat Ram Sharma, I.A.S",
+            "designation":"Secretary to the Government of Tamil Nadu (Higher Education Department)",
+            "role":"Member"
+        },
+        {
+            "s.no":"5",
+            "name":"Shri. Lakshminarayanan",
+            "designation":"Senior General Manager, Finance, Tata Consultancy Service.",
+            "role":"Member/ Representative of the Industry partners"
+        },
+        {
+            "s.no":"6",
+            "name":"Shri. A. Palanivel",
+            "designation":"Mentor Registrar, IIITT",
+            "role":"Secretary(Ex-officio)"
+        }
+    ]
+}

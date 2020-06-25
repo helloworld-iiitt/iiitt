@@ -1,0 +1,52 @@
+{
+    "data":[
+        {
+            "s.no":"1",
+            "name":"Dr. N. V. S. N. Sarma",
+            "designation":"Director, IIITT",
+            "bwc":"Chairman"
+        },
+        {
+            "s.no":"2",
+            "name":"Shri. Mangat Ram Sharma, I. A. S",
+            "designation":"Principal Secretary to Government, Higher Education Department, Tamil Nadu",
+            "bwc":"Member"
+        },
+        {
+            "s.no":"3",
+            "name":"Prof. N.V. Ramana Rao",
+            "designation":"Director, NIT Warangal",
+            "bwc":"Member"
+        },
+        {
+            "s.no":"4",
+            "name":"Dr. K. Baskar",
+            "designation":"Professor, Dept. of Civil Eng., NIT Tiruchirappalli representing MHRD",
+            "bwc":"Member"
+        },
+        {
+            "s.no":"5",
+            "name":"Prof. Rama Murthy",
+            "designation":"Dept. of Civil Engg, IITM, Chennai",
+            "bwc":"Member"
+        },
+        {
+            "s.no":"6",
+            "name":"Shri. Ravi Kula Chandran",
+            "designation":"Chief Financial officer, Ramco Systems, Chennai",
+            "bwc":"Member"
+        },
+        {
+            "s.no":"7",
+            "name":"Shri. A. Palanivel",
+            "designation":"Mentor Registrar, IIITT and Registrar, NITT",
+            "bwc":"Secretary (Ex-officio)"
+        },
+        {
+            "s.no":"8",
+            "name":"Dr. J. Jerald",
+            "designation":"Associate Dean (Planning & Development), IIITT",
+            "bwc":"Member"
+        }
+    ]
+}

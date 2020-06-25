@@ -1,0 +1,23 @@
+.card{
+    margin: 1.5rem;
+}
+.content{
+    padding: 1rem;
+}
+.imageButton{
+    display: flex;
+    align-content: center;
+    margin: auto;   
+    padding: 1rem; 
+    max-width: 300px;
+    max-height: 180px;
+}
+.lastline{
+    padding: 1rem;
+    font-weight: bold;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: #3f51b5;
+}
