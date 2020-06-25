@@ -1,4 +1,4 @@
-name: pr-deploy-surge-printer
+name: pr-deploy-surge
 
 on:
   pull_request:
