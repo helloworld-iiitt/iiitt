@@ -40,7 +40,7 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run:  surge ./build https://iiittdv.surge.sh/ --token ${{secrets.TOKEN}}
+      run:  surge ./build https://iiittdv.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
 
   build-for-sarathchandra:
     if: github.actor=='saratchandraogirala'
@@ -63,7 +63,7 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run:  surge ./build https://iiittss.surge.sh/ --token ${{secrets.TOKEN}}
+      run:  surge ./build https://iiittss.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
       
   build-for-fahad:
     if: github.actor=='fahad-israr'
