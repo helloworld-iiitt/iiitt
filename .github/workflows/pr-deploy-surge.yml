@@ -6,8 +6,20 @@ on:
         - master
 
 jobs:
+  console-for-all:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: github event_path
+      run: echo(${{github.event_path}})
+    - name: github event
+      run: echo(${{github.event}})
+    - name: github actor
+      run: echo(${{github.actor}})
+    - name: github head_ref
+      run: echo(${{github.head_ref}})
       
-  build-for-dinesh:
+build-for-dinesh:
     if: github.actor=='dinskid'
     name: Deploy for PR by Dinesh
     runs-on: ubuntu-latest
@@ -30,7 +42,7 @@ jobs:
     - name: Deploy to Surge
       run:  surge ./build https://iiittdv.surge.sh/ --token ${{secrets.TOKEN}}
 
-  build-for-sarathchandra:
+build-for-sarathchandra:
     if: github.actor=='saratchandraogirala'
     name: Deploy for PR by Saratchandraogirala
     runs-on: ubuntu-latest
