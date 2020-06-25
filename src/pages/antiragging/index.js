@@ -53,7 +53,7 @@ export default function AntiRagging() {
 	    <img src={require('../../images/anti_ragging.png')} alt='Anti ragging' className={classes.image}/>
 	  </section>
 	</Grid>
-	<Grid item xs={false} sm={1} />
+	<Grid item xs={false} sm={1}  />
       </Grid>
       <Footer />
     </>
