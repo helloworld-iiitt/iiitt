@@ -40,11 +40,7 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-<<<<<<< HEAD
-      run:  surge ./build https://iiittd.surge.sh/ --token 89ac349e161844094bf34748d3188563
-=======
       run:  surge ./build https://iiittdv.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
->>>>>>> d02236cc25efcb1f76bec6676e4918440cd85bbc
 
   build-for-sarathchandra:
     if: github.actor=='saratchandraogirala'
@@ -67,11 +63,7 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-<<<<<<< HEAD
-      run:  surge ./build https://iiitts.surge.sh/ --token 0e7062b67249bd482aa7d80b26e43238
-=======
       run:  surge ./build https://iiittss.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
->>>>>>> d02236cc25efcb1f76bec6676e4918440cd85bbc
       
   build-for-fahad:
     if: github.actor=='fahad-israr'
@@ -94,8 +86,4 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-<<<<<<< HEAD
-      run:  surge ./build https://iiittf.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
-=======
       run:  surge ./build https://iiittf.surge.sh/ --token ${{secrets.TOKEN}}
->>>>>>> d02236cc25efcb1f76bec6676e4918440cd85bbc
