@@ -19,7 +19,7 @@ jobs:
     - name: github head_ref
       run: echo(${{github.head_ref}})
       
-build-for-dinesh:
+  build-for-dinesh:
     if: github.actor=='dinskid'
     name: Deploy for PR by Dinesh
     runs-on: ubuntu-latest
@@ -42,7 +42,7 @@ build-for-dinesh:
     - name: Deploy to Surge
       run:  surge ./build https://iiittdv.surge.sh/ --token ${{secrets.TOKEN}}
 
-build-for-sarathchandra:
+  build-for-sarathchandra:
     if: github.actor=='saratchandraogirala'
     name: Deploy for PR by Saratchandraogirala
     runs-on: ubuntu-latest
