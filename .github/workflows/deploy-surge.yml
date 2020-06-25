@@ -25,4 +25,8 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
+
       run:  surge ./build ${{secrets.SURGE_DOMAIN}} --token ${{secrets.SURGE_TOKEN}}
+=======
+      run:  surge ./build https://iiitt.surge.sh/ --token ${{secrets.TOKEN}}
+
