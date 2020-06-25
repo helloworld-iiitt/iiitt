@@ -8,6 +8,7 @@
 .card_heading{
     color: "#000000";
     padding: "1.5rem";
+    margin: auto;
 }
 .table{
     width: 100%;
