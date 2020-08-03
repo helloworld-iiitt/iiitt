@@ -14,14 +14,14 @@ function App() {
   const loading = (
     <div className="sweet-loading">
       <ScaleLoader
-        css={override}
-        sizeUnit={"px"}
-        color={"#3f51b5"}
-        size={80}
-        height={35}
-        width={12}
-        radius={2}
-        loading={true}
+	css={override}
+	sizeUnit={"px"}
+	color={"#3f51b5"}
+	size={80}
+	height={35}
+	width={12}
+	radius={2}
+	loading={true}
       />
       <div style={{ fontSize: "30px" }}>Loading...</div>
     </div>
@@ -72,28 +72,34 @@ function App() {
     loading: () => loading,
   });
 
+  const Notices = Loadable({
+    loader: () => import("./pages/notices/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
       <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons"
       />
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/faculty" component={Faculty} />
-        <Route path="/staff" component={Staff} />
-	      <Route path="/admission_procedure" component={AdmissionProcedure} />
-	      <Route path="/admission_fee_structure" component={AdmissionFeeStructure} />
-	      <Route path="/admission_forms" component={AdmissionForms} />
-	      <Route path="/anti_ragging_committee" component={AntiRagging} />
-	      <Route path="/admission_contact" component={AdmissionContact} />
-        <Route path="/*" component={PageNotFound} />
+	<Route exact path="/" component={Home} />
+	<Route path="/about" component={About} />
+	<Route path="/faculty" component={Faculty} />
+	<Route path="/staff" component={Staff} />
+	<Route path="/admission_procedure" component={AdmissionProcedure} />
+	<Route path="/admission_fee_structure" component={AdmissionFeeStructure} />
+	<Route path="/admission_forms" component={AdmissionForms} />
+	<Route path="/anti_ragging_committee" component={AntiRagging} />
+	<Route path="/admission_contact" component={AdmissionContact} />
+	<Route path="/general" component={Notices} />
+	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
   );
