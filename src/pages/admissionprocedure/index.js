@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../../components/navbar/index'
 import Footer from '../../components/footer/index'
 import { Typography, Grid, Box } from '@material-ui/core'
@@ -32,6 +32,15 @@ const createStyles = makeStyles({
 })
 
 export default function AdmissionProcedure() {
+  useEffect(() => {
+    document.getElementsByTagName("title")[0].innerHTML = "Admission Procedure";
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
+    };
+  }, []);
   const classes = createStyles()
   const rank = 'OpeningandClosingRank.pdf'
   return (

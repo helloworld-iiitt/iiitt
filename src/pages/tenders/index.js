@@ -31,12 +31,12 @@ const createStyles = makeStyles({
 
 export default function Notices() {
   useEffect(() => {
-    document.getElementsByTagName("title")[0].innerhtml = "Notices";
+    document.getElementsByTagName("title")[0].innerHTML = "Tenders";
   }, []);
 
   useEffect(() => {
     return () => {
-      document.getElementsByTagName("title")[0].innerhtml = "IIIT Trichy";
+      document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
     };
   }, []);
   const [notices, setNotices] = useState([]);

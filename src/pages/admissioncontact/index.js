@@ -35,6 +35,15 @@ const createStyles = makeStyles({
 })
 
 export default function AdmissionContact() {
+  useEffect(() => {
+    document.getElementsByTagName("title")[0].innerHTML = "Contact";
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
+    };
+  }, []);
   const [admissionIncharge, setAdmissionIncharge] = useState(undefined);
   useEffect(() => {
     import('../../json/admission_contact.json')
