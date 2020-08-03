@@ -77,6 +77,11 @@ function App() {
     loading: () => loading,
   });
 
+  const Tenders = Loadable({
+    loader: () => import("./pages/tenders/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -99,6 +104,7 @@ function App() {
 	<Route path="/anti_ragging_committee" component={AntiRagging} />
 	<Route path="/admission_contact" component={AdmissionContact} />
 	<Route path="/general" component={Notices} />
+	<Route path="/tenders" component={Tenders} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>

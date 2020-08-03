@@ -41,7 +41,7 @@ export default function Notices() {
   }, []);
   const [notices, setNotices] = useState([]);
   useEffect(() => {
-    import('../../json/notices.json')
+    import('../../json/tenders.json')
       .then((data)=> {
 	setNotices(data.data)
       })
@@ -65,16 +65,13 @@ export default function Notices() {
 	  <section className={classes.notice_section}>
 	    <Typography variant="h5" className={classes.themeText}>
 	      <Box component="span" fontWeight="fontWeightBold">
-		New Notices
+		Open Tender Notices
 	      </Box>
 	    </Typography>
 	    {
-	      notices&&notices.filter(ntc => {
-		const d = new Date(ntc.date)
-		return Math.ceil(Math.abs(d-date) / (1000*60*60*24)) <= 31
-	      }).map(notice => {
+	      notices&&notices.filter(ntc => ntc.open).map(notice => {
 		return (
-		  <a href={require(`../../docs/notices/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
+		  <a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
 		    <div className={classes.notice}>
 		      <Typography>
 			<Box className={classes.themeText}>
@@ -93,16 +90,13 @@ export default function Notices() {
 	  <section className={classes.notice_section}>
 	    <Typography variant="h5" className={classes.themeText}>
 	      <Box component="span" fontWeight="fontWeightBold">
-		Old Notices
+		Closed Tender Notices
 	      </Box>
 	    </Typography>
 	    {
-	      notices&&notices.filter(ntc => {
-		const d = new Date(ntc.date)
-		return Math.ceil(Math.abs(d-date) / (1000*60*60*24)) > 30
-	      }).map(notice => {
+	      notices&&notices.filter(ntc => !ntc.open).map(notice => {
 		return (
-		  <a href={require(`../../docs/notices/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
+		  <a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
 		    <div className={classes.notice}>
 		      <Typography>
 			<Box className={classes.themeText}>
