@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../../components/navbar/index'
 import Footer from '../../components/footer/index'
 import { Typography, Grid, Box } from '@material-ui/core'
@@ -25,6 +25,15 @@ const createStyles = makeStyles({
 })
 
 export default function AdmissionFeeStructure() {
+  useEffect(() => {
+    document.getElementsByTagName("title")[0].innerHTML = "Fee Structure";
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
+    };
+  }, []);
   const feeStructure = 'Fee Structure 2019-20.pdf'
   const classes = createStyles()
   return (
