@@ -4,31 +4,36 @@
       "name": "Tender 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "Tender_Laptops_2020_2.pdf",
-      "open": true
+      "open": true,
+      "date": "01/01/2020"
     },
     {
       "name": "Tender 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "Tender_Laptops_2020_2.pdf",
-      "open": true
+      "open": true,
+      "date": "01/03/2020"
     },
     {
       "name": "Tender 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "Tender_Laptops_2020_2.pdf",
-      "open": false
+      "open": false,
+      "date": "01/05/2020"
     },
     {
       "name": "Tender 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "Tender_Laptops_2020_2.pdf",
-      "open": false
+      "open": false,
+      "date": "01/01/2020"
     },
     {
       "name": "Tender 5",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "Tender_Laptops_2020_2.pdf",
-      "open": false
+      "open": false,
+      "date": "01/01/2020"
     }
   ]
 }

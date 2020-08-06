@@ -3,6 +3,7 @@ import Navbar from "./../../components/navbar/index";
 import Footer from "./../../components/footer/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import './styles.css'
 
 const createStyles = makeStyles({
   container: {
@@ -12,7 +13,7 @@ const createStyles = makeStyles({
     color: "#3f51b5",
   },
   link: {
-    display: "block",
+    display: "inline-block",
     textDecoration: "none",
     color: "black",
   },
@@ -20,10 +21,10 @@ const createStyles = makeStyles({
     padding: "0.5rem 0 2rem 0",
   },
   notice: {
-    padding: "1rem 0.3rem",
+    padding: "1rem 0",
     transition: "transform .2s",
     '&:hover': {
-      background: "lemonchiffon",
+      background: "rgba(0,0,0,0.15)",
     }
   }
 
@@ -59,7 +60,7 @@ export default function Notices() {
 	<Grid xs={12} sm={10} item>
 	  <Typography variant="h2" component="h2" gutterBottom className={classes.themeText}>
 	    <Box component="span" fontWeight={380}>
-	      Notices
+	      Tenders
 	    </Box>
 	  </Typography>
 	  <section className={classes.notice_section}>
@@ -68,24 +69,35 @@ export default function Notices() {
 		Open Tender Notices
 	      </Box>
 	    </Typography>
-	    {
-	      notices&&notices.filter(ntc => ntc.open).map(notice => {
-		return (
-		  <a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
-		    <div className={classes.notice}>
-		      <Typography>
-			<Box className={classes.themeText}>
-			  {notice.name}
-			</Box>
-			<Box>
-			  {notice.description}
-			</Box>
-		      </Typography>
-		    </div>
-		  </a>
-		)
-	      })
-	    }
+	    <ul className="doclist">
+	      {
+		notices&&notices.filter(ntc => ntc.open)
+		  .sort((a, b) => new Date(b.date.split('/').reverse().join('/'))-new Date(a.date.split('/').reverse().join('/')))
+		  .map(notice => {
+		    return (
+		      <li key={notice.name}>
+			<a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
+			  <div className={classes.notice}>
+			    <Typography>
+			      <Typography variant="caption" color="textSecondary" gutterBottom>
+				Posted on:{notice.date}
+			      </Typography>
+			      <br />
+			      <Box className={classes.themeText} component="span">
+				{notice.name}
+			      </Box>
+			      <br />
+			      <Box component="span">
+				{notice.description}
+			      </Box>
+			    </Typography>
+			  </div>
+			</a>
+		      </li>
+		    )
+		  })
+	      }
+	    </ul>
 	  </section>
 	  <section className={classes.notice_section}>
 	    <Typography variant="h5" className={classes.themeText}>
@@ -93,24 +105,35 @@ export default function Notices() {
 		Closed Tender Notices
 	      </Box>
 	    </Typography>
-	    {
-	      notices&&notices.filter(ntc => !ntc.open).map(notice => {
-		return (
-		  <a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
-		    <div className={classes.notice}>
-		      <Typography>
-			<Box className={classes.themeText}>
-			  {notice.name}
-			</Box>
-			<Box>
-			  {notice.description}
-			</Box>
-		      </Typography>
-		    </div>
-		  </a>
-		)
-	      })
-	    }
+	    <ul className="doclist">
+	      {
+		notices&&notices.filter(ntc => !ntc.open)
+		  .sort((a, b) => new Date(b.date.split('/').reverse().join('/'))-new Date(a.date.split('/').reverse().join('/')))
+		  .map(notice => {
+		    return (
+		      <li key={notice.name}>
+			<a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
+			  <div className={classes.notice}>
+			    <Typography>
+			      <Typography variant="caption" color="textSecondary" gutterBottom>
+				Posted on:{notice.date}
+			      </Typography>
+			      <br />
+			      <Box className={classes.themeText} component="span">
+				{notice.name}
+			      </Box>
+			      <br />
+			      <Box component="span">
+				{notice.description}
+			      </Box>
+			    </Typography>
+			  </div>
+			</a>
+		      </li>
+		    )
+		  })
+	      }
+	    </ul>
 	  </section>
 	</Grid>
 	<Grid xs={false} sm={1} item/>

@@ -1,33 +1,33 @@
 {
   "data": [
     {
-      "name": "Notice 1",
-      "date": "2020-01-01",
-      "url": "AR-committee.pdf",
+      "title": "Notice 1",
+      "date": "01/01/2020",
+      "link": "AR-committee.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Notice 2",
-      "date": "2020-02-01",
-      "url": "CancellationForm.docx",
+      "title": "Notice 2",
+      "date": "18/10/2020",
+      "link": "CancellationForm.docx",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Notice 3",
-      "date": "2020-07-05",
-      "url": "Fee Structure 2019-20.pdf",
+      "title": "Notice 3",
+      "date": "05/07/2020",
+      "link": "Fee Structure 2019-20.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Notice 4",
-      "date": "2020-07-01",
-      "url": "OpeningandClosingRank.pdf",
+      "title": "Notice 4",
+      "date": "01/07/2020",
+      "link": "OpeningandClosingRank.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      "name": "Notice 5",
-      "date": "2020-08-01",
-      "url": "ReportingDetails_IIITT_2019-20.pdf",
+      "title": "Notice 5",
+      "date": "01/08/2020",
+      "link": "ReportingDetails_IIITT_2019-20.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
