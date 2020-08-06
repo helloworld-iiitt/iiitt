@@ -60,7 +60,7 @@ export default function Notices() {
 	<Grid xs={12} sm={10} item>
 	  <Typography variant="h2" component="h2" gutterBottom className={classes.themeText}>
 	    <Box component="span" fontWeight={380}>
-	      Notices
+	      Tenders
 	    </Box>
 	  </Typography>
 	  <section className={classes.notice_section}>
@@ -69,29 +69,33 @@ export default function Notices() {
 		Open Tender Notices
 	      </Box>
 	    </Typography>
-	    <ul>
+	    <ul className="doclist">
 	      {
-		notices&&notices.filter(ntc => ntc.open).map(notice => {
-		  return (
-		    <li>
-		      <a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
-			<div className={classes.notice}>
-			  <Typography>
-			    <Typography variant="caption" color="textSecondary" gutterBottom>
-			      Posted on:{notice.date}
+		notices&&notices.filter(ntc => ntc.open)
+		  .sort((a, b) => new Date(b.date.split('/').reverse().join('/'))-new Date(a.date.split('/').reverse().join('/')))
+		  .map(notice => {
+		    return (
+		      <li key={notice.name}>
+			<a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
+			  <div className={classes.notice}>
+			    <Typography>
+			      <Typography variant="caption" color="textSecondary" gutterBottom>
+				Posted on:{notice.date}
+			      </Typography>
+			      <br />
+			      <Box className={classes.themeText} component="span">
+				{notice.name}
+			      </Box>
+			      <br />
+			      <Box component="span">
+				{notice.description}
+			      </Box>
 			    </Typography>
-			    <Box className={classes.themeText}>
-			      {notice.name}
-			    </Box>
-			    <Box>
-			      {notice.description}
-			    </Box>
-			  </Typography>
-			</div>
-		      </a>
-		    </li>
-		  )
-		})
+			  </div>
+			</a>
+		      </li>
+		    )
+		  })
 	      }
 	    </ul>
 	  </section>
@@ -101,29 +105,33 @@ export default function Notices() {
 		Closed Tender Notices
 	      </Box>
 	    </Typography>
-	    <ul>
+	    <ul className="doclist">
 	      {
-		notices&&notices.filter(ntc => !ntc.open).map(notice => {
-		  return (
-		    <li>
-		      <a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
-			<div className={classes.notice}>
-			  <Typography>
-			    <Typography variant="caption" color="textSecondary" gutterBottom>
-			      Posted on:{notice.date}
+		notices&&notices.filter(ntc => !ntc.open)
+		  .sort((a, b) => new Date(b.date.split('/').reverse().join('/'))-new Date(a.date.split('/').reverse().join('/')))
+		  .map(notice => {
+		    return (
+		      <li key={notice.name}>
+			<a href={require(`../../docs/tenders/${notice.url}`)} download={`${notice.url}`} className={classes.link}>
+			  <div className={classes.notice}>
+			    <Typography>
+			      <Typography variant="caption" color="textSecondary" gutterBottom>
+				Posted on:{notice.date}
+			      </Typography>
+			      <br />
+			      <Box className={classes.themeText} component="span">
+				{notice.name}
+			      </Box>
+			      <br />
+			      <Box component="span">
+				{notice.description}
+			      </Box>
 			    </Typography>
-			    <Box className={classes.themeText}>
-			      {notice.name}
-			    </Box>
-			    <Box>
-			      {notice.description}
-			    </Box>
-			  </Typography>
-			</div>
-		      </a>
-		    </li>
-		  )
-		})
+			  </div>
+			</a>
+		      </li>
+		    )
+		  })
 	      }
 	    </ul>
 	  </section>

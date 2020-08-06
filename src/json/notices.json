@@ -2,31 +2,31 @@
   "data": [
     {
       "title": "Notice 1",
-      "date": "2020-01-01",
+      "date": "01/01/2020",
       "link": "AR-committee.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       "title": "Notice 2",
-      "date": "2020-02-01",
+      "date": "18/10/2020",
       "link": "CancellationForm.docx",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       "title": "Notice 3",
-      "date": "2020-07-05",
+      "date": "05/07/2020",
       "link": "Fee Structure 2019-20.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       "title": "Notice 4",
-      "date": "2020-07-01",
+      "date": "01/07/2020",
       "link": "OpeningandClosingRank.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       "title": "Notice 5",
-      "date": "2020-08-01",
+      "date": "01/08/2020",
       "link": "ReportingDetails_IIITT_2019-20.pdf",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
