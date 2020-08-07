@@ -19,7 +19,7 @@ const createStyles = makeStyles({
   }
 })
 
-export default function AdmissionFeeStructure() {
+export default function Departments() {
   useEffect(() => {
     document.getElementsByTagName("title")[0].innerHTML = "Departments";
   }, []);
