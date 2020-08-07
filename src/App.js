@@ -82,6 +82,31 @@ function App() {
     loading: () => loading,
   });
 
+  const Programs = Loadable({
+    loader: () => import("./pages/programs/index"),
+    loading: () => loading,
+  });
+
+  const Departments = Loadable({
+    loader: () => import("./pages/departments/index"),
+    loading: () => loading,
+  });
+
+  const Curriculum = Loadable({
+    loader: () => import("./pages/curriculum/index"),
+    loading: () => loading,
+  });
+
+  const Calendar = Loadable({
+    loader: () => import("./pages/calendar/index"),
+    loading: () => loading,
+  });
+
+  const Holidays = Loadable({
+    loader: () => import("./pages/holidays/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -105,6 +130,11 @@ function App() {
 	<Route path="/admission_contact" component={AdmissionContact} />
 	<Route path="/general" component={Notices} />
 	<Route path="/tenders" component={Tenders} />
+	<Route path="/programs" component={Programs} />
+	<Route path="/departments" component={Departments} />
+	<Route path="/curriculum" component={Curriculum} />
+	<Route path="/calendar" component={Calendar} />
+	<Route path="/holidays" component={Holidays} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
