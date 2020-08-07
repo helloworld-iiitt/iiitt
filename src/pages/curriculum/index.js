@@ -44,9 +44,9 @@ const createStyles = makeStyles({
   }
 })
 
-export default function Cirriculum() {
+export default function Curriculum() {
   useEffect(() => {
-    document.getElementsByTagName("title")[0].innerHTML = "Cirriculum";
+    document.getElementsByTagName("title")[0].innerHTML = "Curriculum";
   }, []);
 
   useEffect(() => {
@@ -70,7 +70,7 @@ export default function Cirriculum() {
 	<Grid item xs={12} sm={10} >
 	  <Typography variant="h2" component="h2" gutterBottom className={{...classes.themeText}} className={classes.themeText}>
 	    <Box component="span" fontWeight={380}>
-	      Cirriculum
+	      Curriculum
 	    </Box>
 	  </Typography>
 
