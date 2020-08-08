@@ -112,6 +112,11 @@ function App() {
     loading: () => loading,
   });
 
+  const Faq = Loadable({
+    loader: () => import("./pages/faqs/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -141,6 +146,7 @@ function App() {
 	<Route path="/calendar" component={Calendar} />
 	<Route path="/holidays" component={Holidays} />
 	<Route path="/undergraduate" component={Undergraduate} />
+	<Route path="/faq" component={Faq} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
