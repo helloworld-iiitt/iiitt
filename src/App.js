@@ -107,6 +107,11 @@ function App() {
     loading: () => loading,
   });
 
+  const Undergraduate = Loadable({
+    loader: () => import("./pages/undergraduate/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -135,6 +140,7 @@ function App() {
 	<Route path="/curriculum" component={Curriculum} />
 	<Route path="/calendar" component={Calendar} />
 	<Route path="/holidays" component={Holidays} />
+	<Route path="/undergraduate" component={Undergraduate} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
