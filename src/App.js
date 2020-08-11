@@ -127,6 +127,11 @@ function App() {
     loading: () => loading,
   })
 
+  const ContactUs = Loadable({
+    loader: () => import("./pages/contactus/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -159,6 +164,7 @@ function App() {
 	<Route path="/faq" component={Faq} />
 	<Route path="/festivals" component={Festivals} />
 	<Route path="/clubs" component={Clubs} />
+	<Route path="/contactus" component={ContactUs} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
