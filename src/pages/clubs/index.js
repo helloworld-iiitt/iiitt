@@ -34,9 +34,13 @@ const createStyles = makeStyles({
     fontSize: "1.2rem"
   },
   table: {
-    width: "75%"
+    marginLeft: "1.5rem"
+  },
+  '@media screen and (max-width: 600px)': {
+    table: {
+      marginLeft: "0"
+    }
   }
-
 })
 
 export default function Clubs() {
@@ -91,44 +95,46 @@ export default function Clubs() {
 		      Faculty Incharge: {club.facultyIncharge}
 		    </Box>
 		  </Typography>
-		  <TableContainer component={Paper} className={classes.table}>
-		    <Table>
-		      <TableHead>
-			<TableRow>
+		  <Grid item xs={12} sm={9}>
+		    <TableContainer component={Paper} className={classes.table}>
+		      <Table>
+			<TableHead>
+			  <TableRow>
+			    {
+			      club.header.map(head => {
+				return (
+				  <TableCell className={`${classes.tableCell} ${classes.tableHead}`}>
+				    {head}
+				  </TableCell>
+				)
+			      })
+			    }
+			  </TableRow>
+			</TableHead>
+			<TableBody>
 			  {
-			    club.header.map(head => {
+			    club.students.map(student => {
 			      return (
-				<TableCell className={`${classes.tableCell} ${classes.tableHead}`}>
-				  {head}
-				</TableCell>
+				<TableRow className={classes.tableRow}>
+				  <TableCell className={classes.tableCell}>
+				    {student.year}
+				  </TableCell>
+				  <TableCell className={classes.tableCell}>
+				    {student.name}
+				  </TableCell>
+				  {
+				    student.game&&<TableCell className={classes.tableCell}>
+				      {student.game}
+				    </TableCell>
+				  }
+				</TableRow>
 			      )
 			    })
 			  }
-			</TableRow>
-		      </TableHead>
-		      <TableBody>
-			{
-			  club.students.map(student => {
-			    return (
-			      <TableRow className={classes.tableRow}>
-				<TableCell className={classes.tableCell}>
-				  {student.year}
-				</TableCell>
-				<TableCell className={classes.tableCell}>
-				  {student.name}
-				</TableCell>
-				{
-				  student.game&&<TableCell className={classes.tableCell}>
-				    {student.game}
-				  </TableCell>
-				}
-			      </TableRow>
-			    )
-			  })
-			}
-		      </TableBody>
-		    </Table>
-		  </TableContainer>
+			</TableBody>
+		      </Table>
+		    </TableContainer>
+		  </Grid>
 		</section>
 	      )
 	    })
