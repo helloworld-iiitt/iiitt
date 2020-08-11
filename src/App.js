@@ -117,6 +117,16 @@ function App() {
     loading: () => loading,
   });
 
+  const Festivals = Loadable({
+    loader: () => import("./pages/festivals/index"),
+    loading: () => loading,
+  })
+
+  const Clubs = Loadable({
+    loader: () => import("./pages/clubs/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -147,6 +157,8 @@ function App() {
 	<Route path="/holidays" component={Holidays} />
 	<Route path="/undergraduate" component={Undergraduate} />
 	<Route path="/faq" component={Faq} />
+	<Route path="/festivals" component={Festivals} />
+	<Route path="/clubs" component={Clubs} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>

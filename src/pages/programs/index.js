@@ -51,13 +51,13 @@ export default function AdmissionFeeStructure() {
 		Undergraduate Program
 	      </Box>
 	    </Typography>
-	    <Box component="span" fontSize="1.2em" gutterBottom>
+	    <Box component="span" fontSize="1.2rem" gutterBottom>
 	      The admission to Undergraduate Programs is done through JEE Mains. The JEE-Mains qualified candidates are
 	      admitted to UG program through Centralized Seat Allocation Board (CSAB) and Joint Seat Allocation Authority
 	      (JoSAA) following the reservation policy of Government of India.
 	    </Box>
 	    <Typography className={classes.sectionPadding}>
-	      <Box component="span" fontSize="1.2em">
+	      <Box component="span" fontSize="1.2rem">
 		IIIT Trichy offers the following two&nbsp;
 		<Box component="span" fontWeight="fontWeightBold">
 		  Undergraduate Programs
@@ -66,12 +66,12 @@ export default function AdmissionFeeStructure() {
 	    </Typography>
 	    <ul className={classes.list}>
 	      <li>
-		<Box component="span" fontSize="1.2em">
+		<Box component="span" fontSize="1.2rem">
 		  Computer Science and Engineering (4 years, Bachelor of Technology)
 		</Box>
 	      </li>
 	      <li>
-		<Box component="span" fontSize="1.2em">
+		<Box component="span" fontSize="1.2rem">
 		  Electronics and Communication Engineering (4 years, Bachelor of Technology)
 		</Box>
 	      </li>
