@@ -41,7 +41,7 @@ const createStyles = makeStyles({
 
 export default function Clubs() {
   useEffect(() => {
-    document.getElementsByTagName("title")[0].innerHTML = "Festivals";
+    document.getElementsByTagName("title")[0].innerHTML = "Clubs";
   }, []);
 
   useEffect(() => {
