@@ -152,6 +152,11 @@ function App() {
     loading: () => loading,
   })
 
+  const RTI = Loadable({
+    loader: () => import("./pages/rti/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -189,6 +194,7 @@ function App() {
 	<Route path="/senate" component={Senate} />
 	<Route path="/fc" component={Fc} />
 	<Route path="/bwc" component={BWC} />
+	<Route path="/rti" component={RTI} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
