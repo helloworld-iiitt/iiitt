@@ -132,6 +132,26 @@ function App() {
     loading: () => loading,
   })
 
+  const BoG = Loadable({
+    loader: () => import("./pages/bog/index"),
+    loading: () => loading,
+  })
+
+  const Senate = Loadable({
+    loader: () => import("./pages/senate/index"),
+    loading: () => loading,
+  })
+
+  const Fc = Loadable({
+    loader: () => import("./pages/fc/index"),
+    loading: () => loading,
+  })
+
+  const BWC = Loadable({
+    loader: () => import("./pages/bwc/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -165,6 +185,10 @@ function App() {
 	<Route path="/festivals" component={Festivals} />
 	<Route path="/clubs" component={Clubs} />
 	<Route path="/contactus" component={ContactUs} />
+	<Route path="/bog" component={BoG} />
+	<Route path="/senate" component={Senate} />
+	<Route path="/fc" component={Fc} />
+	<Route path="/bwc" component={BWC} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
