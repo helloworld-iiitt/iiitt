@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "name": "Web Devs Club",
+      "motto": "Not spiders, but the best web developers are found here.",
+      "facultyIncharge": "Dr. Anoop Jacob Thomas",
+      "header": ["Year", "Name"],
+      "students": [
+	{
+	  "year": "IV",
+	  "name": "Fahim Ali Zain"
+	},
+	{
+	  "year": "III",
+	  "name": "Fahad Israr"
+	},
+	{
+	  "year": "II",
+	  "name": "Sarat Chandra"
+	},
+	{
+	  "year": "I",
+	  "name": "Yashdeep"
+	}
+      ]
+    },
+    {
+      "name": "Web Devs Club",
+      "motto": "Not spiders, but the best web developers are found here.",
+      "facultyIncharge": "Dr. Anoop Jacob Thomas",
+      "header": ["Year", "Name"],
+      "students": [
+	{
+	  "year": "IV",
+	  "name": "Fahim Ali Zain"
+	},
+	{
+	  "year": "III",
+	  "name": "Fahad Israr"
+	},
+	{
+	  "year": "II",
+	  "name": "Sarat Chandra"
+	},
+	{
+	  "year": "I",
+	  "name": "Yashdeep"
+	}
+      ]
+    },
+    {
+      "name": "Web Devs Club",
+      "motto": "Not spiders, but the best web developers are found here.",
+      "facultyIncharge": "Dr. Anoop Jacob Thomas",
+      "header": ["Year", "Name"],
+      "students": [
+	{
+	  "year": "IV",
+	  "name": "Fahim Ali Zain"
+	},
+	{
+	  "year": "III",
+	  "name": "Fahad Israr"
+	},
+	{
+	  "year": "II",
+	  "name": "Sarat Chandra"
+	},
+	{
+	  "year": "I",
+	  "name": "Yashdeep"
+	}
+      ]
+    },
+    {
+      "name": "Sports Club",
+      "motto": "Not spiders, but the best web developers are found here.",
+      "facultyIncharge": "",
+      "header": ["Year", "Volunteers/Captains", "Name of the game"],
+      "students": [
+	{
+	  "year": "III",
+	  "name": "B Sai Teja Reddy",
+	  "game": "Volley Ball"
+	},
+	{
+	  "year": "III",
+	  "name": "M Sai Teja",
+	  "game": "Cricket"
+	},
+	{
+	  "year": "III",
+	  "name": "Amruth Kuntamalla",
+	  "game": "Badminton"
+	},
+	{
+	  "year": "III",
+	  "name": "S Bala Tejo Kiran",
+	  "game": "Chess"
+	}
+      ]
+    }
+  ]
+}

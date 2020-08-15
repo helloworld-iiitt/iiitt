@@ -107,6 +107,56 @@ function App() {
     loading: () => loading,
   });
 
+  const Undergraduate = Loadable({
+    loader: () => import("./pages/undergraduate/index"),
+    loading: () => loading,
+  });
+
+  const Faq = Loadable({
+    loader: () => import("./pages/faqs/index"),
+    loading: () => loading,
+  });
+
+  const Festivals = Loadable({
+    loader: () => import("./pages/festivals/index"),
+    loading: () => loading,
+  })
+
+  const Clubs = Loadable({
+    loader: () => import("./pages/clubs/index"),
+    loading: () => loading,
+  })
+
+  const ContactUs = Loadable({
+    loader: () => import("./pages/contactus/index"),
+    loading: () => loading,
+  })
+
+  const BoG = Loadable({
+    loader: () => import("./pages/bog/index"),
+    loading: () => loading,
+  })
+
+  const Senate = Loadable({
+    loader: () => import("./pages/senate/index"),
+    loading: () => loading,
+  })
+
+  const Fc = Loadable({
+    loader: () => import("./pages/fc/index"),
+    loading: () => loading,
+  })
+
+  const BWC = Loadable({
+    loader: () => import("./pages/bwc/index"),
+    loading: () => loading,
+  })
+
+  const RTI = Loadable({
+    loader: () => import("./pages/rti/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -135,6 +185,16 @@ function App() {
 	<Route path="/curriculum" component={Curriculum} />
 	<Route path="/calendar" component={Calendar} />
 	<Route path="/holidays" component={Holidays} />
+	<Route path="/undergraduate" component={Undergraduate} />
+	<Route path="/faq" component={Faq} />
+	<Route path="/festivals" component={Festivals} />
+	<Route path="/clubs" component={Clubs} />
+	<Route path="/contactus" component={ContactUs} />
+	<Route path="/bog" component={BoG} />
+	<Route path="/senate" component={Senate} />
+	<Route path="/fc" component={Fc} />
+	<Route path="/bwc" component={BWC} />
+	<Route path="/rti" component={RTI} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
