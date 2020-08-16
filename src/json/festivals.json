@@ -26,8 +26,17 @@
       "links": [
       ],
       "images": [
-	{"name": "Kabaddi", "path": "sports-day-6.jpg"},
-	{"name": "Cricket", "path": "sports-day-9.jpg"}
+  {"name": "Cricket", "path": "sports-day-1.jpg"},
+  {"name": "Cricket", "path": "sports-day-2.jpg"},
+  {"name": "Football", "path": "sports-day-3.jpg"},
+  {"name": "Volleyball", "path": "sports-day-4.jpg"},
+  {"name": "Basketball", "path": "sports-day-5.jpg"},
+  {"name": "Kabaddi", "path": "sports-day-6.jpg"},
+  {"name": "Chess", "path": "sports-day-7.jpg"},
+  {"name": "Badminton", "path": "sports-day-8.jpg"},
+  {"name": "Cricket Team", "path": "sports-day-9.jpg"},
+  {"name": "Volleyball Team", "path": "sports-day-10.jpg"},
+  {"name": "volleyball Team", "path": "sports-day-11.jpg"}
       ]
     },
     {

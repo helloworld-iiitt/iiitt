@@ -14,6 +14,96 @@
       "name": "Dr. N. Kumaresan",
       "designation": "Professor of EEE -NITT",
       "senate": "Special Invitee"
+    },
+    {
+      "name": "Dr. P. Raja",
+      "designation": "Associate Professor of EEE- NITT",
+      "senate": "Special Invitee"
+    },
+    {
+      "name": "Dr. J. Jerald",
+      "designation": "Associate Professor of Production Engg- NITT",
+      "senate": "Special Invitee"
+    },
+    {
+      "name": "Dr. Rajeshwari Sridhar",
+      "designation": "Head, CSE, NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. Muthuchidambaranathan",
+      "designation": "Head, ECE, NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. R. Joseph Ponniah",
+      "designation": "Head, Humanities Dept. NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. V. Lakshmana Gomathi Nayagam",
+      "designation": "Head, Mathematics , NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. M. Ashok",
+      "designation": "Head, Physics, NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. S. Velmathi",
+      "designation": "Head, Chemistry, NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. M. S. Bhat",
+      "designation": "Professor of ECE -NIT Suratkal",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. O. Uma Maheswari",
+      "designation": "Professor, ECE, Anna University",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. Janakiraman",
+      "designation": "Professor, CSE, IITM Chennai",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. Devendra Jalihal",
+      "designation": "Professor of EE IIIM, Chennai",
+      "senate": "Member"
+    },
+    {
+      "name": "Prof. Banshidhar Majhi",
+      "designation": "Director, IIITDM Kancheepuram",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. Leela Velusamy",
+      "designation": "Professor, Dept. of CSE, NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. D. Sriramkumar",
+      "designation": "Professor, Dept. of ECE, NITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Shri. Vasu Uppli",
+      "designation": "Business Head, TCS",
+      "senate": "Member"
+    },
+    {
+      "name": "Shri. Balaji Sethuraman",
+      "designation": "Asst. Vice President Global Delivery - Automation Leader",
+      "senate": "Member"
+    },
+    {
+      "name": "Ms. Symala Natarajan",
+      "designation": "Shyamala Jayaraman Senior Vice President Ramco Systems, Chennai",
+      "senate": "Member"
     }
   ]
 }
