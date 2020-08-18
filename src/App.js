@@ -210,9 +210,6 @@ function App() {
 	<Route path="/fc" component={Fc} />
 	<Route path="/bwc" component={BWC} />
 	<Route path="/rti" component={RTI} />
-	<Route path="/industry_partners" component={Partners} />
-	<Route path="/director" component={Director} />
-	<Route path="/registrar" component={Registrar} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
