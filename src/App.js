@@ -157,6 +157,11 @@ function App() {
     loading: () => loading,
   })
 
+  const Partners = Loadable({
+    loader: () => import("./pages/partners/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -195,6 +200,7 @@ function App() {
 	<Route path="/fc" component={Fc} />
 	<Route path="/bwc" component={BWC} />
 	<Route path="/rti" component={RTI} />
+	<Route path="/industry_partners" component={Partners} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
