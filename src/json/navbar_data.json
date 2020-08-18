@@ -9,8 +9,12 @@
 	  "link":"/about"
 	},
 	{
-	  "text":"Administration",
-	  "link":"/administration"
+	  "text":"Director",
+	  "link":"/director"
+	},
+	{
+	  "text":"Registrar",
+	  "link":"/registrar"
 	},
 	{
 	  "text":"BoG",
