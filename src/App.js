@@ -172,6 +172,11 @@ function App() {
     loading: () => loading,
   })
 
+  const GenderData = Loadable({
+    loader: () => import("./pages/genderdata/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -213,6 +218,7 @@ function App() {
 	<Route path="/industry_partners" component={Partners} />
 	<Route path="/director" component={Director} />
 	<Route path="/registrar" component={Registrar} />
+	<Route path="/genderwisedata" component={GenderData} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>

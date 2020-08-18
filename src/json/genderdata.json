@@ -1,0 +1,22 @@
+{
+  "btech": {
+    "cse": {
+      "boys": 85,
+      "girls": 7
+    },
+    "ece": {
+      "boys": 82,
+      "girls": 9
+    }
+  },
+  "faculty": {
+    "regular": {
+      "male": 8,
+      "female": 6
+    },
+    "temporary": {
+      "male": 1,
+      "female": 2
+    }
+  }
+}

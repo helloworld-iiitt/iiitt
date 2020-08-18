@@ -79,6 +79,10 @@
 	{
 	  "text":"Staff",
 	  "link":"/staff"
+	},
+	{
+	  "text":"Gender wise Data",
+	  "link":"/genderwisedata"
 	}
       ]
     },
