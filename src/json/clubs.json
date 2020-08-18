@@ -25,14 +25,14 @@
       ]
     },
     {
-      "name": "Web Devs Club",
-      "motto": "Not spiders, but the best web developers are found here.",
-      "facultyIncharge": "Dr. Anoop Jacob Thomas",
+      "name": "Competitive Coding Club",
+      "motto": "Competitive coding is a game. You practice and get better everyday.",
+      "facultyIncharge": "Dr. G.Devasena",
       "header": ["Year", "Name"],
       "students": [
 	{
 	  "year": "IV",
-	  "name": "Fahim Ali Zain"
+	  "name": "Raunak Kumar"
 	},
 	{
 	  "year": "III",
@@ -40,38 +40,254 @@
 	},
 	{
 	  "year": "II",
-	  "name": "Sarat Chandra"
+	  "name": "Akhil Gupta"
 	},
 	{
 	  "year": "I",
-	  "name": "Yashdeep"
+	  "name": "Madisetti Venu Sa"
 	}
       ]
     },
     {
-      "name": "Web Devs Club",
-      "motto": "Not spiders, but the best web developers are found here.",
-      "facultyIncharge": "Dr. Anoop Jacob Thomas",
+      "name": "Robotix Club",
+      "motto": "Building robots is a daily task for them.",
+      "facultyIncharge": "Dr. M.Senthil Sivakumar & Dr. R.KrishnaMurthy",
       "header": ["Year", "Name"],
       "students": [
 	{
 	  "year": "IV",
-	  "name": "Fahim Ali Zain"
+	  "name": "Sai Kumar"
 	},
 	{
 	  "year": "III",
-	  "name": "Fahad Israr"
+	  "name": "Vikas"
 	},
 	{
 	  "year": "II",
-	  "name": "Sarat Chandra"
+	  "name": "S. Lavanya"
 	},
 	{
 	  "year": "I",
-	  "name": "Yashdeep"
+	  "name": "Rishitej Yadav Pallapothu"
 	}
       ]
-    },
+	},
+	{
+		"name": "Circuits Club",
+		"motto": "Yeah, these people play with current and signals!",
+		"facultyIncharge": "Dr. Suresh Balanethiram",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Sumith Gali>"
+			},
+			{
+				"year": "III",
+				"name": "Hitesh Atluri"
+			},
+			{
+				"year": "II",
+				"name": "Vishwas"
+			},
+			{
+				"year": "I",
+				"name": "Rahul Rajak"
+			}
+		]
+	},
+	{
+		"name": "IOT Club",
+		"motto": "You see that chair, soon it will be connected to the internet!",
+		"facultyIncharge": "Dr. M.Senthil Sivakumar & Dr. R.KrishnaMurthy",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Pankaj Kumar"
+			},
+			{
+				"year": "III",
+				"name": "Akshay Kumar Jha"
+			},
+			{
+				"year": "II",
+				"name": "M. Manoj"
+			},
+			{
+				"year": "I",
+				"name": "Siddharth Sahu"
+			}
+		]
+	},
+	{
+		"name": "Photography Club",
+		"motto": "Lights. Camera. Shoot!",
+		"facultyIncharge": "Dr. C.Velmurugan",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Preetham"
+			},
+			{
+				"year": "III",
+				"name": "Deepak"
+			},
+			{
+				"year": "II",
+				"name": "Nishit Mangal"
+			},
+			{
+				"year": "I",
+				"name": "Pithani Aditya Venkatesh"
+			}
+		]
+	},
+	{
+		"name": "Literary and Debating Club",
+		"motto": "Et tu, Brute?",
+		"facultyIncharge": "Dr. V. Sindhu",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Vandana"
+			},
+			{
+				"year": "III",
+				"name": "Hitesh Atluri"
+			},
+			{
+				"year": "II",
+				"name": "Adeep Hande"
+			},
+			{
+				"year": "I",
+				"name": "Vemuri Bhavana"
+			}
+		]
+	},
+	{
+		"name": "Fine Arts Club",
+		"motto": "The most loving and caring people can easily be found here.",
+		"facultyIncharge": "Dr. N.Renugadevi",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Sai Sri Varsha"
+			},
+			{
+				"year": "III",
+				"name": "Hitesh Daksh"
+			},
+			{
+				"year": "II",
+				"name": "Abhishek"
+			},
+			{
+				"year": "I",
+				"name": "Palle Siri Vennela"
+			}
+		]
+	},
+	{
+		"name": "Science Club",
+		"motto": "A place for Interesting and Scientific stuff.",
+		"facultyIncharge": "Dr.K. Kamakshi & Dr. Jagadeeshwarar Pashikanti",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Hemanth Kumar"
+			},
+			{
+				"year": "III",
+				"name": "Akshay Kumar Jha"
+			},
+			{
+				"year": "II",
+				"name": "Varun Reddy Talasani"
+			},
+			{
+				"year": "I",
+				"name": "Shubham Kumar Bhagat"
+			}
+		]
+	},
+	{
+		"name": "EBSB(Ek Bharat Shresta Bharat) Club",
+		"motto": "Volunteers for a United India",
+		"facultyIncharge": "Dr. Rinshu Dwivedi",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Mary Priyanka Jacob"
+			},
+			{
+				"year": "III",
+				"name": "Nunna Lakshmi Saranya"
+			},
+			{
+				"year": "II",
+				"name": "Auchitya"
+			},
+			{
+				"year": "I",
+				"name": "Rituraj Raj Singh"
+			}
+		]
+	},
+	{
+		"name": "Computer Networking & Security",
+		"motto": "A Place For Future Security Experts",
+		"facultyIncharge": "Dr. N.Renugadevi",
+		"header": [
+			"Year",
+			"Name"
+		],
+		"students": [
+			{
+				"year": "IV",
+				"name": "Hemanth Bobbadi"
+			},
+			{
+				"year": "III",
+				"name": "Amruth Kuntamalla"
+			},
+			{
+				"year": "II",
+				"name": "Yasaswini"
+			},
+			{
+				"year": "I",
+				"name": "Mayukh Pankaj>"
+			}
+		]
+	},
     {
       "name": "Sports Club",
       "motto": "Not spiders, but the best web developers are found here.",
@@ -97,6 +313,51 @@
 	  "year": "III",
 	  "name": "S Bala Tejo Kiran",
 	  "game": "Chess"
+	},
+	{
+		"year": "IV",
+		"name": "B Hemanth",
+		"game": "Football"
+	},
+	{
+		"year": "III",
+		"name": "Sumit Nimborkar",
+		"game": "Basket Ball"
+	},
+	{
+		"year": "IV",
+		"name": "Juthuga Sai Sree",
+		"game": "Throw Ball"
+	},
+	{
+		"year": "III",
+		"name": "Atluri Hitesh",
+		"game": "Kabaddi"
+	},
+	{
+		"year": "IV",
+		"name": "K Deepankar",
+		"game": "Table Tennis"
+	},
+	{
+		"year": "III",
+		"name": "S Pruthvi Raj",
+		"game": "Carroms"
+	},
+	{
+		"year": "III",
+		"name": "K Druva Teja",
+		"game": "Kho-Kho"
+	},
+	{
+		"year": "IV",
+		"name": "Jagga Gowtham",
+		"game": "Power Lifting"
+	},
+	{
+		"year": "III",
+		"name": "Nikit Raghuvanshi",
+		"game": "Individual Events"
 	}
       ]
     }
