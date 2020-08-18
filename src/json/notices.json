@@ -1,34 +1,124 @@
 {
   "data": [
     {
-      "title": "Notice 1",
+      "title": "List of selected candidates for Ph.D",
       "date": "01/01/2020",
-      "link": "AR-committee.pdf",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "link": "Final_Ph.D_2020_selected_list.pdf",
+      "description": "List of selected candidates for Ph.D"
     },
     {
-      "title": "Notice 2",
+      "title": "74th Independence Day celebration",
       "date": "18/10/2020",
-      "link": "CancellationForm.docx",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "link": "74thIndependenceDayCelebrations_circular.pdf",
+      "description": "74th Independence Day celebration"
     },
     {
-      "title": "Notice 3",
+      "title": "Ph.D Fee structure 2020 (With fine)",
       "date": "05/07/2020",
-      "link": "Fee Structure 2019-20.pdf",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "link": "Ph.D_fee_structure_2020_with_fine.pdf",
+      "description": "Ph.D Fee structure 2020 (With fine)"
     },
     {
-      "title": "Notice 4",
+      "title": "COVID-19 Notice-10",
       "date": "01/07/2020",
-      "link": "OpeningandClosingRank.pdf",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "link": "COVID19_Notice10.pdf",
+      "description": "COVID-19 Notice-10"
     },
     {
-      "title": "Notice 5",
+      "title": "Academic Calendar ODD Sem 2020-21",
       "date": "01/08/2020",
-      "link": "ReportingDetails_IIITT_2019-20.pdf",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "link": "Academic_CalendarODD_Semester_2020-2021.pdf",
+      "description": "Academic Calendar ODD Sem 2020-21"
+    },
+    {
+      "title": "Fee Structure ODD Sem 2020-21",
+      "date": "01/08/2020",
+      "link": "Fee_Structure_ODD_2020-2021.pdf",
+      "description": "Fee Structure ODD Sem 2020-21"
+    },
+    {
+      "title": "Internship Review and Industrial Lecture Exam schedule",
+      "date": "01/08/2020",
+      "link": "19-20-S2-VI-INTERN-INDUSLECTURE.pdf",
+      "description": "Internship Review and Industrial Lecture Exam schedule"
+    },
+    {
+      "title": "Lab exam schedule",
+      "date": "01/08/2020",
+      "link": "19-20-S2-ALL-END-LAB-FINAL.pdf",
+      "description": "Lab exam schedule"
+    },
+    {
+      "title": "Regular exam instructions",
+      "date": "01/08/2020",
+      "link": "19-20-S2-Regular-exam-Instructions2.pdf",
+      "description": "Regular exam instructions"
+    },
+    {
+      "title": "Supplementary exam instructions",
+      "date": "01/08/2020",
+      "link": "19-20-S2-Supply-exam-Instructions2.pdf",
+      "description": "Supplementary exam instructions"
+    },
+    {
+      "title": "Examination Timetable IV and VI Semester",
+      "date": "01/08/2020",
+      "link": "19-20-S2-Timetable-IVandVISemwithoutR_No.pdf",
+      "description": "Examination Timetable IV and VI Semester"
+    },
+    {
+      "title": "Examination Timetable II Semester",
+      "date": "01/08/2020",
+      "link": "19-20-S2-Timetable-IISem.pdf",
+      "description": "Examination Timetable II Semester"
+    },
+    {
+      "title": "Supplementary Examination Schedule",
+      "date": "01/08/2020",
+      "link": "19-20-S2-Supplementary_schedule2.pdf",
+      "description": "Supplementary Examination Schedule"
+    },
+    {
+      "title": "Lab Examinations (Even Semester) Schedule (Tentative)",
+      "date": "01/08/2020",
+      "link": "19-20-S2-ALL-END-LAB-TENTATIVE.pdf",
+      "description": "Lab Examinations (Even Semester) Schedule (Tentative)"
+    },
+    {
+      "title": "End Semester Examinations (Even Semester) Schedule (Tentative) Regular and Supplementary",
+      "date": "01/08/2020",
+      "link": "19-20-S2-ALL-END-REG-SUPPLEMENTARY-TENTATIVE.pdf",
+      "description": "End Semester Examinations (Even Semester) Schedule (Tentative) Regular and Supplementary"
+    },
+    {
+      "title": "COVID-19 Notice-9",
+      "date": "01/08/2020",
+      "link": "COVID19_Notice9.pdf",
+      "description": "COVID-19 Notice-9"
+    },
+    {
+      "title": "Social_Distancing_Circular",
+      "date": "01/08/2020",
+      "link": "Social_Distancing_Circular.pdf",
+      "description": "Social_Distancing_Circular"
+    },
+    {
+      "title": "Exemption from Biometric attendance",
+      "date": "01/08/2020",
+      "link": "Biometric_Exemption-2020.pdf",
+      "description": "Exemption from Biometric attendance"
+    },
+    {
+      "title": "CGPA to Percentage Conversion",
+      "date": "01/08/2020",
+      "link": "CGPA.pdf",
+      "description": "CGPA to Percentage Conversion"
+    },
+    {
+      "title": "LeaveForm",
+      "date": "01/08/2020",
+      "link": "LeaveForm.pdf",
+      "description": "LeaveForm"
     }
   ]
 }
