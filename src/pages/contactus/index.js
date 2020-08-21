@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from '../../components/navbar/index'
 import Footer from '../../components/footer/index'
+import Iframe from 'react-iframe'
 import { Typography, Grid, Box } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
@@ -85,11 +86,11 @@ export default function ContactUs() {
 	      Tiruchirappalli is an important junction on the Southern Railway. It connects Chennai, Thanjavur, Madurai, Tirupati, Rameswaram, Bengaluru, Coimbatore, Kolkata, Jammu, New Delhi, Cochin and Mangalore.
 	      It has an international airport, and is connected with Chennai, Dubai, Kuala Lumpur, Singapore and Colombo.
 	    </Typography>
-	    {/*
-	    <div className={classes.map}>
-	      <iframe src="http://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9221.063529846686!2d78.65288163433289!3d10.788158321446737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa5ff42ca07773%3A0x8142614ddb45a74c!2sOxford%20Engineering%20College!5e0!3m2!1sen!2sin!4v1597141616856!5m2!1sen!2sin" width="600" height="450" frameBorder="0" style="border:0;" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
-	    </div>
-	    */}
+	    {
+	      <div className={classes.map}>
+		<Iframe src="http://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9221.063529846686!2d78.65288163433289!3d10.788158321446737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa5ff42ca07773%3A0x8142614ddb45a74c!2sOxford%20Engineering%20College!5e0!3m2!1sen!2sin!4v1597141616856!5m2!1sen!2sin" width="600" height="450" frameBorder="0" style="border:0;" allowFullScreen="" aria-hidden="false" tabIndex="0"></Iframe>
+	      </div>
+	    }
 	  </section>
 	  <section className={classes.sectionPadding}>
 	    <Typography component="h5" gutterBottom className={classes.themeText}>
