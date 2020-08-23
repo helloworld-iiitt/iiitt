@@ -58,7 +58,7 @@ export default function Notices() {
 	<Grid xs={12} sm={10} item>
 	  <Typography variant="h2" component="h2" gutterBottom className={classes.themeText}>
 	    <Box component="span" fontWeight={380}>
-	      New Notices
+	      Notices
 	    </Box>
 	  </Typography>
 	  <ul className="doclist">
