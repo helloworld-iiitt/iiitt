@@ -36,7 +36,7 @@ const createStyles = makeStyles({
 
 export default function GenderData() {
   useEffect(() => {
-    document.getElementsByTagName("title")[0].innerHTML = "Fee Structure";
+    document.getElementsByTagName("title")[0].innerHTML = "Gender wise data";
   }, []);
 
   useEffect(() => {
