@@ -1,37 +1,51 @@
 {
   "data": [
     {
-      "name": "Tender 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "name": "Tender for Laptop - June 2020",
+      "description": "Tender for Laptop - June 2020",
       "url": "Tender_Laptops_2020_2.pdf",
       "open": true,
       "date": "01/01/2020"
     },
     {
-      "name": "Tender 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "url": "Tender_Laptops_2020_2.pdf",
-      "open": true,
-      "date": "01/03/2020"
-    },
-    {
-      "name": "Tender 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "url": "Tender_Laptops_2020_2.pdf",
+      "name": "IIITT/Tender for Laptop/2020",
+      "description": "Tender for Laptop",
+      "url": "Tender_Laptops-2020.pdf",
       "open": false,
       "date": "01/05/2020"
     },
     {
-      "name": "Tender 4",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "url": "Tender_Laptops_2020_2.pdf",
+      "name": "IIITT/Tender for Hiring of Vehicles/2019",
+      "description": "Tender for Hiring of Vehicles",
+      "url": "VEHICLE-TENDER-04-07-2019.pdf",
       "open": false,
       "date": "01/01/2020"
     },
     {
-      "name": "Tender 5",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "url": "Tender_Laptops_2020_2.pdf",
+      "name": "IIITT/Tender for Air Conditioner/2019",
+      "description": "Tender for Air Conditioner",
+      "url": "AC_Tender.pdf",
+      "open": false,
+      "date": "01/01/2020"
+    },
+    {
+      "name": "IIITT/MS Office & Imagine-Quote Call for/2018",
+      "description": "Tender for Office Std 2016 SNGL OLP NL Acdmc (Office Standard 2016 Single Open No level Academic) Microsoft Imagine Premium subscription (formerly known as Microsoft Dreamspark Premium) May 16, 2018",
+      "url": "MS_Office_&_OS_Tender_Notification.pdf",
+      "open": false,
+      "date": "01/01/2020"
+    },
+    {
+      "name": "IIITT/Student desk-Quote Call for/2018",
+      "description": "Tender for Steel bench & Desk Top; Wooden Novopen top with back rest, steel center plate full cover with attachment, May 10, 2018",
+      "url": "Student_desk_Tender_Notification.pdf",
+      "open": false,
+      "date": "01/01/2020"
+    },
+    {
+      "name": "IIITT/QUOTATION/01/ACTIVE-PASSIVE-SERVICES/MAY-2017",
+      "description": "Quotation for Active Components [Networking], Passive Components and Provision of Services, May 26, 2017.",
+      "url": "IIITT-Quotation-Active-Passive-Components.pdf",
       "open": false,
       "date": "01/01/2020"
     }
