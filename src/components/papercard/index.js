@@ -10,8 +10,8 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     '& > *': {
       margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(16),
+      maxWidth: theme.spacing(70),
+      height: theme.spacing(77)
     },
   },
 }));
@@ -22,7 +22,7 @@ export default function PaperCard(props) {
   return (
     <div className={classes.root}>
       <Paper elevation={3} >
-          <OutlinedCard title={props.title} items={props.items}/>
+	<OutlinedCard title={props.title} items={props.items}/>
       </Paper>
     </div>
   );

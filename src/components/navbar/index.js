@@ -50,42 +50,42 @@ export default class Navbar extends React.Component{
 
 
 
-    render(){
-      //Building from json/navbar_data.json file
-      //For Icons get the icon-name from https://material.io/resources/icons/?style=baseline  and then put out there
+  render(){
+    //Building from json/navbar_data.json file
+    //For Icons get the icon-name from https://material.io/resources/icons/?style=baseline  and then put out there
 
-        return(
-        <div className="navbar">
-        <img src={require('../../images/textlogo.png')} alt="IIITT Text Logo" className="iiitt_logo"/>
-        <div className={this.classes.root}>
-        <AppBar position="static">
-            <Toolbar id="mobile_navbar">
+    return(
+      <div className="navbar">
+	<img src={require('../../images/textlogo.png')} alt="IIITT Text Logo" className="iiitt_logo"/>
+	<div className={this.classes.root}>
+	  <AppBar position="static">
+	    <Toolbar id="mobile_navbar">
 
-              {/*Navbar Mobile Icons Start here */}
-                <TemporaryDrawer items={navbar_data.data}/>
-                <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
-                  IIIT TRICHY
-                </Typography>
+	      {/*Navbar Mobile Icons Start here */}
+	      <TemporaryDrawer items={navbar_data.data}/>
+	      <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
+
+	      </Typography>
 
 
-              {/*Navbar Mobile Ends here */}
+	      {/*Navbar Mobile Ends here */}
 
-            </Toolbar>
+	    </Toolbar>
 
-            <Toolbar id="desktop_menu">
-              {/*Navbar @Desktop start here*/}
+	    <Toolbar id="desktop_menu">
+	      {/*Navbar @Desktop start here*/}
 	      { <HomeIcon color="white"/> }
-            {navbar_data.data.map(item=>(
-            <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
-            ))}
-            {/*Navbar @Desktop Ends here */}
-            </Toolbar>
+	      {navbar_data.data.map(item=>(
+		<MenuListComposition nav_head={item.text} submenu={item.submenu}/>
+	      ))}
+	      {/*Navbar @Desktop Ends here */}
+	    </Toolbar>
 
 
-        </AppBar>
-        </div>
-        </div>
+	  </AppBar>
+	</div>
+      </div>
 
-        );
-    }
+    );
+  }
 }

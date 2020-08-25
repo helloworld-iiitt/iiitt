@@ -45,8 +45,6 @@ export default function OutlinedCard(props) {
 		<Typography variant="caption" color="textSecondary" gutterBottom>
 		  Posted:{item.date}
 		</Typography>
-
-
 	      </li>
 	    )
 	  })}
