@@ -87,3 +87,26 @@ jobs:
 
     - name: Deploy to Surge
       run:  surge ./build https://iiittf.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      
+  build-for-nitish:
+    if: github.actor=='thisisnitish'
+    name: Deploy for PR by Nitish Kumar
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Node
+      uses: actions/setup-node@v2-beta
+      with:
+          node-version: 12
+
+    - name: Build React App
+      run: |
+        npm install # Install Dependencies
+        CI=false npm run build # CI=false to ignore warnings
+    - name: Install Surge
+      run: npm install -g surge
+
+    - name: Deploy to Surge
+      run:  surge ./build https://iiittn.surge.sh/ --token 412b09b7f5940cdf5e89d18fa4dcb3a3
