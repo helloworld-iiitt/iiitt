@@ -59,12 +59,6 @@ export default function Director() {
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10} >
-	  <Typography variant="h2" component="h2" gutterBottom className={classes.themeText}>
-	    <Box component="span" fontWeight={380}>
-	      Deputy Registrar, IIIT Trichy
-	    </Box>
-	  </Typography>
-	  <br />
 	  <Grid item xs={12} sm={4} className={classes.info}>
 	    <Card className={classes.card}>
 	      <CardMedia
