@@ -8,6 +8,7 @@ import Marquee from '../../components/marquee/index'
 import Footer from '../../components/footer/index'
 import Divider from '@material-ui/core/Divider';
 import news from '../../json/news.json';
+import events from '../../json/events.json';
 import notices from '../../json/notices.json'
 import './style.css'
 import carouselData from '../../json/homeCarousel.json'
@@ -34,7 +35,7 @@ export default class Home extends React.Component{
 
 	<div className="only_on_desktop customeflex" id="info">
 	  <PaperCard title="News" items={news.data}/>
-	  <PaperCard title="Events" items={news.data}/>
+	  <PaperCard title="Events" items={events.data}/>
 	  <PaperCard title="Notice" items={noticeData.slice(0, Math.min(5, noticeData.length))}/>
 	</div>
 
@@ -45,8 +46,8 @@ export default class Home extends React.Component{
 
 	  <div className="only_on_mobile customeflex" id="info_mob">
 	    <PaperCard title="News" items={news.data}/>
-	    <PaperCard title="Notice" items={news.data}/>
-	    <PaperCard title="Events" items={noticeData.slice(0, Math.min(5, noticeData.length))}/>
+	    <PaperCard title="Events" items={events.data}/>
+	    <PaperCard title="Notice" items={noticeData.slice(0, Math.min(5, noticeData.length))}/>
 	  </div>
 	</div>
 	<Footer/>
