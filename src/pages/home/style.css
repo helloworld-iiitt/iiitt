@@ -36,7 +36,8 @@
 
 .twittertimeline, .tabbedPane, .achievements {
   margin: 1.5rem 0.3rem;
-  width: 30%;
+  width: 33%;
+  min-height: 680px;
 }
 
 @media only screen and (max-width: 800px){

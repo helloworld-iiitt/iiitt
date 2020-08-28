@@ -20,6 +20,9 @@ const useStyle = makeStyles({
   },
   researchArea: {
     fontSize: "0.85em"
+  },
+  name: {
+    fontSize: "1.2vw"
   }
 });
 
@@ -47,7 +50,7 @@ const PersonCard = (props) => {
 	  />
 	</div>
 	<div className="content">
-	  <Typography variant="h5">{props.name}</Typography>
+	  <Typography variant="h5" className={classes.name}>{props.name}</Typography>
 	  <Typography variant="h6" className={classes.designation} gutterBottom>
 	    {props.designation}
 	  </Typography>

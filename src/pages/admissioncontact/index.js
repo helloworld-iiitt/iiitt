@@ -79,7 +79,7 @@ export default function AdmissionContact() {
 		</Grid>
 		<CardContent>
 		  <Typography variant="body" gutterBottom>
-		    <Box component="span" fontSize="2rem" gutterBottom>
+		    <Box component="span" fontSize="1.5vw" gutterBottom>
 		      {admissionIncharge.name}
 		    </Box>
 		    <br />
@@ -89,10 +89,17 @@ export default function AdmissionContact() {
 		    <br />
 		    <a href={`mailto:${admissionIncharge.emailID}`}>
 		      {admissionIncharge.emailID}
-		    </a>,&nbsp;
-		    <a href={`mailto:${admissionIncharge.emailID}`}>
-		      {admissionIncharge.emailIDSecondary}
 		    </a>
+		    {
+		      admissionIncharge.emailIDSecondary.trim() !== "" &&
+			<>
+			  ,&nbsp;
+			  <a href={`mailto:${admissionIncharge.emailID}`}>
+			    {admissionIncharge.emailIDSecondary}
+			  </a>
+			</>
+
+		    }
 		    <br />
 		    <a href={`tel:${admissionIncharge.mobileNo}`}>
 		      {admissionIncharge.mobileNo}

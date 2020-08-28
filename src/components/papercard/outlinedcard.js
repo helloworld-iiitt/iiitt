@@ -11,7 +11,7 @@ import Link from '@material-ui/core/Link';
 import './style.css'
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
+    minWidth: 237,
   },
   bullet: {
     display: 'inline-block',

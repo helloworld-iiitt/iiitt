@@ -6,7 +6,7 @@ import MainCarousel from '../../components/carousel/index';
 import MissionVision from '../../components/mission_vision/index'
 import Marquee from '../../components/marquee/index'
 import Footer from '../../components/footer/index'
-import { Divider, Tabs, Tab, Box, Typography } from '@material-ui/core';
+import { Divider, Card, Tabs, Tab, Box, Typography } from '@material-ui/core';
 import PropTypes from 'prop-types'
 // import news from '../../json/news.json';
 // import events from '../../json/events.json';
@@ -169,7 +169,9 @@ export default class Home extends React.Component{
 	    }
 	  </div>
 	  <div className="twittertimeline">
-	    <TwitterContainer src="https://twitter.com/IIITTrichy" width="576" height="680"/>
+	    <Card>
+	      <TwitterContainer src="https://twitter.com/IIITTrichy" width="576" height="680"/>
+	    </Card>
 	  </div>
 	</div>
 	<Footer/>

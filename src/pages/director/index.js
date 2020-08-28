@@ -36,7 +36,7 @@ const createStyles = makeStyles({
     margin: "0 auto"
   },
   text: {
-    fontSize: "1.3rem",
+    fontSize: "1.2rem",
     lineHeight: "1.5"
   }
 })
@@ -68,7 +68,7 @@ export default function Director() {
 	      />
 	      <CardContent>
 		<Typography variant="body" gutterBottom>
-		  <Box component="span" fontSize="2rem" gutterBottom>
+		  <Box component="span" fontSize="1.5vw" gutterBottom>
 		    DR. NARASIMHA SARMA N V S
 		  </Box>
 		  <br />

@@ -1,7 +1,7 @@
 .newshead{
   font-family: 'Playfair Display', serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 3vw;
   text-transform: uppercase;
   display: inline-block;
   line-height: 52px;
@@ -26,7 +26,6 @@ ul {
   list-style: url(../../images/pin.svg);
   list-style-position: inside;
   padding-left: 10px;
-
 }
 #simplecard {
   box-shadow: none !important;
@@ -34,4 +33,7 @@ ul {
 #simplecard ul>li>a{
   font-family: 'Playfair Display', serif;
   font-style: italic;
+}
+.card-inner {
+  paddingLeft: 0.2vw;
 }

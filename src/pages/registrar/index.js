@@ -68,7 +68,7 @@ export default function Director() {
 	      />
 	      <CardContent>
 		<Typography variant="body" gutterBottom>
-		  <Box component="span" fontSize="2rem" gutterBottom>
+		  <Box component="span" fontSize="1.5vw" gutterBottom>
 		    Shri. N. VITTOBA
 		  </Box>
 		  <br />
