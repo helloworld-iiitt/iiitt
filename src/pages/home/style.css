@@ -31,7 +31,7 @@
 }
 
 .tab {
-  min-width: "33%" !important;
+  min-width: 33% !important;
 }
 
 .twittertimeline, .tabbedPane, .achievements {
