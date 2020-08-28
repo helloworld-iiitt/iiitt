@@ -7,6 +7,11 @@
   line-height: 52px;
   margin-bottom: 5px;
 }
+ul {
+  list-style: None;
+  list-style-position: inside;
+  padding-left: 10px;
+}
 .News{
   list-style: url(../../images/news-icon.svg);
   list-style-position: inside;
@@ -16,7 +21,6 @@
   list-style: url(../../images/event_note-black-18dp.svg);
   list-style-position: inside;
   padding-left: 10px;
-
 }
 .Notices{
   list-style: url(../../images/pin.svg);

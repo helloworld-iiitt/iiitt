@@ -30,12 +30,13 @@
   justify-content: space-around;
 }
 
-.tabbedPane {
-  padding: 1.5rem;
+.tab {
+  min-width: "33%" !important;
 }
 
-.twittertimeline {
-  padding: 1.5rem;
+.twittertimeline, .tabbedPane, .achievements {
+  margin: 1.5rem 0.3rem;
+  width: 30%;
 }
 
 @media only screen and (max-width: 800px){
@@ -50,11 +51,9 @@
     display: flex;
     flex-direction: column;
   }
-  .tabbedPane {
-    padding: 1.5rem 0;
-  }
-  .twittertimeline {
-    padding: 1.5rem 0;
+  .twittertimeline, .tabbedPane, .achievements {
+    margin: 1.5rem 0;
+    width: 100%;
   }
 }
 
