@@ -21,7 +21,7 @@ export default class Home extends React.Component{
   render(){
     const noticeData = notices.data
     return(
-      <>
+      <div className="page-container">
 
 	<Navbar />
 	<div onMouseOver={this.enable_slide_control} className="only_on_desktop customeflex">
@@ -51,7 +51,7 @@ export default class Home extends React.Component{
 	  </div>
 	</div>
 	<Footer/>
-      </>
+      </div>
 
     );
   }

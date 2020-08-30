@@ -74,7 +74,7 @@ export default function AdmissionContact() {
   const classes = createStyles()
   var ctr = 0
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -156,6 +156,6 @@ export default function AdmissionContact() {
 	<Grid item xs={false} sm={1} />
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }

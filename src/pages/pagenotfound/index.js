@@ -38,7 +38,7 @@ export default class PageNotFound extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="page-container">
         <Navbar />
         <Grid container>
           <Grid item xs={false} sm={1} />
@@ -58,7 +58,7 @@ export default class PageNotFound extends React.Component {
           <Grid item xs={false} sm={1} />
         </Grid>
         <Footer />
-      </>
+      </div>
     )
   }
 }

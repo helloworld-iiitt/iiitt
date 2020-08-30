@@ -51,7 +51,7 @@ export default function Notices() {
   const classes = createStyles();
 
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid xs={false} sm={1} item/>
@@ -92,6 +92,6 @@ export default function Notices() {
 	<Grid xs={false} sm={1} item/>
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }

@@ -53,7 +53,7 @@ export default function Undergraduate() {
   const file = 'A3.UGRegulations.pdf'
 
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -92,6 +92,6 @@ export default function Undergraduate() {
 	</Grid>
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }

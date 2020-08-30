@@ -37,7 +37,7 @@ export default function AdmissionFeeStructure() {
   const feeStructure = 'Fee Structure 2019-20.pdf'
   const classes = createStyles()
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -57,6 +57,6 @@ export default function AdmissionFeeStructure() {
 	</Grid>
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }
