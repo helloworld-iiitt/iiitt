@@ -1,8 +1,8 @@
 .v_marquee{
-    
+
     min-width: 23% !important;
     max-height: 55vh !important;
-    
+
 }
 @media only screen and (max-width: 1400px){
     .v_marquee{
@@ -14,13 +14,13 @@
         width: 23% !important;
         max-height: 50vh;
     }
-    
+
 }
 @media only screen and (max-width: 800px) {
     .v_marquee{
         max-height: 80vh !important;
     }
-    
+
 }
 
 .v_marquee>.MuiCardContent-root{
@@ -30,13 +30,13 @@
     .v_marquee{
         max-height: 56vh !important;
     }
-    
+
 }
 @media only screen and (min-width: 1600px) {
     .v_marquee{
         max-height: 60vh !important;
     }
-    
+
 }
 .bullet{
     display: 'inline-block';

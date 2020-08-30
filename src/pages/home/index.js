@@ -25,9 +25,11 @@ export default class Home extends React.Component{
 	<Navbar />
 	<div onMouseOver={this.enable_slide_control} className="only_on_desktop customeflex">
 
-	  <MissionVision />
+     <MissionVision />
 	  <MainCarousel images={carouselData.data}/>
-	  <Marquee/>
+      <Marquee/>
+
+
 	  <br/>
 	  <br/>
 	</div>

@@ -16,18 +16,18 @@
     list-style: url(../../images/event_note-black-18dp.svg);
     list-style-position: inside;
     padding-left: 10px;
-    
+
 }
 .Notice{
     list-style: url(../../images/pin.svg);
     list-style-position: inside;
     padding-left: 10px;
-    
+
 }
 #simplecard {
     box-shadow: none !important;
 }
 #simplecard ul>li>a{
-    font-family: 'Playfair Display', serif;
+    font-family: sans-serif;
     font-style: italic;
 }

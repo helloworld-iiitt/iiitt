@@ -18,10 +18,10 @@ const useStyles = makeStyles({
     transform: 'scale(0.8)',
   },
   title: {
-    fontSize: 14,
+    fontSize: 18,
   },
   pos: {
-    marginBottom: 12,
+    marginBottom: 0,
   },
 });
 
@@ -34,39 +34,38 @@ export default function MissionVision() {
 
 <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_desktop">
       <CardContent>
-       
-       
+
+
         <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
-          Vision
+        <p>Vision</p>
         </Typography>
         <Divider />
         <Typography className={classes.pos} color="textSecondary" id="vision">
-            To achieve "World Class Excellence in Information and Communication Technology".
+            <p>To achieve "World Class Excellence in Information and Communication Technology". </p>
         </Typography>
-        
+
         <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
-          Mission
+          <p>Mission</p>
         </Typography>
         <Divider />
         <Typography className={classes.pos} color="textSecondary" gutterBottom id="mission">
-        {bull} To impart Information Technology education to students and future leaders.
-        <br/>
-        <br/>
-        {bull} To establish Center of Excellences in Information Technology.
-        <br/>
-        <br/>
-        {bull} To engage in cutting edge technology research to meet the current needs and future challenges of India and the world at large.
+        <ul>
+        <li>To impart Information Technology education to students and future leaders.</li>
+
+        <li>To establish Center of Excellences in Information Technology.</li>
+        <li>To engage in cutting edge technology research to meet the current needs and future challenges of India and the world at large. </li>
+        </ul>
         </Typography>
       </CardContent>
       <CardActions id="learn_more">
         <Button size="small">Learn More about IIIT Trichy <ArrowForwardIcon /> </Button>
       </CardActions>
     </Card >
-     
+
       <Card className={classes.root} variant="outlined" id="mission_vision" className="only_on_mobile">
       <CardContent>
-       
-       
+
+
         <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
           Vision
         </Typography>
@@ -74,7 +73,7 @@ export default function MissionVision() {
         <Typography className={classes.pos} color="textSecondary" id="vision">
             To achieve "World Class Excellence in Information and Communication Technology".
         </Typography>
-        
+
         <Typography variant="h5" component="h1" style={{color:'#3f51b5'}}>
           Mission
         </Typography>

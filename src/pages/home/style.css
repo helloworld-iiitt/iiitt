@@ -2,11 +2,11 @@
 .customeflex{
     display: flex;
     flex-wrap:wrap;
-    justify-content:space-between;
-    
+ justify-content:space-between;
+
 }
 #info{
-    
+
     margin: auto;
     margin-top: 40px;
     justify-content: space-between !important;
@@ -18,12 +18,12 @@
 }
 #info>div>div{
 width: 100% !important;
-height: 100% !important;   
+height: 100% !important;
 }
 #info_mob>div>div{
 width: 100% !important;
-height: 100% !important;    
-} 
+height: 100% !important;
+}
 
 @media only screen and (max-width: 800px){
 #info_mob>div{

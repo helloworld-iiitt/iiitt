@@ -5,7 +5,7 @@ import './style.css'
 export default class MainCarousel extends Component {
   render() {
     return (
-      <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} >
+      <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} className="carousel">
       { this.props.images.map((image)=>{
 
 	  return(

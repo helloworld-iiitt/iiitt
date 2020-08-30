@@ -1,14 +1,21 @@
-
-
+ul{
+  list-style-type: square;
+  margin-left: 1vw;
+}
+p{
+    margin-left: 1vw;
+    font-weight: bold;
+}
 #mission_vision{
-    
+
     min-width: 23% !important;
+
 }
 @media only screen and (min-width: 800px) {
     #mission_vision{
         width: 23% !important;
     }
-    
+
 }
 #mission_vision svg{
     font-size: 17px;
@@ -23,7 +30,7 @@
     #mission{
         font-size: 1.15vw !important;
     }
-  
+
 }
 @media only screen and (min-width: 1500px){
     #vision{
