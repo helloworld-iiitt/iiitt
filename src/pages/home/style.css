@@ -5,19 +5,19 @@
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: 24% 48% 24%;
-  height: 60vh;
+  height: 570px;
   justify-content: center;
 }
 
 .mission {
-  height: 60vh;
+  height: 570px;
 }
 .carousel {
-  max-height: 60vh;
+  max-height: 570px;
   margin: auto 0;
 }
 .marquee {
-  height: 60vh;
+  height: 570px;
 }
 
 @media only screen and (max-width: 800px) {
