@@ -20,19 +20,30 @@ import LocalLibraryIcon from '@material-ui/icons/LocalLibrary'
 import MenuListComposition from './desktop-items'
 import HomeIcon from './homeicon'
 import TemporaryDrawer from './drawer'
-import navbar_data from '../../json/navbar_data.json'
+// import navbar_data from '../../json/navbar_data.json'
 
 export default class Navbar extends React.Component{
-
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
+    var navbarSrc = 'navbar_data.json'
+    if (this.props && this.props.navbarSrc) {
+      console.log(this.props.navbarSrc)
+      navbarSrc = this.props.navbarSrc
+    }
     this.state={
       right: false,
       anchorEl:null,
-
+      navbarSrc: navbarSrc,
+      navbar_data: undefined
     }
   }
 
+  componentDidMount() {
+    import(`../../json/${this.state.navbarSrc}`)
+      .then(d => {
+	this.setState({navbar_data: d})
+      })
+  }
 
   classes = makeStyles((theme) => ({
     root: {
@@ -62,7 +73,12 @@ export default class Navbar extends React.Component{
 	    <Toolbar id="mobile_navbar">
 
 	      {/*Navbar Mobile Icons Start here */}
-	      <TemporaryDrawer items={navbar_data.data}/>
+	      {
+		this.state.navbar_data ?
+		  <TemporaryDrawer items={this.state.navbar_data.data}/>
+		  :
+		  <h2>Loading...</h2>
+	      }
 	      <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
 
 	      </Typography>
@@ -75,9 +91,14 @@ export default class Navbar extends React.Component{
 	    <Toolbar id="desktop_menu">
 	      {/*Navbar @Desktop start here*/}
 	      { <HomeIcon color="white"/> }
-	      {navbar_data.data.map(item=>(
-		<MenuListComposition nav_head={item.text} submenu={item.submenu}/>
-	      ))}
+	      {
+		this.state.navbar_data ?
+		  this.state.navbar_data.data.map(item=>(
+		    <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
+		  ))
+		  :
+		    <h2>Loading...</h2>
+	      }
 	      {/*Navbar @Desktop Ends here */}
 	    </Toolbar>
 

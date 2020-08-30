@@ -5,25 +5,31 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import './style.css';
-import announcements from '../../json/announcements.json';
+// import announcements from '../../json/announcements.json';
 
 
 export default class Marquee extends Component {
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
+    var announcementsSrc = 'announcements.json'
+    if (this.props && this.props.announcementsSrc) {
+      announcementsSrc = this.props.announcementsSrc
+    }
     this.state = {
       run:'',
+      announcementsSrc: announcementsSrc,
+      announcements: undefined
     };
   }
 
-
-
+  compoenentDidMount() {
+    import(`../../json/${this.state.announcementsSrc}`)
+      .then(d => this.setState({announcements: d}))
+  }
 
   render(){
     const bull = <span className="bullet">•</span>;
-
-
 
     return(
       <Card className="v_marquee" variant="outlined" >
@@ -34,7 +40,7 @@ export default class Marquee extends Component {
 	  <marquee direction="up" height="100%" id="my_marquee">
 	    <ul >
 	      {
-		announcements.data.map(item=>{
+		this.state.announcements ? this.state.announcements.data.map(item=>{
 		  return(
 		    <>
 		      <li style={{marginBottom:'5px',marginTop:'5px'}} onMouseOver={()=>document.getElementById('my_marquee').stop()}
@@ -46,7 +52,8 @@ export default class Marquee extends Component {
 
 		    </>
 		  )
-		})
+		}) :
+		  <h2>Loading...</h2>
 	      }
 	    </ul>
 	  </marquee>
