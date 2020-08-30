@@ -1,30 +1,36 @@
+.container {
+  padding: 1rem 5px;
+}
 .customeflex{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: 24% 48% 24%;
+  height: 60vh;
+  justify-content: center;
 }
 
-#info{
-  margin: auto;
-  margin-top: 40px;
-  justify-content: space-between !important;
+.mission {
+  height: 60vh;
+}
+.carousel {
+  max-height: 60vh;
+  margin: auto 0;
+}
+.marquee {
+  height: 60vh;
 }
 
-
-#info>div{
-  width: 30% !important;
-}
-#info>div>div{
-  width: 100% !important;
-  height: 100% !important;
-}
-#info_mob>div>div{
-  width: 100% !important;
-  height: 100% !important;
+@media only screen and (max-width: 800px) {
+  .customeflex {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .carousel {
+    grid-row: 1;
+  }
 }
 
 .row {
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,18 +42,12 @@
 
 .twittertimeline, .tabbedPane, .achievements {
   margin: 1.5rem 0.3rem;
-  width: 33%;
+  width: 32%;
   min-height: 680px;
+  height: 100%;
 }
 
 @media only screen and (max-width: 800px){
-  #info_mob>div{
-    width: 100% !important;
-  }
-  .customeflex {
-    width: 90vw;
-    margin: 0 auto;
-  }
   .row {
     display: flex;
     flex-direction: column;

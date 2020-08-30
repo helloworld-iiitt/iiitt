@@ -1,41 +1,48 @@
-
-
-#mission_vision{
-    
-    min-width: 23% !important;
+#mission_vision {
+  height: 100%;
 }
-@media only screen and (min-width: 800px) {
-    #mission_vision{
-        width: 23% !important;
-    }
-    
-}
+
 #mission_vision svg{
-    font-size: 17px;
+  font-size: 17px;
+}
+
+#mission, #vision {
+  font-size: 1rem;
 }
 
 
-@media only screen and (min-width: 800px) and (max-width: 1500px){
-    #vision{
-        font-size: 1.1vw !important;
+/* @media only screen and (min-width: 1000px) and (max-width: 1500px){ */
+/* #vision{ */
+/* font-size: 1rem !important; */
+/* } */
+/* #mission{ */
+/* font-size: 1rem !important; */
+/* } */
 
-    }
-    #mission{
-        font-size: 1.15vw !important;
-    }
-  
-}
-@media only screen and (min-width: 1500px){
-    #vision{
-        font-size: 1.1vw !important;
+/* } */
 
-    }
-    #mission{
-        font-size: 1.05vw !important;
-    }
+@media only screen and (min-width: 920px) and (max-width: 1100px) {
+  #vision, #mission {
+    font-size: 0.9rem;
+  }
 }
+
+@media only screen and (min-width: 800px) and (max-width: 920px) {
+  #vision, #mission {
+    font-size: 0.8rem;
+  }
+}
+
+/* @media only screen and (min-width: 1500px){ */
+/* #vision{ */
+/* font-size: 1.1vw !important; */
+/* } */
+/* #mission{ */
+/* font-size: 1.05vw !important; */
+/* } */
+/* } */
 @media only screen and (max-width: 1500px){
-    #learn_more{
-        display: none;
-    }
-    }
+  #learn_more{
+    display: none;
+  }
+}

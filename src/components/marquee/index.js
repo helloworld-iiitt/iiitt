@@ -5,17 +5,14 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import './style.css';
-// import announcements from '../../json/announcements.json';
-
 
 export default class Marquee extends Component {
 
   constructor(props){
     super(props);
     var announcementsSrc = 'announcements.json'
-    if (this.props && this.props.announcementsSrc) {
-      announcementsSrc = this.props.announcementsSrc
-    }
+    if (this.props && this.props.src)
+      announcementsSrc = this.props.src
     this.state = {
       run:'',
       announcementsSrc: announcementsSrc,
@@ -23,7 +20,7 @@ export default class Marquee extends Component {
     };
   }
 
-  compoenentDidMount() {
+  componentDidMount() {
     import(`../../json/${this.state.announcementsSrc}`)
       .then(d => this.setState({announcements: d}))
   }
@@ -32,9 +29,9 @@ export default class Marquee extends Component {
     const bull = <span className="bullet">•</span>;
 
     return(
-      <Card className="v_marquee" variant="outlined" >
+      <Card id="v_marquee" variant="outlined" >
 	<CardContent>
-	  <div className="newshead" style={{fontSize:'25px'}}>
+	  <div className="newshead" style={{fontSize:'2vw'}}>
 	    Announcements
 	  </div>
 	  <marquee direction="up" height="100%" id="my_marquee">
@@ -49,7 +46,6 @@ export default class Marquee extends Component {
 			<Link href={item.link}>{item.text}</Link>
 		      </li>
 		      <Divider />
-
 		    </>
 		  )
 		}) :

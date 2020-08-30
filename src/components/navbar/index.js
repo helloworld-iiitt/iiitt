@@ -26,9 +26,8 @@ export default class Navbar extends React.Component{
   constructor(props){
     super(props);
     var navbarSrc = 'navbar_data.json'
-    if (this.props && this.props.navbarSrc) {
-      console.log(this.props.navbarSrc)
-      navbarSrc = this.props.navbarSrc
+    if (this.props && this.props.src) {
+      navbarSrc = this.props.src
     }
     this.state={
       right: false,

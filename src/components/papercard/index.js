@@ -22,9 +22,7 @@ export default function PaperCard(props) {
 
   return (
     <div className={classes.root}>
-      <Paper elevation={3} >
-	<OutlinedCard title={props.title} items={props.items}/>
-      </Paper>
+      <OutlinedCard title={props.title} items={props.items}/>
     </div>
   );
 }
