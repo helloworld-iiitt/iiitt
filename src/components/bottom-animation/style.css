@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+.animation-div{
+  background-image: url("../../images/trichy.jpg");
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  width: 100%;
+  height: 50vh;
+  color:#eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+font-size: 1.5em;
+ text-shadow: 4px 4px black;
+}
+img{
+    width: 100%;
+}
+.animation-div:hover h1{
+  animation: moveright 3s ease-out;
+  }
+  .animation-div:hover:hover h3{
+      animation: moveleft 3s ease-out;
+  }
+  @keyframes moveright {
+  0%{
+    opacity: 0;
+    transform: translate(-100px);
+  }
+  80%{
+  transform: translate(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes moveleft {
+0%{
+  opacity: 0;
+  transform: translate(100px);
+}
+80%{
+transform: translate(-20px);
+}
+100%{
+  opacity: 1;
+  transform: translate(0px);
+}
+}

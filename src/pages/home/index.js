@@ -5,6 +5,7 @@ import PaperCard from '../../components/papercard/index'
 import MainCarousel from '../../components/carousel/index';
 import MissionVision from '../../components/mission_vision/index'
 import Marquee from '../../components/marquee/index'
+import Animation from '../../components/bottom-animation/index'
 import Footer from '../../components/footer/index'
 import Divider from '@material-ui/core/Divider';
 import news from '../../json/news.json';
@@ -51,6 +52,7 @@ export default class Home extends React.Component{
 	    <PaperCard title="Events" items={noticeData.slice(0, Math.min(5, noticeData.length))}/>
 	  </div>
 	</div>
+  <Animation />
 	<Footer/>
       </>
 
