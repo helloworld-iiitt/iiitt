@@ -32,7 +32,7 @@ export default class Marquee extends Component {
     return(
       <Card id="v_marquee" variant="outlined" >
 	<CardContent>
-	  <div className="newshead" style={{fontSize:'2vw'}}>
+	  <div className="newshead">
 	    Announcements
 	  </div>
 	  <marquee direction="up" height="100%" id="my_marquee">
