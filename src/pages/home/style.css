@@ -20,6 +20,11 @@
   height: 570px;
 }
 
+@media only screen and (min-width: 800px){
+  .MuiPaper-elevation3{
+    max-width: 28%;
+  }
+}
 @media only screen and (max-width: 800px) {
   .customeflex {
     grid-template-columns: 1fr;

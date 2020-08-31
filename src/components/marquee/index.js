@@ -5,6 +5,7 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import './style.css';
+import Loader from '../../components/sub_component_loader/index';
 
 export default class Marquee extends Component {
 
@@ -49,7 +50,7 @@ export default class Marquee extends Component {
 		    </>
 		  )
 		}) :
-		  <h2>Loading...</h2>
+		  <Loader />
 	      }
 	    </ul>
 	  </marquee>

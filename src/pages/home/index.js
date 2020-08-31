@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
 import TwitterContainer from '../../components/twittertimeline/index'
 import './style.css'
 import carouselData from '../../json/homeCarousel.json'
-
+import Loader from '../../components/sub_component_loader/index'
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props;
 
@@ -117,7 +117,7 @@ export default class Home extends React.Component{
 		  this.state.newsData ?
 		    <PaperCard title="News" items={this.state.newsData.slice(0, Math.min(5, this.state.newsData.length))}/>
 		    :
-		    <h3>Loading</h3>
+		    <Loader />
 		}
 	      </TabPanel>
 	      <TabPanel value={this.state.value} index={1}>
@@ -125,14 +125,14 @@ export default class Home extends React.Component{
 		  this.state.eventsData ?
 		    <PaperCard title="Events" items={this.state.eventsData.slice(0, Math.min(5, this.state.eventsData.length))}/>
 		    :
-		    <h3>Loading</h3>
+			<Loader />
 		}
 	      </TabPanel>
 	      <TabPanel value={this.state.value} index={2}>
 		{
 		  this.state.noticeData ? <PaperCard title="Notices" items={this.state.noticeData.slice(0, Math.min(5, this.state.noticeData.length))}/>
 		  :
-		  <h3>Loading</h3>
+		  <Loader />
 		}
 	      </TabPanel>
 	    </Paper>
@@ -141,7 +141,7 @@ export default class Home extends React.Component{
 		this.state.achievementsData ?
 		  <PaperCard title="Achievements" items={this.state.achievementsData.slice(0, Math.min(5, this.state.achievementsData.length))} />
 		  :
-		  <h3>Loading</h3>
+		  <Loader />	
 	      }
 	    </Paper>
 	    <Paper elevation={3} className="twittertimeline">
