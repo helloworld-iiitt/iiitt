@@ -1,7 +1,24 @@
+
+@media only screen and (min-width: 800px){
+  .newshead{
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+  .newshead{
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width: 500px){
+  .newshead{
+    font-size: 10vw;
+  }
+}
+
 .newshead{
   font-family: 'Playfair Display', serif;
   font-weight: 500;
-  font-size: 3vw;
+  
   text-transform: uppercase;
   display: inline-block;
   line-height: 52px;
@@ -35,5 +52,5 @@ ul {
   font-style: italic;
 }
 .card-inner {
-  paddingLeft: 0.2vw;
+  padding-left: 0.2vw;
 }
