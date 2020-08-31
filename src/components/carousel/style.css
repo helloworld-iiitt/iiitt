@@ -1,15 +1,15 @@
 .slider{
-    z-index:-1;
+  z-index:-1;
 }
 
-@media only screen and (min-width: 800px){
-    .carousel-root{
-        max-width:50%;
-    }
-}
+/* @media only screen and (min-width: 800px){ */
+/* .carousel-root{ */
+/* max-width:50%; */
+/* } */
+/* } */
 
 @media only screen and (max-width: 800px){
-.carousel:hover .slide .legend {
+  .carousel:hover .slide .legend {
     opacity: 0.4;
-}
+  }
 }

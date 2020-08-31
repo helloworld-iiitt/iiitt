@@ -45,7 +45,7 @@ export default function TemporaryDrawer(props) {
   const list = (anchor) => (
     <div
       className={clsx(classes.list, {
-        [classes.fullList]: anchor === 'top' || anchor === 'bottom',
+	[classes.fullList]: anchor === 'top' || anchor === 'bottom',
       })}
       role="presentation"
       onKeyDown={toggleDrawer(anchor, false)}
@@ -53,19 +53,19 @@ export default function TemporaryDrawer(props) {
       <List>
 	{
 	  (location !== '/') &&
-	  <Link to='/' className='nav_routes'>
+	    <Link to='/' className='nav_routes'>
 	      <ListItem button>
-		  <ListItemIcon>
-		    <HomeIcon color='rgba(0,0,0,0.54)' nopadding/>
-		  </ListItemIcon>
-		  <ListItemText primary='Home' />
+		<ListItemIcon>
+		  <HomeIcon color='rgba(0,0,0,0.54)' nopadding/>
+		</ListItemIcon>
+		<ListItemText primary='Home' />
 	      </ListItem>
 	    </Link>
 	}
-        {props.items.map((menu_item, index) => {
-           return (
-           <NestedList menu={menu_item} toggleDrawer={toggleDrawer} anchor={anchor} />
-        )})}
+	{props.items.map((menu_item, index) => {
+	  return (
+	    <NestedList menu={menu_item} toggleDrawer={toggleDrawer} anchor={anchor} />
+	  )})}
       </List>
       <Divider />
 
@@ -75,23 +75,23 @@ export default function TemporaryDrawer(props) {
   return (
     <div>
 
-        <React.Fragment >
-            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" id="mobile_navigation" onClick={toggleDrawer('left', true)}>
-                <MenuIcon onClick={toggleDrawer('left', true)}/>
-            </IconButton>
-          <Drawer anchor='left' open={state['left']} onClose={toggleDrawer('left', false)}>
-            <List id="iiitt_sidetop">
-              <ListItem >
-                <ListItemIcon><img src={require('../../images/logo-small.png')} alt="IIITT Logo" className="main_logo" width="40px"/></ListItemIcon>
-                <ListItemText><Typography variant="h6" style={{color:'rgba(0, 0, 0, 0.75)'}}>
-                  IIIT TRICHY
-                </Typography></ListItemText>
-              </ListItem>
-            </List>
-            <Divider />
-            {list('left')}
-          </Drawer>
-        </React.Fragment>
+      <React.Fragment >
+	<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" id="mobile_navigation" onClick={toggleDrawer('left', true)}>
+	  <MenuIcon onClick={toggleDrawer('left', true)}/>
+	</IconButton>
+	<Drawer anchor='left' open={state['left']} onClose={toggleDrawer('left', false)}>
+	  <List id="iiitt_sidetop">
+	    <ListItem >
+	      <ListItemIcon><img src={require('../../images/logo-small.png')} alt="IIITT Logo" className="main_logo" width="40px"/></ListItemIcon>
+	      <ListItemText><Typography variant="h6" style={{color:'rgba(0, 0, 0, 0.75)'}}>
+		IIITT
+	      </Typography></ListItemText>
+	    </ListItem>
+	  </List>
+	  <Divider />
+	  {list('left')}
+	</Drawer>
+      </React.Fragment>
 
     </div>
   );

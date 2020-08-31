@@ -36,7 +36,7 @@ const createStyles = makeStyles({
     margin: "0 auto"
   },
   text: {
-    fontSize: "1.3rem",
+    fontSize: "1.2rem",
     lineHeight: "1.5"
   }
 })
@@ -59,12 +59,6 @@ export default function Director() {
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10} >
-	  <Typography variant="h2" component="h2" gutterBottom className={classes.themeText}>
-	    <Box component="span" fontWeight={380}>
-	      Director, IIIT Trichy
-	    </Box>
-	  </Typography>
-	  <br />
 	  <Grid item xs={12} sm={4} className={classes.info}>
 	    <Card className={classes.card}>
 	      <CardMedia
@@ -74,7 +68,7 @@ export default function Director() {
 	      />
 	      <CardContent>
 		<Typography variant="body" gutterBottom>
-		  <Box component="span" fontSize="2rem" gutterBottom>
+		  <Box component="span" fontSize="1.5vw" gutterBottom>
 		    DR. NARASIMHA SARMA N V S
 		  </Box>
 		  <br />
