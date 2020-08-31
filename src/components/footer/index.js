@@ -51,7 +51,7 @@ const Footer = () => {
                     <a href="www.google.com">FAQ's</a>
             </div>
             </div>
-            <div >
+            <div>
                  <p className='credits'>&lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web Dev-IIITT</p>
              </div>
             </footer>

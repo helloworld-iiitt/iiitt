@@ -22,7 +22,9 @@
     list-style: url(../../images/pin.svg);
     list-style-position: inside;
     padding-left: 10px;
-
+}
+#newssss{
+  margin-bottom: 5%;
 }
 #simplecard {
     box-shadow: none !important;

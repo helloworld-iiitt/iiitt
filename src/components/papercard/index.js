@@ -20,7 +20,7 @@ export default function PaperCard(props) {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="newssss">
       <Paper elevation={3} >
           <OutlinedCard title={props.title} items={props.items}/>
       </Paper>
