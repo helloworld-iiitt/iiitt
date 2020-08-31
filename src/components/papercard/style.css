@@ -4,8 +4,8 @@
     font-size: 40px;
     text-transform: uppercase;
     display: inline-block;
-    line-height: 52px;
-    margin-bottom: 5px;
+    line-height: 40px;
+    margin-bottom: 10px;
 }
 .News{
     list-style: url(../../images/news-icon.svg);

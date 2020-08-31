@@ -19,10 +19,10 @@ const useStyles = makeStyles({
     transform: 'scale(0.8)',
   },
   title: {
-    fontSize: 14,
+    fontSize: 12,
   },
   pos: {
-    marginBottom: 12,
+    marginBottom: 8,
   },
 });
 
@@ -39,15 +39,14 @@ export default function OutlinedCard(props) {
 	<ul className={props.title}>
 	  {props.items&&props.items.map(item=>{
 	    return(
-	      <li style={{marginBottom:'15px'}} >
+	      <li style={{marginBottom:'10px'}} >
 		<Link href={item.link}>{item.title}</Link>
 		<br/>
 		<Typography variant="caption" color="textSecondary" gutterBottom>
 		  Posted:{item.date}
 		</Typography>
 
-
-	      </li>
+     </li>
 	    )
 	  })}
 	</ul>

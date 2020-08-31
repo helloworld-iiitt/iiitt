@@ -10,8 +10,8 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     '& > *': {
       margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(16),
+      width: theme.spacing(10),
+      height: theme.spacing(10),
     },
   },
 }));

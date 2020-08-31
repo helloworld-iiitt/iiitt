@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     fontSize: 18,
   },
   pos: {
-    marginBottom: 0,
+    marginBottom: 12,
   },
 });
 
