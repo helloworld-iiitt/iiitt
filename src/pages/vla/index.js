@@ -10,9 +10,9 @@ import './styles.css'
 
 export default function Vla(){
   return (
-    <>
+    <div className="page-container">
       <Navbar src="vla_navbar.json" />
-      <Grid container className>
+      <Grid container className="container">
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10} className="custom-grid">
 	  <div className="carousel">
@@ -55,6 +55,6 @@ export default function Vla(){
 	<Grid item xs={false} sm={1} />
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }
