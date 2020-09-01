@@ -197,6 +197,11 @@ function App() {
     loading: () => loading,
   })
 
+  const VlaContact = Loadable({
+    loader: () => import("./pages/vlacontact/index"),
+    loading: () => loading,
+  })
+
 
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
@@ -244,6 +249,7 @@ function App() {
 	<Route path="/vla_registration" component={VlaRegistration} />
 	<Route path="/vla_resources" component={VlaResources} />
 	<Route path="/vla_workshops" component={VlaWorkshops} />
+	<Route path="/vla_contact" component={VlaContact} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>

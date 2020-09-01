@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "institute": "IIIT Tiruchirappalli",
+      "people": [
+	{
+	  "name": "Dr. Anoop Jacob Thomas",
+	  "designation": "Assistant Professor",
+	  "department": "Department of Computer Science & Engineering",
+	  "institute": "Indian Institute of Information Technolgy Tiruchirappalli",
+	  "emailID": "anoopjt@iiitt.ac.in",
+	  "src": "cse_fac_4.jpg"
+	}
+      ]
+    },
+    {
+      "institute": "IIITDM Kurnool",
+      "people": [
+	{
+	  "name": "Dr. Renjith",
+	  "designation": "Assistant Professor",
+	  "emailID": "renjith@iiitk.ac.in",
+	  "department": "Department of Computer Science & Engineering",
+	  "institute": "Indian Institute of Information Technolgy Tiruchirappalli",
+	  "src": "cse_fac_4.jpg"
+	}
+      ]
+    }
+  ]
+}

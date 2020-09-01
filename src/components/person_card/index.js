@@ -29,14 +29,17 @@ const useStyle = makeStyles({
 const PersonCard = (props) => {
   const sliceLimit = 80;
   const classes = useStyle();
-  const [content, setContent] = useState(props.researchArea.slice(0, sliceLimit));
+  const researchArea = ""
+  if (props.researchArea) researchArea = props.researchArea
+
+  const [content, setContent] = useState(researchArea.slice(0, sliceLimit));
 
   const showLess = (e) => {
-    setContent(props.researchArea.slice(0, sliceLimit));
+    setContent(researchArea.slice(0, sliceLimit));
   };
 
   const showMore = (e) => {
-    setContent(props.researchArea);
+    setContent(researchArea);
   };
 
   return (
@@ -51,9 +54,24 @@ const PersonCard = (props) => {
 	</div>
 	<div className="content">
 	  <Typography variant="h5" className={classes.name}>{props.name}</Typography>
-	  <Typography variant="h6" className={classes.designation} gutterBottom>
-	    {props.designation}
-	  </Typography>
+	  {
+	    props.designation &&
+	      <Typography variant="h6" className={classes.designation} gutterBottom>
+		{props.designation}
+	      </Typography>
+	  }
+	  {
+	    props.department &&
+	      <Typography variant="h6" className={classes.designation} gutterBottom>
+		{props.department}
+	      </Typography>
+	  }
+	  {
+	    props.institute &&
+	      <Typography variant="h6" className={classes.designation} gutterBottom>
+		{props.institute}
+	      </Typography>
+	  }
 	  {props.researchArea && (
 	    <>
 	      <Typography variant="body2" gutterBottom className={classes.researchArea}>
