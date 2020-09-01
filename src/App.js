@@ -187,6 +187,11 @@ function App() {
     loading: () => loading,
   })
 
+  const VlaResources = Loadable({
+    loader: () => import("./pages/vlaresources/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -231,6 +236,7 @@ function App() {
 	<Route path="/genderwisedata" component={GenderData} />
 	<Route path="/vla" component={Vla} />
 	<Route path="/vla_registration" component={VlaRegistration} />
+	<Route path="/vla_resources" component={VlaResources} />
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>

@@ -6,6 +6,9 @@ import { makeStyles } from '@material-ui/core/styles'
 import './styles.css'
 
 const createStyles = makeStyles({
+  themeText: {
+    color: "#3f51b5",
+  },
   link: {
     textDecoration: "none",
     display: "inline-block",
@@ -18,14 +21,14 @@ const createStyles = makeStyles({
     }
   },
   infocard: {
-    margin: "1rem",
+    margin: "1rem 0",
     padding: "0 1rem 1rem 1rem"
-  }
+  },
 })
 
-export default function VlaRegistration(){
+export default function VlaResources(){
   useEffect(() => {
-    document.getElementsByTagName("title")[0].innerHTML = "VLA | Registration";
+    document.getElementsByTagName("title")[0].innerHTML = "VLA | Resources";
   }, []);
 
   useEffect(() => {
@@ -40,24 +43,21 @@ export default function VlaRegistration(){
       <Grid container className="container">
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10}>
+	  <Typography variant="h2" component="h2" gutterBottom className={classes.themeText}>
+	    <Box component="span" fontWeight={380}>
+	      Resources
+	    </Box>
+	  </Typography>
 	  <Card className={classes.infocard}>
-	    <a href="/vla_registration_info" className={classes.link}>
+	    <a href="http://profksrinivas.in" className={classes.link}>
 	      <Typography component="h2" gutterBottom>
-		Register here to attend a virtual workshop online
+		Two day virtual workshop on Moodle LMS
 	      </Typography>
 	    </a>
 	    <Typography className="description">
-	      Fill up the form with your details to register for the upcoming workshops
-	    </Typography>
-	  </Card>
-	  <Card className={classes.infocard}>
-	    <a href="/vla_workshop_proposal_terms" className={classes.link}>
-	      <Typography component="h2" gutterBottom>
-		Apply online to conduct a virtual workshop through us
-	      </Typography>
-	    </a>
-	    <Typography className="description">
-	      Fill up the form with the details of the workshop, to raise a request to conduct a virtual workshop through us
+	      A Two day Virtual Workshop on Develop, Deliver and Assess Online Courses with MOODLE Learning Management System
+	      <br />
+	      The workshop material is available at: http://profksrinivas.in
 	    </Typography>
 	  </Card>
 	</Grid>
