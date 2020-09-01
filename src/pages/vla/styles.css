@@ -7,15 +7,15 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.carousel {
+.vlacarousel {
   grid-column: 1/3;
-  max-height: 500px;
+  max-height: 570px;
   margin: auto 0;
 }
 
 .announcements {
   grid-column: 3/4;
-  height: 500px;
+  height: 570px;
 }
 
 .about {

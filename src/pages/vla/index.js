@@ -15,7 +15,7 @@ export default function Vla(){
       <Grid container className="container">
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10} className="custom-grid">
-	  <div className="carousel">
+	  <div className="vlacarousel">
 	    <MainCarousel images={carouselData.data}/>
 	  </div>
 	  <div className="announcements">
