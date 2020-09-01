@@ -33,7 +33,7 @@ export default function VlaContact() {
 
   return (
     <div className="page-container">
-      <Navbar />
+      <Navbar src="vla_navbar.json"/>
       <Grid container>
 	<Grid item xs={false} sm={1} />
 	<Grid container item xs={12} sm={10} className={classes.container}>
