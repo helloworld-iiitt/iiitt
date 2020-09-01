@@ -22,7 +22,7 @@ export default function Vla(){
 	    <Marquee src="announcements.json"/>
 	  </div>
 	  <Card className="about">
-	    <span className="cardTitle">About the academy</span>
+	    <span className="newshead cardTitle">About the academy</span>
 	    <CardContent>
 	      The MHRD, Govt. of India has initiated to bring awareness among faculty and administrators on online teaching methods. To empower the faculty to transform themselves seamlessly from a closed classroom environment to a distributed networked environment online. Proper assessment methods.
 	      <Divider />
@@ -30,7 +30,7 @@ export default function Vla(){
 	    </CardContent>
 	  </Card>
 	  <Card className="objectives">
-	    <span className="cardTitle">Objectives</span>
+	    <span className="newshead cardTitle">Objectives</span>
 	    <CardContent>
 	      To empower faculty to transform from class room teaching to online teaching and beyond
 	      <Divider />
@@ -44,7 +44,7 @@ export default function Vla(){
 	    </CardContent>
 	  </Card>
 	  <Card className="institues">
-	    <span className="cardTitle">About the institues</span>
+	    <span className="newshead cardTitle">About the institues</span>
 	    <CardContent>
 	      Indian Institute of Information Technology, Design and Manufacturing Kurnool (IIITDM Kurnool), fully funded by MHRD was announced in 2014 after receiving the assent of President of India to the Institutes of Information Technology Act, 2014. IIITDM Kurnool launched its academic program with the support of its mentor Institute, IIITDM Kancheepuram, in August 2015 from the Kancheepuram campus. Consequent to the approval of parliament, IIITDM Kurnool was accorded the status of the Institute of National Importance by making an amendment in the IIIT act 2014 on August 03, 2017.
 	      <Divider />
