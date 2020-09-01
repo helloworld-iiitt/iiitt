@@ -15,17 +15,20 @@ const useStyles = makeStyles({
 export default function HomeIcon(props) {
   const classes = useStyles(props)
   const location = useLocation().pathname
+  var home = "/"
+  if (props.home) home = props.home
+  console.log(home)
   return (
     <>
       {
-	(location !== '/') &&
-	  <Link to='/' draggable="false" id="home_button">
+	(location !== home) &&
+	  <Link to={home} draggable="false" id="home_button">
 	    {
 	      !props["nopadding"] ?
-	      <Button >
-		    <HomeRoundedIcon className={classes.icon}/>
-	      </Button> :
-	      <HomeRoundedIcon className={classes.icon} />
+		<Button >
+		  <HomeRoundedIcon className={classes.icon}/>
+		</Button> :
+		<HomeRoundedIcon className={classes.icon} />
 	    }
 	  </Link>
       }

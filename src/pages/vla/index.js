@@ -11,7 +11,7 @@ import './styles.css'
 export default function Vla(){
   return (
     <div className="page-container">
-      <Navbar src="vla_navbar.json" />
+      <Navbar src="vla_navbar.json" homeRoute="/vla"/>
       <Grid container className="container">
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10} className="custom-grid">

@@ -89,7 +89,7 @@ export default class Navbar extends React.Component{
 
 	    <Toolbar id="desktop_menu">
 	      {/*Navbar @Desktop start here*/}
-	      { <HomeIcon color="white"/> }
+	      { <HomeIcon color="white" home={this.props.homeRoute}/> }
 	      {
 		this.state.navbar_data ?
 		  this.state.navbar_data.data.map(item=>(

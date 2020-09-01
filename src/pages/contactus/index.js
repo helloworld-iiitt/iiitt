@@ -55,7 +55,7 @@ export default function ContactUs() {
   console.log("HELO")
   return (
     <div className="page-container">
-      <Navbar />
+      <Navbar src="vla_navbar.json" homeRoute="/vla"/>
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
 	<Grid item xs={12} sm={10} >
