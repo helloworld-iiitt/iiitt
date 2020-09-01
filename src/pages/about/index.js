@@ -18,7 +18,7 @@ export default class About extends React.Component {
   render() {
     const bull = <span>•</span>;
     return (
-      <>
+      <div className="page-container">
         <Navbar />
         <div style={{width: "100%", padding: "35px"}}>
           <Typography variant="h2" component="h2" style={{color: "#3f51b5", paddingBottom: "1.5rem"}}>
@@ -128,7 +128,7 @@ export default class About extends React.Component {
             </Grid>
         </div>
         <Footer />
-      </>
+      </div>
     )
   }
 }

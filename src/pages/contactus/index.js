@@ -54,7 +54,7 @@ export default function ContactUs() {
 
   console.log("HELO")
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -135,6 +135,6 @@ export default function ContactUs() {
 	</Grid>
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }

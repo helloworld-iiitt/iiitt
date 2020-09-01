@@ -1,3 +1,20 @@
+
+@media only screen and (min-width: 800px){
+  .newshead{
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+  .newshead{
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width: 500px){
+  .newshead{
+    font-size: 10vw;
+  }
+}
+
 .newshead{
     font-family: 'Playfair Display', serif;
     font-weight: 500;
@@ -6,13 +23,16 @@
     display: inline-block;
     line-height: 40px;
     margin-bottom: 10px;
+
+
 }
 .News{
-    list-style: url(../../images/news-icon.svg);
-    list-style-position: inside;
-    padding-left: 10px;
+  list-style: url(../../images/news-icon.svg);
+  list-style-position: inside;
+  padding-left: 10px;
 }
 .Events{
+
     list-style: url(../../images/event_note-black-18dp.svg);
     list-style-position: inside;
     padding-left: 10px;
@@ -23,13 +43,25 @@
     list-style-position: inside;
     padding-left: 10px;
 }
-#newssss{
-  margin-bottom: 5%;
+=======
+  list-style: url(../../images/event_note-black-18dp.svg);
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.Notices{
+  list-style: url(../../images/pin.svg);
+  list-style-position: inside;
+
 }
 #simplecard {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 #simplecard ul>li>a{
-    font-family: sans-serif;
-    font-style: italic;
+
+
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+.card-inner {
+  padding-left: 0.2vw;
 }
