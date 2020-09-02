@@ -12,6 +12,8 @@ import TwitterContainer from '../../components/twittertimeline/index'
 import './style.css'
 import carouselData from '../../json/homeCarousel.json'
 import Loader from '../../components/sub_component_loader/index'
+import AdBlockDetect from '../../components/adblock_detect/index'
+
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props;
 
@@ -91,6 +93,7 @@ export default class Home extends React.Component{
       <div className="page-container">
 
 	<Navbar />
+	<AdBlockDetect />
 	<div className="container">
 	  <div onMouseOver={this.enable_slide_control} className="customeflex">
 	    <div className="mission">
