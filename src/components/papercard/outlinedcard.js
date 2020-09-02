@@ -11,7 +11,7 @@ import Link from '@material-ui/core/Link';
 import './style.css'
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
+    minWidth: 237,
   },
   bullet: {
     display: 'inline-block',
@@ -39,14 +39,13 @@ export default function OutlinedCard(props) {
 	<ul className={props.title}>
 	  {props.items&&props.items.map(item=>{
 	    return(
-	      <li style={{marginBottom:'10px'}} >
+	      <li style={{marginBottom:'15px'}} >
 		<Link href={item.link}>{item.title}</Link>
 		<br/>
 		<Typography variant="caption" color="textSecondary" gutterBottom>
 		  Posted:{item.date}
 		</Typography>
-
-     </li>
+	      </li>
 	    )
 	  })}
 	</ul>

@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "programmeName": "Pilot Workshop on online teaching: Moodle",
+      "name": "Dr. Anoop Jacob Thomas (IIIT Tiruchirappalli), Dr. Renjith P (IIITDM Kurnool)",
+      "startDate": "2 May, 2020",
+      "endDate": "3 May, 2020",
+      "participants": "75",
+      "participantsLink": "vla_workshop0_participants",
+      "videos": "vla_videos_2-3may2020",
+      "brochure": "workshop0_2to3may2020.pdf",
+      "summary": "vla_workshop0_summary"
+    },
+    {
+      "programmeName": "Fourth Workshop on online teaching: Moodle",
+      "name": "Dr. Suresh Balanethiram (IIIT Tiruchirappalli), Dr. Akhtar Khan (IIITDM Kurnool)",
+      "startDate": "8 June 2020",
+      "endDate": "9 June 2020",
+      "participants": "",
+      "participantsLink": "",
+      "videos": "",
+      "brochure": "workshop3_8to9june2020.pdf",
+      "summary": ""
+    }
+  ]
+}

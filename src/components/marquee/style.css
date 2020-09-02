@@ -1,45 +1,75 @@
-.v_marquee{
+/* .v_marquee{ */
 
-    min-width: 23% !important;
-    max-height: 55vh !important;
+/* min-width: 23% !important; */
+/* max-height: 55vh !important; */
 
-}
-@media only screen and (max-width: 1400px){
-    .v_marquee{
-        max-height: 45vh !important;
-    }
-}
-@media only screen and (min-width: 800px) {
-    .v_marquee{
-        width: 23% !important;
-        max-height: 50vh;
-    }
+/* } */
+/* @media only screen and (max-width: 1400px){ */
+/* .v_marquee{ */
+/* max-height: 45vh !important; */
+/* } */
+/* } */
+/* @media only screen and (min-width: 800px) { */
+/* .v_marquee{ */
+/* width: 23% !important; */
+/* max-height: 50vh; */
+/* } */
 
-}
-@media only screen and (max-width: 800px) {
-    .v_marquee{
-        max-height: 80vh !important;
-    }
+/* } */
+/* @media only screen and (max-width: 800px) { */
+/* .v_marquee{ */
+/* max-height: 80vh !important; */
+/* } */
 
-}
+/* } */
 
-.v_marquee>.MuiCardContent-root{
-    max-height: 100%;
-}
-@media only screen and (min-width: 1500px) {
-    .v_marquee{
-        max-height: 56vh !important;
-    }
+/* .v_marquee>.MuiCardContent-root{ */
+/* max-height: 100%; */
+/* } */
+/* @media only screen and (min-width: 1500px) { */
+/* .v_marquee{ */
+/* max-height: 56vh !important; */
+/* } */
 
-}
-@media only screen and (min-width: 1600px) {
-    .v_marquee{
-        max-height: 60vh !important;
-    }
+/* } */
+/* @media only screen and (min-width: 1600px) { */
+/* .v_marquee{ */
+/* max-height: 60vh !important; */
+/* } */
 
-}
+/* } */
 .bullet{
-    display: 'inline-block';
-    margin: '0 2px';
-    transform: 'scale(0.8)';
+  display: 'inline-block';
+  margin: '0 2px';
+  transform: 'scale(0.8)';
+}
+
+#v_marquee {
+  height: 100%;
+}
+
+@media only screen and (min-width: 800px){
+  .newshead{
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+  .newshead{
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width: 500px){
+  .newshead{
+    font-size: 10vw;
+  }
+}
+
+.newshead{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 52px;
+  margin-bottom: 5px;
 }

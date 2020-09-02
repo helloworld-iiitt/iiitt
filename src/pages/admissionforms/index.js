@@ -38,7 +38,7 @@ export default function AdmissionForms() {
   const reportingDetails = 'ReportingDetails_IIITT_2019-20.pdf'
   const admissionCancellation = 'CancellationForm.docx'
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -64,6 +64,6 @@ export default function AdmissionForms() {
 	</Grid>
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }

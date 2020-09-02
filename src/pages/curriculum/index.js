@@ -63,7 +63,11 @@ export default function Curriculum() {
   const ece16 = 'Syllabus_ECE_16.pdf'
 
   return (
+<<<<<<< HEAD
     <>
+=======
+    <div className="page-container">
+>>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -165,6 +169,10 @@ export default function Curriculum() {
 	</Grid>
       </Grid>
       <Footer />
+<<<<<<< HEAD
     </>
+=======
+    </div>
+>>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
   )
 }

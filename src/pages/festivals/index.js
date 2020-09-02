@@ -77,7 +77,7 @@ export default function Festivals() {
   const classes = createStyles()
 
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -138,6 +138,6 @@ export default function Festivals() {
 	<Grid item xs={false} sm={1} />
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }

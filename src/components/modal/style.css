@@ -1,0 +1,4 @@
+.MuiDialogContent-root>ul{
+    list-style: square !important;
+    list-style-position: initial !important;
+}

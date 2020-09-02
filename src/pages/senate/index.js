@@ -74,7 +74,7 @@ export default function Senate() {
   const classes = createStyles()
   var ctr = 0
   return (
-    <>
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />
@@ -162,6 +162,6 @@ export default function Senate() {
 	<Grid item xs={false} sm={1} />
       </Grid>
       <Footer />
-    </>
+    </div>
   )
 }
