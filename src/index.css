@@ -1,34 +1,20 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-<<<<<<< HEAD
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-=======
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
->>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-<<<<<<< HEAD
-    monospace;
-=======
-  monospace;
->>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
 }
 .sweet-loading{
   position: absolute;
   left: 50%;
   top: 40%;
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
 }
 @media only screen and (max-width: 800px){
   .sweet-loading{
@@ -38,11 +24,8 @@ code {
     display: none !important;
   }
 }
-<<<<<<< HEAD
-@media only screen and (min-width: 800px){
-=======
+
 @media only screen and (min-width: 801px){
->>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
   .only_on_mobile{
     display: none !important;
   }
@@ -51,8 +34,5 @@ code {
   box-sizing: border-box;
   margin:0;
   padding:0;
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 7d2c2239465d852a263c165cc3143c864657108e
