@@ -40,7 +40,7 @@ export default class Navbar extends React.Component{
   componentDidMount() {
     import(`../../json/${this.state.navbarSrc}`)
       .then(d => {
-	this.setState({navbar_data: d})
+        this.setState({navbar_data: d})
       })
   }
 
@@ -66,44 +66,46 @@ export default class Navbar extends React.Component{
 
     return(
       <div className="navbar">
-	<img src={require('../../images/textlogo.png')} alt="IIITT Text Logo" className="iiitt_logo"/>
-	<div className={this.classes.root}>
-	  <AppBar position="static">
-	    <Toolbar id="mobile_navbar">
+      <div className="logoContainer">
+      <img src={require('../../images/header.png')} alt="IIITT Text Logo" className="iiitt_logo"/>
+      </div>
+      <div className={this.classes.root}>
+      <AppBar position="static">
+      <Toolbar id="mobile_navbar">
 
-	      {/*Navbar Mobile Icons Start here */}
-	      {
-		this.state.navbar_data ?
-		  <TemporaryDrawer items={this.state.navbar_data.data}/>
-		  :
-		  <h2>Loading...</h2>
-	      }
-	      <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
+      {/*Navbar Mobile Icons Start here */}
+      {
+        this.state.navbar_data ?
+          <TemporaryDrawer items={this.state.navbar_data.data}/>
+          :
+          <h2>Loading...</h2>
+      }
+      <Typography variant="h6" className={this.classes.title} style={{width:'100%'}}>
 
-	      </Typography>
-
-
-	      {/*Navbar Mobile Ends here */}
-
-	    </Toolbar>
-
-	    <Toolbar id="desktop_menu">
-	      {/*Navbar @Desktop start here*/}
-	      { <HomeIcon color="white" home={this.props.homeRoute}/> }
-	      {
-		this.state.navbar_data ?
-		  this.state.navbar_data.data.map(item=>(
-		    <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
-		  ))
-		  :
-		    <h2>Loading...</h2>
-	      }
-	      {/*Navbar @Desktop Ends here */}
-	    </Toolbar>
+      </Typography>
 
 
-	  </AppBar>
-	</div>
+      {/*Navbar Mobile Ends here */}
+
+      </Toolbar>
+
+      <Toolbar id="desktop_menu">
+      {/*Navbar @Desktop start here*/}
+      { <HomeIcon color="white" home={this.props.homeRoute}/> }
+      {
+        this.state.navbar_data ?
+          this.state.navbar_data.data.map(item=>(
+            <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
+          ))
+          :
+          <h2>Loading...</h2>
+      }
+      {/*Navbar @Desktop Ends here */}
+      </Toolbar>
+
+
+      </AppBar>
+      </div>
       </div>
 
     );
