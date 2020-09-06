@@ -201,8 +201,6 @@ function App() {
     loader: () => import("./pages/vlacontact/index"),
     loading: () => loading,
   })
-
-
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link

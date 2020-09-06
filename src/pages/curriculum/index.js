@@ -64,6 +64,7 @@ export default function Curriculum() {
 
   return (
     <div className="page-container">
+
       <Navbar />
       <Grid container className={classes.container}>
 	<Grid item xs={false} sm={1} />

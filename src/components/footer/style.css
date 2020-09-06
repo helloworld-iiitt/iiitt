@@ -1,28 +1,242 @@
+*{
+  box-sizing: border-box;
+}
 .footer {
-    position: absolute;
-    bottom: 0;
-    margin-top: 50px;
-    padding-bottom:1px;
-    width: 100%;
     color:white;
     background-color:#3f51b5;
-    text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
  }
 .credits{
+  background-color: white;
+  color:#3f51b5;
     text-align: center;
-    text-size-adjust: inherit;
-    padding: 0px;
-    margin: 2px;
-    
-}   
+    padding: 5px 0;
+    margin: 0px;
+      font-weight: bold;
+}
+.credits:hover{
+  background-color: #3f51b5;
+  color:white;
+
+}
+.main-div{
+  display: flex;
+  align-items: center;
+ padding: 2% 0;
+ justify-content: center;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8em;
+  width: 100%;
+}
+.contacts img{
+  margin: 0 auto;
+  width: 80%;
+}
+.contacts h3{
+  opacity: 0.7;
+  margin: 0.3vh 0;
+}
+.contacts a{
+  margin:0.3vh 0;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phoneicon, .mailicon{
+margin: 2px;
+}
+.logo{
+  width: 26%;
+  height: 13vh;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5vw;
+}
+@media(max-width:1000px) {
+  .logo{
+height: 14vh;
+  }
+}
+.icon{
+margin: 0 36%;
+display: flex;
+width:35%;
+}
+.twitter, .facebook, .linkedin{
+  margin:8px;
+  transform: scale(1.3);
+}
+.acedemics{
+  font-size: 1.0em;
+  height: 32vh;
+}
+ .quick-explore a, .acedemics a{
+  margin:8% 0%;
+  color:#fff;
+  opacity: 0.7;
+  transition: 1s;
+  text-decoration: none;
+}
+ .quick-explore a:hover, .acedemics a:hover{
+   opacity: 1;
+   margin-left: 8px;
+ }
+.quick-explore{
+    font-size: 1.0em;
+    width:13%;
+}
+
+hr{
+  margin: 4% 0;
+}
+
 #favorite{
     font-size: 20px;
     line-height: 27.25px;
-} 
-.page-container {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 50px;
-    
+}
+
+a{
+  display: block;
+}
+.line{
+  border-left: 7px;
+  width: 1.5%;
+  height:5vh;
+  border-style: none;
+  border-left-style: dotted;
+  border-color: #e8e4e1;
+  opacity: 1;
+  margin: 0%  4%;
+}
+@media(max-width:800px) {
+.main-div{
+  display: flex;
+  flex-direction: column;
+}
+.acedemics, .quick-explore{
+display: none;
+}
+ .line{
+   display: none;
+ }
+}
+
+/* ---------------------------------------count down styling---------------------------------------- */
+
+.count-down-main{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: flex-start;
+  height: 35vh;
+  width: 20%;
+}
+.count-down-main p{
+  opacity: 0.8;
+}
+.Countdown{
+  display: flex;
+  transform: scale(1.2);
+}
+
+.time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:5px;
+}
+.time h2{
+  margin: 0 0 5px;
+}
+.year{
+  font-size: 100px;
+  opacity: 0.5;
+}
+
+.temperature{
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+.temperature img{
+  width: 25%;
+}
+.temperature p{
+  margin: 2px;
+}
+
+.nature{
+  border: 2px dashed white;
+  position: relative;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+.nature span{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 0.5em;
+  opacity: 0.8;
+}
+/* --------------------------------------heart animation---------------------------------------------- */
+
+.heart{
+  margin-left: 0.5em;
+ margin-bottom: 0.8em;
+  color:#f00;
+  animation: heart 1s linear infinite;
+}
+
+@keyframes heart {
+0%{
+  transform: translate(10px,10px) scale(2);
+}
+25%{
+  transform: translate(10px,10px) scale(2);
+}
+30%{
+  transform: translate(10px,10px) scale(2.4);
+}
+50%{
+  transform: translate(10px,10px) scale(2.2);
+}
+70%{
+  transform: translate(10px,10px) scale(2.4);
+}
+90%{
+  transform:  translate(10px,10px) scale(2);
+}
+100%{
+  transform:  translate(10px,10px) scale(2);
+}
+}
+@media(max-width:1300px){
+  .nature span{
+  display: none;
   }
+  .nature{
+    border: none;
+  }
+}
+@media(max-width:1000px){
+  .count-down-main{
+  display: none;
+  }
+  .last{
+    display: none;
+  }
+
+}
