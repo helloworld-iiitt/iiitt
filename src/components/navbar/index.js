@@ -94,9 +94,26 @@ export default class Navbar extends React.Component{
       { <HomeIcon color="white" home={this.props.homeRoute}/> }
       {
         this.state.navbar_data ?
-          this.state.navbar_data.data.map(item=>(
-            <MenuListComposition nav_head={item.text} submenu={item.submenu}/>
-          ))
+          <>
+          <div className="leftNav">
+          {
+            this.state.navbar_data.data.slice(0,this.state.navbar_data.data.length/2+1).map( (item, id) => {
+              return (
+                <MenuListComposition nav_head={item.text} submenu={item.submenu} />
+              )
+            })
+          }
+          </div>
+          <div className="rightNav">
+          {
+            this.state.navbar_data.data.slice(this.state.navbar_data.data.length/2+1,this.state.navbar_data.data.length).map( (item, id) => {
+              return (
+                <MenuListComposition nav_head={item.text} submenu={item.submenu} />
+              )
+            })
+          }
+          </div>
+          </>
           :
           <h2>Loading...</h2>
       }

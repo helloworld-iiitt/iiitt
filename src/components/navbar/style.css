@@ -18,15 +18,18 @@
 
 #desktop_menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-#desktop_menu>div:nth-child(5){
-color:#000 !important;
-margin-right: 7%;
+.leftNav, .rightNav {
+    display: flex;
 }
-#desktop_menu>div:nth-child(6){
-    margin-left: 7%;
-}
+/* #desktop_menu>div:nth-child(5){ */
+/* color:#000 !important; */
+/* margin-right: 7%; */
+/* } */
+/* #desktop_menu>div:nth-child(6){ */
+/* margin-left: 7%; */
+/* } */
 
 .navbar{
     text-align: center;
