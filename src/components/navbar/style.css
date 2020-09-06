@@ -16,20 +16,20 @@
     }
 }
 
-#desktop_menu{
-    display: flex;
-    justify-content: space-around;
+.navPanel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-.leftNav, .rightNav {
+.leftNav {
     display: flex;
+    justify-content: flex-start;
 }
-/* #desktop_menu>div:nth-child(5){ */
-/* color:#000 !important; */
-/* margin-right: 7%; */
-/* } */
-/* #desktop_menu>div:nth-child(6){ */
-/* margin-left: 7%; */
-/* } */
+.rightNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6vw;
+}
 
 .navbar{
     text-align: center;
