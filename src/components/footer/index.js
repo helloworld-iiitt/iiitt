@@ -87,12 +87,13 @@ setInterval(updateCountdown, 1000);
            <a href="office@iiitt.ac.in"><CallIcon className="phoneicon" />+91 431 2500 539</a>
           </div>
                <div className="icon" >
-               <TwitterIcon className="twitter"/>
-              <FacebookIcon className="facebook"/>
-                 <LinkedInIcon className="linkedin"/>
-                 </div>
+                  <div className="icon-bg"><TwitterIcon className="twitter"/></div>
+                  <div className="icon-bg"><FacebookIcon className="facebook"/></div>
+                  <div className="icon-bg"><LinkedInIcon className="linkedin"/></div>
+                </div>
             </div>
             <div className="line"></div>
+            <hr className="mobile"></hr>
           <div className="acedemics">
           <h2>Academics</h2>
                    <a href="www.google.com">Programs</a>
@@ -104,6 +105,7 @@ setInterval(updateCountdown, 1000);
                       <a href="www.google.com">Calender</a>
           </div>
           <div className="line"></div>
+          <hr className="mobile"></hr>
           <div className="quick-explore">
           <h2>Quick Explore</h2>
                <a href="www.google.com">Admission Procedure</a>
@@ -115,6 +117,7 @@ setInterval(updateCountdown, 1000);
                   <a href="www.google.com">FAQ's</a>
           </div>
             <div className="last line"></div>
+            <hr className="mobile"></hr>
               <div className="count-down-main">
               <h2>Tiruchirapalli <SchoolTwoToneIcon/></h2>
               <p>{daysArray[getday]}, {getHour}:{getminutes},  {getDate} {monthArray[getMonth]}</p>
@@ -123,7 +126,7 @@ setInterval(updateCountdown, 1000);
                 <img src={`${imageURL}`} alt="weather image" />
               <div>
               <p>{weatherDescription}</p>
-              <p>Temp {temperature}°C</p>
+              <p className="temp">Temp {temperature}°C</p>
                 </div>
               </div>
               <p>Humidity: {humidity}%   Wind:{wind}km/h;</p>

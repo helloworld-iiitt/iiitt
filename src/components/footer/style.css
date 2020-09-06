@@ -1,3 +1,6 @@
+html{
+  font-size: 16px;
+}
 *{
   box-sizing: border-box;
 }
@@ -22,7 +25,7 @@
 }
 .main-div{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
  padding: 2% 0;
  justify-content: center;
 }
@@ -38,7 +41,11 @@
   margin: 0 auto;
   width: 80%;
 }
+.contacts h2{
+  text-align: center;
+}
 .contacts h3{
+  text-align: center;
   opacity: 0.7;
   margin: 0.3vh 0;
 }
@@ -54,8 +61,8 @@
 margin: 2px;
 }
 .logo{
-  width: 26%;
-  height: 13vh;
+  width: 5.5rem;
+  height: 5.5rem;
   border-radius: 50%;
   background-color: #fff;
   display: flex;
@@ -63,22 +70,22 @@ margin: 2px;
   margin-bottom: 0.5vw;
 }
 @media(max-width:1000px) {
-  .logo{
-height: 14vh;
-  }
+
 }
 .icon{
-margin: 0 36%;
+margin: 0 auto;
 display: flex;
-width:35%;
+align-items: center;
+justify-content: center;
+width:55%;
 }
 .twitter, .facebook, .linkedin{
-  margin:8px;
+  margin: 0.5rem;
+  text-align: center;
   transform: scale(1.3);
 }
 .acedemics{
   font-size: 1.0em;
-  height: 32vh;
 }
  .quick-explore a, .acedemics a{
   margin:8% 0%;
@@ -108,6 +115,24 @@ hr{
 a{
   display: block;
 }
+.mobile{
+  display: none;
+}
+
+.icon-bg{
+  background-color: #3f51b5;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+.icon-bg:hover{
+  opacity: 0.8;
+}
 .line{
   border-left: 7px;
   width: 1.5%;
@@ -116,16 +141,70 @@ a{
   border-left-style: dotted;
   border-color: #e8e4e1;
   opacity: 1;
-  margin: 0%  4%;
+  margin: 5%  4%;
 }
 @media(max-width:800px) {
 .main-div{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.acedemics, .quick-explore{
-display: none;
+.mobile{
+  display: inherit;
 }
+.count-down-main h2{
+  font-size: 1.7rem;
+}
+.count-down-main p{
+  margin: 1px;
+}
+.contacts p, .contacts h2, .contacts h3 {
+  margin: 2px;
+}
+.acedemics hr, .quick-explore hr{
+  opacity: 0.2;
+}
+.heart{
+  margin-right: 10%;
+}
+.footer{
+  text-align: center;
+}
+.contact-main{
+  margin-top: 5vh;
+  width: 90%;
+  text-align: center;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts h2, .contacts h3{
+  width:100%;
+  font-size: 1.2em;
+}
+.logo{
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.logo img{
+  width: 80%;
+}
+.icon{
+  margin: 0 auto;
+}
+.twitter, .facebook, .linkedin{
+  margin:5px 7px;
+}
+.acedemics{
+  width: 80%;
+}
+.quick-explore{
+  width: 80%;
+}
+
  .line{
    display: none;
  }
@@ -191,6 +270,15 @@ display: none;
   margin-left: 0.5em;
   opacity: 0.8;
 }
+.mobile{
+  border-top: 7px;
+  width: 1.5rem;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e8e4e1;
+  opacity: 1;
+  margin: 6% 0;
+}
 /* --------------------------------------heart animation---------------------------------------------- */
 
 .heart{
@@ -225,15 +313,23 @@ display: none;
 }
 @media(max-width:1300px){
   .nature span{
-  display: none;
   }
   .nature{
-    border: none;
+ width: 85%;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
   }
 }
-@media(max-width:1000px){
+@media(max-width:800px){
   .count-down-main{
-  display: none;
+width: 80%;
+display: flex;
+align-items: center;
+  }
+  .temp{
+    text-align: left;
   }
   .last{
     display: none;
