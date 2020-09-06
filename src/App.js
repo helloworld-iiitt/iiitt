@@ -227,6 +227,11 @@ function App() {
     loading: () => loading,
   })
 
+  const VlaSummary = Loadable({
+    loader: () => import("./pages/vlasummary/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -279,6 +284,7 @@ function App() {
       <Route path="/vla_attend" component={VlaAttend} />
       <Route path="/vla_workshop_proposal" component={VlaWorkshopProposal} />
       <Route path={ /\/vla_workshop\d_participants/ } component={VlaParticipants} />
+      <Route path={ /\/vla_workshop\d_summary/ } component={VlaSummary} />
       <Route path="/*" component={PageNotFound} />
     </Switch>
   </BrowserRouter>
