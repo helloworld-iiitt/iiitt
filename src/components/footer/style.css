@@ -5,18 +5,17 @@ html{
   box-sizing: border-box;
 }
 .footer {
-    color:white;
-    background-color:#3f51b5;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
- }
+  color:white;
+  background-color:#3f51b5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .credits{
   background-color: white;
   color:#3f51b5;
-    text-align: center;
-    padding: 5px 0;
-    margin: 0px;
-      font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0px;
+  font-weight: bold;
 }
 .credits:hover{
   background-color: #3f51b5;
@@ -25,9 +24,9 @@ html{
 }
 .main-div{
   display: flex;
-  align-items: flex-start;
- padding: 2% 0;
- justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+  justify-content: center;
 }
 
 .contacts{
@@ -58,7 +57,7 @@ html{
   align-items: center;
 }
 .phoneicon, .mailicon{
-margin: 2px;
+  margin: 2px;
 }
 .logo{
   width: 5.5rem;
@@ -70,37 +69,37 @@ margin: 2px;
   margin-bottom: 0.5vw;
 }
 @media(max-width:1000px) {
-
+  .logo{
+    height: 14vh;
+  }
 }
 .icon{
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
-width:55%;
+  margin: 0 36%;
+  display: flex;
+  width:35%;
 }
 .twitter, .facebook, .linkedin{
-  margin: 0.5rem;
-  text-align: center;
+  color: white;
+  margin:8px;
   transform: scale(1.3);
 }
 .acedemics{
   font-size: 1.0em;
 }
- .quick-explore a, .acedemics a{
+.quick-explore a, .acedemics a{
   margin:8% 0%;
   color:#fff;
   opacity: 0.7;
   transition: 1s;
   text-decoration: none;
 }
- .quick-explore a:hover, .acedemics a:hover{
-   opacity: 1;
-   margin-left: 8px;
- }
+.quick-explore a:hover, .acedemics a:hover{
+  opacity: 1;
+  margin-left: 8px;
+}
 .quick-explore{
-    font-size: 1.0em;
-    width:13%;
+  font-size: 1.0em;
+  width:13%;
 }
 
 hr{
@@ -108,8 +107,8 @@ hr{
 }
 
 #favorite{
-    font-size: 20px;
-    line-height: 27.25px;
+  font-size: 20px;
+  line-height: 27.25px;
 }
 
 a{
@@ -144,70 +143,16 @@ a{
   margin: 5%  4%;
 }
 @media(max-width:800px) {
-.main-div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.mobile{
-  display: inherit;
-}
-.count-down-main h2{
-  font-size: 1.7rem;
-}
-.count-down-main p{
-  margin: 1px;
-}
-.contacts p, .contacts h2, .contacts h3 {
-  margin: 2px;
-}
-.acedemics hr, .quick-explore hr{
-  opacity: 0.2;
-}
-.heart{
-  margin-right: 10%;
-}
-.footer{
-  text-align: center;
-}
-.contact-main{
-  margin-top: 5vh;
-  width: 90%;
-  text-align: center;
-}
-.contacts{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.contacts h2, .contacts h3{
-  width:100%;
-  font-size: 1.2em;
-}
-.logo{
-  width: 5.5rem;
-  height: 5.5rem;
-}
-.logo img{
-  width: 80%;
-}
-.icon{
-  margin: 0 auto;
-}
-.twitter, .facebook, .linkedin{
-  margin:5px 7px;
-}
-.acedemics{
-  width: 80%;
-}
-.quick-explore{
-  width: 80%;
-}
-
- .line{
-   display: none;
- }
+  .main-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .acedemics, .quick-explore{
+    display: none;
+  }
+  .line{
+    display: none;
+  }
 }
 
 /* ---------------------------------------count down styling---------------------------------------- */
@@ -283,36 +228,37 @@ a{
 
 .heart{
   margin-left: 0.5em;
- margin-bottom: 0.8em;
+  margin-bottom: 0.8em;
   color:#f00;
   animation: heart 1s linear infinite;
 }
 
 @keyframes heart {
-0%{
-  transform: translate(10px,10px) scale(2);
-}
-25%{
-  transform: translate(10px,10px) scale(2);
-}
-30%{
-  transform: translate(10px,10px) scale(2.4);
-}
-50%{
-  transform: translate(10px,10px) scale(2.2);
-}
-70%{
-  transform: translate(10px,10px) scale(2.4);
-}
-90%{
-  transform:  translate(10px,10px) scale(2);
-}
-100%{
-  transform:  translate(10px,10px) scale(2);
-}
+  0%{
+    transform: translate(10px,10px) scale(2);
+  }
+  25%{
+    transform: translate(10px,10px) scale(2);
+  }
+  30%{
+    transform: translate(10px,10px) scale(2.4);
+  }
+  50%{
+    transform: translate(10px,10px) scale(2.2);
+  }
+  70%{
+    transform: translate(10px,10px) scale(2.4);
+  }
+  90%{
+    transform:  translate(10px,10px) scale(2);
+  }
+  100%{
+    transform:  translate(10px,10px) scale(2);
+  }
 }
 @media(max-width:1300px){
   .nature span{
+    display: none;
   }
   .nature{
  width: 85%;
@@ -324,9 +270,7 @@ a{
 }
 @media(max-width:800px){
   .count-down-main{
-width: 80%;
-display: flex;
-align-items: center;
+    display: none;
   }
   .temp{
     text-align: left;
