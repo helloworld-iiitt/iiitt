@@ -1,0 +1,20 @@
+.container {
+  padding: 1rem;
+}
+
+.day {
+  margin: 1.5rem 0;
+}
+
+.daySession {
+  margin: 0.5rem 0;
+}
+
+.videoList {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+.videoSection {
+  margin: 2rem;
+}
