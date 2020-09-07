@@ -16,16 +16,19 @@
     }
 }
 
-#desktop_menu{
+.navPanel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.leftNav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
-#desktop_menu>div:nth-child(5){
-color:#000 !important;
-margin-right: 7%;
-}
-#desktop_menu>div:nth-child(6){
-    margin-left: 7%;
+.rightNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6vw;
 }
 
 .navbar{
