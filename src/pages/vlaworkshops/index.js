@@ -125,18 +125,17 @@ export default function VlaWorkshops() {
                         <TableCell className={classes.tableCell}>
                           {
                             workshop.participantsLink.trim() &&
-                            <Link to={{
-                              pathname: workshop.participantsLink.trim(),
-                            }}>
+                            <Link to={{ pathname: workshop.participantsLink.trim() }} className={classes.link}>
                               {workshop.participants}
                             </Link>
                           }
                         </TableCell>
                         <TableCell className={classes.tableCell}>
                           {
-                            workshop.videos.trim() && <a href={workshop.videos} className={classes.link}>
+                            workshop.videos.trim() &&
+                            <Link to={{ pathname: workshop.videos }} className={classes.link}>
                               Videos
-                            </a>
+                            </Link>
                           }
                         </TableCell>
                         <TableCell className={classes.tableCell}>
@@ -148,9 +147,10 @@ export default function VlaWorkshops() {
                         </TableCell>
                         <TableCell className={classes.tableCell}>
                           {
-                            workshop.summary.trim() && <a href={workshop.summary} className={classes.link}>
+                            workshop.summary.trim() &&
+                            <Link to={{ pathname: workshop.summary }} className={classes.link}>
                               Summary & Feedback
-                            </a>
+                            </Link>
                           }
                         </TableCell>
                       </TableRow>

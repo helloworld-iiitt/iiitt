@@ -44,89 +44,74 @@ const PersonCard = (props) => {
 
   return (
     <>
-      <div className={`container`}>
-	<div className="pic">
-	  <img
-	    src={require(`../../images/people/${props.src_type}/${props.src}`)}
-	    alt={props.name}
-	    className="image"
-	  />
-	</div>
-	<div className="content">
-	  <Typography variant="h5" className={classes.name}>{props.name}</Typography>
-	  {
-	    props.designation &&
-	      <Typography variant="h6" className={classes.designation} gutterBottom>
-		{props.designation}
-	      </Typography>
-	  }
-	  {
-	    props.department &&
-	      <Typography variant="h6" className={classes.designation} gutterBottom>
-		{props.department}
-	      </Typography>
-	  }
-	  {
-	    props.institute &&
-	      <Typography variant="h6" className={classes.designation} gutterBottom>
-		{props.institute}
-	      </Typography>
-	  }
-	  {props.researchArea && (
-	    <>
-	      <Typography variant="body2" gutterBottom className={classes.researchArea}>
-		{content}
-		{props.researchArea.length !== content.length &&
-		    props.researchArea.length > sliceLimit &&
-		    "..."}
-	      </Typography>
-	      {props.researchArea.length !== content.length && (
-		<Typography
-		  onClick={showMore}
-		  variant="span"
-		  className={classes.show}
-		>
-		  Show More
-		</Typography>
-	      )}
-	      {props.researchArea.length === content.length &&
-		  props.researchArea.length > sliceLimit && (
-		    <Typography
-		      onClick={showLess}
-		      variant="span"
-		      className={classes.show}
-		    >
-		      Show Less
-		    </Typography>
-		  )}
-	    </>
-	  )}
-	  {/* <Typography variant="body2" gutterBottom>
-			{content}{(props.researchArea.length !== content.length && props.researchArea.length>sliceLimit) && '...'}
-		    </Typography>
-		    {
-		    (props.researchArea.length !== content.length) &&
-		    <Typography onClick={showMore} variant="span" className={classes.show}>
-			Show More
-		    </Typography>
-		    }
-		    {
-		    (props.researchArea.length === content.length && props.researchArea.length>sliceLimit) &&
-		    <Typography onClick={showLess} variant="span" className={classes.show}>
-			Show Less
-		    </Typography>
-		    } */}
-	  <br />
-	  <Typography variant="body2">
-	    <a href={`mailto:${props.emailID}`} className="email">
-	      <span aria-label="mailing" role="img">
-		&#128231;
-	      </span>
-	      &nbsp;
-	      {props.emailID}
-	    </a>
-	  </Typography>
-	</div>
+      <div className={`personContainer`}>
+        <div className="pic">
+          <img
+            src={require(`../../images/people/${props.src_type}/${props.src}`)}
+            alt={props.name}
+            className="image"
+          />
+        </div>
+        <div className="content">
+          <Typography variant="h5" className={classes.name}>{props.name}</Typography>
+          {
+            props.designation &&
+            <Typography variant="h6" className={classes.designation} gutterBottom>
+              {props.designation}
+            </Typography>
+          }
+          {
+            props.department &&
+            <Typography variant="h6" className={classes.designation} gutterBottom>
+              {props.department}
+            </Typography>
+          }
+          {
+            props.institute &&
+            <Typography variant="h6" className={classes.designation} gutterBottom>
+              {props.institute}
+            </Typography>
+          }
+          {props.researchArea && (
+            <>
+              <Typography variant="body2" gutterBottom className={classes.researchArea}>
+                {content}
+                {props.researchArea.length !== content.length &&
+                    props.researchArea.length > sliceLimit &&
+                    "..."}
+                  </Typography>
+                  {props.researchArea.length !== content.length && (
+                    <Typography
+                      onClick={showMore}
+                      variant="span"
+                      className={classes.show}
+                    >
+                      Show More
+                    </Typography>
+                  )}
+                  {props.researchArea.length === content.length &&
+                      props.researchArea.length > sliceLimit && (
+                        <Typography
+                          onClick={showLess}
+                          variant="span"
+                          className={classes.show}
+                        >
+                          Show Less
+                        </Typography>
+                      )}
+                    </>
+          )}
+          <br />
+          <Typography variant="body2">
+            <a href={`mailto:${props.emailID}`} className="email">
+              <span aria-label="mailing" role="img">
+                &#128231;
+              </span>
+              &nbsp;
+              {props.emailID}
+            </a>
+          </Typography>
+        </div>
       </div>
     </>
   );
