@@ -100,34 +100,44 @@ const Footer = () => {
           </div>
           <div className="line"></div>
           <div className="acedemics">
-            <h2>Academics</h2>
-            <a href="www.google.com">Programs</a>
-            <hr></hr>
-            <a href="www.google.com">Department</a>
-            <hr></hr>
-            <a href="www.google.com">Curriculum</a>
-            <hr></hr>
-            <a href="www.google.com">Calender</a>
+
+          <h2>Academics</h2>
+             <div className="main-hr ace"></div>
+                   <a href="www.google.com">Programs</a>
+                   <hr></hr>
+                    <a href="www.google.com">Department</a>
+                    <hr></hr>
+                     <a href="www.google.com">Curriculum</a>
+                     <hr></hr>
+                      <a href="www.google.com">Calender</a>
+                      <hr></hr>
+                       <a href="www.google.com">Holidays</a>
+
           </div>
           <div className="line"></div>
           <hr className="mobile"></hr>
           <div className="quick-explore">
-            <h2>Quick Explore</h2>
-            <a href="www.google.com">Admission Procedure</a>
-            <hr></hr>
-            <a href="www.google.com">Fee Structure</a>
-            <hr></hr>
-            <a href="www.google.com">Anti Ragging Committee</a>
-            <hr></hr>
-            <a href="www.google.com">FAQ's</a>
+
+          <h2>Quick Explore</h2>
+          <div className="main-hr  quick-ex"></div>
+               <a href="www.google.com">Admission Procedure</a>
+               <hr></hr>
+                <a href="www.google.com">Fee Structure</a>
+                <hr></hr>
+                 <a href="www.google.com">Anti Ragging Committee</a>
+                 <hr></hr>
+                  <a href="www.google.com">FAQ's</a>
           </div>
-          <div className="last line"></div>
-          <div className="count-down-main">
-            <h2>Tiruchirapalli <SchoolTwoToneIcon/></h2>
-            <p>{daysArray[getday]}, {getHour}:{getminutes},  {getDate} {monthArray[getMonth]}</p>
-            <p>{getFullYear}</p>
-            <div className="temperature">
-              <img src={`${imageURL}`} alt="weather image" />
+            <div className="last line"></div>
+            <hr className="mobile"></hr>
+              <div className="count-down-main">
+              <h2>Tiruchirapalli <SchoolTwoToneIcon/></h2>
+              <div className="main-hr trichy"></div>
+              <p>{daysArray[getday]}, {getHour}:{getminutes},  {getDate} {monthArray[getMonth]}</p>
+              <p>{getFullYear}</p>
+              <div className="temperature">
+                <img src={`${imageURL}`} alt="weather image" />
+
               <div>
                 <p>{weatherDescription}</p>
                 <p>Temp {temperature}°C</p>

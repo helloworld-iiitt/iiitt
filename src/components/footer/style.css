@@ -5,28 +5,31 @@ html{
   box-sizing: border-box;
 }
 .footer {
-  color:white;
-  background-color:#3f51b5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
+    color:#f5f5f5;
+    background-color:#2e8b57;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   box-shadow: 15px 0 0 0 rgba(0, 0, 0, 0.2), 20px 0 0 0 rgba(0, 0, 0, 0.19);
+ }
 .credits{
   background-color: white;
-  color:#3f51b5;
-  text-align: center;
-  padding: 5px 0;
-  margin: 0px;
-  font-weight: bold;
-}
-.credits:hover{
-  background-color: #3f51b5;
-  color:white;
+  color:#2e8b57;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0px;
+      font-weight: bolder;
 
 }
+
+
 .main-div{
   display: flex;
-  align-items: center;
-  padding: 2% 0;
-  justify-content: center;
+
+  align-items: flex-start;
+ padding: 2% 0 1%;
+ margin: 0rem 0;
+ justify-content: center;
+
 }
 
 .contacts{
@@ -68,11 +71,7 @@ html{
   align-items: center;
   margin-bottom: 0.5vw;
 }
-@media(max-width:1000px) {
-  .logo{
-    height: 14vh;
-  }
-}
+
 .icon{
   margin: 0 36%;
   display: flex;
@@ -82,9 +81,11 @@ html{
   color: white;
   margin:8px;
   transform: scale(1.3);
+  cursor: pointer;
 }
 .acedemics{
   font-size: 1.0em;
+  width: 9%;
 }
 .quick-explore a, .acedemics a{
   margin:8% 0%;
@@ -93,22 +94,30 @@ html{
   transition: 1s;
   text-decoration: none;
 }
-.quick-explore a:hover, .acedemics a:hover{
-  opacity: 1;
-  margin-left: 8px;
-}
+ .quick-explore a, .acedemics a{
+   margin: 4% 0;
+ }
 .quick-explore{
   font-size: 1.0em;
   width:13%;
 }
 
-hr{
+.acedemics hr, .quick-explore hr{
   margin: 4% 0;
+  opacity: 0.3;
 }
 
 #favorite{
-  font-size: 20px;
-  line-height: 27.25px;
+
+    font-size: 20px;
+    line-height: 27.25px;
+    transition: 1s;
+}
+.credits:hover #favorite{
+  color:red;
+  transform: scale(1.4);
+  margin: 0 10px;
+
 }
 
 a{
@@ -119,7 +128,7 @@ a{
 }
 
 .icon-bg{
-  background-color: #3f51b5;
+  background-color: #2e8b57;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -135,24 +144,86 @@ a{
 .line{
   border-left: 7px;
   width: 1.5%;
-  height:5vh;
+  height:4vh;
   border-style: none;
   border-left-style: dotted;
   border-color: #e8e4e1;
   opacity: 1;
-  margin: 5%  4%;
+  margin: 7%  4%;
 }
 @media(max-width:800px) {
-  .main-div{
-    display: flex;
-    flex-direction: column;
-  }
-  .acedemics, .quick-explore{
-    display: none;
-  }
-  .line{
-    display: none;
-  }
+
+.main-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-div{
+  margin-bottom: 2rem;
+}
+.mobile{
+  display: inherit;
+}
+.count-down-main h2{
+  font-size: 1.7rem;
+}
+.count-down-main p{
+  margin: 1px;
+}
+.contacts p, .contacts h2, .contacts h3 {
+  margin: 2px;
+}
+.acedemics hr, .quick-explore hr{
+  opacity: 0.2;
+}
+ .quick-explore a, .acedemics a{
+   margin: 4% 0;
+ }
+.heart{
+  margin-right: 10%;
+}
+.footer{
+  text-align: center;
+}
+.contact-main{
+  margin-top: 5vh;
+  width: 90%;
+  text-align: center;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts h2, .contacts h3{
+  width:100%;
+  font-size: 1.2em;
+}
+.logo{
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.logo img{
+  width: 80%;
+}
+.icon{
+  margin: 0 auto;
+}
+.twitter, .facebook, .linkedin{
+  margin:5px 7px;
+}
+.acedemics{
+  width: 80%;
+}
+.quick-explore{
+  width: 80%;
+}
+
+ .line{
+   display: none;
+ }
+
 }
 
 /* ---------------------------------------count down styling---------------------------------------- */
@@ -194,7 +265,7 @@ a{
   justify-content: flex-start;
 }
 .temperature img{
-  width: 25%;
+  width: 30%;
 }
 .temperature p{
   margin: 2px;
@@ -213,7 +284,8 @@ a{
   font-size: 1.2em;
   font-weight: bold;
   margin-left: 0.5em;
-  opacity: 0.8;
+  opacity: 1;
+  color: #f1f1e8;
 }
 .mobile{
   border-top: 7px;
@@ -223,6 +295,19 @@ a{
   border-color: #e8e4e1;
   opacity: 1;
   margin: 6% 0;
+}
+.main-hr{
+  width: 70%;
+  height: 0.2rem;
+  border-radius: 10px;
+background-color: #f00;
+}
+.quick-ex{
+  width: 55%;
+}
+.trichy{
+  width: 35%;
+  margin: 0 0 0.5rem 0;
 }
 /* --------------------------------------heart animation---------------------------------------------- */
 
@@ -277,6 +362,17 @@ a{
   }
   .last{
     display: none;
+  }
+  .quick-ex{
+    width: 40%;
+    margin: 0 auto;
+  }
+  .ace{
+  width: 35%;
+  margin: 0 auto;
+  }
+  .trichy{
+    margin-bottom: 20px;
   }
 
 }
