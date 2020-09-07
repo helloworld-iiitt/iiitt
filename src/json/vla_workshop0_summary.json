@@ -1,0 +1,45 @@
+{
+  "data": {
+    "title": "A Two-day Virtual Workshop on Develop, Deliver and Assess Online Courses with MOODLE Learning Management System",
+    "date": "2-3, May 2020",
+    "participants": {
+      "count": 75,
+      "speakerCount": 2,
+      "maleCount": 59,
+      "femaleCount": 16,
+      "scstCount": 2
+    },
+    "handsOnSessions": 4,
+    "speakers": [
+      "Prof. D V L N Somayajulu, Director, Indian Institute of Information Technology, Design and Manufacturing Kurnool",
+      "Prof. K. Srinivas, Professor, Head of ICT & Project Management Unit of National Institute of Educational Planning and Administration (NIEPA)"
+    ],
+    "topics": [
+      "Philosophy of Online Learning Management System",
+      "Understanding the Learning Management System",
+      "What makes Moodle Special",
+      "Moodle Basics",
+      "Creating a New Course",
+      "Managing Course Participants",
+      "News Forums",
+      "Messaging",
+      "Chat",
+      "Blog",
+      "WIKI",
+      "Discussion Forms",
+      "Online Assignment Submission",
+      "MCQ",
+      "Grading"
+    ],
+    "feedbacks": [
+      "The Programme accomplished its set objectives and was grand success",
+      "The Program was interactive and integrated, actively engaging faculty members while learning",
+      "Programme gave insights and practical exposure about online education, e-content preparation using OER (Open Education Resource) and developing the content by own and delivering the content",
+      "Participants encouraged using upon source software to prepare the content",
+      "Various Assessment methods and student engaging methods are explored during the training programme"
+    ],
+    "suggestions": [
+      "Training Programme can be extended to 4 days"
+    ]
+  }
+}

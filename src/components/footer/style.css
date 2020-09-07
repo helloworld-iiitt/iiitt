@@ -5,6 +5,7 @@ html{
   box-sizing: border-box;
 }
 .footer {
+
     color:#f5f5f5;
     background-color:#2e8b57;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,15 +18,18 @@ html{
     padding: 5px 0;
     margin: 0px;
       font-weight: bolder;
+
 }
 
 
 .main-div{
   display: flex;
+
   align-items: flex-start;
  padding: 2% 0 1%;
  margin: 0rem 0;
  justify-content: center;
+
 }
 
 .contacts{
@@ -56,7 +60,7 @@ html{
   align-items: center;
 }
 .phoneicon, .mailicon{
-margin: 2px;
+  margin: 2px;
 }
 .logo{
   width: 5.5rem;
@@ -67,16 +71,15 @@ margin: 2px;
   align-items: center;
   margin-bottom: 0.5vw;
 }
+
 .icon{
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
-width:55%;
+  margin: 0 36%;
+  display: flex;
+  width:35%;
 }
 .twitter, .facebook, .linkedin{
-  margin: 0.5rem;
-  text-align: center;
+  color: white;
+  margin:8px;
   transform: scale(1.3);
   cursor: pointer;
 }
@@ -84,20 +87,19 @@ width:55%;
   font-size: 1.0em;
   width: 9%;
 }
- .quick-explore a, .acedemics a{
+.quick-explore a, .acedemics a{
   margin:8% 0%;
   color:#fff;
   opacity: 0.7;
   transition: 1s;
   text-decoration: none;
 }
- .quick-explore a:hover, .acedemics a:hover{
-   opacity: 1;
-   margin-left: 20px;
+ .quick-explore a, .acedemics a{
+   margin: 4% 0;
  }
 .quick-explore{
-    font-size: 1.0em;
-    width:13%;
+  font-size: 1.0em;
+  width:13%;
 }
 
 .acedemics hr, .quick-explore hr{
@@ -106,6 +108,7 @@ width:55%;
 }
 
 #favorite{
+
     font-size: 20px;
     line-height: 27.25px;
     transition: 1s;
@@ -114,6 +117,7 @@ width:55%;
   color:red;
   transform: scale(1.4);
   margin: 0 10px;
+
 }
 
 a{
@@ -148,6 +152,7 @@ a{
   margin: 7%  4%;
 }
 @media(max-width:800px) {
+
 .main-div{
   display: flex;
   flex-direction: column;
@@ -218,6 +223,7 @@ a{
  .line{
    display: none;
  }
+
 }
 
 /* ---------------------------------------count down styling---------------------------------------- */
@@ -307,36 +313,37 @@ background-color: #f00;
 
 .heart{
   margin-left: 0.5em;
- margin-bottom: 0.8em;
+  margin-bottom: 0.8em;
   color:#f00;
   animation: heart 1s linear infinite;
 }
 
 @keyframes heart {
-0%{
-  transform: translate(10px,10px) scale(2);
-}
-25%{
-  transform: translate(10px,10px) scale(2);
-}
-30%{
-  transform: translate(10px,10px) scale(2.4);
-}
-50%{
-  transform: translate(10px,10px) scale(2.2);
-}
-70%{
-  transform: translate(10px,10px) scale(2.4);
-}
-90%{
-  transform:  translate(10px,10px) scale(2);
-}
-100%{
-  transform:  translate(10px,10px) scale(2);
-}
+  0%{
+    transform: translate(10px,10px) scale(2);
+  }
+  25%{
+    transform: translate(10px,10px) scale(2);
+  }
+  30%{
+    transform: translate(10px,10px) scale(2.4);
+  }
+  50%{
+    transform: translate(10px,10px) scale(2.2);
+  }
+  70%{
+    transform: translate(10px,10px) scale(2.4);
+  }
+  90%{
+    transform:  translate(10px,10px) scale(2);
+  }
+  100%{
+    transform:  translate(10px,10px) scale(2);
+  }
 }
 @media(max-width:1300px){
   .nature span{
+    display: none;
   }
   .nature{
  width: 85%;
@@ -348,9 +355,7 @@ background-color: #f00;
 }
 @media(max-width:800px){
   .count-down-main{
-width: 80%;
-display: flex;
-align-items: center;
+    display: none;
   }
   .temp{
     text-align: left;
