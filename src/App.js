@@ -284,7 +284,7 @@ function App() {
       <Route path="/director" component={Director} />
       <Route path="/registrar" component={Registrar} />
       <Route path="/genderwisedata" component={GenderData} />
-      <Route exact path="/details/:dept/:id" component={Biography}/>
+      <Route exact path="/faculty_detail/:dept/:id" component={Biography}/>
       <Route path="/vla" component={Vla} />
       <Route path="/vla_registration" component={VlaRegistration} />
       <Route path="/vla_resources" component={VlaResources} />

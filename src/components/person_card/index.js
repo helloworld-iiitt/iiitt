@@ -56,7 +56,7 @@ const PersonCard = (props) => {
         <div className="content">
           {props.src_type === "faculty" ? (
             <Typography variant="h5" className={classes.name}>
-              <Link to={`/details/${props.dept}/${props.deptID}`}>
+              <Link to={`/faculty_detail/${props.dept}/${props.deptID}`}>
                 {props.name}
               </Link>
             </Typography>
