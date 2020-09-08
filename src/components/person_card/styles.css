@@ -1,4 +1,4 @@
-.container {
+.personContainer {
   display: grid;
   grid-template-columns: 1.5fr 3.5fr;
   border: 2px solid #ececed;
@@ -25,7 +25,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
+  .personContainer {
     grid-template-columns: 1fr;
     justify-items: center;
     min-height: 400px;

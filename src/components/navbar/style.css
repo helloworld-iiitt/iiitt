@@ -1,26 +1,43 @@
 @media only screen and (min-width: 800px){
-#mobile_navigation{
-display:none !important;
-}
-#mobile_navbar{
-    display: none !important;
-}
+    #mobile_navigation{
+        display:none !important;
+    }
+    #mobile_navbar{
+        display: none !important;
+    }
 }
 
 
 
 @media only screen and (max-width: 800px){
 
-#desktop_menu{
-display: none !important;
-}
+    #desktop_menu{
+        display: none !important;
+    }
 }
 
-#desktop_menu{
-    display: flex;
+.navPanel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+}
+.rightNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6vw;
+}
+
 .navbar{
     text-align: center;
+    height: 12vw;
+    background: #2e8b57;
+}
+.MuiAppBar-root{
+    background: #2e8b57 !important;
 }
 .navlink_button{
     color:#fff !important;
@@ -28,6 +45,10 @@ display: none !important;
 .navlink_button:hover{
     background:rgb(255,255,255,0.25) !important;
 }
+.logoContainer {
+    max-height: 7.8vw;
+}
+
 .iiitt_logo{
     max-width: 100%;
 }
@@ -37,12 +58,12 @@ display: none !important;
     padding-bottom: 0px !important;
 }
 .nav_routes {
-width: 100%;
-text-decoration: none ;
-color:#000;
-opacity:0.9;
+    width: 100%;
+    text-decoration: none ;
+    color:#000;
+    opacity:0.9;
 }
 #home_button>button:hover {
-background-color:rgb(255,255,255,0.25);
+    background-color:rgb(255,255,255,0.25);
 }
 

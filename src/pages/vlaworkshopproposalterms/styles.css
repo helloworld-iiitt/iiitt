@@ -1,0 +1,14 @@
+.steps {
+  margin: 1rem 0;
+}
+.stepsList {
+  list-style-position: inside;
+}
+
+.stepsList > li {
+  margin: 0.5rem;
+}
+
+.container {
+  padding: 1rem;
+}

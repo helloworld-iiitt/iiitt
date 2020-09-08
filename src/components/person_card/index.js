@@ -45,7 +45,7 @@ const PersonCard = (props) => {
 
   return (
     <>
-      <div className={`container`}>
+      <div className={`personContainer`}>
         <div className="pic">
           <img
             src={require(`../../images/people/${props.src_type}/${props.src}`)}
@@ -61,9 +61,7 @@ const PersonCard = (props) => {
               </Link>
             </Typography>
           ) : (
-            <Typography variant="h5" className={classes.name}>
-              {props.name}
-            </Typography>
+          <Typography variant="h5" className={classes.name}>{props.name}</Typography>
           )}
           {props.designation && (
             <Typography
@@ -125,21 +123,6 @@ const PersonCard = (props) => {
                 )}
             </>
           )}
-          {/* <Typography variant="body2" gutterBottom>
-			{content}{(props.researchArea.length !== content.length && props.researchArea.length>sliceLimit) && '...'}
-		    </Typography>
-		    {
-		    (props.researchArea.length !== content.length) &&
-		    <Typography onClick={showMore} variant="span" className={classes.show}>
-			Show More
-		    </Typography>
-		    }
-		    {
-		    (props.researchArea.length === content.length && props.researchArea.length>sliceLimit) &&
-		    <Typography onClick={showLess} variant="span" className={classes.show}>
-			Show Less
-		    </Typography>
-		    } */}
           <br />
           <Typography variant="body2">
             <a href={`mailto:${props.emailID}`} className="email">

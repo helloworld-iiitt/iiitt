@@ -144,7 +144,7 @@ export default class Home extends React.Component{
 		this.state.achievementsData ?
 		  <PaperCard title="Achievements" items={this.state.achievementsData.slice(0, Math.min(5, this.state.achievementsData.length))} />
 		  :
-		  <Loader />	
+		  <Loader />
 	      }
 	    </Paper>
 	    <Paper elevation={3} className="twittertimeline">

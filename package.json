@@ -8,6 +8,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
     "react": "^16.13.1",
     "react-ad-block-detect": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -15,7 +19,7 @@
     "react-loadable": "^5.5.0",
     "react-responsive-carousel": "^3.2.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "react-spinners": "^0.8.3"
   },
   "scripts": {

@@ -36,18 +36,9 @@ const createStyles = makeStyles({
     backgroundColor: "#3f51b5",
     color: "white"
   },
-  tableCell: {
-    fontSize: "1.2rem"
-  },
   table: {
     marginBottom: "1.5rem"
   },
-  title: {
-    fontSize: "1.5rem"
-  },
-  meetingTitle: {
-    fontSize: "1.3rem"
-  }
 })
 
 export default function AdmissionContact() {
