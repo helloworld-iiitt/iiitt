@@ -202,6 +202,11 @@ function App() {
     loading: () => loading,
   })
 
+  const Biography = Loadable({
+    loader: () => import("./pages/biography/index"),
+    loading: () => loading,
+  })
+
 
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
@@ -250,6 +255,7 @@ function App() {
 	<Route path="/vla_resources" component={VlaResources} />
 	<Route path="/vla_workshops" component={VlaWorkshops} />
 	<Route path="/vla_contact" component={VlaContact} />
+  <Route exact path="/details/:dept/:id" component={Biography}/>
 	<Route path="/*" component={PageNotFound} />
       </Switch>
     </BrowserRouter>

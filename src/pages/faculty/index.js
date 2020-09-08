@@ -34,7 +34,9 @@ export default function Faculty(props) {
     var li = [];
     li.push(
       fac_data[`${grp}`].map((x) => {
-	const { name, emailID, src, designation, researchArea } = x;
+	const { name, emailID, src, designation, researchArea, id } = x;
+	const { dept, deptID } = id;
+	console.log("Dept", dept, "key", deptID);
 	return (
 	  <Grid item xs={12} md={6} lg={4}>
 	    <PersonCard
@@ -43,7 +45,9 @@ export default function Faculty(props) {
 	      src={src}
 	      src_type='faculty'
 	      designation={designation}
-	      researchArea={researchArea}
+		  researchArea={researchArea}
+		  dept={dept}
+		  deptID={deptID}
 	    />
 	  </Grid>
 	);
