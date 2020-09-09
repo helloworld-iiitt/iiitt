@@ -1,0 +1,211 @@
+{
+    "CSE": [
+        {
+            "deptID": "1",
+            "src": "cse_fac_1.jpg",
+            "name": "Dr. R Dhanalaksmi",
+            "designation": "Associate Professor",
+            "department": "Computer Science and Engineering",
+            "emailID": "dhanalakshmi@iiitt.ac.in",
+            "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "researchAndDevelopment": {
+                "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+                "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+                "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+                "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+            }
+        },
+        {
+          "deptID": "2",
+          "src": "cse_fac_2.jpg",
+          "name": "Dr. N. Renugadevi",
+          "designation": "Assistance Professor",
+          "department": "Computer Science and Engineering",
+          "emailID": "renugadevin@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+            "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+            "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+            "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+          }
+        },
+        {
+          "deptID": "3",
+          "src": "cse_fac_3.jpg",
+          "name": "Dr. G. Devasena",
+          "designation": "Assistance Professor",
+          "department": "Computer Science and Engineering",
+          "emailID": "devasenag@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+            "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+            "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+            "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+          }
+        },
+        {
+          "deptID": "4",
+          "src": "cse_fac_4.jpg",
+          "name": "Dr. Anoop Jacob Thomas",
+          "designation": "Assistance Professor",
+          "department": "Computer Science and Engineering",
+          "emailID": "anoopjt@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+            "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+            "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+            "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+          }
+        }
+    ],
+    "ECE": [
+        {
+            "deptID": "1",
+            "src": "ece_fac_1.jpg",
+            "name": "Dr. G. Seetharaman",
+            "designation": "Associate Professor",
+            "department": "Electronics and Communication Engineering",
+            "emailID": "gsraman@iiitt.ac.in",
+            "bio":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "researchAndDevelopment": {
+                "1": "My research touches on several related topics of fluid dynamics: reduced-order modeling of flows, aeroacoustics, hydrodynamic stability theory and feedback flow control.",
+                "2": "The main application of these tools has been to high-speed jets - both for noise mitigation and mixing enhancement. Another application has been airfoil separation control.",
+                "3": "Recent advances in experimental techniques and computational simulations generate enormous datasets, and I am interested in analyzing them to reveal the flow physics buried within.",
+                "4": "A. Sinha, H. Alkandry, M. Kearney-Fischer, M. Samimy and T. Colonius, The impulse response of a high-speed jet forced with localized arc filament plasma actuators, Physics of Fluids, 24:125104, 2012"
+            }
+        },
+        {
+          "deptID": "2",
+          "src": "ece_fac_2.jpg",
+          "name": "Dr. R. Krishnamurthy",
+          "designation": "Assistant Professor",
+          "department": "Electronics and Communication Engineering",
+          "emailID": "krishnamurthyr@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "My research touches on several related topics of fluid dynamics: reduced-order modeling of flows, aeroacoustics, hydrodynamic stability theory and feedback flow control.",
+            "2": "The main application of these tools has been to high-speed jets - both for noise mitigation and mixing enhancement. Another application has been airfoil separation control.",
+            "3": "Recent advances in experimental techniques and computational simulations generate enormous datasets, and I am interested in analyzing them to reveal the flow physics buried within.",
+            "4": "A. Sinha, H. Alkandry, M. Kearney-Fischer, M. Samimy and T. Colonius, The impulse response of a high-speed jet forced with localized arc filament plasma actuators, Physics of Fluids, 24:125104, 2012"
+          }
+        },
+        {
+          "deptID": "3",
+          "src": "ece_fac_3.jpg",
+          "name": "Dr. M. Senthil Sivakumar",
+          "designation": "Assistant Professor",
+          "department": "Electronics and Communication Engineering",
+          "emailID": "msenthilsivakumar@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "My research touches on several related topics of fluid dynamics: reduced-order modeling of flows, aeroacoustics, hydrodynamic stability theory and feedback flow control.",
+            "2": "The main application of these tools has been to high-speed jets - both for noise mitigation and mixing enhancement. Another application has been airfoil separation control.",
+            "3": "Recent advances in experimental techniques and computational simulations generate enormous datasets, and I am interested in analyzing them to reveal the flow physics buried within.",
+            "4": "A. Sinha, H. Alkandry, M. Kearney-Fischer, M. Samimy and T. Colonius, The impulse response of a high-speed jet forced with localized arc filament plasma actuators, Physics of Fluids, 24:125104, 2012"
+          }
+        },
+        {
+          "deptID": "4",
+          "src": "ece_fac_4.jpg",
+          "name": "Dr. Suresh Balanethiram",
+          "designation": "Assistant Professor",
+          "department": "Electronics and Communication Engineering",
+          "emailID": "sureshb@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "My research touches on several related topics of fluid dynamics: reduced-order modeling of flows, aeroacoustics, hydrodynamic stability theory and feedback flow control.",
+            "2": "The main application of these tools has been to high-speed jets - both for noise mitigation and mixing enhancement. Another application has been airfoil separation control.",
+            "3": "Recent advances in experimental techniques and computational simulations generate enormous datasets, and I am interested in analyzing them to reveal the flow physics buried within.",
+            "4": "A. Sinha, H. Alkandry, M. Kearney-Fischer, M. Samimy and T. Colonius, The impulse response of a high-speed jet forced with localized arc filament plasma actuators, Physics of Fluids, 24:125104, 2012"
+          }
+        }
+    ],
+    "ME": [
+        {
+          "deptID": "1",
+          "src": "mech_fac_1.jpg",
+          "name": "Dr. Velmurugan C",
+          "designation": "Assistant Professor",
+          "department": "Mechanical Engineering",
+          "emailID": "velmuruganc@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+            "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+            "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+            "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+          }
+        }
+    ],
+    "MATH": [
+        {
+          "deptID": "1",
+          "src": "math_fac_1.jpg",
+          "name": "Dr. Jagadeeshwar Pashikanti",
+          "designation": "Assistant Professor",
+          "department": "Mathematics",
+          "emailID": "jagadeeshwarp@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+            "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+            "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+            "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+          }
+        }
+    ],
+    "ECO": [
+        {
+          "deptID": "1",
+          "src": "eco_fac_1.jpg",
+          "name": "Dr. Rinshu",
+          "designation": "Assistant Professor",
+          "department": "Economics",
+          "emailID": "rinshud@iiitt.ac.in",
+          "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "researchAndDevelopment": {
+            "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+            "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+            "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+            "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+          }
+        }
+    ],
+    "PHY": [
+       {
+         "deptID": "1",
+         "src": "phy_fac_1.jpg",
+         "name": "Dr. Kamakshi K",
+         "designation": "Assistant Professor",
+         "department": "Physics",
+         "emailID": "kamakshi@iiitt.ac.in",
+         "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+         "researchAndDevelopment": {
+           "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+           "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+           "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+           "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+         }
+       } 
+    ],
+    "ENG": [
+       {
+         "deptID": "1",
+         "src": "eng_fac_1.jpg",
+         "name": "Dr. V. Sindhu",
+         "designation": "Assistant Professor",
+         "department": "English",
+         "emailID": "sindhuv@iiitt.ac.in",
+         "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+         "researchAndDevelopment": {
+           "1": "A multilevel numerical approach with application in time-domain electromagnetics, Communications in Computational Physics, (2015).",
+           "2": "Reducing aircraft radar cross section with owl wing type serrated trailing edges ( with Sai Teja & Manoj Vaghela), Current Science, (2017)",
+           "3": "Computing with large time steps in time-domain electromagnetics (with Nikitabahen Makwana), Journal Electromagnetic Waves and Applications, (2018)",
+           "4": "Reducing wing observability to radar using microserrations at leading edge (with K Sai Krishna Reddy), Current Science (2019)"
+         }
+       }  
+    ]
+}

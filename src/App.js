@@ -14,14 +14,14 @@ function App() {
   const loading = (
     <div className="sweet-loading">
       <ScaleLoader
-	css={override}
-	sizeUnit={"px"}
-	color={"#3f51b5"}
-	size={80}
-	height={35}
-	width={12}
-	radius={2}
-	loading={true}
+        css={override}
+        sizeUnit={"px"}
+        color={"#3f51b5"}
+        size={80}
+        height={35}
+        width={12}
+        radius={2}
+        loading={true}
       />
       <div style={{ fontSize: "30px" }}>Loading...</div>
     </div>
@@ -177,6 +177,11 @@ function App() {
     loading: () => loading,
   })
 
+  const Biography = Loadable({
+    loader: () => import("./pages/biography/index"),
+    loading: () => loading,
+  })
+
   const Vla = Loadable({
     loader: () => import("./pages/vla/index"),
     loading: () => loading,
@@ -201,56 +206,100 @@ function App() {
     loader: () => import("./pages/vlacontact/index"),
     loading: () => loading,
   })
+
+  const VlaRegistrationInfo = Loadable({
+    loader: () => import("./pages/vlaregistrationinfo/index"),
+    loading: () => loading,
+  })
+
+  const VlaWorkshopProposalTerms = Loadable({
+    loader: () => import("./pages/vlaworkshopproposalterms/index"),
+    loading: () => loading,
+  })
+
+  const VlaAttend = Loadable({
+    loader: () => import("./pages/vlaattend/index"),
+    loading: () => loading,
+  })
+
+  const VlaWorkshopProposal = Loadable({
+    loader: () => import("./pages/vlaworkshopproposal/index"),
+    loading: () => loading,
+  })
+
+  const VlaParticipants = Loadable({
+    loader: () => import("./pages/vlaparticipants/index"),
+    loading: () => loading,
+  })
+
+  const VlaSummary = Loadable({
+    loader: () => import("./pages/vlasummary/index"),
+    loading: () => loading,
+  })
+
+  const VlaVideos = Loadable({
+    loader: () => import("./pages/vlavideos/index"),
+    loading: () => loading,
+  })
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
-	rel="stylesheet"
-	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
       <link
-	rel="stylesheet"
-	href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
       />
 
-      <Switch>
-	<Route exact path="/" component={Home} />
-	<Route path="/about" component={About} />
-	<Route path="/faculty" component={Faculty} />
-	<Route path="/staff" component={Staff} />
-	<Route path="/admission_procedure" component={AdmissionProcedure} />
-	<Route path="/admission_fee_structure" component={AdmissionFeeStructure} />
-	<Route path="/admission_forms" component={AdmissionForms} />
-	<Route path="/anti_ragging_committee" component={AntiRagging} />
-	<Route path="/admission_contact" component={AdmissionContact} />
-	<Route path="/general" component={Notices} />
-	<Route path="/tenders" component={Tenders} />
-	<Route path="/programs" component={Programs} />
-	<Route path="/departments" component={Departments} />
-	<Route path="/curriculum" component={Curriculum} />
-	<Route path="/calendar" component={Calendar} />
-	<Route path="/holidays" component={Holidays} />
-	<Route path="/undergraduate" component={Undergraduate} />
-	<Route path="/faq" component={Faq} />
-	<Route path="/festivals" component={Festivals} />
-	<Route path="/clubs" component={Clubs} />
-	<Route path="/contactus" component={ContactUs} />
-	<Route path="/bog" component={BoG} />
-	<Route path="/senate" component={Senate} />
-	<Route path="/fc" component={Fc} />
-	<Route path="/bwc" component={BWC} />
-	<Route path="/rti" component={RTI} />
-	<Route path="/industry_partners" component={Partners} />
-	<Route path="/director" component={Director} />
-	<Route path="/registrar" component={Registrar} />
-	<Route path="/genderwisedata" component={GenderData} />
-	<Route path="/vla" component={Vla} />
-	<Route path="/vla_registration" component={VlaRegistration} />
-	<Route path="/vla_resources" component={VlaResources} />
-	<Route path="/vla_workshops" component={VlaWorkshops} />
-	<Route path="/vla_contact" component={VlaContact} />
-	<Route path="/*" component={PageNotFound} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/faculty" component={Faculty} />
+      <Route path="/staff" component={Staff} />
+      <Route path="/admission_procedure" component={AdmissionProcedure} />
+      <Route path="/admission_fee_structure" component={AdmissionFeeStructure} />
+      <Route path="/admission_forms" component={AdmissionForms} />
+      <Route path="/anti_ragging_committee" component={AntiRagging} />
+      <Route path="/admission_contact" component={AdmissionContact} />
+      <Route path="/general" component={Notices} />
+      <Route path="/tenders" component={Tenders} />
+      <Route path="/programs" component={Programs} />
+      <Route path="/departments" component={Departments} />
+      <Route path="/curriculum" component={Curriculum} />
+      <Route path="/calendar" component={Calendar} />
+      <Route path="/holidays" component={Holidays} />
+      <Route path="/undergraduate" component={Undergraduate} />
+      <Route path="/faq" component={Faq} />
+      <Route path="/festivals" component={Festivals} />
+      <Route path="/clubs" component={Clubs} />
+      <Route path="/contactus" component={ContactUs} />
+      <Route path="/bog" component={BoG} />
+      <Route path="/senate" component={Senate} />
+      <Route path="/fc" component={Fc} />
+      <Route path="/bwc" component={BWC} />
+      <Route path="/rti" component={RTI} />
+      <Route path="/industry_partners" component={Partners} />
+      <Route path="/director" component={Director} />
+      <Route path="/registrar" component={Registrar} />
+      <Route path="/genderwisedata" component={GenderData} />
+      <Route exact path="/faculty_detail/:dept/:id" component={Biography}/>
+      <Route path="/vla" component={Vla} />
+      <Route path="/vla_registration" component={VlaRegistration} />
+      <Route path="/vla_resources" component={VlaResources} />
+      <Route path="/vla_workshops" component={VlaWorkshops} />
+      <Route path="/vla_contact" component={VlaContact} />
+      <Route path="/vla_registration_info" component={VlaRegistrationInfo} />
+      <Route path="/vla_workshop_proposal_terms" component={VlaWorkshopProposalTerms} />
+      <Route path="/vla_attend" component={VlaAttend} />
+      <Route path="/vla_workshop_proposal" component={VlaWorkshopProposal} />
+      <Route path={ /\/vla_workshop\d_participants/ } component={VlaParticipants} />
+      <Route path={ /\/vla_workshop\d_summary/ } component={VlaSummary} />
+      <Route path={ /\/vla_videos_\d\d?-\d\d?[a-zA-Z]*\d\d\d\d/ } component={VlaVideos} />
+      <Route path="/*" component={PageNotFound} />
+    </Switch>
+  </BrowserRouter>
   );
 }
 

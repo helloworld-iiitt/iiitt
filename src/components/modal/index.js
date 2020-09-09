@@ -62,27 +62,27 @@ export default function CustomizedDialogs() {
 
   return (
     <div>
-    
+
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
         <DialogTitle id="customized-dialog-title" onClose={handleClose}>
           Adblocker Detected !!
         </DialogTitle>
         <DialogContent dividers>
-        <ul >
+          <ul >
             <li>
-                <Typography gutterBottom>
-                    Adblocker prevents loading of some  website components.
-                </Typography>
+              <Typography gutterBottom>
+                Adblocker or Social Media Blocker prevents loading of some  website components.
+              </Typography>
             </li>
             <li>
-                <Typography gutterBottom>
-                    We promise not to show you any Ads.
-                </Typography>
+              <Typography gutterBottom>
+                We promise not to show you any Ads.
+              </Typography>
             </li>
             <li>
-                <Typography gutterBottom>
-                Please Disable the Adblocker for better experience!!
-                </Typography>
+              <Typography gutterBottom>
+                Please Disable the Adblocker (and/or) the Social Media Blocker for better experience!!
+              </Typography>
             </li>
           </ul>
         </DialogContent>

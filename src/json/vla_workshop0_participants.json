@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "name": "Ankit Bhurane",
+      "designation": "ASSISTANT PROFESSOR",
+      "institute": "Indian Institute Of Information Technology Nagpur",
+      "state": "Maharashtra"
+    },
+    {
+      "name": "Bharathi V",
+      "designation": "Temporary Faculty",
+      "institute": "Indian Institute of Information Technology, Tiruchirappalli",
+      "state": "Tamil Nadu"
+    },
+    {
+      "name": "Bhaskar Thupakula",
+      "designation": "Assistant Professor",
+      "institute": "Sanjivani College of Engineering Kopargaon",
+      "state": "Maharashtra"
+    }
+  ]
+}

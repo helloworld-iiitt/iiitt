@@ -8,11 +8,12 @@ import Marquee from '../../components/marquee/index'
 import Footer from '../../components/footer/index'
 import { Divider, Paper, Card, Tabs, Tab, Box, Typography } from '@material-ui/core';
 import PropTypes from 'prop-types'
-import TwitterContainer from '../../components/twittertimeline/index'
 import './style.css'
 import carouselData from '../../json/homeCarousel.json'
 import Loader from '../../components/sub_component_loader/index'
-import AdBlockDetect from '../../components/adblock_detect/index'
+import { Timeline } from 'react-twitter-widgets'
+import Modal from '../../components/modal/index'
+
 
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props;
@@ -93,7 +94,6 @@ export default class Home extends React.Component{
       <div className="page-container">
 
 	<Navbar />
-	<AdBlockDetect />
 	<div className="container">
 	  <div onMouseOver={this.enable_slide_control} className="customeflex">
 	    <div className="mission">
@@ -118,7 +118,7 @@ export default class Home extends React.Component{
 	      <TabPanel value={this.state.value} index={0}>
 		{
 		  this.state.newsData ?
-		    <PaperCard title="News" items={this.state.newsData.slice(0, Math.min(5, this.state.newsData.length))}/>
+		  <PaperCard title="News" items={this.state.newsData.slice(0, Math.min(5, this.state.newsData.length))}/>
 		    :
 		    <Loader />
 		}
@@ -126,29 +126,48 @@ export default class Home extends React.Component{
 	      <TabPanel value={this.state.value} index={1}>
 		{
 		  this.state.eventsData ?
-		    <PaperCard title="Events" items={this.state.eventsData.slice(0, Math.min(5, this.state.eventsData.length))}/>
+		  <PaperCard title="Events" items={this.state.eventsData.slice(0, Math.min(5, this.state.eventsData.length))}/>
 		    :
-			<Loader />
+		    <Loader />
 		}
 	      </TabPanel>
 	      <TabPanel value={this.state.value} index={2}>
 		{
 		  this.state.noticeData ? <PaperCard title="Notices" items={this.state.noticeData.slice(0, Math.min(5, this.state.noticeData.length))}/>
-		  :
-		  <Loader />
+		    :
+		    <Loader />
 		}
 	      </TabPanel>
 	    </Paper>
 	    <Paper elevation={3} className="achievements">
 	      {
 		this.state.achievementsData ?
-		  <PaperCard title="Achievements" items={this.state.achievementsData.slice(0, Math.min(5, this.state.achievementsData.length))} />
+		<PaperCard title="Achievements" items={this.state.achievementsData.slice(0, Math.min(5, this.state.achievementsData.length))} />
 		  :
 		  <Loader />
 	      }
 	    </Paper>
 	    <Paper elevation={3} className="twittertimeline">
-	      <TwitterContainer src="https://twitter.com/IIITTrichy" width="576" height="680"/>
+	      <Timeline
+		dataSource={{
+		  sourceType: 'profile',
+		  screenName: 'iiittrichy'
+		}}
+		options={{
+		  width: '576',
+		  height: '680'
+		}}
+		renderError={
+		  (err)=> {
+		    return (
+		      <>
+			<h2 className="adblock">Blocked by Adblocker or Social Media Plugin</h2>
+			<Modal />
+		      </>
+		    )
+		  }
+		}
+	      />
 	    </Paper>
 	  </div>
 	</div>

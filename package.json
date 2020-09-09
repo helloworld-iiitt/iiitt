@@ -20,7 +20,8 @@
     "react-responsive-carousel": "^3.2.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
-    "react-spinners": "^0.8.3"
+    "react-spinners": "^0.8.3",
+    "react-twitter-widgets": "^1.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
