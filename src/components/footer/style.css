@@ -10,15 +10,19 @@ html{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    box-shadow: 15px 0 0 0 rgba(0, 0, 0, 0.2), 20px 0 0 0 rgba(0, 0, 0, 0.19);
  }
+
 .credits{
   background-color: white;
   color:#2e8b57;
-    text-align: center;
-    padding: 5px 0;
-    margin: 0px;
-      font-weight: bolder;
+  padding: 5px 0;
+  margin:0;
+  font-weight: bolder;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:1.2rem;
 }
-
 
 .main-div{
   display: flex;
@@ -78,7 +82,31 @@ width:55%;
   margin: 0.5rem;
   text-align: center;
   transform: scale(1.3);
+}
+.icon-bg:hover .twitter{
+    color: #00acee;
+}
+.icon-bg:hover .facebook{
+  color: #3b5998 ;
+}
+.icon-bg:hover .linkedin{
+  color:  #0e76a8;
+}
+.icon-bg{
+  background-color: #2e8b57;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
   cursor: pointer;
+}
+.icon-bg:hover{
+  border-color: white;
+  background-color: white;
 }
 .acedemics{
   font-size: 1.0em;
@@ -90,6 +118,7 @@ width:55%;
   opacity: 0.7;
   transition: 1s;
   text-decoration: none;
+  font-weight: bold;
 }
  .quick-explore a:hover, .acedemics a:hover{
    opacity: 1;
@@ -123,20 +152,7 @@ a{
   display: none;
 }
 
-.icon-bg{
-  background-color: #2e8b57;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  margin: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid white;
-}
-.icon-bg:hover{
-  opacity: 0.8;
-}
+
 .line{
   border-left: 7px;
   width: 1.5%;
@@ -231,6 +247,7 @@ a{
   width: 20%;
 }
 .count-down-main p{
+  font-weight: bold;
   opacity: 0.8;
 }
 .Countdown{
@@ -267,14 +284,15 @@ a{
 
 .nature{
   border: 2px dashed white;
-  position: relative;
-  width: 80%;
+  width: 75%;
   height: 10vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: 0.5em 0.5em 0.5em 0;
 }
 .nature span{
+  display: block;
   font-size: 1.2em;
   font-weight: bold;
   margin-left: 0.5em;
@@ -306,46 +324,35 @@ background-color: #f00;
 /* --------------------------------------heart animation---------------------------------------------- */
 
 .heart{
-  margin-left: 0.5em;
- margin-bottom: 0.8em;
+  margin:0 1.2rem;
   color:#f00;
   animation: heart 1s linear infinite;
 }
 
 @keyframes heart {
 0%{
-  transform: translate(10px,10px) scale(2);
+  transform:  scale(2);
 }
 25%{
-  transform: translate(10px,10px) scale(2);
+  transform: scale(2);
 }
 30%{
-  transform: translate(10px,10px) scale(2.4);
+  transform:  scale(2.4);
 }
 50%{
-  transform: translate(10px,10px) scale(2.2);
+  transform:  scale(2.2);
 }
 70%{
-  transform: translate(10px,10px) scale(2.4);
+  transform:  scale(2.4);
 }
 90%{
-  transform:  translate(10px,10px) scale(2);
+  transform: scale(2);
 }
 100%{
-  transform:  translate(10px,10px) scale(2);
+  transform:   scale(2);
 }
 }
-@media(max-width:1300px){
-  .nature span{
-  }
-  .nature{
- width: 85%;
- text-align: center;
- display: flex;
- align-items: center;
- justify-content: center;
-  }
-}
+
 @media(max-width:800px){
   .count-down-main{
 width: 80%;
@@ -369,5 +376,7 @@ align-items: center;
   .trichy{
     margin-bottom: 20px;
   }
+ .nature{
 
+ }
 }

@@ -9,6 +9,10 @@ import SchoolTwoToneIcon from '@material-ui/icons/SchoolTwoTone';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import MailIcon from '@material-ui/icons/Mail';
 import CallIcon from '@material-ui/icons/Call';
+import Link from '@material-ui/core/Link';
+import Loadable from "react-loadable";
+
+
 /* Footer */
 const Footer = () => {
 const apiKey = `https://api.openweathermap.org/data/2.5/weather?q=tiruchirapalli,india&units=metric&appid=${process.env.REACT_APP_API_KEY}`;
@@ -97,7 +101,7 @@ setInterval(updateCountdown, 1000);
           <div className="acedemics">
           <h2>Academics</h2>
              <div className="main-hr ace"></div>
-                   <a href="www.google.com">Programs</a>
+                   <a href="../pages/admissionfeestructure/index.js">Programs</a>
                    <hr></hr>
                     <a href="www.google.com">Department</a>
                     <hr></hr>
