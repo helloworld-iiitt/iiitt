@@ -177,6 +177,11 @@ function App() {
     loading: () => loading,
   })
 
+  const Biography = Loadable({
+    loader: () => import("./pages/biography/index"),
+    loading: () => loading,
+  })
+
   const Vla = Loadable({
     loader: () => import("./pages/vla/index"),
     loading: () => loading,
@@ -279,6 +284,7 @@ function App() {
       <Route path="/director" component={Director} />
       <Route path="/registrar" component={Registrar} />
       <Route path="/genderwisedata" component={GenderData} />
+      <Route exact path="/faculty_detail/:dept/:id" component={Biography}/>
       <Route path="/vla" component={Vla} />
       <Route path="/vla_registration" component={VlaRegistration} />
       <Route path="/vla_resources" component={VlaResources} />
