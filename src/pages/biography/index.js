@@ -4,7 +4,14 @@ import Footer from "./../../components/footer/index";
 import bio_data from "../../json/biographies.json";
 import { makeStyles } from "@material-ui/core/styles";
 import { Divider } from "@material-ui/core";
-import { Card, Grid, Box, Typography, CardMedia, CardContent } from "@material-ui/core";
+import {
+  Card,
+  Grid,
+  Box,
+  Typography,
+  CardMedia,
+  CardContent,
+} from "@material-ui/core";
 
 const createStyles = makeStyles({
   container: {
@@ -43,8 +50,7 @@ const createStyles = makeStyles({
   },
 });
 
-export default function Biography(){
-
+export default function Biography() {
   let param = window.location.pathname;
   //console.log(param);
 
@@ -52,7 +58,7 @@ export default function Biography(){
   //console.log(details, dept, id);
 
   const info = bio_data[dept].find((data) => data.deptID === id);
-  console.log(info)
+  console.log(info);
   const classes = createStyles();
   return (
     <div className="page-container">
