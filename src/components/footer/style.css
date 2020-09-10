@@ -5,17 +5,14 @@ html{
   box-sizing: border-box;
 }
 .footer {
-
-    color:#f5f5f5;
+    color:#fff;
     background-color:#2e8b57;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   box-shadow: 15px 0 0 0 rgba(0, 0, 0, 0.2), 20px 0 0 0 rgba(0, 0, 0, 0.19);
  }
 
 .credits{
-  background-color: white;
-  color:#2e8b57;
-<<<<<<< HEAD
+  background-color:#256f46;
+  color:#fff;
   padding: 5px 0;
   margin:0;
   font-weight: bolder;
@@ -24,13 +21,7 @@ html{
   align-items: center;
   justify-content: center;
   font-size:1.2rem;
-=======
-    text-align: center;
-    padding: 5px 0;
-    margin: 0px;
-      font-weight: bolder;
-
->>>>>>> d1c4602a4b8f922865e7050369c2723fd52f1eb9
+  border-top: 2px solid #050e09;
 }
 
 .main-div{
@@ -42,7 +33,12 @@ html{
  justify-content: center;
 
 }
-
+.contact-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .contacts{
   display: flex;
   flex-direction: column;
@@ -56,19 +52,25 @@ html{
 }
 .contacts h2{
   text-align: center;
+  color:#fff;
 }
 .contacts h3{
+  color:#fff;
   text-align: center;
   opacity: 0.7;
   margin: 0.3vh 0;
 }
 .contacts a{
   margin:0.3vh 0;
-  color: white;
+  color: #fff;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+}
+.contacts a:hover{
+transform: scale(1.2);
 }
 .phoneicon, .mailicon{
   margin: 2px;
@@ -84,12 +86,13 @@ html{
 }
 
 .icon{
-  margin: 0 36%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width:35%;
 }
 .twitter, .facebook, .linkedin{
-  color: white;
+  color: #fff;
   margin:8px;
   transform: scale(1.3);
 }
@@ -111,12 +114,12 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
+  border: 2px solid #fff;
   cursor: pointer;
 }
 .icon-bg:hover{
-  border-color: white;
-  background-color: white;
+  border-color: #fff;
+  background-color: #fff;
 }
 .acedemics{
   font-size: 1.0em;
@@ -128,19 +131,24 @@ html{
   opacity: 0.7;
   transition: 1s;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 1.1rem;
 }
- .quick-explore a, .acedemics a{
-   margin: 4% 0;
+ .quick-explore a:hover, .acedemics a:hover{
+   margin-left: 1.1rem;
+   opacity: 0.8;
+   color: white;
  }
 .quick-explore{
+  color: #fff;
   font-size: 1.0em;
-  width:13%;
+  width:14%;
 }
 
 .acedemics hr, .quick-explore hr{
-  margin: 4% 0;
-  opacity: 0.3;
+  margin: 8% 0;
+  opacity: 0.8;
+  border-top: 2px;
+  border-color: #17462c;
 }
 
 #favorite{
@@ -154,6 +162,9 @@ html{
   transform: scale(1.4);
   margin: 0 10px;
 
+}
+.credits:hover{
+  color: white;
 }
 
 a{
@@ -170,7 +181,7 @@ a{
   height:4vh;
   border-style: none;
   border-left-style: dotted;
-  border-color: #e8e4e1;
+  border-color: #17462c;
   opacity: 1;
   margin: 7%  4%;
 }
@@ -188,19 +199,18 @@ a{
 .mobile{
   display: inherit;
 }
-.count-down-main h2{
-  font-size: 1.7rem;
-}
-.count-down-main p{
-  margin: 1px;
-}
+
 .contacts p, .contacts h2, .contacts h3 {
   margin: 2px;
 }
 .acedemics hr, .quick-explore hr{
   opacity: 0.2;
 }
+.acedemics, .quick-explore{
+  font-size: 1.4rem;
+}
  .quick-explore a, .acedemics a{
+   font-size: 1.2rem;
    margin: 4% 0;
  }
 .heart{
@@ -260,7 +270,6 @@ a{
   width: 20%;
 }
 .count-down-main p{
-  font-weight: bold;
   opacity: 0.8;
 }
 .Countdown{
@@ -296,7 +305,7 @@ a{
 }
 
 .nature{
-  border: 2px dashed white;
+  border: 2px dashed #fff;
   width: 75%;
   height: 10vh;
   display: flex;
@@ -310,14 +319,14 @@ a{
   font-weight: bold;
   margin-left: 0.5em;
   opacity: 1;
-  color: #f1f1e8;
+  color: #fff;
 }
 .mobile{
   border-top: 7px;
   width: 1.5rem;
   border-style: none;
   border-top-style: dotted;
-  border-color: #e8e4e1;
+  border-color: #17462c;
   opacity: 1;
   margin: 6% 0;
 }
@@ -325,7 +334,7 @@ a{
   width: 70%;
   height: 0.2rem;
   border-radius: 10px;
-background-color: #f00;
+background-color: #17462c;
 }
 .quick-ex{
   width: 55%;
@@ -337,8 +346,7 @@ background-color: #f00;
 /* --------------------------------------heart animation---------------------------------------------- */
 
 .heart{
-  margin-left: 0.5em;
-  margin-bottom: 0.8em;
+  margin: 0 1rem;
   color:#f00;
   animation: heart 1s linear infinite;
 }
@@ -368,9 +376,6 @@ background-color: #f00;
 }
 
 @media(max-width:800px){
-  .count-down-main{
-    display: none;
-  }
   .temp{
     text-align: left;
   }
@@ -388,7 +393,16 @@ background-color: #f00;
   .trichy{
     margin-bottom: 20px;
   }
- .nature{
-
+ .count-down-main{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .count-down-main h2{
+   font-size: 1.7rem;
+ }
+ .count-down-main p{
+   margin: 1px;
  }
 }
