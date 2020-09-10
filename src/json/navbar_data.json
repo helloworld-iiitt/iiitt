@@ -1,180 +1,178 @@
 {
-  "data":[
+  "data": [
     {
-      "text":"Institute",
-      "icon":"account_balance",
-      "submenu":[
-	{
-	  "text":"About IIITT",
-	  "link":"/about"
-	},
-	{
-	  "text":"Director",
-	  "link":"/director"
-	},
-	{
-	  "text":"Registrar",
-	  "link":"/registrar"
-	},
-	{
-	  "text":"BoG",
-	  "link":"/bog"
-	},
-	{
-	  "text":"Senate",
-	  "link":"/senate"
-	},
-	{
-	  "text":"FC",
-	  "link":"/fc"
-	},
-	{
-	  "text":"BwC",
-	  "link":"/bwc"
-	},
-	{
-	  "text":"RTI",
-	  "link":"/rti"
-	},
-	{
-	  "text":"Industry Partners",
-	  "link":"/industry_partners"
-	}
+      "text": "Institute",
+      "icon": "account_balance",
+      "submenu": [
+        {
+          "text": "About IIITT",
+          "link": "/about"
+        },
+        {
+          "text": "Director",
+          "link": "/director"
+        },
+        {
+          "text": "Registrar",
+          "link": "/registrar"
+        },
+        {
+          "text": "BoG",
+          "link": "/bog"
+        },
+        {
+          "text": "Senate",
+          "link": "/senate"
+        },
+        {
+          "text": "FC",
+          "link": "/fc"
+        },
+        {
+          "text": "BwC",
+          "link": "/bwc"
+        },
+        {
+          "text": "RTI",
+          "link": "/rti"
+        },
+        {
+          "text": "Industry Partners",
+          "link": "/industry_partners"
+        }
       ]
     },
     {
-      "text":"Academics",
-      "icon":"local_library",
-      "submenu":[
-	{
-	  "text":"Programs",
-	  "link":"/programs"
-	},
-	{
-	  "text":"Departments",
-	  "link":"/departments"
-	},
-	{
-	  "text":"Curriculum",
-	  "link":"/curriculum"
-	},
-	{
-	  "text":"Calendar",
-	  "link":"/calendar"
-	},
-	{
-	  "text":"Holidays",
-	  "link":"/holidays"
-	}
+      "text": "Academics",
+      "icon": "local_library",
+      "submenu": [
+        {
+          "text": "Programs",
+          "link": "/programs"
+        },
+        {
+          "text": "Departments",
+          "link": "/departments"
+        },
+        {
+          "text": "Curriculum",
+          "link": "/curriculum"
+        },
+        {
+          "text": "Calendar",
+          "link": "/calendar"
+        },
+        {
+          "text": "Holidays",
+          "link": "/holidays"
+        }
       ]
     },
     {
-      "text":"People",
-      "icon":"people",
-      "submenu":[
-	{
-	  "text":"Faculty",
-	  "link":"/faculty"
-	},
-	{
-	  "text":"Staff",
-	  "link":"/staff"
-	},
-	{
-	  "text":"Gender wise Data",
-	  "link":"/genderwisedata"
-	}
+      "text": "People",
+      "icon": "people",
+      "submenu": [
+        {
+          "text": "Faculty",
+          "link": "/faculty"
+        },
+        {
+          "text": "Staff",
+          "link": "/staff"
+        },
+        {
+          "text": "Gender wise Data",
+          "link": "/genderwisedata"
+        }
       ]
     },
     {
-      "text":"Admission",
-      "icon":"note_add",
-      "submenu":[
-	{
-	  "text":"Admission Procedure",
-	  "link":"/admission_procedure"
-	},
-
-	{
-	  "text":"Fee Structure",
-	  "link":"/admission_fee_structure"
-	},
-	{
-	  "text":"Admission Forms",
-	  "link":"/admission_forms"
-	},
-	{
-	  "text":"Anti Ragging Committee",
-	  "link":"/anti_ragging_committee"
-	},
-	{
-	  "text":"Contact",
-	  "link":"/admission_contact"
-	}
+      "text": "Admission",
+      "icon": "note_add",
+      "submenu": [
+        {
+          "text": "Admission Procedure",
+          "link": "/admission_procedure"
+        },
+        {
+          "text": "Fee Structure",
+          "link": "/admission_fee_structure"
+        },
+        {
+          "text": "Admission Forms",
+          "link": "/admission_forms"
+        },
+        {
+          "text": "Anti Ragging Committee",
+          "link": "/anti_ragging_committee"
+        },
+        {
+          "text": "Contact",
+          "link": "/admission_contact"
+        }
       ]
     },
     {
-      "text":"Notification",
-      "icon":"notification_important",
-      "submenu":[
-	{
-	  "text":"General",
-	  "link":"/general"
-	},
-	{
-	  "text":"Tenders",
-	  "link":"/tenders"
-	}
+      "text": "Notification",
+      "icon": "notification_important",
+      "submenu": [
+        {
+          "text": "General",
+          "link": "/general"
+        },
+        {
+          "text": "Tenders",
+          "link": "/tenders"
+        }
       ]
     },
     {
-      "text":"Students",
-      "icon":"person",
-      "submenu":[
-	{
-	  "text":"Undergraduate",
-	  "link":"/undergraduate"
-	},
-	{
-	  "text":"FAQ's",
-	  "link":"/faq"
-	}
+      "text": "Students",
+      "icon": "person",
+      "submenu": [
+        {
+          "text": "Undergraduate",
+          "link": "/undergraduate"
+        },
+        {
+          "text": "FAQ's",
+          "link": "/faq"
+        }
       ]
     },
     {
-      "text":"Campus Life",
-      "icon":"school",
-      "submenu":[
-	{
-	  "text":"Festivals",
-	  "link":"/festivals"
-	},
-	{
-	  "text":"Clubs",
-	  "link":"/clubs"
-	}
+      "text": "Campus Life",
+      "icon": "school",
+      "submenu": [
+        {
+          "text": "Festivals",
+          "link": "/festivals"
+        },
+        {
+          "text": "Clubs",
+          "link": "/clubs"
+        }
       ]
     },
     {
-      "text":"Contact Us",
-      "icon":"school",
-      "submenu":[
-	{
-	  "text":"Contact Us",
-	  "link":"/contactus"
-	}
+      "text": "Contact Us",
+      "icon": "school",
+      "submenu": [
+        {
+          "text": "Contact Us",
+          "link": "/contactus"
+        }
       ]
     },
     {
-      "text":"Virtual Academy",
-      "icon":"web",
-      "submenu":[
-	{
-	  "text":"VLA Home",
-	  "link":"/vla"
-	}
+      "text": "Virtual Academy",
+      "icon": "web",
+      "submenu": [
+        {
+          "text": "VLA Home",
+          "link": "/vla"
+        }
       ]
     }
   ]
 }
-

@@ -4,58 +4,87 @@
       "name": "SWACHHATA HI SEVA 2018",
       "description": "IIITT carried out various activities under Swachhata Hi Seva 2018 during 15th-22nd October 2018 as a precursor to the launch of 150th birth anniversary celebrations of Mahatma Gandhi and in the run up to the 4th anniversary of Swachh Bharat Mission.",
       "links": [
-	{
-	  "name": "SWACHHATA HI SEVA 2018 Report",
-	  "url": "IIITT_SHS'2018_REPORT.pdf",
-	  "download": true
-	}
+        {
+          "name": "SWACHHATA HI SEVA 2018 Report",
+          "url": "IIITT_SHS'2018_REPORT.pdf",
+          "download": true
+        }
       ],
-      "images": [
-      ]
+      "images": []
     },
     {
       "name": "Institue Day",
       "description": "The Institute Day is celebrated every year at the end of even semester. On this day, meritorius students are awareded Certificates and Medals. Many cultural events are performed by the students. In 2017, the event was held on 7th April, 2017. On this day, many meritorius students were awarded Certificates and Medals. The Chief Guest for the event was Shri. Paul Pandian, Group Director, ISRO Inertial Systems, Thiruvanathpuram.",
-      "links": [
-      ],
-      "images": [
-      ]
+      "links": [],
+      "images": []
     },
-    { "name": "Sports Day",
+    {
+      "name": "Sports Day",
       "description": "The Sports Day is celebrated every year at the beginning of the odd semester. The event comprises of many popular sports like Cricket, Badminton, Kabaddi, Chess, Basketball, Football and Table Tennis. The winners are awarded trophies and medals.",
-      "links": [
-      ],
+      "links": [],
       "images": [
-  {"name": "Cricket", "path": "sports-day-1.jpg"},
-  {"name": "Cricket", "path": "sports-day-2.jpg"},
-  {"name": "Football", "path": "sports-day-3.jpg"},
-  {"name": "Volleyball", "path": "sports-day-4.jpg"},
-  {"name": "Basketball", "path": "sports-day-5.jpg"},
-  {"name": "Kabaddi", "path": "sports-day-6.jpg"},
-  {"name": "Chess", "path": "sports-day-7.jpg"},
-  {"name": "Badminton", "path": "sports-day-8.jpg"},
-  {"name": "Cricket Team", "path": "sports-day-9.jpg"},
-  {"name": "Volleyball Team", "path": "sports-day-10.jpg"},
-  {"name": "volleyball Team", "path": "sports-day-11.jpg"}
+        {
+          "name": "Cricket",
+          "path": "sports-day-1.jpg"
+        },
+        {
+          "name": "Cricket",
+          "path": "sports-day-2.jpg"
+        },
+        {
+          "name": "Football",
+          "path": "sports-day-3.jpg"
+        },
+        {
+          "name": "Volleyball",
+          "path": "sports-day-4.jpg"
+        },
+        {
+          "name": "Basketball",
+          "path": "sports-day-5.jpg"
+        },
+        {
+          "name": "Kabaddi",
+          "path": "sports-day-6.jpg"
+        },
+        {
+          "name": "Chess",
+          "path": "sports-day-7.jpg"
+        },
+        {
+          "name": "Badminton",
+          "path": "sports-day-8.jpg"
+        },
+        {
+          "name": "Cricket Team",
+          "path": "sports-day-9.jpg"
+        },
+        {
+          "name": "Volleyball Team",
+          "path": "sports-day-10.jpg"
+        },
+        {
+          "name": "volleyball Team",
+          "path": "sports-day-11.jpg"
+        }
       ]
     },
     {
       "name": "Atrang, IIIT Trichy's Literature Festival",
       "description": "IIIT Trichy celebrated it's first Literature festival, Atrang on 13th April, 2017. In this event, many reowned personalities were invited. Atrang 2017 was a huge success, and we have already started preparing for Atrang, 2018.",
       "links": [
-	{
-	  "name": "Visit Atrang Website",
-	  "url": "https://atrang.org",
-	  "download": false
-	},
-	{
-	  "name": "Visit Atrang Facebook page",
-	  "url": "https://facebook.com/atrang.iiitt",
-	  "download": false
-	}
+        {
+          "name": "Visit Atrang Website",
+          "url": "https://atrang.org",
+          "download": false
+        },
+        {
+          "name": "Visit Atrang Facebook page",
+          "url": "https://facebook.com/atrang.iiitt",
+          "download": false
+        }
       ],
-      "images": [
-      ]
+      "images": []
     }
   ]
 }
