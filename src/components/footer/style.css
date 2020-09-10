@@ -305,7 +305,7 @@ a{
 }
 
 .nature{
-  border: 2px dashed #fff;
+  border: 3px dotted #17462c;
   width: 75%;
   height: 10vh;
   display: flex;
