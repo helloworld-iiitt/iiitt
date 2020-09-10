@@ -1,9 +1,8 @@
-.doclist{
-    list-style: url(../../images/news-icon.svg);
-    list-style-position: inside;
-    font-size: 20px;
+.doclist {
+  list-style: url(../../images/news-icon.svg);
+  list-style-position: inside;
+  font-size: 20px;
 }
-.seekhelp a{
-    font-size: 20px;
-
+.seekhelp a {
+  font-size: 20px;
 }
