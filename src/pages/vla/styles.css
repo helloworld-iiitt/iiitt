@@ -40,7 +40,11 @@
     flex-direction: column;
     /* grid-template-columns: 1fr; */
   }
-  .carousel,.announcements,.about, .objectives,.institute {
+  .carousel,
+  .announcements,
+  .about,
+  .objectives,
+  .institute {
     grid-column: initial;
   }
 }
