@@ -1,20 +1,22 @@
 {
-  "data":
-  [
-    {"title":"Participation in Hacktober fest",
-      "link":"PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
-      "text":"Participation in Hacktober fest",
-      "date":"20/07/2020"
+  "data": [
+    {
+      "title": "Participation in Hacktober fest",
+      "link": "PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
+      "text": "Participation in Hacktober fest",
+      "date": "20/07/2020"
     },
-    {"title":"Participation in Hacktober fest",
-      "link":"Ph.D_instructions_for_applicants.pdf",
-      "text":"Participation in Hacktober fest" ,
-      "date":"25/07/2020"
+    {
+      "title": "Participation in Hacktober fest",
+      "link": "Ph.D_instructions_for_applicants.pdf",
+      "text": "Participation in Hacktober fest",
+      "date": "25/07/2020"
     },
-    {"title":"Participation in Hacktober fest",
-      "link":"List_of_Candidates_shortlisted(Ph.D)for_interview.pdf",
-      "text":"Participation in Hacktober fest" ,
-      "date":"8/08/2020"
+    {
+      "title": "Participation in Hacktober fest",
+      "link": "List_of_Candidates_shortlisted(Ph.D)for_interview.pdf",
+      "text": "Participation in Hacktober fest",
+      "date": "8/08/2020"
     }
   ]
 }

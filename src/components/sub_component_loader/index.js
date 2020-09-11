@@ -1,13 +1,10 @@
-import React from 'react';
-import './style.css';
-
+import React from "react";
+import "./style.css";
 
 export default function Loader() {
-
-return(
+  return (
     <>
-        <div class="loader">Loading...</div>
+      <div class="loader">Loading...</div>
     </>
-
-);
+  );
 }

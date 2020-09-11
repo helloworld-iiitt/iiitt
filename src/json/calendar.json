@@ -3,45 +3,45 @@
     {
       "title": "ACADEMIC CALENDAR (EVEN SEMESTER / JANUARY 2019 SESSION)",
       "data": [
-	{
-	  "title": "Academic Calendar ( January 2019 Session )",
-	  "url": "AcademicCalendar-Jan2019.pdf"
-	}
+        {
+          "title": "Academic Calendar ( January 2019 Session )",
+          "url": "AcademicCalendar-Jan2019.pdf"
+        }
       ]
     },
     {
       "title": "TIME TABLE (EVEN SEMESTER / JANUARY 2019 SESSION)",
       "data": [
-	{
-	  "title": "Time Table ( January 2019 Session )",
-	  "url": "ExamSchedule-Jan2019.pdf"
-	}
+        {
+          "title": "Time Table ( January 2019 Session )",
+          "url": "ExamSchedule-Jan2019.pdf"
+        }
       ]
     },
     {
       "title": "ACADEMIC CALENDAR (ODD SEMESTER / JULY 2018 SESSION)",
       "data": [
-	{
-	  "title": "Academic Calendar ( B.Tech. ( III, V, VII ) - July Session )",
-	  "url": "Calendar_2018_Odd1.pdf"
-	},
-	{
-	  "title": "Academic Calendar ( B.Tech. ( I ) - July Session )",
-	  "url": "I-Calendar_2018_Odd.pdf"
-	}
+        {
+          "title": "Academic Calendar ( B.Tech. ( III, V, VII ) - July Session )",
+          "url": "Calendar_2018_Odd1.pdf"
+        },
+        {
+          "title": "Academic Calendar ( B.Tech. ( I ) - July Session )",
+          "url": "I-Calendar_2018_Odd.pdf"
+        }
       ]
     },
     {
       "title": "TIME TABLE (ODD SEMESTER / JULY 2018 SESSION)",
       "data": [
-	{
-	  "title": "Time Table ( B.Tech. ( III, V, VII ) - July Session )",
-	  "url": "CSE_ODDsem_Timetable(18-19).pdf"
-	},
-	{
-	  "title": "Time Table ( B.Tech. ( I ) - July Session )",
-	  "url": "ECE_ODDsem_Timetable(18-19).pdf"
-	}
+        {
+          "title": "Time Table ( B.Tech. ( III, V, VII ) - July Session )",
+          "url": "CSE_ODDsem_Timetable(18-19).pdf"
+        },
+        {
+          "title": "Time Table ( B.Tech. ( I ) - July Session )",
+          "url": "ECE_ODDsem_Timetable(18-19).pdf"
+        }
       ]
     }
   ]

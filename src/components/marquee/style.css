@@ -38,34 +38,34 @@
 /* } */
 
 /* } */
-.bullet{
-  display: 'inline-block';
-  margin: '0 2px';
-  transform: 'scale(0.8)';
+.bullet {
+  display: "inline-block";
+  margin: "0 2px";
+  transform: "scale(0.8)";
 }
 
 #v_marquee {
   height: 100%;
 }
 
-@media only screen and (min-width: 800px){
-  .newshead{
+@media only screen and (min-width: 800px) {
+  .newshead {
     font-size: 1.5vw;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 800px){
-  .newshead{
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .newshead {
     font-size: 6vw;
   }
 }
-@media only screen and (max-width: 500px){
-  .newshead{
+@media only screen and (max-width: 500px) {
+  .newshead {
     font-size: 10vw;
   }
 }
 
-.newshead{
-  font-family: 'Playfair Display', serif;
+.newshead {
+  font-family: "Playfair Display", serif;
   font-weight: 500;
 
   text-transform: uppercase;
