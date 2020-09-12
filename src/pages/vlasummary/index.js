@@ -22,7 +22,7 @@ import "./styles.css";
 
 const createStyles = makeStyles({
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
   link: {
     textDecoration: "none",

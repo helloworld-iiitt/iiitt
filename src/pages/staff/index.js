@@ -9,7 +9,7 @@ const staff_data = require("../../json/staff.json").data;
 
 const useStyle = makeStyles({
   title: {
-    color: "#3f51b5",
+    color: "#2e8b57",
     paddingTop: "0.5rem",
   },
 });

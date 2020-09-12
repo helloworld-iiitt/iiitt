@@ -31,7 +31,7 @@ export default class About extends React.Component {
           <Typography
             variant="h2"
             component="h2"
-            style={{ color: "#3f51b5", paddingBottom: "1.5rem" }}
+            style={{ color: "#2e8b57", paddingBottom: "1.5rem" }}
           >
             About us | IIIT Tiruchirappalli
           </Typography>
@@ -160,7 +160,7 @@ export default class About extends React.Component {
             <Grid item xs={12} sm={8}>
               <Card style={{ height: "100%", boxShadow: "none" }}>
                 <CardContent>
-                  <Typography variant="h5" style={{ color: "#3f51b5" }}>
+                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
                     Vision
                   </Typography>
                   <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
@@ -170,7 +170,7 @@ export default class About extends React.Component {
                   </Typography>
                   <br />
                   <br />
-                  <Typography variant="h5" style={{ color: "#3f51b5" }}>
+                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
                     Mission
                   </Typography>
                   <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />

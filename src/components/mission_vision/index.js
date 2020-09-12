@@ -38,7 +38,7 @@ export default function MissionVision() {
         className="only_on_desktop"
       >
         <CardContent>
-          <Typography variant="h5" component="h1" style={{ color: "#3f51b5" }}>
+          <Typography variant="h5" component="h1" style={{ color: "#2e8b57" }}>
             Vision
           </Typography>
           <Divider />
@@ -47,7 +47,7 @@ export default function MissionVision() {
             Technology".
           </Typography>
 
-          <Typography variant="h5" component="h1" style={{ color: "#3f51b5" }}>
+          <Typography variant="h5" component="h1" style={{ color: "#2e8b57" }}>
             Mission
           </Typography>
           <Divider />
@@ -82,7 +82,7 @@ export default function MissionVision() {
         className="only_on_mobile"
       >
         <CardContent>
-          <Typography variant="h5" component="h1" style={{ color: "#3f51b5" }}>
+          <Typography variant="h5" component="h1" style={{ color: "#2e8b57" }}>
             Vision
           </Typography>
           <Divider />
@@ -91,7 +91,7 @@ export default function MissionVision() {
             Technology".
           </Typography>
 
-          <Typography variant="h5" component="h1" style={{ color: "#3f51b5" }}>
+          <Typography variant="h5" component="h1" style={{ color: "#2e8b57" }}>
             Mission
           </Typography>
           <Divider />

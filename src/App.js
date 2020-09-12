@@ -16,7 +16,7 @@ function App() {
       <ScaleLoader
         css={override}
         sizeUnit={"px"}
-        color={"#3f51b5"}
+        color={"#2e8b57"}
         size={80}
         height={35}
         width={12}

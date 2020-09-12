@@ -20,7 +20,7 @@ const createStyles = makeStyles({
     padding: "1rem 1rem",
   },
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
   sectionPadding: {
     padding: "1rem 0",
@@ -38,7 +38,7 @@ const createStyles = makeStyles({
   },
   tableHead: {
     fontWeight: "900",
-    backgroundColor: "#3f51b5",
+    backgroundColor: "#2e8b57",
     color: "white",
   },
   tableCell: {
