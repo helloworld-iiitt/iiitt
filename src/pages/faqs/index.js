@@ -22,7 +22,7 @@ const createStyles = makeStyles({
     margin: "0.7rem 0",
   },
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
 });
 

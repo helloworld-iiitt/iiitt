@@ -20,7 +20,7 @@ const createStyles = makeStyles({
     padding: "1rem 1rem",
   },
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
   link: {
     textDecoration: "none",
@@ -34,7 +34,7 @@ const createStyles = makeStyles({
     },
   },
   tableHead: {
-    background: "#3f51b5",
+    background: "#2e8b57",
   },
   th: {
     color: "white",

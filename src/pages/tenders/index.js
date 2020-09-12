@@ -10,7 +10,7 @@ const createStyles = makeStyles({
     padding: "1.5rem 1rem",
   },
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
   link: {
     display: "inline-block",

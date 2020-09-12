@@ -18,7 +18,7 @@ const createStyles = makeStyles({
     padding: "1rem 1rem",
   },
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
   link: {
     display: "inline-block",
@@ -35,7 +35,7 @@ const createStyles = makeStyles({
     width: "13rem",
     marginLeft: "auto",
     marginRight: "auto",
-    border: "1px solid #3f51b5",
+    border: "1px solid #2e8b57",
     borderRadius: "4px",
   },
   card: {

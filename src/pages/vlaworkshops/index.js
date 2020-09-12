@@ -22,7 +22,7 @@ import "./styles.css";
 
 const createStyles = makeStyles({
   themeText: {
-    color: "#3f51b5",
+    color: "#2e8b57",
   },
   link: {
     textDecoration: "none",
@@ -42,7 +42,7 @@ const createStyles = makeStyles({
   },
   tableHead: {
     fontWeight: "900",
-    backgroundColor: "#3f51b5",
+    backgroundColor: "#2e8b57",
     color: "white",
   },
   tableCell: {
