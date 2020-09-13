@@ -1,20 +1,22 @@
 {
-    "data":
-    [
-        {"title":"Update: Ph.D - Interview date and time",
-          "link":"PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
-          "text":"Ph.D Interview date and time released.",
-          "date":"20/07/2020"
-        },
-        {"title":"Ph.D - instructions for applicants called for interview",
-            "link":"Ph.D_instructions_for_applicants.pdf",
-            "text":"Instructions are given to the applicants which were called for interview." ,
-            "date":"25/07/2020"
-          },
-          {"title":"List of Candidates shortlisted (Ph.D) for interview",
-            "link":"List_of_Candidates_shortlisted(Ph.D)for_interview.pdf",
-            "text":"Released the list of shortlisted candidates for Ph.D interview." ,
-            "date":"8/08/2020"
-          }
-    ]
+  "data": [
+    {
+      "title": "Update: Ph.D - Interview date and time",
+      "link": "PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
+      "text": "Ph.D Interview date and time released.",
+      "date": "20/07/2020"
+    },
+    {
+      "title": "Ph.D - instructions for applicants called for interview",
+      "link": "Ph.D_instructions_for_applicants.pdf",
+      "text": "Instructions are given to the applicants which were called for interview.",
+      "date": "25/07/2020"
+    },
+    {
+      "title": "List of Candidates shortlisted (Ph.D) for interview",
+      "link": "List_of_Candidates_shortlisted(Ph.D)for_interview.pdf",
+      "text": "Released the list of shortlisted candidates for Ph.D interview.",
+      "date": "8/08/2020"
+    }
+  ]
 }

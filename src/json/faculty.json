@@ -1,7 +1,10 @@
 {
   "CSE": [
     {
-      "id": {"dept": "CSE", "deptID": "1"},
+      "id": {
+        "dept": "CSE",
+        "deptID": "1"
+      },
       "name": "Dr. R. Dhanalakshmi",
       "designation": "Associate Professor",
       "researchArea": "Computer Networks, Combinatorial Optimization Techniques, Data Analytics",
@@ -9,7 +12,10 @@
       "src": "cse_fac_1.jpg"
     },
     {
-      "id": {"dept": "CSE", "deptID": "2"},
+      "id": {
+        "dept": "CSE",
+        "deptID": "2"
+      },
       "name": "Dr. N. Renugadevi",
       "designation": "Assistant Professor",
       "researchArea": "Wireless Networks, Security and Cryptography, Cognitive Radio Networks",
@@ -17,7 +23,10 @@
       "src": "cse_fac_2.jpg"
     },
     {
-      "id": {"dept": "CSE", "deptID": "3"},
+      "id": {
+        "dept": "CSE",
+        "deptID": "3"
+      },
       "name": "Dr. G. Devasena",
       "designation": "Assistant Professor",
       "researchArea": "Image Processing, Video Processing, Machine Learning and Deep Learning ",
@@ -25,7 +34,10 @@
       "src": "cse_fac_3.jpg"
     },
     {
-      "id": {"dept": "CSE", "deptID": "4"},
+      "id": {
+        "dept": "CSE",
+        "deptID": "4"
+      },
       "name": "Dr. Anoop Jacob Thomas",
       "designation": "Assistant Professor",
       "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, AlgorithmsProcessing, Algorithms ",
@@ -35,7 +47,10 @@
   ],
   "ECE": [
     {
-      "id": {"dept": "ECE", "deptID": "1"},
+      "id": {
+        "dept": "ECE",
+        "deptID": "1"
+      },
       "name": "Dr. G. Seetharaman",
       "designation": "Associate Professor",
       "researchArea": "ASIC and FPGA Based Design",
@@ -43,7 +58,10 @@
       "src": "ece_fac_1.jpg"
     },
     {
-     "id": {"dept": "ECE", "deptID": "2"},
+      "id": {
+        "dept": "ECE",
+        "deptID": "2"
+      },
       "name": "Dr. R. Krishnamurthy",
       "designation": "Assistant Professor",
       "researchArea": "Optical Networks and Wireless Communication",
@@ -51,7 +69,10 @@
       "src": "ece_fac_2.jpg"
     },
     {
-      "id": {"dept": "ECE", "deptID": "3"},
+      "id": {
+        "dept": "ECE",
+        "deptID": "3"
+      },
       "name": "Dr. M. Senthil Sivakumar",
       "designation": "Assistant Professor",
       "researchArea": "VLSI Design",
@@ -59,7 +80,10 @@
       "src": "ece_fac_3.jpg"
     },
     {
-      "id": {"dept": "ECE", "deptID": "4"},
+      "id": {
+        "dept": "ECE",
+        "deptID": "4"
+      },
       "name": "Dr. Suresh Balanethiram",
       "designation": "Assistant Professor",
       "researchArea": "Optical Networks and Wireless Communication",
@@ -69,7 +93,10 @@
   ],
   "ME": [
     {
-     "id": {"dept": "ME", "deptID": "1"},
+      "id": {
+        "dept": "ME",
+        "deptID": "1"
+      },
       "name": "Dr. Velmurugan C",
       "designation": "Assistant Professor",
       "researchArea": "Shape Memory Alloys, Advanced Manufacturing Processes, Modelling and Simulation and Smart Materials",
@@ -79,7 +106,10 @@
   ],
   "Mathematics": [
     {
-      "id": {"dept": "MATH", "deptID": "1"},
+      "id": {
+        "dept": "MATH",
+        "deptID": "1"
+      },
       "name": "Dr. Jagadeeshwar Pashikanti",
       "designation": "Assistant Professor",
       "researchArea": "Computational Fluid Dynamics",
@@ -89,7 +119,10 @@
   ],
   "Economics": [
     {
-     "id": {"dept": "ECO", "deptID": "1"},
+      "id": {
+        "dept": "ECO",
+        "deptID": "1"
+      },
       "name": "Dr. Rinshu",
       "designation": "Assistant Professor",
       "researchArea": "Health Economics, Health Technology Assessment, Development Economics",
@@ -99,7 +132,10 @@
   ],
   "Physics": [
     {
-      "id": {"dept": "PHY", "deptID": "1"},
+      "id": {
+        "dept": "PHY",
+        "deptID": "1"
+      },
       "name": "Dr. Kamakshi K",
       "designation": "Assistant Professor",
       "researchArea": "Photonics and Optoelectronic Devices",
@@ -109,7 +145,10 @@
   ],
   "English": [
     {
-      "id": {"dept": "ENG", "deptID": "1"},
+      "id": {
+        "dept": "ENG",
+        "deptID": "1"
+      },
       "name": "Dr. V. Sindhu",
       "designation": "Assistant Professor",
       "researchArea": "English Language Teaching, Applied Linguistics",

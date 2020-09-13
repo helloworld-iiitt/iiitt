@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react'
-import Navbar from './../../components/navbar/index'
+import React, { useEffect } from "react";
+import Navbar from "./../../components/navbar/index";
 import Footer from "./../../components/footer/index";
 import { Grid, Typography } from "@material-ui/core";
-import PersonCard from '../../components/person_card/index'
-import { makeStyles } from '@material-ui/core/styles'
+import PersonCard from "../../components/person_card/index";
+import { makeStyles } from "@material-ui/core/styles";
 
-const staff_data = require('../../json/staff.json').data
+const staff_data = require("../../json/staff.json").data;
 
 const useStyle = makeStyles({
   title: {
-    color: '#3f51b5',
-    paddingTop: '0.5rem'
-  }
-})
+    color: "#2e8b57",
+    paddingTop: "0.5rem",
+  },
+});
 
 export default function Staff() {
   useEffect(() => {
@@ -25,42 +25,40 @@ export default function Staff() {
     };
   }, []);
 
-  const classes = useStyle()
+  const classes = useStyle();
 
   return (
     <>
       <Navbar />
       <Grid container>
-	<Grid item xs={false} sm={1} />
-	<Grid container item xs={12} sm={10}>
-	  <Grid item xs={12} sm={10}>
-	    <Typography variant="h2" gutterBottom className={classes.title}>
-	      Office staff
-	    </Typography>
-	  </Grid>
-	  {
-	    staff_data.map( staff => {
-	      const { name, designation, emailID, src } = staff
-	      return (
-		<>
-		  <Grid item xs={12} sm={6}>
-		    <PersonCard
-		      name={name}
-		      designation={designation}
-		      emailID={emailID}
-		      src={src}
-		      src_type='staff'
-		      researchArea=''
-		    />
-		  </Grid>
-		</>
-	      )
-	    })
-	  }
-	</Grid>
-	<Grid item xs={false} sm={1} />
+        <Grid item xs={false} sm={1} />
+        <Grid container item xs={12} sm={10}>
+          <Grid item xs={12} sm={10}>
+            <Typography variant="h2" gutterBottom className={classes.title}>
+              Office staff
+            </Typography>
+          </Grid>
+          {staff_data.map((staff) => {
+            const { name, designation, emailID, src } = staff;
+            return (
+              <>
+                <Grid item xs={12} sm={6}>
+                  <PersonCard
+                    name={name}
+                    designation={designation}
+                    emailID={emailID}
+                    src={src}
+                    src_type="staff"
+                    researchArea=""
+                  />
+                </Grid>
+              </>
+            );
+          })}
+        </Grid>
+        <Grid item xs={false} sm={1} />
       </Grid>
-	  <div style={{height:'90px'}}></div>
+      <div style={{ height: "90px" }}></div>
       <Footer />
     </>
   );

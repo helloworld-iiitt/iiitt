@@ -8,7 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   grp: {
-    color: "#3f51b5",
+    color: "#2e8b57",
     marginTop: "0.5rem",
     marginLeft: "1.3rem",
   },
@@ -34,23 +34,23 @@ export default function Faculty(props) {
     var li = [];
     li.push(
       fac_data[`${grp}`].map((x) => {
-	const { name, emailID, src, designation, researchArea, id } = x;
-	const { dept, deptID } = id;
-	//console.log("Dept", dept, "key", deptID);
-	return (
-	  <Grid item xs={12} md={6} lg={4}>
-	    <PersonCard
-	      name={name}
-	      emailID={emailID}
-	      src={src}
-	      src_type='faculty'
-	      designation={designation}
-		  researchArea={researchArea}
-		  dept={dept}
-		  deptID={deptID}
-	    />
-	  </Grid>
-	);
+        const { name, emailID, src, designation, researchArea, id } = x;
+        const { dept, deptID } = id;
+        //console.log("Dept", dept, "key", deptID);
+        return (
+          <Grid item xs={12} md={6} lg={4}>
+            <PersonCard
+              name={name}
+              emailID={emailID}
+              src={src}
+              src_type="faculty"
+              designation={designation}
+              researchArea={researchArea}
+              dept={dept}
+              deptID={deptID}
+            />
+          </Grid>
+        );
       })
     );
     branches.push(li);
@@ -60,28 +60,28 @@ export default function Faculty(props) {
     <div className="page-container">
       <Navbar />
       <Grid container>
-	<Grid item xs={false} sm={1} />
-	<Grid container item xs={12} sm={10}>
-	  {branches.map((x, ind) => {
-	    return (
-	      <>
-		<Grid item sm={12}>
-		  <Typography
-		    variant="h3"
-		    component="h3"
-		    className={classes.grp}
-		  >
-		    {grps[ind]}
-		  </Typography>
-		</Grid>
-		<Grid container item spacing={1} style={{ margin: "0.5rem" }}>
-		  {x}
-		</Grid>
-	      </>
-	    );
-	  })}
-	</Grid>
-	<Grid item xs={false} sm={1} />
+        <Grid item xs={false} sm={1} />
+        <Grid container item xs={12} sm={10}>
+          {branches.map((x, ind) => {
+            return (
+              <>
+                <Grid item sm={12}>
+                  <Typography
+                    variant="h3"
+                    component="h3"
+                    className={classes.grp}
+                  >
+                    {grps[ind]}
+                  </Typography>
+                </Grid>
+                <Grid container item spacing={1} style={{ margin: "0.5rem" }}>
+                  {x}
+                </Grid>
+              </>
+            );
+          })}
+        </Grid>
+        <Grid item xs={false} sm={1} />
       </Grid>
       <Footer />
     </div>

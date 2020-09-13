@@ -1,99 +1,101 @@
-.customeflex{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-
+.customeflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#info{
-
-    margin: auto;
-    margin-top: 40px;
-    justify-content: space-between !important;
+#info {
+  margin: auto;
+  margin-top: 40px;
+  justify-content: space-between !important;
 }
 
-#info>div{
-    width: 30% !important;
+#info > div {
+  width: 30% !important;
 }
-#info>div>div{
+#info > div > div {
+  width: 100% !important;
+  height: 100% !important;
+}
+#info_mob > div > div {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 800px) {
+  #info_mob > div {
     width: 100% !important;
-    height: 100% !important;
-}
-#info_mob>div>div{
-    width: 100% !important;
-    height: 100% !important;
-}
-
-@media only screen and (max-width: 800px){
-    #info_mob>div{
-        width: 100% !important;
-    }
+  }
 }
 .container {
-    margin-top: 20px;
-    padding: 1rem 5px;
+  margin-top: 20px;
+  padding: 1rem 5px;
 }
-.customeflex{
-    display: grid;
-    grid-gap: 0.5rem;
-    grid-template-columns: 24% 48% 24%;
-    height: 570px;
-    justify-content: center;
+.customeflex {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: 24% 48% 24%;
+  height: 570px;
+  justify-content: center;
 }
 
 .mission {
-    height: 570px;
+  height: 570px;
 }
 .carousel {
-    max-height: 570px;
-    margin: auto 0;
+  max-height: 570px;
+  margin: auto 0;
 }
 .marquee {
-    height: 570px;
+  height: 570px;
 }
 
-@media only screen and (min-width: 800px){
-    .MuiPaper-elevation3{
-        max-width: 28%;
-    }
+@media only screen and (min-width: 800px) {
+  .MuiPaper-elevation3 {
+    max-width: 28%;
+  }
 }
 @media only screen and (max-width: 800px) {
-    .customeflex {
-        grid-template-columns: 1fr;
-        height: 100%;
-    }
-    .carousel {
-        grid-row: 1;
-    }
+  .customeflex {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .carousel {
+    grid-row: 1;
+  }
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .tab {
-    min-width: 33% !important;
+  min-width: 33% !important;
 }
 
-.twittertimeline, .tabbedPane, .achievements {
-    margin: 1.5rem 0.3rem;
-    width: 32%;
-    min-height: 680px;
-    height: 100%;
+.twittertimeline,
+.tabbedPane,
+.achievements {
+  margin: 1.5rem 0.3rem;
+  width: 32%;
+  min-height: 680px;
+  height: 100%;
 }
 
-@media only screen and (max-width: 800px){
-    .row {
-        display: flex;
-        flex-direction: column;
-    }
-    .twittertimeline, .tabbedPane, .achievements {
-        margin: 1.5rem 0;
-        width: 100%;
-    }
+@media only screen and (max-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .twittertimeline,
+  .tabbedPane,
+  .achievements {
+    margin: 1.5rem 0;
+    width: 100%;
+  }
 }
 
 .adblock {
-    margin: 1rem
+  margin: 1rem;
 }

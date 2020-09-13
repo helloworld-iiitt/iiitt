@@ -1,65 +1,64 @@
 {
-  "data":[
+  "data": [
     {
-      "text":"Registration",
-      "icon":"account_balance",
-      "submenu":[
-	{
-	  "text":"Registration",
-	  "link":"/vla_registration"
-	}
+      "text": "Registration",
+      "icon": "account_balance",
+      "submenu": [
+        {
+          "text": "Registration",
+          "link": "/vla_registration"
+        }
       ]
     },
     {
-      "text":"Resources",
-      "icon":"local_library",
-      "submenu":[
-	{
-	  "text":"Resources",
-	  "link":"/vla_resources"
-	}
+      "text": "Resources",
+      "icon": "local_library",
+      "submenu": [
+        {
+          "text": "Resources",
+          "link": "/vla_resources"
+        }
       ]
     },
     {
-      "text":"Workshops",
-      "icon":"people",
-      "submenu":[
-	{
-	  "text":"Workshops",
-	  "link":"/vla_workshops"
-	}
+      "text": "Workshops",
+      "icon": "people",
+      "submenu": [
+        {
+          "text": "Workshops",
+          "link": "/vla_workshops"
+        }
       ]
     },
     {
-      "text":"Contact Us",
-      "icon":"note_add",
-      "submenu":[
-	{
-	  "text":"Contact Us",
-	  "link":"/vla_contact"
-	}
+      "text": "Contact Us",
+      "icon": "note_add",
+      "submenu": [
+        {
+          "text": "Contact Us",
+          "link": "/vla_contact"
+        }
       ]
     },
     {
-      "text":"IIIT Tiruchirappalli",
-      "icon":"notification_important",
-      "submenu":[
-	{
-	  "text":"IIIT Tiruchirappalli",
-	  "link":"https://iiitt.ac.in"
-	}
+      "text": "IIIT Tiruchirappalli",
+      "icon": "notification_important",
+      "submenu": [
+        {
+          "text": "IIIT Tiruchirappalli",
+          "link": "https://iiitt.ac.in"
+        }
       ]
     },
     {
-      "text":"IIITDM Kurnool",
-      "icon":"person",
-      "submenu":[
-	{
-	  "text":"IIITDM Kurnool",
-	  "link":"https://iiitk.ac.in/home"
-	}
+      "text": "IIITDM Kurnool",
+      "icon": "person",
+      "submenu": [
+        {
+          "text": "IIITDM Kurnool",
+          "link": "https://iiitk.ac.in/home"
+        }
       ]
     }
   ]
 }
-

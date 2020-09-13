@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import {BrowserRouter as Router, Route, Link, Redirect} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 import "./styles.css";
 
 const useStyle = makeStyles({
   show: {
     cursor: "pointer",
     fontSize: "0.6em",
-    background: "#3f51b5",
+    background: "#2e8b57",
     padding: "0.2rem",
     borderRadius: "5px",
     color: "white",
@@ -20,18 +25,18 @@ const useStyle = makeStyles({
     fontSize: "1em",
   },
   researchArea: {
-    fontSize: "0.85em"
+    fontSize: "0.85em",
   },
   name: {
-    fontSize: "1.2vw"
-  }
+    fontSize: "1.2vw",
+  },
 });
 
 const PersonCard = (props) => {
   const sliceLimit = 80;
   const classes = useStyle();
   var researchArea = "";
-  if (props.researchArea) researchArea = props.researchArea
+  if (props.researchArea) researchArea = props.researchArea;
 
   const [content, setContent] = useState(researchArea.slice(0, sliceLimit));
 
@@ -61,7 +66,9 @@ const PersonCard = (props) => {
               </Link>
             </Typography>
           ) : (
-          <Typography variant="h5" className={classes.name}>{props.name}</Typography>
+            <Typography variant="h5" className={classes.name}>
+              {props.name}
+            </Typography>
           )}
           {props.designation && (
             <Typography
