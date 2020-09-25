@@ -9,8 +9,8 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   grp: {
     color: "#2e8b57",
-    marginTop: "0.5rem",
-    marginLeft: "1.3rem",
+    marginTop: "3rem",
+    marginLeft: "1.3rem"
   },
 });
 

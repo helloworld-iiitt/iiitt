@@ -41,7 +41,7 @@ const Time = () => {
     const getHour2 = getHour1 % 12;
 
     setgetday(getday1);
-    setgetHour(getHour2 <= 10 ? `0${getHour2}` : getHour2);
+    setgetHour(getHour2 < 10 ? `0${getHour2}` : getHour2);
     if (getHour1 / 12 <= 1) {
       setgetminutes(
         getminutes1 > 10 ? `${getminutes1}am` : `0${getminutes1}am`
