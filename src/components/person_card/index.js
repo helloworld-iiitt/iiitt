@@ -20,6 +20,7 @@ const useStyle = makeStyles({
 
 const PersonCard = (props) => {
 
+
   const classes = useStyle();
 
   return (
@@ -30,6 +31,7 @@ const PersonCard = (props) => {
          <a className="name" href={`/faculty_detail/${props.dept}/${props.deptID}`}>{props.name}</a>
          <h4>{props.designation}</h4>
         </div>
+
         <div className="circle-img">
          <img  src={require(`../../images/people/${props.src_type}/${props.src}`)} alt="avatar_img" />
         </div>
@@ -37,6 +39,7 @@ const PersonCard = (props) => {
     <div className="bottom">
     <p className="description">
     {props.researchArea && (
+
             <>
               <Typography
                 variant="body2"
