@@ -1,60 +1,43 @@
 {
   "data": [
     {
-      "name": "IIIT Trichy",
-      "path": "orion.jpg"
+      "name": "Introduction to DSA",
+      "path": "home_carousel/intro_dsa.jpg"
     },
     {
-      "name": "MOU",
-      "path": "003.jpeg"
+      "name": "Cyber Security Paths",
+      "path": "home_carousel/netsec.jpg"
     },
     {
-      "name": "MOU",
-      "path": "001.jpeg"
-    },
-    {
-      "name": "MOU",
-      "path": "002.jpeg"
-    },
-    {
-      "name": "MOU",
-      "path": "004.jpeg"
+      "name": "An Open Source Meetup",
+      "path": "home_carousel/os_meet_2.png"
     },
     {
       "name": "#Ha[.sh] \"19",
-      "path": "hash.jpg"
+      "path": "home_carousel/hash.jpg"
     },
     {
-      "name": "Independence Day Flag Hoisting",
-      "path": "01.jpeg"
+      "name": "MOU",
+      "path": "home_carousel/002.jpeg"
     },
+    
+    
     {
-      "name": "Director delivers speech on Independence Day",
-      "path": "02.jpeg"
+      "name": "Independence Day Flag Hoisting ",
+      "path": "home_carousel/01.jpeg"
     },
-    {
-      "name": "Independence Day",
-      "path": "03.jpeg"
-    },
-    {
-      "name": "Aahladh'19",
-      "path": "04.jpg"
-    },
-    {
-      "name": "Aahladh'19 Pledge",
-      "path": "DSC_0009.jpeg"
-    },
+    
     {
       "name": "Aahladh'19 Performance",
-      "path": "06.jpg"
+      "path": "home_carousel/06.jpg"
     },
     {
       "name": "Aahladh'19 Face Painting",
-      "path": "08.jpg"
+      "path": "home_carousel/08.jpg"
     },
     {
       "name": "Aahladh'19 Face Painting",
-      "path": "010.jpg"
+      "path": "home_carousel/010.jpg"
     }
   ]
 }
