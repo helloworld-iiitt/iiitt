@@ -316,7 +316,7 @@ a {
 
 .nature {
   border: 3px dotted #17462c;
-  width: 75%;
+  width: 85%;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -330,6 +330,7 @@ a {
   margin-left: 0.5em;
   opacity: 1;
   color: #fff;
+  margin: 15px 0;
 }
 .mobile {
   border-top: 7px;
