@@ -1,22 +1,26 @@
 {
   "data": [
     {
+      "title": "Winter of Code'20",
+      "link": "https://helloworld-iiitt.github.io/woc",
+      "text": "Winter of Code'20",
+      "date": "15/02/2020"
+    },{
+      "title": "Session:Introduction to DSA ",
+      "link": "International_yoga_day2020.pdf",
+      "text": "An Open Source Meetup",
+      "date": "10/08/2020"
+    },{
+      "title": "An Open Source Meetup",
+      "link": "International_yoga_day2020.pdf",
+      "text": "An Open Source Meetup",
+      "date": "10/08/2020"
+    },{
       "title": "International Yoga Day 2020",
       "link": "International_yoga_day2020.pdf",
       "text": "Circular for International Yoga day 2020 celebration.",
       "date": "19/06/2020"
-    },
-    {
-      "title": "Recorded Streaming of First Convocation 2020",
-      "link": "https://www.youtube.com/watch?v=w_50CAIASIc&feature=youtu.be",
-      "text": "Recorded Stream for the First Convocation.",
-      "date": "15/02/2020"
-    },
-    {
-      "title": "A two-day Hands-on Training on “Building a Robot from Scratch”",
-      "link": "Robotics_brochure.pdf",
-      "text": "Two-day hands-on training on robotics to inspire the students in robotics field.",
-      "date": "16/03/2020"
     }
+    
   ]
 }
