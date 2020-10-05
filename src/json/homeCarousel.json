@@ -25,18 +25,17 @@
       "path": "home_carousel/whoop.jpg"
     },
     {
-      "name": "#Ha[.sh] \"19",
-      "path": "home_carousel/hash.jpg"
-    },
-    {
-      "name": "MOU",
-      "path": "home_carousel/002.jpeg"
-    },
-    
+      "name": "IIITTians Roar at Gusto'20",
+      "path": "home_carousel/gusto.JPG"
+    },      
     
     {
-      "name": "Independence Day Flag Hoisting ",
+      "name": "Independence Day Flag Hoisting",
       "path": "home_carousel/01.jpeg"
+    },
+    {
+      "name": "Aahladh'19 Fashion Show",
+      "path": "home_carousel/aahladh_1.jpg"
     },
     
     {
@@ -46,10 +45,6 @@
     {
       "name": "Aahladh'19 Face Painting",
       "path": "home_carousel/08.jpg"
-    },
-    {
-      "name": "Aahladh'19 Face Painting",
-      "path": "home_carousel/010.jpg"
     }
   ]
 }

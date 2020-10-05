@@ -58,6 +58,9 @@ export default class PageNotFound extends React.Component {
           </Grid>
           <Grid item xs={false} sm={1} />
         </Grid>
+        <div style={{height:"100px"}}>
+        
+        </div>
         <Footer />
       </div>
     );
