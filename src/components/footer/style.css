@@ -159,9 +159,11 @@ html {
 }
 
 #favorite {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 27.25px;
   transition: 1s;
+  margin-left: 1px;
+  margin-right: 2px;
 }
 .credits:hover #favorite {
   color: red;
@@ -415,5 +417,8 @@ a {
   }
   .count-down-main p {
     margin: 1px;
+  }
+  #favorite{
+    color: #ff4c4c;
   }
 }
