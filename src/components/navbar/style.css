@@ -63,3 +63,14 @@
 #home_button > button:hover {
   background-color: rgb(255, 255, 255, 0.25);
 }
+#quick_nav{
+  display: flex;
+}
+#quick_nav>a{
+  margin-left: 25px;
+}
+
+#quick_nav>a>svg{
+  color: #fff;
+  font-size: 25px;
+}

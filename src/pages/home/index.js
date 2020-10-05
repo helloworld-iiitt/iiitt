@@ -104,13 +104,13 @@ export default class Home extends React.Component {
             <div className="carousel">
               <MainCarousel images={carouselData.data} />
             </div>
-            <div className="marquee">
+            <div className="marquee" id="announcements_marquee">
               <Marquee />
             </div>
           </div>
 
           <div className="row">
-            <Paper elevation={3} className="tabbedPane">
+            <Paper elevation={3} className="tabbedPane" id="news_event_notice">
               <Tabs
                 value={this.state.value}
                 onChange={this.handleChange}
@@ -173,7 +173,7 @@ export default class Home extends React.Component {
                 <Loader />
               )}
             </Paper>
-            <Paper elevation={3} className="twittertimeline">
+            <Paper elevation={3} className="twittertimeline" id="twitter_timeline">
               <Timeline
                 dataSource={{
                   sourceType: "profile",

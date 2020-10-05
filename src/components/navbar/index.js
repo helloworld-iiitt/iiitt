@@ -17,9 +17,13 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 import LocalLibraryIcon from "@material-ui/icons/LocalLibrary";
+import {HashLink} from 'react-router-hash-link';
 import MenuListComposition from "./desktop-items";
 import HomeIcon from "./homeicon";
 import TemporaryDrawer from "./drawer";
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InfoIcon from '@material-ui/icons/Info';
 // import navbar_data from '../../json/navbar_data.json'
 
 export default class Navbar extends React.Component {
@@ -82,7 +86,11 @@ export default class Navbar extends React.Component {
                 className={this.classes.title}
                 style={{ width: "100%" }}
               ></Typography>
-
+              <div id="quick_nav">
+                <HashLink to="/#announcements_marquee" ><NotificationsIcon/></HashLink>
+                <HashLink to="/#news_event_notice"><InfoIcon/></HashLink>
+                <HashLink to="/#twitter_timeline"><TwitterIcon/></HashLink>
+              </div>
               {/*Navbar Mobile Ends here */}
             </Toolbar>
 
