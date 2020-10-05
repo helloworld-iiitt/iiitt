@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import "./style.css";
+import { Link } from "react-router-dom";
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
@@ -69,9 +70,11 @@ export default function MissionVision() {
           </Typography>
         </CardContent>
         <CardActions id="learn_more">
-          <Button size="small">
-            Learn More about IIIT Trichy <ArrowForwardIcon />{" "}
-          </Button>
+          <Link to="/about">
+              <Button size="small">
+                Learn More about IIIT Trichy <ArrowForwardIcon />
+              </Button>
+            </Link>
         </CardActions>
       </Card>
 
@@ -111,9 +114,11 @@ export default function MissionVision() {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">
-            Learn More about IIIT Trichy <ArrowForwardIcon />
-          </Button>
+          <Link to="/about">
+            <Button size="small">
+              Learn More about IIIT Trichy <ArrowForwardIcon />
+            </Button>
+          </Link>
         </CardActions>
       </Card>
     </>

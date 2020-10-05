@@ -25,6 +25,9 @@
   #info_mob > div {
     width: 100% !important;
   }
+  .mission{
+    height: unset !important;
+  }
 }
 .container {
   margin-top: 20px;
