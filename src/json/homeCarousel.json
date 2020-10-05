@@ -10,7 +10,7 @@
     },
     {
       "name": "An Open Source Meetup",
-      "path": "home_carousel/os_meet_2.png"
+      "path": "home_carousel/os_meet.jpg"
     },
     {
       "name": "Groove:Dance Competition",
@@ -26,7 +26,7 @@
     },
     {
       "name": "IIITTians Roar at Gusto'20",
-      "path": "home_carousel/gusto.JPG"
+      "path": "home_carousel/gusto.jpg"
     },      
     
     {
@@ -42,6 +42,7 @@
       "name": "Aahladh'19 Performance",
       "path": "home_carousel/06.jpg"
     },
+   
     {
       "name": "Aahladh'19 Face Painting",
       "path": "home_carousel/08.jpg"
