@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/navbar/index";
 import MissionVision from "../../components/mission_vision/";
 import Footer from "../../components/footer/";
+import './style.css'
 import {
   Grid,
   Typography,
@@ -27,20 +28,24 @@ export default class About extends React.Component {
     return (
       <div className="page-container">
         <Navbar />
-        <div style={{ width: "100%", padding: "35px" }}>
+        <div className="parent">
           <Typography
             variant="h2"
             component="h2"
-            style={{ color: "#2e8b57", paddingBottom: "1.5rem" }}
+            style={{ color: "#2e8b57", paddingBottom: "1.5rem",marginTop:"40px",textAlign:"center" }}
           >
             About us | IIIT Tiruchirappalli
+            
           </Typography>
+          
 
-          <Card variant="outlined">
-            <Grid container spacing={4}>
-              <Grid item xs={12} sm={8}>
-                <Card style={{ border: "none", borderRadius: "0" }}>
-                  <CardContent>
+         
+            
+              
+                <Card style={{ border: "none", borderRadius: "0" ,boxShadow:"none",overflow:"visible"}} id="main_card">
+                  <div className="logo_cotainer">
+                    <img src={require("../../images/logo.png")}  />
+                  </div>  
                     <Typography
                       variant="subtitle1"
                       style={{
@@ -66,7 +71,6 @@ export default class About extends React.Component {
                         MHRD
                       </Box>
                       .
-                      <br />
                       IIIT Tiruchirappalli is an academic and research institute
                       fully funded by
                       <Box component="span" fontWeight="fontWeightBold">
@@ -84,23 +88,62 @@ export default class About extends React.Component {
                         Industry Partners
                       </Box>{" "}
                       in the ratio of
-                      <Box component="span" fontStyle="italic">
+                      <Box component="span" fontWeight="fontWeightBold">
+                        {" "}
                         50:35:15
-                      </Box>
+                      </Box>{" "}
                       .
                       <br />
-                      Industry partners include&nbsp;
+                      <Grid item xs={12} sm={8}>
+              <Card style={{ height: "100%", boxShadow: "none" }}>
+                <CardContent id="mission-vision">
+                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                    Vision
+                  </Typography>
+                  <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
+                  <Typography color="textSecondary">
+                    To achieve "World Class Excellence in Information and
+                    Communication Technology".
+                  </Typography>
+                  <br />
+                 
+                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                    Mission
+                  </Typography>
+                  <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
+                  <Typography color="textSecondary">
+                    {bull} To impart Information Technology education to
+                    students and future leaders.
+                    <br />
+                    <br />
+                    {bull} To establish Center of Excellences in Information
+                    Technology.
+                    <br />
+                    <br />
+                    {bull} To engage in cutting edge technology research to meet
+                    the current needs and future challenges of India and the
+                    world at large.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+                      
+                      <br />
+                      <Box component="span" fontWeight="fontWeightBold">
+                        {" "}
+                        Industry Partners include:
+                      </Box>{" "} &nbsp;
                       <Link href="https://tcs.com">
                         Tata Consultancy Services(TCS)
                       </Link>
-                      ,&nbsp;
+                      &nbsp;
                       <Link href="https://cognizant.com">
                         Cognizant Technology Solutions (CTS)
                       </Link>
-                      ,&nbsp;
-                      <Link href="https://infosys.com">Infosys</Link>,&nbsp;
-                      <Link href="https://ramco.com">Ramco Systems</Link>,&nbsp;
-                      <Link href="https://elcot.in">ELCOT</Link>,&nbsp;
+                      &nbsp;
+                      <Link href="https://infosys.com">Infosys</Link>&nbsp;
+                      <Link href="https://ramco.com">Ramco Systems</Link>&nbsp;
+                      <Link href="https://elcot.in">ELCOT</Link>&nbsp;
                       <Link href="https://navitaslifesciences.com/">
                         Navitas (TAKE Solutions)
                       </Link>
@@ -141,69 +184,13 @@ export default class About extends React.Component {
                       be built at Sethurappatti Village, Srirangam Taluk,
                       Tiruchirappalli District.
                     </Typography>
-                  </CardContent>
+                 
                 </Card>
-              </Grid>
+           
               <br />
-              <Grid
-                container
-                xs={12}
-                sm={4}
-                alignItems="center"
-                direction="row"
-              >
-                <img src={require("../../images/iiitt.jpg")} width="95%" />
-              </Grid>
-            </Grid>
-          </Card>
-          <Grid container style={{ border: "0" }}>
-            <Grid item xs={12} sm={8}>
-              <Card style={{ height: "100%", boxShadow: "none" }}>
-                <CardContent>
-                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
-                    Vision
-                  </Typography>
-                  <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                  <Typography color="textSecondary">
-                    To achieve "World Class Excellence in Information and
-                    Communication Technology".
-                  </Typography>
-                  <br />
-                  <br />
-                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
-                    Mission
-                  </Typography>
-                  <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                  <Typography color="textSecondary">
-                    {bull} To impart Information Technology education to
-                    students and future leaders.
-                    <br />
-                    <br />
-                    {bull} To establish Center of Excellences in Information
-                    Technology.
-                    <br />
-                    <br />
-                    {bull} To engage in cutting edge technology research to meet
-                    the current needs and future challenges of India and the
-                    world at large.
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid
-              container
-              xs={12}
-              sm={4}
-              alignItems="center"
-              direction="column"
-            >
-              <img
-                src={require("../../images/logo.png")}
-                width="60%"
-                style={{ marginTop: "1.2rem" }}
-              />
-            </Grid>
-          </Grid>
+              
+            
+         
         </div>
         <Footer />
       </div>
