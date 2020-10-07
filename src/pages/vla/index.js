@@ -87,7 +87,7 @@ export default function Vla() {
               Indian Institute of Information Technology Tiruchirappalli
               (IIITT), also known as IIIT Trichy, is an Institute of National
               Importance and one among the 19 IIITs proposed under the
-              non-profit Public-Private Partnership (PPP) Model by MHRD. IIITT
+              non-profit Public-Private Partnership (PPP) Model by MHRD. IIIT Tiruchirappalli
               is an academic and research institute fully funded by Government
               of India, Government of Tamil Nadu and Industry Partners in the
               ratio of 50:35:15.
