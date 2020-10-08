@@ -38,7 +38,9 @@
         "dept": "CSE",
         "deptID": "4"
       },
+
       "name": "Dr. A. Jacob Thomas",
+
       "designation": "Assistant Professor",
       "researchArea": "Image Processing, Medical Image Processing, Neuroimage Processing, Algorithms Processing, Algorithms ",
       "emailID": "anoopjt@iiitt.ac.in",
@@ -74,6 +76,7 @@
         "deptID": "3"
       },
       "name": "Dr. M. S. Sivakumar",
+
       "designation": "Assistant Professor",
       "researchArea": "VLSI Design",
       "emailID": "msenthilsivakumar@iiitt.ac.in",
@@ -84,7 +87,9 @@
         "dept": "ECE",
         "deptID": "4"
       },
+
       "name": "Dr. S. Balanethiram",
+
       "designation": "Assistant Professor",
       "researchArea": "Optical Networks and Wireless Communication",
       "emailID": "sureshb@iiitt.ac.in",
@@ -110,6 +115,7 @@
         "dept": "MATH",
         "deptID": "1"
       },
+
       "name": "Dr. J. Pashikanti",
       "designation": "Assistant Professor",
       "researchArea": "Computational Fluid Dynamics",
