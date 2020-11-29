@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../components/navbar/index";
 import Footer from "../../components/footer/index";
 import { Typography, Grid, Box, Divider } from "@material-ui/core";
@@ -31,13 +31,7 @@ export default function AdmissionFeeStructure() {
     };
   }, []);
 
-  const [regulations, setRegulations] = useState(undefined);
-  useEffect(() => {
-    import("../../json/phdregulations.json").then((data) => {
-      setRegulations(data.data);
-    });
-  }, []);
-
+  const file = "Ph.D_regulations_IIITT_final_2020.pdf";
   const classes = createStyles();
 
   return (
@@ -113,20 +107,9 @@ export default function AdmissionFeeStructure() {
             </Typography>
 
             <Typography variant="h6">Ph.D Regulations</Typography>
-
-            {regulations &&
-              regulations.map((regulation) => {
-                return (
-                  <section>
-                    <a
-                      href={require(`../../docs/${regulation.path}`)}
-                      download={regulation.title}
-                    >
-                      <Typography variant="h6">Download Ph.D regulations</Typography>
-                    </a>
-                  </section>
-                );
-              })}
+            <a href={require(`../../docs/${file}`)} download={`${file}`}>
+              <Typography variant="h6">Download Ph.D regulations</Typography>
+            </a>
 
             <Typography className={classes.sectionPadding}>
               <Box component="span" fontSize="1.2rem">
