@@ -37,7 +37,7 @@ export default function AntiRagging() {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
     };
   }, []);
-  const arCommittee = "AR-committee.pdf";
+  const arCommittee = "AntiRaggingCommittee2020-21.pdf";
   const classes = createStyles();
   return (
     <div className="page-container">

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../../components/navbar/index";
 import Footer from "../../components/footer/index";
-import { Typography, Grid, Box } from "@material-ui/core";
+import { Typography, Grid, Box, Table, TableBody, TableCell, TableHead, TableContainer, TableRow, Paper } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "./style.css";
 
@@ -28,6 +28,16 @@ const createStyles = makeStyles({
   },
   sectionPadding: {
     padding: "1rem 0",
+  },
+  tableHead: {
+    background: "#2e8b57",
+  },
+  th: {
+    color: "white",
+    fontSize: "1.5rem",
+  },
+  td: {
+    fontSize: "1.3rem",
   },
 });
 
@@ -126,6 +136,54 @@ export default function AdmissionProcedure() {
                   through a single platform.
                 </Box>
               </Typography>
+
+              <TableContainer component={Paper}>
+                <Table>
+                  <TableHead className={classes.tableHead}>
+                    <TableRow>
+                      <TableCell className={classes.th} align="center">
+                        Qualifying Examination
+                      </TableCell>
+                      <TableCell className={classes.th} align="center">
+                        Admitting Institutes
+                      </TableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell className={classes.td} align="center">
+                        JEE (Advanced) 2020
+                      </TableCell>
+                      <TableCell className={classes.td} align="center">
+                        IITs
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className={classes.td} align="center">
+                        JEE (Main) 2020 B.E./B.Tech.
+                      </TableCell>
+                      <TableCell
+                        rowSpan="3"
+                        className={classes.td}
+                        align="center"
+                      >
+                        NITs, IIEST, IIITs (Triple-I-Ts) and Other-GFTIs
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className={classes.td} align="center">
+                        JEE (Main) 2020 B.Arch.
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className={classes.td} align="center">
+                        JEE (Main) 2020 B.Planning
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </TableContainer>
+
               <center>
                 <a
                   href="https://josaa.nic.in"
