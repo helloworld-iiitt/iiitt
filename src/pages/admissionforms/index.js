@@ -35,8 +35,9 @@ export default function AdmissionForms() {
     };
   }, []);
   const classes = createStyles();
-  const reportingDetails = "ReportingDetails_IIITT_2019-20.pdf";
-  const admissionCancellation = "CancellationForm.docx";
+  const reportingDetails = "Reportingdetails2020-21-recent.pdf";
+  const admissionCancellation = "Admission_cancellation_form2020-21.pdf";
+  const undertaking = "undertaking_2020-21.pdf";
   return (
     <div className="page-container">
       <Navbar />
@@ -61,7 +62,16 @@ export default function AdmissionForms() {
                 download={`${reportingDetails}`}
                 className={classes.link}
               >
-                {reportingDetails}
+                [Updated] Reporting Details
+              </a>
+            </li>
+            <li>
+              <a
+                href={require(`../../docs/${undertaking}`)}
+                download={`${reportingDetails}`}
+                className={classes.link}
+              >
+                Undertaking form
               </a>
             </li>
             <li>
@@ -70,7 +80,7 @@ export default function AdmissionForms() {
                 download={`${admissionCancellation}`}
                 className={classes.link}
               >
-                {admissionCancellation}
+                Admission Cancellation Form
               </a>
             </li>
           </ul>

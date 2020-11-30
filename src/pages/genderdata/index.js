@@ -123,7 +123,7 @@ export default function GenderData() {
                 </TableRow>
                 <TableRow>
                   <TableCell className={classes.td}>Boys</TableCell>
-                  <TableCell>Girls</TableCell>
+                  <TableCell className={classes.td}>Girls</TableCell>
                   <TableCell className={classes.td}>Boys</TableCell>
                   <TableCell className={classes.td}>Girls</TableCell>
                   <TableCell className={classes.td}>Male</TableCell>

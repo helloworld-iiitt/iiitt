@@ -25,37 +25,56 @@ const PersonCard = (props) => {
 
   return (
     <>
-    <div className="card">
-    <div className="top">
-       <div className="text">
-         <a className="name" href={`/faculty_detail/${props.dept}/${props.deptID}`}>{props.name}</a>
-         <h4>{props.designation}</h4>
-        </div>
+      <div className="card">
+        <div className="top">
+          <div className="text">
+            {props.src_type === "faculty" ? (
+              <a
+                className="name"
+                href={`/faculty_detail/${props.dept}/${props.deptID}`}
+              >
+                {props.name}
+              </a>
+            ) : (
+              <a
+                className="name"
+                href="#"
+              >
+                {props.name}
+              </a>
+            )}
+            <h4>{props.designation}</h4>
+          </div>
 
-        <div className="circle-img">
-         <img  src={require(`../../images/people/${props.src_type}/${props.src}`)} alt="avatar_img" />
+          <div className="circle-img">
+            <img
+              src={require(`../../images/people/${props.src_type}/${props.src}`)}
+              alt="avatar_img"
+            />
+          </div>
         </div>
-    </div>
-    <div className="bottom">
-    <p className="description">
-    {props.researchArea && (
-
-            <>
-              <Typography
-                variant="body2"
-                gutterBottom
-                className={classes.researchArea}
-              >{props.researchArea}</Typography>
-            </>
-          )}
-       </p>
-    <div className="info-div">
-    <MailIcon className="info-icon"/>
-        <a href={`mailto:${props.emailID}`} className="info">{props.emailID}</a>
+        <div className="bottom">
+          <p className="description">
+            {props.researchArea && (
+              <>
+                <Typography
+                  variant="body2"
+                  gutterBottom
+                  className={classes.researchArea}
+                >
+                  {props.researchArea}
+                </Typography>
+              </>
+            )}
+          </p>
+          <div className="info-div">
+            <MailIcon className="info-icon" />
+            <a href={`mailto:${props.emailID}`} className="info">
+              {props.emailID}
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
     </>
   );
 };
