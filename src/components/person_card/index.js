@@ -29,19 +29,16 @@ const PersonCard = (props) => {
         <div className="top">
           <div className="text">
             {props.src_type === "faculty" ? (
-              <a
+              <Link
                 className="name"
-                href={`/faculty_detail/${props.dept}/${props.deptID}`}
+                to={`/faculty_detail/${props.dept}/${props.deptID}`}
               >
                 {props.name}
-              </a>
+              </Link>
             ) : (
-              <a
-                className="name"
-                href="#"
-              >
+              <Link className="name" to="#">
                 {props.name}
-              </a>
+              </Link>
             )}
             <h4>{props.designation}</h4>
           </div>
