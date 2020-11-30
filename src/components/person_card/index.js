@@ -14,8 +14,8 @@ import "./styles.css";
 const useStyle = makeStyles({
   researchArea: {
     fontSize: "1em",
-    fontWight:"bold"
-  }
+    fontWight: "bold",
+  },
 });
 
 const PersonCard = (props) => {
@@ -36,9 +36,9 @@ const PersonCard = (props) => {
                 {props.name}
               </Link>
             ) : (
-              <Link className="name" to="#">
+              <a className="name" href="#">
                 {props.name}
-              </Link>
+              </a>
             )}
             <h4>{props.designation}</h4>
           </div>
