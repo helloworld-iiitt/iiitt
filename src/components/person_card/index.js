@@ -14,8 +14,8 @@ import "./styles.css";
 const useStyle = makeStyles({
   researchArea: {
     fontSize: "1em",
-    fontWight:"bold"
-  }
+    fontWight: "bold",
+  },
 });
 
 const PersonCard = (props) => {
@@ -29,17 +29,14 @@ const PersonCard = (props) => {
         <div className="top">
           <div className="text">
             {props.src_type === "faculty" ? (
-              <a
+              <Link
                 className="name"
-                href={`/faculty_detail/${props.dept}/${props.deptID}`}
+                to={`/faculty_detail/${props.dept}/${props.deptID}`}
               >
                 {props.name}
-              </a>
+              </Link>
             ) : (
-              <a
-                className="name"
-                href="#"
-              >
+              <a className="name" href="#">
                 {props.name}
               </a>
             )}
