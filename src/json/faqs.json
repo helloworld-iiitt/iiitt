@@ -2,7 +2,7 @@
   "data": [
     {
       "question": "Is it now mentored by NIT Trichy?",
-      "answer": "Yes, it is. The students are staying within NIT Trichy Campus and NIT Trichy has given us the access to all the available facilities"
+      "answer": "Yes, it is. But the campus has been shifted to Oxford Engineering College in July 2020."
     },
     {
       "question": "Faculties: NIT Trichy or IIIT Trichy?",
@@ -10,7 +10,7 @@
     },
     {
       "question": "Hostel : Within campus or the private one?",
-      "answer": "The hostel is provided by NIT Trichy itself. The hostel provided to second year UG is Topaz (for boys). The hostel is a single-seater room and is bundled with all the facilities. For girls, it’s a three-seater room at Opal C. For, first year boys, it’s Agate, its a four-seater specially for first year boys."
+      "answer": "The hostel is located in Oxford Engineering College, which is a temporary campus."
     },
     {
       "question": "Placement: With NIT Trichy or separate?",
@@ -18,7 +18,7 @@
     },
     {
       "question": "When will IIIT Trichy shift to its permanent campus?",
-      "answer": "IIIT Trichy will shift to its new campus once it gets ready. Government of Tamil Nadu has recognised a land in Sethurappatti Village, Tiruchirappalli, Tamil Nadu, for the permanent campus of IIIT Trichy."
+      "answer": "IIIT Trichy will shift to its new campus once it gets ready. Government of Tamil Nadu has recognised a land in Sethurappatti Village, Tiruchirappalli, Tamil Nadu, for the permanent campus of IIIT Trichy. It is still under construction and estimated to finish by June 2021."
     },
     {
       "question": "Does IIIT Trichy comes under JoSAA or do I have to apply separately?",
@@ -37,12 +37,16 @@
       "answer": "Yes, IIIT Trichy students do take part in the events of NIT Trichy which are open for everyone, like Festember and Pragyan. However, we do not, and can not take part in their internal events like NITTFEST."
     },
     {
-      "question": "Do IIIT Trichy students take part in clubs of NIT Trichy?",
-      "answer": "No, IIIT Trichy students don't take part in the clubs of NIT Trichy. We have clubs of our own, which are functioning on their own."
+      "question": "Apart from academics, how would a student be occupied?",
+      "answer": "IIITT as an institute stimulates the student’s advancement in every field. There are various activities pertaining to technical, cultural and sports, such as clubs, competitions and fests, so that students aren’t only indulged in academics, but also involve themselves in extra-curricular activities to discover themselves and for the overall development of the student."
+    },
+    {
+      "question": "Societies and clubs of the Institute?",
+      "answer": "The Institute has myriad clubs operating under three main categories: Technical, Cultural and Sports. Some of the clubs are: Technical - Web Dev Club, Competitive Coding(CC), Net Sec ( Network Security), IoT and many more clubs. Cultural – Dance, Photography, Fine Arts Clubs and many more. Sports – Cricket, Basketball, Badminton Clubs and many more. (Refer the Clubs page on the website for more info)"
     },
     {
       "question": "How to reach IIIT Trichy?",
-      "answer": "IIIT Trichy is operating in the temporary campus within the premises of NIT Campus, Trichy, Tamil Nadu, since March 2016. All mofusil and town buses plying from Tiruchirappalli Central Bus Stand to Thanjavur, stop at NIT Trichy. Tiruchirappalli Central Bus Stand is about half a KM from Tiruchirappalli Railway Junction. Town Bus No. 128 from Tiruchirappalli Central Bus Stand to Thuvakudi stops at NIT Trichy. A number of Call Taxis are available nearby Tiruchirappalli Junction and Central Bus Stand. The approximate Call Taxi fare from Tiruchirappalli Railway Station to NIT Trichy will be about Rs. 500."
+      "answer": "IIIT Trichy is operating in the temporary campus within the premises of Oxford Engineering College, since July 2020. It is located 4km East of Trichy Central Bus Stand, one can reach it via the NH83. (For more, visit location page on website.)"
     }
   ]
 }
