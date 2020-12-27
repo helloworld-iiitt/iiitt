@@ -112,6 +112,13 @@ export default function VlaWorkshops() {
                         <td>Participants from SC/ST</td>
                         <td>{summary.participants.scstCount}</td>
                       </tr>
+                      {
+                        summary.participants.obcCount && 
+                        <tr>
+                          <td>Participants from OBC</td>
+                          <td>{summary.participants.obcCount}</td>
+                        </tr>
+                      }
                       <tr>
                         <td>
                           <strong>Hands on sessions</strong>

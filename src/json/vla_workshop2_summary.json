@@ -1,0 +1,52 @@
+{
+  "data": {
+    "title": "A Third Two day Virtual Workshop on Develop, Deliver and Assess Online Courses with MOODLE Learning Management System",
+    "date": "May 21-22, 2020",
+    "participants": {
+      "count": 73,
+      "speakerCount": 6,
+      "maleCount": 46,
+      "femaleCount": 27,
+      "scstCount": 9,
+      "obcCount": 21
+    },
+    "handsOnSessions": 4,
+    "speakers": [
+      "Prof. D V L N Somayajulu, Director, Indian Institute of Information Technology, Design and Manufacturing Kurnool",
+      "Prof. NARASIMHA SARMA N V S, , Director, Indian Institute of Information Technology Tiruchirappalli",
+      "Dr. M V Durga Prasad, Visiting Faculty, Indian Institute of Information Technology Design and Manufacturing, Kurnool",
+      "Dr. J. Krishnaiah, Associate Professor, Indian Institute of Information Technology Design and Manufacturing, Kurnool",
+      "Dr. Anoop Jacob Thomas, Assistant Professor, Indian Institute of Information Technology Tiruchirappalli",
+      "Dr. Dr. N. Renugadevi, Assistant Professor, Indian Institute of Information Technology Tiruchirappalli"
+    ],
+    "topics": [
+      "Philosophy of Online Learning Management System",
+      "Understanding the Learning Management System",
+      "What makes Moodle Special",
+      "Moodle Basics",
+      "Creating a New Course",
+      "Managing Course Participants",
+      "News Forums",
+      "Messaging",
+      "Chat",
+      "Blog",
+      "WIKI",
+      "Discussion Forms",
+      "Online Assignment Submission",
+      "MCQ",
+      "Grading"
+    ],
+    "feedbacks": [
+      "The Programme was interactive than a monolog",
+      "Participants showing interest to organize VLA course",
+      "The programme was useful go get better insight (feedback from who were already using Moodle)",
+      "The Programme accomplished its set objectives and was grand success",
+      "Programme gave insights and practical exposure about online education, e-content preparation using OER (Open Education Resource) and developing the content by own and delivering the content",
+      "Participants encouraged using upon source software to prepare the content.",
+      "Various Assessment methods and student engaging methods are explored during the training programme."
+    ],
+    "suggestions": [
+      "Training Programme can be extended to 3 days"
+    ]
+  }
+}

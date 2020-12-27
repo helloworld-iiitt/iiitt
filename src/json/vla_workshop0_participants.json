@@ -1,22 +1,460 @@
 {
-  "data": [
-    {
-      "name": "Ankit Bhurane",
-      "designation": "ASSISTANT PROFESSOR",
-      "institute": "Indian Institute Of Information Technology Nagpur",
-      "state": "Maharashtra"
-    },
-    {
-      "name": "Bharathi V",
-      "designation": "Temporary Faculty",
-      "institute": "Indian Institute of Information Technology, Tiruchirappalli",
-      "state": "Tamil Nadu"
-    },
-    {
-      "name": "Bhaskar Thupakula",
-      "designation": "Assistant Professor",
-      "institute": "Sanjivani College of Engineering Kopargaon",
-      "state": "Maharashtra"
-    }
-  ]
+   "data":[
+      {
+         "name":"Ankit Bhurane",
+         "designation":"ASSISTANT PROFESSOR",
+         "institute":"Indian Institute Of Information Technology Nagpur",
+         "state":"Maharastra"
+      },
+      {
+         "name":"Bharathi V",
+         "designation":"Temporary Faculty",
+         "institute":"Indian Institute of Information Technology, Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Bhaskar Thupakula",
+         "designation":"Assistant Professor",
+         "institute":"Sanjivani College of Engineering Kopargaon",
+         "state":"Maharastra"
+      },
+      {
+         "name":"Binsu J Kailath",
+         "designation":"Associate Professor and Dean Academics",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Darshan Vishwasrao Medhane",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Pune",
+         "state":"Maharastra"
+      },
+      {
+         "name":"Divyansh Thakur",
+         "designation":"Assistant Professor",
+         "institute":"IIIT UNA",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Dr Ramesh Athe",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology, Dharwad",
+         "state":"Karanatka"
+      },
+      {
+         "name":"Dr S SARAVANAN",
+         "designation":"Associate Professor",
+         "institute":"K. Ramakrishnan College Of Technology",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr UMA RANI BHAGAVATHULA",
+         "designation":"Assistant Professor",
+         "institute":"St. Francis College For Women",
+         "state":"Telangana"
+      },
+      {
+         "name":"Dr. AMRITA PARGAIEN",
+         "designation":"Assistant Professor",
+         "institute":"Graphic Era Hill University",
+         "state":"Uttarakhand"
+      },
+      {
+         "name":"Dr. Anoop Jacob Thomas",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. C. BALAJI",
+         "designation":"Assistant Professor(Temporary)",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. G.S. Grewal",
+         "designation":"Faculty (Electrical Engineering)",
+         "institute":"Indian Institute of Information Technology Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Dr. Jagadeeshwar Pashikanti",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. K.Kamakshi",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. Krishnaiah",
+         "designation":"Associate Professor",
+         "institute":"IIITDM Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Dr. Manikandan V M",
+         "designation":"Assistant Professor",
+         "institute":"SRM University AP, Andhra Pradesh, India.",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Dr. Priyabrat Garanayak",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Dr. Rinshu Dwivedi",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. Satya Kamal Chirauri",
+         "designation":"Adhoc Faculty",
+         "institute":"IIITDM Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Dr. Shalu M A",
+         "designation":"Associate Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. Sreekumar M",
+         "designation":"Associate Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. Sukriti",
+         "designation":"Assistant Professor",
+         "institute":"IIIT, UNA",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Dr. Suresh Balanethiram",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. V. Masilamani",
+         "designation":"Associate Prof",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. V. SINDHU",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr. VELMURUGAN C",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr.B Suresh Babu",
+         "designation":"Associate Professor",
+         "institute":"Sreyas Institute of Engineering and Technology",
+         "state":"Telangana"
+      },
+      {
+         "name":"Dr.G.Mahender Reddy",
+         "designation":"Assistant Professor",
+         "institute":"Gurunanak Institutions Technical Campus",
+         "state":"Telangana"
+      },
+      {
+         "name":"Dr.N.Renugadevi",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Dr.R.VIDYA",
+         "designation":"Assistant Professor",
+         "institute":"Vels Institute of Science, Technology and Advanced Studies(VISTAS), Chennai",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"DVLN SOMAYAJULU",
+         "designation":"Director",
+         "institute":"IIITDM Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Banshidhar Majhi",
+         "designation":"Director",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Eswaramoorthy K V",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology, Design and Manufacturing, Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Eswaramoorthy Muthusamy",
+         "designation":"Professor",
+         "institute":"Shri Mata Vaishno Devi University",
+         "state":"Jammu"
+      },
+      {
+         "name":"G. Devasena",
+         "designation":"Assistant professor",
+         "institute":"IIIT Trichy",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Gaurav Srivastava",
+         "designation":"Assistant professor",
+         "institute":"Poornima College of Engineering Jaipur",
+         "state":"Rajasthan"
+      },
+      {
+         "name":"Gurpreet Kaur",
+         "designation":"Assistant Professor",
+         "institute":"Indian institute of information technology, Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Hameed Khan",
+         "designation":"Assistant Professor",
+         "institute":"Guru Ramdas Khalsa Inst. of Sci. and Tech",
+         "state":"Madhyapradesh"
+      },
+      {
+         "name":"Innareddy Allam",
+         "designation":"Assistant professor",
+         "institute":"Universal college of Engineering and Technology",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"ISHITA VAIDYA",
+         "designation":"Assistant professor",
+         "institute":"IIIT Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Jagadeesh kakarla",
+         "designation":"Assistant professor",
+         "institute":"Iiitdm Kanchipuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Jayabal K",
+         "designation":"Associate Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Kaushal Bhardwaj",
+         "designation":"Technical Officer",
+         "institute":"IIIT Senapati Manipur",
+         "state":"Maniput"
+      },
+      {
+         "name":"KUSHAL SINGH",
+         "designation":"Assistant professor",
+         "institute":"IIIT UNA",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"M.Senthil Sivakumar",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Madan Verma",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Mary Sujatha Mukkala",
+         "designation":"Assistant professor",
+         "institute":"Universal college of Engineering and Technology",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Minakshi Shastri",
+         "designation":"Assistant Professor",
+         "institute":"IIIT UNA",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"MIRZA HYDER ALI BAIG",
+         "designation":"Assistant Professor",
+         "institute":"Sanskrithi School of Engineering",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"MUVVALA PULLARAO",
+         "designation":"Assistant Professor",
+         "institute":"IIITDM Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"N BALASUBRAMANYAM",
+         "designation":"Academic Consultant",
+         "institute":"SV University College Of Engineering",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"N Rino Nelson",
+         "designation":"Assistant Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"NEHA MAHAJAN",
+         "designation":"Guest Faculty",
+         "institute":"Indian Institute of Information Technology, Una (H.P.)",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Nitish Katal",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"P.KOUSALYA",
+         "designation":"Visiting faculty",
+         "institute":"IIITDM Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"R Krishnamurthy",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"R. Shathanaa",
+         "designation":"Adhoc Faculty",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Ram Murti",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Una, Himachal Pradesh",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Ranjith Ravindranathan Nair",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Pune",
+         "state":"Maharastra"
+      },
+      {
+         "name":"S. Selvakumar",
+         "designation":"Director",
+         "institute":"Indian Institute of Information Technology Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Sandeep Mishra",
+         "designation":"Assistant Professor",
+         "institute":"Indian Institute of Information Technology Pune",
+         "state":"Maharastra"
+      },
+      {
+         "name":"SATENDRA KUMAR",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Siva Prasad AVS",
+         "designation":"Assistant Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Sreenivasu Bhukya",
+         "designation":"Associate Professor",
+         "institute":"Sreyas Institute of Engineering and Technology",
+         "state":"Telangana"
+      },
+      {
+         "name":"Sreenivasulu Saya",
+         "designation":"Visiting Faculty",
+         "institute":"IIITDM, Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Suveer Guleria",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Una",
+         "state":"Himachal Pradesh"
+      },
+      {
+         "name":"Swati Srivastava",
+         "designation":"Assistant Professor",
+         "institute":"Poornima institute of engineering and technology",
+         "state":"Rajasthan"
+      },
+      {
+         "name":"Tapas Pandit",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Sri City",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Vishnu Vandana Devi. V.",
+         "designation":"Associate Professor",
+         "institute":"Vijaya Institute of Pharmaceutical Sciences for Women",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Avinash Kumar",
+         "designation":"Assistant Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"N.V.S.N. Sarma",
+         "designation":"Director",
+         "institute":"Indian Institute of Information Technology Tiruchirappalli",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"PS Avadhani",
+         "designation":"Assistant Professor",
+         "institute":"IIIT Agartala",
+         "state":"Manipur"
+      },
+      {
+         "name":"R GUNASEKARAN",
+         "designation":"Assitant Registrar",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      },
+      {
+         "name":"Sreenath Itikela",
+         "designation":"Assistant Professor",
+         "institute":"IIITDM Kurnool",
+         "state":"Andhrapradesh"
+      },
+      {
+         "name":"Venkata Timmaraju Mallina",
+         "designation":"Assistant Professor",
+         "institute":"IIITDM Kancheepuram",
+         "state":"Tamilnadu"
+      }
+   ]
 }

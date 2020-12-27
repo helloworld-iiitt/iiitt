@@ -1,0 +1,310 @@
+{
+	"data":[
+		{
+			"name":"V Suresh",
+			"designation":"Assistant Professor",
+			"institute":"G.Pulla Reddy Engineering College(Autonomous)",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Y. Ashok Kumar Reddy",
+			"designation":"DST-Inspire Faculty",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Angel Jean Vincy K",
+			"designation":"Assistant Professor",
+			"institute":"Psr Engineering College",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Anitha Rani A",
+			"designation":"Assistant Professor",
+			"institute":"Excel Engineering College",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"B.Dilip Kumar Reddy",
+			"designation":"Assistant Professor",
+			"institute":"G.Pulla Reddy Engineering College",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"S.Venkateswarlu",
+			"designation":"Professor",
+			"institute":"G.Pullaiah College Of Engineering & Technology",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"V P Gladis Pushparathi",
+			"designation":"Associate Professor",
+			"institute":"Velammal Institute Of Technology L",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"K. Govardhan Reddy",
+			"designation":"Associate Professor",
+			"institute":"G. Pulla Reddy Engineering College",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"M.Ezhilarasi",
+			"designation":"Professor",
+			"institute":"Kumaraguru College Of Technology",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"S.Muthukrishnan",
+			"designation":"Assistant Professor",
+			"institute":"Er.Perumal Manimekalai College Of Engineering",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Kommanduri Srinivas",
+			"designation":"Assistant Professor",
+			"institute":"Pscmrcet Vijayawada",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Krishna Veni Devarapu",
+			"designation":"Assistant Professor",
+			"institute":"Narsimhareddy Engineering College",
+			"state":"Telangana"
+		},
+		{
+			"name":"K.Swathi",
+			"designation":"Associate Professor",
+			"institute":"Sripadmavati Mahila Visvavidyalayam",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"K Mallikarjuna",
+			"designation":"Professor",
+			"institute":"G.Pullaiah College Of Engg And Technology",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"A Srinivas",
+			"designation":"Assistant Professor",
+			"institute":"G Pullaiah College Of Engineering & Technology",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Menaka M",
+			"designation":"Assistant Professor",
+			"institute":"Ethiraj College For Women",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Dr M Sreekumar",
+			"designation":"Associate Professor",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"N.Nalini",
+			"designation":"Assistant Professor",
+			"institute":"Sri Krishna College Of Technology",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Nandakumar K",
+			"designation":"Assistant Professor",
+			"institute":"Knowledge Institute Of Technology",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Narendra Korrapolu",
+			"designation":"Assistant Professor",
+			"institute":"Pscmr College Of Engineering And Technology, Vijayawada-1",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Naveen Kumar",
+			"designation":"Associate Prof",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Pranamita Nanda",
+			"designation":"Assistant Professor",
+			"institute":"Velammal Institute Of Technology",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Priyanka Kokil",
+			"designation":"Assistant Professor",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"M.Rajmal Joshi",
+			"designation":"Associate Professor",
+			"institute":"Panimalar Engineering College",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"A.Richard William",
+			"designation":"Assistant Professor",
+			"institute":"Er Perumal Manimekalai College Of Engineering",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Rohith I J",
+			"designation":"Assistant Professor",
+			"institute":"Noorul Islam Centre For Higher Education",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"R Praveen Sam",
+			"designation":"Professor",
+			"institute":"G. Pulla Reddy Engineering College (Autonomous)",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Sharon",
+			"designation":"Lecturer",
+			"institute":"School Of Arts And Science, Avit Campus",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Sakthivel P",
+			"designation":"Assistant Professor",
+			"institute":"Dhirajlal Gandhi College Of Technology",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"M.D. Selvaraj",
+			"designation":"Associate Professor",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"A Sreekanth",
+			"designation":"Assistant Professor",
+			"institute":"G Pullaiah College Of Engineering And Technology",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Dasi Venkata Srihari Babu",
+			"designation":"Assistant Professor",
+			"institute":"G Pulla Reddy Engineering College ( Autonomous)",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Srijith K",
+			"designation":"Assistant Professor",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"D R Srinivas",
+			"designation":"Associate Professor",
+			"institute":"G Pullareddy Engineering College (Autonomous) Kurnool",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"L Stanley Abraham",
+			"designation":"Scientist E",
+			"institute":"Sathyabama Institute Of Science And Technology",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"M. Subramani",
+			"designation":"Assistant Professor",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Kalva Sudhakar",
+			"designation":"Assistant Professor",
+			"institute":"G. Pulla Reddy Engineering College (Autonomous)",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Suhasini Sathiyamoorthy",
+			"designation":"Assistant Professor",
+			"institute":"Srm Institute Of Science And Technology (Ist)",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"M. Suresh",
+			"designation":"Associate Professor",
+			"institute":"Er. Perumal Manimekalai College Of Engineering, Hosur",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"J Swami Naik",
+			"designation":"Associate Professor",
+			"institute":"G Pulla Reddy Engineering College",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"R Varaprasad",
+			"designation":"Assistant Professor",
+			"institute":"G. Pullaiah College Of Engineering And Technology",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Velmurugan C",
+			"designation":"Asst. Professor",
+			"institute":"Er. Perumal Manimekalai College Of Engineering, Hosur.",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Vigneshwar Manoharan",
+			"designation":"National Coordinator",
+			"institute":"International Institute for Population Sciences",
+			"state":"Maharashtra"
+		},
+		{
+			"name":"Vinay Kumar Sunkesula",
+			"designation":"Asst.Professor",
+			"institute":"G Pulla Reddy Engineering College Kurnool",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Vekamulla Narayana",
+			"designation":"Associate Professor",
+			"institute":"Balaji Institute Of Technology And Science",
+			"state":"Telangana"
+		},
+		{
+			"name":"Y R Janardhan Reddy",
+			"designation":"Assistant Professor",
+			"institute":"G Pulla Reddy Engineering College, Kurnool",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Sagi S.C.M. Raju",
+			"designation":"Visiting Faculty",
+			"institute":"Indian Institute Of Information Technology Design And Manufacturing Kurnool",
+			"state":"Andhra Pradesh"
+		},
+		{
+			"name":"Ramadevi",
+			"designation":"Assistant Professor",
+			"institute":"St. Martin's Engineering College",
+			"state":"Secunderabad"
+		},
+		{
+			"name":"Bhupendra Singh Reniwal",
+			"designation":"Assistant Professor",
+			"institute":"IIITDM Kancheepuram",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Kaja Bantha Navas",
+			"designation":"Assistant Professor",
+			"institute":"Sathyabama Institute Of Science And Technology, Chennai",
+			"state":"Tamil Nadu"
+		},
+		{
+			"name":"Mayuri",
+			"designation":"Assistant Professor",
+			"institute":"G Pulla Reddy Engineering College ( Autonomous), Kurnool",
+			"state":"Andhra Pradesh"
+		}
+	]
+}
