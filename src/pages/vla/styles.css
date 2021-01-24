@@ -9,8 +9,11 @@
 
 .vlacarousel {
   grid-column: 1/3;
-  max-height: 570px;
   margin: auto 0;
+}
+
+.vlacarousel * {
+  max-height: 570px;
 }
 
 .announcements {

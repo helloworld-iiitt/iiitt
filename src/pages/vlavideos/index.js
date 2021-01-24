@@ -59,11 +59,12 @@ export default function VlaVideos(props) {
   const [videos, setVideos] = useState(undefined);
   const [redirect, setRedirect] = useState(false);
   useEffect(() => {
+    console.clear()
+    console.log(`../../json/${path}.json`)
     import(`../../json/${path}.json`)
       .then((data) => setVideos(data.data))
-      .catch(() => {
-        console.clear();
-        console.log("HELLO");
+      .catch((e) => {
+        console.log(e);
         setRedirect(true);
       });
   }, []);
@@ -115,7 +116,7 @@ export default function VlaVideos(props) {
                           <div className="daySession">
                             <strong>Afternoon session:</strong>
                             <ul className="videoList">
-                              {day.an.map((vid, vidId) => {
+                              {day.an && day.an.map((vid, vidId) => {
                                 var id = `#day${dayId + 1}anvid${vidId + 1}`;
                                 return (
                                   <li key={id}>
@@ -147,7 +148,7 @@ export default function VlaVideos(props) {
                             );
                           })}
 
-                          {day.an.map((vid, vidId) => {
+                          {day.an && day.an.map((vid, vidId) => {
                             return (
                               <Video
                                 vid={vid}

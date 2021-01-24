@@ -5,11 +5,33 @@
       "name": "Dr. Anoop Jacob Thomas (IIIT Tiruchirappalli), Dr. Renjith P (IIITDM Kurnool)",
       "startDate": "2 May, 2020",
       "endDate": "3 May, 2020",
-      "participants": "75",
+      "participants": "76",
       "participantsLink": "vla_workshop0_participants",
       "videos": "vla_videos_2-3may2020",
       "brochure": "workshop0_2to3may2020.pdf",
       "summary": "vla_workshop0_summary"
+    },
+    {
+      "programmeName": "Second Workshop on online teaching: Moodle",
+      "name": "Dr. Anoop Jacob Thomas (IIIT Tiruchirappalli), Dr. Renjith P (IIITDM Kurnool)",
+      "startDate": "18 May, 2020",
+      "endDate": "19 May, 2020",
+      "participants": "51",
+      "participantsLink": "vla_workshop1_participants",
+      "videos": "vla_videos_18-19may2020",
+      "brochure": "workshop1_18to19may2020.pdf",
+      "summary": "vla_workshop1_summary"
+    },
+    {
+      "programmeName": "Third Workshop on online teaching: Moodle",
+      "name": "Dr. Renuga Devi N (IIIT Tiruchirappalli), Dr. Krishnaiah J (IIITDM Kurnool)",
+      "startDate": "21 May, 2020",
+      "endDate": "22 May, 2020",
+      "participants": "73",
+      "participantsLink": "vla_workshop2_participants",
+      "videos": "vla_videos_21-22may2020",
+      "brochure": "workshop2_21to22may2020.pdf",
+      "summary": "vla_workshop2_summary"
     },
     {
       "programmeName": "Fourth Workshop on online teaching: Moodle",
@@ -31,6 +53,17 @@
       "participantsLink": "",
       "videos": "",
       "brochure": "workshop4_18to19june2020.pdf",
+      "summary": ""
+    },
+    {
+      "programmeName": "First Workshop on E-Content Development",
+      "name": " Dr. G. Devasena (IIIT Tiruchirappalli), Dr. P. Kousalya (IIITDM Kurnool)",
+      "startDate": "8 July 2020",
+      "endDate": "11 July 2020",
+      "participants": "31",
+      "participantsLink": "",
+      "videos": "vla_videos_8-11july2020",
+      "brochure": "EContent_Workshop_8to11July2020_Brochure.pdf",
       "summary": ""
     }
   ]
