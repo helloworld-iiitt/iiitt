@@ -137,6 +137,10 @@
         {
           "text": "FAQ's",
           "link": "/faq"
+        },
+        {
+          "text": "Student Council",
+          "link": "/studentcouncil"
         }
       ]
     },
