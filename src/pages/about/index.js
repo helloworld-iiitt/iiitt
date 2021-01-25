@@ -133,18 +133,18 @@ export default class About extends React.Component {
                         {" "}
                         Industry Partners include:
                       </Box>{" "} &nbsp;
-                      <Link href="https://tcs.com">
+                      <Link href="https://www.tcs.com/" target="_blank">
                         Tata Consultancy Services(TCS)
                       </Link>
                       &nbsp;
-                      <Link href="https://cognizant.com">
+                      <Link href="https://www.cognizant.com/" target="_blank">
                         Cognizant Technology Solutions (CTS)
                       </Link>
                       &nbsp;
-                      <Link href="https://infosys.com">Infosys</Link>&nbsp;
-                      <Link href="https://ramco.com">Ramco Systems</Link>&nbsp;
-                      <Link href="https://elcot.in">ELCOT</Link>&nbsp;
-                      <Link href="https://navitaslifesciences.com/">
+                      <Link href="https://www.infosys.com/" target="_blank">Infosys</Link>&nbsp;
+                      <Link href="https://www.ramco.com/" target="_blank">Ramco Systems</Link>&nbsp;
+                      <Link href="https://elcot.in" target="_blank">ELCOT</Link>&nbsp;
+                      <Link href="https://www.navitaslifesciences.com/" target="_blank">
                         Navitas (TAKE Solutions)
                       </Link>
                     </Typography>
@@ -164,7 +164,7 @@ export default class About extends React.Component {
                       Ministry of Human Resource Development(MHRD), Government
                       of India has established Indian Institute of Information
                       Technology Tiruchirappalli on a Not-for-profit Public
-                      Private Partnership (N-PPP) basis like 22 other IIITs.
+                      Private Partnership (N-PPP) basis like 21 other IIITs.
                       <br />
                       A major objective in establishing IIIT Tiruchirappalli is
                       to set up a model of education which can produce
@@ -173,10 +173,12 @@ export default class About extends React.Component {
                       the number of students produced would be small, the impact
                       they create would be great.
                       <br />
-                      IIIT Tiruchirappalli is operating in the temporary campus
-                      within the premises of National Institute of Technology
-                      (NIT) Campus, Tiruchirappalli – 620 015, Tamil Nadu, since
-                      March 2016.&nbsp;
+                      IIIT Tiruchirappalli is operating in the temporary campus 
+                      within the premises of Oxford Engineering College campus, 
+                      Tiruchirappalli - 620 009, Tamil Nadu from mid-July 2020. 
+                      Before that IIIT Trichy was operating in the temporary campus 
+                      within the premises of National Institute of Technology (NIT) Campus, 
+                      Tiruchirappalli – 620 015, Tamil Nadu, since March 2016.&nbsp;
                       <Link href="https://nitt.edu">NIT Tiruchirappalli</Link>
                       &nbsp;is the mentor institution for IIIT Tiruchirappalli
                       that provides academic and administrative support to the

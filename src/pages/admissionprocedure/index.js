@@ -52,7 +52,7 @@ export default function AdmissionProcedure() {
     };
   }, []);
   const classes = createStyles();
-  const rank = "OpeningandClosingRank.pdf";
+  const rank = "OpeningandClosingRank2020-21.pdf";
   return (
     <div className="page-container">
       <Navbar />
@@ -71,10 +71,10 @@ export default function AdmissionProcedure() {
           </Typography>
           <Box component="span" fontSize="1.3em">
             Admission to Undergraduate Programs for the candidates from India at
-            IIIT Trichy is based on the ranks in the Joint Entrance Examination,
-            JEE (Main). Admission to IIIT Trichy for JEE Main qualified
-            candidates is made through a single platform through online by the
-            Joint Seat Allocation Authority (JoSAA).
+            IIIT Tiruchirappalli is based on the ranks in the Joint Entrance
+            Examination, JEE (Main). Admission to IIIT Trichy for JEE Main
+            qualified candidates is made through a single platform through
+            online by the Joint Seat Allocation Authority (JoSAA).
           </Box>
           <br />
           <br />
@@ -89,28 +89,44 @@ export default function AdmissionProcedure() {
                 <Box component="span" fontSize="1.2em">
                   The Ministry of Human Resource Development, Government of
                   India has notified following two changes in the JEE pattern
-                  for 2019:
+                  for 2020:
                 </Box>
               </Typography>
               <ol style={{ lineHeight: "1.5", paddingTop: "0.7rem" }}>
                 <li style={{ marginLeft: "1.3rem" }}>
-                  There shall be no weightage for the 12th class marks in
-                  calculating the ranks in the JEE (Main) examination,
+                  The Ministry of Education [erstwhile Ministry of Human
+                  Resources Development (MHRD)], Government of India (GOI) has
+                  established National Testing Agency (NTA) as an independent
+                  autonomous and self-sustained premier testing organization
+                  under Society Registration Act 1860 for conducting efficient,
+                  transparent and international standards tests in order to
+                  assess the competency of candidates for admissions to premier
+                  higher education institutions.
                 </li>
                 <li style={{ marginLeft: "1.3rem" }}>
-                  For the candidates to qualify for the admission in the
-                  IITs/NITs/IIITs and such other CFTIs whose admissions are
-                  based on the JEE (Advanced)/JEE(Main) ranks, they should have
-                  secured at least 75% marks in the 12th class examination, or
-                  be in the top 20 percentile in the 12th class examination
-                  conducted by the respective Boards. For SC/ST students the
-                  qualifying marks would be 65% in the 12th class examination.
+                  The Department of Higher Education, Ministry of Human Resource
+                  Development, Government of India has entrusted the
+                  responsibility of conducting Joint Entrance Examination JEE
+                  (Main) to the NTA from 2019 onwards.
+                </li>
+                <li style={{ marginLeft: "1.3rem" }}>
+                  Admission criteria to Undergraduate Engineering Programs at
+                  NITs, IIITs, other Centrally Funded Technical Institutions
+                  (CFTI), Institutions funded by participating State
+                  Governments, and other Institutions shall include the
+                  performance in the class 12/equivalent qualifying Examination
+                  and in the Joint Entrance Examination, JEE (Main). The (B. E.
+                  /B. Tech.) of JEE (Main) will also be an eligibility test for
+                  the JEE (Advanced), which the candidate has to take if he/she
+                  is aspiring for admission to the undergraduate programs
+                  offered by the Indian Institute of Technology (IITs).
                 </li>
               </ol>
               <center>
                 <a
                   href="https://jeemain.nic.in"
                   className={`${classes.themeText} ${classes.link}`}
+                  target="_blank"
                 >
                   Visit website of JEE Main
                 </a>
@@ -120,20 +136,21 @@ export default function AdmissionProcedure() {
           <section className={classes.sectionPadding}>
             <Typography variant="h5" className={classes.themeText}>
               <Box component="span" fontWeight="fontWeightBold">
-                JoSAA 2019
+                JoSAA 2020
               </Box>
             </Typography>
             <Box fontSize="1.1rem" className={classes.sectionText}>
               <Typography>
                 <Box component="span" fontSize="1.2em">
-                  The Joint Seat Allocation Authority (JoSAA) 2019 has been set
-                  up by the Ministry of Human Resources Development (MHRD) to
-                  manage and regulate the joint seat allocation for admissions
-                  to 97 institutes for the academic year 2019-20. This includes
-                  23 IITs, 31 NITs, 23 IIITs and 20 Other-Government Funded
-                  Technical Institutes (Other-GFTIs). Admission to all the
-                  academic programs offered by these Institutes will be made
-                  through a single platform.
+                  The Joint Seat Allocation Authority (JoSAA) 2020 has been set
+                  up by the Ministry of Education [erstwhile Ministry of Human
+                  Resources Development (MHRD)] to manage and regulate the joint
+                  seat allocation for admissions to 110 institutes for the
+                  academic year 2020-21. This includes 23 IITs, 31 NITs, IIEST
+                  Shibpur, 26 IIITs and 29 Other-Government Funded Technical
+                  Institutes (Other-GFTIs). Admission to all the academic
+                  programs offered by these Institutes will be made through a
+                  single platform.
                 </Box>
               </Typography>
 
@@ -188,14 +205,16 @@ export default function AdmissionProcedure() {
                 <a
                   href="https://josaa.nic.in"
                   className={`${classes.themeText} ${classes.link}`}
+                  target="_blank"
                 >
                   Visit website of JoSAA
                 </a>
               </center>
               <center>
                 <a
-                  href="https://josaa.nic.in"
+                  href="https://josaa.nic.in/SeatInfo/root/InstProfile.aspx?instcd=314"
                   className={`${classes.themeText} ${classes.link}`}
+                  target="_blank"
                 >
                   View IIIT Trichy on JoSAA
                 </a>
@@ -207,7 +226,7 @@ export default function AdmissionProcedure() {
               <section className={classes.sectionPadding}>
                 <Typography variant="h5" className={classes.themeText}>
                   <Box component="span" fontWeight="fontWeightBold">
-                    List of Undergraduate Programs 2019
+                    List of Undergraduate Programs 2020
                   </Box>
                 </Typography>
                 <Box fontSize="1.1rem" className={classes.sectionText}>
@@ -218,11 +237,11 @@ export default function AdmissionProcedure() {
                     </Box>
                   </Typography>
                   <ul style={{ lineHeight: "1.5", paddingTop: "0.7rem" }}>
-                    <li style={{ marginLeft: "1rem" }}>
+                    <li style={{ marginLeft: "1rem", fontWeight: "bold" }}>
                       Computer Science and Engineering (4 years, Bachelor of
                       Technology)
                     </li>
-                    <li style={{ marginLeft: "1rem" }}>
+                    <li style={{ marginLeft: "1rem", fontWeight: "bold" }}>
                       Electronics and Communication Engineering (4 years,
                       Bachelor of Technology)
                     </li>
@@ -234,7 +253,7 @@ export default function AdmissionProcedure() {
               <section className={classes.sectionPadding}>
                 <Typography variant="h5" className={classes.themeText}>
                   <Box component="span" fontWeight="fontWeightBold">
-                    Opening and Closing Rank of IIIT Trichy, JoSAA 2018
+                    Opening and Closing Rank
                   </Box>
                 </Typography>
                 <ul className="doclist">
@@ -244,7 +263,7 @@ export default function AdmissionProcedure() {
                       className={`${classes.themeText} ${classes.link}`}
                       download={`${rank}`}
                     >
-                      {rank}
+                      Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2019
                     </a>
                   </li>
                 </ul>

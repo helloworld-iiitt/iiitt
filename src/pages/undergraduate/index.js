@@ -51,6 +51,8 @@ export default function Undergraduate() {
 
   const classes = createStyles();
   const file = "A3.UGRegulations.pdf";
+  const csebonafied = "Bonafide_format_CSE_Dept.doc";
+  const ecebonafied = "Bonafide_format_ECE_Dept.doc";
 
   return (
     <div className="page-container">
@@ -109,6 +111,7 @@ export default function Undergraduate() {
               Rules and Regulations for B.Tech.(CSE/ECE/IT)
             </Box>
           </Typography>
+          <Typography>
           <a
             href={require(`../../docs/${file}`)}
             download={`${file}`}
@@ -120,6 +123,39 @@ export default function Undergraduate() {
             />
             Rules and Regulations
           </a>
+          </Typography>
+
+          <Typography variant="h5" className={classes.themeText} gutterBottom>
+            <Box component="span" fontWeight="fontWeightBold">
+              Forms/formats (CSE/ECE)
+            </Box>
+          </Typography>
+          <Typography>
+            <a
+              href={require(`../../docs/${ecebonafied}`)}
+              download={`${ecebonafied}`}
+              className={`${classes.link} ${classes.subText}`}
+            >
+              <img
+                src={require("../../images/news-icon.svg")}
+                className={classes.download}
+              />
+              Bonafide certificate format for ECE
+            </a>
+          </Typography>
+          <Typography>
+            <a
+              href={require(`../../docs/${csebonafied}`)}
+              download={`${csebonafied}`}
+              className={`${classes.link} ${classes.subText}`}
+            >
+              <img
+                src={require("../../images/news-icon.svg")}
+                className={classes.download}
+              />
+              Bonafide certificate format for CSE
+            </a>
+          </Typography>
         </Grid>
       </Grid>
       <Footer />

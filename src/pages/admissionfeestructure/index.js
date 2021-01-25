@@ -34,7 +34,7 @@ export default function AdmissionFeeStructure() {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
     };
   }, []);
-  const feeStructure = "Fee Structure 2019-20.pdf";
+  const feeStructure = "2020-21-FeeStructure_New_Admission.pdf";
   const classes = createStyles();
   return (
     <div className="page-container">
@@ -60,7 +60,7 @@ export default function AdmissionFeeStructure() {
                 download={`${feeStructure}`}
                 className={classes.link}
               >
-                {feeStructure}
+                Fee Structure
               </a>
             </li>
           </ul>
