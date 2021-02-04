@@ -16,13 +16,13 @@
     "Technical": [
         {
             "name": "S.Bala Tejo Kiran",
-            "designation": "Technical secretary",
+            "designation": "Technical Secretary",
             "emailId": "sbalatk17e@iiitt.ac.in",
             "src": "technical.jpg"
         },
         {
             "name": "Konala Sam Ashray",
-            "designation": "Technical Vice secretary",
+            "designation": "Technical Vice Secretary",
             "emailId": "konalasa18c@iiit.ac.in",
             "src": "technicalvice.jpg"
         }
@@ -30,13 +30,13 @@
     "Cultural": [
         {
             "name": "Ayushi grover",
-            "designation": "Cultural secretary",
+            "designation": "Cultural Secretary",
             "emailId": "ayushig17e@iiitt.ac.in",
             "src": "cultural.jpg"
         },
         {
             "name": "Sai Auchitya Bussa",
-            "designation": "Cultural vice secretary",
+            "designation": "Cultural Vice Secretary",
             "emailId": "saiab18e@iiitt.ac.in",
             "src": "culturalvice.jpg"
         }
@@ -44,13 +44,13 @@
     "Sports": [
         {
             "name": "Banda Sai Teja Reddy",
-            "designation": "Sports secretary",
+            "designation": "Sports Secretary",
             "emailId": "bsaitr17c@iiitt.ac.in",
             "src": "sports.jpg"
         },
         {
             "name": "J Lokeshwar",
-            "designation": "Sports vice secretary",
+            "designation": "Sports Vice Secretary",
             "emailId": "jlokeswar18e@iiitt.ac.in",
             "src": "sportsvice.jpg"
         }
@@ -58,7 +58,7 @@
     "Joint secretary": [
         {
             "name": "Ayush Singh",
-            "designation": "Joint secretary",
+            "designation": "Sports Vice Secretary",
             "emailId": "ayushs19e@iiitt.ac.in",
             "src": "jointsec.jpg"
         }

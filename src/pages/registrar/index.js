@@ -70,13 +70,13 @@ export default function Director() {
             <Card className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image={require(`../../images/vittoba.jpeg`)}
+                image={require(`../../images/bijumathew.jpg`)}
                 title="Deputy Registrar"
               />
               <CardContent>
                 <Typography variant="body" gutterBottom>
                   <Box component="span" fontSize="1.5vw" gutterBottom>
-                    Shri. N. VITTOBA
+                    Shri. Biju Mathew
                   </Box>
                   <br />
                   <Box fontSize="1.3rem">
@@ -86,11 +86,11 @@ export default function Director() {
                   </Box>
                   <br />
                   <a href={`mailto:drv@iiitt.ac.in`} fontSize="1.2rem">
-                    drv@iiitt.ac.in
+                    bmathew@iiitt.ac.in
                   </a>
                   <br />
                   <a href={`tel:94458 23121`} fontSize="1.2rem">
-                    94458 23121
+                    94011 44440
                   </a>
                   <br />
                   <br />

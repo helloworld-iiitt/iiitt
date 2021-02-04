@@ -68,27 +68,27 @@ export default function Partners() {
           </Typography>
           <Typography gutterBottom className={classes.text}>
             Industry partners of IIIT Trichy includes&nbsp;
-            <a href="http://tcs.com" className={classes.link}>
+            <a href="https://www.tcs.com/" target="_blank" className={classes.link}>
               Tata Consultancy Services (TCS)
             </a>
             ,&nbsp;
-            <a href="http://cognizant.com" className={classes.link}>
+            <a href="https://www.cognizant.com/" target="_blank" className={classes.link}>
               Cognizant Technology Solutions (CTS).
             </a>
             ,&nbsp;
-            <a href="http://infosys.com" className={classes.link}>
+            <a href="https://www.infosys.com/" target="_blank" className={classes.link}>
               Infosys
             </a>
             ,&nbsp;
-            <a href="http://ramco.com" className={classes.link}>
+            <a href="https://www.ramco.com/" target="_blank" className={classes.link}>
               Ramco Systems
             </a>
             ,&nbsp;
-            <a href="http://ramco.com" className={classes.link}>
+            <a href="https://elcot.in/" target="_blank" className={classes.link}>
               ELCOT
             </a>
             ,&nbsp;
-            <a href="http://ramco.com" className={classes.link}>
+            <a href="https://www.navitaslifesciences.com/" target="_blank" className={classes.link}>
               Navitas (TAKE Solutions)
             </a>
             .

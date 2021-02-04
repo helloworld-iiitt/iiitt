@@ -109,7 +109,7 @@ export default function BWC() {
             className={classes.title}
           >
             <Box component="h3" gutterBottom className={classes.themeText}>
-              Members of FC
+              Members of BwC
             </Box>
           </Typography>
           {bwc && (
@@ -173,7 +173,7 @@ export default function BWC() {
               fontWeight="fontWeightBold"
               className={classes.title}
             >
-              BWC Meeting Minutes
+              BwC Meeting Minutes
             </Box>
           </Typography>
           {bwcMeeting &&
