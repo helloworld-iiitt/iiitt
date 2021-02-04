@@ -3,25 +3,19 @@
     {
       "name": "Mr. S. Selvarasu",
       "designation": "Consultant-Accountant",
-      "emailID": "temp@iiitt.ac.in",
+      "emailID": "ssrrag@gmail.com",
       "src": "staff_1.jpg"
     },
     {
       "name": "Ms. P. Leema",
       "designation": "Office-Assistant",
-      "emailID": "temp@iiitt.ac.in",
+      "emailID": "leemsiiitt@gmail.com",
       "src": "staff_2.jpg"
     },
     {
       "name": "Mr. S. Selvarasu",
-      "designation": "Office-Assitant",
-      "emailID": "temp@iiitt.ac.in",
-      "src": "staff_3.jpg"
-    },
-    {
-      "name": "Mr. S. Selvarasu",
       "designation": "Multi-tasking Staff",
-      "emailID": "temp@iiitt.ac.in",
+      "emailID": " ",
       "src": "staff_4.jpg"
     }
   ]

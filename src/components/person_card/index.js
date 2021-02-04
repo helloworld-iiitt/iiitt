@@ -31,7 +31,8 @@ const PersonCard = (props) => {
             {props.src_type === "faculty" ? (
               <Link
                 className="name"
-                to={`/faculty_detail/${props.dept}/${props.deptID}`}
+                 to='#'
+            /*    to={`/faculty_detail/${props.dept}/${props.deptID}`} */
               >
                 {props.name}
               </Link>
