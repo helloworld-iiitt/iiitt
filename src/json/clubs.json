@@ -11,19 +11,15 @@
       "students": [
         {
           "year": "IV",
-          "name": "Fahim Ali Zain"
-        },
-        {
-          "year": "III",
           "name": "Fahad Israr"
         },
         {
-          "year": "II",
-          "name": "Sarat Chandra"
+          "year": "III",
+          "name": "Dinesh Vikram V"
         },
         {
-          "year": "I",
-          "name": "Yashdeep"
+          "year": "II",
+          "name": "Mayank Sonkar"
         }
       ]
     },
@@ -38,19 +34,15 @@
       "students": [
         {
           "year": "IV",
-          "name": "Raunak Kumar"
-        },
-        {
-          "year": "III",
           "name": "Fahad Israr"
         },
         {
-          "year": "II",
-          "name": "Akhil Gupta"
+          "year": "III",
+          "name": "Divyanshu Gupta"
         },
         {
-          "year": "I",
-          "name": "Madisetti Venu Sa"
+          "year": "II",
+          "name": "Talekar Dipesh Haridatta "
         }
       ]
     },
@@ -64,20 +56,16 @@
       ],
       "students": [
         {
-          "year": "IV",
-          "name": "Sai Kumar"
+          "year": "III",
+          "name": "N.T.S.S.Srinivas"
         },
         {
           "year": "III",
-          "name": "Vikas"
+          "name": "S Sai Venkata Kishan Kumar"
         },
         {
           "year": "II",
-          "name": "S. Lavanya"
-        },
-        {
-          "year": "I",
-          "name": "Rishitej Yadav Pallapothu"
+          "name": "Laddha Krishna"
         }
       ]
     },
@@ -92,19 +80,15 @@
       "students": [
         {
           "year": "IV",
-          "name": "Sumith Gali>"
+          "name": "A.Hitesh"
         },
         {
           "year": "III",
-          "name": "Hitesh Atluri"
+          "name": "Talasani Varun Reddy"
         },
         {
           "year": "II",
-          "name": "Vishwas"
-        },
-        {
-          "year": "I",
-          "name": "Rahul Rajak"
+          "name": "N Nagamallishwar"
         }
       ]
     },
@@ -119,18 +103,14 @@
       "students": [
         {
           "year": "IV",
-          "name": "Pankaj Kumar"
+          "name": "Ravi Ranjan Kumar"
         },
         {
           "year": "III",
-          "name": "Akshay Kumar Jha"
+          "name": "Sathwik Pulijala"
         },
         {
           "year": "II",
-          "name": "M. Manoj"
-        },
-        {
-          "year": "I",
           "name": "Siddharth Sahu"
         }
       ]
@@ -146,18 +126,18 @@
       "students": [
         {
           "year": "IV",
-          "name": "Preetham"
-        },
-        {
-          "year": "III",
           "name": "Deepak"
         },
         {
-          "year": "II",
-          "name": "Nishit Mangal"
+          "year": "III",
+          "name": "Satya saketh"
         },
         {
-          "year": "I",
+          "year": "III",
+          "name": "DattatreyaReddy Panta"
+        },
+        {
+          "year": "II",
           "name": "Pithani Aditya Venkatesh"
         }
       ]
@@ -173,19 +153,15 @@
       "students": [
         {
           "year": "IV",
-          "name": "Vandana"
+          "name": "Hitesh Daksh"
         },
         {
           "year": "III",
-          "name": "Hitesh Atluri"
+          "name": "Nishit Mangal"
         },
         {
           "year": "II",
-          "name": "Adeep Hande"
-        },
-        {
-          "year": "I",
-          "name": "Vemuri Bhavana"
+          "name": "Shubham Kumar Bhagat"
         }
       ]
     },
@@ -200,19 +176,15 @@
       "students": [
         {
           "year": "IV",
-          "name": "Sai Sri Varsha"
+          "name": "Shubangi Mahajan"
         },
         {
           "year": "III",
-          "name": "Hitesh Daksh"
+          "name": "Ch. Venkat Keshav"
         },
         {
           "year": "II",
-          "name": "Abhishek"
-        },
-        {
-          "year": "I",
-          "name": "Palle Siri Vennela"
+          "name": "Chintala Sravani"
         }
       ]
     },
@@ -226,20 +198,12 @@
       ],
       "students": [
         {
-          "year": "IV",
-          "name": "Hemanth Kumar"
+          "year": "III",
+          "name": "Karmuhilan K J"
         },
         {
           "year": "III",
-          "name": "Akshay Kumar Jha"
-        },
-        {
-          "year": "II",
-          "name": "Varun Reddy Talasani"
-        },
-        {
-          "year": "I",
-          "name": "Shubham Kumar Bhagat"
+          "name": "V Subhash"
         }
       ]
     },
@@ -254,7 +218,7 @@
       "students": [
         {
           "year": "IV",
-          "name": "Mary Priyanka Jacob"
+          "name": "Vadisa Yamini"
         },
         {
           "year": "III",
@@ -262,11 +226,7 @@
         },
         {
           "year": "II",
-          "name": "Auchitya"
-        },
-        {
-          "year": "I",
-          "name": "Rituraj Raj Singh"
+          "name": "Dip Kumar Patel"
         }
       ]
     },
@@ -281,25 +241,95 @@
       "students": [
         {
           "year": "IV",
-          "name": "Hemanth Bobbadi"
+          "name": "Amruth Kuntamalla "
+        },
+        {
+          "year": "IV",
+          "name": "Hareesh Perumal S"
+        },
+        {
+          "year": "IV",
+          "name": "Sumit Arya"
         },
         {
           "year": "III",
-          "name": "Amruth Kuntamalla"
-        },
-        {
-          "year": "II",
-          "name": "Yasaswini"
-        },
-        {
-          "year": "I",
-          "name": "Mayukh Pankaj>"
+          "name": "Saratchandra Ogirala"
         }
       ]
     },
+        {
+          "name": "Yoga Club",
+          "motto": "Revive and relax.",
+          "facultyIncharge": "Dr. N.Renugadevi",
+          "header": [
+            "Year",
+            "Name"
+          ],
+          "students": [
+            {
+              "year": "III",
+              "name": "Vikash Kumar Verma"
+            },
+            {
+              "year": "II",
+              "name": "Ayush Singh"
+            },
+            {
+              "year": "II",
+              "name": "Vemuri Bhavana"
+            },
+            {
+              "year": "II",
+              "name": "Duddukunta Sasidhar Reddy"
+            }
+      ]
+    },
+        {
+      "name": "Dance Club",
+      "motto": "Create. Dance. Live.",
+      "facultyIncharge": "Dr.Krishnamurthy  & Dr. Balaji",
+      "header": [
+        "Year",
+        "Name"
+      ],
+      "students": [
+        {
+          "year": "III",
+          "name": "K druva teja"
+        },
+        {
+          "year": "III",
+          "name": " S.Pruthvi Raj"
+        },
+        {
+          "year": "III",
+          "name": "Sai Auchitya Bussa"
+        }
+      ]
+    },
+        {
+      "name": "Media Club",
+      "motto": "We present you.",
+      "facultyIncharge": "Dr.K.Kamakshi & Dr.Anoop Jacob Thomas",
+      "header": [
+        "Year",
+        "Name"
+      ],
+      "students": [
+        {
+          "year": "III",
+          "name": "Karthik Puranik"
+        },
+        {
+          "year": "III",
+          "name": "B. Uday Chandra"
+        }
+      ]
+    },
+
     {
       "name": "Sports Club",
-      "motto": "Not spiders, but the best web developers are found here.",
+      "motto": "Whatever it takes!",
       "facultyIncharge": "",
       "header": [
         "Year",
@@ -308,67 +338,67 @@
       ],
       "students": [
         {
-          "year": "III",
+          "year": "IV",
           "name": "B Sai Teja Reddy",
           "game": "Volley Ball"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "M Sai Teja",
           "game": "Cricket"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "Amruth Kuntamalla",
           "game": "Badminton"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "S Bala Tejo Kiran",
           "game": "Chess"
         },
         {
-          "year": "IV",
-          "name": "B Hemanth",
+          "year": "-",
+          "name": "Not assigned",
           "game": "Football"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "Sumit Nimborkar",
           "game": "Basket Ball"
         },
         {
-          "year": "IV",
-          "name": "Juthuga Sai Sree",
+          "year": "-",
+          "name": "Not assigned",
           "game": "Throw Ball"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "Atluri Hitesh",
           "game": "Kabaddi"
         },
         {
-          "year": "IV",
-          "name": "K Deepankar",
+          "year": "-",
+          "name": "Not assigned",
           "game": "Table Tennis"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "S Pruthvi Raj",
           "game": "Carroms"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "K Druva Teja",
           "game": "Kho-Kho"
         },
         {
-          "year": "IV",
-          "name": "Jagga Gowtham",
+          "year": "-",
+          "name": "Not assigned",
           "game": "Power Lifting"
         },
         {
-          "year": "III",
+          "year": "IV",
           "name": "Nikit Raghuvanshi",
           "game": "Individual Events"
         }
