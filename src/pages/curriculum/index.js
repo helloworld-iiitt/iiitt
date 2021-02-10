@@ -70,6 +70,8 @@ export default function Curriculum() {
   const cse16 = "CSE_Syllabus_16.pdf";
   const ece15 = "Curriculum_IIITTUGECE15.pdf";
   const ece16 = "Syllabus_ECE_16.pdf";
+  const cse20="UG_CSE_2020.pdf";
+  const ece20="UG_ECE_2020.pdf";
 
   return (
     <div className="page-container">
@@ -184,7 +186,20 @@ export default function Curriculum() {
                       src={require("../../images/news-icon.svg")}
                       className={classes.download}
                     />
-                    2016 Onwards
+                    2016
+                  </a>
+                </TableCell>
+                <TableCell>
+                  <a
+                    href={require(`../../docs/${cse15}`)}
+                    download={`${cse20}`}
+                    className={classes.link}
+                  >
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    2020 Onwards
                   </a>
                 </TableCell>
               </TableRow>
@@ -213,7 +228,20 @@ export default function Curriculum() {
                       src={require("../../images/news-icon.svg")}
                       className={classes.download}
                     />
-                    2016 Onwards
+                    2016
+                  </a>
+                </TableCell>
+                <TableCell>
+                  <a
+                    href={require(`../../docs/${cse15}`)}
+                    download={`${ece20}`}
+                    className={classes.link}
+                  >
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    2020 Onwards
                   </a>
                 </TableCell>
               </TableRow>
