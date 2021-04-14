@@ -24,11 +24,11 @@ const Footer = () => {
               </div>
               <h2>Indian Institute Of Information Technology</h2>
               <h3>Trichy Dindigul Highway,Pirattiyur,Tiruchirappalli-620009</h3>
-              <a href="office@iiitt.ac.in">
+              <a href="mailto:office@iiitt.ac.in">
                 <MailIcon className="mailicon" />
                 office@iiitt.ac.in
               </a>
-              <a href="office@iiitt.ac.in">
+              <a href="tel:8859167328">
                 <CallIcon className="phoneicon" />
                 +91 431 2500 539
               </a>
@@ -56,28 +56,28 @@ const Footer = () => {
           <div className="acedemics">
             <h2>Academics</h2>
             <div className="main-hr ace"></div>
-            <a href="www.google.com">Department</a>
+            <a href="departments">Department</a>
             <hr />
-            <a href="www.google.com">Curriculum</a>
+            <a href="curriculum">Curriculum</a>
             <hr />
-            <a href="#">Programs</a>
+            <a href="programs">Programs</a>
             <hr />
-            <a href="www.google.com">Calender</a>
+            <a href="calendar">Calender</a>
             <hr />
-            <a href="www.google.com">Holidays</a>
+            <a href="holidays">Holidays</a>
           </div>
           <div className="line"></div>
           <hr className="mobile" />
           <div className="quick-explore">
             <h2>Quick Explore</h2>
             <div className="main-hr  quick-ex"></div>
-            <a href="www.google.com">Anti Ragging Committee</a>
+            <a href="anti_ragging_committee">Anti Ragging Committee</a>
             <hr />
-            <a href="www.google.com">Admission Procedure</a>
+            <a href="admission_procedure">Admission Procedure</a>
             <hr />
-            <a href="www.google.com">Fee Structure</a>
+            <a href="admission_fee_structure">Fee Structure</a>
             <hr />
-            <a href="www.google.com">FAQ's</a>
+            <a href="faq">FAQ's</a>
           </div>
           <div className="last line"></div>
           <hr className="mobile" />
