@@ -83,19 +83,19 @@ export default function ContactUs() {
               </Box>
             </Typography>
             <Typography className={classes.text}>
-              IIIT Trichy is located inside the Oxford Engineering College
-              campus.
+              IIIT Trichy has now shifted to the permanent campus at
+              Sethurappatti.
               <br />
-              Oxford Engineering College is located about 4.4 km from
-              Tiruchirappalli Junction/Central Bus stand on the
-              Tiruchirappalli-Dindigul Road. Tiruchirappalli is also
-              well-connected to the other cities of Tamil Nadu, southern
-              Karnataka and Kerala through Govt./Private buses. One can get
-              buses from Tiruchirappalli to almost any part of the state, due to
-              its geographical location in the center of Tamil Nadu. The Central
-              bus station runs long distance services to major cities of the
-              State and South India such as Chennai, Madurai, Coimbatore,
-              Bangalore, Erode, Thiruvananthapuram and Tirupathi.
+              IIIT Tiruchirappalli is located about 20.0kms from Tiruchirappalli
+              Junction/Central Bus stand on the Tiruchirappalli-Madurai Highway.
+              Tiruchirappalli is also well-connected to the other cities of
+              Tamil Nadu, southern Karnataka and Kerala through Govt./Private
+              buses. One can get buses from Tiruchirappalli to almost any part
+              of the state, due to its geographical location in the center of
+              Tamil Nadu. The Central bus station runs long distance services to
+              major cities of the State and South India such as Chennai,
+              Madurai, Coimbatore, Bangalore, Erode, Thiruvananthapuram and
+              Tirupathi.
             </Typography>
           </section>
           <section className={classes.sectionPadding}>
@@ -117,12 +117,22 @@ export default function ContactUs() {
               It connects Chennai, Thanjavur, Madurai, Tirupati, Rameswaram,
               Bengaluru, Coimbatore, Kolkata, Jammu, New Delhi, Cochin and
               Mangalore. It has an international airport, and is connected with
-              Chennai, Dubai, Kuala Lumpur, Singapore and Colombo.
+              Chennai, Dubai, Kuala Lumpur, Singapore and Colombo. <br />
+              <br />
+              Frequent busses are available from Tiruchirappalli central bus
+              stand, every 15 minutes. Get on the Viralimalai bus Route: Trichy
+              - Edamalaipatti puthur - Panjappur- Nagamangalam - Kunnathur -
+              Alundur - Sethurappatti.
+              <br />
+              <br />
+              By car it takes approximately 30 minutes from Tiruchirappalli
+              railway station/airport/bus stand.
+              <br />
             </Typography>
             {
               <div className={classes.map}>
                 <Iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9221.063529846686!2d78.65288163433289!3d10.788158321446737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa5ff42ca07773%3A0x8142614ddb45a74c!2sOxford%20Engineering%20College!5e0!3m2!1sen!2sin!4v1597141616856!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7841.673721296751!2d78.593771!3d10.669768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28b98720c32abaa8!2sIndian%20Institute%20of%20Information%20Technology%20Tiruchirappalli!5e0!3m2!1sen!2sin!4v1633696081840!5m2!1sen!2sin"
                   width="600"
                   height="450"
                   frameBorder="0"
@@ -151,13 +161,11 @@ export default function ContactUs() {
             <Typography className={classes.text}>
               INDIAN INSTITUTE OF INFORMATION TECHNOLOGY TIRUCHIRAPPALLI,
               <br />
-              OXFORD ENGINEERING COLLEGE CAMPUS,
+              SETHURAPATTI,
               <br />
-              TRICHY DINDIGUL HIGHWAY,
+              TRICHY-MADURAI HIGHWAY,
               <br />
-              PIRATTIYUR,
-              <br />
-              TIRUCHIRAPPALLI - 620009
+              TAMIL NADU - 620012
             </Typography>
           </section>
           <section className={classes.sectionPadding}>

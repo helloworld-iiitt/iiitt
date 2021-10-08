@@ -51,6 +51,7 @@ export default function Undergraduate() {
 
   const classes = createStyles();
   const file = "A3.UGRegulations.pdf";
+  const file1 = "Btech_regulations_2021.pdf";
   const csebonafied = "Bonafide_format_CSE_Dept.doc";
   const ecebonafied = "Bonafide_format_ECE_Dept.doc";
 
@@ -112,17 +113,30 @@ export default function Undergraduate() {
             </Box>
           </Typography>
           <Typography>
-          <a
-            href={require(`../../docs/${file}`)}
-            download={`${file}`}
-            className={`${classes.link} ${classes.subText}`}
-          >
-            <img
-              src={require("../../images/news-icon.svg")}
-              className={classes.download}
-            />
-            Rules and Regulations
-          </a>
+            <a
+              href={require(`../../docs/${file1}`)}
+              download={`${file1}`}
+              className={`${classes.link} ${classes.subText}`}
+            >
+              <img
+                src={require("../../images/news-icon.svg")}
+                className={classes.download}
+              />
+              Rules and Regulations 2020-21 onwards
+            </a>
+          </Typography>
+          <Typography>
+            <a
+              href={require(`../../docs/${file}`)}
+              download={`${file}`}
+              className={`${classes.link} ${classes.subText}`}
+            >
+              <img
+                src={require("../../images/news-icon.svg")}
+                className={classes.download}
+              />
+              Rules and Regulations
+            </a>
           </Typography>
 
           <Typography variant="h5" className={classes.themeText} gutterBottom>

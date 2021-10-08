@@ -32,6 +32,7 @@ export default function AdmissionFeeStructure() {
   }, []);
 
   const file = "Ph.D_regulations_IIITT_final_2020.pdf";
+  const file1 = "M.Tech_Rules_2021_22_aligned.pdf";
   const classes = createStyles();
 
   return (
@@ -93,6 +94,49 @@ export default function AdmissionFeeStructure() {
                 >
                   Electronics and Communication Engineering (4 years, Bachelor
                   of Technology)
+                </Box>
+              </li>
+            </ul>
+          </section>
+
+          <Divider />
+          <section className={classes.sectionPadding}>
+            <Typography variant="h5" className={classes.themeText} gutterBottom>
+              <Box component="span" fontWeight="fontWeightBold">
+                Postgraduate Program
+              </Box>
+            </Typography>
+            <Typography variant="h6">M.Tech Regulations</Typography>
+            <a href={require(`../../docs/${file1}`)} download={`${file1}`}>
+              <Typography variant="h6">Download M.Tech regulations</Typography>
+            </a>
+            <Typography className={classes.sectionPadding}>
+              <Box component="span" fontSize="1.2rem">
+                IIIT Tiruchirappalli offers the following two&nbsp;
+                <Box component="span" fontWeight="fontWeightBold">
+                  Postgraduate Programs
+                </Box>
+                :
+              </Box>
+            </Typography>
+            <ul className={classes.list}>
+              <li>
+                <Box
+                  component="span"
+                  fontSize="1.2rem"
+                  fontWeight="fontWeightBold"
+                >
+                  Computer Science and Engineering (2 years, Masters of
+                  Technology)
+                </Box>
+              </li>
+              <li>
+                <Box
+                  component="span"
+                  fontSize="1.2rem"
+                  fontWeight="fontWeightBold"
+                >
+                  VLSI Systems (2 years, Masters of Technology)
                 </Box>
               </li>
             </ul>
