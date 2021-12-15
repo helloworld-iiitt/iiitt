@@ -84,12 +84,17 @@ export default function Faculty(props) {
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>
-      <Typography variant="h5" className={classes.themeText} gutterBottom>
+      <Typography
+        align="center"
+        variant="h5"
+        className={classes.themeText}
+        gutterBottom
+      >
         <Box component="span" fontWeight="fontWeightBold">
           Faculty Rule book
         </Box>
       </Typography>
-      <Typography>
+      <Typography align="center">
         <a
           href={require(`../../docs/${book}`)}
           download={`${book}`}
