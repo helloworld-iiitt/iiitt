@@ -76,11 +76,11 @@ export default function Director() {
               />
               <CardContent>
                 <Typography variant="body" gutterBottom>
-                  <Box component="span" fontSize="1.5vw" gutterBottom>
+                  <Box component="span" fontSize="1.5rem" gutterBottom>
                     Dr. G.Seetharaman
                   </Box>
                   <br />
-                  <Box fontSize="1.1rem">
+                  <Box fontSize="1.2rem">
                     Registrar i/c
                     <br />
                     Indian Institute of Information Technology Tiruchirappalli

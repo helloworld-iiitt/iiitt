@@ -191,12 +191,6 @@ export default function ContactUs() {
                 office@iiitt.ac.in
               </a>
               <br />
-              <Box component="span" fontWeight="fontWeightBold">
-                Office No.:
-              </Box>
-              <a href="tel:+914312500539" className={classes.link}>
-                +91 431 2500 539
-              </a>
             </Typography>
           </section>
         </Grid>
