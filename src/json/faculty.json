@@ -81,19 +81,6 @@
       "researchArea": "VLSI Design",
       "emailID": "msenthilsivakumar@iiitt.ac.in",
       "src": "ece_fac_3.jpg"
-    },
-    {
-      "id": {
-        "dept": "ECE",
-        "deptID": "4"
-      },
-
-      "name": "Dr. S. Balanethiram",
-
-      "designation": "Assistant Professor",
-      "researchArea": "Optical Networks and Wireless Communication",
-      "emailID": "sureshb@iiitt.ac.in",
-      "src": "ece_fac_4.jpg"
     }
   ],
   "ME": [

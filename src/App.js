@@ -96,6 +96,10 @@ function App() {
     loader: () => import("./pages/programs/index"),
     loading: () => loading,
   });
+  const Scholarship = Loadable({
+    loader: () => import("./pages/scholarship/index"),
+    loading: () => loading,
+  });
 
   const Departments = Loadable({
     loader: () => import("./pages/departments/index"),
@@ -286,6 +290,7 @@ function App() {
         <Route path="/news" component={News} />
         <Route path="/events" component={Events} />
         <Route path="/programs" component={Programs} />
+        <Route path="/scholarship" component={Scholarship} />
         <Route path="/departments" component={Departments} />
         <Route path="/curriculum" component={Curriculum} />
         <Route path="/calendar" component={Calendar} />
