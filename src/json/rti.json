@@ -1,8 +1,19 @@
 {
-  "name": "A. Palanivel",
-  "designation": "Mentor Registrar, IIIT Trichy",
-  "emailID": "registrar@nitt.edu",
-  "emailIDSecondary": "apvel@nitt.edu",
+  "data": [
+  {
+  "head":"CPIO (Deputy Registrar, IIIT Trichy)",
+  "name": "Shri. Biju Mathew",
+  "designation": "Deputy Registrar, IIIT Trichy",
+  "emailID": "dr@iiitt.ac.in",
   "mobileNo": "0431-2503052",
-  "image": "mentor-registrar.jpg"
+  "image": "bijumathew.jpg"
+},
+{
+  "head": "First Appellate Authority (Director, IIIT Trichy)",
+  "name": "Dr. Narasimha Sarma N V S",
+  "designation": "Director, IIIT Trichy",
+  "emailID": "director@iiitt.ac.in",
+  "image": "director.jpg"
+}
+]
 }

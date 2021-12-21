@@ -89,7 +89,7 @@ export default function MenuListComposition(props) {
             <Paper>
               <ClickAwayListener onClickAway={handleClose}>
                 <MenuList id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                  {props.submenu.map((item) => {
+                {props.submenu.map((item) => {
                     return (
                       <Link
                         to={item.link}

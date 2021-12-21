@@ -167,10 +167,12 @@ export default class Home extends React.Component {
                     )}
                     linkToOlder="/general"
                   />
+                  
                 ) : (
                     <Loader />
                   )}
               </TabPanel>
+              
             </Paper>
             <Paper elevation={3} className="achievements">
               {this.state.achievementsData ? (
@@ -196,16 +198,16 @@ export default class Home extends React.Component {
                   width: "576",
                   height: "680",
                 }}
-                renderError={(err) => {
-                  return (
-                    <>
-                      <h2 className="adblock">
-                        Blocked by Adblocker or Social Media Plugin
-                      </h2>
-                      <Modal />
-                    </>
-                  );
-                }}
+                // renderError={(err) => {
+                  // return (
+                    // <>
+                      //  <h2 className="adblock">
+                        // /Blocked by Adblocker or Social Media Plugin
+                      // </h2>
+                      // <Modal />
+                    // </>
+                  // );
+                // }}
               />
             </Paper>
           </div>

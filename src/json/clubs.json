@@ -11,23 +11,27 @@
       "students": [
         {
           "year": "IV",
-          "name": "Fahim Ali Zain"
+          "name": "Dinesh Vikram"
+        },
+        {
+          "year": "IV",
+          "name": "Nitish Kumar"
         },
         {
           "year": "III",
-          "name": "Fahad Israr"
+          "name": "Mayank Sonkar"
         },
         {
           "year": "II",
-          "name": "Sarat Chandra"
+          "name": "Jagmohan Dixit"
         },
         {
-          "year": "I",
-          "name": "Yashdeep"
+          "year": "II",
+          "name": "Sarthak Kumar"
         }
       ]
     },
-    {
+      {
       "name": "Competitive Coding Club",
       "motto": "Competitive coding is a game. You practice and get better everyday.",
       "facultyIncharge": "Dr. G.Devasena",
@@ -38,24 +42,28 @@
       "students": [
         {
           "year": "IV",
-          "name": "Raunak Kumar"
+          "name": "Vishal Sharma"
         },
         {
           "year": "III",
-          "name": "Fahad Israr"
+          "name": "Shubham Kumar Bhagat"
         },
         {
           "year": "II",
-          "name": "Akhil Gupta"
+          "name": "Jagmohan Dixit"
         },
         {
-          "year": "I",
-          "name": "Madisetti Venu Sa"
+          "year": "II",
+          "name": "Sarthak Kumar"
+        },
+        {
+          "year": "II",
+          "name": "Sachin Tayal"
         }
       ]
     },
     {
-      "name": "Robotix Club",
+      "name": "Robotics Club",
       "motto": "Building robots is a daily task for them.",
       "facultyIncharge": "Dr. M.Senthil Sivakumar & Dr. R.KrishnaMurthy",
       "header": [
@@ -65,26 +73,22 @@
       "students": [
         {
           "year": "IV",
-          "name": "Sai Kumar"
+          "name": "N T S S Srinivas"
         },
         {
           "year": "III",
-          "name": "Vikas"
+          "name": "Krishna Nitinkumar Laddha"
         },
         {
           "year": "II",
-          "name": "S. Lavanya"
-        },
-        {
-          "year": "I",
-          "name": "Rishitej Yadav Pallapothu"
+          "name": "Aman Chandra Kumar"
         }
       ]
     },
     {
       "name": "Circuits Club",
       "motto": "Yeah, these people play with current and signals!",
-      "facultyIncharge": "Dr. Suresh Balanethiram",
+      "facultyIncharge": "Dr. G Seetharaman",
       "header": [
         "Year",
         "Name"
@@ -92,26 +96,22 @@
       "students": [
         {
           "year": "IV",
-          "name": "Sumith Gali>"
+          "name": "Talasani Varun Reddy"
         },
         {
           "year": "III",
-          "name": "Hitesh Atluri"
+          "name": "N Nagamallishwar"
         },
         {
           "year": "II",
-          "name": "Vishwas"
-        },
-        {
-          "year": "I",
-          "name": "Rahul Rajak"
+          "name": "Bhardwaj Routhu"
         }
       ]
     },
     {
       "name": "IOT Club",
       "motto": "You see that chair, soon it will be connected to the internet!",
-      "facultyIncharge": "Dr. M.Senthil Sivakumar & Dr. R.KrishnaMurthy",
+      "facultyIncharge": "Dr. M.Senthil Sivakumar",
       "header": [
         "Year",
         "Name"
@@ -119,24 +119,20 @@
       "students": [
         {
           "year": "IV",
-          "name": "Pankaj Kumar"
+          "name": "Pulijala Sathwik"
         },
         {
           "year": "III",
-          "name": "Akshay Kumar Jha"
+          "name": "Siddharth Sahu"
         },
         {
           "year": "II",
-          "name": "M. Manoj"
-        },
-        {
-          "year": "I",
-          "name": "Siddharth Sahu"
+          "name": "Vikash Bhabhu R"
         }
       ]
     },
     {
-      "name": "Photography Club",
+      "name": "Oculus (Photography Club)",
       "motto": "Lights. Camera. Shoot!",
       "facultyIncharge": "Dr. C.Velmurugan",
       "header": [
@@ -146,19 +142,15 @@
       "students": [
         {
           "year": "IV",
-          "name": "Preetham"
+          "name": "Gorripoti Satya Saketh"
         },
         {
           "year": "III",
-          "name": "Deepak"
+          "name": "P Aditya Venkatesh"
         },
         {
           "year": "II",
-          "name": "Nishit Mangal"
-        },
-        {
-          "year": "I",
-          "name": "Pithani Aditya Venkatesh"
+          "name": "Kamal Raj N"
         }
       ]
     },
@@ -173,26 +165,22 @@
       "students": [
         {
           "year": "IV",
-          "name": "Vandana"
+          "name": "Nishit Mangal"
         },
         {
           "year": "III",
-          "name": "Hitesh Atluri"
+          "name": "Shubham Kumar Bhagat"
         },
         {
           "year": "II",
-          "name": "Adeep Hande"
-        },
-        {
-          "year": "I",
-          "name": "Vemuri Bhavana"
+          "name": "Simmi Raj"
         }
       ]
     },
     {
-      "name": "Fine Arts Club",
+      "name": "Aesthetic Club (Finearts/Music/Dance)",
       "motto": "The most loving and caring people can easily be found here.",
-      "facultyIncharge": "Dr. N.Renugadevi",
+      "facultyIncharge": "Dr. N.Renugadevi & Dr. R. Krishnamurthy",
       "header": [
         "Year",
         "Name"
@@ -200,46 +188,58 @@
       "students": [
         {
           "year": "IV",
-          "name": "Sai Sri Varsha"
+          "name": "Cherukuri Venkat Keshav"
         },
         {
           "year": "III",
-          "name": "Hitesh Daksh"
+          "name": "Chintala Sravani"
         },
         {
           "year": "II",
-          "name": "Abhishek"
+          "name": "V Chathurika"
         },
         {
-          "year": "I",
-          "name": "Palle Siri Vennela"
+          "year": "IV",
+          "name": "Sai Auchitya B"
+        },
+        {
+          "year": "II",
+          "name": "B Sathvika"
+        },
+        {
+          "year": "II",
+          "name": "V Chathurika"
+        },
+        {
+          "year": "IV",
+          "name": "Piyush Malu"
+        },
+        {
+          "year": "III",
+          "name": "Syed Khaja Mouniddin"
+        },
+        {
+          "year": "II",
+          "name": "Sarthak Kumar"
         }
       ]
     },
     {
       "name": "Science Club",
       "motto": "A place for Interesting and Scientific stuff.",
-      "facultyIncharge": "Dr.K. Kamakshi & Dr. Jagadeeshwarar Pashikanti",
+      "facultyIncharge": "Dr. Jagadeeshwarar Pashikanti",
       "header": [
         "Year",
         "Name"
       ],
       "students": [
         {
-          "year": "IV",
-          "name": "Hemanth Kumar"
+          "year":"II",
+          "name": "Mukesh Kumar"
         },
         {
-          "year": "III",
-          "name": "Akshay Kumar Jha"
-        },
-        {
-          "year": "II",
-          "name": "Varun Reddy Talasani"
-        },
-        {
-          "year": "I",
-          "name": "Shubham Kumar Bhagat"
+          "year":"II",
+          "name": "Thivya Sekhar P M"
         }
       ]
     },
@@ -254,53 +254,26 @@
       "students": [
         {
           "year": "IV",
-          "name": "Mary Priyanka Jacob"
-        },
-        {
-          "year": "III",
           "name": "Nunna Lakshmi Saranya"
         },
         {
-          "year": "II",
-          "name": "Auchitya"
-        },
-        {
-          "year": "I",
-          "name": "Rituraj Raj Singh"
-        }
-      ]
-    },
-    {
-      "name": "Computer Networking & Security",
-      "motto": "A Place For Future Security Experts",
-      "facultyIncharge": "Dr. N.Renugadevi",
-      "header": [
-        "Year",
-        "Name"
-      ],
-      "students": [
-        {
-          "year": "IV",
-          "name": "Hemanth Bobbadi"
-        },
-        {
           "year": "III",
-          "name": "Amruth Kuntamalla"
+          "name": "Dip Kumar Patel"
         },
         {
           "year": "II",
-          "name": "Yasaswini"
+          "name": "Rishank Goyal"
         },
         {
-          "year": "I",
-          "name": "Mayukh Pankaj>"
+          "year": "II",
+          "name": "Tejasvi Rayidi"
         }
       ]
     },
     {
       "name": "Sports Club",
-      "motto": "Not spiders, but the best web developers are found here.",
-      "facultyIncharge": "",
+      "motto": "The most popular club offering all available Sports",
+      "facultyIncharge": "Dr. Jagadeeshwarar Pashikanti",
       "header": [
         "Year",
         "Volunteers/Captains",
@@ -308,69 +281,58 @@
       ],
       "students": [
         {
-          "year": "III",
-          "name": "B Sai Teja Reddy",
-          "game": "Volley Ball"
+          "year": "IV",
+          "name": "Konala Sam Ashray"
         },
         {
           "year": "III",
-          "name": "M Sai Teja",
-          "game": "Cricket"
+          "name": "Anish Akode"
         },
         {
-          "year": "III",
-          "name": "Amruth Kuntamalla",
-          "game": "Badminton"
-        },
-        {
-          "year": "III",
-          "name": "S Bala Tejo Kiran",
-          "game": "Chess"
-        },
+          "year": "II",
+          "name": "R Bharadwaj"
+        }
+      ]
+    },
+    {
+      "name": "Yoga Club",
+      "motto": "Yoga",
+      "facultyIncharge": "Dr. N Renugadevi",
+      "header": [
+        "Year",
+        "Name"
+      ],
+      "students": [
         {
           "year": "IV",
-          "name": "B Hemanth",
-          "game": "Football"
+          "name": "Vikas Kumar Verma"
         },
         {
           "year": "III",
-          "name": "Sumit Nimborkar",
-          "game": "Basket Ball"
+          "name": "Vemuri Bhavna"
         },
+        {
+          "year": "II",
+          "name": "Suman Raj"
+        }
+      ]
+    },
+    {
+      "name": "Media Club",
+      "motto": "Media & Social Media Posts",
+      "facultyIncharge": "Dr. K Kamakshi & Dr. Anoop Jacob thomas",
+      "header": [
+        "Year",
+        "Name"
+      ],
+      "students": [
         {
           "year": "IV",
-          "name": "Juthuga Sai Sree",
-          "game": "Throw Ball"
+          "name": "Uday Chandra"
         },
         {
-          "year": "III",
-          "name": "Atluri Hitesh",
-          "game": "Kabaddi"
-        },
-        {
-          "year": "IV",
-          "name": "K Deepankar",
-          "game": "Table Tennis"
-        },
-        {
-          "year": "III",
-          "name": "S Pruthvi Raj",
-          "game": "Carroms"
-        },
-        {
-          "year": "III",
-          "name": "K Druva Teja",
-          "game": "Kho-Kho"
-        },
-        {
-          "year": "IV",
-          "name": "Jagga Gowtham",
-          "game": "Power Lifting"
-        },
-        {
-          "year": "III",
-          "name": "Nikit Raghuvanshi",
-          "game": "Individual Events"
+          "year": "II",
+          "name": "Pranav Tiwari"
         }
       ]
     }

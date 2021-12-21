@@ -43,6 +43,7 @@ const createStyles = makeStyles({
   },
   tableCell: {
     fontSize: "1.2rem",
+    // textAlign: "center",
   },
   table: {
     marginLeft: "1.5rem",
@@ -148,11 +149,11 @@ export default function Clubs() {
                                 <TableCell className={classes.tableCell}>
                                   {student.name}
                                 </TableCell>
-                                {student.game && (
+                                {/* {student.game && (
                                   <TableCell className={classes.tableCell}>
                                     {student.game}
                                   </TableCell>
-                                )}
+                                )} */}
                               </TableRow>
                             );
                           })}

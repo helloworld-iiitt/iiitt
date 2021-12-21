@@ -5,6 +5,8 @@ import MainCarousel from "../../components/carousel/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
+
+
 const createStyles = makeStyles({
   container: {
     padding: "1rem 1rem",
@@ -76,7 +78,7 @@ export default function Festivals() {
   const classes = createStyles();
 
   return (
-    <div className="page-container">
+    <div className="page-container"> 
       <Navbar />
       <Grid container className={classes.container}>
         <Grid item xs={false} sm={1} />
