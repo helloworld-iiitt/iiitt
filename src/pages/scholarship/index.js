@@ -50,7 +50,7 @@ export default function Scholarship() {
             className={{ ...classes.themeText }}
             className={classes.themeText}
           >
-            <Box component="span" fontWeight={490}>
+            <Box component="span" fontWeight={380}>
               Scholarship
             </Box>
           </Typography>

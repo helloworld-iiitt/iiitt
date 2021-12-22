@@ -178,6 +178,16 @@
           "link": "/contactus"
         }
       ]
+    },
+    {
+      "text": "Virtual Academy",
+      "icon": "web",
+      "submenu": [
+        {
+          "text": "VLA Home",
+          "link": "/vla"
+        }
+      ]
     }
   ]
 }
