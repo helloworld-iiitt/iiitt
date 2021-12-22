@@ -50,7 +50,7 @@ export default function Undergraduate() {
   }, []);
 
   const classes = createStyles();
-  const file = "Btech_regulations_2021.pdf";
+  const file = "M.Tech_Rules_2021_22_aligned.pdf";
 
   return (
     <div className="page-container">
