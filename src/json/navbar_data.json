@@ -135,6 +135,14 @@
           "link": "/undergraduate"
         },
         {
+          "text": "Postgraduate",
+          "link": "/pg"
+        },
+        {
+          "text": "PhD Programs",
+          "link": "/phd"
+        },
+        {
           "text": "FAQ's",
           "link": "/faq"
         },

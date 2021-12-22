@@ -125,7 +125,14 @@ function App() {
     loader: () => import("./pages/undergraduate/index"),
     loading: () => loading,
   });
-
+  const Postgraduate = Loadable({
+    loader: () => import("./pages/pg/index"),
+    loading: () => loading,
+  });
+  const PHDprogram = Loadable({
+    loader: () => import("./pages/phd/index"),
+    loading: () => loading,
+  });
   const Faq = Loadable({
     loader: () => import("./pages/faqs/index"),
     loading: () => loading,
@@ -296,6 +303,8 @@ function App() {
         <Route path="/calendar" component={Calendar} />
         <Route path="/holidays" component={Holidays} />
         <Route path="/undergraduate" component={Undergraduate} />
+        <Route path="/pg" component={Postgraduate} />
+        <Route path="/phd" component={PHDprogram} />
         <Route path="/faq" component={Faq} />
         <Route path="/festivals" component={Festivals} />
         <Route path="/clubs" component={Clubs} />

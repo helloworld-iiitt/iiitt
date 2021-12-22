@@ -71,42 +71,7 @@ export default function Undergraduate() {
               Undergraduate (B. Tech.)
             </Box>
           </Typography>
-          <Typography className={classes.text} gutterBottom>
-            The admission to Undergraduate Programs is done through JEE Mains.
-            The JEE-Mains qualified candidates are admitted to UG program
-            through Centralized Seat Allocation Board (CSAB) and Joint Seat
-            Allocation Authority (JoSAA) following the reservation policy of
-            Government of India.
-          </Typography>
-          <Typography className={classes.text} gutterBottom>
-            IIIT Trichy offers the following two&nbsp;
-            <Box component="span" fontWeight="fontWeightBold">
-              Undergraduate Programs
-            </Box>
-            :
-          </Typography>
-          <ul className={classes.list}>
-            <li>
-              <Box
-                component="span"
-                fontWeight="fontWeightBold"
-                className={classes.subText}
-              >
-                Computer Science and Engineering (4 years, Bachelor of
-                Technology)
-              </Box>
-            </li>
-            <li>
-              <Box
-                component="span"
-                fontWeight="fontWeightBold"
-                className={classes.subText}
-              >
-                Electronics and Communication Engineering (4 years, Bachelor of
-                Technology)
-              </Box>
-            </li>
-          </ul>
+
           <Typography variant="h5" className={classes.themeText} gutterBottom>
             <Box component="span" fontWeight="fontWeightBold">
               Rules and Regulations for B.Tech.(CSE/ECE/IT)

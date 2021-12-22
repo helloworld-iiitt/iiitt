@@ -31,8 +31,6 @@ export default function AdmissionFeeStructure() {
     };
   }, []);
 
-  const file = "Ph.D_regulations_IIITT_final_2020.pdf";
-  const file1 = "M.Tech_Rules_2021_22_aligned.pdf";
   const classes = createStyles();
 
   return (
@@ -106,10 +104,7 @@ export default function AdmissionFeeStructure() {
                 Postgraduate Program
               </Box>
             </Typography>
-            <Typography variant="h6">M.Tech Regulations</Typography>
-            <a href={require(`../../docs/${file1}`)} download={`${file1}`}>
-              <Typography variant="h6">Download M.Tech regulations</Typography>
-            </a>
+
             <Typography className={classes.sectionPadding}>
               <Box component="span" fontSize="1.2rem">
                 IIIT Tiruchirappalli offers the following two&nbsp;
@@ -149,11 +144,6 @@ export default function AdmissionFeeStructure() {
                 Doctoral Program
               </Box>
             </Typography>
-
-            <Typography variant="h6">Ph.D Regulations</Typography>
-            <a href={require(`../../docs/${file}`)} download={`${file}`}>
-              <Typography variant="h6">Download Ph.D regulations</Typography>
-            </a>
 
             <Typography className={classes.sectionPadding}>
               <Box component="span" fontSize="1.2rem">
