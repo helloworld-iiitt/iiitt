@@ -84,7 +84,7 @@ export default function Director() {
                     Registrar i/c
                     <br />
                     Indian Institute of Information Technology Tiruchirappalli
-                    Tiruchirappalli-620009 Tamilnadu
+                    Tiruchirappalli-620012 Tamilnadu
                   </Box>
                   <br />
                   <a href={`mailto:registrar@iiitt.ac.in`} fontSize="1.2rem">
@@ -105,9 +105,9 @@ export default function Director() {
             of the Institute. He is an ex-officio Secretary to the statutory
             bodies of the Institute, such as, the Board of Governors, the
             Senate, the Finance Committee and the Building Works Committee.
-            Apart from the above statutory functions, he is also enjoined to{" "}
-            <br></br> assist the Director on all matters pertaining to the
-            administration of the Institute.
+            Apart from the above statutory functions, he is also enjoined to
+            assist the Director on all matters pertaining to the administration
+            of the Institute.
           </Typography>
         </Grid>
         <Grid item xs={false} sm={1} />

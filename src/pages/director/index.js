@@ -80,7 +80,7 @@ export default function Director() {
                     DR. NARASIMHA SARMA N V S
                   </Box>
                   <br />
-                  <Box fontSize="1.2rem">Director, IIIT Trichy</Box>
+                  <Box fontSize="1.2rem">Director, IIIT Tiruchirappalli</Box>
                   <br />
                   <a href={`mailto:director@iiitt.ac.in`}>
                     director@iiitt.ac.in
@@ -123,13 +123,13 @@ export default function Director() {
             chaired sessions at international conferences.
             <br />
             <br />
-            He has been associated with many prestigious missile projects. He
-            has been part of many training programs for working professionals in
-            ECIL and DRDO. He coordinated one GIAN program. Under community
-            service, he conducted several IT training programs for police
-            personnel, surveying staff and rural girls with TEQIP funds. He has
-            been reviewer for several reputed international journals and
-            conferences.
+            He was associated with many prestigious missile projects. He was
+            also part of many training programs for working professionals in
+            ECIL and DRDO. In addition, he coordinated one GIAN program. Under
+            community service, he conducted several IT training programs for
+            police personnel, surveying staff, and rural girls with TEQIP funds.
+            Further, he was a reviewer for several reputed international
+            journals and conferences.
             <br />
             <br />
             He initiated the annual technical event at NIT Warangal named
