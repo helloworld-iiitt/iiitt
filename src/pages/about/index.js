@@ -59,9 +59,6 @@ export default class About extends React.Component {
             }}
             id="main_card"
           >
-            <div className="logo_cotainer">
-              <img src={require("../../images/logo.png")} />
-            </div>
             <Typography
               variant="subtitle1"
               style={{
@@ -79,7 +76,7 @@ export default class About extends React.Component {
                 {" "}
                 IIIT Trichy
               </Box>
-              , is an Institute of National Importance and one among the 19
+              , is an Institute of National Importance and one among the 21
               IIITs proposed under the
               <Box component="span" fontWeight="fontWeightBold">
                 {" "}
@@ -106,67 +103,28 @@ export default class About extends React.Component {
                 {" "}
                 50:35:15
               </Box>{" "}
-              .
               <br />
-              <Grid item xs={12} sm={8}>
-                <Card style={{ height: "100%", boxShadow: "none" }}>
-                  <CardContent id="mission-vision">
-                    <Typography variant="h5" style={{ color: "#2e8b57" }}>
-                      Vision
-                    </Typography>
-                    <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                    <Typography color="textSecondary">
-                      To achieve "World Class Excellence in Information and
-                      Communication Technology".
-                    </Typography>
-                    <br />
-
-                    <Typography variant="h5" style={{ color: "#2e8b57" }}>
-                      Mission
-                    </Typography>
-                    <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                    <Typography color="textSecondary">
-                      {bull} To impart Information Technology education to
-                      students and future leaders.
-                      <br />
-                      <br />
-                      {bull} To establish Center of Excellences in Information
-                      Technology.
-                      <br />
-                      <br />
-                      {bull} To engage in cutting edge technology research to
-                      meet the current needs and future challenges of India and
-                      the world at large.
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Grid>
-              <br />
-              <Box component="span" fontWeight="fontWeightBold">
-                {" "}
-                Industry Partners include:
-              </Box>{" "}
-              &nbsp;
+              <Box> Industry Partners include:</Box>
               <Link href="https://www.tcs.com/" target="_blank">
                 Tata Consultancy Services(TCS)
               </Link>
-              &nbsp;
+              {/* &nbsp; */}
               <Link href="https://www.cognizant.com/" target="_blank">
                 Cognizant Technology Solutions (CTS)
               </Link>
-              &nbsp;
+              {/* &nbsp; */}
               <Link href="https://www.infosys.com/" target="_blank">
                 Infosys
               </Link>
-              &nbsp;
+              {/* &nbsp; */}
               <Link href="https://www.ramco.com/" target="_blank">
                 Ramco Systems
               </Link>
-              &nbsp;
+              {/* &nbsp; */}
               <Link href="https://elcot.in" target="_blank">
                 ELCOT
               </Link>
-              &nbsp;
+              {/* &nbsp; */}
               <Link href="https://www.navitaslifesciences.com/" target="_blank">
                 Navitas (TAKE Solutions)
               </Link>
@@ -174,6 +132,43 @@ export default class About extends React.Component {
             <br />
             <Divider />
             <br />
+            <Grid item xs={12} sm={8}>
+              <Card style={{ height: "100%", boxShadow: "none" }}>
+                <CardContent id="mission-vision">
+                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                    Vision
+                  </Typography>
+                  <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
+                  <Typography color="textSecondary">
+                    To achieve "World Class Excellence in Information and
+                    Communication Technology".
+                  </Typography>
+                  <br />
+
+                  <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                    Mission
+                  </Typography>
+                  <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
+                  <Typography color="textSecondary">
+                    {bull} To impart Information Technology education to
+                    students and future leaders.
+                    <br />
+                    <br />
+                    {bull} To establish Center of Excellences in Information
+                    Technology.
+                    <br />
+                    <br />
+                    {bull} To engage in cutting edge technology research to meet
+                    the current needs and future challenges of India and the
+                    world at large.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <br />
+            <div className="logo_cotainer">
+              <img src={require("../../images/logo.png")} />
+            </div>
             <Typography
               variant="subtitle1"
               style={{
@@ -195,6 +190,7 @@ export default class About extends React.Component {
               in various domains. While the number of students produced would be
               small, the impact they create would be great.
               <br />
+              <br />
               As of June 14, 2021, IIIT Tiruchirappalli has started operating
               from the permanent campus at Sethurappatti. Before that IIIT
               Tiruchirappalli operated from temporary campus within the premises
@@ -203,16 +199,12 @@ export default class About extends React.Component {
               operating in the temporary campus within the premises of National
               Institute of Technology (NIT) Campus, Tiruchirappalli – 620 015,
               Tamil Nadu, since March 2016. &nbsp;
-              <Link href="https://nitt.edu">NIT Tiruchirappalli</Link>
-              &nbsp;is the mentor institution for IIIT Tiruchirappalli that
-              provides academic and administrative support to the IIIT
-              Tiruchirappalli.
             </Typography>
           </Card>
           <Typography align="center">
             <a href={require(`../../docs/${book}`)} download={`${book}`}>
               <img src={require("../../images/news-icon.svg")} />
-              GST Certificate[Download]
+              GST Certificate
             </a>
           </Typography>
           <br />

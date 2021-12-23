@@ -135,6 +135,14 @@
           "link": "/undergraduate"
         },
         {
+          "text": "Postgraduate",
+          "link": "/postgraduate"
+        },
+        {
+          "text": "Doctor of Philosophy (PhD)",
+          "link": "/doctorate"
+        },
+        {
           "text": "FAQ's",
           "link": "/faq"
         },
@@ -155,6 +163,17 @@
         {
           "text": "Clubs",
           "link": "/clubs"
+        }
+      ]
+    },
+    
+    {
+      "text": "Scholarship",
+      "icon": "call",
+      "submenu": [
+        {
+          "text": "Scholarship",
+          "link": "/scholarship"
         }
       ]
     },

@@ -32,8 +32,7 @@ Adding new and innovative features are welcomed.
 [Dinesh Vikram](https://github.com/dinskid) <br>
 [Nitish Kumar](https://github.com/thisisnitish) <br>
 [Mayank Sonkar](https://github.com/mayank2021) <br>
-
-<!-- [Sarthak Kumar](https://github.com/sarthak503) <br> -->
+[Sarthak Kumar](https://github.com/sarthak503) <br>
 
 <!-- ## Available Scripts
 

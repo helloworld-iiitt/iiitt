@@ -12,6 +12,7 @@ const useStyles = makeStyles({
 
     marginTop: "3rem",
     marginLeft: "1.3rem",
+    marginRight: "1rem",
   },
 });
 
@@ -104,7 +105,7 @@ export default function Faculty(props) {
             src={require("../../images/news-icon.svg")}
             className={classes.download}
           />
-          Faculty Rule book [Download]
+          Faculty Rule book
         </a>
       </Typography>
       <Footer />
