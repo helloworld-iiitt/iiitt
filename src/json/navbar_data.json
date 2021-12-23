@@ -170,6 +170,7 @@
     {
       "text": "Scholarship",
       "icon": "call",
+      "name": "scholarship",
       "submenu": [
         {
           "text": "Scholarship",
@@ -180,6 +181,7 @@
     {
       "text": "Contact Us",
       "icon": "call",
+      "name": "contactus",
       "submenu": [
         {
           "text": "Contact Us",
@@ -190,6 +192,7 @@
     {
       "text": "Virtual Academy",
       "icon": "web",
+      "name": "vla",
       "submenu": [
         {
           "text": "VLA Home",

@@ -3,37 +3,8 @@ import Navbar from "./../../components/navbar/index";
 import Footer from "./../../components/footer/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import PersonCard from "../../components/person_card/index";
-import { makeStyles } from "@material-ui/core/styles";
-
+import "./style.css";
 const staff_data = require("../../json/staff.json").officestaff;
-const registrar_data = require("../../json/staff.json").registrar;
-
-const useStyle = makeStyles({
-  title: {
-    marginTop:"5rem",
-    color: "#2e8b57",
-    textDecoration:"none",
-    display:"flex",
-    justifyContent:"center",
-  },
-  topheading : {
-    marginTop:"3rem",
-    color: "#2e8b57",
-    display:"flex",
-    justifyContent:"center",
-  },
-  topcard: {
-    marginTop:"-1rem",
-    display:"flex",
-    justifyContent:"center",
-  },
-  officestaff: {
-    textAlign:"right",
-    display:"flex",
-    justifyContent:"center",
-  },
-
-});
 
 export default function Staff() {
   useEffect(() => {
@@ -46,15 +17,15 @@ export default function Staff() {
     };
   }, []);
 
-  const classes = useStyle();
-
   return (
     <>
       <Navbar />
-          <Typography variant="h3" gutterBottom className={classes.topheading}>
+        <Typography className="main">  
+          <Typography variant="h3" gutterBottom className="topheading">
             Deputy Registrar
-          </Typography>    
-            <Typography className={classes.topcard}>
+          </Typography>  
+        </Typography>    
+            <Typography className="topcard">
               <PersonCard
                 name={"Shri. Biju Mathew"}
                 designation={"Deputy Registrar"}
@@ -65,18 +36,21 @@ export default function Staff() {
                 researchArea=""
               />
             </Typography>
-            <Typography variant="h3" gutterBottom className={classes.topheading}>
+            <Typography variant="h3" gutterBottom className="topheading2">
               Outsourced Office Staff
             </Typography>
-      <Typography gutterBottom className={classes.officestaff}>
-        <Typography gutterBottom>
-          <Grid container className={classes.head}>
+      <Typography gutterBottom className="officestaff">
+        <Typography gutterBottom className="cards">
+          <Typography gutterBottom className="carding">
+          <Grid container className="head">
+          
           {staff_data.map((staff) => {
             const { name, designation, emailID, phone, src } = staff;
             return (
               <>
-                <Grid item lg={4} md={4}>
-                <PersonCard
+              <Typography gutterBottom className="card2">
+                <Grid item xs={12} md={4} className="card1">
+                  <PersonCard
                     name={name}
                     designation={designation}
                     emailID={emailID}
@@ -86,12 +60,13 @@ export default function Staff() {
                     researchArea=""
                   />
                 </Grid>
-                
+                </Typography>
               </>
             );
           })}
           </Grid>
-        </Typography>
+          </Typography>
+          </Typography>
         <Grid item xs={false} sm={1} />
         </Typography>
       <div style={{ height: "90px" }}></div>

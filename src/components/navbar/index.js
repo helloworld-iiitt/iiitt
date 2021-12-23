@@ -18,6 +18,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 import LocalLibraryIcon from "@material-ui/icons/LocalLibrary";
 import {HashLink} from 'react-router-hash-link';
+import { Link } from "react-router-dom";
 import MenuListComposition from "./desktop-items";
 import HomeIcon from "./homeicon";
 import TemporaryDrawer from "./drawer";
@@ -119,12 +120,25 @@ export default class Navbar extends React.Component {
                           this.state.navbar_data.data.length
                         )
                         .map((item, id) => {
-                          return (
-                            <MenuListComposition
-                              nav_head={item.text}
-                              submenu={item.submenu}
-                            />
-                          );
+                          if(item.name)
+                          {
+                            return (
+                              <div className="navhead">
+                              <Link
+                                to={item.name}
+                                draggable="false"
+                                className="single_nav_routes"
+                              >{item.text}</Link>
+                              </div>
+                            );
+                          } else {
+                            return (
+                              <MenuListComposition
+                                nav_head={item.text}
+                                submenu={item.submenu}
+                              />
+                            );
+                            }
                         })}
                     </div>
                   </>

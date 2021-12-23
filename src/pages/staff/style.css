@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.topheading {
+    padding-top:2rem;
+    color: #2e8b57;
+    display:flex;
+    justify-content:center;
+  }
+.topheading2{
+    color: #2e8b57;
+    display:flex;
+    justify-content:center;
+  }
+.topcard {
+    margin-top:-1rem;
+    display:flex;
+    justify-content:center;
+  }
+.officestaff {
+    display: flex;
+    justify-content: center;
+  }
+
+.cards {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .topheading {
+    padding-top:4rem;
+    padding-left: 5rem;
+    display:flex;
+    justify-content:center;
+  }
+  .topheading2 {
+    padding-left: 4rem;
+    display:flex;
+    justify-content:center;
+  }
+  .card2 {
+    display: block;
+    justify-content: center;
+  }
+  .cards {
+    display: block;
+    justify-content: center;
+  }
+  .card1 {
+    width: auto;
+    height: auto;
+  }
+}
