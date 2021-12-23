@@ -74,7 +74,7 @@ export default function Undergraduate() {
 
           <Typography variant="h5" className={classes.themeText} gutterBottom>
             <Box component="span" fontWeight="fontWeightBold">
-              Rules and Regulations for B.Tech.(CSE/ECE/IT)
+              Rules and Regulations for B.Tech.(CSE/ECE)
             </Box>
           </Typography>
           <Typography>

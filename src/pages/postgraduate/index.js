@@ -50,7 +50,7 @@ export default function Undergraduate() {
   }, []);
 
   const classes = createStyles();
-  const file = "Ph.D_regulations_IIITT_final_2020.pdf";
+  const file = "M.Tech_Rules_2021_22_aligned.pdf";
 
   return (
     <div className="page-container">
@@ -58,15 +58,20 @@ export default function Undergraduate() {
       <Grid container className={classes.container}>
         <Grid item xs={false} sm={1} />
         <Grid item xs={12} sm={10}>
-          <Typography variant="h5" className={classes.themeText} gutterBottom>
-            <Box component="span" fontWeight="fontWeightBold">
-              Ph.D programs
+          <Typography
+            variant="h2"
+            component="h2"
+            gutterBottom
+            className={classes.themeText}
+          >
+            <Box component="span" fontWeight={380}>
+              Postgraduate (M.Tech.)
             </Box>
           </Typography>
           <br />
-          <Typography variant="h6">Ph.D Regulations</Typography>
+          <Typography variant="h6">M.Tech Regulations</Typography>
           <a href={require(`../../docs/${file}`)} download={`${file}`}>
-            <Typography variant="h6">Download Ph.D regulations</Typography>
+            <Typography variant="h6">Download M.Tech regulations</Typography>
           </a>
         </Grid>
       </Grid>
