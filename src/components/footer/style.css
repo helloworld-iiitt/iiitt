@@ -11,6 +11,10 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border-top: 5px solid #256f46;
 }
+.navbar{
+  height: inherit !important;
+}
+
 
 .credits {
   background-color: #256f46;
@@ -24,6 +28,8 @@ html {
   justify-content: center;
   font-size: 1.2rem;
   border-top: 2px solid #050e09;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .main-div {
@@ -420,5 +426,11 @@ a {
   }
   #favorite{
     color: #ff4c4c;
+  }
+}
+@media (max-width:800px) {
+  .container{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
   }
 }
