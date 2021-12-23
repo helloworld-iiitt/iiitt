@@ -5,15 +5,15 @@
   "name": "Shri. Biju Mathew",
   "designation": "Deputy Registrar, IIIT Trichy",
   "emailID": "dr@iiitt.ac.in",
-  "mobileNo": "0431-2503052",
-  "image": "bijumathew.jpg"
+  "phone": "0431-2503052",
+  "src": "bijumathew.jpg"
 },
 {
   "head": "First Appellate Authority (Director, IIIT Trichy)",
   "name": "Dr. Narasimha Sarma N V S",
   "designation": "Director, IIIT Trichy",
   "emailID": "director@iiitt.ac.in",
-  "image": "director.jpg"
+  "src": "director.jpg"
 }
 ]
 }
