@@ -204,7 +204,7 @@ export default class About extends React.Component {
           <Typography align="center">
             <a href={require(`../../docs/${book}`)} download={`${book}`}>
               <img src={require("../../images/news-icon.svg")} />
-              GST Certificate[Download]
+              GST Certificate
             </a>
           </Typography>
           <br />

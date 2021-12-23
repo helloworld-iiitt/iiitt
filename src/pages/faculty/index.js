@@ -105,7 +105,7 @@ export default function Faculty(props) {
             src={require("../../images/news-icon.svg")}
             className={classes.download}
           />
-          Faculty Rule book [Download]
+          Faculty Rule book
         </a>
       </Typography>
       <Footer />
