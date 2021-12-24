@@ -65,7 +65,7 @@ export default function Faq(props) {
         >
           <CardContent className={classes.text}>
             {answer}
-            {questionNumber === 11 ? <Link to='/contactus'>location page for more information</Link> : null}
+            {questionNumber === 11 ? <Link style={{display: 'inline'}} to='/contactus'>location page for more information.</Link> : null}
           </CardContent>
         </Collapse>
       </Card>
