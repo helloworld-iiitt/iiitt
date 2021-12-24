@@ -1,21 +1,33 @@
 {
   "data": [
     {
-      "name": "Mr. S. Selvarasu",
-      "designation": "Consultant-Accountant",
-      "emailID": "ssrrag@gmail.com",
-      "src": "staff_1.jpg"
+      "name": "Mr. M. Balamurugan",
+      "designation": "Site Engineer",
+      "emailID": "--",
+      "src": "staff_1n.jpg"
     },
     {
-      "name": "Ms. P. Leema",
-      "designation": "Office-Assistant",
-      "emailID": "leemsiiitt@gmail.com",
-      "src": "staff_2.jpg"
+      "name": "Mrs. M. Saraswathy",
+      "designation": "Administrative Assistant",
+      "emailID": "--",
+      "src": "staff_2n.jpg"
     },
     {
-      "name": "Mr. S. Selvarasu",
+      "name": "Mr. R. Kannan",
+      "designation": "Administrative Assistant",
+      "emailID": "--",
+      "src": "staff_3n.jpg"
+    },
+    {
+      "name": "Mr. S. Christu Raj",
+      "designation": "Administrative Assistant",
+      "emailID": "--",
+      "src": "staff_4n.jpg"
+    },
+    {
+      "name": "Mr. V. Logeswaran",
       "designation": "Multi-tasking Staff",
-      "emailID": " ",
+      "emailID": "--",
       "src": "staff_4.jpg"
     }
   ]
