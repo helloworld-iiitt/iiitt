@@ -64,10 +64,10 @@ export default function Faqs() {
             </Box>
           </Typography>
           {data &&
-            data.map((faq) => {
+            data.map((faq, index) => {
               return (
                 <div className={classes.faq}>
-                  <Faq question={faq.question} answer={faq.answer} />
+                  <Faq questionNumber={index} question={faq.question} answer={faq.answer} />
                 </div>
               );
             })}
