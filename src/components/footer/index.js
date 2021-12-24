@@ -84,10 +84,10 @@ const Footer = () => {
           <Temperature />
         </div>
         <div>
-          <p className="credits">
+          <a className="credits" href="webDevClub">
             &lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web
             Dev-IIITT
-          </p>
+          </a>
         </div>
       </footer>
     </div>
