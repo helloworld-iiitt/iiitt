@@ -55,25 +55,25 @@ function App() {
     loading: () => loading,
   });
 
-  const AdmissionFeeStructure = Loadable({
-    loader: () => import("./pages/admissionfeestructure/index"),
-    loading: () => loading,
-  });
+  // const AdmissionFeeStructure = Loadable({
+  //   loader: () => import("./pages/admissionfeestructure/index"),
+  //   loading: () => loading,
+  // });
 
-  const AdmissionForms = Loadable({
-    loader: () => import("./pages/admissionforms/index"),
-    loading: () => loading,
-  });
+  // const AdmissionForms = Loadable({
+  //   loader: () => import("./pages/admissionforms/index"),
+  //   loading: () => loading,
+  // });
 
   const AntiRagging = Loadable({
     loader: () => import("./pages/antiragging/index.js"),
     loading: () => loading,
   });
 
-  const AdmissionContact = Loadable({
-    loader: () => import("./pages/admissioncontact/index"),
-    loading: () => loading,
-  });
+  // const AdmissionContact = Loadable({
+  //   loader: () => import("./pages/admissioncontact/index"),
+  //   loading: () => loading,
+  // });
 
   const Notices = Loadable({
     loader: () => import("./pages/notices/index"),
@@ -250,6 +250,21 @@ function App() {
     loading: () => loading,
   });
 
+  const Admission_ug = Loadable({
+    loader: () => import("./pages/Admission_ug/index"),
+    loading: () => loading,
+  });
+
+  const Admission_pg = Loadable({
+    loader: () => import("./pages/Admission_pg/index"),
+    loading: () => loading,
+  });
+
+  const Admission_program = Loadable({
+    loader: () => import("./pages/Admission_program/index"),
+    loading: () => loading,
+  });
+
   return (
     <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
       <link
@@ -266,15 +281,18 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/faculty" component={Faculty} />
         <Route path="/staff" component={Staff} />
-        <Route path="/admission_procedure" component={AdmissionProcedure} />
-        <Route
+        <Route path="/admission" component={AdmissionProcedure} />
+        {/* <Route
           path="/admission_fee_structure"
           component={AdmissionFeeStructure}
-        />
+        /> */}
           <Route path="/webDevClub" component={WebDevClub} />
-        <Route path="/admission_forms" component={AdmissionForms} />
+        {/* <Route path="/admission_forms" component={AdmissionForms} /> */}
+        <Route path="/admission_ug" component={Admission_ug} />
+        <Route path="/admission_pg" component={Admission_pg} />
+        <Route path="/programs" component={Admission_program} />
         <Route path="/anti_ragging_committee" component={AntiRagging} />
-        <Route path="/admission_contact" component={AdmissionContact} />
+        {/* <Route path="/admission_contact" component={AdmissionContact} /> */}
         <Route path="/general" component={Notices} />
         <Route path="/tenders" component={Tenders} />
         <Route path="/programs" component={Programs} />
