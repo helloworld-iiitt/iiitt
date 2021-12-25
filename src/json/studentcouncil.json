@@ -1,66 +1,66 @@
 {
     "": [
         {
-            "name": "Atluri Hitesh",
+            "name": "Sai Auchitya Bussa",
             "designation": "President",
-            "emailId": "atlurih17e@iiitt.ac.in",
-            "src": "president.jpg"
+            "emailId": "saiab18e@iiitt.ac.in",
+            "src": "president.jpeg"
         },
         {
-            "name": "R.Harsha Vardhan",
+            "name": "Navneet Rai",
             "designation": "Vice President",
-            "emailId": "rayalahv18e@iiitt.ac.in",
-            "src": "vicepresident.jpg"
+            "emailId": "navneetr19c@iiitt.ac.in",
+            "src": "vicepresident.jpeg"
         }
     ],
     "Technical": [
         {
-            "name": "S.Bala Tejo Kiran",
-            "designation": "Technical secretary",
-            "emailId": "sbalatk17e@iiitt.ac.in",
-            "src": "technical.jpg"
+            "name": "S Lavanya",
+            "designation": "Technical Secretary",
+            "emailId": "slavanya18e@iiitt.ac.in",
+            "src": "technical.jpeg"
         },
         {
-            "name": "Konala Sam Ashray",
-            "designation": "Technical Vice secretary",
-            "emailId": "konalasa18c@iiit.ac.in",
-            "src": "technicalvice.jpg"
+            "name": "Mayank Sonkar",
+            "designation": "Vice Technical Secretary",
+            "emailId": "mayanks19e@iiitt.ac.in",
+            "src": "technicalvice.jpeg"
         }
     ],
     "Cultural": [
         {
-            "name": "Ayushi grover",
-            "designation": "Cultural secretary",
-            "emailId": "ayushig17e@iiitt.ac.in",
-            "src": "cultural.jpg"
+            "name": "Venkat Keshav Cherukuri",
+            "designation": "Cultural Secretary",
+            "emailId": "cherukurivk18e@iiitt.ac.in",
+            "src": "cultural.jpeg"
         },
         {
-            "name": "Sai Auchitya Bussa",
-            "designation": "Cultural vice secretary",
-            "emailId": "saiab18e@iiitt.ac.in",
-            "src": "culturalvice.jpg"
+            "name": "Chintala Sravani",
+            "designation": "Vice Cultural Secretary",
+            "emailId": "chintalas19c@iiitt.ac.in",
+            "src": "culturalvice.jpeg"
         }
     ],
     "Sports": [
         {
-            "name": "Banda Sai Teja Reddy",
-            "designation": "Sports secretary",
-            "emailId": "bsaitr17c@iiitt.ac.in",
-            "src": "sports.jpg"
+            "name": "S Purushotham Naik",
+            "designation": "Sports Secretary",
+            "emailId": "sugalipn18e@iiitt.ac.in",
+            "src": "sports.jpeg"
         },
         {
-            "name": "J Lokeshwar",
-            "designation": "Sports vice secretary",
-            "emailId": "jlokeswar18e@iiitt.ac.in",
-            "src": "sportsvice.jpg"
+            "name": "Siddharth Sahu",
+            "designation": "Sports Vice Secretary",
+            "emailId": "siddharths19e@iiitt.ac.in",
+            "src": "sportsvice.jpeg"
         }
     ],
     "Joint secretary": [
         {
-            "name": "Ayush Singh",
-            "designation": "Joint secretary",
-            "emailId": "ayushs19e@iiitt.ac.in",
-            "src": "jointsec.jpg"
+            "name": "Suman Raj",
+            "designation": "Vice Sports Secretary",
+            "emailId": "201231@iiitt.ac.in",
+            "src": "jointsec.jpeg"
         }
     ]
 }

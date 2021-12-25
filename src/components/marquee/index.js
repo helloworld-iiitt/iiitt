@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Divider from "@material-ui/core/Divider";
-import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 import "./style.css";
 import Loader from "../../components/sub_component_loader/index";
@@ -30,12 +29,14 @@ export default class Marquee extends Component {
 
     return (
       <Card id="v_marquee" variant="outlined">
-        <CardContent>
-          <div className="newshead">Announcements</div>
+        <CardContent style={{
+          height: "100%"
+        }}>
+          <div className="newshead" > Announcements</div>
           <marquee direction="up" height="100%" id="my_marquee">
             <ul>
               {this.state.announcements ? (
-                this.state.announcements.data.map((item) => {
+                this.state.announcements.data.map((item, idx) => {
                   return (
                     <>
                       <li
@@ -49,17 +50,17 @@ export default class Marquee extends Component {
                       >
                         <Link href={item.link}>{item.text}</Link>
                       </li>
-                      <Divider />
+                      {idx != this.state.announcements.data.length - 1 && <Divider />}
                     </>
                   );
                 })
               ) : (
-                <Loader />
-              )}
+                  <Loader />
+                )}
             </ul>
           </marquee>
         </CardContent>
-      </Card>
+      </Card >
     );
   }
 }

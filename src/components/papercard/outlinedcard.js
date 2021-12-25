@@ -41,20 +41,21 @@ export default function OutlinedCard(props) {
                 <li style={{ marginBottom: "15px" }}>
                   <Link href={item.link}>{item.title}</Link>
                   <br />
-                  <Typography
+                  {item.date && <Typography
                     variant="caption"
                     color="textSecondary"
                     gutterBottom
                   >
                     Posted:{item.date}
                   </Typography>
+                  }
                 </li>
               );
             })}
         </ul>
       </CardContent>
       <CardActions>
-        <Button size="small">View older</Button>
+        <Link href={props.linkToOlder}><Button size="small">View older</Button></Link>
       </CardActions>
     </Card>
   );

@@ -85,8 +85,22 @@ function App() {
     loading: () => loading,
   });
 
+  const News = Loadable({
+    loader: () => import("./pages/news/index"),
+    loading: () => loading,
+  });
+
+  const Events = Loadable({
+    loader: () => import("./pages/events/index"),
+    loading: () => loading,
+  });
+
   const Programs = Loadable({
     loader: () => import("./pages/programs/index"),
+    loading: () => loading,
+  });
+  const Scholarship = Loadable({
+    loader: () => import("./pages/scholarship/index"),
     loading: () => loading,
   });
 
@@ -114,7 +128,14 @@ function App() {
     loader: () => import("./pages/undergraduate/index"),
     loading: () => loading,
   });
-
+  const Postgraduate = Loadable({
+    loader: () => import("./pages/postgraduate/index"),
+    loading: () => loading,
+  });
+  const PHDprogram = Loadable({
+    loader: () => import("./pages/doctorate/index"),
+    loading: () => loading,
+  });
   const Faq = Loadable({
     loader: () => import("./pages/faqs/index"),
     loading: () => loading,
@@ -295,12 +316,17 @@ function App() {
         {/* <Route path="/admission_contact" component={AdmissionContact} /> */}
         <Route path="/general" component={Notices} />
         <Route path="/tenders" component={Tenders} />
+        <Route path="/news" component={News} />
+        <Route path="/events" component={Events} />
         <Route path="/programs" component={Programs} />
+        <Route path="/scholarship" component={Scholarship} />
         <Route path="/departments" component={Departments} />
         <Route path="/curriculum" component={Curriculum} />
         <Route path="/calendar" component={Calendar} />
         <Route path="/holidays" component={Holidays} />
         <Route path="/undergraduate" component={Undergraduate} />
+        <Route path="/postgraduate" component={Postgraduate} />
+        <Route path="/doctorate" component={PHDprogram} />
         <Route path="/faq" component={Faq} />
         <Route path="/festivals" component={Festivals} />
         <Route path="/clubs" component={Clubs} />

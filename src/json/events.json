@@ -1,46 +1,178 @@
 {
-  "data": [
-    {
-      "title": "Constitution day celebrations",
-      "link": "http://www.iiitt.ac.in/constitution_day_2020",
-      "text": "Constitution day celebrations",
-      "date": "26/11/2020"
-    },
-    {
-      "title": "Live streaming of First Convocation 2020",
-      "link": "https://www.youtube.com/watch?v=w4MlFxCVcwI&feature=youtu.be",
-      "text": "Live streaming of First Convocation 2020",
-      "date": "20/11/2020 - 11 AM"
-    },
-    {
-      "title": "Second issue of e-magazine 'AIKYAM'",
-      "link": "https://drive.google.com/file/d/1AqUWKFRSpjYP7zgXnTsjfI7UTmX5gvc3/view",
-      "text": "Second issue of e-magazine 'AIKYAM'",
-      "date": "17/11/2020"
-    },
-    {
-      "title": "Winter of Code'20",
-      "link": "https://helloworld-iiitt.github.io/woc",
-      "text": "Winter of Code'20",
-      "date": "01/10/2020"
-    },{
-      "title": "Session:Introduction to DSA ",
-      "link": "International_yoga_day2020.pdf",
-      "text": "An Open Source Meetup",
-      "date": "30/09/2020"
-    },
-    {
-      "title": "Cyber Security Paths",
-      "link": "International_yoga_day2020.pdf",
-      "text": "Circular for International Yoga day 2020 celebration.",
-      "date": "16/09/2020"
-    },
-    {
-      "title": "An Open Source Meetup",
-      "link": "International_yoga_day2020.pdf",
-      "text": "An Open Source Meetup",
-      "date": "14/09/2020"
-    }
-    
-  ]
+    "data": [
+        {
+            "isNew": true,
+            "title": "eCalendar 2021 - IIIT Tiruchirappalli",
+            "link": "https://drive.google.com/file/d/12gxyhkRho-UT9hC-lXgGBUNgjy9E8BQW/view?usp=sharing",
+            "text": "eCalendar 2021 - IIIT Tiruchirappalli"
+        },
+        {
+            "isNew": true,
+            "title": "Third issue of e-magazine 'AIKYAM' (21 Jan 2021)",
+            "link": "https://drive.google.com/file/d/1QQudXKYk5c8Gp0V0MfGuz5HVCEUBsfcN/view?usp=sharing",
+            "text": "Third issue of e-magazine 'AIKYAM' (21 Jan 2021)"
+        },
+        {
+            "isNew": false,
+            "title": "National Mathematics Day-Invitation 22/12/2020",
+            "link": "downloads/events/National_Mathematics_Day-Invitation_22_12_2020.pdf",
+            "text": "National Mathematics Day-Invitation 22/12/2020"
+        },
+        {
+            "isNew": false,
+            "title": "Interaction with Prof. H C Verma at IIIT Tiruchirappalli 15/Dec/2020",
+            "link": "https://youtu.be/vAIA8LusZ6Q",
+            "text": "Interaction with Prof. H C Verma at IIIT Tiruchirappalli 15/Dec/2020"
+        },
+        {
+            "isNew": false,
+            "title": "Recorded videos of Orientation Programme Dec 2-4 (virtual) for first year",
+            "link": "https://www.youtube.com/playlist?list=PLYiSQoUYFko12mZRnrEqqLOdIAzfgii-I",
+            "text": "Recorded videos of Orientation Programme Dec 2-4 (virtual) for first year"
+        },
+        {
+            "isNew": false,
+            "title": "Orientation Programme Dec 2-4 (virtual) for first year",
+            "link": "downloads/events/OrientationProgramme2020-Invitation.pdf",
+            "text": "Orientation Programme Dec 2-4 (virtual) for first year"
+        },
+        {
+            "isNew": false,
+            "title": "Constitution day celebrations 26.11.2020",
+            "link": "constitution_day_2020",
+            "text": "Constitution day celebrations 26.11.2020"
+        },
+        {
+            "isNew": false,
+            "title": "Live streaming of Second Convocation 2020 (21 Nov 2020 11 am)",
+            "link": "https://youtu.be/w4MlFxCVcwI",
+            "text": "Live streaming of First Convocation 2020 (21 Nov 2020 11 am)"
+        },
+        {
+            "isNew": true,
+            "title": "Second issue of e-magazine 'AIKYAM' (17 Nov 2020)",
+            "link": "https://drive.google.com/file/d/1AqUWKFRSpjYP7zgXnTsjfI7UTmX5gvc3/view?usp=sharing",
+            "text": "Second issue of e-magazine 'AIKYAM' (17 Nov 2020)"
+        },
+        {
+            "isNew": true,
+            "title": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme On '3D Printing and Design from 01.02.2020 to 05.02.2020'",
+            "link": "downloads/events/Brochure_FDP_3D_printing.pdf",
+            "text": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme On '3D Printing and Design from 01.02.2021 to 05.02.2021'"
+        },
+        {
+            "isNew": false,
+            "title": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme On 'Challenges and Opportunities in Data Science - A Research Perspective' from 14.12.2020 to 18.12.2020'",
+            "link": "downloads/events/Datascience_FDP.pdf",
+            "text": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme On 'Challenges and Opportunities in Data Science - A Research Perspective' from 14.12.2020 to 18.12.2020'"
+        },
+        {
+            "isNew": false,
+            "title": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme On 'Design Challenges in VLSI and Embedded system for IoT Applications' from 23.11.2020 to 27.11.2020",
+            "link": "downloads/events/ATAL_FDP_23-27-Nov-2020.pdf",
+            "text": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme On 'Design Challenges in VLSI and Embedded system for IoT Applications' from 23.11.2020 to 27.11.2020"
+        },
+        {
+            "isNew": false,
+            "title": "Launching Institute's first e-magazine 'AIKYAM' on 11 Sep 2020 at 10am. The magazine will be launched by our esteemed Director (login with your iiitt.ac.in email address to see the magazine).",
+            "link": "https://drive.google.com/file/d/1LNGggmrTyNFtCJmQlOU7nLl1C-_2k5H-/view?usp=sharing",
+            "text": "Launching Institute's first e-magazine 'AIKYAM' on 11 Sep 2020 at 10am. The magazine will be launched by our esteemed Director (login with your iiitt.ac.in email address to see the magazine)."
+        },
+        {
+            "isNew": false,
+            "title": "International Yoga Day 2020 ",
+            "link": "downloads/events/International_yoga_day2020.pdf",
+            "text": "International Yoga Day 2020"
+        },
+        {
+            "isNew": false,
+            "title": "Streaming of First Convocation 2020 ",
+            "link": "https://youtu.be/w_50CAIASIc",
+            "text": "Recorded Streaming of First Convocation 2020"
+        },
+        {
+            "isNew": false,
+            "title": "A two-day Hands-on Training on “Building a Robot from Scratch” ",
+            "link": "/downloads/notices/Robotics_brochure.pdf",
+            "text": "A two-day Hands-on Training on “Building a Robot from Scratch”"
+        },
+        {
+            "isNew": false,
+            "title": "Live streaming of First Convocation 2020 ",
+            "link": "http://streaming.iiitt.ac.in/",
+            "text": "Live Streaming of First Convocation 2020"
+        },
+        {
+            "isNew": true,
+            "title": "Fee structure for Even Semester  AY 2019-20 ",
+            "link": "/downloads/notices/Fee-Structure-(Even-Semester).pdf",
+            "text": "Fee structure for Even Semester  AY 2019-20"
+        },
+        {
+            "isNew": true,
+            "title": "Fee Structure for the AY 2019-20 ",
+            "link": "/downloads/notices/FeeStructure19-20.pdf",
+            "text": "Fee Structure for Higher Semesters (III, V, VII) for the AY 2019-20"
+        },
+        {
+            "isNew": true,
+            "title": "Fee Structure for the AY 2019-20 (1 semester) ",
+            "link": "/downloads/notices/Fee Structure 2019-20.pdf",
+            "text": "Fee Structure for the AY 2019-20 (I semester) "
+        },
+        {
+            "isNew": false,
+            "title": "Fee Structure (2018 - 19) ",
+            "link": "/downloads/notices/FeeStructure2018.pdf",
+            "text": "Fee Structure (2018 - 19)"
+        },
+        {
+            "isNew": false,
+            "title": "Reporting Details for B.Tech New Admission (2019-20) ",
+            "link": "/downloads/admission/ReportingDetails_IIITT_2019-20.pdf",
+            "text": "Reporting Details for B.Tech - New Admission (2019-20)"
+        },
+        {
+            "isNew": false,
+            "title": "B.Tech-New Admission: Fee Structure-I Semester (2018-19) ",
+            "link": "/downloads/admission/FeeStructure18-19.pdf",
+            "text": "B.Tech - New Admission: Fee Structure - I Semester (2018-19)"
+        },
+        {
+            "isNew": false,
+            "title": "Cycle Test and End Semester Schedule",
+            "link": "/downloads/EVEN_EXAM SCHEDULE_2017_18.pdf",
+            "text": "Cycle Test and End Semester Schedule of AY 2017-18 for VI, IV and II Semester"
+        },
+        {
+            "isNew": false,
+            "title": "Inauguration of 2017-18 batch",
+            "link": "",
+            "text": "Inauguration of 2017-18 batch scheduled on 3rd August, 2017."
+        },
+        {
+            "isNew": false,
+            "title": "Orientation Program for 1st Year",
+            "link": "",
+            "text": "Orientation Program for I year is scheduled on 3rd August, 2017."
+        },
+        {
+            "isNew": false,
+            "title": "Atrang 2017",
+            "link": "http://atrang.org",
+            "text": "Atrang 2017 is on 13th April, 2017."
+        },
+        {
+            "isNew": false,
+            "title": "Institute Day",
+            "link": "/festivals",
+            "text": "Institute Day is on 7th April, 2017."
+        },
+        {
+            "isNew": false,
+            "title": "IIITDMJ inter-IIIT Techno Cultural Festival",
+            "link": "http://iiitdmjfest.org/",
+            "text": "Join inter- IIIT Techno - Cultural Fest, by IIITDMJ from 23rd to 26th March, 2017."
+        }
+    ]
 }

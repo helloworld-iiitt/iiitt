@@ -67,7 +67,7 @@ export default function AdmissionProcedure() {
     };
   }, []);
   const classes = createStyles();
-  const rank = "OpeningandClosingRank.pdf";
+  const rank = "OpeningandClosingRank2020-21.pdf";
   return (
     <div className="page-container">
       <Navbar />
@@ -135,6 +135,7 @@ export default function AdmissionProcedure() {
                   href="http://www.ncbc.nic.in/Home.aspx?ReturnUrl=%2f"
                   target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
+                  target="_blank"
                 >
                   National Commission for Backward Classes (http://www.ncbc.nic.in/)
                 </a>
@@ -143,6 +144,7 @@ export default function AdmissionProcedure() {
                 <a
                   href="https://socialjustice.nic.in/" target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
+                  target="_blank"
                 >
                   Ministry of Social Justice and Empowerment (http://socialjustice.nic.in/)
                 </a>
@@ -151,6 +153,7 @@ export default function AdmissionProcedure() {
                 <a
                   href="https://tribal.nic.in/" target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
+                  target="_blank"
                 >
                   Ministry of Tribal Affairs, Government of India (https://tribal.nic.in/)
                 </a>

@@ -41,6 +41,7 @@ const createStyles = makeStyles({
   },
   info: {
     margin: "0 auto",
+    textAlign: "center",
   },
   text: {
     fontSize: "1.3rem",
@@ -70,37 +71,48 @@ export default function Director() {
             <Card className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image={require(`../../images/vittoba.jpeg`)}
-                title="Deputy Registrar"
+                image={require(`../../images/Dr_Seetharaman.jpg`)}
+                title="Registrar"
               />
               <CardContent>
                 <Typography variant="body" gutterBottom>
-                  <Box component="span" fontSize="1.5vw" gutterBottom>
-                    Shri. N. VITTOBA
+                  <Box component="span" fontSize="1.5rem" gutterBottom>
+                    Dr. G.Seetharaman
                   </Box>
                   <br />
-                  <Box fontSize="1.3rem">
-                    Deputy Registrar
+                  <Box fontSize="1.2rem">
+                    Registrar i/c
                     <br />
-                    IIIT Tiruchirappalli
+                    Indian Institute of Information Technology Tiruchirappalli
+                    Tiruchirappalli-620012 Tamilnadu
                   </Box>
                   <br />
-                  <a href={`mailto:drv@iiitt.ac.in`} fontSize="1.2rem">
-                    drv@iiitt.ac.in
+                  <a href={`mailto:registrar@iiitt.ac.in`} fontSize="1.2rem">
+                    registrar@iiitt.ac.in
                   </a>
                   <br />
-                  <a href={`tel:94458 23121`} fontSize="1.2rem">
-                    94458 23121
-                  </a>
+
                   <br />
                   <br />
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
+          <Typography className={classes.text} gutterBottom>
+            The Registrar is one of the Principle Officers of the Institute. He
+            is entrusted with the statutory functions as per IIITT-Act and the
+            Statutes framed there under. He is in-charge of the Administration
+            of the Institute. He is an ex-officio Secretary to the statutory
+            bodies of the Institute, such as, the Board of Governors, the
+            Senate, the Finance Committee and the Building Works Committee.
+            Apart from the above statutory functions, he is also enjoined to
+            assist the Director on all matters pertaining to the administration
+            of the Institute.
+          </Typography>
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>
+
       <Footer />
     </div>
   );
