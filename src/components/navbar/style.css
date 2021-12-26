@@ -63,7 +63,6 @@
 .navhead {
   width: auto;
   height: auto;
-  margin-left: 1rem;
 }
 .navhead:hover {
   border-radius: 5px;
@@ -71,6 +70,8 @@
 }
 .single_nav_routes { 
   margin-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
   color: white !important;
   font-size: 0.875rem;
@@ -87,12 +88,12 @@
 .single_navmob {
   padding-bottom: 10px;
   padding-top: 10px;
-    display: flex;
-    font-size: 0.875rem;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 500;
-    line-height: 1.75;
-    letter-spacing: 0.02857em;
+  display: flex;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
 }
 
 .single_nav_routesmob {

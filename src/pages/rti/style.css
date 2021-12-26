@@ -52,6 +52,9 @@
     justify-content:center;
     color: black;
 }
+.biju {
+  padding-bottom: 1.5rem;
+}
 
   @media only screen and (max-width: 800px) {
     .head{

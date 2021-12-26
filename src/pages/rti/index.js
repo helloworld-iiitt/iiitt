@@ -124,8 +124,9 @@ export default function RTI() {
                       </Box>
                     </Typography>
                       <br />
+                      <Typography className={rti.cls}>
                       <Typography className="name">
-                      <Box fontSize="1rem">{rti.designation}</Box>
+                      <Box fontSize="1.3rem">{rti.designation}</Box>
                       </Typography>
                       <br />
                       <a href={`mailto:${rti.emailID}`}>{rti.emailID}</a>
@@ -134,6 +135,7 @@ export default function RTI() {
                       <br />
                       {rti.fax && <a href={`fax:${rti.fax}`}>{rti.fax}</a>}
                       <br />
+                      </Typography>
                       </Typography>
                   </CardContent>
                    <br />
