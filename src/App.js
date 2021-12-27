@@ -31,7 +31,10 @@ function App() {
     loader: () => import("./pages/home/index"),
     loading: () => loading,
   });
-
+  const WebDevClub = Loadable({
+    loader: () => import("./pages/webDevClub/index"),
+    loading: () => loading,
+  })
   const About = Loadable({
     loader: () => import("./pages/about/index"),
     loading: () => loading,
@@ -289,6 +292,7 @@ function App() {
           path="/admission_fee_structure"
           component={AdmissionFeeStructure}
         />
+          <Route path="/webDevClub" component={WebDevClub} />
         <Route path="/admission_forms" component={AdmissionForms} />
         <Route path="/anti_ragging_committee" component={AntiRagging} />
         <Route path="/admission_contact" component={AdmissionContact} />
