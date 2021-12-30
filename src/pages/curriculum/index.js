@@ -70,6 +70,10 @@ export default function Curriculum() {
   const cse16 = "CSE_Syllabus_16.pdf";
   const ece15 = "Curriculum_IIITTUGECE15.pdf";
   const ece16 = "Syllabus_ECE_16.pdf";
+  const cse20 = "UG_CSE_2020.pdf";
+  const ece20 = "UG_ECE_2020.pdf";
+  const mcse21 = "CSE_M.Tech_Syllabus_2021-Revised.pdf";
+  const mece21 = "ECE_M.Tech_Syllabus_2021-Revised.pdf";
 
   return (
     <div className="page-container">
@@ -184,7 +188,20 @@ export default function Curriculum() {
                       src={require("../../images/news-icon.svg")}
                       className={classes.download}
                     />
-                    2016 Onwards
+                    2016
+                  </a>
+                </TableCell>
+                <TableCell>
+                  <a
+                    href={require(`../../docs/${cse20}`)}
+                    download={`${cse20}`}
+                    className={classes.link}
+                  >
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    2020 Onwards
                   </a>
                 </TableCell>
               </TableRow>
@@ -213,7 +230,63 @@ export default function Curriculum() {
                       src={require("../../images/news-icon.svg")}
                       className={classes.download}
                     />
-                    2016 Onwards
+                    2016
+                  </a>
+                </TableCell>
+                <TableCell>
+                  <a
+                    href={require(`../../docs/${ece20}`)}
+                    download={`${ece20}`}
+                    className={classes.link}
+                  >
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    2020 Onwards
+                  </a>
+                </TableCell>
+              </TableRow>
+            </Table>
+          </section>
+          <section className={classes.sectionPadding}>
+            <Typography variant="h5" className={classes.themeText} gutterBottom>
+              <Box component="span" fontWeight="fontWeightBold">
+                PG curriculum
+              </Box>
+            </Typography>
+            <Table>
+              <TableRow className={classes.tableRow}>
+                <TableCell>Computer Science and Engineering</TableCell>
+
+                <TableCell>
+                  <a
+                    href={require(`../../docs/${mcse21}`)}
+                    download={`${mcse21}`}
+                    className={classes.link}
+                  >
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    2021
+                  </a>
+                </TableCell>
+              </TableRow>
+              <TableRow className={classes.tableRow}>
+                <TableCell>Electronics and Communication Engineering</TableCell>
+
+                <TableCell>
+                  <a
+                    href={require(`../../docs/${mece21}`)}
+                    download={`${mece21}`}
+                    className={classes.link}
+                  >
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    2021
                   </a>
                 </TableCell>
               </TableRow>

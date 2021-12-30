@@ -1,46 +1,250 @@
 {
-  "data": [
-    {
-      "title": "Recruitment of Consultant(Accounts) & Site Engineer(Civil) - Temporary basis",
-      "link": "Consultant_SiteEnggNov2020.pdf",
-      "text": "Recruitment of Consultant(Accounts) & Site Engineer(Civil) - Temporary basis",
-      "date": "20/8/2020"
-    },
-    {
-      "title": "PhD Admission Oct 2020",
-      "link": "http://phdadmission.iiitt.ac.in/",
-      "text": "PhD Admission Oct 2020",
-      "date": "October 2020"
-    },
-    {
-      "title": "UG Admission 2020-21",
-      "link": "http://www.iiitt.ac.in/admission_procedure",
-      "text": "UG Admission 2020-21",
-      "date": "August 2020"
-    },
-    {
-      "title": "Recruitment of Registrar, Deputy Registrar and Assistant Registrars on deputation basis",
-      "link": "PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
-      "text": "Recruitment of Registrar, Deputy Registrar and Assistant Registrars on deputation basis",
-      "date": "20/08/2020"
-    },
-    {
-      "title": "The COVID-19 Journey: From Crisis Management to Rebuilding",
-      "link": "PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
-      "text": "The COVID-19 Journey: From Crisis Management to Rebuilding",
-      "date": "20/08/2020"
-    },
-    {
-      "title": "Update: Ph.D - Interview date and time",
-      "link": "PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
-      "text": "Ph.D Interview date and time released.",
-      "date": "20/07/2020"
-    },
-    {
-      "title": "Ph.D - instructions for applicants called for interview",
-      "link": "Ph.D_instructions_for_applicants.pdf",
-      "text": "Instructions are given to the applicants which were called for interview.",
-      "date": "25/07/2020"
-    }
-  ]
+    "data": [
+        {
+            "isNew": true,
+            "title": "Wanted JRF in Mechanical Engineering Department, February 04, 2021",
+            "link": "downloads/news/JRFRecruitmentnotice_Application_IIITTMechanicalJan2021.pdf",
+            "text": "Wanted JRF in Mechanical Engineering Department, February 04, 2021"
+        },
+        {
+            "isNew": false,
+            "title": "JRF Shortlisted candidates for interview under SERB-DST Sponsored Project",
+            "link": "downloads/news/JRF_Shortlisted_Interview.pdf",
+            "text": "JRF Shortlisted candidates for interview under SERB-DST Sponsored Project"
+        },
+        {
+            "isNew": false,
+            "title": "JRF Position under SERB-DST Sponsored Project",
+            "link": "downloads/news/JRF_Ad_22_12_2020.pdf",
+            "text": "JRF Position under SERB-DST Sponsored Project"
+        },
+        {
+            "isNew": false,
+            "title": "B.Tech Semester (III, V, VII), Supplementary and PhD Results",
+            "link": "http://results.iiitt.ac.in",
+            "text": "B.Tech Semester (III, V, VII) & Supplementary and PhD course work results are available online from 9pm 4/Dec/2020"
+        },
+        {
+            "isNew": false,
+            "title": "Recruitment of Consultant(Accounts) & Site Engineer(Civil) - Temporary basis",
+            "link": "downloads/news/Consultant_SiteEnggNov2020.pdf",
+            "text": "Recruitment of Consultant(Accounts) & Site Engineer(Civil) - Temporary basis"
+        },
+        {
+            "isNew": false,
+            "title": "PhD Admission Oct 2020",
+            "link": "http://phdadmission.iiitt.ac.in",
+            "text": "PhD Admission Oct 2020"
+        },
+        {
+            "isNew": false,
+            "title": "UG Admission 2020-21",
+            "link": "admission",
+            "text": "UG Admission 2020-21"
+        },
+        {
+            "isNew": false,
+            "title": "2nd Convocation on 21-Nov-2020 at 11:00 am",
+            "link": "/convocation",
+            "text": "2nd Convocation on 21-Nov-2020 at 11:00 am"
+        },
+        {
+            "isNew": false,
+            "title": "Recruitment of Registrar, Deputy Registrar and Assistant Registrars on deputation basis",
+            "link": "/downloads/news/Non-Teaching-Recruitment-IIITT.doc",
+            "text": "Recruitment of Registrar, Deputy Registrar and Assistant Registrars on deputation basis"
+        },
+        {
+            "isNew": false,
+            "title": "Update: Ph.D - Interview date and time",
+            "link": "/downloads/news/PhD_Interview_date_and_time_updated_scheduleAug2020.pdf",
+            "text": "Update: Ph.D - Interview date and time"
+        },
+        {
+            "isNew": false,
+            "title": "Ph.D - instructions for applicants called for interview",
+            "link": "/downloads/news/Instructions_Interview-080820.pdf",
+            "text": "Ph.D - instructions for applicants called for interview"
+        },
+        {
+            "isNew": false,
+            "title": "List of Candidates shortlisted (Ph.D) for interview",
+            "link": "/downloads/news/ECE_CSE_MEC_SH-PhD_interview.pdf",
+            "text": "List of Candidates shortlisted (Ph.D) for interview"
+        },
+        {
+            "isNew": false,
+            "title": "Semester (II, IV, VI) Results",
+            "link": "http://results.iiitt.ac.in",
+            "text": "Semester (II, IV, VI) results published online"
+        },
+        {
+            "isNew": false,
+            "title": "7.Aug.2020 10AM onwards Conclave on Transformational Reforms in Higher Education under National Education Policy-2020",
+            "link": "https://www.youtube.com/watch?v=3_BMC27AGG8",
+            "text": "7.Aug.2020 10AM onwards Conclave on Transformational Reforms in Higher Education under National Education Policy-2020"
+        },
+        {
+            "isNew": false,
+            "title": "Ph.D - instructions for shortlisted applicants",
+            "link": "/downloads/news/PhD-Instructions1.pdf",
+            "text": "Ph.D - instructions for shortlisted applicants"
+        },
+        {
+            "isNew": false,
+            "title": "List of Candidates shortlisted (Ph.D) for online written examination",
+            "link": "/downloads/news/Ph.D_shortlisted_July_2020.pdf",
+            "text": "List of Candidates shortlisted (Ph.D) for online written examination"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Laptop - June 2020: Deadline Extended to 23.07.2020",
+            "link": "/june2020_dateextention",
+            "text": "Tender for Laptop - June 2020: Deadline Extended to 23.07.2020"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Laptop - June 2020",
+            "link": "/downloads/news/Tender_Laptops_2020_2.pdf",
+            "text": "Tender for Laptop - June 2020"
+        },
+        {
+            "isNew": true,
+            "title": "The COVID-19 Journey: From Crisis Management to Rebuilding",
+            "link": "https://youtu.be/4ztXfka2hNI",
+            "text": "The COVID-19 Journey: From Crisis Management to Rebuilding"
+        },
+        {
+            "isNew": false,
+            "title": "Recruitment for Officer on Special Duty",
+            "link": "/downloads/news/Advt_OSD.pdf",
+            "text": "Recruitment for Officer on Special Duty"
+        },
+        {
+            "isNew": false,
+            "title": "PhD Admission - Application",
+            "link": "http://phdadmission.iiittevents.in",
+            "text": "PhD Admission at IIIT Tiruchirappalli"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Laptop",
+            "link": "/downloads/Tender_Laptops-2020.pdf",
+            "text": "Tender for Laptop"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Video Coverage",
+            "link": "/downloads/Tender.videography.pdf",
+            "text": "Tender for Video Coverage"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Photography",
+            "link": "/downloads/Tender.Photography.pdf",
+            "text": "Tender for Photography"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for hiring of vehicle",
+            "link": "/downloads/notices/Tender-Hiring-of-Vehicle.pdf",
+            "text": "Tender for hiring of vehicle"
+        },
+        {
+            "isNew": false,
+            "title": "Date Extended for Manpower Agengy Tender",
+            "link": "/downloads/notices/NOTICE-HR_TENDER-DATE-EXTENDED.pdf",
+            "text": "Date Extended for Manpower Agengy Tender"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for hiring of bus Updated",
+            "link": "/downloads/tender-bus-ext.pdf",
+            "text": "Tender for hiring of bus services Updated"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Car hire",
+            "link": "/downloads/notices/TENDER-CAR-03.pdf",
+            "text": "Tender for Car hire"
+        },
+        {
+            "isNew": false,
+            "title": "Outsourcing of Manpower Services",
+            "link": "/downloads/notices/Manpower-Tender.pdf",
+            "text": "Outsourcing of Manpower Services Updated"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for hiring of bus services",
+            "link": "/downloads/notices/Transport_Tender.pdf",
+            "text": "Tender for hiring of bus services"
+        },
+        {
+            "isNew": false,
+            "title": "Tender Hiring of Vehicle",
+            "link": "/downloads/notices/Updated_Tender_Hiring_of_Vehicle-31.07.2019.pdf",
+            "text": "Tender Hiring of Vehicle"
+        },
+        {
+            "isNew": false,
+            "title": "Institute Reopen Circular",
+            "link": "/downloads/notices/Institute Reopen Circular.pdf",
+            "text": "Institute Reopen Circular Updated"
+        },
+        {
+            "isNew": false,
+            "title": "Tender for Hiring of Vehicles",
+            "link": "downloads/VEHICLE-TENDER-04-07-2019.pdf",
+            "text": "Tender for Hiring of Vehicles updated"
+        },
+        {
+            "isNew": false,
+            "title": "IIITT/MS Office & Imagine-Quote Call for/2018 ",
+            "link": "downloads/MS Office & OS Tender Notification.pdf",
+            "text": "Tender for Office Std 2016 SNGL OLP NL Acdmc<br/> (Office Standard 2016 Single Open No level Academic) <br/>Microsoft Imagine Premium subscription <br/>(formerly known as Microsoft Dreamspark Premium) May 16, 2018  "
+        },
+        {
+            "isNew": false,
+            "title": "IIITT/Student desk-Quote Call for/2018  ",
+            "link": "downloads/Student desk Tender Notification.pdf",
+            "text": "Tender for Steel bench & Desk Top; Wooden Novopen top with back rest, steel center plate full cover with attachment, May 10, 2018"
+        },
+        {
+            "isNew": false,
+            "title": "Opening and Closing Ranks in IIIT Tiruchirappalli",
+            "link": "downloads/admission/OpeningandClosingRank.pdf",
+            "text": "Opening and Closing Ranks in IIIT Tiruchirappalli"
+        },
+        {
+            "isNew": false,
+            "title": "Minutes of The BOG Meetings",
+            "link": "/administration",
+            "text": "Minutes of The five BOG Meetings have been uploaded here."
+        },
+        {
+            "isNew": false,
+            "title": "Admission for B.Tech. program 2017",
+            "link": "/admission",
+            "text": "Physically Reporting period starts from 22nd to 26th July, 2017."
+        },
+        {
+            "isNew": false,
+            "title": "JoSAA Choice Filling",
+            "link": "http://josaa.nic.in",
+            "text": "JoSAA Registration and Choice Filling starts from 15th to 26th June, 2017."
+        },
+        {
+            "isNew": false,
+            "title": "Seminar Talk on The Technical Challenges and Opportunities in Banking Services after Demonetization",
+            "link": "",
+            "text": "On 14th March 2017, seminar talk on The Technical Challenges and Opportunities in Banking Services after Demonetization will be delivered by Mr. Subramanian, Chief Information Officer & Head of Technology (South Asia), Citi Group."
+        },
+        {
+            "isNew": false,
+            "title": "Seminar Talk on Protecting Indian Cyber Space and its Critical Information Infrastructure from Hackers",
+            "link": "",
+            "text": "On 6th March 2017, a seminar talk on Protecting Indian Cyber Space and its Critical Information Infrastructure from hackers will be delivered by Mr. Ramanarayasamy, Co-founder of Senzwiz Technologies."
+        }
+    ]
 }

@@ -1,12 +1,30 @@
 {
   "data": [
     {
+      "title": "ACADEMIC CALENDAR (ODD SEMESTER / 2021-22 SESSION)",
+      "data": [
+        {
+          "title": "1. Academic Calendar ( B.Tech. (V, VII ) - July 2021 Session )",
+          "url": "ODDSemester2021-22.pdf"
+        },
+        {
+          "title": "2. Academic Calendar ( B.Tech. ( III ) - August 2021 Session )",
+          "url": "ODD_Semester_2021-22_II_year.pdf"
+        }
+      ]
+    },
+    {
       "title": "ACADEMIC CALENDAR (EVEN SEMESTER / 2020-21 SESSION)",
       "data": [
         {
           "title": "1. Academic Calendar ( B.Tech. ( IV, VI, VIII ) - Jan 2021 Session )",
           "url": "Academic_CalendarEVEN_Semester_2020-2021.pdf"
+        }, 
+        {
+          "title": "2. Academic Calendar ( B.Tech. ( II ) - April 2021 Session )",
+          "url": "EVEN_Semester_2020-21_FY.pdf"
         }
+
       ]
     },
     {

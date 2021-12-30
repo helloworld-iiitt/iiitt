@@ -42,6 +42,8 @@ export default function Holidays() {
 
   const file = "List_of_holidays_and_RH-2020.pdf";
   const file1 = "List_of_holidays_and_RH-2021.pdf";
+  const file2 = "List_of_holidays_and_RH-2022.pdf";
+
   const classes = createStyles();
 
   return (
@@ -61,15 +63,26 @@ export default function Holidays() {
             </Box>
           </Typography>
           <a
-            href={require(`../../docs/${file1}`)}
-            download={`${file}`}
+            href={require(`../../docs/${file2}`)}
+            download={`${file2}`}
             className={classes.link}
           >
             <img
               src={require("../../images/news-icon.svg")}
               className={classes.download}
             />
-            {file1.slice(0, file.length - 4)}
+            {file2.slice(0, file2.length - 4)}
+          </a>
+          <a
+            href={require(`../../docs/${file1}`)}
+            download={`${file1}`}
+            className={classes.link}
+          >
+            <img
+              src={require("../../images/news-icon.svg")}
+              className={classes.download}
+            />
+            {file1.slice(0, file1.length - 4)}
           </a>
           <a
             href={require(`../../docs/${file}`)}
@@ -82,7 +95,6 @@ export default function Holidays() {
             />
             {file.slice(0, file.length - 4)}
           </a>
-
         </Grid>
       </Grid>
       <Footer />

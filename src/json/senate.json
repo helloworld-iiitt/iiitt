@@ -66,7 +66,7 @@
       "senate": "Member"
     },
     {
-      "name": "Dr. Janakiraman",
+      "name": "Dr. D. Janakiraman",
       "designation": "Professor, CSE, IITM Chennai",
       "senate": "Member"
     },
@@ -76,7 +76,7 @@
       "senate": "Member"
     },
     {
-      "name": "Prof. Banshidhar Majhi",
+      "name": "Prof. D V L N Somayajulu",
       "designation": "Director, IIITDM Kancheepuram",
       "senate": "Member"
     },
@@ -96,14 +96,35 @@
       "senate": "Member"
     },
     {
-      "name": "Shri. Balaji Sethuraman",
-      "designation": "Asst. Vice President Global Delivery - Automation Leader",
+      "name": "Shri. Sureshkumar Selvaraj",
+      "designation": "Vice President Cognizant Technology Solutions, Chennai",
       "senate": "Member"
     },
     {
-      "name": "Ms. Symala Natarajan",
-      "designation": "Shyamala Jayaraman Senior Vice President Ramco Systems, Chennai",
+      "name": "Ms. Shymala Natarajan",
+      "designation": "Senior Vice President Ramco Systems, Chennai",
       "senate": "Member"
+    },
+    {
+      "name": "Dr. R. Dhanalakshmi",
+      "designation": "Head of Department, CSE Associate Professor, IIITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. Kamakshi K",
+      "designation": "Head of Department, DSH Assistant Professor, IIITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. Velmurugan. C",
+      "designation": "Head of Department, ME Assistant Professor, IIITT",
+      "senate": "Member"
+    },
+    {
+      "name": "Dr. G. Seetharaman",
+      "designation": "Registrar (i/c), Head of Department, ECE & Associate Professor, IIITT",
+      "senate": "Secretary"
     }
+    
   ]
 }

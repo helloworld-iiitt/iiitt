@@ -47,7 +47,7 @@ const PersonCard = (props) => {
 
           <div className="circle-img">
             <img
-              src={require(`../../images/people/${props.src_type}/${props.src}`)}
+              src={require('../../images/people/'+props.src_type+'/'+props.src)}
               alt="avatar_img"
             />
           </div>

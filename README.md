@@ -1,15 +1,47 @@
 ## Dev Repo for iiitt.ac.in
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### About Project
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is targeted to revamp the old Official website of IIIT Trichy. The new website will have
+advanced styling and interactive interface.
+
+### Installation and setup the project guidelines
+
+### `Clone`
+
+`gh repo clone helloworld-iiitt/iiitt.ac.in`
+
+### `Setup for first time`
+
+This command will install all necessary packages and add node_modules file.<br>
+`npm install`
+
+### `Run`
+
+`npm start` <br>
+
+### Contributing guidelines
+
+The contribution will be considered only if it is needed and valid.
+Adding new and innovative features are welcomed.
+
+### Contributors<br>
+
+[Fahad Israr](https://github.com/fahad-israr) <br>
+[Dinesh Vikram](https://github.com/dinskid) <br>
+[Nitish Kumar](https://github.com/thisisnitish) <br>
+[Mayank Sonkar](https://github.com/mayank2021) <br>
+[Sarthak Kumar](https://github.com/sarthak503) <br>
+
+<!-- ## Available Scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
@@ -21,11 +53,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Your app is ready be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
@@ -35,15 +67,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right inyour project so you have full control over them. All of the commands except `eject` will still work, but they will point the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
@@ -65,7 +97,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
+### `yarn build` fails minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
+ -->
