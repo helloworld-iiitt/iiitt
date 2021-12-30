@@ -33,22 +33,6 @@ export default function Staff() {
       <Grid container>
         <Grid item xs={false} sm={1} />
         <Grid container item xs={12} sm={10}>
-        <Grid item xs={12} sm={10}>
-            <Typography variant="h2" gutterBottom className={classes.title}>
-            Deputy Registrar
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-                  <PersonCard
-                    name={"Shri. Biju Mathew"}
-                    designation={"Deputy Registrar"}
-                    emailID={"dr@iiitt.ac.in"}
-                    src={"staff_5.jpg"}
-                    src_type="staff"
-                    researchArea=""
-                    mobile="9401144440"
-                  />
-                </Grid>
           <Grid item xs={12} sm={10}>
             <Typography variant="h2" gutterBottom className={classes.title}>
               Office staff
