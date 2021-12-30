@@ -1,17 +1,11 @@
 import React from "react";
 import Navbar from "../../components/navbar/index";
 import "../Admission_ug/index.css";
+import Footer from "../../components/footer";
 import {
   Typography,
   Grid,
   Box,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableContainer,
-  TableRow,
-  Paper,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -162,6 +156,7 @@ const Admission_program = () => {
           </div>
         </Grid>
       </Grid>
+      <Footer/>
     </div>
   );
 };

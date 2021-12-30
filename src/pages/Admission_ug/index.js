@@ -1,6 +1,7 @@
 import React from "react";
 import './index.css';
 import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer";
 import {Typography,
     Grid,
     Box,
@@ -363,6 +364,7 @@ const Admission_ug = () => {
           </section>
         </Grid>
       </Grid>
+      <Footer/>
     </div>
   );
 };
