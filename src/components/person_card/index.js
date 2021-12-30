@@ -3,6 +3,7 @@ import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Icon from '@material-ui/core/Icon';
 import MailIcon from '@material-ui/icons/Mail';
+import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import {
   BrowserRouter as Router,
   Route,
@@ -71,6 +72,16 @@ const PersonCard = (props) => {
               {props.emailID}
             </a>
           </div>
+          {
+            props.mobile?(
+              <div className="info-div">
+            <LocalPhoneIcon className="info-icon" />
+            <a href={`tel::${props.mobile}`} className="info">
+              {props.mobile}
+            </a>
+          </div>
+            ):null
+          }
         </div>
       </div>
     </>
