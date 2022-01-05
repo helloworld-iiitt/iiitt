@@ -91,24 +91,12 @@
       "icon": "note_add",
       "submenu": [
         {
-          "text": "Admission Procedure",
-          "link": "/admission_procedure"
-        },
-        {
-          "text": "Fee Structure",
-          "link": "/admission_fee_structure"
-        },
-        {
-          "text": "Admission Forms",
-          "link": "/admission_forms"
+          "text": "Admission",
+          "link": "/admission"
         },
         {
           "text": "Anti Ragging Committee",
           "link": "/anti_ragging_committee"
-        },
-        {
-          "text": "Contact",
-          "link": "/admission_contact"
         }
       ]
     },

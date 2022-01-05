@@ -9,6 +9,9 @@ import {
   Collapse,
   IconButton,
 } from "@material-ui/core";
+import {
+  Link,
+} from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import clsx from "clsx";
@@ -26,9 +29,8 @@ const createStyles = makeStyles({
 });
 
 export default function Faq(props) {
-  const question = props.question;
-  const answer = props.answer;
-  const color = props.color;
+
+  const { question, answer, questionNumber } = props;
 
   const classes = createStyles(props);
 
@@ -61,7 +63,10 @@ export default function Faq(props) {
           unmountOnExit
           className={classes.answer}
         >
-          <CardContent className={classes.text}>{answer}</CardContent>
+          <CardContent className={classes.text}>
+            {answer}
+            {questionNumber === 11 ? <Link style={{display: 'inline'}} to='/contactus'>location page for more information.</Link> : null}
+          </CardContent>
         </Collapse>
       </Card>
     </>
