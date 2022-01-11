@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import IconButton from "@material-ui/core/IconButton";
+import Icon from "@material-ui/core/Icon";
 import MenuIcon from "@material-ui/icons/Menu";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
@@ -64,6 +65,23 @@ export default function TemporaryDrawer(props) {
           </Link>
         )}
         {props.items.map((menu_item, index) => {
+          if(menu_item.name)
+            {
+            return (
+              <div className="single_navmob">
+                <ListItemIcon className="scholaricon">
+                  <Icon>{menu_item.icon}</Icon>
+                  {/* <HomeIcon color="rgba(0,0,0,0.54)" nopadding /> */}
+                  {/* {console.log(menu_item.icon)} */}
+                </ListItemIcon>
+              <Link
+                to={menu_item.name}
+                draggable="false"
+                className="single_nav_routesmob"
+              >{menu_item.text}</Link>
+              </div>
+            );
+          } else {
           return (
             <NestedList
               menu={menu_item}
@@ -71,6 +89,7 @@ export default function TemporaryDrawer(props) {
               anchor={anchor}
             />
           );
+          }
         })}
       </List>
       <Divider />

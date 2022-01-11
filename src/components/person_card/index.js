@@ -72,16 +72,9 @@ const PersonCard = (props) => {
               {props.emailID}
             </a>
           </div>
-          {
-            props.mobile?(
-              <div className="info-div">
-            <LocalPhoneIcon className="info-icon" />
-            <a href={`tel::${props.mobile}`} className="info">
-              {props.mobile}
-            </a>
+          <div className="info-div">
+          <a href={`Phone:${props.phone}`} style={{color:"white"}}>{props.phone}</a>
           </div>
-            ):null
-          }
         </div>
       </div>
     </>

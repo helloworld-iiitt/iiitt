@@ -1,0 +1,94 @@
+.container {
+    padding: 1rem 1rem;
+  }
+
+.themeText {
+    color: #30a362;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+.media {
+    height: 15rem;
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #2e8b57;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+.card {
+  padding-top: 2rem;
+    width: auto;
+    height: auto;
+    display:block;
+    justify-content:center;
+  }
+
+.info {
+    color: black;
+    text-align:center;
+  }
+
+.rti {
+  width: 40%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.title {
+    /* width:100%; */
+    font-size: 1.5rem;
+    text-align:center;
+  }
+  
+.head {
+    width: 100%;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    /* background-color: blue; */
+  }
+  .heading {
+    color: #30a362;
+    text-align: center;
+  }
+.name {
+    display:flex;
+    justify-content:center;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .head{
+        width: 100%;
+        display: block;
+    }
+    .themeText {
+      padding-top: 2rem;
+    }
+    .heading {
+        color: #30a362;
+        padding-top: 2rem;
+      }
+    .name {
+        width: 100%;
+        display:block;
+        justify-content:center;
+        font-weight: 700;
+      }
+    .info {
+        color: black;
+        text-align:center;
+      }
+    .title {
+      width: 80%;
+    }
+    .rti {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }

@@ -9,42 +9,7 @@ import {
   CardMedia,
   CardContent,
 } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-
-const createStyles = makeStyles({
-  container: {
-    padding: "1rem 1rem",
-  },
-  themeText: {
-    color: "#2e8b57",
-  },
-  link: {
-    display: "inline-block",
-    paddingTop: "1rem",
-    fontWeight: "500",
-    width: "auto",
-    textDecoration: "none",
-    "&:hover": {
-      textDecoration: "underline",
-      color: "blueviolet",
-    },
-  },
-  media: {
-    height: "15rem",
-    width: "12rem",
-    marginLeft: "auto",
-    marginRight: "auto",
-    border: "1px solid #2e8b57",
-    borderRadius: "4px",
-    padding: "0.5rem",
-  },
-  card: {
-    padding: "1rem",
-  },
-  title: {
-    fontSize: "1.5rem",
-  },
-});
+import "./style.css";
 
 export default function RTI() {
   useEffect(() => {
@@ -59,88 +24,75 @@ export default function RTI() {
   const [rti, setRti] = useState(undefined);
   useEffect(() => {
     import("../../json/rti.json").then((data) => {
-      setRti(data);
+      setRti(data.data);
     });
   }, []);
-  const classes = createStyles();
+  // const classes = createStyles();
   return (
-    <div className="page-container">
+    <div className="pagecontainer">
       <Navbar />
-      <Grid container className={classes.container}>
-        <Grid item xs={false} sm={1} />
-        <Grid item xs={12} sm={10}>
           <Typography
             variant="h2"
             component="h2"
             gutterBottom
-            className={classes.themeText}
+            className="heading"
           >
-            <Box component="span" fontWeight={380}>
+            <Box component="span" fontWeight={380} paddingTop={"2rem"}>
               RTI
             </Box>
           </Typography>
-          <Typography
-            variant="subtitle1"
-            gutterBottom
-            className={classes.title}
+          <Typography 
+              variant="subtitle1"
+              gutterBottom
+              className="head"
           >
-            <Box
-              component="h3"
-              fontWeight="fontWeightBold"
-              className={classes.themeText}
-            >
-              CPIO (Mentor Registrar, IIIT Trichy)
-            </Box>
-          </Typography>
-          <br />
-          <Grid item xs={12} sm={4}>
-            {rti && (
-              <Card className={classes.card}>
-                <Grid container>
-                  <Grid item xs={12}>
-                    <CardMedia
-                      className={classes.media}
-                      image={require(`../../images/${rti.image}`)}
+            {rti && rti.map((rti) => {
+              return (
+              <div className="rti">
+              <Typography
+                  variant="subtitle1"
+                  gutterBottom
+                  className="title"
+              >
+             <Box
+                component="h3"
+                fontWeight="fontWeightBold"
+                className="themeText"
+              >
+                {rti.head}
+              </Box>
+              <Card className="card">
+              <CardMedia
+                      className="media"
+                      image={require(`../../images/${rti.src}`)}
                       title="Mentor Registrar"
                     />
-                  </Grid>
                   <CardContent>
-                    <Typography variant="body" gutterBottom>
-                      <Box component="span" fontSize="2rem" gutterBottom>
-                        {rti.name}
+                    <Typography variant="body" gutterBottom className="info">
+                      <Box component="span" component="h2" gutterBottom>                        
+                         {rti.name}
                       </Box>
                       <br />
-                      <Box fontSize="1rem">{rti.designation}</Box>
+                    <Typography className={rti.cls}>
+                        <Box fontSize="1.3rem">{rti.designation}</Box>
                       <br />
-                      <a href={`mailto:${rti.emailID}`}>{rti.emailID}</a>
-                      {rti.emailIDSecondary && (
-                        <>
-                          ,&nbsp;
-                          <a href={`mailto:${rti.emailID}`}>
-                            {rti.emailIDSecondary}
-                          </a>
-                        </>
-                      )}
+                        <a href={`mailto:${rti.emailID}`}>{rti.emailID}</a>
                       <br />
-                      <a href={`tel:${rti.mobileNo}`}>{rti.mobileNo}</a>
+                        {/* <a href={`tel:${rti.phone}`}>{rti.phone}</a> */}
                       <br />
-                      {rti.fax && <a href={`fax:${rti.fax}`}>{rti.fax}</a>}
+                        {rti.fax && <a href={`fax:${rti.fax}`}>{rti.fax}</a>}
                       <br />
-                    </Typography>
+                      </Typography>
+                      </Typography>
                   </CardContent>
-                </Grid>
+                   <br />
               </Card>
-            )}
-          </Grid>
-          <a
-            href="https://www.nitt.edu/home/administration/registrar/"
-            className={classes.link}
-          >
-            Know more about out Mentor Registrar
-          </a>
-        </Grid>
-        <Grid item xs={false} sm={1} />
-      </Grid>
+              </Typography>
+              </div>
+              )
+            })
+          }
+          </Typography>
       <Footer />
     </div>
   );

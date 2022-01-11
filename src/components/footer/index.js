@@ -56,28 +56,28 @@ const Footer = () => {
           <div className="acedemics">
             <h2>Academics</h2>
             <div className="main-hr ace"></div>
-            <a href="departments">Department</a>
+            <a href="/departments">Department</a>
             <hr />
-            <a href="curriculum">Curriculum</a>
+            <a href="/curriculum">Curriculum</a>
             <hr />
-            <a href="programs">Programs</a>
+            <a href="/programs">Programs</a>
             <hr />
-            <a href="calendar">Calender</a>
+            <a href="/calendar">Calender</a>
             <hr />
-            <a href="holidays">Holidays</a>
+            <a href="/holidays">Holidays</a>
           </div>
           <div className="line"></div>
           <hr className="mobile" />
           <div className="quick-explore">
             <h2>Quick Explore</h2>
             <div className="main-hr  quick-ex"></div>
-            <a href="anti_ragging_committee">Anti Ragging Committee</a>
+            <a href="/anti_ragging_committee">Anti Ragging Committee</a>
             <hr />
-            <a href="admission_procedure">Admission Procedure</a>
+            <a href="/admission_procedure">Admission Procedure</a>
             <hr />
-            <a href="admission_fee_structure">Fee Structure</a>
+            <a href="/admission_fee_structure">Fee Structure</a>
             <hr />
-            <a href="faq">FAQ's</a>
+            <a href="/faq">FAQ's</a>
           </div>
           <div className="last line"></div>
           <hr className="mobile" />
