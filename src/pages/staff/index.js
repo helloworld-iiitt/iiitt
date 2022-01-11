@@ -49,7 +49,7 @@ export default function Staff() {
             return (
               <>
               <Typography gutterBottom className="card2">
-                <Grid item xs={12} md={4} className="card1">
+                {/* <Grid item xs={18} md={4} className="card1"> */}
                   <PersonCard
                     name={name}
                     designation={designation}
@@ -59,7 +59,7 @@ export default function Staff() {
                     src_type="staff"
                     researchArea=""
                   />
-                </Grid>
+                {/* </Grid> */}
                 </Typography>
               </>
             );
@@ -67,7 +67,7 @@ export default function Staff() {
           </Grid>
           </Typography>
           </Typography>
-        <Grid item xs={false} sm={1} />
+        {/* <Grid item xs={false} sm={1} /> */}
         </Typography>
       <div style={{ height: "90px" }}></div>
       <Footer />

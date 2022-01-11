@@ -6,6 +6,7 @@
     color: #30a362;
     text-align: center;
     font-size: 1.5rem;
+    padding-bottom: 2rem;
   }
 
 .media {
@@ -19,6 +20,7 @@
   }
   
 .card {
+  padding-top: 2rem;
     width: auto;
     height: auto;
     display:block;
@@ -27,53 +29,66 @@
 
 .info {
     color: black;
-    /* padding-left:33rem; */
     text-align:center;
   }
 
+.rti {
+  width: 40%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .title {
-    width:100%;
+    /* width:100%; */
     font-size: 1.5rem;
     text-align:center;
   }
   
 .head {
+    width: 100%;
     text-align:center;
     display:flex;
     justify-content:center;
+    /* background-color: blue; */
   }
   .heading {
     color: #30a362;
     text-align: center;
   }
 .name {
-    width: 35rem;
-    display:block;
+    display:flex;
     justify-content:center;
     color: black;
 }
-.biju {
-  padding-bottom: 1.5rem;
-}
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .head{
+        width: 100%;
         display: block;
+    }
+    .themeText {
+      padding-top: 2rem;
     }
     .heading {
         color: #30a362;
-        text-align: center;
         padding-top: 2rem;
       }
     .name {
-        width: auto;
+        width: 100%;
         display:block;
         justify-content:center;
         font-weight: 700;
       }
     .info {
         color: black;
-        padding-left:13rem;
         text-align:center;
       }
+    .title {
+      width: 80%;
+    }
+    .rti {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
   }
