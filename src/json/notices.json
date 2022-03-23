@@ -1,586 +1,958 @@
 {
-    "data": [
-        {
-            "isNew": true,
-            "title": "72nd Republic Day Celebration - 26.01.2021",
-            "link": "/downloads/notices/CIRCULAR_Republic_day_26012021.pdf",
-            "text": "72nd Republic Day Celebration - 26.01.2021"
-        },
-        {
-            "isNew": false,
-            "title": "CT1 Exam Schedule ODD Semester 2020-21",
-            "link": "/docs/notices/ExamSchedule_CT1_2020-21_ODD.pdf",
-            "text": "CT1 Exam Schedule ODD Semester 2020-21"
-        },
-        {
-            "isNew": false,
-            "title": "Revised Fee Structure 2020-21 (Even Semester)",
-            "link": "/downloads/notices/RevisedFeeStructure2020-21-EvenSem.pdf",
-            "text": "Revised Fee Structure 2020-21 (Even Semester)"
-        },
-        {
-            "isNew": false,
-            "title": "PhD Admission Even Semester 2020-21 list",
-            "link": "/downloads/notices/PhdAdmission_Dec2020.pdf",
-            "text": "PhD Admission Even Semester 2020-21 list"
-        },
-        {
-            "isNew": false,
-            "title": "PhD Admission Dec 2020: Interviews Schedule",
-            "link": "/downloads/notices/IIITT-PhD_Interviews-Schedule_2020.pdf",
-            "text": "PhD Admission Dec 2020: Interviews Schedule"
-        },
-        {
-            "isNew": false,
-            "title": "PhD Admission: List of shortlisted candidated for online interview",
-            "link": "/downloads/notices/phd_shortlisted_consolidated_dec2020.pdf",
-            "text": "PhD Admission: List of shortlisted candidated for online interview"
-        },
-        {
-            "isNew": false,
-            "title": "UG Admission: Students admitted (till 2-Dec-2020)",
-            "link": "/downloads/admission/students-admitted.pdf",
-            "text": "UG Admission: Students admitted (till 2-Dec-2020)"
-        },
-        {
-            "isNew": false,
-            "title": "PhD Admission January 2021 session: Interview Schedule",
-            "link": "/downloads/notices/PhD_Interviews-ScheduleJan2021.pdf",
-            "text": "PhD Admission January 2021 session: Interview Schedule"
-        },
-        {
-            "isNew": false,
-            "title": "2020-21 Fee Structure (New Admission)",
-            "link": "/downloads/notices/2020-21-Fee_Structure_New_Admission.pdf",
-            "text": "2020-21 Fee Structure (New Admission)"
-        },
-        {
-            "isNew": false,
-            "title": "PhD Admission January 2021 session: Candidates called for Written test",
-            "link": "/downloads/notices/PhD_all_shortlisted-Dec_2020.pdf",
-            "text": "PhD Admission January 2021 session: Candidates called for Written test"
-        },
-        {
-            "isNew": false,
-            "title": "End (Odd) Semester (regular/supplementary) examinations (theory/laboratory), Nov-2020",
-            "link": "/endsem2020-21-SemIschedule",
-            "text": "End (Odd) Semester (regular/supplementary) examinations (theory/laboratory), Nov-2020"
-        },
-        {
-            "isNew": false,
-            "title": "Supplementary Exam Notice November 2020",
-            "link": "/downloads/notices/SupplementaryNoticeRegistrationFormDec2020.pdf",
-            "text": "Supplementary Exam Notice November 2020"
-        },
-        {
-            "isNew": false,
-            "title": "(Revised) Exam Schedule CT2 2020-21 Ph.D I Semester",
-            "link": "/downloads/notices/ExamSchedule_CT2_2020-21_Ph.D_I_sem.pdf",
-            "text": "(Revised) Exam Schedule CT2 2020-21 Ph.D I Semester"
-        },
-        {
-            "isNew": false,
-            "title": "Exam Schedule CT2 2020-21 B.Tech ODD Semester",
-            "link": "/downloads/notices/ExamSchedule_CT2_2020-21_BTECH_ODD.pdf",
-            "text": "Exam Schedule CT2 2020-21 B.Tech ODD Semester"
-        },
-        {
-            "isNew": false,
-            "title": "Exam Schedule CT1 2020-21 Ph.D I Semester",
-            "link": "/downloads/notices/Exam_Schedule_CT1_2020-21_Ph.D_I_sem.pdf",
-            "text": "Exam Schedule CT1 2020-21 Ph.D I Semester"
-        },
-        {
-            "isNew": false,
-            "title": "(REVISED 16.09.2020) Exam Schedule CT1 2020-21 Odd Semester",
-            "link": "/downloads/notices/Exam_Schedule_CT1_2020-21_ODD.pdf",
-            "text": "(REVISED 16.09.2020) Exam Schedule CT1 2020-21 Odd Semester"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-11",
-            "link": "/downloads/notices/COVID19_Notice11.pdf",
-            "text": "COVID-19 Notice-11"
-        },
-        {
-            "isNew": false,
-            "title": "Revised Fee Structure ODD Sem 2020-21",
-            "link": "/downloads/notices/Revised_Fee_Structure_2020-21_Odd.pdf",
-            "text": "Revised Fee Structure ODD Sem 2020-21"
-        },
-        {
-            "isNew": false,
-            "title": "List of selected candidates for Ph.D",
-            "link": "/downloads/notices/Final_Ph.D_2020_selected_list.pdf",
-            "text": "List of selected candidates for Ph.D"
-        },
-        {
-            "isNew": false,
-            "title": "74th Independence Day celebration",
-            "link": "/downloads/notices/74thIndependenceDayCelebrations_circular.pdf",
-            "text": "74th Independence Day celebration"
-        },
-        {
-            "isNew": false,
-            "title": "Ph.D Fee structure 2020 (With fine)",
-            "link": "/downloads/notices/Ph.D_fee_structure_2020_with_fine.pdf",
-            "text": "Ph.D Fee structure 2020 (With fine)"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-10",
-            "link": "/downloads/notices/COVID19_Notice10.pdf",
-            "text": "COVID-19 Notice-10"
-        },
-        {
-            "isNew": false,
-            "title": "Academic Calendar ODD Sem 2020-21",
-            "link": "/downloads/notices/Academic_CalendarODD_Semester_2020-2021.pdf",
-            "text": "Academic Calendar ODD Sem 2020-21"
-        },
-        {
-            "isNew": false,
-            "title": "Fee Structure ODD Sem 2020-21",
-            "link": "/downloads/notices/Fee_Structure_ODD_2020-2021.pdf",
-            "text": "Fee Structure ODD Sem 2020-21"
-        },
-        {
-            "isNew": false,
-            "title": "Internship Review and Industrial Lecture Exam schedule",
-            "link": "/downloads/notices/19-20-S2-VI-INTERN-INDUSLECTURE.pdf",
-            "text": "Internship Review and Industrial Lecture Exam schedule"
-        },
-        {
-            "isNew": false,
-            "title": "Lab exam schedule",
-            "link": "/downloads/notices/19-20-S2-ALL-END-LAB-FINAL.pdf",
-            "text": "Lab exam schedule"
-        },
-        {
-            "isNew": false,
-            "title": "Regular exam instructions",
-            "link": "/downloads/notices/19-20-S2-Regular-exam-Instructions2.pdf",
-            "text": "Regular exam instructions"
-        },
-        {
-            "isNew": false,
-            "title": "Supplementary exam instructions",
-            "link": "/downloads/notices/19-20-S2-Supply-exam-Instructions2.pdf",
-            "text": "Supplementary exam instructions"
-        },
-        {
-            "isNew": false,
-            "title": "Examination Timetable IV and VI Semester",
-            "link": "/downloads/notices/19-20-S2-Timetable-IVandVISemwithoutR_No.pdf",
-            "text": "Examination Timetable IV and VI Semester"
-        },
-        {
-            "isNew": false,
-            "title": "Examination Timetable II Semester",
-            "link": "/downloads/notices/19-20-S2-Timetable-IISem.pdf",
-            "text": "Examination Timetable II Semester"
-        },
-        {
-            "isNew": false,
-            "title": "Supplementary Examination Schedule",
-            "link": "/downloads/notices/19-20-S2-Supplementary_schedule2.pdf",
-            "text": "Supplementary Examination Schedule"
-        },
-        {
-            "isNew": false,
-            "title": "Lab Examinations (Even Semester) Schedule (Tentative)",
-            "link": "/downloads/notices/19-20-S2-ALL-END-LAB-TENTATIVE.pdf",
-            "text": "Lab Examinations (Even Semester) Schedule (Tentative)"
-        },
-        {
-            "isNew": false,
-            "title": "End Semester Examinations (Even Semester) Schedule (Tentative) Regular and Supplementary",
-            "link": "/downloads/notices/19-20-S2-ALL-END-REG-SUPPLEMENTARY-TENTATIVE.pdf",
-            "text": "End Semester Examinations (Even Semester) Schedule (Tentative) Regular and Supplementary"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-9",
-            "link": "/downloads/notices/COVID19_Notice9.pdf",
-            "text": "COVID-19 Notice-9"
-        },
-        {
-            "isNew": false,
-            "title": "Final Year End Semester Regular examination",
-            "link": "/downloads/notices/19-20-S2-END-REGULAR.pdf",
-            "text": "Final Year End Semester Regular examination"
-        },
-        {
-            "isNew": false,
-            "title": "Final Year End Semester Supplementary examination",
-            "link": "/downloads/notices/19-20-S2-END-SUPPLY.pdf",
-            "text": "Final Year End Semester Supplementary examination"
-        },
-        {
-            "isNew": false,
-            "title": "REDO CT-II examination",
-            "link": "/downloads/notices/19-20-S2-REDO-CT-II.pdf",
-            "text": "REDO CT-II examination"
-        },
-        {
-            "isNew": false,
-            "title": "REDO End Semester examination",
-            "link": "/downloads/notices/19-20-S2-REDO-END.pdf",
-            "text": "REDO End Semester examination"
-        },
-        {
-            "isNew": false,
-            "title": "Final Year CT2 Circular",
-            "link": "/downloads/notices/19-20-S2-Finalyear_CT2_Circular.pdf",
-            "text": "Final Year CT2 Circular"
-        },
-        {
-            "isNew": true,
-            "title": "Social_Distancing_Circular",
-            "link": "/downloads/notices/Social_Distancing_Circular.pdf",
-            "text": "Circular on Social Distancing"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-8",
-            "link": "/downloads/notices/COVID19_Notice8.pdf",
-            "text": "COVID-19 Notice-8"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-7",
-            "link": "/downloads/notices/COVID19_Notice7.pdf",
-            "text": "COVID-19 Notice-7"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-6",
-            "link": "/downloads/notices/COVID19_Notice6.pdf",
-            "text": "COVID-19 Notice-6"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-5",
-            "link": "/downloads/notices/COVID19_Notice5.pdf",
-            "text": "COVID-19 Notice-5"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-4",
-            "link": "/downloads/notices/COVID19_Notice4.pdf",
-            "text": "COVID-19 Notice-4"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-3",
-            "link": "/downloads/notices/COVID19_Notice3.pdf",
-            "text": "COVID-19 Notice-3"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice-2",
-            "link": "/downloads/notices/COVID19_Notice2.pdf",
-            "text": "COVID-19 Notice-2"
-        },
-        {
-            "isNew": false,
-            "title": "COVID-19 Notice",
-            "link": "/downloads/notices/COVID19_Notice.pdf",
-            "text": "COVID-19 Notice"
-        },
-        {
-            "isNew": false,
-            "title": "Exemption from Biometric attendance",
-            "link": "/downloads/notices/Biometric_Exemption-2020.pdf",
-            "text": "Exemption from Biometric attendance"
-        },
-        {
-            "isNew": false,
-            "title": "Requesting restriction on Holi celebration due to uncontrolled COVID19 spread",
-            "link": "/downloads/notices/COVID19_Holi_Circular.pdf",
-            "text": "Requesting restriction on Holi celebration due to uncontrolled COVID19 spread"
-        },
-        {
-            "isNew": false,
-            "title": "BioMetric Attendance for Punctuality Maintenance",
-            "link": "/downloads/notices/Circular- Bio_Metric_Attendance.pdf",
-            "text": "BioMetric Attendance for Punctuality Maintenance"
-        },
-        {
-            "isNew": false,
-            "title": "Faculty Members Additional Roles.",
-            "link": "/downloads/notices/Faculty-Additional-Roles.pdf",
-            "text": "Faculty Members Additional Roles."
-        },
-        {
-            "isNew": false,
-            "title": "2019-20 Even Semester Timetable.",
-            "link": "/downloads/notices/2019-20_Even sem_Timetable.pdf",
-            "text": "2019-20 Even Semester Timetable."
-        },
-        {
-            "isNew": false,
-            "title": "Circular for attendance",
-            "link": "/downloads/notices/circular.pdf",
-            "text": "Circular for attendance"
-        },
-        {
-            "isNew": false,
-            "title": "Temporary Faculty Recruitment",
-            "link": "/downloads/notices/IIITT_Temp_faculty_recruitment_Dec_2019.pdf",
-            "text": "Temporary Faculty Recruitment"
-        },
-        {
-            "isNew": false,
-            "title": "Recruitment of Registrar/Assistant Registrar on Deputation basis",
-            "link": "/downloads/notices/Reg-AR-advt.pdf",
-            "text": "Recruitment of Registrar/Assistant Registrar on Deputation basis"
-        },
-        {
-            "isNew": false,
-            "title": "Hostel Accommodation",
-            "link": "/downloads/notices/Accommodation-NOTICE.pdf",
-            "text": "Hostel Accommodation"
-        },
-        {
-            "isNew": false,
-            "title": "List of Candidates Selected for the post of Temporary Faculty",
-            "link": "/downloads/notices/selection.pdf",
-            "text": "List of Candidates Selected for the post of Temporary Faculty"
-        },
-        {
-            "isNew": false,
-            "title": "IIITT/R/TF-2019/02 Notification for Walk-in Interview for the Temporary Faculty. Soft copies are invited. ",
-            "link": "/downloads/notices/Notification-for-Walk-in-Interview-for-the-Temprorary-Faculty.pdf",
-            "text": "IIITT/R/TF-2019/02 Notification for Walk-in Interview for the Temporary Faculty. Soft copies are invited. "
-        },
-        {
-            "isNew": false,
-            "title": "Institute Reopen Circular",
-            "link": "/downloads/notices/Institute Reopen Circular.pdf",
-            "text": "Institute Reopen Circular Updated"
-        },
-        {
-            "isNew": false,
-            "title": " IIITT/R/1/2019-20: Notification for Regular Faculty Recruitment - Online Applications are invited ",
-            "link": "http://www.iiittrichy.in",
-            "text": " IIITT/R/1/2019-20: Notification for Regular Faculty Recruitment - Online Applications are invited"
-        },
-        {
-            "isNew": false,
-            "title": "Fee Structure for the AY 2019-20 ",
-            "link": "/downloads/notices/Fee Structure 2019-20.pdf",
-            "text": "Fee Structure for the AY 2019-20 "
-        },
-        {
-            "isNew": false,
-            "title": "Walk-in-Interview for the post of Consultants",
-            "link": "/downloads/notices/Walk-in for Consultant.pdf",
-            "text": "Walk-in-Interview for the post of Consultants"
-        },
-        {
-            "isNew": false,
-            "title": "Non Teaching post Recruitment Advertisement",
-            "link": "/downloads/notices/NT-Advertisment-Jan-2019.pdf",
-            "text": "Non Teaching post Recruitment Advertisement"
-        },
-        {
-            "isNew": false,
-            "title": "Selected Candidates for the post of Temporary Faculty",
-            "link": "/downloads/notices/Selected-TF.pdf",
-            "text": "Selected Candidates for the post of Temporary Faculty"
-        },
-        {
-            "isNew": false,
-            "title": "Walk-In-Interview For The Temporary Faculty",
-            "link": "/downloads/notices/IIITT%20temp.faculty_Walk-in%20Jan%202019.pdf",
-            "text": "Walk-In-Interview For The Temporary Faculty"
-        },
-        {
-            "isNew": false,
-            "title": "Application Form for Temporary Faculty",
-            "link": "/downloads/notices/Application_TEMP_WALKIN%20IIITT.pdf",
-            "text": "Application Form for Temporary Faculty"
-        },
-        {
-            "isNew": false,
-            "title": "Vacation Circular",
-            "link": "/downloads/Vacation%20Circular.pdf",
-            "text": "Vacation Circular"
-        },
-        {
-            "isNew": false,
-            "title": "Recruitment of Office Assistant (Leave Vacancy)",
-            "link": "/downloads/notices/OfficeAsst.pdf",
-            "text": "Recruitment of Office Assistant (Leave Vacancy)"
-        },
-        {
-            "isNew": true,
-            "title": "CGPA to Percentage Conversion",
-            "link": "/downloads/notices/CGPA.pdf",
-            "text": "CGPA to Percentage Conversion"
-        },
-        {
-            "isNew": false,
-            "title": "Time Table For Odd Semester CSE AY 2018-19",
-            "link": "/downloads/notices/CSE_ODDsem_Timetable(18-19).pdf",
-            "text": "Time Table For Odd Semester CSE AY 2018-19"
-        },
-        {
-            "isNew": false,
-            "title": "Time Table For Odd Semester ECE AY 2018-19",
-            "link": "/downloads/notices/ECE_ODDsem_Timetable(18-19).pdf",
-            "text": "Time Table For Odd Semester ECE AY 2018-19"
-        },
-        {
-            "isNew": false,
-            "title": "Time Table For I Semester (2018-19)",
-            "link": "/downloads/notices/I-Sem-TimeTable(18-19).pdf",
-            "text": "Time Table For I Semester (2018-19)"
-        },
-        {
-            "isNew": true,
-            "title": "Leave Form",
-            "link": "/downloads/notices/LeaveForm.pdf",
-            "text": "Leave Form"
-        },
-        {
-            "isNew": false,
-            "title": "Shortlisted for written test - MTS",
-            "link": "/downloads/notices/Shortlisted-mts.pdf",
-            "text": "Shortlisted for written test for the post of Multi-Tasking Staff"
-        },
-        {
-            "isNew": false,
-            "title": "Awareness programme on Environmental Hazards of Electronic Waste",
-            "link": "/downloads/MHRD ewaste.pdf",
-            "text": "Awareness programme on Environmental Hazards of Electronic Waste"
-        },
-        {
-            "isNew": false,
-            "title": "Recruitment of Faculty members on Deputation",
-            "link": "/downloads/notices/Notification- Associate Professor.pdf",
-            "text": "Recruitment of Faculty members on Deputation"
-        },
-        {
-            "isNew": false,
-            "title": "Gazette Notification 2017",
-            "link": "/downloads/gazetteofindia.pdf",
-            "text": "Gazette Notification 2017."
-        },
-        {
-            "isNew": false,
-            "title": "Annual Report 2017-18",
-            "link": "/downloads/ANNUAL REPORT (2017-18).pdf",
-            "text": "IIITT Annual Report 2017-18."
-        },
-        {
-            "isNew": false,
-            "title": "Non-Teaching Staff Recruitment 2017- Selected Candidates List",
-            "link": "/downloads/Non-Teaching_staff_recruitment-2017-Selected_Candidates_List.pdf",
-            "text": "Non-Teaching staff Recruitment 2017 - List of Selected Candidates."
-        },
-        {
-            "isNew": false,
-            "title": "Non-Teaching Staff Recruitment 2017- Written Test Schedule",
-            "link": "/downloads/Non-Teaching_staff_recruitment-2017-written_test_schedule.pdf",
-            "text": "Non-Teaching staff Recruitment 2017 written Test Schedule details."
-        },
-        {
-            "isNew": false,
-            "title": "Fee Structure",
-            "link": "/downloads/Fee_Structure_for_Even_Sem_(2017-18).pdf",
-            "text": "INSTITUTE FEES & HOSTEL FEES – II/IV/VI  SEMESTER  AY 2017-18"
-        },
-        {
-            "isNew": false,
-            "title": "Admission Notice JEE Main",
-            "link": "/downloads/ADMISSION_NOTICE_JEE_(MAIN)–2018.pdf",
-            "text": "ADMISSION NOTICE  JEE (MAIN) – 2018 "
-        },
-        {
-            "isNew": false,
-            "title": "Academic Calender of AY 2017-18 Even Semester",
-            "link": "/downloads/Academic_Calendar_(2017-18)_Even_semester.pdf",
-            "text": "Academic Calender of AY 2017-18 for VI, IV and II Semester"
-        },
-        {
-            "isNew": false,
-            "title": "Orientation Program for I Year",
-            "link": "/downloads/Orientation_Program.pdf",
-            "text": "Schedule and Bridge Course Schedule of Orientation Program, 2017-18"
-        },
-        {
-            "isNew": false,
-            "title": "Academic Calender of AY 2017-18",
-            "link": "/downloads/Academic_Calendar.pdf",
-            "text": "Academic Calender of AY 2017-18 for V, III and I Semester"
-        },
-        {
-            "isNew": false,
-            "title": "Admission 2017 Reporting Details *REVISED*",
-            "link": "/downloads/Admission_2017_Reporting_Schedule.pdf",
-            "text": "Reporting Details, Fee Structure and General Details"
-        },
-        {
-            "isNew": false,
-            "title": "Faculty Career",
-            "link": "/facultycareer",
-            "text": "Temporary Faculty Recruitment"
-        },
-        {
-            "isNew": false,
-            "title": "No Dues Certificate",
-            "link": "/downloads/IIITT-No-dues-Certificate.pdf",
-            "text": "No Dues Certificate for IIIT Trichy Students"
-        },
-        {
-            "isNew": false,
-            "title": "Application for Vacating Hostel and Mess",
-            "link": "/downloads/IIITT-Application-vacating-hostel-mess.pdf",
-            "text": "Application for Vacating Hostel and Mess for IIIT Trichy Students"
-        },
-        {
-            "isNew": false,
-            "title": "Swimming Pool Fees",
-            "link": "/downloads/IIITT_Swimming_Pool_Fees.pdf",
-            "text": "Swimming Pool Fees for IIIT Trichy Students"
-        },
-        {
-            "isNew": false,
-            "title": "Railway Concession",
-            "link": "/downloads/IIITT_Railway_Concession_Notice_Form.pdf",
-            "text": "Issue of Railway Concession Form"
-        },
-        {
-            "isNew": false,
-            "title": "Course Registration Form",
-            "link": "/downloads/Course-Registration-Form.pdf",
-            "text": "Course Registration Form for IIIT Trichy Students."
-        },
-        {
-            "isNew": false,
-            "title": "Bonafied Certificate",
-            "link": "/downloads/Bonafide-Certificate.pdf",
-            "text": "Bonafied Certificate for IIIT Trichy Students."
-        },
-        {
-            "isNew": false,
-            "title": "Pre-Matric Scholarships",
-            "link": "/downloads/Pre_Matric_Scholarship.pdf",
-            "text": "Pre-Matric Scholarship for IIIT Trichy Students."
-        },
-        {
-            "isNew": false,
-            "title": "Scholarship Service Portal",
-            "link": "/downloads/Pre_Matric_Scholarship.pdf",
-            "text": "Scholarship Service Portal for IIIT Trichy Students."
-        },
-        {
-            "isNew": false,
-            "title": "Anti Ragging Declaration Form",
-            "link": "/downloads/Anti-Ragging-Declaration.pdf",
-            "text": "Anti Ragging Declaration Form for IIIT Trichy Students."
-        }
-    ]
+  "data": [
+    {
+      "isNew": true,
+      "title": "Exam Schedule CT2 2021-22 B.Tech ODD Semester I for 2021-25 Batch",
+      "link": "/downloads/notices/CT2_ExamSchedule2021-22_ODD-BTech1styear.pdf",
+      "text": "Exam Schedule CT2 2021-22 B.Tech ODD Semester I for 2021-25 Batch"
+    },
+    {
+      "isNew": true,
+      "title": "CT1 Exam Schedule 2021-22 EVEN Semester PhD",
+      "link": "/downloads/notices/CT1-ExamSchedule2021-22_EVEN-PhD.pdf",
+      "text": "CT1 Exam Schedule 2021-22 EVEN Semester PhD"
+    },
+    {
+      "isNew": true,
+      "title": "CT1 Exam Schedule 2021-22 EVEN Semester MTech",
+      "link": "/downloads/notices/CT1-ExamSchedule2021-22_EVEN-MTech.pdf",
+      "text": "CT1 Exam Schedule 2021-22 EVEN Semester MTech"
+    },
+    {
+      "isNew": true,
+      "title": "CT1 Exam Schedule 2021-22 EVEN Semester BTech",
+      "link": "/downloads/notices/CT1-ExamSchedule2021-22_EVEN-BTech.pdf",
+      "text": "CT1 Exam Schedule 2021-22 EVEN Semester BTech"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT1 2021-22 B.Tech ODD Semester I for 2021-25 Batch",
+      "link": "/downloads/notices/ExamSchedule_CT12021-22_ODDAY2021-25.pdf",
+      "text": "Exam Schedule CT1 2021-22 B.Tech ODD Semester I for 2021-25 Batch"
+    },
+    {
+      "isNew": true,
+      "title": "Revised UG Fee Structure AY 2021-22 EVEN Semester",
+      "link": "/downloads/notices/Revised_UG_Fee_Structure_AY_2021_22_EVEN_SEM.pdf",
+      "text": "Revised UG Fee Structure AY 2021-22 EVEN Semester"
+    },
+    {
+      "isNew": true,
+      "title": "End Semester Exam Schedule 2021-22 ODD M.Tech I Semester and Ph.D",
+      "link": "/downloads/notices/EndExamSchedule_2021-22_ODD_M.Tech_ISemandPh.D.pdf",
+      "text": "End Semester Exam Schedule 2021-22 ODD M.Tech I Semester and Ph.D"
+    },
+    {
+      "isNew": true,
+      "title": "Lab End Semester Exam Schedule 2021-22 ODD M.Tech I Semester",
+      "link": "/downloads/notices/EndLabExamSchedule_2021-22_ODD_M.Tech_ISem.pdf",
+      "text": "Lab End Semester Exam Schedule 2021-22 ODD M.Tech I Semester"
+    },
+    {
+      "isNew": true,
+      "title": "Fee Structure AY 2021-22 EVEN Semester",
+      "link": "/downloads/notices/FeeStructureAY2021-22_EVENSEM-revised.pdf",
+      "text": "Fee Structure AY 2021-22 EVEN Semester - Revised"
+    },
+    {
+      "isNew": true,
+      "title": "Guidelines and Application form for Duplicate Certificates",
+      "link": "/downloads/notices/Guidelines_and_Application_form_for_Duplicate_Certificates.pdf",
+      "text": "Guidelines and Application form for Duplicate Certificates"
+    },
+    {
+      "isNew": true,
+      "title": "M.Tech CT-II 2021-22 ODD Semester I Exam Schedule",
+      "link": "/downloads/notices/CT-II_2021-22_ODD_M.TECH_I-Sem.pdf",
+      "text": "M.Tech CT-II 2021-22 ODD Semester I Exam Schedule"
+    },
+    {
+      "isNew": true,
+      "title": "PhD exam schedule End Semester 2021-22 ODD: Semester I",
+      "link": "/downloads/notices/EndExamSchedule_2021-22_ODD_PhD_Sem_1.pdf",
+      "text": "PhD exam schedule End Semester 2021-22 ODD: Semester I"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (III semester) End Semester exam schedule 2021-22 ODD",
+      "link": "/downloads/notices/EndExamSchedule_2021-22_ODD_B.Tech_III_Sem.pdf",
+      "text": "B.Tech (III semester) End Semester exam schedule 2021-22 ODD"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (III semester) Lab End Semester Exam Schedule 2021-22 ODD",
+      "link": "/downloads/notices/EndLabExamSchedule_2021-22_ODD_B.Tech_III_Sem.pdf",
+      "text": "B.Tech (III semester) Lab End Semester Exam Schedule 2021-22 ODD"
+    },
+    {
+      "isNew": false,
+      "title": "Circular for Supplementary End Examination (1st and 2nd Year courses) - December 2021",
+      "link": "/downloads/notices/CircularforSupplementaryExamination-Dec2021__1stand2ndYearCourses.pdf",
+      "text": "Circular for Supplementary End Examination (1st and 2nd Year courses) - December 2021"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Exam Schedule 2021-22 ODD B.Tech (V to VIII)",
+      "link": "/downloads/notices/SupplementaryExam_Schedule_2021-22_ODD_B.TechVtoVIII.pdf",
+      "text": "Supplementary Exam Schedule 2021-22 ODD B.Tech (V to VIII)"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (III semester) exam schedule CT2 2021-22 Odd",
+      "link": "/downloads/notices/CT-II_2021-22_ODD_B.TECH_III_Sem.pdf",
+      "text": "B.Tech (III semester) exam schedule CT2 2021-22 Odd"
+    },
+    {
+      "isNew": false,
+      "title": "PhD exam schedule CT2 2021-22 ODD: Semester I",
+      "link": "/downloads/notices/CT-II_2021-22_ODD_Ph.D_I_Sem.pdf",
+      "text": "PhD exam schedule CT2 2021-22 ODD: Semester I"
+    },
+    {
+      "isNew": false,
+      "title": "PhD exam schedule End Semester 2021-22 ODD: Semester II",
+      "link": "/downloads/notices/EndExamSchedule_2021-22_ODD_SEM_Ph.D.pdf",
+      "text": "PhD exam schedule End Semester 2021-22 ODD: Semester II"
+    },
+    {
+      "isNew": false,
+      "title": "M.Tech CT-I 2021-22 ODD Semester I Exam Schedule",
+      "link": "/downloads/notices/CT-I_2021-22_ODD_M.TECH_I_Sem_Exam_Schedule.pdf",
+      "text": "M.Tech CT-I 2021-22 ODD Semester I Exam Schedule"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (V and VII semesters) exam schedule End Semester 2021-22 ODD",
+      "link": "/downloads/notices/End_Exam_Oct-Nov_2021-22_ODD_B.Tech_V_VII.pdf ",
+      "text": "B.Tech (V and VII semesters) exam schedule End Semester 2021-22 ODD"
+    },
+    {
+      "isNew": false,
+      "title": "Lab Exam Schedule (ODD Semester 2021-22)",
+      "link": "/downloads/notices/End_Lab_Oct_2021-22_ODD_B.Tech_V_VII.pdf",
+      "text": "Lab Exam Schedule (ODD Semester 2021-22)"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Exam Notice November 2021 ",
+      "link": "/downloads/notices/Circular_Supplementary_Examination-Nov_2021.pdf",
+      "text": "Supplementary Exam Notice November 2021"
+    },
+    {
+      "isNew": false,
+      "title": "(pdf) Supplementary exam notice-registration form-November 2021",
+      "link": "/downloads/notices/Supplementary_registration_Nov_2021.pdf",
+      "text": "(pdf) Supplementary exam notice-registration form-November 2021"
+    },
+    {
+      "isNew": false,
+      "title": "(doc) Supplementary exam notice-registration form-November 2021",
+      "link": "/downloads/notices/Supplementary_registration_Nov_2021.doc",
+      "text": "(doc) Supplementary exam notice-registration form-November 2021"
+    },
+    {
+      "isNew": false,
+      "title": "Leave Form - Main campus address",
+      "link": "/downloads/notices/LeaveForm_main.pdf",
+      "text": "Leave Form - Main campus address"
+    },
+    {
+      "isNew": false,
+      "title": "PhD exam schedule Cycle Test 2021-22 ODD",
+      "link": "/downloads/notices/Ph.D-ExamSchedule_CT-2021-22_ODD.pdf",
+      "text": "PhD exam schedule Cycle Test 2021-22 ODD"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (III semester) exam schedule CT1 Semester 2021-22 ODD",
+      "link": "/downloads/notices/B.TECH-CT1_thirdsem-ExamSchedule_2021-22_ODD.pdf",
+      "text": "B.Tech (III semester) exam schedule CT1 Semester 2021-22 ODD"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT2 2021-22 B.Tech ODD Semester",
+      "link": "/downloads/notices/B.TECH-CTII-ExamSchedule_2021-22_ODD.pdf",
+      "text": "Exam Schedule CT2 2021-22 B.Tech ODD Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT1 2021-22 B.Tech ODD Semester",
+      "link": "/downloads/notices/Exam_Schedule_CT1_2021-22_ODD_instructions_aug21.pdf",
+      "text": "Exam Schedule CT1 2021-22 B.Tech ODD Semester"
+    },
+    {
+      "isNew": false,
+      "title": "75th Independence Day celebration",
+      "link": "/downloads/notices/IndependenceDayCircular2021.pdf",
+      "text": "75th Independence Day celebration"
+    },
+    {
+      "isNew": false,
+      "title": "Fee Structure (AY 2021-22) Semester III",
+      "link": "/downloads/notices/FeeStructureAY2021-22_odd-updated_IIISem.pdf",
+      "text": "Fee Structure (AY 2021-22) Semester III"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Exam Schedule July 2021 ",
+      "link": "/downloads/notices/Supplementary_schedule_July2021.pdf",
+      "text": "Supplementary Exam Schedule July 2021"
+    },
+    {
+      "isNew": false,
+      "title": "Lab Exam Schedule (I year B.Tech July 2021)",
+      "link": "/downloads/notices/Timetable_Lab_Final_exam_July2021.pdf",
+      "text": "Lab Exam Schedule (I year B.Tech July 2021)"
+    },
+    {
+      "isNew": false,
+      "title": "List of selected candidates for Ph.D June/July 2021",
+      "link": "/downloads/notices/Ph.D_shortlist_and_fee_structure_July2021.pdf",
+      "text": "List of selected candidates for Ph.D June/July 2021"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (II semester) exam schedule End Semester 2020-21 Even",
+      "link": "/downloads/notices/Exam_Schedule_END_2020-21_EVEN_SEM_II.pdf",
+      "text": "B.Tech (II semester) exam schedule End Semester 2020-21 Even"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Exam Notice July 2021 ",
+      "link": "/downloads/notices/Notice-Supply-July2021.pdf",
+      "text": "Supplementary Exam Notice July 2021"
+    },
+    {
+      "isNew": false,
+      "title": "(pdf) Supplementary exam notice-registration form-July2021",
+      "link": "/downloads/notices/Supplementary_registration_form_July2021.pdf",
+      "text": "(pdf) Supplementary exam notice-registration form-July2021"
+    },
+    {
+      "isNew": false,
+      "title": "(doc) Supplementary exam notice-registration form-July2021",
+      "link": "/downloads/notices/Supplementary_registration_form_July2021.doc",
+      "text": "(doc) Supplementary exam notice-registration form-July2021"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission June 2021: List of shortlisted candidated for online interview",
+      "link": "/downloads/notices/ECE_CSE_MEC_SH-PhD_shortlisted_interview_june2021.pdf",
+      "text": "PhD Admission June 2021: List of shortlisted candidated for online interview"
+    },
+    {
+      "isNew": false,
+      "title": "Revised Fee Structure (AY 2021-22) Odd Semester - Updated 29-06-2021",
+      "link": "/downloads/notices/FeeStructure2021-22_OddSem.pdf",
+      "text": "Revised Fee Structure (AY 2021-22) Odd Semester - Updated 29-06-2021"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission June 2021 session: Candidates called for Written test",
+      "link": "/downloads/notices/PhD_all_shortlisted-June2021.pdf",
+      "text": "PhD Admission June 2021 session: Candidates called for Written test"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (II semester) exam schedule CT2 2020-21 Even",
+      "link": "/downloads/notices/Exam_Schedule_CT2_2020-21_EVEN_Sem_FirstYear.pdf",
+      "text": "B.Tech (II semester) exam schedule CT2 2020-21 Even"
+    },
+    {
+      "isNew": false,
+      "title": "Activity Calendar: PhD July session",
+      "link": "/downloads/notices/Activity_calendar_PhD_website2021June.pdf",
+      "text": "Activity Calendar: PhD July session"
+    },
+    {
+      "isNew": false,
+      "title": "Revised (25/5/21) B.Tech (II semester) exam schedule CT1 2020-21 Even",
+      "link": "/downloads/notices/Exam_Schedule_CT1_2020-21_EVEN_2ndsem.pdf",
+      "text": "Revised (25/5/21) B.Tech (II semester) exam schedule CT1 2020-21 Even"
+    },
+    {
+      "isNew": false,
+      "title": "Convocation 2021: Registration Instructions",
+      "link": "instructions_convocation2021",
+      "text": "Convocation 2021: Registration Instructions"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Exam Schedule April 2021 ",
+      "link": "/downloads/notices/SupplementarySchedule_Apr2021.pdf",
+      "text": "Supplementary Exam Schedule April 2021"
+    },
+    {
+      "isNew": false,
+      "title": "Revised Fee Structure 2020-21 (Even) - Installment Mode - I year",
+      "link": "/downloads/notices/RevisedFeeStructure2020-21_Even-InstallmentMode-Iyear.pdf",
+      "text": "Revised Fee Structure 2020-21 (Even) - Installment Mode - I year"
+    },
+    {
+      "isNew": false,
+      "title": "Academic Calendar EVEN Sem (Sem II) 2020-21",
+      "link": "/downloads/notices/EVEN_Semester_2020-21_FY.pdf",
+      "text": "Academic Calendar EVEN Sem (Sem II) 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary exam notice-registration form-May2021",
+      "link": "/downloads/notices/Notice-Supply-May2021-merged.pdf",
+      "text": "Supplementary exam notice-registration form-May2021"
+    },
+    {
+      "isNew": false,
+      "title": "B.Tech (IV,VI and VIII semesters) exam schedule End Semester 2020-21 Even",
+      "link": "/downloads/notices/Exam_Schedule_END_2020-21_EVEN_APRIL2021.pdf",
+      "text": "B.Tech (IV,VI and VIII semesters) exam schedule End Semester 2020-21 Even"
+    },
+    {
+      "isNew": false,
+      "title": "PhD exam schedule End Semester 2020-21 Even",
+      "link": "/downloads/notices/PhD_Exam_Schedule_END_2020-21_EVEN_APRIL2021.pdf",
+      "text": "PhD exam schedule End Semester 2020-21 Even"
+    },
+    {
+      "isNew": false,
+      "title": "Lab Exam Schedule (EVEN Semester 2020-21)",
+      "link": "/downloads/notices/20-21-S2-ALL-END-LAB-EXAM-SCHEDULE.pdf",
+      "text": "Lab Exam Schedule (EVEN Semester 2020-21)"
+    },
+    {
+      "isNew": false,
+      "title": "Fee Structure 2020-21 Even Semester (First Year)",
+      "link": "/downloads/notices/FeeStructure2020-21_Even-I-Year.pdf",
+      "text": "Fee Structure 2020-21 Even Semester (First Year)"
+    },
+    {
+      "isNew": false,
+      "title": "PhD: CT-II 2020-21 Even Semester",
+      "link": "/downloads/notices/Exam_Schedule_CT2_2020-21_EVEN_PhD.pdf",
+      "text": "PhD: CT-II 2020-21 Even Semester"
+    },
+    {
+      "isNew": false,
+      "title": "CT-II 2020-21 Even Semester",
+      "link": "/downloads/notices/Exam_Schedule_CT-II_2020-21_EVEN.pdf",
+      "text": "CT-II 2020-21 Even Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Revised: First Year End Semester Exam Schedule ODD 2020-21",
+      "link": "/downloads/notices/Exam_Schedule_END_2020-21_ODD.pdf",
+      "text": "Revised: First Year End Semester Exam Schedule ODD 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "Timetable Lab Final exam: First semester 20-21",
+      "link": "/downloads/notices/Timetable_Lab_Final_exam.pdf",
+      "text": "Timetable Lab Final exam: First semester 20-21"
+    },
+    {
+      "isNew": false,
+      "title": "CT2 Exam Schedule ODD Semester 2020-21",
+      "link": "/downloads/notices/First_semester_Exam_Schedule_CT2_2020-21_ODD.pdf",
+      "text": "CT2 Exam Schedule ODD Semester 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT1 2020-21 B.Tech Even Semester",
+      "link": "/downloads/notices/Exam_Schedule_CT1_2020-21_EVEN.pdf",
+      "text": "Exam Schedule CT1 2020-21 B.Tech Even Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT1 2020-21 Ph.D Even Semester",
+      "link": "/downloads/notices/Ph.D_Exam_CT1_2020-21_EVEN.pdf",
+      "text": "Exam Schedule CT1 2020-21 Ph.D Even Semester"
+    },
+    {
+      "isNew": false,
+      "title": "72nd Republic Day Celebration - 26.01.2021",
+      "link": "/downloads/notices/CIRCULAR_Republic_day_26012021.pdf",
+      "text": "72nd Republic Day Celebration - 26.01.2021"
+    },
+    {
+      "isNew": false,
+      "title": "Leave Form (Old with oxford address)",
+      "link": "/downloads/notices/LeaveForm_new.pdf",
+      "text": "Leave Form (Old with oxford address)"
+    },
+    {
+      "isNew": false,
+      "title": "CT1 Exam Schedule ODD Semester 2020-21",
+      "link": "/downloads/notices/ExamSchedule_CT1_2020-21_ODDSem.pdf",
+      "text": "CT1 Exam Schedule ODD Semester 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "Revised Fee Structure 2020-21 (Even Semester)",
+      "link": "/downloads/notices/RevisedFeeStructure2020-21-EvenSem.pdf",
+      "text": "Revised Fee Structure 2020-21 (Even Semester)"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission Even Semester 2020-21 list",
+      "link": "/downloads/notices/PhdAdmission_Dec2020.pdf",
+      "text": "PhD Admission Even Semester 2020-21 list"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission Dec 2020: Interviews Schedule",
+      "link": "/downloads/notices/IIITT-PhD_Interviews-Schedule_2020.pdf",
+      "text": "PhD Admission Dec 2020: Interviews Schedule"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission: List of shortlisted candidated for online interview",
+      "link": "/downloads/notices/phd_shortlisted_consolidated_dec2020.pdf",
+      "text": "PhD Admission: List of shortlisted candidated for online interview"
+    },
+    {
+      "isNew": false,
+      "title": "UG Admission: Students admitted (till 2-Dec-2020)",
+      "link": "/downloads/admission/students-admitted.pdf",
+      "text": "UG Admission: Students admitted (till 2-Dec-2020)"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission January 2021 session: Interview Schedule",
+      "link": "/downloads/notices/PhD_Interviews-ScheduleJan2021.pdf",
+      "text": "PhD Admission January 2021 session: Interview Schedule"
+    },
+    {
+      "isNew": false,
+      "title": "2020-21 Fee Structure (New Admission)",
+      "link": "/downloads/notices/2020-21-Fee_Structure_New_Admission.pdf",
+      "text": "2020-21 Fee Structure (New Admission)"
+    },
+    {
+      "isNew": false,
+      "title": "PhD Admission January 2021 session: Candidates called for Written test",
+      "link": "/downloads/notices/PhD_all_shortlisted-Dec_2020.pdf",
+      "text": "PhD Admission January 2021 session: Candidates called for Written test"
+    },
+    {
+      "isNew": false,
+      "title": "End (Odd) Semester (regular/supplementary) examinations (theory/laboratory), Nov-2020",
+      "link": "/endsem2020-21-SemIschedule",
+      "text": "End (Odd) Semester (regular/supplementary) examinations (theory/laboratory), Nov-2020"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Exam Notice November 2020",
+      "link": "/downloads/notices/SupplementaryNoticeRegistrationFormDec2020.pdf",
+      "text": "Supplementary Exam Notice November 2020"
+    },
+    {
+      "isNew": false,
+      "title": "(Revised) Exam Schedule CT2 2020-21 Ph.D I Semester",
+      "link": "/downloads/notices/ExamSchedule_CT2_2020-21_Ph.D_I_sem.pdf",
+      "text": "(Revised) Exam Schedule CT2 2020-21 Ph.D I Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT2 2020-21 B.Tech ODD Semester",
+      "link": "/downloads/notices/ExamSchedule_CT2_2020-21_BTECH_ODD.pdf",
+      "text": "Exam Schedule CT2 2020-21 B.Tech ODD Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Exam Schedule CT1 2020-21 Ph.D I Semester",
+      "link": "/downloads/notices/Exam_Schedule_CT1_2020-21_Ph.D_I_sem.pdf",
+      "text": "Exam Schedule CT1 2020-21 Ph.D I Semester"
+    },
+    {
+      "isNew": false,
+      "title": "(REVISED 16.09.2020) Exam Schedule CT1 2020-21 Odd Semester",
+      "link": "/downloads/notices/Exam_Schedule_CT1_2020-21_ODD.pdf",
+      "text": "(REVISED 16.09.2020) Exam Schedule CT1 2020-21 Odd Semester"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-11",
+      "link": "/downloads/notices/COVID19_Notice11.pdf",
+      "text": "COVID-19 Notice-11"
+    },
+    {
+      "isNew": false,
+      "title": "Revised Fee Structure ODD Sem 2020-21",
+      "link": "/downloads/notices/Revised_Fee_Structure_2020-21_Odd.pdf",
+      "text": "Revised Fee Structure ODD Sem 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "List of selected candidates for Ph.D",
+      "link": "/downloads/notices/Final_Ph.D_2020_selected_list.pdf",
+      "text": "List of selected candidates for Ph.D"
+    },
+    {
+      "isNew": false,
+      "title": "74th Independence Day celebration",
+      "link": "/downloads/notices/74thIndependenceDayCelebrations_circular.pdf",
+      "text": "74th Independence Day celebration"
+    },
+    {
+      "isNew": false,
+      "title": "Ph.D Fee structure 2020 (With fine)",
+      "link": "/downloads/notices/Ph.D_fee_structure_2020_with_fine.pdf",
+      "text": "Ph.D Fee structure 2020 (With fine)"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-10",
+      "link": "/downloads/notices/COVID19_Notice10.pdf",
+      "text": "COVID-19 Notice-10"
+    },
+    {
+      "isNew": false,
+      "title": "Academic Calendar ODD Sem 2020-21",
+      "link": "/downloads/notices/Academic_CalendarODD_Semester_2020-2021.pdf",
+      "text": "Academic Calendar ODD Sem 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "Fee Structure ODD Sem 2020-21",
+      "link": "/downloads/notices/Fee_Structure_ODD_2020-2021.pdf",
+      "text": "Fee Structure ODD Sem 2020-21"
+    },
+    {
+      "isNew": false,
+      "title": "Internship Review and Industrial Lecture Exam schedule",
+      "link": "/downloads/notices/19-20-S2-VI-INTERN-INDUSLECTURE.pdf",
+      "text": "Internship Review and Industrial Lecture Exam schedule"
+    },
+    {
+      "isNew": false,
+      "title": "Lab exam schedule",
+      "link": "/downloads/notices/19-20-S2-ALL-END-LAB-FINAL.pdf",
+      "text": "Lab exam schedule"
+    },
+    {
+      "isNew": false,
+      "title": "Regular exam instructions",
+      "link": "/downloads/notices/19-20-S2-Regular-exam-Instructions2.pdf",
+      "text": "Regular exam instructions"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary exam instructions",
+      "link": "/downloads/notices/19-20-S2-Supply-exam-Instructions2.pdf",
+      "text": "Supplementary exam instructions"
+    },
+    {
+      "isNew": false,
+      "title": "Examination Timetable IV and VI Semester",
+      "link": "/downloads/notices/19-20-S2-Timetable-IVandVISemwithoutR_No.pdf",
+      "text": "Examination Timetable IV and VI Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Examination Timetable II Semester",
+      "link": "/downloads/notices/19-20-S2-Timetable-IISem.pdf",
+      "text": "Examination Timetable II Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Supplementary Examination Schedule",
+      "link": "/downloads/notices/19-20-S2-Supplementary_schedule2.pdf",
+      "text": "Supplementary Examination Schedule"
+    },
+    {
+      "isNew": false,
+      "title": "Lab Examinations (Even Semester) Schedule (Tentative)",
+      "link": "/downloads/notices/19-20-S2-ALL-END-LAB-TENTATIVE.pdf",
+      "text": "Lab Examinations (Even Semester) Schedule (Tentative)"
+    },
+    {
+      "isNew": false,
+      "title": "End Semester Examinations (Even Semester) Schedule (Tentative) Regular and Supplementary",
+      "link": "/downloads/notices/19-20-S2-ALL-END-REG-SUPPLEMENTARY-TENTATIVE.pdf",
+      "text": "End Semester Examinations (Even Semester) Schedule (Tentative) Regular and Supplementary"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-9",
+      "link": "/downloads/notices/COVID19_Notice9.pdf",
+      "text": "COVID-19 Notice-9"
+    },
+    {
+      "isNew": false,
+      "title": "Final Year End Semester Regular examination",
+      "link": "/downloads/notices/19-20-S2-END-REGULAR.pdf",
+      "text": "Final Year End Semester Regular examination"
+    },
+    {
+      "isNew": false,
+      "title": "Final Year End Semester Supplementary examination",
+      "link": "/downloads/notices/19-20-S2-END-SUPPLY.pdf",
+      "text": "Final Year End Semester Supplementary examination"
+    },
+    {
+      "isNew": false,
+      "title": "REDO CT-II examination",
+      "link": "/downloads/notices/19-20-S2-REDO-CT-II.pdf",
+      "text": "REDO CT-II examination"
+    },
+    {
+      "isNew": false,
+      "title": "REDO End Semester examination",
+      "link": "/downloads/notices/19-20-S2-REDO-END.pdf",
+      "text": "REDO End Semester examination"
+    },
+    {
+      "isNew": false,
+      "title": "Final Year CT2 Circular",
+      "link": "/downloads/notices/19-20-S2-Finalyear_CT2_Circular.pdf",
+      "text": "Final Year CT2 Circular"
+    },
+    {
+      "isNew": false,
+      "title": "Social_Distancing_Circular",
+      "link": "/downloads/notices/Social_Distancing_Circular.pdf",
+      "text": "Circular on Social Distancing"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-8",
+      "link": "/downloads/notices/COVID19_Notice8.pdf",
+      "text": "COVID-19 Notice-8"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-7",
+      "link": "/downloads/notices/COVID19_Notice7.pdf",
+      "text": "COVID-19 Notice-7"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-6",
+      "link": "/downloads/notices/COVID19_Notice6.pdf",
+      "text": "COVID-19 Notice-6"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-5",
+      "link": "/downloads/notices/COVID19_Notice5.pdf",
+      "text": "COVID-19 Notice-5"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-4",
+      "link": "/downloads/notices/COVID19_Notice4.pdf",
+      "text": "COVID-19 Notice-4"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-3",
+      "link": "/downloads/notices/COVID19_Notice3.pdf",
+      "text": "COVID-19 Notice-3"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice-2",
+      "link": "/downloads/notices/COVID19_Notice2.pdf",
+      "text": "COVID-19 Notice-2"
+    },
+    {
+      "isNew": false,
+      "title": "COVID-19 Notice",
+      "link": "/downloads/notices/COVID19_Notice.pdf",
+      "text": "COVID-19 Notice"
+    },
+    {
+      "isNew": false,
+      "title": "Exemption from Biometric attendance",
+      "link": "/downloads/notices/Biometric_Exemption-2020.pdf",
+      "text": "Exemption from Biometric attendance"
+    },
+    {
+      "isNew": false,
+      "title": "Requesting restriction on Holi celebration due to uncontrolled COVID19 spread",
+      "link": "/downloads/notices/COVID19_Holi_Circular.pdf",
+      "text": "Requesting restriction on Holi celebration due to uncontrolled COVID19 spread"
+    },
+    {
+      "isNew": false,
+      "title": "BioMetric Attendance for Punctuality Maintenance",
+      "link": "/downloads/notices/Circular- Bio_Metric_Attendance.pdf",
+      "text": "BioMetric Attendance for Punctuality Maintenance"
+    },
+    {
+      "isNew": false,
+      "title": "Faculty Members Additional Roles.",
+      "link": "/downloads/notices/Faculty-Additional-Roles.pdf",
+      "text": "Faculty Members Additional Roles."
+    },
+    {
+      "isNew": false,
+      "title": "2019-20 Even Semester Timetable.",
+      "link": "/downloads/notices/2019-20_Even sem_Timetable.pdf",
+      "text": "2019-20 Even Semester Timetable."
+    },
+    {
+      "isNew": false,
+      "title": "Circular for attendance",
+      "link": "/downloads/notices/circular.pdf",
+      "text": "Circular for attendance"
+    },
+    {
+      "isNew": false,
+      "title": "Temporary Faculty Recruitment",
+      "link": "/downloads/notices/IIITT_Temp_faculty_recruitment_Dec_2019.pdf",
+      "text": "Temporary Faculty Recruitment"
+    },
+    {
+      "isNew": false,
+      "title": "Recruitment of Registrar/Assistant Registrar on Deputation basis",
+      "link": "/downloads/notices/Reg-AR-advt.pdf",
+      "text": "Recruitment of Registrar/Assistant Registrar on Deputation basis"
+    },
+    {
+      "isNew": false,
+      "title": "Hostel Accommodation",
+      "link": "/downloads/notices/Accommodation-NOTICE.pdf",
+      "text": "Hostel Accommodation"
+    },
+    {
+      "isNew": false,
+      "title": "List of Candidates Selected for the post of Temporary Faculty",
+      "link": "/downloads/notices/selection.pdf",
+      "text": "List of Candidates Selected for the post of Temporary Faculty"
+    },
+    {
+      "isNew": false,
+      "title": "IIITT/R/TF-2019/02 Notification for Walk-in Interview for the Temporary Faculty. Soft copies are invited. ",
+      "link": "/downloads/notices/Notification-for-Walk-in-Interview-for-the-Temprorary-Faculty.pdf",
+      "text": "IIITT/R/TF-2019/02 Notification for Walk-in Interview for the Temporary Faculty. Soft copies are invited. "
+    },
+    {
+      "isNew": false,
+      "title": "Institute Reopen Circular",
+      "link": "/downloads/notices/Institute Reopen Circular.pdf",
+      "text": "Institute Reopen Circular Updated"
+    },
+    {
+      "isNew": false,
+      "title": " IIITT/R/1/2019-20: Notification for Regular Faculty Recruitment - Online Applications are invited ",
+      "link": "http://www.iiittrichy.in",
+      "text": " IIITT/R/1/2019-20: Notification for Regular Faculty Recruitment - Online Applications are invited"
+    },
+    {
+      "isNew": false,
+      "title": "Fee Structure for the AY 2019-20 ",
+      "link": "/downloads/notices/Fee Structure 2019-20.pdf",
+      "text": "Fee Structure for the AY 2019-20 "
+    },
+    {
+      "isNew": false,
+      "title": "Walk-in-Interview for the post of Consultants",
+      "link": "/downloads/notices/Walk-in for Consultant.pdf",
+      "text": "Walk-in-Interview for the post of Consultants"
+    },
+    {
+      "isNew": false,
+      "title": "Non Teaching post Recruitment Advertisement",
+      "link": "/downloads/notices/NT-Advertisment-Jan-2019.pdf",
+      "text": "Non Teaching post Recruitment Advertisement"
+    },
+    {
+      "isNew": false,
+      "title": "Selected Candidates for the post of Temporary Faculty",
+      "link": "/downloads/notices/Selected-TF.pdf",
+      "text": "Selected Candidates for the post of Temporary Faculty"
+    },
+    {
+      "isNew": false,
+      "title": "Walk-In-Interview For The Temporary Faculty",
+      "link": "/downloads/notices/IIITT%20temp.faculty_Walk-in%20Jan%202019.pdf",
+      "text": "Walk-In-Interview For The Temporary Faculty"
+    },
+    {
+      "isNew": false,
+      "title": "Application Form for Temporary Faculty",
+      "link": "/downloads/notices/Application_TEMP_WALKIN%20IIITT.pdf",
+      "text": "Application Form for Temporary Faculty"
+    },
+    {
+      "isNew": false,
+      "title": "Vacation Circular",
+      "link": "/downloads/Vacation%20Circular.pdf",
+      "text": "Vacation Circular"
+    },
+    {
+      "isNew": false,
+      "title": "Recruitment of Office Assistant (Leave Vacancy)",
+      "link": "/downloads/notices/OfficeAsst.pdf",
+      "text": "Recruitment of Office Assistant (Leave Vacancy)"
+    },
+    {
+      "isNew": false,
+      "title": "CGPA to Percentage Conversion",
+      "link": "/downloads/notices/CGPA.pdf",
+      "text": "CGPA to Percentage Conversion"
+    },
+    {
+      "isNew": false,
+      "title": "Time Table For Odd Semester CSE AY 2018-19",
+      "link": "/downloads/notices/CSE_ODDsem_Timetable(18-19).pdf",
+      "text": "Time Table For Odd Semester CSE AY 2018-19"
+    },
+    {
+      "isNew": false,
+      "title": "Time Table For Odd Semester ECE AY 2018-19",
+      "link": "/downloads/notices/ECE_ODDsem_Timetable(18-19).pdf",
+      "text": "Time Table For Odd Semester ECE AY 2018-19"
+    },
+    {
+      "isNew": false,
+      "title": "Time Table For I Semester (2018-19)",
+      "link": "/downloads/notices/I-Sem-TimeTable(18-19).pdf",
+      "text": "Time Table For I Semester (2018-19)"
+    },
+    {
+      "isNew": false,
+      "title": "Leave Form (OLD)",
+      "link": "/downloads/notices/LeaveForm.pdf",
+      "text": "Leave Form (OLD)"
+    },
+    {
+      "isNew": false,
+      "title": "Shortlisted for written test - MTS",
+      "link": "/downloads/notices/Shortlisted-mts.pdf",
+      "text": "Shortlisted for written test for the post of Multi-Tasking Staff"
+    },
+    {
+      "isNew": false,
+      "title": "Awareness programme on Environmental Hazards of Electronic Waste",
+      "link": "/downloads/MHRD ewaste.pdf",
+      "text": "Awareness programme on Environmental Hazards of Electronic Waste"
+    },
+    {
+      "isNew": false,
+      "title": "Recruitment of Faculty members on Deputation",
+      "link": "/downloads/notices/Notification- Associate Professor.pdf",
+      "text": "Recruitment of Faculty members on Deputation"
+    },
+    {
+      "isNew": false,
+      "title": "Gazette Notification 2017",
+      "link": "/downloads/gazetteofindia.pdf",
+      "text": "Gazette Notification 2017."
+    },
+    {
+      "isNew": false,
+      "title": "Annual Report 2017-18",
+      "link": "/downloads/ANNUAL REPORT (2017-18).pdf",
+      "text": "IIITT Annual Report 2017-18."
+    },
+    {
+      "isNew": false,
+      "title": "Non-Teaching Staff Recruitment 2017- Selected Candidates List",
+      "link": "/downloads/Non-Teaching_staff_recruitment-2017-Selected_Candidates_List.pdf",
+      "text": "Non-Teaching staff Recruitment 2017 - List of Selected Candidates."
+    },
+    {
+      "isNew": false,
+      "title": "Non-Teaching Staff Recruitment 2017- Written Test Schedule",
+      "link": "/downloads/Non-Teaching_staff_recruitment-2017-written_test_schedule.pdf",
+      "text": "Non-Teaching staff Recruitment 2017 written Test Schedule details."
+    },
+    {
+      "isNew": false,
+      "title": "Fee Structure",
+      "link": "/downloads/Fee_Structure_for_Even_Sem_(2017-18).pdf",
+      "text": "INSTITUTE FEES & HOSTEL FEES – II/IV/VI  SEMESTER  AY 2017-18"
+    },
+    {
+      "isNew": false,
+      "title": "Admission Notice JEE Main",
+      "link": "/downloads/ADMISSION_NOTICE_JEE_(MAIN)–2018.pdf",
+      "text": "ADMISSION NOTICE  JEE (MAIN) – 2018 "
+    },
+    {
+      "isNew": false,
+      "title": "Academic Calender of AY 2017-18 Even Semester",
+      "link": "/downloads/Academic_Calendar_(2017-18)_Even_semester.pdf",
+      "text": "Academic Calender of AY 2017-18 for VI, IV and II Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Orientation Program for I Year",
+      "link": "/downloads/Orientation_Program.pdf",
+      "text": "Schedule and Bridge Course Schedule of Orientation Program, 2017-18"
+    },
+    {
+      "isNew": false,
+      "title": "Academic Calender of AY 2017-18",
+      "link": "/downloads/Academic_Calendar.pdf",
+      "text": "Academic Calender of AY 2017-18 for V, III and I Semester"
+    },
+    {
+      "isNew": false,
+      "title": "Admission 2017 Reporting Details *REVISED*",
+      "link": "/downloads/Admission_2017_Reporting_Schedule.pdf",
+      "text": "Reporting Details, Fee Structure and General Details"
+    },
+    {
+      "isNew": false,
+      "title": "Faculty Career",
+      "link": "/facultycareer",
+      "text": "Temporary Faculty Recruitment"
+    },
+    {
+      "isNew": false,
+      "title": "No Dues Certificate",
+      "link": "/downloads/IIITT-No-dues-Certificate.pdf",
+      "text": "No Dues Certificate for IIIT Trichy Students"
+    },
+    {
+      "isNew": false,
+      "title": "Application for Vacating Hostel and Mess",
+      "link": "/downloads/IIITT-Application-vacating-hostel-mess.pdf",
+      "text": "Application for Vacating Hostel and Mess for IIIT Trichy Students"
+    },
+    {
+      "isNew": false,
+      "title": "Swimming Pool Fees",
+      "link": "/downloads/IIITT_Swimming_Pool_Fees.pdf",
+      "text": "Swimming Pool Fees for IIIT Trichy Students"
+    },
+    {
+      "isNew": false,
+      "title": "Railway Concession",
+      "link": "/downloads/IIITT_Railway_Concession_Notice_Form.pdf",
+      "text": "Issue of Railway Concession Form"
+    },
+    {
+      "isNew": false,
+      "title": "Course Registration Form",
+      "link": "/downloads/Course-Registration-Form.pdf",
+      "text": "Course Registration Form for IIIT Trichy Students."
+    },
+    {
+      "isNew": false,
+      "title": "Bonafied Certificate",
+      "link": "/downloads/Bonafide-Certificate.pdf",
+      "text": "Bonafied Certificate for IIIT Trichy Students."
+    },
+    {
+      "isNew": false,
+      "title": "Pre-Matric Scholarships",
+      "link": "/downloads/Pre_Matric_Scholarship.pdf",
+      "text": "Pre-Matric Scholarship for IIIT Trichy Students."
+    },
+    {
+      "isNew": false,
+      "title": "Scholarship Service Portal",
+      "link": "/downloads/Pre_Matric_Scholarship.pdf",
+      "text": "Scholarship Service Portal for IIIT Trichy Students."
+    },
+    {
+      "isNew": false,
+      "title": "Anti Ragging Declaration Form",
+      "link": "/downloads/Anti-Ragging-Declaration.pdf",
+      "text": "Anti Ragging Declaration Form for IIIT Trichy Students."
+    }
+  ]
 }
