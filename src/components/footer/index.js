@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Icon from "@material-ui/core/Icon";
 import "./style.css";
 import { css } from "@emotion/core";
@@ -10,9 +10,20 @@ import CallIcon from "@material-ui/icons/Call";
 import Link from "@material-ui/core/Link";
 import Loadable from "react-loadable";
 import Temperature from "./temperature";
+import moment from "moment";
 
-/* Footer */
 const Footer = () => {
+  //Used API to fetch last commit and display in format Last Updated at : ""
+  const [date, setDate] = useState();
+
+  useEffect(() => {
+    fetch("https://api.github.com/repos/helloworld-iiitt/iiitt")
+      .then((res) => res.json())
+      .then((data) => {
+        setDate(data.pushed_at);
+      })
+      .catch((err) => console.log(err));
+  });
   return (
     <div>
       <footer className="footer">
@@ -83,7 +94,16 @@ const Footer = () => {
           <hr className="mobile" />
           <Temperature />
         </div>
+
         <div>
+          {
+            <div>
+              <p className="update">
+                Last Updated :{" "}
+                {moment(date).utcOffset(0).format("MMMM Do YYYY, h:mm A")}{" "}
+              </p>
+            </div>
+          }
           <a className="credits" href="webDevClub">
             &lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web
             Dev-IIITT
