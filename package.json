@@ -13,6 +13,7 @@
     "dotenv": "^8.6.0",
     "env-cmd": "^10.1.0",
     "moment": "^2.29.1",
+    "preval.macro": "^5.0.0",
     "react": "^16.14.0",
     "react-ad-block-detect": "^1.0.1",
     "react-dom": "^16.14.0",

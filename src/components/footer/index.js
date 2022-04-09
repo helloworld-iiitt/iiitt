@@ -11,7 +11,7 @@ import Link from "@material-ui/core/Link";
 import Loadable from "react-loadable";
 import Temperature from "./temperature";
 import moment from "moment";
-
+import VersionNo from "./version";
 const Footer = () => {
   //Used API to fetch last commit and display in format Last Updated at : ""
   const [date, setDate] = useState();
@@ -22,7 +22,9 @@ const Footer = () => {
       .then((data) => {
         setDate(data.pushed_at);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+      });
   });
   return (
     <div>
@@ -96,14 +98,17 @@ const Footer = () => {
         </div>
 
         <div>
-          {
+          {/* {
             <div>
               <p className="update">
                 Last Updated :{" "}
-                {moment(date).utcOffset(0).format("MMMM Do YYYY, h:mm A")}{" "}
+                {!!date
+                  ? moment(date).utcOffset(0).format("MMMM Do YYYY,h:mm A")
+                  : "Loading..."}
               </p>
             </div>
-          }
+          } */}
+          <VersionNo />
           <a className="credits" href="webDevClub">
             &lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web
             Dev-IIITT

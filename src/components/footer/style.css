@@ -162,7 +162,6 @@ html {
   border-top: 2px;
   border-color: #17462c;
 }
-
 #favorite {
   font-size: 22px;
   line-height: 27.25px;
@@ -198,7 +197,7 @@ a {
 }
 .update {
   padding-left: 10px;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .main-div {
