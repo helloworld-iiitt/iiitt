@@ -34,7 +34,7 @@ function App() {
   const WebDevClub = Loadable({
     loader: () => import("./pages/webDevClub/index"),
     loading: () => loading,
-  })
+  });
   const About = Loadable({
     loader: () => import("./pages/about/index"),
     loading: () => loading,
@@ -181,6 +181,11 @@ function App() {
     loading: () => loading,
   });
 
+  const PIO = Loadable({
+    loader: () => import("./pages/pio/index"),
+    loading: () => loading,
+  });
+
   const Partners = Loadable({
     loader: () => import("./pages/partners/index"),
     loading: () => loading,
@@ -307,7 +312,7 @@ function App() {
           path="/admission_fee_structure"
           component={AdmissionFeeStructure}
         /> */}
-          <Route path="/webDevClub" component={WebDevClub} />
+        <Route path="/webDevClub" component={WebDevClub} />
         {/* <Route path="/admission_forms" component={AdmissionForms} /> */}
         <Route path="/admission_ug" component={Admission_ug} />
         <Route path="/admission_pg" component={Admission_pg} />
@@ -336,6 +341,7 @@ function App() {
         <Route path="/fc" component={Fc} />
         <Route path="/bwc" component={BWC} />
         <Route path="/rti" component={RTI} />
+        <Route path="/pio" component={PIO} />
         <Route path="/industry_partners" component={Partners} />
         <Route path="/director" component={Director} />
         <Route path="/registrar" component={Registrar} />

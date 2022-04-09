@@ -14,18 +14,18 @@ import moment from "moment";
 import VersionNo from "./version";
 const Footer = () => {
   //Used API to fetch last commit and display in format Last Updated at : ""
-  const [date, setDate] = useState();
+  // const [date, setDate] = useState();
 
-  useEffect(() => {
-    fetch("https://api.github.com/repos/helloworld-iiitt/iiitt")
-      .then((res) => res.json())
-      .then((data) => {
-        setDate(data.pushed_at);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  });
+  // useEffect(() => {
+  //   fetch("https://api.github.com/repos/helloworld-iiitt/iiitt")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setDate(data.pushed_at);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // });
   return (
     <div>
       <footer className="footer">
