@@ -2,7 +2,7 @@ import React from "react";
 import Loadable from "react-loadable";
 import { css } from "@emotion/core";
 import { ScaleLoader } from "react-spinners";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route,Link } from "react-router-dom";
 import PageNotFound from "./pages/pagenotfound/index";
 
 const override = css`
@@ -330,6 +330,10 @@ function App() {
         <Route path="/calendar" component={Calendar} />
         <Route path="/holidays" component={Holidays} />
         <Route path="/undergraduate" component={Undergraduate} />
+        <Route path='/placement' component={() => {
+          window.location.href = 'http://placement.iiitt.ac.in/';
+          return null;
+        }}/>
         <Route path="/postgraduate" component={Postgraduate} />
         <Route path="/doctorate" component={PHDprogram} />
         <Route path="/faq" component={Faq} />

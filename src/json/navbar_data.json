@@ -36,13 +36,14 @@
           "text": "RTI",
           "link": "/rti"
         },
-        {
-          "text": "Industry Partners",
-          "link": "/industry_partners"
-        },
+
         {
           "text": "PIO",
           "link": "/pio"
+        },
+        {
+          "text": "Industry Partners",
+          "link": "/industry_partners"
         }
       ]
     },
@@ -83,11 +84,8 @@
         {
           "text": "Staff",
           "link": "/staff"
-        },
-        {
-          "text": "Gender wise Data",
-          "link": "/genderwisedata"
         }
+      
       ]
     },
     {
@@ -161,7 +159,7 @@
     
     {
       "text": "Scholarship",
-      "icon": "call",
+      "icon": "scholarship",
       "name": "scholarship",
       "submenu": [
         {
@@ -169,6 +167,12 @@
           "link": "/scholarship"
         }
       ]
+    },
+    {
+      "text": "Placements",
+      "icon": "box",
+      "name":"/placement"
+     
     },
     {
       "text": "Contact Us",

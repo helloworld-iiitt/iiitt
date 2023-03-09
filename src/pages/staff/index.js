@@ -21,23 +21,10 @@ export default function Staff() {
     <>
       <Navbar />
         <Typography className="main">  
-          <Typography variant="h3" gutterBottom className="topheading">
-            Deputy Registrar
-          </Typography>  
-        </Typography>    
-            <Typography className="topcard">
-              <PersonCard
-                name={"Shri. Biju Mathew"}
-                designation={"Deputy Registrar"}
-                emailID={"dr@iiitt.ac.in"}
-                phone={"9401144440"}
-                src={"bijumathew.jpg"}
-                src_type="staff"
-                researchArea=""
-              />
-            </Typography>
+         
+        </Typography>   
             <Typography variant="h3" gutterBottom className="topheading2">
-              Outsourced Office Staff
+             Office Staff
             </Typography>
       <Typography gutterBottom className="officestaff">
         <Typography gutterBottom className="cards">

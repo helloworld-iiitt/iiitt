@@ -1,66 +1,72 @@
 {
     "": [
         {
-            "name": "Sai Auchitya Bussa",
+            "name": "Naresh Reddy Guddeti",
             "designation": "President",
-            "emailId": "saiab18e@iiitt.ac.in",
-            "src": "president.jpeg"
+            "emailId": "goddetinr19e@iiitt.ac.in",
+            "src": "president.jpg"
         },
         {
-            "name": "Navneet Rai",
+            "name": "B.Sathvika",
             "designation": "Vice President",
-            "emailId": "navneetr19c@iiitt.ac.in",
-            "src": "vicepresident.jpeg"
+            "emailId": "201105@iiitt.ac.in",
+            "src": "vicepresident.jpg"
         }
     ],
     "Technical": [
         {
-            "name": "S Lavanya",
+            "name": "N Nagamallishwar",
             "designation": "Technical Secretary",
-            "emailId": "slavanya18e@iiitt.ac.in",
+            "emailId": "nnagamallishwar19e@iiitt.ac.in",
             "src": "technical.jpeg"
         },
         {
-            "name": "Mayank Sonkar",
+            "name": "Sarthak kumar",
             "designation": "Vice Technical Secretary",
-            "emailId": "mayanks19e@iiitt.ac.in",
-            "src": "technicalvice.jpeg"
+            "emailId": "201132@iiitt.ac.in",
+            "src": "vicetechnical.jpeg"
         }
     ],
     "Cultural": [
         {
-            "name": "Venkat Keshav Cherukuri",
+            "name": "Boddapalli Leelavardhan",
             "designation": "Cultural Secretary",
-            "emailId": "cherukurivk18e@iiitt.ac.in",
+            "emailId": " boddapallilv19e@iiitt.ac.in",
             "src": "cultural.jpeg"
         },
         {
-            "name": "Chintala Sravani",
+            "name": "Tejaswi Rayidi",
             "designation": "Vice Cultural Secretary",
-            "emailId": "chintalas19c@iiitt.ac.in",
+            "emailId": "201232@iiitt.ac.in",
             "src": "culturalvice.jpeg"
         }
     ],
     "Sports": [
         {
-            "name": "S Purushotham Naik",
-            "designation": "Sports Secretary",
-            "emailId": "sugalipn18e@iiitt.ac.in",
+            "name": "Siddharth Sahu",
+            "designation": "SportsSecretary",
+            "emailId": "siddharths19e@iiitt.ac.in",
             "src": "sports.jpeg"
         },
         {
-            "name": "Siddharth Sahu",
+            "name": "Bharadwaj Routhu",
             "designation": "Sports Vice Secretary",
-            "emailId": "siddharths19e@iiitt.ac.in",
-            "src": "sportsvice.jpeg"
+            "emailId": "201206@iiitt.ac.in",
+            "src": "vicesports.jpeg"
         }
     ],
     "Joint secretary": [
         {
-            "name": "Suman Raj",
-            "designation": "Vice Sports Secretary",
-            "emailId": "201231@iiitt.ac.in",
-            "src": "jointsec.jpeg"
+            "name": "Abhishek Kumar Mohanty",
+            "designation": "Joint Secretary",
+            "emailId": "211202@iiitt.ac.in",
+            "src": "jointsec.png"
+        },
+        {
+            "name": "Pradeep vidiyala",
+            "designation": "Joint Secretary",
+            "emailId": "211136@iiitt.ac.in",
+            "src": "jointsec1.jpeg"
         }
     ]
 }
