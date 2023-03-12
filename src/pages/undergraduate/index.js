@@ -52,8 +52,7 @@ export default function Undergraduate() {
   const classes = createStyles();
   const file = "A3.UGRegulations.pdf";
   const file1 = "Btech_regulations_2021.pdf";
-  const csebonafied = "Bonafide_format_CSE_Dept.doc";
-  const ecebonafied = "Bonafide_format_ECE_Dept.doc";
+  const bonafied = "Bonafide_Certificate_Format_2022.docx";
 
   return (
     <div className="page-container">
@@ -106,33 +105,21 @@ export default function Undergraduate() {
 
           <Typography variant="h5" className={classes.themeText} gutterBottom>
             <Box component="span" fontWeight="fontWeightBold">
-              Forms/formats (CSE/ECE)
+              Forms/formats
             </Box>
           </Typography>
+        
           <Typography>
             <a
-              href={require(`../../docs/${ecebonafied}`)}
-              download={`${ecebonafied}`}
+              href={require(`../../docs/${bonafied}`)}
+              download={`${bonafied}`}
               className={`${classes.link} ${classes.subText}`}
             >
               <img
                 src={require("../../images/news-icon.svg")}
                 className={classes.download}
               />
-              Bonafide certificate format for ECE
-            </a>
-          </Typography>
-          <Typography>
-            <a
-              href={require(`../../docs/${csebonafied}`)}
-              download={`${csebonafied}`}
-              className={`${classes.link} ${classes.subText}`}
-            >
-              <img
-                src={require("../../images/news-icon.svg")}
-                className={classes.download}
-              />
-              Bonafide certificate format for CSE
+              Bonafide certificate format
             </a>
           </Typography>
         </Grid>

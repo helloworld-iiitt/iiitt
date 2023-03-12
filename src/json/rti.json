@@ -2,11 +2,11 @@
   "data": [
     {
       "head":"CPIO (Deputy Registrar, IIIT Trichy)",
-      "name": "Shri. Biju Mathew",
-      "designation": "Deputy Registrar, IIIT Trichy",
-      "emailID": "dr@iiitt.ac.in",
+      "name": "DR. G. SEETHARAMAN",
+      "designation": "Registrar (i/c), IIIT Trichy",
+      "emailID": "registrar@iiitt.ac.in",
       "phone": "0431-2503052",
-      "src": "bijumathew.jpg"
+      "src": "Dr_Seetharaman.jpg"
     },
     {
       "head": "First Appellate Authority (Director, IIIT Trichy)",
@@ -14,8 +14,7 @@
       "designation": "Director, IIIT Trichy",
       "emailID": "director@iiitt.ac.in",
       "phone": "\n",
-      "src": "director.jpg",
-      "cls": "biju"
+      "src": "director.jpg"
     }
   ]
 }

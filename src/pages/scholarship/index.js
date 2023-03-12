@@ -35,6 +35,9 @@ export default function Scholarship() {
   const file1 = "NSPprocedureforBonafide-marksheet-verificationatInstitute.pdf";
   const file2 = "NOSAdvertisement2021-22.pdf";
   const file3 = "NFSTAdvertisement2021-22.pdf";
+  const file5="NOS_2022_23_advertisement_Hindi_version.pdf";
+  const file4="NOS_2022_23_advertisement_English_version.pdf";
+  const file6="Instrction-manual-NOS-2022023.pdf";
   const classes = createStyles();
 
   return (
@@ -48,7 +51,6 @@ export default function Scholarship() {
             component="h2"
             gutterBottom
             className={{ ...classes.themeText }}
-            className={classes.themeText}
           >
             <Box component="span" fontWeight={380}>
               Scholarship
@@ -70,16 +72,21 @@ export default function Scholarship() {
             </Box>
           </section>
 
-          <Divider />
           <section className={classes.sectionPadding}>
-            <a href={require(`../../docs/${file}`)} download={`${file}`}>
+            <ul>
+            <li>
+              <a href={require(`../../docs/${file}`)} download={`${file}`}>
               <Typography variant="h6">Notice For The Year 21-22</Typography>
             </a>
+            </li>
+            <li>
             <a href={require(`../../docs/${file1}`)} download={`${file1}`}>
               <Typography variant="h6">
                 NSP procedure for Bonafide- marksheet-verification at Institute.
               </Typography>
             </a>
+            </li>
+            </ul>
           </section>
 
           <Divider />
@@ -89,19 +96,56 @@ export default function Scholarship() {
                 Fellowship for Higher Education
               </Box>
             </Typography>
-            <Divider />
+            <ul>
+            <li>
+            <a href="https://overseas.tribal.gov.in/" >
+              <Typography variant="h6">
+              National Overseas Scholarship: 2022-23
+              </Typography>
+            </a>
+            </li>
+
+            <li>
+            <a href={require(`../../docs/${file4}`)} download={`${file4}`}>
+              <Typography variant="h6">
+               NOS 2022-23 advertisement english_version 
+              </Typography>
+            </a>
+            </li>
+            <li>
+            <a href={require(`../../docs/${file5}`)} download={`${file5}`}>
+              <Typography variant="h6">
+              NOS 2022-23 advertisement hindi_version
+              </Typography>
+            </a>
+            </li>
+
+            <li>
+            <a href={require(`../../docs/${file6}`)} download={`${file6}`}>
+              <Typography variant="h6">
+              INSTRUCTIONS MANUAL FOR FILLING ONLINE APPLICATION FOR NOS(2022-23) FOR ST CANDIDATES
+              </Typography>
+            </a>
+            </li>
+
+            <li>
             <a href={require(`../../docs/${file2}`)} download={`${file2}`}>
               <Typography variant="h6">
                 National Overseas Scholarship (NOS)/Passage grant Scheme for ST
                 candidates for the year 2021-22
               </Typography>
             </a>
+            </li>
+            <li>
             <a href={require(`../../docs/${file3}`)} download={`${file3}`}>
               <Typography variant="h6">
                 National Fellowship and Scholarship for Higher Education of ST
                 students for the year 2021-22
               </Typography>
             </a>
+            </li>
+           
+            </ul>
           </section>
         </Grid>
       </Grid>

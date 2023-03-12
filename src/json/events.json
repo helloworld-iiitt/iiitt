@@ -1,43 +1,55 @@
 {
     "data": [
+       {
+            "isNew": true,
+            "title": "DST-SERB ACCELERATE VIGYAN SCHEME Sponsored High End Workshop On “Machine Learning For Cyber Security",
+            "link": "downloads/events/Brochure_Malware_workshop.pdf",
+            "text": "DST-SERB ACCELERATE VIGYAN SCHEME Sponsored High End Workshop On “Machine Learning For Cyber Security"
+        },
         {
             "isNew": true,
+            "title": "Robotics Club organizes Seminar on Robotics",
+            "link": "downloads/events/IIITT_RoboticsClub_Robot_arm_demostration.pdf",
+            "text": "Robotics Club organizes Seminar on Robotics"
+        },
+        {
+            "isNew": false,
             "title": "A Faculty Development Programme (FDP) on 'Understanding Research and Statistical Analysis Using SPSS - Online Mode' from 7th - 16th March, 2022 organized by Electronics and ICT Academy, NIT Warangal in association with Indian Institute of Information Technology Tiruchirappalli",
             "link": "downloads/events/EICTBROCHURE2022-IIITT-Revised-RINSHU.pdf",
             "text": "A Faculty Development Programme (FDP) on 'Understanding Research and Statistical Analysis Using SPSS - Online Mode' from 7th - 16th March, 2022 organized by Electronics and ICT Academy, NIT Warangal in association with Indian Institute of Information Technology Tiruchirappalli"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Eigth issue of e-magazine 'AIKYAM' (13 January 2022)",
             "link": "https://drive.google.com/file/d/1wQJl5jCV1aLQcUFy00d686LdvB_GXs7l/view?usp=sharing",
             "text": "Eigth issue of e-magazine 'AIKYAM' (13 January 2022)"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "AIKYAM - New Year Calendar 2022",
             "link": "downloads/calendar/New_Year_Calendar_2022.pdf",
             "text": "AIKYAM - New Year Calendar 2022"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Workshop on Advanced Industrial Automation Training for Engineering Education and Research (Online Mode)",
             "link": "downloads/events/Advanced_Industrial_Automation_Training_Workshop.pdf",
             "text": "Workshop on Advanced Industrial Automation Training for Engineering Education and Research (Online Mode)"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Orientation Program Invitation December 2021",
             "link": "downloads/events/orientation_program_Invitation2021.pdf",
             "text": "Orientation Program Invitation December 2021"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Seventh issue of e-magazine 'AIKYAM' (29 November 2021)",
             "link": "https://drive.google.com/file/d/1El20EmrExcc--A-XtUt4IomEsM3qlQMX/view?usp=sharing",
             "text": "Seventh issue of e-magazine 'AIKYAM' (29 November 2021)"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme on 'System-on-Chip Design and Testing' from 22.11.2021 to 26.11.2021",
             "link": "downloads/events/ATAL_FDP_on_System-on-Chip_Design_and_Testing.pdf",
             "text": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme on 'System-on-Chip Design and Testing' from 22.11.2021 to 26.11.2021"
@@ -49,7 +61,7 @@
             "text": "AICTE Training and Learning (ATAL) Academy Sponsored Online Faculty Development Programme on 'Design, Synthesis and Characterization of Novel Materials' from 25.10.2021 to 29.10.2021"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Sixth issue of e-magazine 'AIKYAM' (30 September 2021)",
             "link": "https://drive.google.com/file/d/1WNN3jmUCvXLi5FclB96f09Ia3ZpuVG0a/view?usp=sharing",
             "text": "Sixth issue of e-magazine 'AIKYAM' (30 September 2021)"
@@ -61,7 +73,7 @@
             "text": "\u0939\u093f\u0902\u0926\u0940 \u092a\u0916\u0935\u093e\u095c\u093e \u0968\u0966\u0968\u0967 (Hindi Pakhwada 2021)"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Fifth issue of e-magazine 'AIKYAM' (27 July 2021)",
             "link": "https://drive.google.com/file/d/1F_64W4xeFXCf_hf3vFIAuln3_97Mr41Q/view?usp=sharing",
             "text": "Fifth issue of e-magazine 'AIKYAM' (27 July 2021)"
@@ -73,7 +85,7 @@
             "text": "International Yoga Day 2021 - June 21, 2021"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Fourth issue of e-magazine 'AIKYAM' (23 Mar 2021)",
             "link": "https://drive.google.com/file/d/1w6oBg_nUVD6TiSHiF9K4p2UTpIfihjbb/view?usp=sharing",
             "text": "Fourth issue of e-magazine 'AIKYAM' (23 Mar 2021)"
@@ -103,13 +115,13 @@
             "text": "Five days Workshop on NI Graphical System Design Platform for Engineering Education and Research"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "eCalendar 2021 - IIIT Tiruchirappalli",
             "link": "https://drive.google.com/file/d/12gxyhkRho-UT9hC-lXgGBUNgjy9E8BQW/view?usp=sharing",
             "text": "eCalendar 2021 - IIIT Tiruchirappalli"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Third issue of e-magazine 'AIKYAM' (21 Jan 2021)",
             "link": "https://drive.google.com/file/d/1QQudXKYk5c8Gp0V0MfGuz5HVCEUBsfcN/view?usp=sharing",
             "text": "Third issue of e-magazine 'AIKYAM' (21 Jan 2021)"
@@ -151,7 +163,7 @@
             "text": "Live streaming of First Convocation 2020 (21 Nov 2020 11 am)"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Second issue of e-magazine 'AIKYAM' (17 Nov 2020)",
             "link": "https://drive.google.com/file/d/1AqUWKFRSpjYP7zgXnTsjfI7UTmX5gvc3/view?usp=sharing",
             "text": "Second issue of e-magazine 'AIKYAM' (17 Nov 2020)"
@@ -205,19 +217,19 @@
             "text": "Live Streaming of First Convocation 2020"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Fee structure for Even Semester  AY 2019-20 ",
             "link": "/downloads/notices/Fee-Structure-(Even-Semester).pdf",
             "text": "Fee structure for Even Semester  AY 2019-20"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Fee Structure for the AY 2019-20 ",
             "link": "/downloads/notices/FeeStructure19-20.pdf",
             "text": "Fee Structure for Higher Semesters (III, V, VII) for the AY 2019-20"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Fee Structure for the AY 2019-20 (1 semester) ",
             "link": "/downloads/notices/Fee Structure 2019-20.pdf",
             "text": "Fee Structure for the AY 2019-20 (I semester) "
