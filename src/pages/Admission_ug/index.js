@@ -13,7 +13,7 @@ import {Typography,
     TableRow,
     Paper,} from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
+import feeStructure from  '../../docs/Fee_structure_2022.pdf'  
 const Admission_ug = () => {
   const createStyles = makeStyles({
     themeText: {
@@ -51,82 +51,66 @@ const Admission_ug = () => {
             className={classes.themeText}
           >
             <Box component="span">
-              B.Tech Admission - Online Admission Process 2021
+              B.Tech Admission Process
+              <ul style={{fontSize:"16px"}}>
+                <li>
+                <a
+            className={`${classes.link} utility-mrgin_2`}
+            href="http://www.iiitt.ac.in/downloads/admission/BTech_Reporting_Details_2022_23.pdf"
+            target="_blank"
+          >
+           B.Tech Online Reporting Details 2022-23 - Last Date for ONLINE REPORTING - 09-11-2022
+          </a>
+                </li>
+
+                <li>
+                <a
+            className={`${classes.link} utility-mrgin_2`}
+            href="http://www.iiitt.ac.in/downloads/admission/JoSAA-2022_InfoBrochure.pdf"
+            target="_blank"
+            >
+                JoSAA 2022- Information Brochure
+          </a>
+                </li>
+
+                <li>
+                <a
+            className={`${classes.link} utility-mrgin_2`}
+            href="http://www.iiitt.ac.in/downloads/admission/JoSAA-2022_Schedule.pdf"
+            target="_blank"
+            >
+               JoSAA 2022 Schedule
+          </a>
+                </li>
+                <li>
+                <a
+            className={`${classes.link} utility-mrgin_2`}
+            href="http://www.iiitt.ac.in/downloads/admission/CSAB-2022_InfoBrochure.pdf"
+            target="_blank"
+            >
+               CSAB 2022 Information Brochure
+          </a>
+                </li>
+
+
+                <li>
+                <a
+            className={`${classes.link} utility-mrgin_2`}
+            href="http://www.iiitt.ac.in/downloads/admission/CSAB-2022_Schedule.pdf"
+            target="_blank"
+            >
+                CSAB 2022 Schedule
+
+          </a>
+                </li>
+
+              
+              </ul>
+            
             </Box>
           </Typography>
-          <h3 className="utility_margin-1">
-            There is no need to Report to the Institute in Person for Online
-            Admission
-          </h3>
-          <a
-            className={`${classes.link} utility_link`}
-            href="http://www.iiitt.ac.in/downloads/admission/BTechReporting_details_2021-22-updated71221.pdf"
-            target="_blank"
-          >
-            Click here for Online Reporting Details
-          </a>
-          <a
-            className={`${classes.link} utility-mrgin_2`}
-            href="https://josaa.nic.in/webinfo/File/ViewFile?FileId=18&LangId=P"
-            target="_blank"
-          >
-            JoSAA_Important Instructions for candidates from JoSAA 6th round
-            onwards
-          </a>
-          <p>
-            Candidates who have secured their seat by paying partial admission
-            fee during JoSAA Rounds are required to do online reporting to the
-            allotted institute from{" "}
-            <strong>
-              7th December 2021 (Tuesday) (10:00 hrs) to 13th December 2021
-              (17:00 hrs)
-            </strong>
-          </p>
-          <a
-            className={`${classes.link}`}
-            href="https://csab.nic.in/WebInfo/File/ViewFile?FileId=3&LangId=P"
-            target="_blank"
-          >
-            Schedule of CSAB-2021 Special Rounds
-          </a>
-          <div>
-            <h4 className="utility_margin-h4">For details/changes in the schedule (JoSAA), visit:</h4>
-            <ul className="utility-bullet">
-              <li>
-                <a
-                  className={`${classes.link}`}
-                  href="https://josaa.nic.in/webinfo/File/ViewFile?FileId=2&LangId=P"
-                  target="_blank"
-                >
-                  https://josaa.nic.in/webinfo/File/ViewFile?FileId=2&LangId=P
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`${classes.link}`}
-                  href="https://josaa.nic.in/webinfo/Page/Page?PageId=1&LangId="
-                  target="_blank"
-                >
-                  https://josaa.nic.in/webinfo/Page/Page?PageId=1&LangId=
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="utility_margin-h4">For details / Business rules and schedule, (CSAB), visit:</h4>
-            <ul className="utility-bullet">
-              <li>
-                <a
-                  className={`${classes.link}`}
-                  href="https://csab.nic.in/WebInfo/Page/Page?PageId=1&LangId=P"
-                  target="_blank"
-                >
-                  https://csab.nic.in/WebInfo/Page/Page?PageId=1&LangId=P
-                </a>
-              </li>
-            </ul>
-          </div>
-          <hr className="utility-hr"/>
+         
+                   <hr className="utility-hr"/>
           <h2>List of Undergraduate Programs</h2>
           <div>
           <p className="utility-mrgin_2">IIIT Tiruchirappalli offers the following two <strong>Undergraduate Programs :</strong></p>
@@ -145,19 +129,19 @@ const Admission_ug = () => {
               <li>
               <a
                   className={`${classes.link}`}
-                  href="http://www.iiitt.ac.in/downloads/admission/FeeStructure2021-22.pdf"
+                  href={feeStructure}
                   target="_blank"
                 >
-                  Fee Structure 2021
+                  Fee Structure 2022
                 </a>
               </li>
               <li>
               <a
                   className={`${classes.link}`}
-                  href="http://www.iiitt.ac.in/downloads/admission/FeeRefundStructure2021.pdf"
+                  href="http://www.iiitt.ac.in/downloads/admission/Fee_structure_2022.pdf"
                   target="_blank"
                 >
-                  Fee Refund Structure 2021
+                  Fee Refund Structure 2022
                 </a>
               </li>
           </ul>
@@ -185,7 +169,7 @@ const Admission_ug = () => {
               <li>
               <a
                   className={`${classes.link}`}
-                  href="http://www.iiitt.ac.in/downloads/admission/Admission_cancellation_form2020-21.pdf"
+                  href="http://www.iiitt.ac.in/downloads/admission/Admission_cancellation_form2021-22.pdf"
                   target="_blank"
                 >
                   Admission Cancellation Form
@@ -195,6 +179,15 @@ const Admission_ug = () => {
           <hr className="utility-hr"/>
           <h2>Opening and Closing Rank</h2>
           <ul className="utility-bullet">
+          <li>
+              <a
+                  className={`${classes.link}`}
+                  href="http://www.iiitt.ac.in/downloads/admission/Opening_and_Closing_Rank2021.pdf"
+                  target="_blank"
+                >
+                  Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2021
+                </a>
+              </li>
               <li>
               <a
                   className={`${classes.link}`}
@@ -229,7 +222,7 @@ const Admission_ug = () => {
          <br/>
             <Typography variant="h5" className={classes.themeText}>
               <Box component="span" fontWeight="fontWeightBold">
-                JEE Main 2020
+                JEE Main
               </Box>
             </Typography>
             <br/>
@@ -265,7 +258,7 @@ const Admission_ug = () => {
                 <section className={classes.sectionPadding}>
             <Typography variant="h5" className={classes.themeText}>
               <Box component="span" fontWeight="fontWeightBold">
-                JoSAA 2019
+                JoSAA
               </Box>
             </Typography>
             <br/>

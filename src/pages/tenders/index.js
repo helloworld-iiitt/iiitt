@@ -84,11 +84,15 @@ export default function Notices() {
                   .map((notice) => {
                     return (
                       <li key={notice.name}>
+                        
+                     
                         <a
-                          href={require(`../../docs/tenders/${notice.url}`)}
+                          href={notice.url!=="" && require(`../../docs/tenders/${notice.url}`)}
                           download={`${notice.url}`}
                           className={classes.link}
                         >
+              
+                        
                           <div className={classes.notice}>
                             <Typography>
                               <Typography
@@ -96,7 +100,7 @@ export default function Notices() {
                                 color="textSecondary"
                                 gutterBottom
                               >
-                                Posted on:{notice.date}
+                               Posted on:{notice.date}
                               </Typography>
                               <br />
                               <Box
@@ -134,7 +138,7 @@ export default function Notices() {
                     return (
                       <li key={notice.name}>
                         <a
-                          href={require(`../../docs/tenders/${notice.url}`)}
+                          href={notice.url!=="" && require(`../../docs/tenders/${notice.url}`)}
                           download={`${notice.url}`}
                           className={classes.link}
                         >
@@ -145,7 +149,8 @@ export default function Notices() {
                                 color="textSecondary"
                                 gutterBottom
                               >
-                                Posted on:{notice.date}
+                                {notice.date!==""?
+                                "Posted on: "+notice.date:""}
                               </Typography>
                               <br />
                               <Box

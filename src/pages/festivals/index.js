@@ -133,7 +133,7 @@ export default function Festivals() {
                               {link.name}
                             </a>
                           ) : (
-                            <a href={link.url} className={classes.link}>
+                            <a href={link.url} target="_blank" className={classes.link}>
                               {link.name}
                             </a>
                           )}

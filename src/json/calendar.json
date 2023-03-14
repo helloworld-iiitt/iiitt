@@ -1,5 +1,40 @@
 {
   "data": [
+      {
+      "title": "ACADEMIC CALENDAR (EVEN SEMESTER / 2022-23 SESSION)",
+      "data": [
+        {
+          "title": "1. Academic Calendar ( B.Tech. ( IV, VI, VIII semesters) and M.Tech. ( II & IV semesters ) - January 2023 Session )",
+          "url": "AcademicCalender_2022_23_EVEN.pdf"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC CALENDAR (ODD SEMESTER / 2022-23 SESSION)",
+      "data": [
+        {
+          "title": "1. Academic Calendar ( B.Tech. (I Semester) ) - November 2022 Session )",
+          "url": "BTech_I_Sem_Academic_Calendar_AY2022_23.pdf"
+        },
+        {
+          "title": "2. Academic Calendar ( B.Tech. ( III, V, VII semesters) and M.Tech. ( I & III semesters ) - September 2022 Session )",
+          "url": "Revised_ODD_Semester_2022_23.pdf"
+        }
+      ]
+    },
+    {
+      "title": "ACADEMIC CALENDAR (EVEN SEMESTER / 2021-22 SESSION)",
+      "data": [
+        {
+          "title": "1. Academic Calendar ( B.Tech. ( IV, VI, VIII ) and M.Tech. ( II ) - January 2022 Session )",
+          "url": "EVEN_Semester_2021-22_BTech(IV_IV_VIII)_and_MTech(II Sem)_Revised.pdf"
+        },
+        {
+          "title": "2. Academic Calendar ( B.Tech. ( II ) - April 2022 Session )",
+          "url": "AcademicCalendar_2021-22EVEN_SEM2.pdf"
+        }
+      ]
+    },
     {
       "title": "ACADEMIC CALENDAR (ODD SEMESTER / 2021-22 SESSION)",
       "data": [
@@ -10,7 +45,13 @@
         {
           "title": "2. Academic Calendar ( B.Tech. ( III ) - August 2021 Session )",
           "url": "ODD_Semester_2021-22_II_year.pdf"
+        },
+        {
+          "title": "3. Academic Calendar ( B.Tech. ( I ) - December 2021 Session )",
+          "url": "ODD_Semester_2021-22_I_year.pdf"
         }
+
+        
       ]
     },
     {

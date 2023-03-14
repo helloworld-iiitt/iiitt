@@ -1,115 +1,133 @@
 {
     "data": [
         {
+            "isNew":true,
+            "title":"NOTIFICATION FOR THE ENGAGEMENT OF AUDITOR",
+            "link": "/downloads/announcement/Tender_Notifice_Auditor_23FEB2023.pdf",
+            "text": "NOTIFICATION FOR THE ENGAGEMENT OF AUDITOR"
+          },
+        {
             "isNew": true,
+            "title": "New Tender Notification for purchasing THERMAL EVAPORATOR – PHYSICS",
+            "link": "/downloads/tenders/Tender_notification_PhysicsLab_Equipment.pdf",
+            "text": "New Tender Notification for purchasing THERMAL EVAPORATOR – PHYSICS"
+        },
+        {
+            "isNew":true,
+            "title":"Rolling Advertisement for Faculty Recruitment (Advt. No. IIITT/Rect./Faculty/2022/11-01)",
+            "link": "/downloads/announcement/Rolling_IIITT_FacAdvt_NOV2022.pdf",
+            "text": "Rolling Advertisement for Faculty Recruitment (Advt. No. IIITT/Rect./Faculty/2022/11-01)"
+          },
+        {
+            "isNew": false,
             "title": "Tender Extension Notice: For Providing  Food Catering  services",
             "link": "/downloads/tenders/Tender_Extension_Notice_04MAR2022.pdf",
             "text": "Tender Extension Notice: For Providing  Food Catering  services"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: FOR HIRING OF VEHICLE",
             "link": "tender",
             "text": "New Tender Notification: FOR HIRING OF VEHICLE"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For purchasing Lab Equipment - ECE Department",
             "link": "tender",
             "text": "New Tender Notification: For purchasing Lab Equipment - ECE Department"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For Providing Food Catering Services",
             "link": "tender",
             "text": "New Tender Notification: For Providing Food Catering Services"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For purchasing Desktop Computers - CSE Department",
             "link": "tender",
             "text": "New Tender Notification: For purchasing Desktop Computers - CSE Department"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For supplying Hostel Furniture",
             "link": "tender",
             "text": "New Tender Notification: For supplying Hostel Furniture"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For purchasing Lab Furniture - MECH Department",
             "link": "tender",
             "text": "New Tender Notification: For purchasing Lab Furniture - MECH Department"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Tender Cancellation Notice",
             "link": "/downloads/tenders/Tender_Cancellation_Notice_08FEB2022.pdf",
             "text": "Tender Cancellation Notice "
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Tender Extension Notice: For Providing Hostel Furniture",
             "link": "/downloads/tenders/Tender_Extension_Notice_02FEB2022.pdf",
             "text": "Tender Extension Notice: For Providing Hostel Furniture"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Tender Extension Notice: For Providing Hostel Furniture and Desktop Computers",
             "link": "/downloads/tenders/Tender_Extension_Notice_27JAN2022.pdf",
             "text": "Tender Extension Notice: For Providing Hostel Furniture and Desktop Computers"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "NOTIFICATION FOR THE RECRUITMENT OF NON-TEACHING POSITIONS (On Deputation)",
             "link": "/downloads/notices/NOTIFICATION_RECRUITMENT_NON_TEACHING_POSITIONS_(On Deputation).pdf",
             "text": "NOTIFICATION FOR THE RECRUITMENT OF NON-TEACHING POSITIONS (On Deputation)"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For supplying Lab Furniture",
             "link": "tender",
             "text": "New Tender Notification: For supplying Lab Furniture"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New Tender Notification: For purchasing Lab Equipment - Physics Department",
             "link": "tender",
             "text": "New Tender Notification: For purchasing Lab Equipment - Physics Department"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Tender Cancellation Notice: For Providing Hostel Furniture dt. 27-11-2021",
             "link": "/downloads/tenders/Tender_HF_Cancellation_Notice_24DEC2021.pdf",
             "text": "Tender Cancellation Notice: For Providing Hostel Furniture dt. 17-11-2021"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Tender Cancellation Notice: For Providing Food Catering Services dt. 28-10-2021",
             "link": "/downloads/tenders/Tender_FCS_Cancellation_Notice_02DEC2021.pdf",
             "text": "Tender Cancellation Notice: For Providing Food Catering Services dt. 28-10-2021"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Tender Extension Notice: For Providing Housekeeping services",
             "link": "/downloads/tenders/Tender_Extension_Notice_02DEC2021.pdf",
             "text": "Tender Extension Notice: For Providing Housekeeping services"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Corrigendum: Kitchen Equipment, Food Catering, Housekeeping tenders",
             "link": "/downloads/tenders/CORRIGENDUM_foodcatering_kitchenequipment_housekeeping.pdf",
             "text": "Corrigendum: Kitchen Equipment, Food Catering, Housekeeping tenders"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New tender notifications: Supply of Dining Tables, Supply and installation of hostel furniture",
             "link": "tender",
             "text": "New tender notifications: Supply of Dining Tables, Supply and installation of hostel furniture"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "New tender notifications: Kitchen equipments, Food catering services, Housekeeping services",
             "link": "tender",
             "text": "New tender notifications: Kitchen equipments, Food catering services, Housekeeping services"
@@ -151,7 +169,7 @@
             "text": "PhD Admission April 2021"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "Team IIITT encourages all the students and faculty to take the Jab and win the fight over COVID-19",
             "link": "downloads/news/COVID-19_Vaccine.pdf",
             "text": "Team IIITT encourages all the students and faculty to take the Jab and win the fight over COVID-19"
@@ -295,7 +313,7 @@
             "text": "Tender for Laptop - June 2020"
         },
         {
-            "isNew": true,
+            "isNew": false,
             "title": "The COVID-19 Journey: From Crisis Management to Rebuilding",
             "link": "https://youtu.be/4ztXfka2hNI",
             "text": "The COVID-19 Journey: From Crisis Management to Rebuilding"

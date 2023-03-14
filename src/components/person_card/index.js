@@ -26,7 +26,9 @@ const PersonCard = (props) => {
 
   return (
     <>
-      <div className="card">
+     { 
+     props.src_type==="faculty"?
+      (<div className="card">
         <div className="top">
           <div className="text">
             {props.src_type === "faculty" ? (
@@ -76,7 +78,59 @@ const PersonCard = (props) => {
           <a href={`Phone:${props.phone}`} style={{color:"white"}}>{props.phone}</a>
           </div>
         </div>
+      </div>)
+      :
+      (
+        <div className="card mcard">
+        <div className="top">
+          <div className="text">
+        
+              <a className="name" href="#">
+                {props.name}
+              </a>
+         
+            <h4>{props.designation}</h4>
+          </div>
+
+          <div className="circle-img">
+            <img
+              src={require('../../images/people/'+props.src_type+'/'+props.src)}
+              alt="avatar_img"
+            />
+          </div>
+        </div>
+        <div className="bottom">
+          <p className="description">
+            {props.researchArea && (
+              <>
+                <Typography
+                  variant="body2"
+                  gutterBottom
+                  className={classes.researchArea}
+                >
+                  {props.researchArea}
+                </Typography>
+              </>
+            )}
+          </p>
+         { props.src_type==="faculty" ||  props.src_type==="students"?
+          <div className="info-div">
+            <MailIcon className="info-icon" />
+            <a href={`mailto:${props.emailID}`} className="info">
+              {props.emailID}
+            </a>
+          </div>
+          :
+          ""  
+        }
+          <div className="info-div">
+          <a href={`Phone:${props.phone}`} style={{color:"white"}}>{props.phone}</a>
+          </div>
+        </div>
       </div>
+      
+      )
+      }
     </>
   );
 };

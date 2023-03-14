@@ -12,7 +12,7 @@ const useStyles = makeStyles({
 
     marginTop: "3rem",
     marginLeft: "1.3rem",
-    marginRight: "1rem",
+    marginRight: "0.8rem",
   },
 });
 

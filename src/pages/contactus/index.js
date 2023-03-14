@@ -86,7 +86,7 @@ export default function ContactUs() {
               IIIT Trichy has now shifted to the permanent campus at
               Sethurappatti.
               <br />
-              IIIT Tiruchirappalli is located about 20.0kms from Tiruchirappalli
+              It is a 20-minute drive from Tiruchirappalli
               Junction/Central Bus stand on the Tiruchirappalli-Madurai Highway.
               Tiruchirappalli is also well-connected to the other cities of
               Tamil Nadu, southern Karnataka and Kerala through Govt./Private
@@ -125,7 +125,7 @@ export default function ContactUs() {
               Alundur - Sethurappatti.
               <br />
               <br />
-              By car it takes approximately 30 minutes from Tiruchirappalli
+              By car it takes approximately 20 minutes from Tiruchirappalli
               railway station/airport/bus stand.
               <br />
             </Typography>

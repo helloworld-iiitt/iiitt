@@ -1,14 +1,5 @@
 {
-    "registrar": [
-      {
-        "head" : "Deputy Registrar",
-        "name": "Shri. Biju Mathew",
-        "designation": "Deputy Registrar",
-        "emailID": "dr@iiitt.ac.in",
-        "src": "bijumathew.jpg",
-        "phone":"9401144440"
-      }
-    ],
+   
     "officestaff": [
       {
         "name": "Mrs. M. Saraswathy",
@@ -22,13 +13,6 @@
         "designation": "Administrative Assistant",
         "emailID": "--",
         "src": "staff_2.jpg",
-        "phone":""
-      },
-      {
-        "name": "Mr. S. Christu Raj",
-        "designation": "Administrative Assistant",
-        "emailID": "--",
-        "src": "staff_3.jpg",
         "phone":""
       },
       {

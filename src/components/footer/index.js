@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Icon from "@material-ui/core/Icon";
 import "./style.css";
 import { css } from "@emotion/core";
@@ -10,8 +10,6 @@ import CallIcon from "@material-ui/icons/Call";
 import Link from "@material-ui/core/Link";
 import Loadable from "react-loadable";
 import Temperature from "./temperature";
-
-/* Footer */
 const Footer = () => {
   return (
     <div>
@@ -73,9 +71,9 @@ const Footer = () => {
             <div className="main-hr  quick-ex"></div>
             <a href="/anti_ragging_committee">Anti Ragging Committee</a>
             <hr />
-            <a href="/admission_procedure">Admission Procedure</a>
+            <a href="/admission">Admission Procedure</a>
             <hr />
-            <a href="/admission_fee_structure">Fee Structure</a>
+            <a href="/festivals">Campus Life</a>
             <hr />
             <a href="/faq">FAQ's</a>
           </div>
@@ -83,6 +81,7 @@ const Footer = () => {
           <hr className="mobile" />
           <Temperature />
         </div>
+
         <div>
           <a className="credits" href="webDevClub">
             &lt;/&gt; with <Icon id="favorite">favorite_border</Icon> by Web

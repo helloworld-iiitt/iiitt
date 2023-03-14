@@ -11,10 +11,9 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border-top: 5px solid #256f46;
 }
-.navbar{
+.navbar {
   height: inherit !important;
 }
-
 
 .credits {
   background-color: #256f46;
@@ -163,7 +162,6 @@ html {
   border-top: 2px;
   border-color: #17462c;
 }
-
 #favorite {
   font-size: 22px;
   line-height: 27.25px;
@@ -196,6 +194,10 @@ a {
   border-color: #17462c;
   opacity: 1;
   margin: 7% 4%;
+}
+.update {
+  padding-left: 10px;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .main-div {
@@ -274,6 +276,9 @@ a {
 
   .line {
     display: none;
+  }
+  .update {
+    text-align: center;
   }
 }
 
@@ -424,13 +429,16 @@ a {
   .count-down-main p {
     margin: 1px;
   }
-  #favorite{
+  #favorite {
     color: #ff4c4c;
   }
 }
-@media (max-width:800px) {
-  .container{
+@media (max-width: 800px) {
+  .container {
     margin-top: 0px !important;
     padding-top: 0px !important;
+  }
+  .update {
+    text-align: center;
   }
 }
