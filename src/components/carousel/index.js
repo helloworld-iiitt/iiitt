@@ -8,8 +8,9 @@ export default class MainCarousel extends Component {
       <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} interval="4000">
         {this.props.images.map((image) => {
           return (
-            <div>
+            <div >
               <img
+                width="fit-content" height={500}
                 src={require(`../../images/${image.path}`)}
                 alt={`${image.name}`}
               />

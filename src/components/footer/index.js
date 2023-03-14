@@ -71,9 +71,9 @@ const Footer = () => {
             <div className="main-hr  quick-ex"></div>
             <a href="/anti_ragging_committee">Anti Ragging Committee</a>
             <hr />
-            <a href="/admission_procedure">Admission Procedure</a>
+            <a href="/admission">Admission Procedure</a>
             <hr />
-            <a href="/admission_fee_structure">Fee Structure</a>
+            <a href="/festivals">Campus Life</a>
             <hr />
             <a href="/faq">FAQ's</a>
           </div>
