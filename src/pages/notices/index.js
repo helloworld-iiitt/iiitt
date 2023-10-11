@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./../../components/navbar/index";
-import Footer from "./../../components/footer/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
-import { validURL } from '../../common/utils'
+import { validURL } from "../../common/utils";
 import "./styles.css";
 
 const createStyles = makeStyles({
@@ -33,20 +33,25 @@ export default function Notices() {
     document.getElementsByTagName("title")[0].innerHTML = "Notices";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const [oldNotices, setOldNotices] = useState([]);
   const [newNotices, setNewNotices] = useState([]);
   useEffect(() => {
     import("../../json/notices.json").then((data) => {
-      let d = data.data
-      let latest = d.filter(x => x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
-      setNewNotices(latest)
-      let old = d.filter(x => !x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
-      setOldNotices(old)
+      const d = data.data;
+      const latest = d
+        .filter((x) => x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+      setNewNotices(latest);
+      const old = d
+        .filter((x) => !x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+      setOldNotices(old);
     });
   }, []);
 
@@ -76,43 +81,42 @@ export default function Notices() {
             </Typography>
             <ul className="doclist">
               {newNotices &&
-                newNotices.map(item => {
-                  return (
-                    <li key={item.name}>
-                      <a
-                        href={validURL(item.link) ? item.link : `${process.env.REACT_APP_STATIC_BASE_URL}/${item.link}`}
-                        download={`${item.url}`}
-                        className={classes.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <div className={classes.item}>
-                          <Typography>
-                            {
-                              item.date &&
-                              <Typography
-                                variant="caption"
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                Posted on:{item.date}
-                              </Typography>
-                            }
-                            <br />
-                            <Box
-                              className={classes.themeText}
-                              component="span"
+                newNotices.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={
+                        validURL(item.link)
+                          ? item.link
+                          : `${process.env.REACT_APP_STATIC_BASE_URL}/${item.link}`
+                      }
+                      download={`${item.url}`}
+                      className={classes.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className={classes.item}>
+                        <Typography>
+                          {item.date && (
+                            <Typography
+                              variant="caption"
+                              color="textSecondary"
+                              gutterBottom
                             >
-                              {item.title}
-                            </Box>
-                            <br />
-                            <Box component="span">{item.text}</Box>
-                          </Typography>
-                        </div>
-                      </a>
-                    </li>
-                  );
-                })}
+                              Posted on:
+                              {item.date}
+                            </Typography>
+                          )}
+                          <br />
+                          <Box className={classes.themeText} component="span">
+                            {item.title}
+                          </Box>
+                          <br />
+                          <Box component="span">{item.text}</Box>
+                        </Typography>
+                      </div>
+                    </a>
+                  </li>
+                ))}
             </ul>
           </section>
           <section className={classes.item_section}>
@@ -123,43 +127,42 @@ export default function Notices() {
             </Typography>
             <ul className="doclist">
               {oldNotices &&
-                oldNotices.map(item => {
-                  return (
-                    <li key={item.name}>
-                      <a
-                        href={validURL(item.link) ? item.link : `${process.env.REACT_APP_STATIC_BASE_URL}/${item.link}`}
-                        download={`${item.url}`}
-                        className={classes.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <div className={classes.item}>
-                          <Typography>
-                            {
-                              item.date &&
-                              <Typography
-                                variant="caption"
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                Posted on:{item.date}
-                              </Typography>
-                            }
-                            <br />
-                            <Box
-                              className={classes.themeText}
-                              component="span"
+                oldNotices.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={
+                        validURL(item.link)
+                          ? item.link
+                          : `${process.env.REACT_APP_STATIC_BASE_URL}/${item.link}`
+                      }
+                      download={`${item.url}`}
+                      className={classes.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className={classes.item}>
+                        <Typography>
+                          {item.date && (
+                            <Typography
+                              variant="caption"
+                              color="textSecondary"
+                              gutterBottom
                             >
-                              {item.title}
-                            </Box>
-                            <br />
-                            <Box component="span">{item.text}</Box>
-                          </Typography>
-                        </div>
-                      </a>
-                    </li>
-                  );
-                })}
+                              Posted on:
+                              {item.date}
+                            </Typography>
+                          )}
+                          <br />
+                          <Box className={classes.themeText} component="span">
+                            {item.title}
+                          </Box>
+                          <br />
+                          <Box component="span">{item.text}</Box>
+                        </Typography>
+                      </div>
+                    </a>
+                  </li>
+                ))}
             </ul>
           </section>
         </Grid>

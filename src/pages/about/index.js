@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../../components/navbar/index";
-import MissionVision from "../../components/mission_vision/";
-import Footer from "../../components/footer/";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import MissionVision from "../../components/mission_vision";
+import Footer from "../../components/footer";
 import "./style.css";
 import {
   Grid,

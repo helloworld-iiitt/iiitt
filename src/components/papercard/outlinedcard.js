@@ -9,6 +9,7 @@ import Divider from "@material-ui/core/Divider";
 import DescriptionIcon from "@material-ui/icons/Description";
 import Link from "@material-ui/core/Link";
 import "./style.css";
+
 const useStyles = makeStyles({
   root: {
     minWidth: 237,
@@ -36,26 +37,28 @@ export default function OutlinedCard(props) {
         <div className="newshead">{props.title}</div>
         <ul className={props.title}>
           {props.items &&
-            props.items.map((item) => {
-              return (
-                <li style={{ marginBottom: "15px" }}>
-                  <Link href={item.link}>{item.title}</Link>
-                  <br />
-                  {item.date && <Typography
+            props.items.map((item) => (
+              <li style={{ marginBottom: "15px" }}>
+                <Link href={item.link}>{item.title}</Link>
+                <br />
+                {item.date && (
+                  <Typography
                     variant="caption"
                     color="textSecondary"
                     gutterBottom
                   >
-                    Posted:{item.date}
+                    Posted:
+                    {item.date}
                   </Typography>
-                  }
-                </li>
-              );
-            })}
+                )}
+              </li>
+            ))}
         </ul>
       </CardContent>
       <CardActions>
-        <Link href={props.linkToOlder}><Button size="small">View older</Button></Link>
+        <Link href={props.linkToOlder}>
+          <Button size="small">View older</Button>
+        </Link>
       </CardActions>
     </Card>
   );

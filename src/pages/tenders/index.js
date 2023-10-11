@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./../../components/navbar/index";
-import Footer from "./../../components/footer/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./styles.css";
 
 const createStyles = makeStyles({
@@ -34,11 +34,12 @@ export default function Notices() {
     document.getElementsByTagName("title")[0].innerHTML = "Tenders";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const [notices, setNotices] = useState([]);
   useEffect(() => {
     import("../../json/tenders.json").then((data) => {
@@ -79,40 +80,36 @@ export default function Notices() {
                   .sort(
                     (a, b) =>
                       new Date(b.date.split("/").reverse().join("/")) -
-                      new Date(a.date.split("/").reverse().join("/"))
+                      new Date(a.date.split("/").reverse().join("/")),
                   )
-                  .map((notice) => {
-                    return (
-                      <li key={notice.name}>
-                        <a
-                          href={require(`../../docs/tenders/${notice.url}`)}
-                          download={`${notice.url}`}
-                          className={classes.link}
-                        >
-                          <div className={classes.notice}>
-                            <Typography>
-                              <Typography
-                                variant="caption"
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                Posted on:{notice.date}
-                              </Typography>
-                              <br />
-                              <Box
-                                className={classes.themeText}
-                                component="span"
-                              >
-                                {notice.name}
-                              </Box>
-                              <br />
-                              <Box component="span">{notice.description}</Box>
+                  .map((notice) => (
+                    <li key={notice.name}>
+                      <a
+                        href={require(`../../docs/tenders/${notice.url}`)}
+                        download={`${notice.url}`}
+                        className={classes.link}
+                      >
+                        <div className={classes.notice}>
+                          <Typography>
+                            <Typography
+                              variant="caption"
+                              color="textSecondary"
+                              gutterBottom
+                            >
+                              Posted on:
+                              {notice.date}
                             </Typography>
-                          </div>
-                        </a>
-                      </li>
-                    );
-                  })}
+                            <br />
+                            <Box className={classes.themeText} component="span">
+                              {notice.name}
+                            </Box>
+                            <br />
+                            <Box component="span">{notice.description}</Box>
+                          </Typography>
+                        </div>
+                      </a>
+                    </li>
+                  ))}
             </ul>
           </section>
           <section className={classes.notice_section}>
@@ -128,40 +125,36 @@ export default function Notices() {
                   .sort(
                     (a, b) =>
                       new Date(b.date.split("/").reverse().join("/")) -
-                      new Date(a.date.split("/").reverse().join("/"))
+                      new Date(a.date.split("/").reverse().join("/")),
                   )
-                  .map((notice) => {
-                    return (
-                      <li key={notice.name}>
-                        <a
-                          href={require(`../../docs/tenders/${notice.url}`)}
-                          download={`${notice.url}`}
-                          className={classes.link}
-                        >
-                          <div className={classes.notice}>
-                            <Typography>
-                              <Typography
-                                variant="caption"
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                Posted on:{notice.date}
-                              </Typography>
-                              <br />
-                              <Box
-                                className={classes.themeText}
-                                component="span"
-                              >
-                                {notice.name}
-                              </Box>
-                              <br />
-                              <Box component="span">{notice.description}</Box>
+                  .map((notice) => (
+                    <li key={notice.name}>
+                      <a
+                        href={require(`../../docs/tenders/${notice.url}`)}
+                        download={`${notice.url}`}
+                        className={classes.link}
+                      >
+                        <div className={classes.notice}>
+                          <Typography>
+                            <Typography
+                              variant="caption"
+                              color="textSecondary"
+                              gutterBottom
+                            >
+                              Posted on:
+                              {notice.date}
                             </Typography>
-                          </div>
-                        </a>
-                      </li>
-                    );
-                  })}
+                            <br />
+                            <Box className={classes.themeText} component="span">
+                              {notice.name}
+                            </Box>
+                            <br />
+                            <Box component="span">{notice.description}</Box>
+                          </Typography>
+                        </div>
+                      </a>
+                    </li>
+                  ))}
             </ul>
           </section>
         </Grid>

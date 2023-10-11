@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Time from "./time";
 import SchoolTwoToneIcon from "@material-ui/icons/SchoolTwoTone";
 import FavoriteIcon from "@material-ui/icons/Favorite";
+import Time from "./time";
 
-const Temperature = () => {
+function Temperature() {
   const apiKey = `https://api.openweathermap.org/data/2.5/weather?q=tiruchirapalli,india&units=metric&appid=${process.env.REACT_APP_API_KEY}`;
   const [weatherDescription, setweatherDescription] = useState("");
   const [temperature, setTemperature] = useState("");
@@ -35,17 +35,23 @@ const Temperature = () => {
       <h2>
         Tiruchirappalli <SchoolTwoToneIcon />
       </h2>
-      <div className="main-hr trichy"></div>
+      <div className="main-hr trichy" />
       <Time />
       <div className="temperature">
         <img src={`${imageURL}`} alt="weather image" />
         <div>
           <p>{weatherDescription}</p>
-          <p>Temp {temperature}°C</p>
+          <p>
+            Temp
+            {temperature}
+            °C
+          </p>
         </div>
       </div>
       <p>
-        Humidity: {humidity}% Wind:{wind}km/h;
+        Humidity: {humidity}% Wind:
+        {wind}
+        km/h;
       </p>
       <div className="nature">
         <span>NEAR TO NATURE</span>
@@ -53,6 +59,6 @@ const Temperature = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Temperature;

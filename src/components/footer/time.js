@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Time = () => {
+function Time() {
   const [getday, setgetday] = useState(0);
   const [getHour, setgetHour] = useState(0);
   const [getminutes, setgetminutes] = useState(0);
@@ -53,12 +53,12 @@ const Time = () => {
   return (
     <div>
       <p>
-        {daysArray[getday]}, {getHour}:{getminutes}, {getDate}{" "}
+        {daysArray[getday]},{getHour}:{getminutes},{getDate}{" "}
         {monthArray[getMonth]}
       </p>
       <p>{getFullYear}</p>
     </div>
   );
-};
+}
 
 export default Time;

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -24,11 +24,12 @@ export default function Departments() {
     document.getElementsByTagName("title")[0].innerHTML = "Departments";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [depts, setDepts] = useState(undefined);
 
@@ -58,29 +59,27 @@ export default function Departments() {
             </Box>
           </Typography>
           {depts &&
-            depts.map((dept) => {
-              return (
-                <section className={classes.sectionPadding}>
-                  <Typography
-                    variant="h5"
-                    className={classes.themeText}
-                    gutterBottom
-                  >
-                    <Box component="span" fontWeight="fontWeightBold">
-                      {dept.name}
-                    </Box>
-                  </Typography>
-                  <Box
-                    component="span"
-                    fontSize="1.2em"
-                    className={classes.dept_desc}
-                    gutterBottom
-                  >
-                    {dept.description}
+            depts.map((dept) => (
+              <section className={classes.sectionPadding}>
+                <Typography
+                  variant="h5"
+                  className={classes.themeText}
+                  gutterBottom
+                >
+                  <Box component="span" fontWeight="fontWeightBold">
+                    {dept.name}
                   </Box>
-                </section>
-              );
-            })}
+                </Typography>
+                <Box
+                  component="span"
+                  fontSize="1.2em"
+                  className={classes.dept_desc}
+                  gutterBottom
+                >
+                  {dept.description}
+                </Box>
+              </section>
+            ))}
         </Grid>
       </Grid>
       <Footer />

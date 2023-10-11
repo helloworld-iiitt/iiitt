@@ -11,9 +11,9 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Typography from "@material-ui/core/Typography";
+import { Link, useLocation } from "react-router-dom";
 import NestedList from "./nestedlist.js";
 import HomeIcon from "./homeicon";
-import { Link, useLocation } from "react-router-dom";
 
 const useStyles = makeStyles({
   list: {
@@ -65,8 +65,7 @@ export default function TemporaryDrawer(props) {
           </Link>
         )}
         {props.items.map((menu_item, index) => {
-          if(menu_item.name)
-            {
+          if (menu_item.name) {
             return (
               <div className="single_navmob">
                 <ListItemIcon className="scholaricon">
@@ -74,14 +73,16 @@ export default function TemporaryDrawer(props) {
                   {/* <HomeIcon color="rgba(0,0,0,0.54)" nopadding /> */}
                   {/* {console.log(menu_item.icon)} */}
                 </ListItemIcon>
-              <Link
-                to={menu_item.name}
-                draggable="false"
-                className="single_nav_routesmob"
-              >{menu_item.text}</Link>
+                <Link
+                  to={menu_item.name}
+                  draggable="false"
+                  className="single_nav_routesmob"
+                >
+                  {menu_item.text}
+                </Link>
               </div>
             );
-          } else {
+          }
           return (
             <NestedList
               menu={menu_item}
@@ -89,7 +90,6 @@ export default function TemporaryDrawer(props) {
               anchor={anchor}
             />
           );
-          }
         })}
       </List>
       <Divider />
@@ -98,46 +98,41 @@ export default function TemporaryDrawer(props) {
 
   return (
     <div>
-      <React.Fragment>
-        <IconButton
-          edge="start"
-          className={classes.menuButton}
-          color="inherit"
-          aria-label="menu"
-          id="mobile_navigation"
-          onClick={toggleDrawer("left", true)}
-        >
-          <MenuIcon onClick={toggleDrawer("left", true)} />
-        </IconButton>
-        <Drawer
-          anchor="left"
-          open={state["left"]}
-          onClose={toggleDrawer("left", false)}
-        >
-          <List id="iiitt_sidetop">
-            <ListItem>
-              <ListItemIcon>
-                <img
-                  src={require("../../images/logo-small.png")}
-                  alt="IIITT Logo"
-                  className="main_logo"
-                  width="40px"
-                />
-              </ListItemIcon>
-              <ListItemText>
-                <Typography
-                  variant="h6"
-                  style={{ color: "rgba(0, 0, 0, 0.75)" }}
-                >
-                  IIITT
-                </Typography>
-              </ListItemText>
-            </ListItem>
-          </List>
-          <Divider />
-          {list("left")}
-        </Drawer>
-      </React.Fragment>
+      <IconButton
+        edge="start"
+        className={classes.menuButton}
+        color="inherit"
+        aria-label="menu"
+        id="mobile_navigation"
+        onClick={toggleDrawer("left", true)}
+      >
+        <MenuIcon onClick={toggleDrawer("left", true)} />
+      </IconButton>
+      <Drawer
+        anchor="left"
+        open={state.left}
+        onClose={toggleDrawer("left", false)}
+      >
+        <List id="iiitt_sidetop">
+          <ListItem>
+            <ListItemIcon>
+              <img
+                src={require("../../images/logo-small.png")}
+                alt="IIITT Logo"
+                className="main_logo"
+                width="40px"
+              />
+            </ListItemIcon>
+            <ListItemText>
+              <Typography variant="h6" style={{ color: "rgba(0, 0, 0, 0.75)" }}>
+                IIITT
+              </Typography>
+            </ListItemText>
+          </ListItem>
+        </List>
+        <Divider />
+        {list("left")}
+      </Drawer>
     </div>
   );
 }

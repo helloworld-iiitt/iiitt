@@ -29,7 +29,7 @@ export default function NestedList(props) {
     setOpen(!open);
   };
 
-  //let Icon = Icons[props.menu.icon];
+  // let Icon = Icons[props.menu.icon];
 
   return (
     <>
@@ -46,12 +46,9 @@ export default function NestedList(props) {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         {props.menu.submenu.map((item) => {
-          if(props.menu.name)
-          {
-            return(
-                <></>
-              );
-          } 
+          if (props.menu.name) {
+            return <></>;
+          }
           return (
             <Link to={item.link} draggable="false" className="nav_routes">
               <List component="div" disablePadding>

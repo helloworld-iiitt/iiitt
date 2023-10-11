@@ -1,10 +1,7 @@
 import React from "react";
-import Navbar from "./../../components/navbar/index";
-import Footer from "./../../components/footer/index";
-import bio_data from "../../json/biographies.json";
 import { makeStyles } from "@material-ui/core/styles";
-import { Divider } from "@material-ui/core";
 import {
+  Divider,
   Card,
   Grid,
   Box,
@@ -12,6 +9,9 @@ import {
   CardMedia,
   CardContent,
 } from "@material-ui/core";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
+import bio_data from "../../json/biographies.json";
 
 const createStyles = makeStyles({
   container: {
@@ -51,11 +51,11 @@ const createStyles = makeStyles({
 });
 
 export default function Biography() {
-  let param = window.location.pathname;
-  //console.log(param);
+  const param = window.location.pathname;
+  // console.log(param);
 
   const [details, dept, id] = param.split("/").filter(Boolean);
-  //console.log(details, dept, id);
+  // console.log(details, dept, id);
 
   const info = bio_data[dept].find((data) => data.deptID === id);
   console.log(info);

@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Grid,
   Typography,
@@ -14,6 +12,8 @@ import {
   TableRow,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -50,11 +50,12 @@ export default function GenderData() {
     document.getElementsByTagName("title")[0].innerHTML = "Gender wise data";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [genderData, setGenderData] = useState(undefined);
   useEffect(() => {

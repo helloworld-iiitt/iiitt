@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./style.css";
+
 const createStyles = makeStyles({
   container: {
     padding: "1rem 1rem",
@@ -29,11 +30,12 @@ export default function AdmissionFeeStructure() {
     document.getElementsByTagName("title")[0].innerHTML = "Fee Structure";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const feeStructure = "2020-21-FeeStructure_New_Admission.pdf";
   const classes = createStyles();
   return (

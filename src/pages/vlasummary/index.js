@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { useLocation, Redirect } from "react-router-dom";
 import {
   TableContainer,
@@ -18,6 +16,8 @@ import {
   Paper,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Footer from "../../components/footer/index";
+import Navbar from "../../components/navbar/index";
 import "./styles.css";
 
 const createStyles = makeStyles({
@@ -44,11 +44,12 @@ export default function VlaWorkshops() {
   useEffect(() => {
     document.getElementsByTagName("title")[0].innerHTML = "VLA | Summary";
   }, []);
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const [summary, setSummary] = useState(undefined);
   const [redirect, setRedirect] = useState(false);
   useEffect(() => {
@@ -57,7 +58,7 @@ export default function VlaWorkshops() {
       .catch(() => setRedirect(true));
   }, []);
   const classes = createStyles();
-  var ctr = 0;
+  const ctr = 0;
   return (
     <div className="page-container">
       <Navbar src="vla_navbar.json" homeRoute="/vla" />
@@ -112,13 +113,12 @@ export default function VlaWorkshops() {
                         <td>Participants from SC/ST</td>
                         <td>{summary.participants.scstCount}</td>
                       </tr>
-                      {
-                        summary.participants.obcCount && 
+                      {summary.participants.obcCount && (
                         <tr>
                           <td>Participants from OBC</td>
                           <td>{summary.participants.obcCount}</td>
                         </tr>
-                      }
+                      )}
                       <tr>
                         <td>
                           <strong>Hands on sessions</strong>
@@ -139,9 +139,9 @@ export default function VlaWorkshops() {
                       </Box>
                     </Typography>
 
-                    {summary.speakers.map((speaker) => {
-                      return <div>{speaker}</div>;
-                    })}
+                    {summary.speakers.map((speaker) => (
+                      <div>{speaker}</div>
+                    ))}
                   </section>
 
                   <section>
@@ -155,9 +155,9 @@ export default function VlaWorkshops() {
                       </Box>
                     </Typography>
                     <ol className="vlaList">
-                      {summary.topics.map((topic) => {
-                        return <li>{topic}</li>;
-                      })}
+                      {summary.topics.map((topic) => (
+                        <li>{topic}</li>
+                      ))}
                     </ol>
                   </section>
 
@@ -172,9 +172,9 @@ export default function VlaWorkshops() {
                       </Box>
                     </Typography>
                     <ol className="vlaList">
-                      {summary.feedbacks.map((feedback) => {
-                        return <li>{feedback}</li>;
-                      })}
+                      {summary.feedbacks.map((feedback) => (
+                        <li>{feedback}</li>
+                      ))}
                     </ol>
                   </section>
 
@@ -189,9 +189,9 @@ export default function VlaWorkshops() {
                       </Box>
                     </Typography>
                     <ol className="vlaList">
-                      {summary.suggestions.map((suggestion) => {
-                        return <li>{suggestion}</li>;
-                      })}
+                      {summary.suggestions.map((suggestion) => (
+                        <li>{suggestion}</li>
+                      ))}
                     </ol>
                   </section>
                 </>

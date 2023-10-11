@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./../../components/navbar/index";
-import Footer from "./../../components/footer/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -37,11 +37,12 @@ export default function Calendar() {
     document.getElementsByTagName("title")[0].innerHTML = "Calendar";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [data, setData] = useState(undefined);
 
@@ -70,33 +71,31 @@ export default function Calendar() {
             </Box>
           </Typography>
           {data &&
-            data.map((d, id) => {
-              return (
-                <>
-                  <section className={classes.sectionPadding}>
-                    <Typography variant="h5" className={classes.themeText}>
-                      <Box component="span" fontWeight="fontWeightBold">
-                        {d.title}
-                      </Box>
-                    </Typography>
-                    {d.data.map((dd) => (
-                      <a
-                        href={require(`../../docs/${dd.url}`)}
-                        download={`${dd.title}`}
-                        className={classes.link}
-                      >
-                        <img
-                          src={require("../../images/news-icon.svg")}
-                          className={classes.download}
-                        />
-                        {dd.title}
-                      </a>
-                    ))}
-                  </section>
-                  {id != data.length - 1 && <hr />}
-                </>
-              );
-            })}
+            data.map((d, id) => (
+              <>
+                <section className={classes.sectionPadding}>
+                  <Typography variant="h5" className={classes.themeText}>
+                    <Box component="span" fontWeight="fontWeightBold">
+                      {d.title}
+                    </Box>
+                  </Typography>
+                  {d.data.map((dd) => (
+                    <a
+                      href={require(`../../docs/${dd.url}`)}
+                      download={`${dd.title}`}
+                      className={classes.link}
+                    >
+                      <img
+                        src={require("../../images/news-icon.svg")}
+                        className={classes.download}
+                      />
+                      {dd.title}
+                    </a>
+                  ))}
+                </section>
+                {id !== data.length - 1 && <hr />}
+              </>
+            ))}
         </Grid>
         <Grid xs={false} sm={1} item />
       </Grid>

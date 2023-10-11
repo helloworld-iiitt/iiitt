@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./style.css";
+
 const createStyles = makeStyles({
   container: {
     padding: "1rem 1rem",
@@ -32,11 +33,12 @@ export default function AntiRagging() {
     document.getElementsByTagName("title")[0].innerHTML = "Anti-Ragging";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const arCommittee = "AntiRaggingCommittee2020-21.pdf";
   const classes = createStyles();
   return (
@@ -54,7 +56,7 @@ export default function AntiRagging() {
           </Grid>
           <section>
             <br />
-            {/*<img src={require('../../images/anti_ragging.png')} alt='Anti ragging' className={classes.image}/>*/}
+            {/* <img src={require('../../images/anti_ragging.png')} alt='Anti ragging' className={classes.image}/> */}
             <Typography variant="h4">What Constitutes Ragging?</Typography>
             <ul style={{ lineHeight: "35px " }}>
               <br />

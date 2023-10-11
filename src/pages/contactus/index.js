@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import Iframe from "react-iframe";
 import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Footer from "../../components/footer/index";
+import Navbar from "../../components/navbar/index";
 
 const createStyles = makeStyles({
   container: {
@@ -44,11 +44,12 @@ export default function ContactUs() {
     document.getElementsByTagName("title")[0].innerHTML = "Contact Us";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const classes = createStyles();
 
@@ -129,20 +130,18 @@ export default function ContactUs() {
               railway station/airport/bus stand.
               <br />
             </Typography>
-            {
-              <div className={classes.map}>
-                <Iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7841.673721296751!2d78.593771!3d10.669768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28b98720c32abaa8!2sIndian%20Institute%20of%20Information%20Technology%20Tiruchirappalli!5e0!3m2!1sen!2sin!4v1633696081840!5m2!1sen!2sin"
-                  width="600"
-                  height="450"
-                  frameBorder="0"
-                  style="border:0;"
-                  allowFullScreen=""
-                  aria-hidden="false"
-                  tabIndex="0"
-                ></Iframe>
-              </div>
-            }
+            <div className={classes.map}>
+              <Iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7841.673721296751!2d78.593771!3d10.669768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28b98720c32abaa8!2sIndian%20Institute%20of%20Information%20Technology%20Tiruchirappalli!5e0!3m2!1sen!2sin!4v1633696081840!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                frameBorder="0"
+                style="border:0;"
+                allowFullScreen=""
+                aria-hidden="false"
+                tabIndex="0"
+              />
+            </div>
           </section>
           <section className={classes.sectionPadding}>
             <Typography

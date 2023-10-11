@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
-import Faq from "../../components/faq/index";
 import {
   Typography,
   Grid,
@@ -13,6 +10,9 @@ import {
   IconButton,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
+import Faq from "../../components/faq/index";
 
 const createStyles = makeStyles({
   container: {
@@ -31,11 +31,12 @@ export default function Faqs() {
     document.getElementsByTagName("title")[0].innerHTML = "FAQs";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [data, setData] = useState(undefined);
 
@@ -64,13 +65,15 @@ export default function Faqs() {
             </Box>
           </Typography>
           {data &&
-            data.map((faq, index) => {
-              return (
-                <div className={classes.faq}>
-                  <Faq questionNumber={index} question={faq.question} answer={faq.answer} />
-                </div>
-              );
-            })}
+            data.map((faq, index) => (
+              <div className={classes.faq}>
+                <Faq
+                  questionNumber={index}
+                  question={faq.question}
+                  answer={faq.answer}
+                />
+              </div>
+            ))}
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>

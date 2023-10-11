@@ -20,7 +20,7 @@ jobs:
       run: echo "${{github.head_ref}}" 
       
   build-for-dinesh:
-    if: github.actor=='dinskid'
+    if: github.actor==='dinskid'
     name: Deploy for PR by Dinesh
     runs-on: ubuntu-latest
 
@@ -43,7 +43,7 @@ jobs:
       run:  surge ./build https://iiittd.surge.sh/ --token 89ac349e161844094bf34748d3188563
 
   build-for-sarathchandra:
-    if: github.actor=='saratchandraogirala'
+    if: github.actor==='saratchandraogirala'
     name: Deploy for PR by Saratchandraogirala
     runs-on: ubuntu-latest
 
@@ -66,7 +66,7 @@ jobs:
       run:  surge ./build https://iiitts.surge.sh/ --token 0e7062b67249bd482aa7d80b26e43238
       
   build-for-fahad:
-    if: github.actor=='fahad-israr'
+    if: github.actor==='fahad-israr'
     name: Deploy for PR by Fahad Israr
     runs-on: ubuntu-latest
 
@@ -89,7 +89,7 @@ jobs:
       run:  surge ./build https://iiittf.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
       
   build-for-nitish:
-    if: github.actor=='thisisnitish'
+    if: github.actor==='thisisnitish'
     name: Deploy for PR by Nitish Kumar
     runs-on: ubuntu-latest
 
