@@ -9,9 +9,7 @@ import {
   Collapse,
   IconButton,
 } from "@material-ui/core";
-import {
-  Link,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import clsx from "clsx";
@@ -29,7 +27,6 @@ const createStyles = makeStyles({
 });
 
 export default function Faq(props) {
-
   const { question, answer, questionNumber } = props;
 
   const classes = createStyles(props);
@@ -41,34 +38,36 @@ export default function Faq(props) {
   };
 
   return (
-    <>
-      <Card className={classes.root}>
-        <CardContent
+    <Card className={classes.root}>
+      <CardContent
+        onClick={toggleFaq}
+        aria-expanded={expanded}
+        aria-label="Show answer"
+      >
+        <IconButton
           onClick={toggleFaq}
           aria-expanded={expanded}
           aria-label="Show answer"
         >
-          <IconButton
-            onClick={toggleFaq}
-            aria-expanded={expanded}
-            aria-label="Show answer"
-          >
-            <KeyboardArrowRightIcon />
-          </IconButton>
-          {question}
+          <KeyboardArrowRightIcon />
+        </IconButton>
+        {question}
+      </CardContent>
+      <Collapse
+        in={expanded}
+        timeout="auto"
+        unmountOnExit
+        className={classes.answer}
+      >
+        <CardContent className={classes.text}>
+          {answer}
+          {questionNumber === 11 ? (
+            <Link style={{ display: "inline" }} to="/contactus">
+              location page for more information.
+            </Link>
+          ) : null}
         </CardContent>
-        <Collapse
-          in={expanded}
-          timeout="auto"
-          unmountOnExit
-          className={classes.answer}
-        >
-          <CardContent className={classes.text}>
-            {answer}
-            {questionNumber === 11 ? <Link style={{display: 'inline'}} to='/contactus'>location page for more information.</Link> : null}
-          </CardContent>
-        </Collapse>
-      </Card>
-    </>
+      </Collapse>
+    </Card>
   );
 }

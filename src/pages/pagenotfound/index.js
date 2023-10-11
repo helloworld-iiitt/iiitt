@@ -1,8 +1,8 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
+import { Grid, Typography } from "@material-ui/core";
 import Navbar from "../../components/navbar/index";
 import Footer from "../../components/footer/index";
-import { Grid, Typography } from "@material-ui/core";
 
 export default class PageNotFound extends React.Component {
   state = {
@@ -15,7 +15,7 @@ export default class PageNotFound extends React.Component {
       this.setState({ redirect: true });
     }, 5000);
     this.intervalHandle = setInterval(() => {
-      var t = this.state.time;
+      let t = this.state.time;
       t--;
       this.setState({ time: t });
     }, 1000);
@@ -58,9 +58,7 @@ export default class PageNotFound extends React.Component {
           </Grid>
           <Grid item xs={false} sm={1} />
         </Grid>
-        <div style={{height:"100px"}}>
-        
-        </div>
+        <div style={{ height: "100px" }} />
         <Footer />
       </div>
     );

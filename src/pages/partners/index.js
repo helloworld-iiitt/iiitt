@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -42,11 +42,12 @@ export default function Partners() {
     document.getElementsByTagName("title")[0].innerHTML = "Industry Partners";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const classes = createStyles();
 
@@ -68,27 +69,57 @@ export default function Partners() {
           </Typography>
           <Typography gutterBottom className={classes.text}>
             Industry partners of IIIT Trichy includes&nbsp;
-            <a href="https://www.tcs.com/" target="_blank" className={classes.link}>
+            <a
+              href="https://www.tcs.com/"
+              target="_blank"
+              className={classes.link}
+              rel="noreferrer"
+            >
               Tata Consultancy Services (TCS)
             </a>
             ,&nbsp;
-            <a href="https://www.cognizant.com/" target="_blank" className={classes.link}>
+            <a
+              href="https://www.cognizant.com/"
+              target="_blank"
+              className={classes.link}
+              rel="noreferrer"
+            >
               Cognizant Technology Solutions (CTS).
             </a>
             ,&nbsp;
-            <a href="https://www.infosys.com/" target="_blank" className={classes.link}>
+            <a
+              href="https://www.infosys.com/"
+              target="_blank"
+              className={classes.link}
+              rel="noreferrer"
+            >
               Infosys
             </a>
             ,&nbsp;
-            <a href="https://www.ramco.com/" target="_blank" className={classes.link}>
+            <a
+              href="https://www.ramco.com/"
+              target="_blank"
+              className={classes.link}
+              rel="noreferrer"
+            >
               Ramco Systems
             </a>
             ,&nbsp;
-            <a href="https://elcot.in/" target="_blank" className={classes.link}>
+            <a
+              href="https://elcot.in/"
+              target="_blank"
+              className={classes.link}
+              rel="noreferrer"
+            >
               ELCOT
             </a>
             ,&nbsp;
-            <a href="https://www.navitaslifesciences.com/" target="_blank" className={classes.link}>
+            <a
+              href="https://www.navitaslifesciences.com/"
+              target="_blank"
+              className={classes.link}
+              rel="noreferrer"
+            >
               Navitas (TAKE Solutions)
             </a>
             .
@@ -115,7 +146,7 @@ export default function Partners() {
               <Grid item xs={12} className={classes.logo}>
                 <a href="https://tcs.com">
                   <img
-                    src={require(`../../images/tcs-logo.svg`)}
+                    src={require("../../images/tcs-logo.svg")}
                     alt="tcs logo"
                   />
                 </a>
@@ -155,7 +186,7 @@ export default function Partners() {
               <Grid item xs={12} className={classes.logo}>
                 <a href="https://cognizant.com">
                   <img
-                    src={require(`../../images/cts-logo.png`)}
+                    src={require("../../images/cts-logo.png")}
                     alt="cts logo"
                   />
                 </a>
@@ -186,7 +217,7 @@ export default function Partners() {
               <Grid item xs={12} className={classes.logo}>
                 <a href="https://infosys.com">
                   <img
-                    src={require(`../../images/infosys-logo.svg`)}
+                    src={require("../../images/infosys-logo.svg")}
                     alt="infosys logo"
                   />
                 </a>
@@ -221,7 +252,7 @@ export default function Partners() {
               <Grid item xs={12} className={classes.logo}>
                 <a href="https://ramco.com">
                   <img
-                    src={require(`../../images/ramco-logo.png`)}
+                    src={require("../../images/ramco-logo.png")}
                     alt="ramco logo"
                   />
                 </a>
@@ -255,7 +286,7 @@ export default function Partners() {
               <Grid item xs={12} className={classes.logo}>
                 <a href="https://elcot.in">
                   <img
-                    src={require(`../../images/elcot-logo.png`)}
+                    src={require("../../images/elcot-logo.png")}
                     alt="elcot logo"
                   />
                 </a>
@@ -286,7 +317,7 @@ export default function Partners() {
               <Grid item xs={12} className={classes.logo}>
                 <a href="https://navitas.net">
                   <img
-                    src={require(`../../images/navitas-logo.png`)}
+                    src={require("../../images/navitas-logo.png")}
                     alt="navitas logo"
                   />
                 </a>

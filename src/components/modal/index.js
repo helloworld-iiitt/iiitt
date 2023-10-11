@@ -89,8 +89,8 @@ export default function CustomizedDialogs() {
             </li>
             <li>
               <Typography gutterBottom>
-                Please Disable the Adblocker (and/or) the Social Media Blocker and Reload
-                for better experience!!
+                Please Disable the Adblocker (and/or) the Social Media Blocker
+                and Reload for better experience!!
               </Typography>
             </li>
           </ul>

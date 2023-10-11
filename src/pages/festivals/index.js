@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Grid, Typography, Box } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "../../components/navbar/index";
 import Footer from "../../components/footer/index";
 import MainCarousel from "../../components/carousel/index";
-import { Grid, Typography, Box } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-
-
 
 const createStyles = makeStyles({
   container: {
@@ -61,11 +59,12 @@ export default function Festivals() {
     document.getElementsByTagName("title")[0].innerHTML = "Festivals";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [festivals, setFestivals] = useState(undefined);
 
@@ -78,7 +77,7 @@ export default function Festivals() {
   const classes = createStyles();
 
   return (
-    <div className="page-container"> 
+    <div className="page-container">
       <Navbar />
       <Grid container className={classes.container}>
         <Grid item xs={false} sm={1} />
@@ -101,54 +100,50 @@ export default function Festivals() {
             where students can celebrate Festivals with full fun.
           </Typography>
           {festivals &&
-            festivals.map((festival) => {
-              return (
-                <section className={classes.sectionPadding}>
-                  <Typography
-                    component="h1"
-                    className={`${classes.themeText} ${classes.title}`}
-                    gutterBottom
-                  >
-                    <Box component="span" fontWeight="fontWeightBold">
-                      {festival.name}
-                    </Box>
-                  </Typography>
-                  <Typography gutterBottom className={classes.text}>
-                    {festival.description}
-                  </Typography>
-                  {festival.links &&
-                    festival.links.map((link) => {
-                      return (
-                        <>
-                          {link.download ? (
-                            <a
-                              href={require(`../../docs/${link.url}`)}
-                              download={`${link.url}`}
-                              className={classes.link}
-                            >
-                              <img
-                                src={require("../../images/news-icon.svg")}
-                                className={classes.download}
-                              />
-                              {link.name}
-                            </a>
-                          ) : (
-                            <a href={link.url} className={classes.link}>
-                              {link.name}
-                            </a>
-                          )}
-                          <br />
-                        </>
-                      );
-                    })}
-                  {festival.images && (
-                    <div className={classes.carousel}>
-                      <MainCarousel images={festival.images} />
-                    </div>
-                  )}
-                </section>
-              );
-            })}
+            festivals.map((festival) => (
+              <section className={classes.sectionPadding}>
+                <Typography
+                  component="h1"
+                  className={`${classes.themeText} ${classes.title}`}
+                  gutterBottom
+                >
+                  <Box component="span" fontWeight="fontWeightBold">
+                    {festival.name}
+                  </Box>
+                </Typography>
+                <Typography gutterBottom className={classes.text}>
+                  {festival.description}
+                </Typography>
+                {festival.links &&
+                  festival.links.map((link) => (
+                    <>
+                      {link.download ? (
+                        <a
+                          href={require(`../../docs/${link.url}`)}
+                          download={`${link.url}`}
+                          className={classes.link}
+                        >
+                          <img
+                            src={require("../../images/news-icon.svg")}
+                            className={classes.download}
+                          />
+                          {link.name}
+                        </a>
+                      ) : (
+                        <a href={link.url} className={classes.link}>
+                          {link.name}
+                        </a>
+                      )}
+                      <br />
+                    </>
+                  ))}
+                {festival.images && (
+                  <div className={classes.carousel}>
+                    <MainCarousel images={festival.images} />
+                  </div>
+                )}
+              </section>
+            ))}
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>

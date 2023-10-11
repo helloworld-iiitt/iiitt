@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Paper,
   Typography,
@@ -14,6 +12,8 @@ import {
   TableRow,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -60,11 +60,12 @@ export default function Clubs() {
     document.getElementsByTagName("title")[0].innerHTML = "Clubs";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [clubs, setClubs] = useState(undefined);
 
@@ -93,77 +94,71 @@ export default function Clubs() {
             </Box>
           </Typography>
           {clubs &&
-            clubs.map((club) => {
-              return (
-                <section className={classes.sectionPadding}>
-                  <Typography
-                    variant="h5"
-                    className={classes.themeText}
-                    gutterBottom
+            clubs.map((club) => (
+              <section className={classes.sectionPadding}>
+                <Typography
+                  variant="h5"
+                  className={classes.themeText}
+                  gutterBottom
+                >
+                  <Box component="span" fontWeight="fontWeightBold">
+                    {club.name}
+                  </Box>
+                </Typography>
+                <Typography gutterBottom>
+                  <Box
+                    component="span"
+                    className={classes.text}
+                    fontStyle="oblique"
                   >
-                    <Box component="span" fontWeight="fontWeightBold">
-                      {club.name}
-                    </Box>
-                  </Typography>
-                  <Typography gutterBottom>
-                    <Box
-                      component="span"
-                      className={classes.text}
-                      fontStyle="oblique"
-                    >
-                      {club.motto}
-                    </Box>
-                  </Typography>
-                  <Typography gutterBottom>
-                    <Box
-                      component="span"
-                      fontWeight="fontWeightBold"
-                      className={classes.text}
-                    >
-                      Faculty Incharge: {club.facultyIncharge}
-                    </Box>
-                  </Typography>
-                  <Grid item xs={12} sm={9}>
-                    <TableContainer component={Paper} className={classes.table}>
-                      <Table>
-                        <TableHead>
-                          <TableRow>
-                            {club.header.map((head) => {
-                              return (
-                                <TableCell
-                                  className={`${classes.tableCell} ${classes.tableHead}`}
-                                >
-                                  {head}
-                                </TableCell>
-                              );
-                            })}
-                          </TableRow>
-                        </TableHead>
-                        <TableBody>
-                          {club.students.map((student) => {
-                            return (
-                              <TableRow className={classes.tableRow}>
-                                <TableCell className={classes.tableCell}>
-                                  {student.year}
-                                </TableCell>
-                                <TableCell className={classes.tableCell}>
-                                  {student.name}
-                                </TableCell>
-                                {/* {student.game && (
+                    {club.motto}
+                  </Box>
+                </Typography>
+                <Typography gutterBottom>
+                  <Box
+                    component="span"
+                    fontWeight="fontWeightBold"
+                    className={classes.text}
+                  >
+                    Faculty Incharge: {club.facultyIncharge}
+                  </Box>
+                </Typography>
+                <Grid item xs={12} sm={9}>
+                  <TableContainer component={Paper} className={classes.table}>
+                    <Table>
+                      <TableHead>
+                        <TableRow>
+                          {club.header.map((head) => (
+                            <TableCell
+                              className={`${classes.tableCell} ${classes.tableHead}`}
+                            >
+                              {head}
+                            </TableCell>
+                          ))}
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {club.students.map((student) => (
+                          <TableRow className={classes.tableRow}>
+                            <TableCell className={classes.tableCell}>
+                              {student.year}
+                            </TableCell>
+                            <TableCell className={classes.tableCell}>
+                              {student.name}
+                            </TableCell>
+                            {/* {student.game && (
                                   <TableCell className={classes.tableCell}>
                                     {student.game}
                                   </TableCell>
                                 )} */}
-                              </TableRow>
-                            );
-                          })}
-                        </TableBody>
-                      </Table>
-                    </TableContainer>
-                  </Grid>
-                </section>
-              );
-            })}
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </Grid>
+              </section>
+            ))}
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>

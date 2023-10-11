@@ -22,7 +22,11 @@ export default function PaperCard(props) {
 
   return (
     <div className={classes.root}>
-      <OutlinedCard title={props.title} items={props.items} linkToOlder={props.linkToOlder} />
+      <OutlinedCard
+        title={props.title}
+        items={props.items}
+        linkToOlder={props.linkToOlder}
+      />
     </div>
   );
 }

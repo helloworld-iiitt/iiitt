@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Card,
   Typography,
@@ -10,6 +8,8 @@ import {
   CardContent,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -54,11 +54,12 @@ export default function Director() {
     document.getElementsByTagName("title")[0].innerHTML = "Administration";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const classes = createStyles();
   return (
@@ -71,7 +72,7 @@ export default function Director() {
             <Card className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image={require(`../../images/director.jpg`)}
+                image={require("../../images/director.jpg")}
                 title="Director"
               />
               <CardContent>
@@ -82,9 +83,7 @@ export default function Director() {
                   <br />
                   <Box fontSize="1.2rem">Director, IIIT Tiruchirappalli</Box>
                   <br />
-                  <a href={`mailto:director@iiitt.ac.in`}>
-                    director@iiitt.ac.in
-                  </a>
+                  <a href="mailto:director@iiitt.ac.in">director@iiitt.ac.in</a>
                   <br />
                 </Typography>
               </CardContent>

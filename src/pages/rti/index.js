@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Card,
   Typography,
@@ -9,6 +7,8 @@ import {
   CardMedia,
   CardContent,
 } from "@material-ui/core";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./style.css";
 
 export default function RTI() {
@@ -16,11 +16,12 @@ export default function RTI() {
     document.getElementsByTagName("title")[0].innerHTML = "RTI";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const [rti, setRti] = useState(undefined);
   useEffect(() => {
     import("../../json/rti.json").then((data) => {
@@ -31,68 +32,53 @@ export default function RTI() {
   return (
     <div className="pagecontainer">
       <Navbar />
-          <Typography
-            variant="h2"
-            component="h2"
-            gutterBottom
-            className="heading"
-          >
-            <Box component="span" fontWeight={380} paddingTop={"2rem"}>
-              RTI
-            </Box>
-          </Typography>
-          <Typography 
-              variant="subtitle1"
-              gutterBottom
-              className="head"
-          >
-            {rti && rti.map((rti) => {
-              return (
-              <div className="rti">
-              <Typography
-                  variant="subtitle1"
-                  gutterBottom
-                  className="title"
-              >
-             <Box
-                component="h3"
-                fontWeight="fontWeightBold"
-                className="themeText"
-              >
-                {rti.head}
-              </Box>
-              <Card className="card">
-              <CardMedia
-                      className="media"
-                      image={require(`../../images/${rti.src}`)}
-                      title="Mentor Registrar"
-                    />
+      <Typography variant="h2" component="h2" gutterBottom className="heading">
+        <Box component="span" fontWeight={380} paddingTop="2rem">
+          RTI
+        </Box>
+      </Typography>
+      <Typography variant="subtitle1" gutterBottom className="head">
+        {rti &&
+          rti.map((rti) => (
+            <div className="rti">
+              <Typography variant="subtitle1" gutterBottom className="title">
+                <Box
+                  component="h3"
+                  fontWeight="fontWeightBold"
+                  className="themeText"
+                >
+                  {rti.head}
+                </Box>
+                <Card className="card">
+                  <CardMedia
+                    className="media"
+                    image={require(`../../images/${rti.src}`)}
+                    title="Mentor Registrar"
+                  />
                   <CardContent>
                     <Typography variant="body" gutterBottom className="info">
-                      <Box component="span" component="h2" gutterBottom>                        
-                         {rti.name}
+                      <Box component="span" component="h2" gutterBottom>
+                        {rti.name}
                       </Box>
                       <br />
-                    <Typography className={rti.cls}>
+                      <Typography className={rti.cls}>
                         <Box fontSize="1.3rem">{rti.designation}</Box>
-                      <br />
+                        <br />
                         <a href={`mailto:${rti.emailID}`}>{rti.emailID}</a>
-                      <br />
+                        <br />
                         {/* <a href={`tel:${rti.phone}`}>{rti.phone}</a> */}
-                      <br />
+                        <br />
                         {rti.fax && <a href={`fax:${rti.fax}`}>{rti.fax}</a>}
-                      <br />
+                        <br />
                       </Typography>
-                      </Typography>
+                    </Typography>
                   </CardContent>
-                   <br />
-              </Card>
+                  <br />
+                </Card>
               </Typography>
-              </div>
-              )
-            })
-          }
-          </Typography>
+            </div>
+          ))}
+      </Typography>
       <Footer />
     </div>
   );

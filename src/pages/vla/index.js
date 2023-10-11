@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Card,
   Typography,
@@ -11,6 +9,8 @@ import {
   CardContent,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import MainCarousel from "../../components/carousel/index";
 import Marquee from "../../components/marquee/index";
 import carouselData from "../../json/homeCarousel.json";
@@ -87,10 +87,10 @@ export default function Vla() {
               Indian Institute of Information Technology Tiruchirappalli
               (IIITT), also known as IIIT Trichy, is an Institute of National
               Importance and one among the 19 IIITs proposed under the
-              non-profit Public-Private Partnership (PPP) Model by MHRD. IIIT Tiruchirappalli
-              is an academic and research institute fully funded by Government
-              of India, Government of Tamil Nadu and Industry Partners in the
-              ratio of 50:35:15.
+              non-profit Public-Private Partnership (PPP) Model by MHRD. IIIT
+              Tiruchirappalli is an academic and research institute fully funded
+              by Government of India, Government of Tamil Nadu and Industry
+              Partners in the ratio of 50:35:15.
             </CardContent>
           </Card>
         </Grid>

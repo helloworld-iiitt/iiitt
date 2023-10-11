@@ -12,7 +12,7 @@ import Loadable from "react-loadable";
 import Temperature from "./temperature";
 
 /* Footer */
-const Footer = () => {
+function Footer() {
   return (
     <div>
       <footer className="footer">
@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="contact-main">
             <div className="contacts">
               <div className="logo">
-                <img src={require("./logo.png")} alt="logo"></img>
+                <img src={require("./logo.png")} alt="logo" />
               </div>
               <h2>Indian Institute Of Information Technology</h2>
               <h3>Trichy Dindigul Highway,Pirattiyur,Tiruchirappalli-620009</h3>
@@ -51,11 +51,11 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="line"></div>
-          <hr className="mobile"></hr>
+          <div className="line" />
+          <hr className="mobile" />
           <div className="acedemics">
             <h2>Academics</h2>
-            <div className="main-hr ace"></div>
+            <div className="main-hr ace" />
             <a href="/departments">Department</a>
             <hr />
             <a href="/curriculum">Curriculum</a>
@@ -66,11 +66,11 @@ const Footer = () => {
             <hr />
             <a href="/holidays">Holidays</a>
           </div>
-          <div className="line"></div>
+          <div className="line" />
           <hr className="mobile" />
           <div className="quick-explore">
             <h2>Quick Explore</h2>
-            <div className="main-hr  quick-ex"></div>
+            <div className="main-hr  quick-ex" />
             <a href="/anti_ragging_committee">Anti Ragging Committee</a>
             <hr />
             <a href="/admission_procedure">Admission Procedure</a>
@@ -79,7 +79,7 @@ const Footer = () => {
             <hr />
             <a href="/faq">FAQ's</a>
           </div>
-          <div className="last line"></div>
+          <div className="last line" />
           <hr className="mobile" />
           <Temperature />
         </div>
@@ -92,6 +92,6 @@ const Footer = () => {
       </footer>
     </div>
   );
-};
+}
 
 export default Footer;

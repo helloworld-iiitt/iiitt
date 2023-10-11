@@ -2,14 +2,10 @@ import React from "react";
 import Navbar from "../../components/navbar/index";
 import "../Admission_ug/index.css";
 import Footer from "../../components/footer";
-import {
-  Typography,
-  Grid,
-  Box,
-} from "@material-ui/core";
+import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-const Admission_program = () => {
+function Admission_program() {
   const createStyles = makeStyles({
     themeText: {
       color: "#2e8b57",
@@ -76,7 +72,7 @@ const Admission_program = () => {
               </li>
             </ul>
           </div>
-          <hr className="utility-hr"/>
+          <hr className="utility-hr" />
           <h2>Postgraduate Program</h2>
           <div>
             <p className="utility-mrgin_2">
@@ -95,12 +91,12 @@ const Admission_program = () => {
               </li>
             </ul>
           </div>
-          <hr className="utility-hr"/>
+          <hr className="utility-hr" />
           <h2 id="#Doctoral">Doctoral Program</h2>
           <div>
             <p className="utility-mrgin_2">
-              IIIT Tiruchirappalli offers <strong>Ph.D programs</strong>in the
-              following Departments.{" "}
+              IIIT Tiruchirappalli offers <strong>Ph.D programs</strong>
+              in the following Departments.{" "}
             </p>
             <ul className="utility-bullet utility-bottom">
               <li>
@@ -156,9 +152,9 @@ const Admission_program = () => {
           </div>
         </Grid>
       </Grid>
-      <Footer/>
+      <Footer />
     </div>
   );
-};
+}
 
 export default Admission_program;

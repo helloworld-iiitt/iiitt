@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { createPortal } from "react-dom";
 
-const IFrame = ({ children, ...props }) => {
+function IFrame({ children, ...props }) {
   const [contentRef, setContentRef] = useState(null);
   const mountNode = contentRef && contentRef.contentWindow.document.body;
 
@@ -10,6 +10,6 @@ const IFrame = ({ children, ...props }) => {
       {mountNode && createPortal(React.Children.only(children), mountNode)}
     </iframe>
   );
-};
+}
 
 export default IFrame;

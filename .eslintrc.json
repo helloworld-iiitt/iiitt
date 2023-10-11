@@ -1,0 +1,79 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "prettier"
+    ],
+    "rules":{
+        "quotes": [
+        "error",
+        "double",
+        {
+            "avoidEscape": true
+        }
+    ],
+    "react/jsx-users-react": ["off"],
+    "react/react-in-jsx-scope": ["off"],
+    "react/jsx-props-no-spreading": ["off"],
+    "react/jsx-filename-extension":["off"],
+    "no-unused-vars": ["off"],
+    "no-console": ["off"],
+    "no-shadow": ["off"],
+    "global-require": ["off"],
+    "react/prop-types": ["off"],
+    "react/destructuring-assignment": ["off"],
+    "import/prefer-default-export": ["off"],
+    "import/extensions": ["off"],
+    "import/no-dynamic-require": ["off"],
+    "import/no-dynamic-requires": ["off"],
+    "react/no-unescaped-entities": ["off"],
+    "react/no-unknown-property": ["off"],
+    "no-plusplus": ["off"],
+    "camelcase": ["off"],
+    "react/jsx-no-useless-fragment": ["off"],
+    "no-restricted-syntax": ["off"],
+    "react/jsx-no-duplicate-props": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "import/no-extraneous-dependencies": ["off"],
+    "jsx-a11y/mouse-events-have-key-events": ["off"],
+    "jsx-a11y/label-has-associated-control": ["off"],
+    "import/no-named-as-default-member": ["off"],
+    "jsx-a11y/alt-text": ["off"],
+    "react/no-unstable-nested-components": ["off"],
+    "jsx-a11y/anchor-is-valid": ["off"],
+    "jsx-a11y/img-redundant-alt": ["off"],
+    "jsx-a11y/no-static-element-interactions": ["off"],
+    "jsx-a11y/click-events-have-key-events": ["off"],
+    "class-methods-use-this": ["off"],
+    "guard-for-in": ["off"],
+    "no-dupe-keys": ["off"],
+    "react/style-prop-object": ["off"],
+    "react/prefer-stateless-function": ["off"],
+    "jsx-a11y/iframe-has-title": ["off"],
+    "react/no-unused-state": ["off"],
+    "jsx-a11y/no-distracting-elements": ["off"],
+    "no-use-before-defined": ["off"],
+    "no-use-before-define": ["off"],
+    "import/no-named-as-default": ["off"],
+    "react/state-in-constructor": ["off"],
+    "react/no-access-state-in-setstate": ["off"],
+    "react/require-default-props": ["off"],
+    "react/sort-comp": ["off"],
+    "import/order": ["off"],
+    "react/jsx-no-bind": ["off"],
+    "react/button-has-type": ["off"],
+    "no-param-reassign": ["off"],
+    "no-nested-ternary": ["off"]
+}
+}

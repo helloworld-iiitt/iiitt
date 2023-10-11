@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./../../components/navbar/index";
-import PersonCard from "./../../components/person_card/index.js";
-import Footer from "./../../components/footer/index";
 import { Grid, Typography, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import PersonCard from "../../components/person_card/index.js";
+import Footer from "../../components/footer/index";
 
 const useStyles = makeStyles({
   container: {
@@ -16,11 +16,12 @@ export default function VlaContact() {
     document.getElementsByTagName("title")[0].innerHTML = "VLA | Contact";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [admins, setAdmins] = useState(undefined);
   useEffect(() => {
@@ -46,39 +47,35 @@ export default function VlaContact() {
             </Box>
           </Typography>
           {admins &&
-            admins.map((admin) => {
-              return (
-                <>
-                  <Typography
-                    variant="h4"
-                    component="h4"
-                    gutterBottom
-                    className={classes.themeText}
-                  >
-                    <Box component="span" fontWeight={300}>
-                      {admin.institute}
-                    </Box>
-                  </Typography>
-                  {admin.people &&
-                    admin.people.map((person) => {
-                      return (
-                        <>
-                          <PersonCard
-                            name={person.name}
-                            designation={person.designation}
-                            department={person.department}
-                            institute={person.institute}
-                            emailID={person.emailID}
-                            src={person.src}
-                            src_type="faculty"
-                          />
-                          <br />
-                        </>
-                      );
-                    })}
-                </>
-              );
-            })}
+            admins.map((admin) => (
+              <>
+                <Typography
+                  variant="h4"
+                  component="h4"
+                  gutterBottom
+                  className={classes.themeText}
+                >
+                  <Box component="span" fontWeight={300}>
+                    {admin.institute}
+                  </Box>
+                </Typography>
+                {admin.people &&
+                  admin.people.map((person) => (
+                    <>
+                      <PersonCard
+                        name={person.name}
+                        designation={person.designation}
+                        department={person.department}
+                        institute={person.institute}
+                        emailID={person.emailID}
+                        src={person.src}
+                        src_type="faculty"
+                      />
+                      <br />
+                    </>
+                  ))}
+              </>
+            ))}
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>

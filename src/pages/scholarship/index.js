@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { Typography, Grid, Box, Divider } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -25,11 +25,12 @@ export default function Scholarship() {
     document.getElementsByTagName("title")[0].innerHTML = "Scholarship";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const file = "Noticefortheyear2021-22.pdf";
   const file1 = "NSPprocedureforBonafide-marksheet-verificationatInstitute.pdf";

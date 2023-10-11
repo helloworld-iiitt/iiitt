@@ -10,11 +10,12 @@ export default function VlaAttend() {
     document.getElementsByTagName("title")[0].innerHTML = "VLA | Attend";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   return (
     <div className="page-container">

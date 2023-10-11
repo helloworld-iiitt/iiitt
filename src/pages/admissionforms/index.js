@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { Typography, Grid, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./style.css";
+
 const createStyles = makeStyles({
   container: {
     padding: "1rem 1rem",
@@ -29,11 +30,12 @@ export default function AdmissionForms() {
     document.getElementsByTagName("title")[0].innerHTML = "Admission Forms";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const classes = createStyles();
   const reportingDetails = "Reportingdetails2020-21-recent.pdf";
   const admissionCancellation = "Admission_cancellation_form2020-21.pdf";

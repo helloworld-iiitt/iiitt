@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import { useLocation, Redirect } from "react-router-dom";
 import {
   TableContainer,
@@ -18,6 +16,8 @@ import {
   Paper,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Footer from "../../components/footer/index";
+import Navbar from "../../components/navbar/index";
 import "./styles.css";
 
 const createStyles = makeStyles({
@@ -55,11 +55,12 @@ export default function VlaParticipants(props) {
   useEffect(() => {
     document.getElementsByTagName("title")[0].innerHTML = "VLA | Participants";
   }, []);
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
 
   const [participants, setParticipants] = useState(undefined);
   const [redirect, setRedirect] = useState(false);
@@ -70,7 +71,7 @@ export default function VlaParticipants(props) {
   }, []);
 
   const classes = createStyles();
-  var ctr = 0;
+  let ctr = 0;
   return (
     <div className="page-container">
       <Navbar src="vla_navbar.json" homeRoute="/vla" />

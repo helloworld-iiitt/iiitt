@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Card,
   Typography,
@@ -11,6 +9,8 @@ import {
   CardContent,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./styles.css";
 
 const createStyles = makeStyles({
@@ -38,11 +38,12 @@ export default function VlaResources() {
     document.getElementsByTagName("title")[0].innerHTML = "VLA | Registration";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const classes = createStyles();
   return (
     <div className="page-container">

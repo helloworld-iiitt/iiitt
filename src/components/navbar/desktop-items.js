@@ -26,8 +26,9 @@ export default function MenuListComposition(props) {
 
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
-    if (document.getElementsByClassName("carousel-root").length != 0)
+    if (document.getElementsByClassName("carousel-root").length !== 0) {
       document.getElementsByClassName("carousel-root")[0].style.zIndex = -10;
+    }
   };
 
   const handleClose = (event) => {
@@ -46,14 +47,14 @@ export default function MenuListComposition(props) {
   }
 
   // return focus to the button when we transitioned from !open -> open
-  /*const prevOpen = React.useRef(open);
+  /* const prevOpen = React.useRef(open);
   React.useEffect(() => {
     if (prevOpen.current === true && open === false) {
       anchorRef.current.focus();
     }
 
     prevOpen.current = open;
-  }, [open]);*/
+  }, [open]); */
 
   return (
     <div className={classes.root}>
@@ -89,17 +90,15 @@ export default function MenuListComposition(props) {
             <Paper>
               <ClickAwayListener onClickAway={handleClose}>
                 <MenuList id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                {props.submenu.map((item) => {
-                    return (
-                      <Link
-                        to={item.link}
-                        draggable="false"
-                        className="nav_routes"
-                      >
-                        <MenuItem onClick={handleClose}> {item.text}</MenuItem>
-                      </Link>
-                    );
-                  })}
+                  {props.submenu.map((item) => (
+                    <Link
+                      to={item.link}
+                      draggable="false"
+                      className="nav_routes"
+                    >
+                      <MenuItem onClick={handleClose}> {item.text}</MenuItem>
+                    </Link>
+                  ))}
                 </MenuList>
               </ClickAwayListener>
             </Paper>

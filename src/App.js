@@ -15,13 +15,13 @@ function App() {
     <div className="sweet-loading">
       <ScaleLoader
         css={override}
-        sizeUnit={"px"}
-        color={"#2e8b57"}
+        sizeUnit="px"
+        color="#2e8b57"
         size={80}
         height={35}
         width={12}
         radius={2}
-        loading={true}
+        loading
       />
       <div style={{ fontSize: "30px" }}>Loading...</div>
     </div>
@@ -34,7 +34,7 @@ function App() {
   const WebDevClub = Loadable({
     loader: () => import("./pages/webDevClub/index"),
     loading: () => loading,
-  })
+  });
   const About = Loadable({
     loader: () => import("./pages/about/index"),
     loading: () => loading,
@@ -307,7 +307,7 @@ function App() {
           path="/admission_fee_structure"
           component={AdmissionFeeStructure}
         /> */}
-          <Route path="/webDevClub" component={WebDevClub} />
+        <Route path="/webDevClub" component={WebDevClub} />
         {/* <Route path="/admission_forms" component={AdmissionForms} /> */}
         <Route path="/admission_ug" component={Admission_ug} />
         <Route path="/admission_pg" component={Admission_pg} />

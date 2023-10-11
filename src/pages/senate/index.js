@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   TableContainer,
   Table,
@@ -17,6 +15,8 @@ import {
   Paper,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -69,11 +69,12 @@ export default function Senate() {
     document.getElementsByTagName("title")[0].innerHTML = "Senate";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const [senate, setSenate] = useState(undefined);
   const [senateMeeting, setSenateMeeting] = useState(undefined);
   useEffect(() => {
@@ -81,12 +82,12 @@ export default function Senate() {
       setSenate(data.data);
     });
     import("../../json/senateMeeting.json").then((data) =>
-      setSenateMeeting(data.data)
+      setSenateMeeting(data.data),
     );
   }, []);
 
   const classes = createStyles();
-  var ctr = 0;
+  let ctr = 0;
   return (
     <div className="page-container">
       <Navbar />
@@ -177,31 +178,29 @@ export default function Senate() {
             </Box>
           </Typography>
           {senateMeeting &&
-            senateMeeting.map((meet) => {
-              return (
-                <section>
-                  <a
-                    href={require(`../../docs/${meet.path}`)}
-                    download={meet.title}
-                    className={classes.link}
+            senateMeeting.map((meet) => (
+              <section>
+                <a
+                  href={require(`../../docs/${meet.path}`)}
+                  download={meet.title}
+                  className={classes.link}
+                >
+                  <Typography
+                    className={`${classes.link} ${classes.themeText}`}
+                    gutterBottom
                   >
-                    <Typography
-                      className={`${classes.link} ${classes.themeText}`}
-                      gutterBottom
-                    >
-                      <img
-                        src={require("../../images/news-icon.svg")}
-                        className={classes.download}
-                      />
-                      <Box component="span" className={classes.meetingTitle}>
-                        {meet.title}
-                      </Box>
-                    </Typography>
-                  </a>
-                  <Typography gutterBottom>{meet.description}</Typography>
-                </section>
-              );
-            })}
+                    <img
+                      src={require("../../images/news-icon.svg")}
+                      className={classes.download}
+                    />
+                    <Box component="span" className={classes.meetingTitle}>
+                      {meet.title}
+                    </Box>
+                  </Typography>
+                </a>
+                <Typography gutterBottom>{meet.description}</Typography>
+              </section>
+            ))}
         </Grid>
         <Grid item xs={false} sm={1} />
       </Grid>

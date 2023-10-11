@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
-import PersonCard from "../../components/person_card";
 import {
   Typography,
   Grid,
@@ -15,6 +12,9 @@ import {
   Paper,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
+import PersonCard from "../../components/person_card";
 import "./style.css";
 
 const createStyles = makeStyles({
@@ -52,8 +52,8 @@ const createStyles = makeStyles({
     fontSize: "1.3rem",
   },
   utilityMargin: {
-    marginLeft:"20px"
-  }
+    marginLeft: "20px",
+  },
 });
 
 export default function AdmissionProcedure() {
@@ -61,11 +61,12 @@ export default function AdmissionProcedure() {
     document.getElementsByTagName("title")[0].innerHTML = "Admission Procedure";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const classes = createStyles();
   const rank = "OpeningandClosingRank2020-21.pdf";
   return (
@@ -89,25 +90,25 @@ export default function AdmissionProcedure() {
             specific to the programme and details can be found under each
             specific programme.
           </Box>
-          <ul  className={classes.utilityMargin}>
-              <li >
-                <a
-                  href="admission_ug"
-                  className={`${classes.themeText} ${classes.link}`}
-                >
-                  B.Tech
-                </a>
-              </li>
-              <li>
-                <a
-                  href="admission_pg"
-                  className={`${classes.themeText} ${classes.link}`}
-                >
-                  M.Tech
-                </a>
-              </li>
-              <li>
-                <div style={{display:"flex", alignItems:"flex-end"}}>
+          <ul className={classes.utilityMargin}>
+            <li>
+              <a
+                href="admission_ug"
+                className={`${classes.themeText} ${classes.link}`}
+              >
+                B.Tech
+              </a>
+            </li>
+            <li>
+              <a
+                href="admission_pg"
+                className={`${classes.themeText} ${classes.link}`}
+              >
+                M.Tech
+              </a>
+            </li>
+            <li>
+              <div style={{ display: "flex", alignItems: "flex-end" }}>
                 <a
                   href="/programs"
                   className={`${classes.themeText} ${classes.link}`}
@@ -118,9 +119,9 @@ export default function AdmissionProcedure() {
                   [Check the website regularly for the forthcoming
                   advertisement]
                 </p>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </li>
+          </ul>
           <br />
           <br />
           <section className={classes.sectionPadding}>
@@ -129,41 +130,52 @@ export default function AdmissionProcedure() {
                 Other Links
               </Box>
             </Typography>
-            <ul  className={classes.utilityMargin}>
+            <ul className={classes.utilityMargin}>
               <li>
                 <a
                   href="http://www.ncbc.nic.in/Home.aspx?ReturnUrl=%2f"
                   target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  National Commission for Backward Classes (http://www.ncbc.nic.in/)
+                  National Commission for Backward Classes
+                  (http://www.ncbc.nic.in/)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://socialjustice.nic.in/" target="_blank"
+                  href="https://socialjustice.nic.in/"
+                  target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  Ministry of Social Justice and Empowerment (http://socialjustice.nic.in/)
+                  Ministry of Social Justice and Empowerment
+                  (http://socialjustice.nic.in/)
                 </a>
               </li>
               <li>
                 <a
-                  href="https://tribal.nic.in/" target="_blank"
+                  href="https://tribal.nic.in/"
+                  target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  Ministry of Tribal Affairs, Government of India (https://tribal.nic.in/)
+                  Ministry of Tribal Affairs, Government of India
+                  (https://tribal.nic.in/)
                 </a>
               </li>
               <li>
                 <a
-                  href="http://disabilityaffairs.gov.in/content/" target="_blank"
+                  href="http://disabilityaffairs.gov.in/content/"
+                  target="_blank"
                   className={`${classes.themeText} ${classes.link}`}
+                  rel="noreferrer"
                 >
-                  Department of Empowerment of Persons with Disabilities (http://disabilityaffairs.gov.in/)
+                  Department of Empowerment of Persons with Disabilities
+                  (http://disabilityaffairs.gov.in/)
                 </a>
               </li>
             </ul>
@@ -174,14 +186,16 @@ export default function AdmissionProcedure() {
                 Admissions Committee
               </Box>
             </Typography>
-             <ol className={classes.utilityMargin}>
-               <li>
-               Dr. G.Seetharaman, Chairman, PI/ Associate Professor, Department of ECE
-               </li>
-               <li>
-               Dr. N. Renugadevi, Verification officer, Co-PI/ Assistant Professor, Department of CSE
-               </li>
-             </ol>
+            <ol className={classes.utilityMargin}>
+              <li>
+                Dr. G.Seetharaman, Chairman, PI/ Associate Professor, Department
+                of ECE
+              </li>
+              <li>
+                Dr. N. Renugadevi, Verification officer, Co-PI/ Assistant
+                Professor, Department of CSE
+              </li>
+            </ol>
           </section>
           <Grid container>
             <Grid item xs={12} sm={10}>
@@ -191,16 +205,19 @@ export default function AdmissionProcedure() {
                     Contact Details of Admission Incharge
                   </Box>
                 </Typography>
-                <p>For Admission related queries, contact Chairman Admissions, IIIT Tiruchirappalli.</p>
+                <p>
+                  For Admission related queries, contact Chairman Admissions,
+                  IIIT Tiruchirappalli.
+                </p>
                 <PersonCard
-                    name={"Dr. G. Seetharaman"}
-                    designation={"Chairman Admissions"}
-                    emailID={"admissions@iiitt.ac.in"}
-                    src={"adm_ece_1.jpg"}
-                    src_type="faculty"
-                    researchArea="During the admission schedule only."
-                    mobile="9486631181 "
-                  />
+                  name="Dr. G. Seetharaman"
+                  designation="Chairman Admissions"
+                  emailID="admissions@iiitt.ac.in"
+                  src="adm_ece_1.jpg"
+                  src_type="faculty"
+                  researchArea="During the admission schedule only."
+                  mobile="9486631181 "
+                />
               </section>
             </Grid>
           </Grid>

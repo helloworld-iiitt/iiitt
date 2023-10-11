@@ -1,11 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Navbar from "../../components/navbar/index";
-import PaperCard from "../../components/papercard/index";
-import MainCarousel from "../../components/carousel/index";
-import MissionVision from "../../components/mission_vision/index";
-import Marquee from "../../components/marquee/index";
-import Footer from "../../components/footer/index";
 import {
   Divider,
   Paper,
@@ -16,13 +10,19 @@ import {
   Typography,
 } from "@material-ui/core";
 import PropTypes from "prop-types";
+import { Timeline } from "react-twitter-widgets";
+import Navbar from "../../components/navbar/index";
+import PaperCard from "../../components/papercard/index";
+import MainCarousel from "../../components/carousel/index";
+import MissionVision from "../../components/mission_vision/index";
+import Marquee from "../../components/marquee/index";
+import Footer from "../../components/footer/index";
 import "./style.css";
 import carouselData from "../../json/homeCarousel.json";
 import Loader from "../../components/sub_component_loader/index";
-import { Timeline } from "react-twitter-widgets";
 import Modal from "../../components/modal/index";
 
-const TabPanel = (props) => {
+function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
   return (
@@ -42,7 +42,7 @@ const TabPanel = (props) => {
       {value === index && <>{children}</>}
     </div>
   );
-};
+}
 
 TabPanel.propTypes = {
   children: PropTypes.node,
@@ -67,21 +67,33 @@ export default class Home extends React.Component {
       this.setState({ achievementsData: data.data });
     });
     import("../../json/news.json").then((data) => {
-      let d = data.data
-      let older = d.filter(x => !x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
-      let newer = d.filter(x => x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
-      this.setState({ newsData: [...newer, ...older,] });
+      const d = data.data;
+      const older = d
+        .filter((x) => !x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+      const newer = d
+        .filter((x) => x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+      this.setState({ newsData: [...newer, ...older] });
     });
     import("../../json/events.json").then((data) => {
-      let d = data.data
-      let older = d.filter(x => !x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
-      let newer = d.filter(x => x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
+      const d = data.data;
+      const older = d
+        .filter((x) => !x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+      const newer = d
+        .filter((x) => x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
       this.setState({ eventsData: [...newer, ...older] });
     });
     import("../../json/notices.json").then((data) => {
-      let d = data.data
-      let older = d.filter(x => !x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
-      let newer = d.filter(x => x.isNew).sort((a, b) => new Date(b.date) - new Date(a.date))
+      const d = data.data;
+      const older = d
+        .filter((x) => !x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+      const newer = d
+        .filter((x) => x.isNew)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
       this.setState({ noticeData: [...newer, ...older] });
     });
   }
@@ -94,12 +106,10 @@ export default class Home extends React.Component {
     document.getElementsByClassName("carousel-root")[0].style.zIndex = "auto";
   };
 
-  a11yProps = (index) => {
-    return {
-      id: `simple-tab-${index}`,
-      "aria-controls": `simple-tabpanel-${index}`,
-    };
-  };
+  a11yProps = (index) => ({
+    id: `simple-tab-${index}`,
+    "aria-controls": `simple-tabpanel-${index}`,
+  });
 
   render() {
     return (
@@ -135,13 +145,13 @@ export default class Home extends React.Component {
                     title="News"
                     items={this.state.newsData.slice(
                       0,
-                      Math.min(5, this.state.newsData.length)
+                      Math.min(5, this.state.newsData.length),
                     )}
                     linkToOlder="/news"
                   />
                 ) : (
-                    <Loader />
-                  )}
+                  <Loader />
+                )}
               </TabPanel>
               <TabPanel value={this.state.value} index={1}>
                 {this.state.eventsData ? (
@@ -149,13 +159,13 @@ export default class Home extends React.Component {
                     title="Events"
                     items={this.state.eventsData.slice(
                       0,
-                      Math.min(5, this.state.eventsData.length)
+                      Math.min(5, this.state.eventsData.length),
                     )}
                     linkToOlder="/events"
                   />
                 ) : (
-                    <Loader />
-                  )}
+                  <Loader />
+                )}
               </TabPanel>
               <TabPanel value={this.state.value} index={2}>
                 {this.state.noticeData ? (
@@ -163,16 +173,14 @@ export default class Home extends React.Component {
                     title="Notices"
                     items={this.state.noticeData.slice(
                       0,
-                      Math.min(5, this.state.noticeData.length)
+                      Math.min(5, this.state.noticeData.length),
                     )}
                     linkToOlder="/general"
                   />
-                  
                 ) : (
-                    <Loader />
-                  )}
+                  <Loader />
+                )}
               </TabPanel>
-              
             </Paper>
             <Paper elevation={3} className="achievements">
               {this.state.achievementsData ? (
@@ -180,15 +188,19 @@ export default class Home extends React.Component {
                   title="Achievements"
                   items={this.state.achievementsData.slice(
                     0,
-                    Math.min(5, this.state.achievementsData.length)
+                    Math.min(5, this.state.achievementsData.length),
                   )}
                   linkToOlder="/achievements"
                 />
               ) : (
-                  <Loader />
-                )}
+                <Loader />
+              )}
             </Paper>
-            <Paper elevation={3} className="twittertimeline" id="twitter_timeline">
+            <Paper
+              elevation={3}
+              className="twittertimeline"
+              id="twitter_timeline"
+            >
               <Timeline
                 dataSource={{
                   sourceType: "profile",
@@ -199,14 +211,14 @@ export default class Home extends React.Component {
                   height: "680",
                 }}
                 // renderError={(err) => {
-                  // return (
-                    // <>
-                      //  <h2 className="adblock">
-                        // /Blocked by Adblocker or Social Media Plugin
-                      // </h2>
-                      // <Modal />
-                    // </>
-                  // );
+                // return (
+                // <>
+                //  <h2 className="adblock">
+                // /Blocked by Adblocker or Social Media Plugin
+                // </h2>
+                // <Modal />
+                // </>
+                // );
                 // }}
               />
             </Paper>

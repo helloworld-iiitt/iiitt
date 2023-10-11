@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/navbar/index";
-import Footer from "../../components/footer/index";
 import {
   Card,
   Typography,
@@ -10,6 +8,8 @@ import {
   CardContent,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 
 const createStyles = makeStyles({
   container: {
@@ -46,11 +46,12 @@ export default function AdmissionContact() {
     document.getElementsByTagName("title")[0].innerHTML = "Contact";
   }, []);
 
-  useEffect(() => {
-    return () => {
+  useEffect(
+    () => () => {
       document.getElementsByTagName("title")[0].innerHTML = "IIIT Trichy";
-    };
-  }, []);
+    },
+    [],
+  );
   const [admissionIncharge, setAdmissionIncharge] = useState(undefined);
   useEffect(() => {
     import("../../json/admission_contact.json").then((data) => {
