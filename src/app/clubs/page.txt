@@ -1,0 +1,141 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import {
+  Typography,
+  Paper,
+  Box,
+  Table,
+  TableRow,
+  TableCell,
+  TableBody,
+  TableHead,
+  TableContainer,
+} from "@mui/material";
+import Grid from "@mui/material/Grid2";
+import styles from "..module.css";
+
+interface Club {
+  name: string;
+  motto: string;
+  facultyIncharge: string;
+  coordinator: { name: string }[];
+  volunteer: { name: string }[];
+}
+
+const Clubs: React.FC = () => {
+  const [clubs, setClubsData] = useState<Club[] | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    document.title = "Clubs";
+    return () => {
+      document.title = "IIIT Trichy";
+    };
+  }, []);
+
+  useEffect(() => {
+    fetch("/json/general/clubs.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch clubs data");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setClubsData(data.data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching clubs data:", error);
+        setLoading(false);
+      });
+  }, []);
+
+  return (
+    <div className="page-container">
+      <Grid container className={styles.container}>
+        <Grid size={1} />
+        <Grid size={10}>
+          <Typography
+            variant="h2"
+            component="h2"
+            gutterBottom
+            className={styles.themeText}
+          >
+            <Box component="span" fontWeight={380}>
+              Clubs
+            </Box>
+          </Typography>
+          {clubs &&
+            clubs.map((club, index) => (
+              <section key={index} className={styles.sectionPadding}>
+                <Typography
+                  variant="h5"
+                  className={styles.themeText}
+                  gutterBottom
+                >
+                  <Box component="span" fontWeight="fontWeightBold">
+                    {club.name}
+                  </Box>
+                </Typography>
+                <Typography gutterBottom>
+                  <Box
+                    component="span"
+                    className={styles.text}
+                    fontStyle="oblique"
+                  >
+                    {club.motto}
+                  </Box>
+                </Typography>
+                <Typography gutterBottom>
+                  <Box
+                    component="span"
+                    fontWeight="fontWeightBold"
+                    className={styles.text}
+                  >
+                    Faculty Incharge: {club.facultyIncharge}
+                  </Box>
+                </Typography>
+                <Grid size={10}>
+                  <TableContainer component={Paper} className={styles.table}>
+                    <Table>
+                      <TableHead>
+                        <TableRow>
+                          <TableCell
+                            className={`${styles.tableCell} ${styles.tableHead}`}
+                          >
+                            Student Coordinator
+                          </TableCell>
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {club.coordinator.map((head, id) => (
+                          <TableRow key={id} className={styles.tableRow}>
+                            <TableCell
+                              className={`${styles.tableCell} ${styles.tableRow}`}
+                            >
+                              {head.name}
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                        {club.volunteer?.map((student, idx) => (
+                          <TableRow key={idx} className={styles.tableRow}>
+                            <TableCell className={styles.tableCell}>
+                              {student.name}
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </Grid>
+              </section>
+            ))}
+        </Grid>
+        <Grid size={1} />
+      </Grid>
+    </div>
+  );
+};
+
+export default Clubs;

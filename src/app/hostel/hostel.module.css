@@ -1,0 +1,22 @@
+.title {
+  color: #2e8b57;
+  text-align: center;
+  font-size: 2rem !important;
+  font-weight: 700;
+}
+
+.cardContainer {
+  display: grid;
+  margin: 3%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1.5fr));
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 90%;
+}
+.sectiondivider {
+  width: 90%;
+  margin: 40px auto;
+  border-bottom: 2px solid #ddd;
+}

@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "name": "Web Devs Club",
+      "motto": "Not spiders, but the best web developers are found here.",
+      "facultyIncharge": "Dr. J. Kokila",
+      "coordinator": [
+        {
+          "name": "Anurag Nandkumar Bansode"
+        },
+        {
+          "name": "LAKSHENDRA SEJWANI"
+        },
+
+        {
+          "name": "Amogh G C"
+        },
+        {
+          "name": "RENTALA C S S S N Krishna Priya "
+        },
+        {
+          "name": "Priyanshu Makwana"
+        },
+        {
+          "name": "Kuruva Pavani "
+        },
+        {
+          "name": "Pravas Mohanty  "
+        }
+      ]
+    },
+
+    {
+      "name": " (N.E.R.D.) Robotics Club",
+      "motto": "Building robots is a daily task for them.",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "coordinator": [
+        {
+          "name": "Abhishek Mohanty"
+        },
+        {
+          "name": "Niel Amit Shah"
+        },
+        {
+          "name": "Arumella Rakesh Hanuma Sai"
+        },
+        {
+          "name": "Ayush Soni"
+        },
+        {
+          "name": "Pravas Mohanty"
+        }
+      ]
+    },
+   {
+      "name": "Photography Club",
+      "motto": "Lights. Camera. Shoot!",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "coordinator": [
+        {
+          "name": "Karthik Nivedhan"
+        },
+        {
+          "name": "Vidyala Jahnavi"
+        },
+        {
+          "name": "Akshaya RS"
+        },
+        {
+          "name": "Rishi Upadhayay"
+        },
+        {
+          "name": "Shashank Hippargi"
+        },
+        {
+          "name": "Sai Krishna Lalasa"
+        },
+        {
+          "name": "Abilashini V"
+        }
+      ]
+    },
+    {
+      "name": "Dance Club",
+      "motto": "The most loving and caring people can easily be found here.",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "coordinator": [
+        {
+          "name": "Ram Charan Tej"
+        },
+        {
+          "name": "Shaikh Raahath"
+        },
+        {
+          "name": "Apoorva Shankar"
+        },
+        {
+          "name": "Priya Singh"
+        },
+        {
+          "name": "Barla Dhanush"
+        },
+        {
+          "name": "Charu Mehra"
+        }
+      ]
+    },
+    {
+      "name": "Music Club",
+      "motto": "The most loving and caring people can easily be found here.",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "coordinator": [
+         {
+          "name": "Kancharla NVL Durga Mahitha"
+        },
+        {
+          "name": "Asrij Sriramoju"
+        },
+        {
+          "name": "Nehal Nandu"
+        },
+        {
+          "name": "Priyanshi Pandey"
+        },
+        {
+          "name": "V Mahijith"
+        },
+        {
+          "name": "Arushi Sharma"
+        },
+        {
+          "name": "Hendrik Marino A"
+        }
+      ]
+    },
+    {
+      "name": "Media Club",
+      "motto": "Media & Social Media Posts",
+      "facultyIncharge": "Dr. J. Kokila",
+      "coordinator": [
+        {
+          "name": "Srinidhi Kavuluru"
+        },
+        {
+          "name": "Atharva More "
+        },
+        {
+          "name": "Prakarti Prabhakar "
+        },
+        {
+          "name": "Venh Arya "
+        },
+        {
+          "name": "SK.Riza  "
+        },
+        {
+          "name": "V.V.Harshil  "
+        },
+        {
+          "name": "Tenali Likhitha  "
+        }
+      ]
+    }
+  ]
+}

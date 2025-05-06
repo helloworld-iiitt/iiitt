@@ -1,0 +1,58 @@
+.pageContainer {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.themeText {
+  color: #2e8b57;
+}
+
+.timeline {
+  position: relative;
+  max-width: 100%;
+  padding-left: 40px;
+  border-left: 4px solid #D3D3D3; /*E07A5F,D3D3D3,A8E6CF,005F56*/
+}
+
+.timelineSection {
+  margin-bottom: 2rem;
+}
+
+.timelineItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.timelineIcon {
+  width: 40px;
+  height: 40px;
+  background-color: #2e8b57;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 1rem;
+  position: absolute;
+  left: -22px;
+}
+
+.timelineContent {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #1565c0;
+}

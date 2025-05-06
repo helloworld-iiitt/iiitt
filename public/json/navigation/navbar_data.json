@@ -1,0 +1,215 @@
+{
+  "data": [
+    {
+      "text": "Institute",
+      "icon": "account_balance",
+      "submenu": [
+        {
+          "text": "About IIITT",
+          "link": "/about"
+        },
+        {
+          "text": "Director",
+          "link": "/director"
+        },
+        {
+          "text": "Registrar",
+          "link": "/registrar"
+        },
+        {
+          "text": "BoG",
+          "link": "/bog"
+        },
+        {
+          "text": "Senate",
+          "link": "/senate"
+        },
+        {
+          "text": "FC",
+          "link": "/fc"
+        },
+        {
+          "text": "BwC",
+          "link": "/bwc"
+        },
+        {
+          "text": "RTI",
+          "link": "/rti"
+        },
+        {
+          "text": "PIO",
+          "link": "/public-information-officer"
+        },
+        {
+          "text": "ICC",
+          "link": "https://iiitt.ac.in/downloads/Revised%20Office%20Order%20-%20ICC%20-%2017.02.2025.pdf"
+        },
+        {
+          "text": "Industry Partners",
+          "link": "/partners"
+        },
+        {
+          "text": "Administrative Forms",
+          "link": "/administrative-forms"
+        },
+        {
+          "text": "Annual Reports And Accounts",
+          "link": "/annualreports"
+        }
+      ]
+    },
+    {
+      "text": "Academics",
+      "icon": "local_library",
+      "submenu": [
+        {
+          "text": "Programs",
+          "link": "/programs"
+        },
+        {
+          "text": "Departments",
+          "link": "/departments"
+
+        },
+        {
+          "text": "Curriculum",
+          "link": "/curriculum"
+        },
+        {
+          "text": "Calendar",
+          "link": "/calendar"
+        },
+        {
+          "text": "Holidays",
+          "link": "/holidays"
+        }
+      ]
+    },
+    {
+      "text": "People",
+      "icon": "people",
+      "submenu": [
+        {
+          "text": "Faculty",
+          "link": "/faculty"
+        },
+        {
+          "text": "Staff",
+          "link": "/staff"
+        }
+      ]
+    },
+    {
+      "text": "Admission",
+      "icon": "note_add",
+      "submenu": [
+        {
+          "text": "Admission",
+          "link": "/admission"
+        },
+        {
+          "text": "Anti Ragging Committee",
+          "link": "/anti_ragging_committee"
+        }
+      ]
+    },
+    {
+      "text": "Notification",
+      "icon": "notification_important",
+      "submenu": [
+        {
+          "text": "General",
+          "link": "/notices"
+        },
+        {
+          "text": "Tenders",
+          "link": "/tenders"
+        }
+      ]
+    },
+    {
+      "text": "Students",
+      "icon": "person",
+      "submenu": [
+        {
+          "text": "Undergraduate",
+          "link": "/undergraduate"
+        },
+        {
+          "text": "Postgraduate",
+          "link": "/postgraduate"
+        },
+        {
+          "text": "Doctor of Philosophy (PhD)",
+          "link": "/doctorate"
+        },
+        {
+          "text": "FAQ's",
+          "link": "/faq"
+        },
+        {
+          "text": "Student Council",
+          "link": "/studentcouncil"
+        },
+        {
+          "text": "Code of Conduct(2024)",
+          "link": "http://store.iiitt.ac.in/downloads/notices/codeofconductforstudents(%202024).pdf"
+        },
+        {
+          "text": "Code of Conduct(2025 onwards)",
+          "link": "http://store.iiitt.ac.in/downloads/notices/Regulations%20for%20Academic%20and%20Hostel%20Students_IIITT-2025-1.pdf"
+        }
+      ]
+    },
+    {
+      "text": "Campus Life",
+      "icon": "school",
+      "submenu": [
+        {
+          "text": "Festivals",
+          "link": "/festivals"
+        },
+        {
+          "text": "Clubs",
+          "link": "/clubs"
+        },
+        {
+          "text": "Hostel",
+          "link": "/hostel"
+        },
+        {
+          "text": "Facilities And Services",
+          "link": "/facilities"
+        },
+        {
+          "text": "Aikyam Magazine",
+          "link": "http://aikyam.iiitt.ac.in/"
+        }
+      ]
+    },
+    {
+      "text": "Scholarship",
+      "icon": "workspace_premium",
+      "name": "scholarship",
+      "link": "/scholarship"
+    },
+    {
+      "text": "C2S Project",
+      "icon": "code",
+      "name": "C2S Project",
+      "link": "/c2sproject"
+    },
+    {
+      "text": "placements",
+      "icon": "work",
+      "name": "placements",
+      "link": "http://placement.iiitt.ac.in/"
+    },
+    {
+      "text": "Contact Us",
+      "icon": "call",
+      "name": "contactus",
+      "link": "/contactus"
+    }
+  ]
+}

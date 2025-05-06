@@ -1,0 +1,78 @@
+/* src/app/director/Director.module.css */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.styledCard {
+  padding: 1.5rem;
+  max-width: 350px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.messageCard {
+  flex-grow: 1;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.messageTitle {
+  color: #1a5d3a;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+
+.messageText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.imageContainer {
+  width: 13rem;
+  height: 15rem;
+  margin: 0 auto;
+  border: 1px solid #2e8b57;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.linkStyle {
+  display: inline-block;
+  padding-top: 1rem;
+  font-weight: 500;
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+.linkStyle:hover {
+  text-decoration: underline;
+  color: #1a5d3a;
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .styledCard {
+    max-width: 100%;
+  }
+  
+
+}

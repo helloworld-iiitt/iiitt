@@ -1,0 +1,58 @@
+.container {
+  padding: 1rem 1rem !important;
+}
+
+.themeText {
+  color: #2e8b57 !important;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sectionPadding {
+  padding: 1rem 0 !important;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+ul.list {
+  padding-left: 1.5rem;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 300;
+}
+
+.list li::before {
+  content: "• ";
+
+  color: #2e8b57;
+  margin-right: 5px;
+}
+

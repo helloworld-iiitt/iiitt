@@ -1,0 +1,42 @@
+{
+    "Hostel": [
+        {
+            "title": "Abdul Kalam Hall of Residence",
+            "Hostelsrc": "/hostel/IIITT_Boys_Hostel.png",
+            "desc": "Abdul Kalam Hall of Residence is exclusively constructed for accommodating boys. The location of the boy’s hostel is just behind the main gate of the institute. This 3-storeyed residence contains 185 rooms and totally can be accommodated with 370 students. This hostel is fully equipped with basic amenities such as 24/7 purified water, uninterrupted Power supply, and a Lift facility to create an ambient environment. In this residency, each room is equipped with two LAN ports and a high-speed Wi-Fi facility. Table Tennis Court is located inside the residency and other sports items are also available for recreation. The residency provides a gym facility to ensure the physical fitness of the students",
+            "Warden": "Dr Banoth Ravi",
+            "RoomNo": "2065",
+            "Department": "Department of Electronics and Communication Engineering,Indian Institute of Information Technology,Tiruchirappalli-620012.",
+            "emailId": "messwarden@iiitt.ac.in",
+            "WardenImage": "/faculty/raviB_2024.jpeg"
+        },
+        {
+            "title": "Infosys Foundation Girls Hostel",
+            "Hostelsrc": "/hostel/IIITT_Girls_Hostel.jpg",
+            "desc": "Infosys Foundation Girls Hostel is exclusively constructed for accommodating girls. The location of the hostel is just behind the main gate of the institute. This 4-storeyed residence contains 125 rooms and totally can be accommodated with 250 students. This hostel is fully equipped with basic amenities such as 24/7 purified water supply, and uninterrupted Power supply to create an ambient environment. In this residency, each room is equipped with two LAN ports and a high-speed Wi-Fi facility. Table Tennis Court is located inside the residency and other sports items are also available for recreation. The residency provides a gym facility to ensure the physical fitness of the students.",
+            "Warden": "Dr. T. Sugirtha",
+            "RoomNo": "2167",
+            "Department": "Department of Computer Science and Engineering,Indian Institute of Information Technology,Tiruchirappalli-620012.",
+            "emailId": "dcwg@iiitt.ac.in",
+            "WardenImage": "/faculty/Sugirtha.jpg"
+        }
+    ],
+    "Mess": [
+        {
+            "title": "Smt. Savithribai Phule Dining Hall",
+            "Hostelsrc": "/hostel/IIITT_Mess.jpg",
+            "desc": "Smt. Savithribai Phule Dining Hall can serve food simultaneously for about 300 students. High quality and healthy foods are being provided to the students in a hygienic environment.",
+            "Warden": "Dr Banoth Ravi",
+            "RoomNo": "2065",
+            "Department": "Department of Electronics and Communication Engineering,Indian Institute of Information Technology,Tiruchirappalli-620012.",
+            "emailId": "messwarden@iiitt.ac.in",
+            "WardenImage": "/faculty/raviB_2024.jpeg",
+            "MessTimings": {
+                "Breakfast": "7.00 am to 9.00 am",
+                "Lunch": "12.30 pm to 2.00 pm",
+                "Snacks": "4.30 pm to 5.30 pm",
+                "Dinner": "7.00 pm to 9.00 pm"
+            }
+        }
+    ]
+}

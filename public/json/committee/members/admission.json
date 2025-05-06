@@ -1,0 +1,18 @@
+{"data":[
+    {
+        "s_no": 1,
+        "name": "Dr. G.Seetharaman",
+        "role": "Chairman, PI/ Professor, Department of ECE"
+    },
+    {
+        "s_no": 2,
+        "name": "Dr. V. Sindhu",
+        "role": " CSAB & CCMT Coordinator/ Assistant Professor, Department of S&H"
+    },
+    {
+        "s_no": 3,
+        "name": "Dr. G. Devasena",
+        "role": " CSAB & CCMT Reporting Officer/ Assistant Professor, Department of CSE"
+    }
+]
+}

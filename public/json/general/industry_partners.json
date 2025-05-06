@@ -1,0 +1,41 @@
+{
+    "partners": [
+      {
+        "name": "Tata Consultancy Services (TCS)",
+        "description": "TCS is one of the largest Indian companies by market capitalization ($80 billion). It is among the 'Big 4' most valuable IT services brands worldwide. In 2015, TCS was ranked 64th in the Forbes World's Most Innovative Companies ranking.",
+        "logo": "tcs-logo.svg",
+        "link": "https://www.tcs.com"
+      },
+      {
+        "name": "Cognizant Technology Solutions (CTS)",
+        "description": "Cognizant is an American multinational corporation that provides digital, technology, consulting, and operations services. It is listed in the NASDAQ-100 and S&P 500 indices.",
+        "logo": "cts-logo.png",
+        "link": "https://www.cognizant.com"
+      },
+      {
+        "name": "Infosys",
+        "description": "Infosys Limited is an Indian multinational corporation that provides business consulting, information technology, and outsourcing services. It is the second-largest Indian IT services company by revenue.",
+        "logo": "infosys-logo.svg",
+        "link": "https://www.infosys.com"
+      },
+      {
+        "name": "Ramco Systems",
+        "description": "Ramco Systems is a software products and services provider specializing in Enterprise Resource Planning, Human Capital Management, Logistics, and Aviation Maintenance & Engineering Software.",
+        "logo": "ramco-logo.png",
+        "link": "https://www.ramco.com"
+      },
+      {
+        "name": "ELCOT",
+        "description": "The Electronics Corporation of Tamil Nadu Limited (ELCOT) promotes, establishes, and runs state public sector enterprises for electronic items and IT-related projects.",
+        "logo": "elcot-logo.png",
+        "link": "https://elcot.in"
+      },
+      {
+        "name": "Navitas (TAKE Solutions)",
+        "description": "Navitas, the dedicated life sciences company of TAKE Solutions, combines capabilities of a full-service CRO, a technology-led life sciences services provider, and a big data analytics provider.",
+        "logo": "navitas-logo.png",
+        "link": "https://www.navitaslifesciences.com"
+      }
+    ]
+  }
+  

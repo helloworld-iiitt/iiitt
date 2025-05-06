@@ -1,0 +1,34 @@
+{
+    "curriculum": {
+      "CSE": {
+        "UG": {
+          "2015": "curriculum/Curriculum_IIITTUGCSE15.pdf",
+          "2016": "curriculum/CSE_Syllabus_16.pdf",
+          "2020": "curriculum/UG_CSE_2020-Revised241121.pdf",
+          "2024": "curriculum/CSE_Curriculum_2024.pdf"
+        },
+        "M.Tech Computer Science And Engineering": {
+          "2021": "curriculum/CSE_M.Tech_Syllabus_2021-Revised241121.pdf",
+          "2023 Amendment":"curriculum/MTech_CSE_Amendment2023.pdf"
+        },
+        "M.Sc Computer Science":{
+            "2023":"curriculum/MSc_CS_Curriculum_2023.pdf"
+        }
+      },
+      "ECE": {
+        "UG": {
+          "2015": "curriculum/Curriculum_IIITTUGECE15.pdf",
+          "2016": "curriculum/Syllabus_ECE_16.pdf",
+          "2020": "curriculum/UG_ECE_2020.pdf",
+          "2024": "curriculum/ECE_Curriculum_2024.pdf"
+        },
+        "M.Tech. VLSI Systems": {
+          "2021": "curriculum/ECE_M.Tech_Syllabus_2021-Revised.pdf"
+        },
+        "M.Sc. Electronics with VLSI Design":{
+           "2023": "curriculum/MSc_E&VLSI_Curriculum_2023.pdf"
+        }
+      }
+    }
+  }
+  

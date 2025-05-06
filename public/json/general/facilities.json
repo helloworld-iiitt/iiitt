@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "title": "Software Lab",
+            "url": "facilities/cselab.jpeg"
+        },
+        {
+            "title": "hardware Lab",
+            "url": "facilities/ecelab.jpg"
+        },
+        {
+            "title": "Library",
+            "url": "facilities/library.jpg"
+        },
+        {
+            "title": "Canteen",
+            "url": "facilities/canteen.jpeg"
+        },
+        {
+            "title": "Medical Room",
+            "url": "facilities/medicalroom.jpeg"
+        }
+    ]
+}

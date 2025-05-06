@@ -1,0 +1,16 @@
+.pageContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .themeText {
+    color: #2e8b57;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  

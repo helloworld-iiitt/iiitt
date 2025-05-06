@@ -1,0 +1,33 @@
+.container {
+    padding: 1rem 1rem;
+  }
+  
+  .themeText {
+    color: #2e8b57;
+  }
+  
+  .link {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1rem;
+    font-weight: 500;
+    width: auto;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+  
+  .image {
+    width: 100%;
+  }
+  .doclist {
+    
+    list-style-position: inside;
+    font-size: 20px;
+  }
+  .seekhelp a {
+    font-size: 20px;
+  }
+    

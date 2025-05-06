@@ -1,0 +1,98 @@
+{
+  "data": {
+    "department": "Electronics and Communication Engineering",
+    "about": "The Department of Electronics and Communication Engineering aims to provide strong academic and research foundations to students in computing. The department offers undergraduate, postgraduate, and doctoral programs with a focus on innovation, collaboration, and technical excellence.",
+    "message_from_hod": {
+      "name": "Dr. M. Senthil Sivakumar",
+      "designation": "HoD, ECE",
+      "message": "Welcome to the Department of Electronics and Communication Engineering. Our department strives to empower students with the knowledge, skills, and confidence to excel in a dynamic and fast-evolving tech world. We promote research and industry partnerships to ensure our students are future-ready."
+    },
+    "faculty_members": [
+      {
+        "name": "Dr. G. Seetharaman",
+        "designation": "Professor & Registrar"
+      },
+      {
+        "name": "Dr. M. Senthil Sivakumar",
+        "designation": "Assistant Professor & Head of the Department"
+      },
+      {
+        "name": "Dr. M. Harish Adhithya",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. R. Krishnamurthy",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. Banoth Ravi",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. D Suresh",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. S. Padmathilagam",
+        "designation": "Assistant Professor"
+      }
+    ],
+    "faculty_profiles_link": "/faculty",
+    "research_areas": [
+      "Artificial Intelligence and Machine Learning",
+      "Cybersecurity and Cryptography",
+      "Internet of Things (IoT)",
+      "Cloud Computing and Big Data Analytics",
+      "Computer Vision and Image Processing",
+      "Software Engineering and Agile Methodologies"
+    ],
+    "research_scholars": [
+      {
+        "name": "Ms. Nisha R",
+        "topic": "AI in Healthcare"
+      },
+      {
+        "name": "Mr. Aravind P",
+        "topic": "Cybersecurity Protocols for IoT"
+      },
+      {
+        "name": "Ms. Keerthi S",
+        "topic": "NLP Applications in Education"
+      },
+      {
+        "name": "Mr. Daniel K",
+        "topic": "Big Data Optimization Algorithms"
+      }
+    ],
+    "announcements": [
+      {
+        "title": "Workshop on Data Science",
+        "date": "28/04/2025"
+      },
+      {
+        "title": "Guest Lecture on AI Ethics",
+        "date": "10/05/2025"
+      },
+      {
+        "title": "Internship Opportunity @ TCS – Apply by May 5",
+        "date": "05/05/2025"
+      }
+    ],
+    "latest_news": [
+      {
+        "title": "CSE team won 1st prize at HackTech 2025"
+      },
+      {
+        "title": "4 new research papers published in IEEE journals"
+      },
+      {
+        "title": "MoU signed with Infosys for student training"
+      }
+    ],
+    "contact": {
+      "department": "Department of Electronics and Communication Engineering",
+      "college": "Indian Institute of Information Technology",
+      "location": "Tiruchirappalli, TamilNadu - 620012"
+    }
+  }
+}

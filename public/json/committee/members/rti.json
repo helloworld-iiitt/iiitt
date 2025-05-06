@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "head": "First Appellate Authority (Director, IIIT Trichy)",
+      "name": "Prof. Usha Natesan",
+      "designation": "Director In-Charge, IIIT Trichy",
+      "emailID": "director@iiitt.ac.in",
+      "phone": "\n",
+      "src": "ushanatesan.jpg"
+    },
+    {
+      "head":"CPIO",
+      "name": "Dr. kamakshi Koppole",
+      "designation": "HoD & Assistant Professor \n Department of Science and Humanities IIIT Tiruchirappalli",
+      "emailID": "kamakshik@iiitt.ac.in",
+      "phone": "8978163865",
+      "src": "faculty/Kamakshi1.jpeg"
+    },
+    {
+      "head":"APIO",
+      "name": "Dr. M. Senthil Sivakumar",
+      "designation": "HoD & Assistant Professor \n Department of Electronics and Communication Engineering IIIT Tiruchirappalli",
+      "emailID": "msenthilsivakumar@iiitt.ac.in",
+      "phone": "9380984544 ",
+      "src": "faculty/MSenthilSivakumar.jpg"
+    }
+  ]
+}

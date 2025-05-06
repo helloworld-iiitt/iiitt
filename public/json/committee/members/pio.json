@@ -1,0 +1,16 @@
+{"data":[
+    {
+        "s_no": 1,
+        "name": "Prof. G. Seetharaman",
+        "designation":"Registrar (i/c)",
+        "role": "CPIO"
+    },
+    {
+        "s_no": 2,
+        "name": "Dr. V. Sindhu",
+        "designation":"AR (i/c) Administration",
+        "role": "PIO(nodal)"
+    }
+
+]
+}

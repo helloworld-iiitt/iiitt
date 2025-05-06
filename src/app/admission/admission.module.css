@@ -1,0 +1,45 @@
+.container {
+    padding: 1rem 1rem;
+  }
+
+  .themeText {
+    color: #2e8b57;
+  }
+
+  .link {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1rem;
+    font-weight: 500;
+    width: auto;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+
+  .sectionText {
+    padding-top: 0;
+  }
+
+  .sectionPadding {
+    padding: 1rem 0;
+  }
+
+  .tableHead {
+    background: #2e8b57;
+  }
+
+  .th {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .td {
+    font-size: 1.3rem;
+  }
+
+  .utilityMargin {
+    margin-left: 20px;
+  }

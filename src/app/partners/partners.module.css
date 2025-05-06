@@ -1,0 +1,44 @@
+.pageContainer {
+    padding: 1rem 1rem;
+  }
+  
+  .container {
+    padding: 1rem 1rem;
+  }
+  
+  .themeText {
+    color: #2e8b57;
+    text-align: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 1rem;
+    display: inline-block;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+  
+  .text {
+    font-size: 1.3rem;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .sectionPadding {
+    padding: 1rem 0;
+  }
+  
+  .heading {
+    color: #2e8b57;
+    text-align: center;
+  }
+  
