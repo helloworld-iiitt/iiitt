@@ -20,7 +20,7 @@ const Doctorate: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    document.title = "Doctorate";
+    document.title = "Doctorate | IIITT";
     return () => {
       document.title = "IIIT Trichy";
     };

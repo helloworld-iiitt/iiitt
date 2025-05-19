@@ -10,7 +10,7 @@ import CommitteePage from "@/components/tablecomponent/CommitteePage";
 
 export default function AdmissionPage() {
   useEffect(() => {
-    document.title = "Admission";
+    document.title = "Admission | IIITT";
     return () => {
       document.title = "IIIT Trichy";
     };

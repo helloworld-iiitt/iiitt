@@ -59,6 +59,7 @@ const Home: React.FC = () => {
   });
 
   useEffect(() => {
+    document.title = "IIIT Tiruchirappalli";
     const fetchData = async () => {
       try {
         const [achRes, newsRes, eventsRes, noticeRes] = await Promise.all([

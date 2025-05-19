@@ -17,6 +17,7 @@ const Programs: React.FC = () => {
   });
 
   useEffect(() => {
+    document.title = "Programs | IIIT Tiruchirappalli";
     const fetchData = async () => {
       try {
         const [ug, pg] = await Promise.all([

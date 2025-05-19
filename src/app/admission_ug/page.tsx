@@ -20,6 +20,7 @@ const AdmissionUG: React.FC = () => {
   const [admissionData, setAdmissionData] = useState<any>(null);
 
   useEffect(() => {
+    document.title = "U.G Admission | IIITT";
     fetch('/json/admission/ug.json')
       .then((response) => response.json())
       .then((data) => setAdmissionData(data))

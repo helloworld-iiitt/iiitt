@@ -228,6 +228,7 @@ const NestedDropdown: React.FC<{
     <Link
       href={menuItem.link || "#"}
       style={{ color: "black", textDecoration: "none" }}
+      onClick={onClose}
     >
       {menuItem.text}
     </Link>

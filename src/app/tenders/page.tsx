@@ -25,6 +25,7 @@ const Tenders = () => {
   const [newNotices, setNewNotices] = useState<Item[]>([]);
 
   useEffect(() => {
+    document.title = "Tenders | IIIT Tiruchirappalli";
     const fetchNoticesData = async () => {
       try {
         const response = await fetch("/json/general/tenders.json");

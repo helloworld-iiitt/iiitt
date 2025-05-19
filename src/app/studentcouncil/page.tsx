@@ -21,6 +21,7 @@ const StudentCouncil = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
+    document.title = "Student Council | IIIT Tiruchirappalli";
     const fetchStudentCouncilData = async () => {
       try {
         const response = await fetch(

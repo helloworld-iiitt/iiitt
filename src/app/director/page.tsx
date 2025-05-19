@@ -9,8 +9,7 @@ import nextConfig from "../../../next.config";
 import styles from "./Director.module.css";
 
 export default function Director() {
-  useEffect(() => {
-    document.title = "Administration";
+  useEffect(() => {document.title = "Director | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

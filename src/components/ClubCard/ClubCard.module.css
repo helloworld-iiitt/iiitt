@@ -117,6 +117,10 @@
     width: 70px;
     height: 70px;
   }
+  .logo{
+    height: 70px;
+    width: 70px;
+  }
 
   .clubName {
     font-size: 1.3rem;
@@ -163,5 +167,10 @@
 
   .clubHead {
     font-size: 0.85rem;
+  }
+
+  .logo{
+    height: 70px;
+    width: 70px;
   }
 }
