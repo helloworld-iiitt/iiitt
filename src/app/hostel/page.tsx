@@ -50,7 +50,6 @@ export default function Hostel() {
       ]);
       if (response.status === "fulfilled") {
         const hstl = await response.value.json();
-        console.info(hstl.Mess.info);
         setHostelData(hstl.Hostel);
         setMessData(hstl.Mess);
       }

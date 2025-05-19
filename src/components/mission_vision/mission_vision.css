@@ -1,35 +1,45 @@
 #mission_vision {
   height: 100%;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 24px;
 }
 
 #mission_vision svg {
   font-size: 17px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 #mission,
 #vision {
   font-size: 1rem;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15); 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  color: #555;
 }
 
-@media only screen and (min-width: 920px) and (max-width: 1100px) {
+@media (max-width: 1100px) and (min-width: 920px) {
   #vision,
   #mission {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 920px) {
+@media (max-width: 920px) and (min-width: 600px) {
   #vision,
   #mission {
-      font-size: 0.8rem;
+    font-size: 0.85rem;
   }
 }
 
-@media only screen and (max-width: 1500px) {
+@media (max-width: 600px) {
+  #vision,
+  #mission {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1500px) {
   #learn_more {
-      display: none;
+    display: none;
   }
 }

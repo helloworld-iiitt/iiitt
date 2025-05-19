@@ -93,7 +93,7 @@
   width: 100%;
   height: 100%;
   margin-top: 1px;
-  object-fit: cover; 
+  /*object-fit: cover; */
   border-radius: 50%; 
 }
 
@@ -103,14 +103,22 @@
 }
 
 .researchArea,
-.incharge{
+.incharge {
   font-size: 0.9rem;
   font-weight: bold;
-  color: #d1d1d1;
   margin-left: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
+.researchArea {
+  color: #b0c4de ;
+}
+
+.incharge {
+  color: #f0f8ff ;
+}
+
 
 .infoDiv {
   display: flex;

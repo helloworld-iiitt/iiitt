@@ -8,10 +8,11 @@ import Grid from "@mui/material/Grid2";
 import { useEffect } from "react";
 
 import styles from "./antiragging.module.css";
+import CommitteePage from "@/components/tablecomponent/CommitteePage";
 
 const AntiRagging = () => {
   useEffect(() => {
-    document.title = "Anti Raggign Committe | IIIT Tiruchirappalli";
+    document.title = "Anti Ragging Committe | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };
@@ -110,9 +111,7 @@ const AntiRagging = () => {
                 Reach out to the Anti-Ragging Squad of IIIT Trichy
                 <ul className="doclist">
                   <li>
-                    
-                      IIITT Anti-Ragging Committee
-                    
+                  <CommitteePage committee="arc" />
                   </li>
                 </ul>
               </li>

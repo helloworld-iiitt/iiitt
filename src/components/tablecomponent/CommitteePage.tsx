@@ -16,6 +16,7 @@ export default function CommitteePage({ committee }: { committee: string }) {
     bwc: ["Name", "Designation", "Role"],
     pio: ["Name", "Designation", "Role"],
     fc: ["Name", "Designation", "Role"],
+    icc: ["Name", "Designation", "Role"],
     admission: ["Name", "Role"],
   };
   const committeeName = committee.toLowerCase();

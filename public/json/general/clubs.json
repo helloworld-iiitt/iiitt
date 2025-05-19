@@ -11,7 +11,6 @@
         {
           "name": "LAKSHENDRA SEJWANI"
         },
-
         {
           "name": "Amogh G C"
         },
@@ -27,7 +26,8 @@
         {
           "name": "Pravas Mohanty  "
         }
-      ]
+      ],
+      "logo":"/images/webdevclub.jpg"
     },
 
     {
@@ -50,7 +50,8 @@
         {
           "name": "Pravas Mohanty"
         }
-      ]
+      ],
+      "logo":""
     },
    {
       "name": "Photography Club",
@@ -78,7 +79,8 @@
         {
           "name": "Abilashini V"
         }
-      ]
+      ],
+      "logo":"/images/photographyclub.jpg"
     },
     {
       "name": "Dance Club",
@@ -103,7 +105,7 @@
         {
           "name": "Charu Mehra"
         }
-      ]
+      ],"logo":"/images/danceclub.jpg"
     },
     {
       "name": "Music Club",
@@ -131,7 +133,7 @@
         {
           "name": "Hendrik Marino A"
         }
-      ]
+      ],"logo":"/images/musicclub.jpg"
     },
     {
       "name": "Media Club",
@@ -159,7 +161,8 @@
         {
           "name": "Tenali Likhitha  "
         }
-      ]
+      ],
+      "logo":"/images/mediaclub.jpg"
     }
   ]
 }

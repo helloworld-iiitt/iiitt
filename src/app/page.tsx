@@ -15,7 +15,8 @@ import MissionVision from "@/components/mission_vision/missionVision";
 import Marquee from "@/components/marquee/marquee";
 import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
 
-import * as carouselData from "../../public/json/carousel/home_carousel.json";
+import carouselData from "../../public/json/carousel/home_carousel.json";
+
 import "./globals.css";
 
 interface Item {
@@ -84,7 +85,24 @@ const Home: React.FC = () => {
   }, []);
 
   const sortData = (items?: Item[]) =>
-    items?.sort((a, b) => new Date(b.date || "").getTime() - new Date(a.date || "").getTime()) ?? [];
+    items
+      ?.map(item => {
+        if (item.isNew !== undefined) return item;
+
+        const postedDate = new Date(item.date || "");
+        const today = new Date();
+        const diffDays = (today.getTime() - postedDate.getTime()) / (1000 * 3600 * 24);
+
+        return {
+          ...item,
+          isNew: diffDays <= 15,
+        };
+      })
+      .sort(
+        (a, b) =>
+          new Date(b.date || "").getTime() - new Date(a.date || "").getTime()
+      ) ?? [];
+
 
   const handleTabChange = (_: React.SyntheticEvent, newValue: number) => {
     setActiveTab(newValue);
@@ -125,7 +143,7 @@ const Home: React.FC = () => {
               ) : (
                 <PaperCard
                   title="News"
-                  items={data.news.slice(0, 5)}
+                  items={data.news.slice(0, 6)}
                   linkToOlder="/news"
                 />
               )}
@@ -149,7 +167,7 @@ const Home: React.FC = () => {
               ) : (
                 <PaperCard
                   title="Notices"
-                  items={data.notice.slice(0, 5)}
+                  items={data.notice.slice(0, 6)}
                   linkToOlder="/notices"
                 />
               )}
@@ -163,7 +181,7 @@ const Home: React.FC = () => {
             ) : (
               <PaperCard
                 title="Achievements"
-                items={data.achievements.slice(0, 5)}
+                items={data.achievements.slice(0, 6)}
                 linkToOlder="/achievements"
               />
             )}

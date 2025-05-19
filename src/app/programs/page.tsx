@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import { Typography, Divider, Card, CardContent } from "@mui/material";
@@ -7,9 +7,35 @@ import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import ScienceIcon from "@mui/icons-material/Science";
 import styles from "./programs.module.css";
+import { numberToWords } from "@/types/numbertoWords";
 
 const Programs: React.FC = () => {
+  const [data, setData] = useState({
+    ug: [] ,
+    pg: [] ,
+    loading: true,
+  });
+
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [ug, pg] = await Promise.all([
+          fetch('/json/admission/ug.json').then(res => res.json()),
+          fetch('/json/admission/pg.json').then(res => res.json()),
+        ]);
+
+        setData({
+          ug: ug.programs,
+          pg: pg.programs,
+          loading: false
+        });
+      } catch (error) {
+        console.error("Error loading JSON data:", error);
+        setData(prev => ({ ...prev, loading: false }));
+      }
+    };
+
+    fetchData();
     document.title = "Programs";
     return () => {
       document.title = "IIIT Trichy";
@@ -25,7 +51,7 @@ const Programs: React.FC = () => {
           component="h2"
           gutterBottom
           align="center"
-          color= "#2e8b57"
+          color="#2e8b57"
           sx={{ fontWeight: 300 }}
         >
           Programs
@@ -44,12 +70,13 @@ const Programs: React.FC = () => {
               through CSAB and JoSAA following the reservation policy of India.
             </Typography>
             <Typography className={styles.sectionPadding}>
-              IIIT Tiruchirappalli offers the following two Undergraduate Programs:
+              IIIT Tiruchirappalli offers the following <b>{numberToWords(data.ug.length)}</b> Undergraduate Programs:
             </Typography>
             <ul className={styles.list}>
-              <li>B.Tech in Computer Science and Engineering</li>
-              <li>B.Tech in Electronics and Communication Engineering</li>
-            </ul>
+          {data.ug?.map((program: string, index: number) => (
+            <li key={index}>{program}</li>
+          ))}
+          </ul>
           </CardContent>
         </Card>
 
@@ -62,12 +89,13 @@ const Programs: React.FC = () => {
               <WorkIcon color="primary" /> Postgraduate Program
             </Typography>
             <Typography>
-              IIIT Tiruchirappalli offers the following Postgraduate Programs:
+              IIIT Tiruchirappalli offers the following <b>{numberToWords(data.pg.length)}</b> Postgraduate Programs:
             </Typography>
             <ul className={styles.list}>
-              <li>M.Tech in Computer Science and Engineering</li>
-              <li>M.Tech in VLSI Systems</li>
-            </ul>
+          {data.pg?.map((program: string, index: number) => (
+            <li key={index}>{program}</li>
+          ))}
+          </ul>
           </CardContent>
         </Card>
 

@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "s_no": 1,
+      "name": "Dr R. Dhanalakshami",
+      "designation": "Associate Professor,IIIT Tiruchirappalli",
+      "role": "Chairperson"
+    },
+    {
+      "s_no": 2,
+      "name": "Dr. Kamakshi Koppole",
+      "designation": "Assisstant Professor,IIIT Tiruchirappalli",
+      "role": "Member"
+    },
+    {
+      "s_no": 3,
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Assisstant Professor,IIIT Tiruchirappalli",
+      "role": "Member"
+    },
+    {
+      "s_no": 4,
+      "name": "Dr. Anoop Jacob Thomas",
+      "designation": "Assisstant Professor,IIIT Tiruchirappalli",
+      "role": "Member"
+    },
+    {
+      "s_no": 5,
+      "name": "Dr. T. Sugirtha",
+      "designation": "Assisstant Professor,IIIT Tiruchirappalli",
+      "role": "Member"
+    },
+    {
+      "s_no": 6,
+      "name": "Dr. Banoth Ravi",
+      "designation": "Assisstant Professor,IIIT Tiruchirappalli",
+      "role": "Member"
+    },
+    {
+      "s_no": 7,
+      "name": "Medical Officer",
+      "designation": "Medical Practitioner,NITT or Harshamitra Super Speciality Cancer Hospital,Trichy",
+      "role": "External Member"
+    }
+
+  ]
+}

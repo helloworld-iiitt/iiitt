@@ -12,7 +12,8 @@
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194480",
       "researchArea": "Image Processing, Deep Learning and Machine  Learning, Video Processing, ",
       "emailID": "devasenag@iiitt.ac.in",
-      "src": "/faculty/Devasena.jpg"
+      "src": "/faculty/Devasena.jpg",
+      "PersonalPage": "https://sites.google.com/view/devasenagiiitt/home"
     },
     {
       "id": {
@@ -55,7 +56,8 @@
       "src": "/faculty/AnoopJacobThomas.jpg",
       "Incharge": "Campus Networking, EBSB, ERP, Exam Cell Member, Student Discipline, Hall Booking ",
       "Institute": "Ph.D. CSE (IIT Ropar)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
+      "PersonalPage":"https://www.linkedin.com/in/anoopjt/"
     },
     {
       "id": {
@@ -83,7 +85,8 @@
       "src": "/faculty/AmbikaM.jpg",
       "Incharge": "Admission (UG & PG),Gem & CPP, Insurance, Purchase, 6th Convocation,Aikyam Magazine",
       "Institute": "Ph.D. (Anna University Chennai)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/588225"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/588225",
+      "PersonalPage": "https://iiitt.ac.in/downloads/Faculty_Profiles/Ambika_Resume.pdf"
     },
     {
       "id": {
@@ -97,7 +100,8 @@
       "src": "/faculty/KokilaJ.jpg",
       "Incharge": "Website development,maintenance and Social Media, clubs - (Website Dev, Media, Competitive Coding), E-Cell ",
       "Institute": "Ph.D. CSE (NIT Tiruchirappalli) under Visvesvaraya Phd Scheme",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/212555"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/212555",
+      "PersonalPage":"https://sites.google.com/site/kokilajrsnitt/?pli=1"
     }
   ],
   "ECE": [
@@ -127,7 +131,8 @@
       "src": "/faculty/Seetharaman.jpg",
       "Incharge": "Registrar, Admission (UG & PG)-Chairman",
       "Institute": "Ph.D. CSE (NIT Tiruchirappalli) ",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194472"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194472",
+      "PersonalPage":"https://iiitt.ac.in/downloads/Faculty_Profiles/Prof_GS_profile.pdf"
     },
     {
       "id": {
@@ -141,7 +146,8 @@
       "src": "/faculty/Krishnamurthy.jpg",
       "Incharge": "Alhad and Atrang",
       "Institute": "Ph.D. ECE ( IISc. Bangalore) ",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562856"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562856",
+      "PersonalPage":"https://sites.google.com/view/krishnamurthyramanujam/home?pli=1"
     },
     {
       "id": {
@@ -155,7 +161,8 @@
       "src": "/faculty/raviB_2024.jpeg",
       "Incharge": "Wireless Networks, Machine learning for Wireless communications, 5G/6G Intelligent Networks, Communication Networks, Vehicular Communications, Software Defined Networks.",
       "Institute": "Ph.D. ECE (IIT Dhanbad)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562773"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562773",
+      "PersonalPage":"https://sites.google.com/view/ravibanothiitism"
     },
     {
       "id": {
@@ -183,7 +190,8 @@
       "src": "/faculty/PadmathilagamS.jpg",
       "Incharge": "Institute Library",
       "Institute": "Ph.D. ECE (CEG Campus, Anna University Chennai.)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/589595"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/589595",
+      "PersonalPage":"https://sites.google.com/iiitt.ac.in/padmathilagamprofile/home"
     },
     {
       "id": {
@@ -213,7 +221,24 @@
       "src": "/faculty/VELMURUGANC.jpg",
       "Incharge": "BWC, BoG Member, Assistant Registrar Accounts, Outsourcing Agency",
       "Institute": "Ph.D. MEC. Eng. (NIT Tiruchirappalli)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194479"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194479",
+      "PersonalPage":"https://sites.google.com/view/velmuruganciiitt"
+    }
+  ],
+  "Science & Humanities": [
+    {
+      "id": {
+        "dept": "PHY",
+        "deptID": "1"
+      },
+      "name": "Dr. Kamakshi K",
+      "designation": "Assistant Professor , Head of the Department",
+      "researchArea": "Photonics and Optoelectronic Devices",
+      "emailID": "kamakshi@iiitt.ac.in",
+      "src": "/faculty/Kamakshi1.jpeg",
+      "Incharge": "Academic and Research",
+      "Institute": "Ph.D. (IIT Roorkee) Post-doc. (University of Minho Portugal)",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194482"
     }
   ],
   "Mathematics": [
@@ -232,22 +257,7 @@
       "VidhwanLink": "https://iiitt.irins.org/profile/194477"
     }
   ],
-  "Physics": [
-    {
-      "id": {
-        "dept": "PHY",
-        "deptID": "1"
-      },
-      "name": "Dr. Kamakshi K",
-      "designation": "Assistant Professor , Head of the Department",
-      "researchArea": "Photonics and Optoelectronic Devices",
-      "emailID": "kamakshi@iiitt.ac.in",
-      "src": "/faculty/Kamakshi1.jpeg",
-      "Incharge": "Academic and Research",
-      "Institute": "Ph.D. (IIT Roorkee) Post-doc. (University of Minho Portugal)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194482"
-    }
-  ],
+
   "English": [
     {
       "id": {
@@ -261,7 +271,8 @@
       "src": "/faculty/Sindhu.jpg",
       "Incharge": "Assistant Registrar, Aikyam - Multi-lingual Student Magazine, Annual Report – Preparation & Printing, Ministry Reply",
       "Institute": "Ph.D. (CEG Campus, Anna University Chennai.)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194483"
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194483",
+      "PersonalPage":"https://iiitt.ac.in/downloads/Faculty_Profiles/Sindhu_Profile.pdf"
     }
   ]
 }

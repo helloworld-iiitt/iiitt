@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/downloads/**',
       },
+      {
+        protocol: "https",
+        hostname: process.env.NEXT_PUBLIC_GOOGLE_IMAGES_DOMAIN as string,
+        port: '',
+        pathname: '**',
+      },
     ],
     minimumCacheTTL: 60,
     formats: ["image/webp"],

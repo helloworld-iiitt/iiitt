@@ -39,55 +39,16 @@
     ],
     "faculty_profiles_link": "/faculty",
     "research_areas": [
-      "Artificial Intelligence and Machine Learning",
-      "Cybersecurity and Cryptography",
-      "Internet of Things (IoT)",
-      "Cloud Computing and Big Data Analytics",
-      "Computer Vision and Image Processing",
-      "Software Engineering and Agile Methodologies"
+
     ],
     "research_scholars": [
-      {
-        "name": "Ms. Nisha R",
-        "topic": "AI in Healthcare"
-      },
-      {
-        "name": "Mr. Aravind P",
-        "topic": "Cybersecurity Protocols for IoT"
-      },
-      {
-        "name": "Ms. Keerthi S",
-        "topic": "NLP Applications in Education"
-      },
-      {
-        "name": "Mr. Daniel K",
-        "topic": "Big Data Optimization Algorithms"
-      }
+
     ],
     "announcements": [
-      {
-        "title": "Workshop on Data Science",
-        "date": "28/04/2025"
-      },
-      {
-        "title": "Guest Lecture on AI Ethics",
-        "date": "10/05/2025"
-      },
-      {
-        "title": "Internship Opportunity @ TCS – Apply by May 5",
-        "date": "05/05/2025"
-      }
+
     ],
     "latest_news": [
-      {
-        "title": "CSE team won 1st prize at HackTech 2025"
-      },
-      {
-        "title": "4 new research papers published in IEEE journals"
-      },
-      {
-        "title": "MoU signed with Infosys for student training"
-      }
+
     ],
     "contact": {
       "department": "Department of Electronics and Communication Engineering",

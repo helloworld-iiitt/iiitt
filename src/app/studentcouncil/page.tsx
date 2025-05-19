@@ -29,7 +29,6 @@ const StudentCouncil = () => {
         if (!response.ok) throw new Error("Failed to fetch Student data");
 
         const data = await response.json();
-        console.info(data);
         setStudentCouncilData(data);
       } catch (error) {
         console.error("Error loading JSON data:", error);

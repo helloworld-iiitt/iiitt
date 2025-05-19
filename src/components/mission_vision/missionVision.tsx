@@ -47,7 +47,7 @@ const MissionVision = () => {
 
           <Link href="https://iiitt.ac.in/video_tour" passHref legacyBehavior>
           <Typography color="textSecondary" id="mission" component="a" target="_blank" rel="noopener noreferrer">
-          Virtual Tour of IIITT 
+          Virtual Tour of IIITT
           </Typography>
           </Link>
           <Link  href="https://www.youtube.com/watch?v=KCrvIJOxigY" passHref legacyBehavior>

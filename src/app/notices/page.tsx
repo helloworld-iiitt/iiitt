@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Grid from "@mui/material/Grid2";
-import Box from "@mui/material/Box";
+import NoticeSection from "@/components/NoticeSection/NoticeSection";
 import { Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid2";
+import { useEffect, useState } from "react";
 import styles from "./notices.module.css";
-import nextConfig from "../../../next.config";
-import { validURL } from "../achievements/validator";
 
 interface Item {
   title: string;
@@ -31,8 +30,6 @@ const Notices = () => {
         if (!response.ok) throw new Error("Failed to fetch notices data");
 
         const data = await response.json();
-        console.info(data);
-
         const d: Item[] = data.data;
         const latest = d
           .filter((x) => x.isNew)
@@ -72,90 +69,10 @@ const Notices = () => {
 
           {!loading && !error && (
             <>
-              {/* New Notices */}
-              <section className={styles.item_section}>
-                <Typography variant="h5" className={styles.themeText}>
-                  <Box component="span" fontWeight="fontWeightBold">
-                    New notices
-                  </Box>
-                </Typography>
-                <ul className="doclist">
-                  {newNotices.map((item) => (
-                    <li key={item.title}>
-                      <a
-                        href={
-                          validURL(item.link)
-                            ? item.link
-                            : `${nextConfig.env?.DOCUMENT}/${item.link}`
-                        }
-                        className={styles.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <div className={styles.item}>
-                          <Typography>
-                            {item.date && (
-                              <Typography variant="caption" color="textSecondary" gutterBottom>
-                                Posted on: {item.date}
-                              </Typography>
-                            )}
-                            <br />
-                            <Box className={styles.themeText} component="span">
-                              {item.title}
-                            </Box>
-                            <br />
-                            <Box component="span">{item.text}</Box>
-                          </Typography>
-                        </div>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-
-              {/* Old Notices */}
-              <br>
-              </br>
+              <NoticeSection title="Achievements" notices={newNotices} />
               <br></br>
-              <section className={styles.item_section}>
-                <Typography variant="h5" className={styles.themeText}>
-                  <Box component="span" fontWeight="fontWeightBold">
-                    Old notices
-                  </Box>
-                </Typography>
-                <ul className="doclist">
-                  {oldNotices.map((item) => (
-                    <li key={item.title}>
-                      <a
-                        href={
-                          validURL(item.link)
-                            ? item.link
-                            : `${nextConfig.env?.DOCUMENT}/${item.link}`
-                        }
-                        className={styles.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <div className={styles.item}>
-                          <Typography>
-                            {item.date && (
-                              <Typography variant="caption" color="textSecondary" gutterBottom>
-                                Posted on: {item.date}
-                              </Typography>
-                            )}
-                            <br />
-                            <Box className={styles.themeText} component="span">
-                              {item.title}
-                            </Box>
-                            <br />
-                            <Box component="span">{item.text}</Box>
-                          </Typography>
-                        </div>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
+              <NoticeSection title="Old Achievements" notices={oldNotices} />
+
             </>
           )}
         </Grid>

@@ -6,7 +6,8 @@ import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import styles from "../notices/notices.module.css";
 import nextConfig from "../../../next.config";
-import { validURL } from "../achievements/validator";
+import { validURL } from "../../types/validator";
+import NoticeSection from "@/components/NoticeSection/NoticeSection";
 interface Item {
   title: string;
   link: string;
@@ -30,8 +31,6 @@ const Tenders = () => {
         if (!response.ok) throw new Error("Failed to fetch tenders data");
 
         const data = await response.json();
-        console.info(data);
-
         const d: Item[] = data.data;
         const latest = d
           .filter((x) => x.isNew)
@@ -70,90 +69,9 @@ const Tenders = () => {
 
           {!loading && !error && (
             <>
-              {/* New Notices */}
-              <section className={styles.item_section}>
-                <Typography variant="h5" className={styles.themeText}>
-                  <Box component="span" fontWeight="fontWeightBold">
-                    Open Tender Notices
-                  </Box>
-                </Typography>
-                <ul className="doclist">
-                  {newNotices.map((item) => (
-                    <li key={item.title}>
-                      <a
-                        href={
-                          validURL(item.link)
-                            ? item.link
-                            : `${nextConfig.env?.DOCUMENT}/${item.link}`
-                        }
-                        className={styles.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <div className={styles.item}>
-                          <Typography>
-                            {item.date && (
-                              <Typography variant="caption" color="textSecondary" gutterBottom>
-                                Posted on: {item.date}
-                              </Typography>
-                            )}
-                            <br />
-                            <Box className={styles.themeText} component="span">
-                              {item.title}
-                            </Box>
-                            <br />
-                            <Box component="span">{item.text}</Box>
-                          </Typography>
-                        </div>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-
-              {/* Old Notices */}
-              <br>
-              </br>
-              <br></br>
-              <section className={styles.item_section}>
-                <Typography variant="h5" className={styles.themeText}>
-                  <Box component="span" fontWeight="fontWeightBold">
-                    Closed Tenders Notices
-                  </Box>
-                </Typography>
-                <ul className="doclist">
-                  {oldNotices.map((item) => (
-                    <li key={item.title}>
-                      <a
-                        href={
-                          validURL(item.link)
-                            ? item.link
-                            : `${nextConfig.env?.DOCUMENT}/${item.link}`
-                        }
-                        className={styles.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <div className={styles.item}>
-                          <Typography>
-                            {item.date && (
-                              <Typography variant="caption" color="textSecondary" gutterBottom>
-                                Posted on: {item.date}
-                              </Typography>
-                            )}
-                            <br />
-                            <Box className={styles.themeText} component="span">
-                              {item.title}
-                            </Box>
-                            <br />
-                            <Box component="span">{item.text}</Box>
-                          </Typography>
-                        </div>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
+            <NoticeSection title="Open Tenders" notices={newNotices}/>
+            <br/>
+            <NoticeSection title="Close Tenders" notices={oldNotices}/>
             </>
           )}
         </Grid>

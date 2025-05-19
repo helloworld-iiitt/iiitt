@@ -23,26 +23,49 @@
   color: blueviolet;
 }
 
-.margin1 {
-  margin: 1.5rem 0 0.5rem 0;
-}
-
 .hr {
   margin: 2rem 0;
   border: none;
   border-top: 1px solid #ccc;
 }
 
-.bulletList {
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
+.tableContainer {
+  margin-top: 16px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
-.bulletList li {
-  margin-bottom: 0.5rem;
+.tableHeadRow {
+  background-color: #2e8b57;
+  color: white;
 }
 
-/* ✅ Responsive Styles */
+.tableHeadCell {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #1f5a3a;
+  padding: 12px 16px;
+  text-align: left;
+}
+.firstColumn {
+  border-right: 1px solid #ccc;
+}
+.tableBodyCell {
+  padding: 12px 16px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
 @media (max-width: 768px) {
   .themeText {
     font-size: 1.5rem !important;

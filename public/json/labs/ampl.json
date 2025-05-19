@@ -1,0 +1,97 @@
+{
+    "data": {
+      "name": "Advanced Manufacturing & Processing Lab",
+      "about": "",
+      "equipment": ["3D PRINTER (METAL FUSED FILAMENT FABRICATION SETUP)","BOX FURNACE (MAX TEMP. 1600 DEG C)","MELTING FURNACE","OPTICAL MICROSCOPE","DRILLING MACHINE","METAL CUTTING MACHINE"],
+      "faculty_incharge": {
+        "name": "Dr. VELMURUGAN C",
+        "designation": "Assistant Professor,H.O.D Mechanical Engineering",
+        "src": "/faculty/VELMURUGANC.jpg"
+      },
+      "phdStudents":[
+        {
+          "name": "Mr AKILAN I",
+          "designation": "PhD Scholar",
+          "src": "https://lh5.googleusercontent.com/YWOkCVV2bri9oy_jYr5zoMaNET5e4qVcQ00V7kIVozT3HjhvoUMEHE1XJJAvF9ybve6rR2NN0OocalV4UWZw9pqgTLTTV-x_kecJSt3Ct-kg1qiSQUamx4IJl_4DmX2_xw=w1280"
+        },
+        {
+          "name": "Mr. ARAVINDH RAJ B.R.",
+          "designation": "PhD Scholar",
+          "src": "https://lh5.googleusercontent.com/MFr1PeojfLed0_svu4PU7G83pVEDfUT6UWx4vVaNmukeXOnAG6Se7TKtEXnyy1jU24zYjYEODYKSwONgeeRshL6s7ob3cyaDu388bsVJPVKJvNm01A4BKui_Ka2kFrmGgw=w1280"
+        },
+        {
+          "name": "Mr. VIJAYA KUMAR P",
+          "designation": "PhD Scholar",
+          "src": "https://lh5.googleusercontent.com/g0MumddpuoZq9AZxSoQd9cadsI4IfitZMfB6WqNHbO7wH27yPx_HdJY91yd2q4gNq-VoD_ji6F9U47RDfU8QY7J8sMuiSowyH7EYhqruhfbpifXLBU7NpwkGOEgpHYHRtQ=w1280"
+        },
+        {
+          "name": "Mr. FRANKLIN",
+          "designation": "PhD Scholar",
+          "src": "https://lh5.googleusercontent.com/L4DwqsOeThEr24PKds3zPzzZzjCGDKkmPtURHpa7JUtgh1mo9ofjbu-_IdW0QDudRBp5hGAk7cz5K4WSQdznxxxmTQf8-bF1ZPqVQBXT2vV0kk-uI_CKv57gnlCeznVvbw=w1280"
+        }
+      ],
+      "research_areas": ["Additive Manufacturing","Smart Materials & Shape Memory Alloys","Energy Storage Materials & Devices"],
+      "projects": [
+
+      ],
+      "publications":{
+        "2025": [
+          "Vijaya Kumar & Velmurugan (2025). '3D printing of asymmetric buttress plate for tibial plateau fracture'. Multidiscipline Modeling in Materials and Structures."
+        ],
+        "2024": [
+          "Velmurugan et al. (2024). 'Multi-stage transformation in Ni40Ti50Cu10 SMA for biomedical use'. Materials Letters, 354, 135428.",
+          "Akilan & Velmurugan (2024). 'PLA/graphite-based anode material for Li-ion battery'. Sādhanā, 49(2), 102.",
+          "Vijayakumar & Velmurugan (2024). 'Heat treatment on 316L stainless steel fabricated via MF3'. J. of Materials Engineering and Performance, 1–10.",
+          "Velmurugan & Vijayakumar (2024). 'Heat treatment impact on microstructure of MF3 316L steel'. Materials Letters, 136887.",
+          "Akilan & Velmurugan (2024). '3D modeling of Li-ion battery with semi-solid PLA-graphite electrodes'. Journal of Solid State Electrochemistry, 1–13.",
+          "Mahalingam et al. (2024). 'Thermal response of porous stainless steel with CNTs'. Applied Thermal Engineering, 124061.",
+          "Kumar & Velmurugan (2024). 'Mechanical properties of MF3 SS316L'. Emerging Materials Research, 1–25."
+        ],
+        "2023": [
+          "Balaji et al. (2023). 'Mechanical properties of FDM Nylon Carbon parts using ANN'. Surface Review and Letters, 30(5), 2350028.",
+          "Perumal et al. (2023). 'Hybrid fillers effect on GFRP composites'. J. of Mechanical Behavior of Biomedical Materials, 146, 106095."
+        ],
+        "2022": [
+          "Ramakrishnan et al. (2022). 'Microstructural characterization of machined Ti-6Al-4V via AWJM'. Sadhana, 47, 1–12.",
+          "Velmurugan & Vijayakumar (2022). 'Thermal analysis of MF3 debinding process'. Advances in Materials and Processing Technologies, 1–11."
+        ],
+        "2021": [
+          "Velmurugan et al. (2021). 'Sintering temperature effects on NiTiCu SMA grain growth'. Materials Today: Proceedings, 39, 1570–1574.",
+          "Velmurugan et al. (2021). 'Sintering temperature impact on dihedral angle of NiTiCu SMA'. Materials Today: Proceedings, 43, 520–523.",
+          "Kesavan et al. (2021). 'WEDM parameters and surface integrity of NiTi SMA'. Materials Today: Proceedings, 43, 183–190.",
+          "Vijayakumar et al. (2021). 'SiC effect on FGM mechanical and microstructural characteristics'. Silicon, 1–6.",
+          "Velmurugan & Senthilkumar (2021). 'Superelasticity of NiTi SMA via nanoindentation'. Surface Review and Letters, 28(05), 2150024."
+        ],
+        "2019": [
+          "Velmurugan et al. (2019). 'Microstructure and corrosion behavior of NiTi SMA sintered via SPS'. Int. J. of Minerals, Metallurgy, and Materials, 26(10), 1311–1321.",
+          "Arunkumar et al. (2019). 'Thermal aging effects on NiTi SMA'. Materials Research Express, 6(10)."
+        ],
+        "2018": [
+          "Velmurugan et al. (2018). 'Machining of NiTi-shape memory alloys - A review'. Machining Science and Technology, 22(3), 355–401.",
+          "Velmurugan & Senthilkumar (2018). 'Effect of Cu addition on characteristics of nanocrystalline NiTi SMAs'. Journal of Alloys and Compounds, 767, 944–954.",
+          "Velmurugan et al. (2018). 'Densification and microstructure of spark plasma sintered NiTi SMA'. Advanced Powder Technology, 29(10), 2456–2462.",
+          "Velmurugan & Senthilkumar (2018). 'Optimization of SPS parameters for NiTiCu SMAs'. Materials and Manufacturing Processes, 1–10.",
+          "Velmurugan et al. (2018). 'ANN prediction of WEDM properties on sintered porous NiTi SMA'. Materials Today: Proceedings, 5(2), 8382–8390.",
+          "Velmurugan et al. (2018). 'Review on phase transformation behavior of NiTi SMAs'. Materials Today: Proceedings, 5(6), 14597–14606.",
+          "Arulkirubakaran et al. (2018). 'Textured tool effect on machining Ti-6Al-4V alloy'. Materials Today: Proceedings, 5(6), 14230–14236.",
+          "Arunkumar et al. (2018). 'Microstructures and mechanical properties of nano-crystalline NiTi intermetallics'. Int. J. of Minerals, Metallurgy and Materials, 25(1), 80–87."
+        ],
+        "2016": [
+          "Velmurugan et al. (2016). 'Low temperature diffusion bonding of Ti-6Al-4V and duplex stainless steel'. Journal of Material Processing Technology, 234, 272–279."
+        ]
+        },
+
+        "books_published": [
+          "Senthilkumar, V., Velmurugan, C., Balasubramanian, K. R., & Kumaran, M. (2020). Additive manufacturing of multi-material and composite parts. In Additive Manufacturing Applications for Metals and Composites (pp. 127-146). IGI Global.",
+          "Senthilkumar, V., & Velmurugan, C. (2019). Spark Plasma Sintering of NiTi Shape Memory Alloy. In Spark Plasma Sintering of Materials (pp. 635-670). Springer, Cham.",
+          "Vijaya Kumar, P., & Velmurugan, C. (2022). Surface Treatments and Surface Modification Techniques for 3D Built Materials. In Innovations in Additive Manufacturing (pp. 189-220). Springer, Cham.",
+          "Akilan, I., & Velmurugan, C. (2022). Mechanical Testing of Additive Manufacturing Materials. In Innovations in Additive Manufacturing (pp. 239-277). Springer, Cham.",
+          "Beer Mohamed, S., Kaviarasu, C., Daniel Willson, A., Velmurugan, C., Jayaganthan, R., & Kaviyarasu, K. (2022). Metal Additive Manufacturing: Materials, Methods, Microstructure Evolution and Mechanical Properties via Post-processing Heat Treatments. In Nanomaterials for Energy Conversion, Biomedical and Environmental Applications (pp. 167-216). Springer, Singapore."
+        ],
+      "contact": {
+        "email": "velmuruganc@iiitt.ac.in",
+        "phone": "+91-9943022961"
+      }
+    }
+  }
+  

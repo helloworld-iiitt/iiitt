@@ -42,7 +42,9 @@
         },
         {
           "text": "ICC",
-          "link": "https://iiitt.ac.in/downloads/Revised%20Office%20Order%20-%20ICC%20-%2017.02.2025.pdf"
+          "link": "/icc",
+          "link_bkp": "https://iiitt.ac.in/downloads/Revised%20Office%20Order%20-%20ICC%20-%2017.02.2025.pdf"
+
         },
         {
           "text": "Industry Partners",
@@ -194,10 +196,22 @@
       "link": "/scholarship"
     },
     {
-      "text": "C2S Project",
+      "text": "Research Labs",
       "icon": "code",
-      "name": "C2S Project",
-      "link": "/c2sproject"
+      "submenu": [
+        {
+          "text": "C2S Project",
+          "link": "/c2sproject"
+        },
+        {
+          "text": "CMP Lab",
+          "link": "/cmp"
+        }
+        ,       {
+          "text": "Advanced Manufacturing and Processing Lab",
+          "link": "/ampl"
+        }
+      ]
     },
     {
       "text": "placements",

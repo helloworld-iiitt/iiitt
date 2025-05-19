@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styles from "./ClubCard.module.css";
-
+import Image from "next/image";
 interface ClubCardProps {
   club: {
     name: string;
     motto: string;
     facultyIncharge: string;
     coordinator: { name: string }[];
+    logo?:string;
   };
 }
 
@@ -22,7 +23,17 @@ const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
   return (
     <div className={styles.parent}>
       <div className={styles.imageWrapper}>
-        <div className={styles.imagecontainer}></div>
+      <div className={styles.imagecontainer}>
+  {club.logo && (
+    <Image
+      src={club.logo}
+      alt={`${club.name} logo`}
+      width={120}
+      height={120}
+      className={styles.logo}
+    />
+  )}
+</div>
       </div>
       <div className={styles.clubName}>{club.name}</div>
 

@@ -1,0 +1,54 @@
+{
+    "programs": [
+        "Computer Science and Engineering (4 years, Bachelor of Technology)",
+        "Computer Science and Engineering (Artificial Intelligence and Data Science )(4 Years, Bachelor of Technology)",
+        "Electronics and Communication Engineering (4 years, Bachelor of Technology)",
+        "Electronics and Communication Engineering (VLSI Design) (4 Years, Bachelor of Technology)"
+    ],
+    "feeStructures": [
+        {
+            "name": "Fee Structure 2025",
+            "path": "/admission/1. B.Tech Fee structure 2025.pdf"
+        },
+        {
+            "name": "Refund Fee Structure 2025",
+            "path": "/admission/2. Fee Refund Structure 2025-2026.pdf"
+        }
+    ],
+    "forms": [
+        {
+            "name": "Undertaking form",
+            "path": "/admission/undertaking_2021-22.pdf"
+        },
+        {
+            "name": "Admission Cancellation Form",
+            "path": "/admission/Admission_cancellation_form2021-22.pdf"
+        }
+    ],
+    "openingRanks": [
+        {
+            "year": "2024",
+            "path": "/admission/Opening_and_Closing_Rank 2025.pdf"
+        },
+        {
+            "year": "2023",
+            "path": "/admission/Opening_and_Closing_Rank2023.pdf"
+        },
+        {
+            "year": "2022",
+            "path": "/admission/Opening_and_Closing_Rank2022.pdf"
+        },
+        {
+            "year": "2021",
+            "path": "/admission/Opening_and_Closing_Rank2021.pdf"
+        },
+        {
+            "year": "2020",
+            "path": "/admission/Opening_and_Closing_Rank2020.pdf"
+        },
+        {
+            "year": "2019",
+            "path": "/admission/OpeningandClosingRank2020-21.pdf"
+        }
+    ]
+}

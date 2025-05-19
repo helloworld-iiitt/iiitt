@@ -20,7 +20,7 @@ const Departments: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    fetch("/json/general/departments.json")
+    fetch("/json/departments/departments.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch departments data");
@@ -91,7 +91,7 @@ const Departments: React.FC = () => {
                   </Box>
                   <Box mt={2} textAlign="right">
                     <a
-                      href={dept.url}
+                      href={`/departments/${dept.url}`}
                       style={{
                         color: "#1a5d3a",
                         fontWeight: "bold",

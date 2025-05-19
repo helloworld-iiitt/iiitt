@@ -1,12 +1,13 @@
 {
     "data": [
         {
-            "title": "Ph.D. Viva-Voce Notification - Mr.Vijaya Kumar P (Dept ME)",
-            "description": "Ph.D. Viva-Voce Notification - Mr.Vijaya Kumar P (Dept. ME)",
-            "link": "notices/PhD Viva Notification_Vijaya Kumar P_2243126_Mech.pdf",
+            "title": "Ph.D_CT 2 Even semester 2024-25 Time table",
+            "description": "Ph.D_CT 2 Even semester 2024-25 Time table",
+            "link": "notices/Ph.D_CT 2 Even semester 2024-25 Time table.pdf",
             "isNew": true,
-            "date": "25/04/2025"
+            "date": "01/05/2025"
         },
+
         {
             "title": "B.Tech supplementary examination schedule April 2024",
             "description": "B.Tech supplementary examination schedule April 2024",
@@ -50,17 +51,24 @@
             "date": "30/04/2025"
         },
         {
+            "title": "Ph.D. Viva-Voce Notification - Mr.Vijaya Kumar P (Dept ME)",
+            "description": "Ph.D. Viva-Voce Notification - Mr.Vijaya Kumar P (Dept. ME)",
+            "link": "notices/PhD Viva Notification_Vijaya Kumar P_2243126_Mech.pdf",
+            "isNew": false,
+            "date": "25/04/2025"
+        },
+        {
             "title": "Circular and registration form for Supple Exam- Even sem April 2025",
             "description": "Circular and registration form for Supple Exam- Even sem April 2025",
             "link": "notices/Circular and registration form for Supple Exam- Even sem April 2025.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {
             "title": "Ph.D. Viva-Voce Notification - Mr. Santosh Thota (Maths_S&H)",
             "description": "Ph.D. Viva-Voce Notification -Mr. Santosh Thota (Maths_S&H)",
             "link": "notices/PhD Viva Notification_ (R.No. 211325 Santhosh T Maths_ S&H)_April2025.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "17/04/2025"
         },
         {

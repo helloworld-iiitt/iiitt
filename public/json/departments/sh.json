@@ -5,7 +5,7 @@
     "message_from_hod": {
       "name": "Dr. Kamakshi K",
       "designation": "Assistant Professor , Head of the Department",
-      "message": "Welcome to the Department of Electronics and Communication Engineering. Our department strives to empower students with the knowledge, skills, and confidence to excel in a dynamic and fast-evolving tech world. We promote research and industry partnerships to ensure our students are future-ready."
+      "message": "Welcome to the Department of Science and Humanities. Our department strives to empower students with the knowledge, skills, and confidence to excel in a dynamic and fast-evolving tech world. We promote research and industry partnerships to ensure our students are future-ready."
     },
     "faculty_members": [
       {
@@ -23,59 +23,25 @@
     ],
     "research_areas": [
       "Computational Fluid Dynamics",
-      "Incharge: Liaison Officer of OBC",
-      "ARC",
-      "ICC Member",
       "Photonics and Optoelectronic Devices",
       "Applied Linguistics",
       "English Language Teaching"
     ],
     "research_scholars": [
       {
-        "name": "Ms. Nisha R",
-        "topic": "AI in Healthcare"
+        "name": "Angitha S",
+        "topic": ""
       },
       {
-        "name": "Mr. Aravind P",
-        "topic": "Cybersecurity Protocols for IoT"
-      },
-      {
-        "name": "Ms. Keerthi S",
-        "topic": "NLP Applications in Education"
-      },
-      {
-        "name": "Mr. Daniel K",
-        "topic": "Big Data Optimization Algorithms"
+        "name": "Bhakyalatha M",
+        "topic": ""
       }
     ],
-    "announcements": [
-      {
-        "title": "Workshop on Data Science",
-        "date": "28/04/2025"
-      },
-      {
-        "title": "Guest Lecture on AI Ethics",
-        "date": "10/05/2025"
-      },
-      {
-        "title": "Internship Opportunity @ TCS – Apply by May 5",
-        "date": "05/05/2025"
-      }
-    ],
-    "latest_news": [
-      {
-        "title": "CSE team won 1st prize at HackTech 2025"
-      },
-      {
-        "title": "4 new research papers published in IEEE journals"
-      },
-      {
-        "title": "MoU signed with Infosys for student training"
-      }
-    ],
+    "announcements": [],
+    "latest_news": [],
     "contact": {
       "department": "Department of Science and Humanities",
-     "college": "Indian Institute of Information Technology",
+      "college": "Indian Institute of Information Technology",
       "location": "Tiruchirappalli, TamilNadu - 620012"
     }
   }

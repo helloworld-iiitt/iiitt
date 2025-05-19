@@ -1,23 +1,47 @@
 "use client";
-
-import React from "react";
-import styles from "./ug.module.css";
+import { numberToWords } from "@/types/numbertoWords";
+import { validURL } from "@/types/validator";
 import {
-  Typography,
   Box,
+  List, ListItem,
+  ListItemText,
   Table,
   TableBody,
   TableCell,
   TableContainer,
   TableHead,
   TableRow,
+  Typography
 } from "@mui/material";
+import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
-const AdmissionUG = () => {
+import styles from "./ug.module.css";
+const AdmissionUG: React.FC = () => {
+  const [admissionData, setAdmissionData] = useState<any>(null);
+
+  useEffect(() => {
+    fetch('/json/admission/ug.json')
+      .then((response) => response.json())
+      .then((data) => setAdmissionData(data))
+      .catch((error) => console.error("Error loading admission data:", error));
+  }, []);
+
+  if (!admissionData) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className={`${styles.container} content`}>
-      {/* Centered First Title */}
       <Box mb={2} display="flex" justifyContent="center">
+        <Typography
+          variant="h3"
+          sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
+          className={styles.themeText}
+        >
+          <strong>B.Tech Admission 2025</strong>
+        </Typography>
+      </Box>
+      <Box mb={2}>
         <Typography
           variant="h4"
           sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
@@ -27,29 +51,29 @@ const AdmissionUG = () => {
         </Typography>
       </Box>
 
-      {/* Text with Bullet List */}
-      <Box my={2} mt={6} sx={{pl:{xs:2,sm:6}}}>
+      <Box my={2} mt={6} sx={{ pl: { xs: 2, sm: 6 } }}>
         <Typography variant="body1">
-          IIIT Tiruchirappalli offers the following two{" "}
+          IIIT Tiruchirappalli offers the following {numberToWords(admissionData.programs.length)}&nbsp;
           <strong>Undergraduate Programs</strong>:
         </Typography>
-        <ul className={styles.bulletList}>
-          <li>
-            <strong>
-              Computer Science and Engineering (4 years, Bachelor of Technology)
-            </strong>
-          </li>
-          <li>
-            <strong>
-              Electronics and Communication Engineering (4 years, Bachelor of
-              Technology)
-            </strong>
-          </li>
-        </ul>
+
       </Box>
+      <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
+        <List sx={{ listStyleType: 'disc', pl: 2 }}>
+          {admissionData.programs.map((program: string, index: number) => (
+            <ListItem
+              key={index}
+              sx={{ display: 'list-item', listStyleType: 'disc', pl: 2 }}
+              disableGutters
+            >
+              <ListItemText primary={program} />
+            </ListItem>
+          ))}
+        </List>
+      </Box>
+
       <hr className={styles.hr} />
 
-      {/* Other Titles - Centered Titles */}
       <Box mb={2}>
         <Typography
           variant="h4"
@@ -60,42 +84,40 @@ const AdmissionUG = () => {
           <strong>Fee Structure</strong>
         </Typography>
       </Box>
+      <Box>
+        <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
+          <List sx={{ listStyleType: 'disc', pl: 2 }}>
+            {admissionData.feeStructures.map((feeStructure: { name: string; path: string }, index: number) => (
+              <ListItem
+                key={index}
+                sx={{ display: 'list-item', py: 0 }}
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={validURL(feeStructure.path) ? feeStructure.path : `${nextConfig?.env?.DOCUMENT}${feeStructure.path}`}
+                  className={styles.link}
+                >
+                  {feeStructure.name}
+                </a>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
 
-      <Box my={2} sx={{pl:{xs:2,sm:6}}}>
-        <ul>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/BTech_Fee_structure_2024.pdf`}
-            >
-              Fee Structure 2024
-            </a>
-          </li>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/BTech_RefundFee_structure_2024.pdf`}
-            >
-              Refund Fee Structure 2024
-            </a>
-          </li>
-        </ul>
       </Box>
       <hr className={styles.hr} />
 
-      {/* Additional Titles */}
       <Box mb={2}>
         <a
-        className={styles.link} href="/curriculum">
+          className={styles.link} href="/curriculum">
           <Typography
             variant="h4"
             sx={{
               color: "#2e8b57",
               pl: { xs: 2, sm: 6 },
               pr: { xs: 2, sm: 6 },
-            }} // Adjusting padding for the title
+            }}
             className={styles.themeText}
             gutterBottom
           >
@@ -116,31 +138,34 @@ const AdmissionUG = () => {
         </Typography>
       </Box>
 
-      <Box my={2} sx={{pl:{xs:2,sm:6}}}>
-        <ul>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/undertaking_2021-22.pdf`}
-            >
-              Undertaking form
-            </a>
-          </li>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/Admission_cancellation_form2021-22.pdf`}
-            >
-              Admission Cancellation Form
-            </a>
-          </li>
-        </ul>
+      <Box>
+
+        <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
+          <List sx={{ listStyleType: 'disc', pl: 2 }}>
+            {admissionData.forms.map((forms: { name: string; path: string }, index: number) => (
+              <ListItem
+                key={index}
+                sx={{ display: 'list-item', py: 0 }}
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={validURL(forms.path) ? forms.path : `${nextConfig?.env?.DOCUMENT}${forms.path}`}
+                  className={styles.link}
+                >
+                  {forms.name}
+                </a>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+
+
+        <br />
       </Box>
       <hr className={styles.hr} />
 
-      {/* More Sections */}
+
       <Box mb={2}>
         <Typography
           variant="h4"
@@ -152,55 +177,28 @@ const AdmissionUG = () => {
         </Typography>
       </Box>
 
-      <Box my={2} sx={{pl:{xs:2,sm:6}}}>
-        <ul>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/Opening_and_Closing_Rank2023.pdf`}
+
+      <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
+        <List sx={{ listStyleType: 'disc', pl: 2 }}>
+          {admissionData.openingRanks.map((rank: { year: string; path: string }, index: number) => (
+            <ListItem
+              key={index}
+              sx={{ display: 'list-item', py: 0 }}
             >
-              Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2023
-            </a>
-          </li>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/Opening_and_Closing_Rank2022.pdf`}
-            >
-              Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2022
-            </a>
-          </li>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/Opening_and_Closing_Rank2021.pdf`}
-            >
-              Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2021
-            </a>
-          </li>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/Opening_and_Closing_Rank2020.pdf`}
-            >
-              Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2020
-            </a>
-          </li>
-          <li>
-            <a
-            className={styles.link}
-              target="_blank"
-              href={`${nextConfig?.env?.DOCUMENT}/admission/OpeningandClosingRank2020-21.pdf`}
-            >
-              Opening/Closing Rank of IIIT Tiruchirappalli, JoSAA 2019
-            </a>
-          </li>
-        </ul>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={validURL(rank.path) ? rank.path : `${nextConfig?.env?.DOCUMENT}${rank.path}`}
+                className={styles.link}
+              >
+                {`Opening & Closing Rank ${rank.year}`}
+              </a>
+            </ListItem>
+          ))}
+        </List>
       </Box>
+
+
       <hr className={styles.hr} />
 
       {/* Additional Sections */}
@@ -215,7 +213,7 @@ const AdmissionUG = () => {
         </Typography>
       </Box>
 
-      <Box my={2} component="span" sx={{pl:{xs:2,sm:6}}}>
+      <Box my={2} component="span" sx={{ pl: { xs: 2, sm: 6 } }}>
         <Typography
           variant="body1"
           sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
@@ -233,7 +231,7 @@ const AdmissionUG = () => {
           sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
         >
           <a
-          className={styles.link} target="_blank" href="http://jeemain.nta.nic.in">
+            className={styles.link} target="_blank" href="http://jeemain.nta.nic.in">
             Visit website of JEE Main.
           </a>
         </Typography>
@@ -243,7 +241,7 @@ const AdmissionUG = () => {
       <Box mb={2}>
         <Typography
           variant="h4"
-          sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }} // Padding for the title
+          sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
           className={styles.themeText}
           gutterBottom
         >
@@ -251,10 +249,10 @@ const AdmissionUG = () => {
         </Typography>
       </Box>
 
-      <Box my={2} component="span" sx={{pl:{xs:2,sm:6}}}>
+      <Box my={2} component="span" sx={{ pl: { xs: 2, sm: 6 } }}>
         <Typography
           variant="body1"
-          sx={{pl:{xs:2,sm:6}}}
+          sx={{ pl: { xs: 2, sm: 6 } }}
         >
           The Joint Seat Allocation Authority (JoSAA) 2022 has been set up by
           the Ministry of Education [erstwhile Ministry of Human Resources
@@ -266,34 +264,48 @@ const AdmissionUG = () => {
           through a single platform.
         </Typography>
         <Box my={2} component="span">
-          <TableContainer sx={{ width: "90%", margin: "auto", mt: 2 }}>
-            <Table>
+          <TableContainer className={styles.tableContainer}>
+            <Table className={styles.table}>
               <TableHead>
-                <TableRow>
-                  <TableCell>
-                    <strong>Qualifying Examination</strong>
+                <TableRow className={styles.tableHeadRow}>
+                <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
+                    Qualifying Examination
                   </TableCell>
-                  <TableCell>
-                    <strong>Admitting Institutes</strong>
+                  <TableCell className={styles.tableHeadCell}>
+                    Admitting Institutes
                   </TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
-                <TableRow>
-                  <TableCell>JEE (Advanced) 2024</TableCell>
-                  <TableCell>IITs</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>JEE (Main) 2024 B.E./B.Tech.</TableCell>
-                  <TableCell rowSpan={3}>
-                    NITs, IIEST, IIITs (Triple-I-Ts) and Other-GFTIs
+                <TableRow className={styles.tableBodyRow}>
+                <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
+                    JEE (Advanced) 2024
+                  </TableCell>
+                  <TableCell className={styles.tableBodyCell}>
+                    IITs
                   </TableCell>
                 </TableRow>
-                <TableRow>
-                  <TableCell>JEE (Main) 2024 B.Arch.</TableCell>
+                <TableRow className={styles.tableBodyRow}>
+                <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
+                    JEE (Main) 2024 B.E./B.Tech.
+                  </TableCell>
+                  <TableCell
+                    className={styles.tableBodyCell}
+                    rowSpan={3}
+                    style={{ verticalAlign: 'middle' }}
+                  >
+                    NITs, IIEST, IIITs, Other-GFTIs
+                  </TableCell>
                 </TableRow>
-                <TableRow>
-                  <TableCell>JEE (Main) 2024 B.Planning</TableCell>
+                <TableRow className={styles.tableBodyRow}>
+                <TableCell className={`${styles.tableBodyCell} ${styles.firstColumn}`}>
+                    JEE (Main) 2024 B.Arch.
+                  </TableCell>
+                </TableRow>
+                <TableRow className={styles.tableBodyRow}>
+                <TableCell className={`${styles.tableBodyCell} ${styles.firstColumn}`}>
+                    JEE (Main) 2024 B.Planning
+                  </TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -304,7 +316,7 @@ const AdmissionUG = () => {
           sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 }, mt: { xs: 6 } }}
         >
           <a
-          className={styles.link} target="_blank" href="http://josaa.nic.in/">
+            className={styles.link} target="_blank" href="http://josaa.nic.in/">
             Visit website of JoSAA.
           </a>
         </Typography>
@@ -313,7 +325,7 @@ const AdmissionUG = () => {
           sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
         >
           <a
-          className={styles.link}
+            className={styles.link}
             target="_blank"
             href="http://josaa.nic.in/SeatInfo/root/InstProfile.aspx?instcd=314"
           >
@@ -323,10 +335,10 @@ const AdmissionUG = () => {
       </Box>
       <hr className={styles.hr} />
 
-      <Box mb={2} sx={{pl:{xs:2,sm:6}}}>
+      <Box mb={2} sx={{ pl: { xs: 2, sm: 6 } }}>
         <Typography
           variant="h4"
-          sx={{ color: "#2e8b57"}} // Padding for the title
+          sx={{ color: "#2e8b57" }}
           className={styles.themeText}
           gutterBottom
         >
@@ -337,7 +349,7 @@ const AdmissionUG = () => {
       <Box my={2} component="span">
         <Typography
           variant="body1"
-          sx={{pl:{xs:2,sm:6}}}
+          sx={{ pl: { xs: 2, sm: 6 } }}
         >
           The Ministry of Human Resource Development, Government of India took a
           policy decision in 2002 to conduct an All India Engineering Entrance
@@ -360,11 +372,11 @@ const AdmissionUG = () => {
         </Typography>
         <Typography
           variant="body1"
-          sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 },mb:{xs:4 ,sm:6} }}
+          sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 }, mb: { xs: 4, sm: 6 } }}
         >
           For Further Details, Please visit:{" "}
           <a
-          className={styles.link} target="_blank" href="https://csab.nic.in/">
+            className={styles.link} target="_blank" href="https://csab.nic.in/">
             https://csab.nic.in/
           </a>
         </Typography>
@@ -374,3 +386,6 @@ const AdmissionUG = () => {
 };
 
 export default AdmissionUG;
+
+
+

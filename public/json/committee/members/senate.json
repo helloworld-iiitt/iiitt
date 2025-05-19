@@ -68,27 +68,33 @@
       },
       {
         "s_no": 12,
-        "name": "Dr. R. Dhanalakshmi",
+        "name": "Dr. G. Devasena",
         "designation": "Head, Department of CSE, IIIT Tiruchirappalli",
         "senate": "Member"
       },
       {
         "s_no": 13,
+        "name": "Dr. M. Senthil Sivakumar",
+        "designation": "Head, Department of ECE, IIIT Tiruchirappalli",
+        "senate": "Member"
+      },
+      {
+        "s_no": 14,
         "name": "Dr. Kamakshi K",
         "designation": "Head, Department of S&H, IIIT Tiruchirappalli",
         "senate": "Member"
       },
       {
-        "s_no": 14,
+        "s_no": 15,
         "name": "Dr. Velmurugan. C",
         "designation": "Head, Department of Mechanical Engineering, IIIT Tiruchirappalli",
         "senate": "Member"
       },
       {
-        "s_no": 15,
+        "s_no": 16,
         "name": "Prof. G. Seetharaman",
         "designation": "Registrar (i/c), IIIT Tiruchirappalli",
-        "senate": "Secretary"
+        "senate": "Secretary(Ex-officio Member)"
       }
     ]
   }

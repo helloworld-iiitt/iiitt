@@ -21,6 +21,7 @@ interface FacultyMember {
   Incharge?: string;
   VidhwanLink?: string;
   Institute?: string;
+  PersonalPage?:string;
 }
 
 const Faculty = () => {
@@ -35,7 +36,6 @@ const Faculty = () => {
         if (!response.ok) throw new Error("Failed to fetch faculty data");
 
         const data = await response.json();
-        console.info(data);
         setFacultyData(data);
       } catch (error) {
         console.error("Error loading JSON data:", error);
@@ -79,6 +79,7 @@ const Faculty = () => {
                         Incharge={member.Incharge}
                         VidhwanLink={member.VidhwanLink}
                         Institute={member.Institute}
+                        PersonalPage={member.PersonalPage}
                       />
                     </div>
                   ))}

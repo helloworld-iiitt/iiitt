@@ -2,6 +2,18 @@
   display: flex;
   flex-wrap: wrap;
 }
+.centered-newshead {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 52px;
+  margin-bottom: 5px;
+  font-size: 1.7vw;
+}
+
 
 .root > * {
   margin: 8px;
@@ -25,15 +37,49 @@
   .newshead {
     font-size: 1vw;
   }
+  .centered-newshead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 5px;
+    font-size: 1.7vw;
+  }
 }
 @media only screen and (min-width: 500px) and (max-width: 800px) {
   .newshead {
     font-size: 6vw;
   }
+  .centered-newshead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 5px;
+    font-size: 5.7vw;
+  }
+
 }
 @media only screen and (max-width: 500px) {
   .newshead {
     font-size: 10vw;
+  }
+  .centered-newshead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 5px;
+    font-size: 10.7vw;
   }
 }
 

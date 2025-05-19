@@ -51,36 +51,58 @@ export default function Scholarship() {
                     color="#2e8b57"
                     sx={{ fontWeight: 300 }}
                 >
-                    Scholarship
+                    Scholarships
                 </Typography>
 
                 <section className={styles.sectionPadding}>
                     <Typography variant="h4" className={styles.themeText} gutterBottom>
-                        <Box component="span" fontWeight="fontWeightBold">
-                            NSP
-                        </Box>
+                        <Box component="span" fontWeight="fontWeightBold">NSP</Box>
                     </Typography>
-                    <Box component="span" fontSize="1.2rem" >
-                        National Scholarship Portal (NSP 2.0) is Inviting applications (Fresh and Renewal) under various schemes for the year 2024-25
-                        <a href="https://scholarships.gov.in/">
-                            <Typography variant="h6">NSP portal</Typography>
+
+                    <Box mb={2}>
+                        <Typography variant="body1" fontSize="1.2rem">
+                            National Scholarship Portal is open for Fresh and Renewal Applications.
+                        </Typography>
+                        </Box>
+                    <ul>
+                        <li>
+                        <a href={`${nextConfig.env?.DOCUMENT}/scholarships/Circular_NSP_2024_25.pdf`} target="_blank" rel="noopener noreferrer">
+                            <Typography variant="h6" color="primary">
+                                Announcement for the NSP Scholarship 2024-2025
+                            </Typography>
                         </a>
-                        <a href={`${nextConfig.env?.DOCUMENT}${"/scholarships/Circular_NSP_2024_25.pdf"}`}>
-                            <Typography variant="h6">Announcement for the NSP Scholarship 2024-2025</Typography>
-                        </a>
-                    </Box>
+                        </li>
+                    <li>
+                    <Typography variant="h6" gutterBottom>
+                        National Scholarship Portal (NSP 2.0) is inviting applications (Fresh and Renewal) under various schemes for the year 2024-25.
+                    </Typography>
+                    </li>
                     <ul>
                         <li className={styles.linear}>
-                            For information (use the link : <a href="https://scholarships.gov.in/All-Scholarships">https://scholarships.gov.in/All-Scholarships</a>)
+                            For information (use the link:&nbsp;<a href="https://scholarships.gov.in/All-Scholarships" target="_blank" rel="noopener noreferrer">
+                                https://scholarships.gov.in/All-Scholarships
+                            </a>)
                         </li>
-                        <br></br>
+                        <br/>
                         <li className={styles.linear}>
-                            To apply on National Scholarship Portal (use the link : <a href="https://scholarships.gov.in/">https://scholarships.gov.in/</a> )
+                            To apply on National Scholarship Portal (use the link:&nbsp;
+                            <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer">
+                                https://scholarships.gov.in/
+                            </a>)
                         </li>
-
+                    </ul>
                     </ul>
                 </section>
                 <Divider />
+                <Box mb={2} my={2}>
+                    <Typography
+                        variant="h4"
+                        sx={{ color: "#2e8b57" }}
+                        className={styles.themeText}
+                    >
+                        <strong>Fellowship for Higher Education</strong>
+                    </Typography>
+                </Box>
                 {fromloading ? (
                     <CircularProgress />
                 ) : forms && forms.length > 0 ? (

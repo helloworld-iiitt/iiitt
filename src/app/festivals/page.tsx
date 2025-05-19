@@ -5,7 +5,7 @@ import { Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
-import { validURL } from "../achievements/validator";
+import { validURL } from "../../types/validator";
 import styles from "./departments.module.css";
 interface Festival {
   name: string;

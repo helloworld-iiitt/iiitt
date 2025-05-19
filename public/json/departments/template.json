@@ -1,0 +1,76 @@
+{
+  "data": {
+    "department": "Computer Science and Engineering",
+    "about": "The Department of Computer Science and Engineering aims to provide strong academic and research foundations to students in computing. The department offers undergraduate, postgraduate, and doctoral programs with a focus on innovation, collaboration, and technical excellence.",
+    "message_from_hod": {
+      "name": "Dr. G. Devasena",
+      "designation": "HoD, CSE",
+      "message": "Welcome to the Department of Computer Science and Engineering. Our department strives to empower students with the knowledge, skills, and confidence to excel in a dynamic and fast-evolving tech world. We promote research and industry partnerships to ensure our students are future-ready."
+    },
+    "faculty_members": [
+      {
+        "name": "Dr. G. Devasena",
+        "designation": "Assistant Professor , Head of the Department"
+      },
+      {
+        "name": "Dr. R. Dhanalakshmi",
+        "designation": "Associate Professor"
+      },
+      {
+        "name": "Dr. N. Renugadevi",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. Anoop Jacob Thomas",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. T. Sugirtha",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. M. Ambika",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. J. Kokila",
+        "designation": "Assistant Professor"
+      }
+    ],
+    "faculty_profiles_link": "View Full Faculty Profiles",
+    "research_areas": [
+      "Artificial Intelligence and Machine Learning",
+      "Cybersecurity and Cryptography",
+      "Internet of Things (IoT)",
+      "Cloud Computing and Big Data Analytics",
+      "Computer Vision and Image Processing",
+      "Software Engineering and Agile Methodologies"
+    ],
+    "research_scholars": [
+      {
+        "name": "Will be updated shortly",
+        "topic": "Will be updated shortly"
+      }
+    ],
+    "lab_facilities": {
+      "description": "Our department has state-of-the-art labs for students and researchers including AI Labs, Networking Labs, and IoT Labs.",
+      "link": "CSE Lab Facilities Page"
+    },
+    "announcements": [
+      {
+        "title": "Will be updated shortly",
+        "date": "28/05/2025"
+      }
+    ],
+    "latest_news": [
+      {
+        "title": "Will be updated shortly"
+      }
+    ],
+    "contact": {
+      "department": "Department of Computer Science Engineering",
+      "college": "Indian Institute of Information Technology",
+      "location": "Tiruchirappalli, TamilNadu - 620012"
+    }
+  }
+}
