@@ -15,7 +15,7 @@ const Holidays: React.FC = () => {
   const [calendar, setCalendar] = useState<Calendar[] | null>(null);
 
   useEffect(() => {
-    document.title = "Holiday";
+    document.title = "Holiday IIITT ";
     return () => {
       document.title = "IIIT Trichy";
     };

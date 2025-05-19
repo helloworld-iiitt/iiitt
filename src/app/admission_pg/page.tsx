@@ -16,6 +16,7 @@ const Admission_pg: React.FC = () => {
     const [admissionData, setAdmissionData] = useState<any>(null);
 
     useEffect(() => {
+        document.title = "P.G Admission | IIITT";
         fetch('/json/admission/pg.json')
             .then((response) => response.json())
             .then((data) => setAdmissionData(data))

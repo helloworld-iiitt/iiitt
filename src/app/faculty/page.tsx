@@ -30,6 +30,7 @@ const Faculty = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    document.title = "Faculty | IIITT ";
     const fetchFacultyData = async () => {
       try {
         const response = await fetch("/json/faculty/faculty.json");

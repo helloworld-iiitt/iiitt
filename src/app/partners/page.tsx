@@ -18,7 +18,7 @@ export default function Partners() {
   const [partners, setPartners] = useState<Partner[]>([]);
 
   useEffect(() => {
-    document.title = "Industry Partners";
+    document.title = "Industry Partners | IIITT";
     return () => {
       document.title = "IIIT Trichy";
     };
@@ -43,15 +43,15 @@ export default function Partners() {
       <Grid container className={styles.container}>
         <Grid size={1} />
         <Grid size={10}>
-          <Typography variant="h2" gutterBottom className={styles.themeText}>
-            <Box component="span" fontWeight={380}>
+          <Typography variant="h2" component="h2" gutterBottom className={styles.themeText}>
+            <Box component="span" fontWeight={400}>
               Industry Partners
             </Box>
           </Typography>
 
           {partners.map((partner, index) => (
             <section key={index} className={styles.sectionPadding}>
-              <Typography gutterBottom className={styles.themeText}>
+              <Typography component="div" gutterBottom className={styles.themeText}>
                 <Box component="h2" fontWeight="fontWeightBold">
                   {partner.name}
                 </Box>

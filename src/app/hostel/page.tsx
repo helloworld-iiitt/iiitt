@@ -67,7 +67,7 @@ export default function Hostel() {
   }, []);
 
   useEffect(() => {
-    document.title = "HOSTEL | IIITT";
+    document.title = "Hostel | IIITT";
     fetchData();
     return () => {
       document.title = "IIIT Trichy";

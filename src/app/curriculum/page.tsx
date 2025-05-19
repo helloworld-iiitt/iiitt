@@ -21,7 +21,7 @@ const Curriculum: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    document.title = "Curriculum";
+    document.title = "Curriculum | IIITT";
     return () => {
       document.title = "IIIT Trichy";
     };

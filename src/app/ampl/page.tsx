@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const cmp = () => {
   useEffect(() => {
-    document.title = "Advanced Manufacturing and Processing Lab";
+    document.title = "Advanced Manufacturing and Processing Lab | IIITT";
     return () => {
       document.title = "IIIT Trichy";
     };

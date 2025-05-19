@@ -20,7 +20,7 @@ export default function RTI() {
   const [rtiList, setRtiList] = useState<RTI[]>([]);
 
   useEffect(() => {
-    document.title = "RTI";
+    document.title = "RTI | IIITT ";
     return () => {
       document.title = "IIIT Trichy";
     };
