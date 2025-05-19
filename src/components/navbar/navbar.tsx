@@ -37,6 +37,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import { styled } from "@mui/material/styles";
 import Image from "next/image";
+import NextLink from "next/link";
 import nextConfig from "../../../next.config";
 
 // Define types for navbar items
@@ -201,9 +202,10 @@ const DropdownMenu: React.FC<{ menu: NavItem }> = ({ menu }) => {
           </Menu>
         </>
       ) : (
-        <Link href={menu.link || "#"} passHref>
+        <NextLink href={menu.link || "#"} passHref legacyBehavior>
           <StyledButton>{menu.text}</StyledButton>
-        </Link>
+        </NextLink>
+
       )}
     </div>
   );
@@ -213,38 +215,42 @@ const NestedDropdown: React.FC<{
   onClose: () => void;
 }> = ({ menuItem, onClose }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const hasSubmenu = !!menuItem.submenu?.length;
 
   const handleMouseEnter = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
+    if (hasSubmenu) {
+      setAnchorEl(event.currentTarget);
+    }
   };
 
   const handleMouseLeave = () => {
-    setAnchorEl(null);
+    if (hasSubmenu) {
+      setAnchorEl(null);
+    }
   };
 
-  const hasSubmenu = menuItem.submenu && menuItem.submenu.length > 0;
-
-  const menuItemContent = (
-    <Link
-      href={menuItem.link || "#"}
-      style={{ color: "black", textDecoration: "none" }}
-      onClick={onClose}
+  const menuItemNode = (
+    <MenuItem
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onClick={!hasSubmenu ? onClose : undefined}
+      disableRipple
+      sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
     >
-      {menuItem.text}
-    </Link>
+      <ListItemText>{menuItem.text}</ListItemText>
+      {hasSubmenu && <ExpandMoreIcon fontSize="small" />}
+    </MenuItem>
   );
 
   return (
     <>
-      <MenuItem
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        disableRipple
-        sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
-      >
-        {hasSubmenu ? menuItem.text : menuItemContent}
-        {hasSubmenu && <ExpandMoreIcon fontSize="small" />}
-      </MenuItem>
+      {!hasSubmenu ? (
+        <Link href={menuItem.link || "#"} style={{ textDecoration: "none", color: "inherit" }}>
+          {menuItemNode}
+        </Link>
+      ) : (
+        menuItemNode
+      )}
 
       {hasSubmenu && (
         <Menu
@@ -256,7 +262,7 @@ const NestedDropdown: React.FC<{
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
           transformOrigin={{ vertical: "top", horizontal: "left" }}
         >
-          {menuItem.submenu?.map((subItem, index) => (
+          {menuItem?.submenu?.map((subItem, index) => (
             <NestedDropdown key={index} menuItem={subItem} onClose={onClose} />
           ))}
         </Menu>
@@ -264,6 +270,7 @@ const NestedDropdown: React.FC<{
     </>
   );
 };
+
 
 
 const MobileMenuItem = ({ item, depth = 0, onClose }: { item: NavItem | SubMenuItem; depth?: number; onClose: () => void }) => {

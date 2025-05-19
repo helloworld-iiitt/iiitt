@@ -13,6 +13,7 @@ interface CarouselProps {
 }
 
 const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
+
   return (
     <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} interval={4000}>
       {images.map((image, index) => (

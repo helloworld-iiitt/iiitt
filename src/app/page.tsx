@@ -14,10 +14,11 @@ import MainCarousel from "@/components/Carousel/MainCarousel";
 import MissionVision from "@/components/mission_vision/missionVision";
 import Marquee from "@/components/marquee/marquee";
 import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
-
-import carouselData from "../../public/json/carousel/home_carousel.json";
-
+import {
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
+} from "recharts";
 import "./globals.css";
+import EmptyNotice from "@/components/EmptySection/EmptyNotice";
 
 interface Item {
   title: string;
@@ -49,7 +50,10 @@ const TabPanel: React.FC<TabPanelProps> = ({ children, value, index, ...other })
 );
 
 const Home: React.FC = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [mainTab, setMainTab] = useState(0);
+  const [twitterTab, setTwitterTab] = useState(0);
+  const [carouselData, setCarouselData] = useState<{ data: any[] }>({ data: [] });
+  const [placementStats, setPlacementStats] = useState<{ salary: string; students: number }[]>([]);
   const [data, setData] = useState({
     notice: [] as Item[],
     events: [] as Item[],
@@ -57,16 +61,17 @@ const Home: React.FC = () => {
     achievements: [] as Item[],
     loading: true,
   });
-
   useEffect(() => {
     document.title = "IIIT Tiruchirappalli";
     const fetchData = async () => {
       try {
-        const [achRes, newsRes, eventsRes, noticeRes] = await Promise.all([
+        const [achRes, newsRes, eventsRes, noticeRes, carouselRes, placementStats] = await Promise.all([
           fetch("/json/general/achievements.json").then(res => res.json()),
           fetch("/json/general/news.json").then(res => res.json()),
           fetch("/json/events/events.json").then(res => res.json()),
           fetch("/json/general/notices.json").then(res => res.json()),
+          fetch("/json/carousel/home_carousel.json").then(res => res.json()),
+          fetch("/json/general/placement_stats.json").then(res => res.json()),
         ]);
 
         setData({
@@ -75,7 +80,14 @@ const Home: React.FC = () => {
           events: sortData(eventsRes.data),
           notice: sortData(noticeRes.data),
           loading: false,
+
         });
+        const placement = Object.entries(placementStats.placement).map(([salary, students]) => ({
+          salary,
+          students: Number(students),
+        }))
+        setPlacementStats(placement);
+        setCarouselData(carouselRes);
       } catch (error) {
         console.error("Error loading JSON data:", error);
         setData(prev => ({ ...prev, loading: false }));
@@ -84,6 +96,8 @@ const Home: React.FC = () => {
 
     fetchData();
   }, []);
+
+
 
   const sortData = (items?: Item[]) =>
     items
@@ -104,10 +118,13 @@ const Home: React.FC = () => {
           new Date(b.date || "").getTime() - new Date(a.date || "").getTime()
       ) ?? [];
 
-
-  const handleTabChange = (_: React.SyntheticEvent, newValue: number) => {
-    setActiveTab(newValue);
+  const handleMainTabChange = (_: React.SyntheticEvent, newValue: number) => {
+    setMainTab(newValue);
   };
+  const handleTwitterTabChange = (_: React.SyntheticEvent, newValue: number) => {
+    setTwitterTab(newValue);
+  };
+
 
   const a11yProps = (index: number) => ({
     id: `simple-tab-${index}`,
@@ -132,13 +149,13 @@ const Home: React.FC = () => {
         <div className="row">
           {/* Tabbed Section */}
           <Paper elevation={3} className="tabbedPane" id="news_event_notice">
-            <Tabs value={activeTab} onChange={handleTabChange} aria-label="news events notices">
+            <Tabs value={mainTab} onChange={handleMainTabChange} aria-label="news events notices">
               <Tab label="News" {...a11yProps(0)} className="tab" />
               <Tab label="Events" {...a11yProps(1)} className="tab" />
               <Tab label="Notices" {...a11yProps(2)} className="tab" />
             </Tabs>
 
-            <TabPanel value={activeTab} index={0}>
+            <TabPanel value={mainTab} index={0}>
               {data.loading ? (
                 <CircularProgress />
               ) : (
@@ -150,7 +167,7 @@ const Home: React.FC = () => {
               )}
             </TabPanel>
 
-            <TabPanel value={activeTab} index={1}>
+            <TabPanel value={mainTab} index={1}>
               {data.loading ? (
                 <CircularProgress />
               ) : (
@@ -162,7 +179,7 @@ const Home: React.FC = () => {
               )}
             </TabPanel>
 
-            <TabPanel value={activeTab} index={2}>
+            <TabPanel value={mainTab} index={2}>
               {data.loading ? (
                 <CircularProgress />
               ) : (
@@ -190,7 +207,34 @@ const Home: React.FC = () => {
 
           {/* Twitter Timeline Section */}
           <Paper elevation={3} className="twittertimeline" id="twitter_timeline">
-            <TwitterTimeline username="iiittrichy" />
+            <Tabs value={twitterTab} onChange={handleTwitterTabChange} aria-label="Placements-SocialMedia">
+              <Tab label="Placements" {...a11yProps(0)} className="tab" />
+              <Tab label="Twitter" {...a11yProps(1)} className="tab" />
+            </Tabs>
+
+            <TabPanel value={twitterTab} index={0}>
+              {placementStats.length === 0 ? (
+                <EmptyNotice />
+              ) : (
+                <Box height={300} p={2}>
+                  <Typography variant="h6" gutterBottom>
+                    Placement Statistics
+                  </Typography>
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={placementStats}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="salary" />
+                      <YAxis allowDecimals={false} />
+                      <Tooltip />
+                      <Bar dataKey="students" fill="#1976d2" name="Number of Students" />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </Box>
+              )}
+            </TabPanel>
+            <TabPanel value={twitterTab} index={1}>
+             <TwitterTimeline username="iiittrichy" />
+            </TabPanel>
           </Paper>
         </div>
       </div>
