@@ -1,0 +1,34 @@
+#!/bin/bash
+set -e
+
+DEPLOY_DIR="/var/www/myapp"  # Where code will be deployed
+REPO_DIR="/home/youruser/repos/myapp.git"
+BRANCH="main"
+
+echo "Deploying latest code..."
+
+# Clone or update the deployed folder
+if [ ! -d "$DEPLOY_DIR/.git" ]; then
+  echo "Initial deployment..."
+  git clone "$REPO_DIR" "$DEPLOY_DIR"
+else
+  echo "Updating existing deployment..."
+  cd "$DEPLOY_DIR"
+  git pull origin $BRANCH
+fi
+
+cd "$DEPLOY_DIR"
+
+echo "Installing npm packages..."
+npm install
+
+echo "Building app..."
+npm run build
+
+echo "Killing process on port 3000 (if running)..."
+fuser -k 3000/tcp || true
+
+echo "Starting app..."
+npm run start &
+
+echo "Deployment complete."

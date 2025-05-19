@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "s_no": 1,
+      "name": "Shri. Anil Kumble",
+      "designation": "Former Chairman (Cricket Committee), ICC",
+      "role": "Chairperson"
+    },
+    {
+      "s_no": 2,
+      "name": "Shri. Anil Kumar",
+      "designation": "Director (Finance), Ministry of Education, New Delhi",
+      "role": "Member"
+    },
+    {
+      "s_no": 3,
+      "name": "Shri. A. Karthik I.A.S",
+      "designation": "Principal Secretary, Higher Education Department, Government of Tamil Nadu, Secretariat, Chennai – 600 009",
+      "role": "Member"
+    },
+    {
+      "s_no": 4,
+      "name": "Shri. Ravi Kula Chandran",
+      "designation": "Chief Financial Officer, Ramco Systems, Chennai, Tamil Nadu",
+      "role": "Member"
+    },
+    {
+      "s_no": 5,
+      "name": "Prof. Usha Natesan",
+      "designation": "Director In-charge, IIIT Tiruchirappalli, Sethurapatti, Tiruchirappalli-12",
+      "role": "Director"
+    },
+    {
+      "s_no": 6,
+      "name": "Prof. G. Seetharaman",
+      "designation": "Registrar (i/c), IIIT, Tiruchirappalli",
+      "role": "Secretary(Ex-officio Member)"
+    }
+  ]
+}

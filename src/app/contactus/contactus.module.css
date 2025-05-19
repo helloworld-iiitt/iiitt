@@ -1,0 +1,42 @@
+.container {
+  padding: 2rem;
+}
+
+.themeText {
+  color: #2e8b57;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #5e35b1;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.sectionPadding {
+  padding: 2rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.map {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.3em;
+  color: #222;
+}

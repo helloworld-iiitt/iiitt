@@ -1,0 +1,35 @@
+{
+  "data": {
+    "Rules and Regulations for B.Tech.(CSE/ECE)":
+    [
+      {
+        "title": "Rules and Regulations (2020-21 onwards)",
+        "link": "/programs/Btech_regulations_2021.pdf"
+      },
+      {
+        "title": "Amendment for supplementary examination",
+        "link": "/programs/Amendments_Supple_exam.pdf"
+      },
+      {
+        "title": "Amendment for attendance percentage",
+        "link": "/programs/Amendment_attendance.pdf"
+      },
+      {
+        "title": "Amendment for passing minimum from Batch 2024 onwards",
+        "link": "/programs/Amendment_Passing_Minimum.pdf"
+      },
+      {
+        "title":"Rules and Regulations",
+        "link":"/curriculum/A3.UGRegulations.pdf"
+      }
+    ],
+    "Forms/formats":[
+    {
+      "title":"Bonafide certificate format",
+      "link":"/undergraduate/Bonafide_Certificate_Format_2024.pdf"
+    }]
+
+  }
+   
+  
+}

@@ -1,0 +1,17 @@
+.container {
+  padding: 1rem 1rem;
+}
+.themeText {
+  color: #2e8b57;
+}
+.sectionPadding {
+  padding: 1rem 0;
+}
+.list {
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+.linear{
+  display: inline-flex;
+  margin-top:2px;
+}

@@ -1,0 +1,101 @@
+{
+    "data": [
+      {
+        "s_no": 1,
+        "name": "Prof. Usha Natesan",
+        "designation": "Director In-charge, IIITT",
+        "senate": "Chairperson"
+      },
+      {
+        "s_no": 2,
+        "name": "Head, Department of CSE",
+        "designation": "Head, Department of CSE, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 3,
+        "name": "Head, Department of ECE",
+        "designation": "Head, Department of ECE, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 4,
+        "name": "Head, Department of Humanities",
+        "designation": "Head, Department of Humanities, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 5,
+        "name": "Head, Department of Mathematics",
+        "designation": "Head, Department of Mathematics, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 6,
+        "name": "Head, Department of Physics",
+        "designation": "Head, Department of Physics, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 7,
+        "name": "Prof. M. V. Kartikeyan",
+        "designation": "Director, IIITDM Kancheepuram",
+        "senate": "Member"
+      },
+      {
+        "s_no": 8,
+        "name": "Prof. G. Lakshminarayanan",
+        "designation": "Professor, Dept. of ECE, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 9,
+        "name": "Prof. C. Mala",
+        "designation": "Professor, Dept. of CSE, NITT",
+        "senate": "Member"
+      },
+      {
+        "s_no": 10,
+        "name": "Shri. Vasu Uppli",
+        "designation": "TCS",
+        "senate": "Member"
+      },
+      {
+        "s_no": 11,
+        "name": "Ms. Shymala Natarajan",
+        "designation": "CTS",
+        "senate": "Member"
+      },
+      {
+        "s_no": 12,
+        "name": "Dr. G. Devasena",
+        "designation": "Head, Department of CSE, IIIT Tiruchirappalli",
+        "senate": "Member"
+      },
+      {
+        "s_no": 13,
+        "name": "Dr. M. Senthil Sivakumar",
+        "designation": "Head, Department of ECE, IIIT Tiruchirappalli",
+        "senate": "Member"
+      },
+      {
+        "s_no": 14,
+        "name": "Dr. Kamakshi K",
+        "designation": "Head, Department of S&H, IIIT Tiruchirappalli",
+        "senate": "Member"
+      },
+      {
+        "s_no": 15,
+        "name": "Dr. Velmurugan. C",
+        "designation": "Head, Department of Mechanical Engineering, IIIT Tiruchirappalli",
+        "senate": "Member"
+      },
+      {
+        "s_no": 16,
+        "name": "Prof. G. Seetharaman",
+        "designation": "Registrar (i/c), IIIT Tiruchirappalli",
+        "senate": "Secretary(Ex-officio Member)"
+      }
+    ]
+  }
+  

@@ -1,0 +1,52 @@
+/* Registrar.module.css */
+
+.pageContainer {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.centeredContent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.styledCard {
+  padding: 1.5rem;
+  max-width: 350px;
+  text-align: center;
+}
+
+.imageContainer {
+  width: 13rem;
+  height: 15rem;
+  margin: 0 auto;
+  border: 1px solid #2e8b57;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contactLink {
+  display: inline-block;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.textContent {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 90%;
+  text-align: justify;
+}

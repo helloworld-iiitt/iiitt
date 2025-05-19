@@ -1,0 +1,129 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+.centered-newshead {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 52px;
+  margin-bottom: 5px;
+  font-size: 1.7vw;
+}
+
+
+.root > * {
+  margin: 8px;
+  width: 100%;
+}
+.outline-root {
+  min-width: 237;
+}
+.outline-bullet{
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+.outline-title {
+  font-size: 14;
+}
+.outline-pos {
+  margin-bottom: 12;
+}
+@media only screen and (min-width: 800px) {
+  .newshead {
+    font-size: 1vw;
+  }
+  .centered-newshead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 5px;
+    font-size: 1.7vw;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .newshead {
+    font-size: 6vw;
+  }
+  .centered-newshead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 5px;
+    font-size: 5.7vw;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  .newshead {
+    font-size: 10vw;
+  }
+  .centered-newshead {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 5px;
+    font-size: 10.7vw;
+  }
+}
+
+.newshead {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 52px;
+  margin-bottom: 5px;
+}
+ul {
+  list-style: None;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.News {
+
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.Events {
+
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.Notices {
+
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.Achievements{
+
+  list-style-position: inside;
+  padding-left: 10px;
+  border-top: 1px solid rgba(15,70,100,.12);
+  margin-top: -10px;
+  padding-top: 15px;
+}
+#simplecard {
+  box-shadow: none !important;
+}
+
+.card-inner {
+  padding-left: 0.2vw;
+}

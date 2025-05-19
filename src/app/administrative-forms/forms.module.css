@@ -1,0 +1,66 @@
+.pageContainer {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+  
+  .themeText {
+    color: #2e8b57;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+
+  .title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .table {
+    margin-bottom: 1.5rem;
+  }
+  
+  .tableHead {
+    font-weight: 900;
+    background-color: #2e8b57;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .tableRow:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .tableCell {
+    font-size: 1.2rem;
+  }
+  
+  .link {
+    display: inline-block;
+    padding-top: 1rem;
+    font-weight: 500;
+    color: blueviolet;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .meetingTitle {
+    font-size: 1.3rem;
+  }
+  
+  .download {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "department": "Mechanical Engineering",
+    "about": "The Department of Mechanical Engineering is focused to create a professional with well-defined technical knowledge in the field of Design, Manufacturing and Industrial Engineering. It deals with interdisciplinary fields and projects that draw on fundamental sciences in pursuit of beneficial engineering solutions. The department aims to develop new, effective, and sustainable alternatives to the various applications in the field of Mechanical Engineering.",
+    "message_from_hod": {
+      "name": "Dr. Velmurugan C",
+      "designation": "Assistant Professor , Head of the Department",
+      "message": "Welcome to the Department of Mechanical Engineering. Our department strives to empower students with the knowledge, skills, and confidence to excel in a dynamic and fast-evolving tech world. We promote research and industry partnerships to ensure our students are future-ready."
+    },
+    "faculty_members": [
+      {
+        "name": "Dr. Velmurugan C",
+        "designation": "Assistant Professor , Head of the Department"
+      }
+    ],
+    "research_areas": [
+      "Additive Manufacturing",
+      "Modelling and Simulation",
+      "Smart Materials",
+      "Shape Memory Alloys",
+      "Energy Storage Materials and Device",
+      "Battery- materials and performance."
+    ],
+    "research_scholars": [
+      {
+        "name": "Mr AKILAN I",
+        "topic": ""
+      },
+      {
+        "name": "Mr. ARAVINDH RAJ B.R.",
+        "topic":""
+      },
+      {
+        "name": "Mr. VIJAYA KUMAR P",
+        "topic": ""
+      },
+      {
+        "name": "Mr. FRANKLIN",
+        "topic": ""
+      }
+    ],
+    "announcements": [],
+    "latest_news": [],
+    "contact": {
+      "department": "Department of Mechanical Engineering",
+      "college": "Indian Institute of Information Technology",
+      "location": "Tiruchirappalli, TamilNadu - 620012"
+    }
+  }
+}

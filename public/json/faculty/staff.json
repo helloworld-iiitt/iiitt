@@ -1,0 +1,34 @@
+{
+    "Office staff": [
+      {
+        "id": {
+          "dept": "officestaff",
+          "deptID": "1"
+        },
+        "name": "Mrs. M. Saraswathy",
+        "designation": "Administrative Assistant",
+        "src": "/admin/saraswathy.jpg",
+        "phone":""
+      },
+      {
+        "id": {
+          "dept": "officestaff",
+          "deptID": "2"
+        },
+        "name": "Mr. R. Kannan",
+        "designation": "Administrative Assistant",
+        "src":"/admin/kannan.jpg",
+        "phone":""
+      },
+      {
+        "id": {
+          "dept": "officestaff",
+          "deptID": "2"
+        },
+        "name": "Mr. V. Logeswaran",
+        "designation": "Multi-Tasking Staff",
+        "src": "/admin/lokesh.jpg",
+        "phone":""
+      }
+    ]
+}

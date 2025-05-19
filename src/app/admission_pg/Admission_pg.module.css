@@ -1,0 +1,25 @@
+/* Admission_pg.module.css */
+.themeText {
+    color: #2e8b57;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  .container {
+    padding: 1rem 1rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    display: block;
+    padding-top: 1rem;
+    font-weight: 500;
+    width: auto;
+    color: #2e8b57;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+  

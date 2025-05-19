@@ -1,62 +1,66 @@
-import React, { useState, useEffect } from "react";
+"use client";
+
+import { useState, useEffect } from "react";
+
+const daysArray = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+const monthArray = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
 const Time = () => {
-  const [getday, setgetday] = useState(0);
-  const [getHour, setgetHour] = useState(0);
-  const [getminutes, setgetminutes] = useState(0);
-  const [getDate, setgetDate] = useState(0);
-  const [getMonth, setgetMonth] = useState(0);
-  const [getFullYear, setgetFullYear] = useState(0);
-  const daysArray = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-  const monthArray = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-  function updateCountdown() {
-    const date = new Date();
-    const getday1 = date.getDay();
-    const getHour1 = date.getHours();
-    const getminutes1 = date.getMinutes();
-    const getDate1 = date.getDate();
-    const getMonth1 = date.getMonth();
-    const getFullYear1 = date.getFullYear();
-    const getHour2 = getHour1 % 12;
+  const [currentTime, setCurrentTime] = useState({
+    day: "",
+    hour: "",
+    minutes: "",
+    date: "",
+    month: "",
+    year: "",
+  });
 
-    setgetday(getday1);
-    setgetHour(getHour1 < 10 ? `0${getHour1}` : getHour1);
-    setgetminutes(getminutes1 < 10 ? `0${getminutes1}` : getminutes1);
-    setgetDate(getDate1);
-    setgetMonth(getMonth1);
-    setgetFullYear(getFullYear1);
-  }
+  useEffect(() => {
+    function updateCountdown() {
+      const date = new Date();
+      setCurrentTime({
+        day: daysArray[date.getDay()],
+        hour: date.getHours().toString().padStart(2, "0"),
+        minutes: date.getMinutes().toString().padStart(2, "0"),
+        date: date.getDate().toString(),
+        month: monthArray[date.getMonth()],
+        year: date.getFullYear().toString(),
+      });
+    }
 
-  setInterval(updateCountdown, 1000);
+    updateCountdown();
+    const interval = setInterval(updateCountdown, 1000);
 
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div>
       <p>
-        {daysArray[getday]}, {getHour}:{getminutes}, {getDate}{" "}
-        {monthArray[getMonth]}
+        {currentTime.day}, {currentTime.hour}:{currentTime.minutes}, {currentTime.date}{" "}
+        {currentTime.month}
       </p>
-      <p>{getFullYear}</p>
+      <p>{currentTime.year}</p>
     </div>
   );
 };

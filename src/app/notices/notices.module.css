@@ -1,0 +1,23 @@
+.container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .themeText {
+    color: #2e8b57;
+  }
+  
+  .link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .notice {
+    padding: 1rem 0rem 1rem 0.3rem;
+    transition: transform 0.2s;
+  }
+  
+  .notice:hover {
+    background: rgba(0, 0, 0, 0.15);
+  }
+  

@@ -1,0 +1,55 @@
+.container {
+  padding: 1.5rem 1rem;
+}
+
+
+
+.sectionPadding {
+  padding: 1rem 0;
+}
+
+.subHeading {
+  color: #444;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #2e8b57;
+  color: white;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  color: #2e8b57;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.download {
+  margin-right: 5px;
+  vertical-align: middle;
+}

@@ -1,0 +1,61 @@
+
+.departmentContainer {
+  padding: 3rem 1rem !important;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
+}
+
+
+.departmentThemeText {
+  color: #1a5d3a;
+  text-align: center;
+  font-size: 2rem !important;
+  font-weight: 700;
+  background: linear-gradient(45deg, #1a5d3a, #2e8b57);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  letter-spacing: 1px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.departmentDesc {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .departmentContainer {
+    flex-direction: column;
+  }
+  .departmentCard {
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+  }
+  .departmentThemeText {
+    font-size: 1.5rem !important;
+  }
+  .departmentDesc {
+    font-size: 0.95rem;
+  }
+}

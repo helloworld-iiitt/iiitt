@@ -1,0 +1,52 @@
+{
+  "data": [
+      {
+        "s_no": 1,
+        "name": "Prof. Usha Natesan",
+        "designation": "Director In-charge, IIIT Tiruchirappalli",
+        "role": "Chairperson (Ex-Officio)"
+      },
+      {
+        "s_no": 2,
+        "name": "Member Nominee",
+        "designation": "MoE, New Delhi",
+        "role": "Member"
+      },
+      {
+        "s_no": 3,
+        "name": "Prof. Kotluru V L Subramaniam",
+        "designation": "Professor, Department of Civil Engineering, IIT Hyderabad",
+        "role": "Member"
+      },
+      {
+        "s_no": 4,
+        "name": "Prof. Gunneswara Rao T D",
+        "designation": "Professor, Department of Civil Engineering, NIT Warangal",
+        "role": "Member"
+      },
+      {
+        "s_no": 5,
+        "name": "Shri. Lakshminarayanan",
+        "designation": "Senior General Manager, Finance, Tata Consultancy Service, Chennai",
+        "role": "Member"
+      },
+      {
+        "s_no": 6,
+        "name": "Prof. K. Baskar",
+        "designation": "Professor, Dept. of Civil Eng., NIT Tiruchirappalli",
+        "role": "Member"
+      },
+      {
+        "s_no": 7,
+        "name": "Faculty (i/c), P&D",
+        "designation": "IIIT Tiruchirappalli",
+        "role": "Member"
+      },
+      {
+        "s_no": 8,
+        "name": "Prof. G. Seetharaman",
+        "designation": "Registrar (i/c), IIIT Tiruchirappalli",
+        "role": "Secretary(Ex-officio Member)"
+      }
+    ]
+}

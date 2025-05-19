@@ -1,0 +1,29 @@
+{
+  "programs": [
+    "M. Tech. Computer Science and Engineering (2 years, Master of Technology)",
+    "M.Tech. VLSI Systems (2 Years, Master of Technology)"
+  ],
+  "programdetails": [
+      {
+        "id": "ccmt2025",
+        "title": "CCMT 2025",
+        "items": [
+
+          {
+            "label": "Link for NIC portal for CCMT",
+            "url": "https://ccmt.admissions.nic.in/"
+          },
+          {
+            "label": "M.Tech. Fee Structure 2025",
+            "url": "admission/1. M.Tech FEE STRUCTURE 2025-26.pdf"
+          },
+          {
+            "label": "Fee Refund Structure 2025",
+            "url": "admission/1. M.Tech Fee Refund Structure 2025-26.pdf"
+          }
+        ]
+      }
+
+    ]
+  }
+  

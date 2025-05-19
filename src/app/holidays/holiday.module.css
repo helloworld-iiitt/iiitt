@@ -1,0 +1,43 @@
+.pageContainer {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.themeText {
+  color: #2e8b57;
+}
+
+.timeline {
+  position: relative;
+  max-width: 100%;
+  padding-left: 40px;
+  border-left: 4px solid #2e8b57;
+}
+
+.timelineSection {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.timelineIcon {
+  width: 40px;
+  height: 40px;
+  background-color: #2e8b57;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  left: -60px;
+}
+
+
+.link:hover {
+  text-decoration: underline;
+  color: #1565c0;
+}

@@ -1,0 +1,49 @@
+{
+    "programs": [
+      {
+        "id": "ccmt2024",
+        "title": "CCMT 2024",
+        "items": [
+          {
+            "label": "Online Reporting details for M.Tech. Admission 2024",
+            "url": "admission/MTech_Online_Reporting_Details_2024.pdf"
+          },
+          {
+            "label": "Link for NIC portal for CCMT",
+            "url": "https://ccmt.admissions.nic.in/"
+          },
+          {
+            "label": "M.Tech. Fee Structure 2025",
+            "url": "admission/1. M.Tech FEE STRUCTURE 2025-26.pdf"
+          },
+          {
+            "label": "Fee Refund Structure 2025",
+            "url": "admission/1. M.Tech Fee Refund Structure 2025-26.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ccmn2024",
+        "title": "CCMN 2024",
+        "items": [
+          {
+            "label": "Online Reporting details for M.Sc. Admission 2024",
+            "url": "admission/MSc_Online_Reporting_Details_2024.pdf"
+          },
+          {
+            "label": "Link for NIC portal for CCMN",
+            "url": "https://ccmn.admissions.nic.in/"
+          },
+          {
+            "label": "M.Sc. Fee Structure 2024",
+            "url": "admission/MSc_Fee_Structure_2024.pdf"
+          },
+          {
+            "label": "Fee Refund Structure 2024",
+            "url": "admission/MSc_RefundFee_Structure_2024.pdf"
+          }
+        ]
+      }
+    ]
+  }
+  

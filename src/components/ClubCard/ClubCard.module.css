@@ -1,0 +1,167 @@
+
+
+.parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  padding-bottom : 1rem;
+  width: 30rem;
+  background-color: #fff;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  outline: solid 2px #a1d99b;
+  text-align: center;
+  margin-bottom: 4rem;
+  transition : 0.3s;
+}
+
+
+
+.imageWrapper {
+  position: absolute;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #a1d99b;
+  outline: solid 2px #a1d99b;
+  font-weight: bold;
+  height: 120px;
+  width: 120px;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.clubName {
+  color: #333333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.clubMotto,
+.clubIncharge {
+  margin-top: 10px;
+  color: #444444;
+  font-size: 1rem;
+}
+
+.btn {
+  display: flex;
+  gap: 18px;
+  margin: 2rem;
+  transition : 0.3s;
+
+  /* padding : 1rem 2rem; */
+}
+
+.btn button {
+  background-color: #2b9348;
+  color: white;
+  padding: 0.75rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  font-size : 1.2rem;
+  cursor: pointer;
+  transition : 0.3s;
+  font-family : arial;
+}
+
+.btn button:hover {
+  background-color: #007f5f;
+  box-shadow: 0 0 10px #88d4ab,
+              0 0 10px #88d4ab,
+              0 0 10px #88d4ab;
+}
+
+@media (max-width: 900px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.active{
+  padding : 1 rem;
+}
+
+.clubHead{
+  padding : 0.5rem 1rem;
+  font-family : arial;
+  font-weight : bold;
+  border-radius : 4px;
+  background-color : #2b9348;
+  margin : 0.5rem;
+  color : #fff;
+}
+
+
+@media (max-width: 768px) {
+  .parent {
+    width: 90%;
+    padding: 1.5rem 1rem;
+  }
+
+  .imagecontainer {
+    width: 70px;
+    height: 70px;
+  }
+
+  .clubName {
+    font-size: 1.3rem;
+    margin-top: 45px;
+  }
+
+  .clubMotto,
+  .clubIncharge {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .btn button {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .clubHead {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .imagecontainer {
+    width: 60px;
+    height: 60px;
+  }
+
+  .clubName {
+    font-size: 1.1rem;
+    margin-top: 40px;
+  }
+
+  .btn button {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.9rem;
+  }
+
+  .clubHead {
+    font-size: 0.85rem;
+  }
+}
