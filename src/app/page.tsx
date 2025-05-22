@@ -1,24 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import MainCarousel from "@/components/Carousel/MainCarousel";
+import Marquee from "@/components/marquee/marquee";
+import MissionVision from "@/components/mission_vision/missionVision";
+import { PaperCard } from "@/components/PaperCard/PaperCard";
+import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
+import PlacementStats from "@/components/Placementdata/PlacementStats";
 import {
-  Paper,
-  Tabs,
-  Tab,
-  CircularProgress,
   Box,
+  Button,
+  CircularProgress,
+  Paper,
+  Tab,
+  Tabs,
   Typography,
 } from "@mui/material";
-import { PaperCard } from "@/components/PaperCard/PaperCard";
-import MainCarousel from "@/components/Carousel/MainCarousel";
-import MissionVision from "@/components/mission_vision/missionVision";
-import Marquee from "@/components/marquee/marquee";
-import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
-import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-} from "recharts";
+import { useEffect, useState } from "react";
 import "./globals.css";
-import EmptyNotice from "@/components/EmptySection/EmptyNotice";
 
 interface Item {
   title: string;
@@ -31,6 +29,13 @@ interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
+}
+
+interface PlacementRawData {
+  [company: string]: {
+    CTC: string;
+    'students Placed': number;
+  };
 }
 
 const TabPanel: React.FC<TabPanelProps> = ({ children, value, index, ...other }) => (
@@ -53,7 +58,6 @@ const Home: React.FC = () => {
   const [mainTab, setMainTab] = useState(0);
   const [twitterTab, setTwitterTab] = useState(0);
   const [carouselData, setCarouselData] = useState<{ data: any[] }>({ data: [] });
-  const [placementStats, setPlacementStats] = useState<{ salary: string; students: number }[]>([]);
   const [data, setData] = useState({
     notice: [] as Item[],
     events: [] as Item[],
@@ -65,13 +69,12 @@ const Home: React.FC = () => {
     document.title = "IIIT Tiruchirappalli";
     const fetchData = async () => {
       try {
-        const [achRes, newsRes, eventsRes, noticeRes, carouselRes, placementStats] = await Promise.all([
+        const [achRes, newsRes, eventsRes, noticeRes, carouselRes] = await Promise.all([
           fetch("/json/general/achievements.json").then(res => res.json()),
           fetch("/json/general/news.json").then(res => res.json()),
           fetch("/json/events/events.json").then(res => res.json()),
           fetch("/json/general/notices.json").then(res => res.json()),
           fetch("/json/carousel/home_carousel.json").then(res => res.json()),
-          fetch("/json/general/placement_stats.json").then(res => res.json()),
         ]);
 
         setData({
@@ -82,11 +85,6 @@ const Home: React.FC = () => {
           loading: false,
 
         });
-        const placement = Object.entries(placementStats.placement).map(([salary, students]) => ({
-          salary,
-          students: Number(students),
-        }))
-        setPlacementStats(placement);
         setCarouselData(carouselRes);
       } catch (error) {
         console.error("Error loading JSON data:", error);
@@ -213,27 +211,16 @@ const Home: React.FC = () => {
             </Tabs>
 
             <TabPanel value={twitterTab} index={0}>
-              {placementStats.length === 0 ? (
-                <EmptyNotice />
-              ) : (
-                <Box height={300} p={2}>
-                  <Typography variant="h6" gutterBottom>
-                    Placement Statistics
-                  </Typography>
-                  <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={placementStats}>
-                      <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="salary" />
-                      <YAxis allowDecimals={false} />
-                      <Tooltip />
-                      <Bar dataKey="students" fill="#1976d2" name="Number of Students" />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </Box>
-              )}
+
+              <PlacementStats />
+
+              <Button  href="http://placement.iiitt.ac.in/" sx={{ mt: 2 }}>
+                View Detailed Placement Stats
+              </Button>
+
             </TabPanel>
             <TabPanel value={twitterTab} index={1}>
-             <TwitterTimeline username="iiittrichy" />
+              <TwitterTimeline username="iiittrichy" />
             </TabPanel>
           </Paper>
         </div>

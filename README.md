@@ -52,9 +52,9 @@ This command will install all necessary packages and add node_modules file.<br>
 
 ## Docker Deployment
 
-docker build -t iiitt-website .
-docker buildx build -t iiitt . (multi-platform image)
-docker run -p 3000:3000 iiitt-website
+docker build -t iiitt-website . <br>
+docker buildx build -t iiitt . (multi-platform image) <br>
+docker run -p 3000:3000 iiitt-website<br>
 
 ### Contributing guidelines
 

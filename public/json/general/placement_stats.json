@@ -1,8 +1,20 @@
 {
   "placement": {
-    "22 LPA": 4,
-    "8 LPA": 1,
-    "7.84 LPA": 10,
-    "7 LPA": 2
+    "Walmart":{
+      "CTC":22,
+      "students Placed": 4
+    },
+    "Planful":{
+      "CTC":8,
+      "students Placed": 1
+    },
+    "CGI":{
+      "CTC":7.84 ,
+      "students Placed": 10
+    },
+    "Xebo.ai":{
+      "CTC":7 ,
+      "students Placed": 2
+    }
   }
 }
