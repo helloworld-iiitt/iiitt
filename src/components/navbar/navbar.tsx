@@ -104,7 +104,7 @@ const Navbar = () => {
     <>
       {/* Mobile Navbar */}
       <div id="mobile_navbar" className="MuiAppBar-root MuiToolbar-regular">
-        <div id="quick_nav" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+        <div id="quick_nav" style={{ display: "flex", gap: "10px",justifyContent:"space-evenly", margin:"auto"}}>
           {/* Menu Icon */}
           <IconButton color="inherit" aria-label="menu" onClick={() => setDrawerOpen(true)}>
             <MenuIcon sx={{ color: "white", fontSize: { xs: 24, sm: 28 } }} />
@@ -130,7 +130,7 @@ const Navbar = () => {
 
       {/* Desktop Navbar */}
       <div id="desktop_menu" className="MuiAppBar-root MuiToolbar-regular">
-        <div style={{ display: "flex", gap: "20px", minHeight: "64px" }}>
+        <div style={{ display: "flex", gap: "20px", minHeight: "64px", justifyContent:"space-evenly", margin:"auto" }}>
           {pathname !== "/" ? (
             <Link href="/" id="home_button">
               <StyledHomeIcon sx={{ fontSize: { xs: 28, sm: 36 } }} />
