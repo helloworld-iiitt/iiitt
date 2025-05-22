@@ -62,7 +62,7 @@ const OutlinedCard: React.FC<PaperCardProps> = ({
                   href={
                     validURL(item.link)
                       ? item.link
-                      : `${nextConfig.env?.DOCUMENT}/${item.link}`
+                      : `${title==="Achievements" ? nextConfig?.env?.IMAGE : nextConfig?.env?.DOCUMENT}/${item.link}`
                   }
                   target="_blank"
                   rel="noopener noreferrer"

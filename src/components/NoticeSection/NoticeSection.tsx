@@ -51,7 +51,9 @@ const NoticeSection = ({
                 <br />
                 {item.text && <Box component="span">{item.text}</Box>}
                 {item.date && (
+
                   <>
+                  <br/>
                     <Typography variant="caption" color="textSecondary">
                       Posted on: {item.date}
                     </Typography>
