@@ -20,6 +20,7 @@
     "bootstrap": "^5.3.3",
     "fortawesome": "^0.0.1-security",
     "framer-motion": "^12.6.2",
+    "fuse.js": "^7.1.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.485.0",
     "next": "15.1.7",
@@ -28,6 +29,7 @@
     "react-dom": "^19.0.0",
     "react-fontawesome": "^1.7.1",
     "react-responsive-carousel": "^3.2.23",
+    "recharts": "^2.15.3",
     "swiper": "^11.2.6"
   },
   "devDependencies": {

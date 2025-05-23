@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "Walmart":{
+      "CTC":22,
+      "students Placed": 4
+    },
+    "Planful":{
+      "CTC":8,
+      "students Placed": 1
+    },
+    "CGI":{
+      "CTC":7.84 ,
+      "students Placed": 10
+    },
+    "Xebo.ai":{
+      "CTC":7 ,
+      "students Placed": 2
+    }
+  }
+}

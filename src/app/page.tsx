@@ -1,22 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import MainCarousel from "@/components/Carousel/MainCarousel";
+import Marquee from "@/components/marquee/marquee";
+import MissionVision from "@/components/mission_vision/missionVision";
+import { PaperCard } from "@/components/PaperCard/PaperCard";
+import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
+import PlacementStats from "@/components/Placementdata/PlacementStats";
 import {
-  Paper,
-  Tabs,
-  Tab,
-  CircularProgress,
   Box,
+  Button,
+  CircularProgress,
+  Paper,
+  Tab,
+  Tabs,
   Typography,
 } from "@mui/material";
-import { PaperCard } from "@/components/PaperCard/PaperCard";
-import MainCarousel from "@/components/Carousel/MainCarousel";
-import MissionVision from "@/components/mission_vision/missionVision";
-import Marquee from "@/components/marquee/marquee";
-import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
-
-import carouselData from "../../public/json/carousel/home_carousel.json";
-
+import { useEffect, useState } from "react";
 import "./globals.css";
 
 interface Item {
@@ -30,6 +29,13 @@ interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
+}
+
+interface PlacementRawData {
+  [company: string]: {
+    CTC: string;
+    'students Placed': number;
+  };
 }
 
 const TabPanel: React.FC<TabPanelProps> = ({ children, value, index, ...other }) => (
@@ -49,7 +55,9 @@ const TabPanel: React.FC<TabPanelProps> = ({ children, value, index, ...other })
 );
 
 const Home: React.FC = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [mainTab, setMainTab] = useState(0);
+  const [twitterTab, setTwitterTab] = useState(0);
+  const [carouselData, setCarouselData] = useState<{ data: any[] }>({ data: [] });
   const [data, setData] = useState({
     notice: [] as Item[],
     events: [] as Item[],
@@ -57,16 +65,16 @@ const Home: React.FC = () => {
     achievements: [] as Item[],
     loading: true,
   });
-
   useEffect(() => {
     document.title = "IIIT Tiruchirappalli";
     const fetchData = async () => {
       try {
-        const [achRes, newsRes, eventsRes, noticeRes] = await Promise.all([
+        const [achRes, newsRes, eventsRes, noticeRes, carouselRes] = await Promise.all([
           fetch("/json/general/achievements.json").then(res => res.json()),
           fetch("/json/general/news.json").then(res => res.json()),
           fetch("/json/events/events.json").then(res => res.json()),
           fetch("/json/general/notices.json").then(res => res.json()),
+          fetch("/json/carousel/home_carousel.json").then(res => res.json()),
         ]);
 
         setData({
@@ -75,7 +83,9 @@ const Home: React.FC = () => {
           events: sortData(eventsRes.data),
           notice: sortData(noticeRes.data),
           loading: false,
+
         });
+        setCarouselData(carouselRes);
       } catch (error) {
         console.error("Error loading JSON data:", error);
         setData(prev => ({ ...prev, loading: false }));
@@ -84,6 +94,8 @@ const Home: React.FC = () => {
 
     fetchData();
   }, []);
+
+
 
   const sortData = (items?: Item[]) =>
     items
@@ -104,10 +116,13 @@ const Home: React.FC = () => {
           new Date(b.date || "").getTime() - new Date(a.date || "").getTime()
       ) ?? [];
 
-
-  const handleTabChange = (_: React.SyntheticEvent, newValue: number) => {
-    setActiveTab(newValue);
+  const handleMainTabChange = (_: React.SyntheticEvent, newValue: number) => {
+    setMainTab(newValue);
   };
+  const handleTwitterTabChange = (_: React.SyntheticEvent, newValue: number) => {
+    setTwitterTab(newValue);
+  };
+
 
   const a11yProps = (index: number) => ({
     id: `simple-tab-${index}`,
@@ -132,13 +147,13 @@ const Home: React.FC = () => {
         <div className="row">
           {/* Tabbed Section */}
           <Paper elevation={3} className="tabbedPane" id="news_event_notice">
-            <Tabs value={activeTab} onChange={handleTabChange} aria-label="news events notices">
+            <Tabs value={mainTab} onChange={handleMainTabChange} aria-label="news events notices">
               <Tab label="News" {...a11yProps(0)} className="tab" />
               <Tab label="Events" {...a11yProps(1)} className="tab" />
               <Tab label="Notices" {...a11yProps(2)} className="tab" />
             </Tabs>
 
-            <TabPanel value={activeTab} index={0}>
+            <TabPanel value={mainTab} index={0}>
               {data.loading ? (
                 <CircularProgress />
               ) : (
@@ -150,7 +165,7 @@ const Home: React.FC = () => {
               )}
             </TabPanel>
 
-            <TabPanel value={activeTab} index={1}>
+            <TabPanel value={mainTab} index={1}>
               {data.loading ? (
                 <CircularProgress />
               ) : (
@@ -162,7 +177,7 @@ const Home: React.FC = () => {
               )}
             </TabPanel>
 
-            <TabPanel value={activeTab} index={2}>
+            <TabPanel value={mainTab} index={2}>
               {data.loading ? (
                 <CircularProgress />
               ) : (
@@ -190,7 +205,23 @@ const Home: React.FC = () => {
 
           {/* Twitter Timeline Section */}
           <Paper elevation={3} className="twittertimeline" id="twitter_timeline">
-            <TwitterTimeline username="iiittrichy" />
+            <Tabs value={twitterTab} onChange={handleTwitterTabChange} aria-label="Placements-SocialMedia">
+              <Tab label="Placements" {...a11yProps(0)} className="tab" />
+              <Tab label="Twitter" {...a11yProps(1)} className="tab" />
+            </Tabs>
+
+            <TabPanel value={twitterTab} index={0}>
+
+              <PlacementStats />
+
+              <Button  href="http://placement.iiitt.ac.in/" sx={{ mt: 2 }}>
+                View Detailed Placement Stats
+              </Button>
+
+            </TabPanel>
+            <TabPanel value={twitterTab} index={1}>
+              <TwitterTimeline username="iiittrichy" />
+            </TabPanel>
           </Paper>
         </div>
       </div>

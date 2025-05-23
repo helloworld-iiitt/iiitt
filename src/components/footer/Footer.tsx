@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
                 <MailIcon className="mailicon" />
                 office@iiitt.ac.in
               </a>
-              <a href="tel:8859167328">
+              <a href="tel:94420 45851">
                 <CallIcon className="phoneicon" />
                 +91 94420 45851
               </a>

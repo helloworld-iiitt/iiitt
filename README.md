@@ -2,9 +2,38 @@
 
 ### About Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [ngx](https://github.com/facebook/create-react-app).
 The project is targeted to revamp the old Official website of IIIT Trichy. The new website will have
 advanced styling and interactive interface.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [MUI (optional)](https://mui.com/) - for UI components
+
+## Project Structure
+
+```bash
+.
+├── public/               # Static files
+├── src/
+│   ├── components/
+│   ├── apps/
+│   ├── utils/
+│   └── types/
+├── .dockerignore
+├── .eslintrc.json
+├── .prettierrc
+├── Dockerfile
+├── docker-compose.yml
+├── next.config.js
+├── package.json
+└── tsconfig.json
+```
 
 ### Installation and setup the project guidelines
 
@@ -19,7 +48,13 @@ This command will install all necessary packages and add node_modules file.<br>
 
 ### `Run`
 
-`npm start` <br>
+`npm  run dev ` <br>
+
+## Docker Deployment
+
+docker build -t iiitt-website . <br>
+docker buildx build -t iiitt . (multi-platform image) <br>
+docker run -p 3000:3000 iiitt-website<br>
 
 ### Contributing guidelines
 

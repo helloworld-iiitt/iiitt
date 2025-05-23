@@ -59,7 +59,7 @@ const Achievements = () => {
         <Grid size={10}>
           <Typography variant="h2" gutterBottom className={styles.themeText}>
             <Box component="span" fontWeight={380}>
-              Notices
+              Achievements
             </Box>
           </Typography>
 
