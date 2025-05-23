@@ -20,7 +20,7 @@ const PostGraduate: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    document.title = "Postgraduate | IIITT ";
+    document.title = "Postgraduate | IIIT Tiruchirappalli ";
     return () => {
       document.title = "IIIT Trichy";
     };

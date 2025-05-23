@@ -30,7 +30,7 @@ export default function AnnualReports() {
         }
     }, []);
     useEffect(() => {
-        document.title = "Annual Reports | IIITT";
+        document.title = "Annual Reports | IIIT Tiruchirappalli";
         fetchData();
         return () => {
             document.title = "IIIT Trichy";

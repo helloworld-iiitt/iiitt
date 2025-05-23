@@ -29,7 +29,7 @@ const Festivals: React.FC = () => {
   const [festivals, setFestivals] = useState<Festival[] | null>(null);
 
   useEffect(() => {
-    document.title = "Festivals | IIITT";
+    document.title = "Festivals | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

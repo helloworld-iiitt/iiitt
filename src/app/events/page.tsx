@@ -25,7 +25,7 @@ const News = () => {
   const [newNotices, setNewNotices] = useState<Item[]>([]);
 
   useEffect(() => {
-    document.title = "Events | IIITT ";
+    document.title = "Events | IIIT Tiruchirappalli ";
     const fetchNoticesData = async () => {
       try {
         const response = await fetch("/json/events/events.json");

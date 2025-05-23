@@ -20,7 +20,7 @@ export default function RTI() {
   const [rtiList, setRtiList] = useState<RTI[]>([]);
 
   useEffect(() => {
-    document.title = "RTI | IIITT ";
+    document.title = "RTI | IIIT Tiruchirappalli ";
     return () => {
       document.title = "IIIT Trichy";
     };

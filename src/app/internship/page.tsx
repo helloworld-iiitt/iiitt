@@ -44,8 +44,8 @@ interface DocumentData {
 
 export default function Internship() {
   const [data, setData] = useState<InternshipData | null>(null);
-
   useEffect(() => {
+    document.title = " Internship Cell | IIIT Tiruchirappalli ";
     fetch("/json/students/internship.json")
       .then((res) => res.json())
       .then(setData)

@@ -9,7 +9,7 @@ import styles from "./Registrar.module.css";
 import nextConfig from "../../../next.config";
 export default function Registrar() {
   useEffect(() => {
-    document.title = "Registrar | IIITT ";
+    document.title = "Registrar | IIIT Tiruchirappalli ";
     return () => {
       document.title = "IIIT Trichy";
     };

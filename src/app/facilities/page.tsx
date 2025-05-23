@@ -25,7 +25,7 @@ export default function Hostel() {
   }, []);
 
   useEffect(() => {
-    document.title = "Facilities | IIITT";
+    document.title = "Facilities | IIIT Tiruchirappalli";
     fetchData();
     return () => {
       document.title = "IIIT Trichy";

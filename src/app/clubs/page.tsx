@@ -16,7 +16,7 @@ const Clubs: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    document.title = "Clubs | IIITT";
+    document.title = "Clubs | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

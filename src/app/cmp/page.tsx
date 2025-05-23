@@ -13,7 +13,7 @@ import LabPage from "@/components/LabComponent/LabComponent";
 
 const cmp = () => {
   useEffect(() => {
-    document.title = "CMP LAB";
+    document.title = "CMP LAB | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

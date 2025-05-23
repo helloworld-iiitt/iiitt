@@ -18,7 +18,7 @@ export default function Partners() {
   const [partners, setPartners] = useState<Partner[]>([]);
 
   useEffect(() => {
-    document.title = "Industry Partners | IIITT";
+    document.title = "Industry Partners | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

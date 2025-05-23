@@ -7,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 const Contactus = () => {
   useEffect(() => {
-    document.title = "contactus Us | IIITT";
+    document.title = "contactus Us | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

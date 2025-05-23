@@ -33,7 +33,7 @@ export default function Scholarship() {
         }
     }, []);
     useEffect(() => {
-        document.title = "Scholarship | IIITT";
+        document.title = "Scholarship | IIIT Tiruchirappalli";
         fetchData();
         return () => {
             document.title = "IIIT Trichy";
