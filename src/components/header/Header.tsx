@@ -30,7 +30,6 @@ const Header: React.FC = () => {
       const res = await fetch("/json/navigation/navbar_data.json");
       const json = await res.json();
 
-      // Flatten nested submenu for easier searching
       const flatItems: SearchItem[] = [];
       json.data.forEach((section: any) => {
         if (section.submenu) {
@@ -49,6 +48,7 @@ const Header: React.FC = () => {
           });
         }
       });
+
       setAllItems(flatItems);
       fuseRef.current = new Fuse(flatItems, fuseOptions);
     };
@@ -101,7 +101,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <div className="head-banner hidden-sm hidden-xs hidden-md p-6 bg-white shadow-lg relative">
+    <div>
+    <div className="hidden sm:block p-6 bg-white shadow-lg relative">
       <center>
         <div className="w-[80%] max-w-[600px] min-w-[200px]">
           <Image
@@ -115,63 +116,69 @@ const Header: React.FC = () => {
           />
         </div>
       </center>
+      </div>
+      <div className="flex flex-wrap content-end justify-end">
+        <div className="max-w-[300px]">
+          <div style={{display:"flex",justifyContent:"flex-end"}}>
+            <input
+              type="search"
+              ref={inputRef}
+              value={query}
+              onChange={onChange}
+              onKeyDown={onKeyDown}
+              placeholder="Search the site..."
+              aria-label="Search the site"
+              aria-autocomplete="list"
+              aria-controls="search-results-list"
+              aria-activedescendant={
+                focusedIndex >= 0 ? `result-item-${focusedIndex}` : undefined
+              }
+              autoComplete="off"
+              style={{display:"flex",justifyContent:"flex-end"}}
+            />
+          </div>
 
-      <div className="mt-6 w-[80%] max-w-[600px] mx-auto relative">
-        <div className="relative text-gray-700 focus-within:text-gray-900">
-          <input
-            type="search"
-            ref={inputRef}
-            value={query}
-            onChange={onChange}
-            onKeyDown={onKeyDown}
-            placeholder="Search the site..."
-            aria-label="Search the site"
-            aria-autocomplete="list"
-            aria-controls="search-results-list"
-            aria-activedescendant={
-              focusedIndex >= 0 ? `result-item-${focusedIndex}` : undefined
-            }
-            className="block w-full bg-gray-100 placeholder-gray-500 rounded-lg py-3 pl-10 pr-4 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500 transition duration-200 shadow-sm"
-            autoComplete="off"
-          />
-        </div>
-
-        {query && (
-          <ul
-            id="search-results-list"
-            role="listbox"
-            ref={resultsRef}
-            className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-72 overflow-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
-          >
-            {results.length === 0 ? (
-              <li className="px-4 py-3 text-gray-500 select-none" aria-live="polite" aria-atomic="true">
-                No results found.
-              </li>
-            ) : (
-              results.map((item, idx) => (
+          {query && (
+            <ul
+              id="search-results-list"
+              role="listbox"
+              ref={resultsRef}
+              className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-72 overflow-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
+            >
+              {results.length === 0 ? (
                 <li
-                  id={`result-item-${idx}`}
-                  key={idx}
-                  role="option"
-                  tabIndex={-1}
-                  aria-selected={focusedIndex === idx}
-                  className={`cursor-pointer px-4 py-3 transition-colors duration-150 ${
-                    focusedIndex === idx
-                      ? "bg-blue-600 text-white"
-                      : "hover:bg-blue-100 hover:text-blue-900"
-                  }`}
-                  onClick={() => onClickResult(item.url)}
-                  onMouseEnter={() => setFocusedIndex(idx)}
+                  className="px-4 py-3 text-gray-500 select-none"
+                  aria-live="polite"
+                  aria-atomic="true"
                 >
-                  <span className="font-semibold">{item.title}</span>
-                  {item.description && (
-                    <p className="text-sm text-gray-400 truncate">{item.description}</p>
-                  )}
+                  No results found.
                 </li>
-              ))
-            )}
-          </ul>
-        )}
+              ) : (
+                results.map((item, idx) => (
+                  <li
+                    id={`result-item-${idx}`}
+                    key={idx}
+                    role="option"
+                    tabIndex={-1}
+                    aria-selected={focusedIndex === idx}
+                    className={`cursor-pointer px-4 py-3 transition-colors duration-150 ${
+                      focusedIndex === idx
+                        ? "bg-blue-600 text-white"
+                        : "hover:bg-blue-100 hover:text-blue-900"
+                    }`}
+                    onClick={() => onClickResult(item.url)}
+                    onMouseEnter={() => setFocusedIndex(idx)}
+                  >
+                    <span className="font-semibold">{item.title}</span>
+                    {item.description && (
+                      <p className="text-sm text-gray-400 truncate">{item.description}</p>
+                    )}
+                  </li>
+                ))
+              )}
+            </ul>
+          )}
+        </div>
       </div>
     </div>
   );
