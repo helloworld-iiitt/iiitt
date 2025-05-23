@@ -70,15 +70,15 @@
             "title": "General Information",
             "description": "Details for candidates applying for the Internship Programme (External).",
             "buttonText": "Download General Instructions",
-            "link": "URL_TO_FORM1.pdf",
+            "link": "/documents/Internship_general_instructions.pdf",
             "headerColor": "warning",
             "textColor": "dark"
           },
           {
             "title": "Bonafide Certificate - FORM 1",
             "description": "Certificate confirming the student’s enrollment from their respective institution.",
-            "buttonText": "Download Form 1",
-            "link": "URL_TO_FORM1.pdf",
+            "buttonText": "Download Application Form",
+            "link": "/documents/Applciation_form_checklist.pdf",
             "headerColor": "info",
             "textColor": "dark"
           },
@@ -86,7 +86,7 @@
             "title": "Hostel Accommodation (offline) - FORM 2",
             "description": "Accommodation request form for internship students staying in IIITT hostels.",
             "buttonText": "Download Form 2",
-            "link": "URL_TO_FORM2.pdf",
+            "link": "/documents/Internship_no_dues.pdf.pdf",
             "headerColor": "secondary",
             "textColor": "white"
           }
@@ -94,4 +94,3 @@
       }
     ]
   }
-  
