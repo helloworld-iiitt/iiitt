@@ -1,8 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Box, Typography, Card, CardContent, Button, Table, TableBody, TableCell, TableHead, TableRow } from "@mui/material";
-import Grid from "@mui/material/Grid2"
+import {
+  Box,
+  Typography,
+  Card,
+  CardContent,
+  Button,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@mui/material";
+import Grid from "@mui/material/Grid2";
+import { Link as MuiLink } from "@mui/material";
+import LaunchIcon from "@mui/icons-material/Launch";
+import nextConfig from "../../../next.config";
 
 interface InternshipData {
   title: string;
@@ -25,7 +39,6 @@ interface CardData {
 
 interface Guideline {
   title: string;
-  desc: string;
 }
 
 interface TableRowData {
@@ -35,24 +48,23 @@ interface TableRowData {
 
 interface DocumentData {
   title: string;
-  description: string;
-  buttonText: string;
   link: string;
-  headerColor: string;
-  textColor: string;
 }
 
 export default function Internship() {
   const [data, setData] = useState<InternshipData | null>(null);
+
   useEffect(() => {
-    document.title = " Internship Cell | IIIT Tiruchirappalli ";
+    document.title = "Internship Cell | IIIT Tiruchirappalli";
     fetch("/json/students/internship.json")
       .then((res) => res.json())
       .then(setData)
       .catch(console.error);
   }, []);
 
-  if (!data) return <Typography>Loading...</Typography>;
+  if (!data) {
+    return <Typography>Loading...</Typography>;
+  }
 
   return (
     <Box sx={{ maxWidth: 1200, mx: "auto", p: 2 }}>
@@ -70,12 +82,17 @@ export default function Internship() {
           {section.cards && (
             <Grid container spacing={3} justifyContent="center">
               {section.cards.map((card, idx) => (
-                <Grid size={4} key={idx}>
+                <Grid key={idx} size={4}>
                   <Card sx={{ border: "2px solid #00796b" }}>
                     <CardContent>
                       <Typography
                         variant="h6"
-                        sx={{ backgroundColor: "#4CAF50", color: "white", p: 1, mb: 2 }}
+                        sx={{
+                          backgroundColor: "#4CAF50",
+                          color: "white",
+                          p: 1,
+                          mb: 2,
+                        }}
                       >
                         {card.header}
                       </Typography>
@@ -109,7 +126,6 @@ export default function Internship() {
                     <Typography variant="subtitle1" fontWeight="bold" color="primary">
                       {guideline.title}
                     </Typography>
-                    <Typography>{guideline.desc}</Typography>
                   </CardContent>
                 </Card>
               ))}
@@ -121,8 +137,16 @@ export default function Internship() {
             <Table sx={{ backgroundColor: "#4CAF50", color: "white" }}>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}>Date</TableCell>
-                  <TableCell sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}>Event</TableCell>
+                  <TableCell
+                    sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}
+                  >
+                    Date
+                  </TableCell>
+                  <TableCell
+                    sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}
+                  >
+                    Event
+                  </TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -138,32 +162,35 @@ export default function Internship() {
 
           {/* Documents */}
           {section.documents && (
-            <Grid container spacing={3} justifyContent="center" mt={3}>
-              {section.documents.map((doc, idx) => (
-                <Grid size={4} key={idx}>
-                  <Card sx={{ border: "2px solid #00796b" }}>
-                    <CardContent>
-                      <Typography
-                        variant="h6"
-
-                      >
-                        {doc.title}
-                      </Typography>
-                      <Typography>{doc.description}</Typography>
-                      <Button
-                        variant="outlined"
-                        href={doc.link}
-                        target="_blank"
-                        sx={{ mt: 2 }}
-                      >
-                        {doc.buttonText}
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </Grid>
-              ))}
-            </Grid>
-          )}
+  <Grid container spacing={3} justifyContent="center" mt={3}>
+    {section.documents.map((doc, idx) => (
+      <Grid size={6} key={idx}>
+        <Card sx={{ border: "2px solid #00796b", height: "100%" }}>
+          <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Typography variant="subtitle1" textAlign="center" gutterBottom fontWeight="bold">
+              {doc.title}
+            </Typography>
+            <MuiLink
+              href={`${nextConfig?.env?.DOCUMENT}${doc.link}`}
+              target="_blank"
+              underline="hover"
+              sx={{
+                mt: 2,
+                display: "flex",
+                alignItems: "center",
+                color: "primary.main",
+                fontWeight: "medium",
+                cursor: "pointer",
+              }}
+            >
+              View Document <LaunchIcon sx={{ fontSize: 18, ml: 0.5 }} />
+            </MuiLink>
+          </CardContent>
+        </Card>
+      </Grid>
+    ))}
+  </Grid>
+)}
         </Box>
       ))}
     </Box>

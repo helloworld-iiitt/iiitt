@@ -1,96 +1,90 @@
 {
-    "title": "Internship Cell (I- CELL)- IIIT Tiruchirappalli",
-    "sections": [
-      {
-        "heading": "Types of Internship",
-        "cards": [
-          {
-            "header": "1) Internal Internship for IIITT Students",
-            "text": "Internship opportunities for students within IIIT Tiruchirappalli under the supervision of faculty or internal departments."
-          },
-          {
-            "header": "2) External Internship for IIITT Students",
-            "text": "Students of IIIT Tiruchirappalli can intern at external organizations such as Companies, Indian Universities and any academic/Research institutes (IISc /IIT/ NIT/ IIIT, etc.)/ Research organizations, helping them gain industrial or research exposure."
-          },
-          {
-            "header": "3) Regular Internship for the External Students",
-            "text": "Open to students from other institutes, allowing them to intern at IIITT during the summer or winter break in offline/online mode."
-          }
-        ]
-      },
-      {
-        "heading": "Summer/ Winter Internship Programs",
-        "list": [
-          "Summer (6-8 weeks): Internship program in offline/online mode (usually during the vacation period)",
-          "Winter (4-6 weeks): Internship program in offline/online mode (usually during the vacation period)"
-        ]
-      },
-      {
-        "heading": "General Guidelines",
-        "guidelines": [
-          {
-            "title": "Registration Fee (Offline/Online Mode)",
-            "desc": "No registration fee for students from Indian and foreign universities/institutes."
-          },
-          {
-            "title": "Submission Form (Offline/Online Mode)",
-            "desc": "Submit the application form with the respective faculty’s consent."
-          },
-          {
-            "title": "Fellowship (Offline/Online Mode)",
-            "desc": "Fellowship will be at the discretion of the faculty supervisor subject to availability."
-          },
-          {
-            "title": "Accommodation (Offline mode)",
-            "desc": "On-campus accommodation and mess food shall be charged as per the institute norms and the same has to be deposited. Bedding will be provided on a payment basis, if informed in advance. Accommodation charges will be refunded if the student cannot join."
-          },
-          {
-            "title": "Certificate (Offline/Online)",
-            "desc": "A certificate will be issued at the end of the internship by the concerned Internship Cell (I-Cell) office with the approval of faculty supervisor."
-          },
-          {
-            "title": "Contacts",
-            "desc": "Contact your faculty supervisor in case you have any queries/doubts."
-          }
-        ]
-      },
-      {
-        "heading": "Important Dates",
-        "table": [
-          { "date": "Starting Date", "event": "Application Submission Starts on 15 May 2025" },
-          { "date": "Last Date", "event": "Submission of Application with Faculty Consent Form on or before 30th May 2025" },
-          { "date": "Start Date", "event": "Summer/Winter Internship (4 weeks) - 30 May / 15 November" },
-          { "date": "End Date", "event": "Summer/Winter Internship (2 weeks) - 25 July / 05 January" }
-        ]
-      },
-      {
-        "heading": "Important Documents",
-        "documents": [
-          {
-            "title": "General Information",
-            "description": "Details for candidates applying for the Internship Programme (External).",
-            "buttonText": "Download General Instructions",
-            "link": "/documents/Internship_general_instructions.pdf",
-            "headerColor": "warning",
-            "textColor": "dark"
-          },
-          {
-            "title": "Bonafide Certificate - FORM 1",
-            "description": "Certificate confirming the student’s enrollment from their respective institution.",
-            "buttonText": "Download Application Form",
-            "link": "/documents/Applciation_form_checklist.pdf",
-            "headerColor": "info",
-            "textColor": "dark"
-          },
-          {
-            "title": "Hostel Accommodation (offline) - FORM 2",
-            "description": "Accommodation request form for internship students staying in IIITT hostels.",
-            "buttonText": "Download Form 2",
-            "link": "/documents/Internship_no_dues.pdf.pdf",
-            "headerColor": "secondary",
-            "textColor": "white"
-          }
-        ]
-      }
-    ]
-  }
+  "title": "Internship Cell (I- CELL)- IIIT Tiruchirappalli",
+  "sections": [
+    {
+      "heading": "Types of Internship",
+      "cards": [
+        {
+          "header": "1) Internal Internship for IIITT Students",
+          "text": "Internship opportunities for students within IIIT Tiruchirappalli under the supervision of faculty or internal departments."
+        },
+        {
+          "header": "3) Regular Internship for the External Students at IIITT",
+          "text": "Open to students from other institutes, allowing them to intern at IIITT during the summer or winter break in offline/online mode."
+        }
+      ]
+    },
+    {
+      "heading": "Summer/ Winter Internship Programs",
+      "list": [
+        "Summer (6-8 weeks): Internship program in offline/online mode (usually during the vacation period)",
+        "Winter (4-6 weeks): Internship program in offline/online mode (usually during the vacation period)"
+      ]
+    },
+    {
+      "heading": "General Guidelines",
+      "guidelines": [
+        {
+          "title": "Students who have completed the first year of BE / BTech / ME / Integrated MTech (Engineering / Technology) or M.Sc /M.Phil /Integrated Ph.D (Sciences) are eligible to apply."
+        },
+        {
+          "title": "On-campus accommodation and mess charges are applicable as per institute norms."
+        },
+        {
+          "title": "Bedding may be provided on a payment basis; details will be communicated in advance."
+        },
+        {
+          "title": "Registration fee and Hostel Accommodation fee are non-Refundable. "
+        },
+        {
+          "title": "Fellowship, if any, will be at the discretion of the supervisor, subject to availability of funds."
+        },
+        {
+          "title": "Internship certificate will be provided upon completion of the program."
+        }
+      ]
+    },
+    {
+      "heading": "Important Dates",
+      "table": [
+        {
+          "date": "Starting Date",
+          "event": "26th May 2025"
+        },
+        {
+          "date": "Last Date",
+          "event": "Submission of Application with Faculty Consent Form on or before June 4th, 2025"
+        },
+        {
+          "date": "Start Date",
+          "event": "June 5th, 2025"
+        },
+        {
+          "date": "End Date",
+          "event": " August 1st, 2025"
+        }
+      ]
+    },
+    {
+      "heading": "Important Documents",
+      "documents": [
+        {
+          "title": "Application Form",
+          "link": "/Internships_2025/1 Application form and checklist.pdf"
+        },
+        {
+          "title": "Summer/Winter Internship Guidelines (Internal Internship)",
+          "link": "/Internships_2025/2 Guidelines for Internal internship.pdf"
+        },
+        {
+          "title": "Summer/Winter Internship Guidelines (Regular Internship)",
+          "link": "/Internships_2025/3 Guidelines for Regular internship.pdf"
+        },
+        {
+          "title": "Area of Specialization Details",
+          "link": "/Internships_2025/4 Area of Specialization Details.pdf"
+        }
+      ]
+    }
+  ]
+}
