@@ -13,6 +13,7 @@ import "./PaperCard.css";
 import { validURL } from "@/types/validator";
 import nextConfig from "../../../next.config";
 import { FiberNew, NewReleases } from "@mui/icons-material";
+import { checkforfilepath } from "@/types/filepath";
 
 interface Item {
   title: string;
@@ -60,10 +61,13 @@ const OutlinedCard: React.FC<PaperCardProps> = ({
               <li key={index} style={{ marginBottom: "15px" }}>
                 <Link
                   href={
-                    validURL(item.link)
-                      ? item.link
-                      : `${title==="Achievements" ? nextConfig?.env?.IMAGE : nextConfig?.env?.DOCUMENT}/${item.link}`
+                    item.link.startsWith('/') && !checkforfilepath(item.link)
+                      ? item.link // Internal routes checking like /cmp or any path
+                      : validURL(item.link)
+                        ? item.link // external sites like youtube(swarnim bharat)
+                        : `${title === "Achievements" ? nextConfig?.env?.IMAGE : nextConfig?.env?.DOCUMENT}/${item.link}`
                   }
+
                   target="_blank"
                   rel="noopener noreferrer"
                 >
