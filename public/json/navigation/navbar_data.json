@@ -154,16 +154,16 @@
           "link": "/studentcouncil"
         },
         {
-          "text": "Internship Cell",
-          "link": "/internship"
-        },
-        {
           "text": "Code of Conduct(2024)",
           "link": "http://store.iiitt.ac.in/downloads/notices/codeofconductforstudents(%202024).pdf"
         },
         {
           "text": "Code of Conduct(2025 onwards)",
           "link": "http://store.iiitt.ac.in/downloads/notices/Regulations%20for%20Academic%20and%20Hostel%20Students_IIITT-2025-1.pdf"
+        } ,
+               {
+          "text": "Interships",
+          "link": "internship"
         }
       ]
     },

@@ -18,7 +18,7 @@ interface CalendarData {
 const Calendar: React.FC = () => {
   const [calendar, setCalendar] = useState<Calendar[] | null>(null);
   useEffect(() => {
-    document.title = "Calendar | IITTT";
+    document.title = "Calendar | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

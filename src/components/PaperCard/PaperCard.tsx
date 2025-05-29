@@ -1,5 +1,8 @@
 "use client";
 
+import { checkforfilepath } from "@/types/filepath";
+import { validURL } from "@/types/validator";
+import { FiberNew } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -9,16 +12,14 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 import React from "react";
-import "./PaperCard.css";
-import { validURL } from "@/types/validator";
 import nextConfig from "../../../next.config";
-import { FiberNew, NewReleases } from "@mui/icons-material";
+import "./PaperCard.css";
 
 interface Item {
   title: string;
   link: string;
   date?: string;
-  isNew?: boolean; // ✅ Add this
+  isNew?: boolean;
 }
 
 interface PaperCardProps {
@@ -60,10 +61,13 @@ const OutlinedCard: React.FC<PaperCardProps> = ({
               <li key={index} style={{ marginBottom: "15px" }}>
                 <Link
                   href={
-                    validURL(item.link)
-                      ? item.link
-                      : `${title==="Achievements" ? nextConfig?.env?.IMAGE : nextConfig?.env?.DOCUMENT}/${item.link}`
+                    item.link.startsWith('/') && !checkforfilepath(item.link)
+                      ? item.link // Internal routes checking like /cmp or any path
+                      : validURL(item.link)
+                        ? item.link // external sites like youtube(swarnim bharat)
+                        : `${title === "Achievements" ? nextConfig?.env?.IMAGE : nextConfig?.env?.DOCUMENT}/${item.link}`
                   }
+
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -109,3 +113,4 @@ const OutlinedCard: React.FC<PaperCardProps> = ({
 };
 
 export { OutlinedCard, PaperCard };
+

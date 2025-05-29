@@ -1,8 +1,21 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Box, Typography, Card, CardContent, Button, Table, TableBody, TableCell, TableHead, TableRow } from "@mui/material";
-import Grid from "@mui/material/Grid2"
+import {
+  Box,
+  Typography,
+  Card,
+  CardContent,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@mui/material";
+import Grid from "@mui/material/Grid2";
+import { Link as MuiLink } from "@mui/material";
+import LaunchIcon from "@mui/icons-material/Launch";
+import nextConfig from "../../../next.config";
 
 interface InternshipData {
   title: string;
@@ -10,7 +23,7 @@ interface InternshipData {
 }
 
 interface Section {
-  heading: string;
+  heading?: string;
   cards?: CardData[];
   list?: string[];
   guidelines?: Guideline[];
@@ -20,12 +33,11 @@ interface Section {
 
 interface CardData {
   header: string;
-  text: string;
+  list?: string[];
 }
 
 interface Guideline {
   title: string;
-  desc: string;
 }
 
 interface TableRowData {
@@ -35,24 +47,23 @@ interface TableRowData {
 
 interface DocumentData {
   title: string;
-  description: string;
-  buttonText: string;
   link: string;
-  headerColor: string;
-  textColor: string;
 }
 
 export default function Internship() {
   const [data, setData] = useState<InternshipData | null>(null);
 
   useEffect(() => {
+    document.title = "Internship Cell | IIIT Tiruchirappalli";
     fetch("/json/students/internship.json")
       .then((res) => res.json())
       .then(setData)
       .catch(console.error);
   }, []);
 
-  if (!data) return <Typography>Loading...</Typography>;
+  if (!data) {
+    return <Typography>Loading...</Typography>;
+  }
 
   return (
     <Box sx={{ maxWidth: 1200, mx: "auto", p: 2 }}>
@@ -62,42 +73,46 @@ export default function Internship() {
 
       {data.sections.map((section, i) => (
         <Box key={i} mb={5}>
-          <Typography variant="h4" textAlign="center" mb={3}>
-            {section.heading}
-          </Typography>
+          {section.heading && (
+            <Typography variant="h4" textAlign="center" mb={3}>
+              {section.heading}
+            </Typography>
+          )}
 
           {/* Cards */}
           {section.cards && (
             <Grid container spacing={3} justifyContent="center">
               {section.cards.map((card, idx) => (
-                <Grid size={4} key={idx}>
-                  <Card sx={{ border: "2px solid #00796b" }}>
+                <Grid key={idx} size={10}>
+                  <Card sx={{ border: "2px solid #00796b", height: "100%" }}>
                     <CardContent>
                       <Typography
                         variant="h6"
-                        sx={{ backgroundColor: "#4CAF50", color: "white", p: 1, mb: 2 }}
+                        sx={{
+                          backgroundColor: "#4CAF50",
+                          color: "white",
+                          p: 1,
+                          mb: 2,
+                        }}
                       >
                         {card.header}
                       </Typography>
-                      <Typography>{card.text}</Typography>
+                      {card.list && (
+                        <Box sx={{ backgroundColor: "#f1f1f1", p: 2, borderRadius: 2 }}>
+                          <ul>
+                            {card.list.map((item, idx) => (
+                              <li key={idx} style={{ fontSize: "1rem", marginBottom: "0.5rem" }}>
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        </Box>
+                      )}
                     </CardContent>
                   </Card>
                 </Grid>
               ))}
             </Grid>
-          )}
-
-          {/* List */}
-          {section.list && (
-            <Box sx={{ backgroundColor: "#f1f1f1", p: 3, borderRadius: 2 }}>
-              <ul>
-                {section.list.map((item, idx) => (
-                  <li key={idx} style={{ fontSize: "1rem", marginBottom: "0.5rem" }}>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </Box>
           )}
 
           {/* Guidelines */}
@@ -109,7 +124,6 @@ export default function Internship() {
                     <Typography variant="subtitle1" fontWeight="bold" color="primary">
                       {guideline.title}
                     </Typography>
-                    <Typography>{guideline.desc}</Typography>
                   </CardContent>
                 </Card>
               ))}
@@ -118,11 +132,19 @@ export default function Internship() {
 
           {/* Table */}
           {section.table && (
-            <Table sx={{ backgroundColor: "#4CAF50", color: "white" }}>
+            <Table sx={{ backgroundColor: "#4CAF50", color: "white", mt: 2 }}>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}>Date</TableCell>
-                  <TableCell sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}>Event</TableCell>
+                  <TableCell
+                    sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}
+                  >
+                    Date
+                  </TableCell>
+                  <TableCell
+                    sx={{ color: "white", fontWeight: "bold", textAlign: "center" }}
+                  >
+                    Event
+                  </TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -140,24 +162,27 @@ export default function Internship() {
           {section.documents && (
             <Grid container spacing={3} justifyContent="center" mt={3}>
               {section.documents.map((doc, idx) => (
-                <Grid size={4} key={idx}>
-                  <Card sx={{ border: "2px solid #00796b" }}>
-                    <CardContent>
-                      <Typography
-                        variant="h6"
-
-                      >
+                <Grid size={6} key={idx}>
+                  <Card sx={{ border: "2px solid #00796b", height: "100%" }}>
+                    <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                      <Typography variant="subtitle1" textAlign="center" gutterBottom fontWeight="bold">
                         {doc.title}
                       </Typography>
-                      <Typography>{doc.description}</Typography>
-                      <Button
-                        variant="outlined"
-                        href={doc.link}
+                      <MuiLink
+                        href={`${nextConfig?.env?.DOCUMENT}${doc.link}`}
                         target="_blank"
-                        sx={{ mt: 2 }}
+                        underline="hover"
+                        sx={{
+                          mt: 2,
+                          display: "flex",
+                          alignItems: "center",
+                          color: "primary.main",
+                          fontWeight: "medium",
+                          cursor: "pointer",
+                        }}
                       >
-                        {doc.buttonText}
-                      </Button>
+                        View Document <LaunchIcon sx={{ fontSize: 18, ml: 0.5 }} />
+                      </MuiLink>
                     </CardContent>
                   </Card>
                 </Grid>

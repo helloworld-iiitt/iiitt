@@ -12,7 +12,7 @@ import CommitteePage from "@/components/tablecomponent/CommitteePage";
 
 const AntiRagging = () => {
   useEffect(() => {
-    document.title = "Anti Ragging Committe | IIITT";
+    document.title = "Anti Ragging Committe | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

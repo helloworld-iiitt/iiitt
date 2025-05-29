@@ -45,7 +45,7 @@ export default function AdministrativeForms() {
   }, []);
 
   useEffect(() => {
-    document.title = "Administrative Forms | IIITT";
+    document.title = "Administrative Forms | IIIT Tiruchirappalli";
     fetchFormsData();
     return () => {
       document.title = "IIIT Trichy";

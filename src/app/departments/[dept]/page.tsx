@@ -47,7 +47,7 @@ const Cse: React.FC = () => {
   const [cseData, setCseData] = useState<Department | null>(null);
 
   useEffect(() => {
-    document.title = `${dept} | IIITT`;
+    document.title = `${dept} | IIIT Tiruchirappalli`;
     return () => {
       document.title = "IIIT Trichy";
     };

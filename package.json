@@ -29,7 +29,9 @@
     "react-dom": "^19.0.0",
     "react-fontawesome": "^1.7.1",
     "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.30.3",
     "recharts": "^2.15.3",
+    "slick-carousel": "^1.8.1",
     "swiper": "^11.2.6"
   },
   "devDependencies": {
@@ -37,6 +39,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-slick": "^0.23.13",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "postcss": "^8",

@@ -13,7 +13,7 @@ interface FaqsData {
 const Faqs: React.FC = () => {
   const [faqs, setFaqs] = useState<FaqsData[] | null>(null);
   useEffect(() => {
-    document.title = "FAQs | IIITT";
+    document.title = "FAQs | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

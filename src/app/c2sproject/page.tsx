@@ -25,7 +25,7 @@ const C2SProject = () => {
   const base=`${process.env.NEXT_PUBLIC_CDN_IIITT}${process.env.NEXT_PUBLIC_DOCUMENT_URL}` || "http://store.iiitt.ac.in/downloads/c2s/bgimg2.jpg";
 
   useEffect(() => {
-    document.title = "C2S Project | IITTT";
+    document.title = "C2S Project | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

@@ -24,7 +24,7 @@ const Notices = () => {
   const [newNotices, setNewNotices] = useState<Item[]>([]);
 
   useEffect(() => {
-    document.title = "Notices | IIITT ";
+    document.title = "Notices | IIIT Tiruchirappalli ";
     const fetchNoticesData = async () => {
       try {
         const response = await fetch("/json/general/notices.json");
@@ -70,9 +70,9 @@ const Notices = () => {
 
           {!loading && !error && (
             <>
-              <NoticeSection title="Achievements" notices={newNotices} />
+              <NoticeSection title="New Notices" notices={newNotices} />
               <br></br>
-              <NoticeSection title="Old Achievements" notices={oldNotices} />
+              <NoticeSection title="Old Notices" notices={oldNotices} />
 
             </>
           )}

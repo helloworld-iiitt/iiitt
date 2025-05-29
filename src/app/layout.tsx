@@ -2,6 +2,9 @@ import { ReactNode } from "react";
 import Header from "../components/header/Header";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/Footer"
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 interface LayoutProps {
   children: ReactNode;
