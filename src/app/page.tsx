@@ -4,7 +4,6 @@ import MainCarousel from "@/components/Carousel/MainCarousel";
 import Marquee from "@/components/marquee/marquee";
 import MissionVision from "@/components/mission_vision/missionVision";
 import { PaperCard } from "@/components/PaperCard/PaperCard";
-import TwitterTimeline from "@/components/PaperCard/twitterTimeline";
 import PlacementStats from "@/components/Placementdata/PlacementStats";
 import {
   Box,
@@ -17,7 +16,8 @@ import {
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import "./globals.css";
-
+import StaticSocialPosts from "@/components/PaperCard/SocialMediaPosts";
+import SocialMediaPosts from "@/components/PaperCard/SocialMediaPosts";
 interface Item {
   title: string;
   link: string;
@@ -69,12 +69,13 @@ const Home: React.FC = () => {
     document.title = "IIIT Tiruchirappalli";
     const fetchData = async () => {
       try {
-        const [achRes, newsRes, eventsRes, noticeRes, carouselRes] = await Promise.all([
+        const [achRes, newsRes, eventsRes, noticeRes, carouselRes,] = await Promise.all([
           fetch("/json/general/achievements.json").then(res => res.json()),
           fetch("/json/general/news.json").then(res => res.json()),
           fetch("/json/events/events.json").then(res => res.json()),
           fetch("/json/general/notices.json").then(res => res.json()),
           fetch("/json/carousel/home_carousel.json").then(res => res.json()),
+          //fetch("/json/general/socialmediaposts.json").then(res => res.json()),
         ]);
 
         setData({
@@ -83,6 +84,7 @@ const Home: React.FC = () => {
           events: sortData(eventsRes.data),
           notice: sortData(noticeRes.data),
           loading: false,
+          //SocialMediaPost:SocialMediaPost
 
         });
         setCarouselData(carouselRes);
@@ -207,7 +209,7 @@ const Home: React.FC = () => {
           <Paper elevation={3} className="twittertimeline" id="twitter_timeline">
             <Tabs value={twitterTab} onChange={handleTwitterTabChange} aria-label="Placements-SocialMedia">
               <Tab label="Placements" {...a11yProps(0)} className="tab" />
-              <Tab label="Twitter" {...a11yProps(1)} className="tab" />
+              <Tab label="Social Media" {...a11yProps(1)} className="tab" />
             </Tabs>
 
             <TabPanel value={twitterTab} index={0}>
@@ -220,7 +222,7 @@ const Home: React.FC = () => {
 
             </TabPanel>
             <TabPanel value={twitterTab} index={1}>
-              <TwitterTimeline username="iiittrichy" />
+              <SocialMediaPosts/>
             </TabPanel>
           </Paper>
         </div>

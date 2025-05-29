@@ -70,9 +70,9 @@ const Notices = () => {
 
           {!loading && !error && (
             <>
-              <NoticeSection title="Achievements" notices={newNotices} />
+              <NoticeSection title="New Notices" notices={newNotices} />
               <br></br>
-              <NoticeSection title="Old Achievements" notices={oldNotices} />
+              <NoticeSection title="Old Notices" notices={oldNotices} />
 
             </>
           )}

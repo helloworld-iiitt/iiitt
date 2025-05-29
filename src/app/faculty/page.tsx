@@ -5,7 +5,7 @@ import Head from "next/head";
 import PersonCard from "@/components/PersonCard/PersonCard";
 import { Typography } from "@mui/material";
 import Link from "next/link";
-import styles from "./faculty.module.css"; 
+import styles from "./faculty.module.css";
 import nextConfig from "../../../next.config";
 
 interface FacultyMember {

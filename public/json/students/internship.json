@@ -1,28 +1,23 @@
 {
-  "title": "Internship Cell (I- CELL)- IIIT Tiruchirappalli",
+  "title": "Summer Internships 2025 ",
   "sections": [
     {
-      "heading": "Types of Internship",
+      "heading": "Types of Internships Available at IIITT",
       "cards": [
         {
-          "header": "1) Internal Internship for IIITT Students",
-          "text": "Internship opportunities for students within IIIT Tiruchirappalli under the supervision of faculty or internal departments."
+          "header": "Internal Internship - for IIITT Students"
         },
         {
-          "header": "3) Regular Internship for the External Students at IIITT",
-          "text": "Open to students from other institutes, allowing them to intern at IIITT during the summer or winter break in offline/online mode."
+          "header": "Regular Internship for the External Students at IIITT",
+          "list": [
+            "Summer Internship Program (6–8 weeks) – Conducted in offline/online mode, usually during the summer vacation period.",
+            "Winter Internship Program (4–6 weeks) – Conducted in offline/online mode, usually during the winter vacation period."
+          ]
         }
       ]
     },
     {
-      "heading": "Summer/ Winter Internship Programs",
-      "list": [
-        "Summer (6-8 weeks): Internship program in offline/online mode (usually during the vacation period)",
-        "Winter (4-6 weeks): Internship program in offline/online mode (usually during the vacation period)"
-      ]
-    },
-    {
-      "heading": "General Guidelines",
+      "heading": "General Guidelines for Regular Internships",
       "guidelines": [
         {
           "title": "Students who have completed the first year of BE / BTech / ME / Integrated MTech (Engineering / Technology) or M.Sc /M.Phil /Integrated Ph.D (Sciences) are eligible to apply."
@@ -48,19 +43,19 @@
       "heading": "Important Dates",
       "table": [
         {
-          "date": "Starting Date",
+          "date": "Application Submission Start Date",
           "event": "26th May 2025"
         },
         {
-          "date": "Last Date",
-          "event": "Submission of Application with Faculty Consent Form on or before June 4th, 2025"
+          "date": "Last Date for Application Submission (through google form, Refer guidelines)",
+          "event": "June 4th, 2025"
         },
         {
-          "date": "Start Date",
+          "date": "Start Date of Summer Internship",
           "event": "June 5th, 2025"
         },
         {
-          "date": "End Date",
+          "date": "End Date of Summer Internship",
           "event": " August 1st, 2025"
         }
       ]

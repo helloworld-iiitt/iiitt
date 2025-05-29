@@ -1,5 +1,8 @@
 "use client";
 
+import { checkforfilepath } from "@/types/filepath";
+import { validURL } from "@/types/validator";
+import { FiberNew } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -9,17 +12,14 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 import React from "react";
-import "./PaperCard.css";
-import { validURL } from "@/types/validator";
 import nextConfig from "../../../next.config";
-import { FiberNew, NewReleases } from "@mui/icons-material";
-import { checkforfilepath } from "@/types/filepath";
+import "./PaperCard.css";
 
 interface Item {
   title: string;
   link: string;
   date?: string;
-  isNew?: boolean; // ✅ Add this
+  isNew?: boolean;
 }
 
 interface PaperCardProps {
@@ -113,3 +113,4 @@ const OutlinedCard: React.FC<PaperCardProps> = ({
 };
 
 export { OutlinedCard, PaperCard };
+

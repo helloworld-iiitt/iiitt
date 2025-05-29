@@ -20,4 +20,11 @@
   .notice:hover {
     background: rgba(0, 0, 0, 0.15);
   }
+  .item_section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .doclist li {
+    margin-bottom: 1.5rem;
+  }
   

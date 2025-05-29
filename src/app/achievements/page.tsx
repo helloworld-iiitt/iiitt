@@ -69,8 +69,8 @@ const Achievements = () => {
           {!loading && !error && (
             <>
               <NoticeSection title="Achievements" notices={newNotices} />
-
-              <NoticeSection title="Old Achievements" notices={oldNotices} />
+              <br/>
+              <NoticeSection   title="Old Achievements" notices={oldNotices} />
             </>
           )}
         </Grid>

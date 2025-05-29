@@ -1,10 +1,17 @@
 {
     "data": [
         {
+            "title": "Ph.D_End Exam Schedule 2024-25 (Even sem)",
+            "description": "Ph.D_End Exam Schedule 2024-25 (Even sem)",
+            "link": "notices/Exam_schedule_2025/Ph.D_End exam schedule Ph.D 2024-25 Even sem.pdf",
+            "isNew": true,
+            "date": "28/05/2025"
+        },
+        {
             "title": "Ph.D_CT 2 Even semester 2024-25 Time table",
             "description": "Ph.D_CT 2 Even semester 2024-25 Time table",
             "link": "notices/Ph.D_CT 2 Even semester 2024-25 Time table.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "01/05/2025"
         },
 
@@ -12,42 +19,42 @@
             "title": "B.Tech supplementary examination schedule April 2024",
             "description": "B.Tech supplementary examination schedule April 2024",
             "link": "notices/B.Tech supplementary examination schedule April 2024.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {
             "title": "End Lab Exam Schedule_2024-25_Even_B.Tech (II,IV,VI,and VIII Sem)",
             "description": "End Lab Exam Schedule_2024-25_Even_B.Tech (II,IV,VI,and VIII Sem)",
             "link": "notices/Exam_schedule_2025/End Lab Exam Schedule_2024-25_Even_B.Tech (II,IV,VI,and VIII Sem).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {
             "title": "PG End Lab Exam Schedule_2024-25_Even (II&IV Sem)",
             "description": "PG End Lab Exam Schedule_2024-25_Even (II&IV Sem)",
             "link": "notices/Exam_schedule_2025/PG End Lab Exam Schedule_2024-25_Even (II&IV Sem).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {
             "title": "End Examination Even Sem 2024-25 1st Years",
             "description": "End Examination Even Sem 2024-25 1st Years",
             "link": "notices/Exam_schedule_2025/End examination Even Sem 2024-25 1st Years.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {
             "title": "End exam schedule 2024-25 even sem (IV, VI)",
             "description": "End Exam Schedule 2024-25 even sem (IV, VI)",
             "link": "notices/Exam_schedule_2025/End exam schedule 2024-25 even sem (IV, VI).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {
             "title": "PG_End Exam Even semester 2024-25 Time table",
             "description": "PG_End Exam Even semester 2024-25 Time table",
             "link": "notices/Exam_schedule_2025/ PG_End exam Even semester 2024-25 Time table.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "30/04/2025"
         },
         {

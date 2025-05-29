@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                 <Image src={`${nextConfig.env?.IMAGE}/iiitt-logo.png`} alt="IIITT Logo" priority width={40} height={80} />
               </div>
               <h2>Indian Institute Of Information Technology</h2>
-              <h3> Sethurapatti,Trichy-Madurai Highway,Tiruchirappalli,Tamil Nadu-620012</h3>
+              <h3> Sethurapatti ,Trichy-Madurai Highway,Tiruchirappalli,Tamil Nadu-620012</h3>
               <a href="mailto:office@iiitt.ac.in">
                 <MailIcon className="mailicon" />
                 office@iiitt.ac.in
@@ -80,7 +80,10 @@ const Footer: React.FC = () => {
             <hr />
             <a href="/faq">FAQ&apos;s</a>
             <hr />
-            <a href="http://iiitt.ac.in/">Older website</a>
+            <a href={nextConfig?.env?.OLDWEBSITE} target="_blank" rel="noopener noreferrer">
+  Older website
+</a>
+
            </div>
 
           <div className="last line"></div>
