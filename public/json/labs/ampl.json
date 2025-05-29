@@ -12,23 +12,23 @@
         {
           "name": "Mr AKILAN I",
           "designation": "PhD Scholar",
-          "src": "https://lh5.googleusercontent.com/YWOkCVV2bri9oy_jYr5zoMaNET5e4qVcQ00V7kIVozT3HjhvoUMEHE1XJJAvF9ybve6rR2NN0OocalV4UWZw9pqgTLTTV-x_kecJSt3Ct-kg1qiSQUamx4IJl_4DmX2_xw=w1280"
+          "src": "/phd_students/AKILAN_I.jpg"
         },
         {
           "name": "Mr. ARAVINDH RAJ B.R.",
           "designation": "PhD Scholar",
-          "src": "https://lh5.googleusercontent.com/MFr1PeojfLed0_svu4PU7G83pVEDfUT6UWx4vVaNmukeXOnAG6Se7TKtEXnyy1jU24zYjYEODYKSwONgeeRshL6s7ob3cyaDu388bsVJPVKJvNm01A4BKui_Ka2kFrmGgw=w1280"
+          "src": "/phd_students/ARAVINDH_RAJ.jpg"
         },
         {
           "name": "Mr. VIJAYA KUMAR P",
           "designation": "PhD Scholar",
-          "src": "https://lh5.googleusercontent.com/g0MumddpuoZq9AZxSoQd9cadsI4IfitZMfB6WqNHbO7wH27yPx_HdJY91yd2q4gNq-VoD_ji6F9U47RDfU8QY7J8sMuiSowyH7EYhqruhfbpifXLBU7NpwkGOEgpHYHRtQ=w1280"
-        },
+          "src": "/phd_students/VIJAYA_KUMAR_P.jpg"
+           },
         {
           "name": "Mr. FRANKLIN",
           "designation": "PhD Scholar",
-          "src": "https://lh5.googleusercontent.com/L4DwqsOeThEr24PKds3zPzzZzjCGDKkmPtURHpa7JUtgh1mo9ofjbu-_IdW0QDudRBp5hGAk7cz5K4WSQdznxxxmTQf8-bF1ZPqVQBXT2vV0kk-uI_CKv57gnlCeznVvbw=w1280"
-        }
+          "src": "/phd_students/FRANKLIN.jpg"
+          }
       ],
       "research_areas": ["Additive Manufacturing","Smart Materials & Shape Memory Alloys","Energy Storage Materials & Devices"],
       "projects": [
