@@ -188,19 +188,23 @@
 
 @media (max-width: 480px) {
   .card {
-    width: 280px;
+    width: 300px;
     padding: 15px;
     margin: 30px auto;
   }
 
   .top {
-    height: 75px;
+    height: 150px;
     padding-left: 8px;
   }
 
   .circleImg {
     width: 110px;
     height: 110px;
+    margin-right: 12px;
+  }
+  .bottom {
+    margin-top: 150px;
   }
 
   .description {
