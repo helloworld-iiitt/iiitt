@@ -27,7 +27,7 @@ export default function Director() {
             <div className={styles.imageContainer}>
               <Image
                 src={`${nextConfig.env?.IMAGE}/ushanatesan.jpg`}
-                alt="Director"
+                alt="Director( i\c)"
                 layout="fill"
                 objectFit="cover"
               />
@@ -36,7 +36,7 @@ export default function Director() {
               <Typography variant="h6" gutterBottom>
                 Prof. Usha Natesan
               </Typography>
-              <Typography variant="subtitle1">Director, IIIT Tiruchirappalli</Typography>
+              <Typography variant="subtitle1">Director(i\c), IIIT Trichy</Typography>
               <br />
               <a href="mailto:director@iiitt.ac.in" className={styles.linkStyle}>
                 <ContactMailIcon /> director@iiitt.ac.in

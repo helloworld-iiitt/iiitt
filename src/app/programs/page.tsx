@@ -115,7 +115,7 @@ const Programs: React.FC = () => {
                 <Typography fontWeight="bold">Computer Science and Engineering</Typography>
                 <Typography variant="body2">
                   Data Analytics, Machine Learning, Deep Learning, IoT, Cloud Computing,
-                  Medical Image Processing
+                  Medical Image Processing,Hardware security, Information security, Data Science, Remote Sensing & Geographic Information System(GIS), Digital Agriculture, Federated Learning, Full stack development.
                 </Typography>
               </Grid>
               <Grid size={12}>
