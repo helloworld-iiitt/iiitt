@@ -26,6 +26,7 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import MenuIcon from "@mui/icons-material/Menu";
 import NoteAddIcon from '@mui/icons-material/NoteAdd';
 import NotificationsIcon from "@mui/icons-material/Notifications";
@@ -49,7 +50,7 @@ interface SubMenuItem {
 }
 const iconMap: { [key: string]: React.ComponentType } = {
   account_balance: AccountBalanceIcon,
-  local_library: LocalLibraryIcon,
+  academics: LocalLibraryIcon,
   people: PeopleIcon,
   note_add: NoteAddIcon,
   notification_important: NotificationsIcon,
@@ -59,6 +60,7 @@ const iconMap: { [key: string]: React.ComponentType } = {
   workspace_premium: WorkspacePremiumIcon,
   work: WorkIcon,
   code: CodeIcon,
+  library:LibraryBooksIcon,
 };
 
 interface NavItem {

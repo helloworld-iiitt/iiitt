@@ -62,7 +62,7 @@
     },
     {
       "text": "Academics",
-      "icon": "local_library",
+      "icon": "academics",
       "submenu": [
         {
           "text": "Programs",
@@ -222,6 +222,12 @@
       "icon": "work",
       "name": "placements",
       "link": "http://placement.iiitt.ac.in/"
+    },
+    {
+      "text": "Library",
+      "icon": "library",
+      "name": "Library",
+      "link": "https://lib-webpage.vercel.app/"
     },
     {
       "text": "Contact Us",
