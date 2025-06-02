@@ -2,7 +2,7 @@
 
 ### About Project
 
-This project was bootstrapped with [ngx](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [npx create-next-app my-app](https://github.com/facebook/create-react-app).
 The project is targeted to revamp the old Official website of IIIT Trichy. The new website will have
 advanced styling and interactive interface.
 
