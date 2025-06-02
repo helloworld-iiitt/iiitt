@@ -1,6 +1,6 @@
 "use client";
 import MainCarousel from "@/components/Carousel/MainCarousel";
-import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import { Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import React, { useEffect, useState } from "react";
@@ -104,7 +104,7 @@ const Festivals: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                          <CloudDownloadIcon
+                          <OpenInNewIcon
                             className={styles.download}
                             style={{
                               marginRight: "5px",

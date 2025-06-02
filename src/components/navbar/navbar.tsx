@@ -150,6 +150,7 @@ const Navbar = () => {
       {/* Sidebar Drawer */}
       <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
         <List>
+          <Link href="/">
           <ListItem>
             <ListItemIcon>
               <Image
@@ -164,6 +165,7 @@ const Navbar = () => {
               <Typography variant="h6" sx={{ color: "Black" }}>IIITT</Typography>
             </ListItemText>
           </ListItem>
+          </Link>
         </List>
         <Divider />
         <List>
