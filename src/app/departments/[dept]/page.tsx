@@ -7,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../department.module.css";
 import InfoSection from "@/components/InfoSection/InfoSection";
 import EmptyNotice from "@/components/EmptySection/EmptyNotice";
+import PersonCard from "@/components/PersonCard/PersonCard";
 
 interface Department {
   department: string;
@@ -22,7 +23,10 @@ interface Department {
   }[];
   research_scholars: {
     name: string;
-    topic: string;
+    src: string;
+    emailId:string;
+    dept:string;
+    designation:string;
   }[];
   research_areas: string[];
   announcements: {
@@ -150,19 +154,25 @@ const Cse: React.FC = () => {
 
               {/* Research Scholars */}
               <InfoSection title="Research Scholars">
+                <div className={styles.scholargrid}>
                 {Array.isArray(cseData.research_scholars) &&
                   cseData.research_scholars.length > 0 ? (
                   cseData.research_scholars.map((scholar, index) => (
-                    <Box key={index} mb={1}>
-                      <Typography>{scholar.name}</Typography>
-                      <Typography variant="caption" color="text.secondary">
-                        Research Topic: {scholar.topic}
-                      </Typography>
-                    </Box>
+                    <div key={index}>
+                      <PersonCard
+                        name={scholar.name}
+                        emailID={scholar.emailId}
+                        src={scholar.src}
+                        src_type="phd"
+                        dept={scholar.dept}
+                        designation={scholar.designation}
+                      />
+                    </div>
                   ))
                 ) : (
                   <EmptyNotice />
                 )}
+                </div>
               </InfoSection>
    {/* Research Area */}
               <InfoSection title="Research Areas">

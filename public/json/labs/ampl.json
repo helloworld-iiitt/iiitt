@@ -11,22 +11,22 @@
       "phdStudents":[
         {
           "name": "Mr AKILAN I",
-          "designation": "PhD Scholar",
+          "designation": "Research Scholar(Full Time)",
           "src": "/phd_students/AKILAN_I.jpg"
         },
         {
           "name": "Mr. ARAVINDH RAJ B.R.",
-          "designation": "PhD Scholar",
+          "designation": "Research Scholar(Part Time)",
           "src": "/phd_students/ARAVINDH_RAJ.jpg"
         },
         {
           "name": "Mr. VIJAYA KUMAR P",
-          "designation": "PhD Scholar",
+          "designation": "Research Scholar(Full Time)",
           "src": "/phd_students/VIJAYA_KUMAR_P.jpg"
            },
         {
           "name": "Mr. FRANKLIN",
-          "designation": "PhD Scholar",
+          "designation": "Research Scholar(Full Time)",
           "src": "/phd_students/FRANKLIN.jpeg"
           }
       ],
