@@ -24,6 +24,7 @@ interface LabData {
   phdStudents: {
     name: string;
     src: string;
+    designation:string;
   }[];
   research_areas: string[];
   projects: {
@@ -118,6 +119,7 @@ const LabPage: React.FC<LabPageProps> = ({ labName }) => {
                       <PersonCard
                         key={index}
                         name={member.name}
+                        designation={member.designation}
                         src={member.src}
                         src_type="phd"
                       />

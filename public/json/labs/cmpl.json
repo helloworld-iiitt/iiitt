@@ -2,67 +2,78 @@
   "data": {
     "name": "Experimental Condensed Matter Physics Lab",
     "about": "Welcome to our Experimental Condensed Matter Physics Lab website, where we strive to understand the fundamental properties of matter and explore the fascinating phenomena that occur at the nanoscale. Our research focuses on studying the physical properties of condensed matter, including the behavior of electrons, phonons, and photons, at the quantum level.At our lab, we employ various experimental techniques and tools, such as thin film technology, spectroscopy, and microscopy, to investigate the properties of materials and understand their underlying physics. We work with a variety of materials, including metals, semiconductors, insulators, and magnetic materials, to investigate their electronic, magnetic, and optical properties.Our research is motivated by the desire to address some of the most pressing challenges facing modern society. For example, we study the properties of materials that could be used to develop faster and more efficient electronic devices, or to develop materials for sustainable energy generation and storage. Our research is also relevant for the development of new medical technologies, such as drug delivery systems and biosensors.At our lab, we place a strong emphasis on collaboration and teamwork. We work closely with colleagues from other disciplines, such as chemistry, materials science, and engineering, to tackle complex research questions and develop innovative solutions. We also collaborate with researchers from other institutions, both nationally and internationally, to broaden our research perspectives and bring new insights to our work.In addition to our research activities, we are committed to training the next generation of experimental physicists. We offer opportunities for undergraduate and graduate students to gain hands-on experience in our lab, working alongside our researchers to conduct experiments and analyze data. We also provide training and mentorship to postdoctoral researchers, who contribute their expertise and ideas to our research projects.Our lab is supported by a range of funding sources, including grants from the SERB and the DST. We are grateful for this support, which enables us to carry out our research and contribute to the advancement of our field.Thank you for visiting our Experimental Condensed Matter Physics Lab website. We hope you will find the information here informative and engaging, and we invite you to learn more about our research, our team, and our contributions to the field of experimental physics.",
-    "equipment": ["Thermal & E- beam Evaporator","UV - Vis Absorption Spectrometer","Diffused Reflectance Spectrophotometer","Spin Coater","Surface Enhanced Raman Spectrometer","Magnetic Stirrer","Weighing balance"," Glass Vacuum Desiccator Jar","Photoluminescence Spectrometer","Ultrasonic Nebulizer"],
+    "equipment": [
+      "Thermal & E- beam Evaporator",
+      "UV - Vis Absorption Spectrometer",
+      "Diffused Reflectance Spectrophotometer",
+      "Spin Coater",
+      "Surface Enhanced Raman Spectrometer",
+      "Magnetic Stirrer",
+      "Weighing balance",
+      " Glass Vacuum Desiccator Jar",
+      "Photoluminescence Spectrometer",
+      "Ultrasonic Nebulizer"
+    ],
     "faculty_incharge": {
       "name": "Dr. Kamakshi K",
       "designation": "Assistant Professor,H.O.D Science and Humanities",
       "src": "/faculty/Kamakshi1.jpeg"
     },
-    "phdStudents":[
+    "phdStudents": [
       {
         "name": "Angitha S",
-        "designation": "PhD Scholar",
-        "src":"/phd_students/angitha.JPG"
-        },
+        "designation": "Research Scholar & JRF",
+        "src": "/phd_students/angitha.JPG"
+      },
       {
         "name": "Bhakyalatha M",
-        "designation": "PhD Scholar",
-        "src":"/phd_students/Bhakyalatha.jpg"}
+        "designation": "Research Scholar(Full Time)",
+        "src": "/phd_students/Bhakyalatha.jpg"
+      }
     ],
-    "research_areas": ["Photonics and Optoelectronic Devices"],
-
-      "projects": [
-        {
-          "title": "Development of plasmonic nanostructures for SERS-based pathogenic bacteria sensing",
-          "description": "Ongoing — Project file No: CRS/2024-25/2029, funded by UGC-DAE CSR."
-        },
-        {
-          "title": "Development of efficient and flexible solar cells based on plasmonic absorbers and amorphous silicon thin films",
-          "description": "Ongoing — Project file No: SPG/2021/003797, SERB-Power Grant (Rs. 43,67,264)."
-        },
-        {
-          "title": "Development of SERS Based Sensor Using Graphene-Metal Nanoparticles Hybrid structures for Detection of Pesticides",
-          "description": "Completed — Project file No: ECR/2017/002537, funded by DST–ECRA (Oct 2018 – Apr 2022, Rs. 46,63,740)."
-        },
-        {
-          "title": "Development of Active Magneto-Plasmonic Nanostructures",
-          "description": "Completed — Grant No: SFRH/BPD/87215/2012, funded by Portuguese Foundation of Science and Technology (FCT) (Jan 2013 – Dec 2015)."
-        }
+    "research_areas": [
+      "Photonics and Optoelectronic Devices"
+    ],
+    "projects": [
+      {
+        "title": "Development of plasmonic nanostructures for SERS-based pathogenic bacteria sensing",
+        "description": "Ongoing — Project file No: CRS/2024-25/2029, funded by UGC-DAE CSR."
+      },
+      {
+        "title": "Development of efficient and flexible solar cells based on plasmonic absorbers and amorphous silicon thin films",
+        "description": "Ongoing — Project file No: SPG/2021/003797, SERB-Power Grant (Rs. 43,67,264)."
+      },
+      {
+        "title": "Development of SERS Based Sensor Using Graphene-Metal Nanoparticles Hybrid structures for Detection of Pesticides",
+        "description": "Completed — Project file No: ECR/2017/002537, funded by DST–ECRA (Oct 2018 – Apr 2022, Rs. 46,63,740)."
+      },
+      {
+        "title": "Development of Active Magneto-Plasmonic Nanostructures",
+        "description": "Completed — Grant No: SFRH/BPD/87215/2012, funded by Portuguese Foundation of Science and Technology (FCT) (Jan 2013 – Dec 2015)."
+      }
+    ],
+    "publications": {
+      "2025": [
+        "Bhakyalatha, M., M. Tasneem, R. Soundarya, K. C. Sekhar, and Koppole Kamakshi. 'Enhancing the photocatalytic performance of spin coated SrTiO3 and 0.6 Ba (Zr0·2Ti0.8)O3–0.4 (Ba0·7Ca0.3)TiO3 heterostructure films via charge coupling effect.' Journal of Physics and Chemistry of Solids (2025): 112750.",
+        "Sathyan, Angitha, and Kamakshi Koppole. 'Thermal Annealing Effect on Properties of Nickel Oxide (NiO) Thin Films for Photovoltaic Applications.' physica status solidi (a): 2400784."
       ],
-
-        "publications": {
-          "2025": [
-            "Bhakyalatha, M., M. Tasneem, R. Soundarya, K. C. Sekhar, and Koppole Kamakshi. 'Enhancing the photocatalytic performance of spin coated SrTiO3 and 0.6 Ba (Zr0·2Ti0.8)O3–0.4 (Ba0·7Ca0.3)TiO3 heterostructure films via charge coupling effect.' Journal of Physics and Chemistry of Solids (2025): 112750.",
-            "Sathyan, Angitha, and Kamakshi Koppole. 'Thermal Annealing Effect on Properties of Nickel Oxide (NiO) Thin Films for Photovoltaic Applications.' physica status solidi (a): 2400784."
-          ],
-          "2024": [
-            "Tasneem, Muhassinah, and K. Kamakshi. 'Dysprosium doping induced effects on structural, dielectric, energy storage density, and electro-caloric response of lead-free ferroelectric barium titanate ceramics.' Journal of Materials Science 59, no. 4 (2024): 1472–1485.",
-            "Gokulakrishnan, J., and Kamakshi Koppole. 'Green synthesized Ag/rGO embedded flexible cotton SERS substrate for methylene blue detection.' Optical Materials 147 (2024): 114712.",
-            "Gokulakrishnan, J., K. Kamakshi, and K. C. Sekhar. 'Tuning the Morphological and Optical Properties of Pulsed Laser-Deposited Gold Nanoparticle Thin Films by Varying Number of Laser Pulses.' Surface Engineering and Applied Electrochemistry 60, no. 1 (2024): 42–49.",
-            "Gokulakrishnan, J., Manojkumar, P. A., and Kamakshi Koppole. 'Surfactant-free facile synthesis of Ag/rGO nanohybrid for SERS-based detection of melamine.' Plasmonics 19, no. 1 (2024): 471–480."
-          ],
-          "2023": [
-            "Tasneem, Muhassinah, Carlos R. P. Monteiro, N. S. Kiran Kumar, José Pedro Basto Silva, K. C. Sekhar, K. Kamakshi, and Mário Pereira. 'Thickness-dependent microstructure, resistive switching, ferroelectric, and energy storage properties of pulsed laser deposited 0.85[0.6 Ba(Zr0.2Ti0.8)O3–0.4(Ba0.7Ca0.3)TiO3]–0.15 SrTiO3 thin films.' Ceramics International 49, no. 12 (2023): 20756–20762.",
-            "Tasneem, Muhassinah, J. Gokulakrishnan, K. C. Sekhar, S. Sathish, and Koppole Kamakshi. 'Effect of SrTiO3 buffer layer on electrical, ferroelectric memory, and polarization reversal studies of spin-coated ferroelectric 0.6 Ba(Zr0.2Ti0.8)O3–0.4(Ba0.7Ca0.3)TiO3 thin film in MFIS structure.' Current Applied Physics 51 (2023): 91–97.",
-            "Angitha, S., Kevin V. Alex, José Pedro Basto Silva, K. C. Sekhar, M. Tasneem, and K. Kamakshi. 'Optical properties of flexible ceramic films.' In *Advanced Flexible Ceramics*, pp. 129–168. Elsevier, 2023.",
-            "Gokulakrishnan, J., Kamakshi Koppole, R. Rugmini, and K. C. Sekhar. 'Green synthesis of carbon dots-functionalized silver nanoparticles for SERS-based detection of thiram fungicide.' Applied Physics A 129, no. 11 (2023): 778."
-          ],
-          "2022": [
-            "Gokulakrishnan, Kevin Varghese Alex, Koppole C. Sekhar, and Kamakshi Koppole. 'Highly Sensitive, Cost‐Effective, and Flexible SERS Substrate Based on Green Synthesized GO/rGO for Pesticide Detection.' ChemistrySelect 7, no. 20 (2022): e202200348."
-          ]
-        }
-      ,
-      "contact": {
+      "2024": [
+        "Tasneem, Muhassinah, and K. Kamakshi. 'Dysprosium doping induced effects on structural, dielectric, energy storage density, and electro-caloric response of lead-free ferroelectric barium titanate ceramics.' Journal of Materials Science 59, no. 4 (2024): 1472–1485.",
+        "Gokulakrishnan, J., and Kamakshi Koppole. 'Green synthesized Ag/rGO embedded flexible cotton SERS substrate for methylene blue detection.' Optical Materials 147 (2024): 114712.",
+        "Gokulakrishnan, J., K. Kamakshi, and K. C. Sekhar. 'Tuning the Morphological and Optical Properties of Pulsed Laser-Deposited Gold Nanoparticle Thin Films by Varying Number of Laser Pulses.' Surface Engineering and Applied Electrochemistry 60, no. 1 (2024): 42–49.",
+        "Gokulakrishnan, J., Manojkumar, P. A., and Kamakshi Koppole. 'Surfactant-free facile synthesis of Ag/rGO nanohybrid for SERS-based detection of melamine.' Plasmonics 19, no. 1 (2024): 471–480."
+      ],
+      "2023": [
+        "Tasneem, Muhassinah, Carlos R. P. Monteiro, N. S. Kiran Kumar, José Pedro Basto Silva, K. C. Sekhar, K. Kamakshi, and Mário Pereira. 'Thickness-dependent microstructure, resistive switching, ferroelectric, and energy storage properties of pulsed laser deposited 0.85[0.6 Ba(Zr0.2Ti0.8)O3–0.4(Ba0.7Ca0.3)TiO3]–0.15 SrTiO3 thin films.' Ceramics International 49, no. 12 (2023): 20756–20762.",
+        "Tasneem, Muhassinah, J. Gokulakrishnan, K. C. Sekhar, S. Sathish, and Koppole Kamakshi. 'Effect of SrTiO3 buffer layer on electrical, ferroelectric memory, and polarization reversal studies of spin-coated ferroelectric 0.6 Ba(Zr0.2Ti0.8)O3–0.4(Ba0.7Ca0.3)TiO3 thin film in MFIS structure.' Current Applied Physics 51 (2023): 91–97.",
+        "Angitha, S., Kevin V. Alex, José Pedro Basto Silva, K. C. Sekhar, M. Tasneem, and K. Kamakshi. 'Optical properties of flexible ceramic films.' In *Advanced Flexible Ceramics*, pp. 129–168. Elsevier, 2023.",
+        "Gokulakrishnan, J., Kamakshi Koppole, R. Rugmini, and K. C. Sekhar. 'Green synthesis of carbon dots-functionalized silver nanoparticles for SERS-based detection of thiram fungicide.' Applied Physics A 129, no. 11 (2023): 778."
+      ],
+      "2022": [
+        "Gokulakrishnan, Kevin Varghese Alex, Koppole C. Sekhar, and Kamakshi Koppole. 'Highly Sensitive, Cost‐Effective, and Flexible SERS Substrate Based on Green Synthesized GO/rGO for Pesticide Detection.' ChemistrySelect 7, no. 20 (2022): e202200348."
+      ]
+    },
+    "contact": {
       "email": "kamakshik@iiitt.ac.in",
       "phone": ""
     }
