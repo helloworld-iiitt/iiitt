@@ -125,6 +125,9 @@ html {
 .icon-bg:hover .linkedin {
   color: #0e76a8;
 }
+.icon-bg:hover .youtube {
+  color: #FF0000;
+}
 .icon-bg {
   background-color: #2e8b57;
   width: 3rem;
