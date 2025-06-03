@@ -9,6 +9,7 @@
         "designation": "Administrative Assistant",
         "src": "/admin/saraswathy.jpg",
         "phone":""
+      ,"emailID":"msaraswathy.office@iiitt.ac.in"
       },
       {
         "id": {
@@ -19,6 +20,7 @@
         "designation": "Administrative Assistant",
         "src":"/admin/kannan.jpg",
         "phone":""
+        ,"emailID":"rkannan.office@iiitt.ac.in"
       },
       {
         "id": {
@@ -29,6 +31,9 @@
         "designation": "Multi-Tasking Staff",
         "src": "/admin/lokesh.jpg",
         "phone":""
+        ,"emailID":"vlokeshwaran.office@iiitt.ac.in"
       }
     ]
+
+
 }

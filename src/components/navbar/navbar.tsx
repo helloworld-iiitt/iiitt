@@ -150,7 +150,7 @@ const Navbar = () => {
       {/* Sidebar Drawer */}
       <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
         <List>
-          <Link href="/">
+          <Link href="/" onClick={() => setDrawerOpen(false)}>
           <ListItem>
             <ListItemIcon>
               <Image

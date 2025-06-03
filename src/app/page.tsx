@@ -206,7 +206,7 @@ const Home: React.FC = () => {
           </Paper>
 
           {/* Twitter Timeline Section */}
-          <Paper elevation={3} className="twittertimeline" id="twitter_timeline">
+          <Paper elevation={3} className="tabbedPane" id="twitter_timeline">
             <Tabs value={twitterTab} onChange={handleTwitterTabChange} aria-label="Placements-SocialMedia">
               <Tab label="Placements" {...a11yProps(0)} className="tab" />
               <Tab label="Social Media" {...a11yProps(1)} className="tab" />

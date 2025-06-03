@@ -5,6 +5,8 @@ import Slider from 'react-slick';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
 
+import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import "./SocialMediaPosts.css"
 
 const Loader = () => (
   <Box display="flex" justifyContent="center" alignItems="center" height={400}>
@@ -26,6 +28,7 @@ const TwitterEmbed = ({ tweetUrl }: { tweetUrl: string }) => {
 
   return (
     <>
+      <i>{tweetUrl}</i>
       {!loaded && <Loader />}
       <div style={{ maxHeight: '560px', overflow: 'hidden', margin: '0 auto' }}>
         <blockquote
@@ -57,6 +60,7 @@ const InstagramEmbed = ({ postUrl }: { postUrl: string }) => {
 
   return (
     <>
+        <i>{postUrl}</i>
       {!loaded && <Loader />}
       <blockquote
         className="instagram-media mx-auto"
@@ -83,6 +87,7 @@ const FacebookEmbed = ({ postUrl }: { postUrl: string }) => {
 
   return (
     <>
+        <i>{postUrl}</i>
       {!loaded && <Loader />}
       <div
         className="fb-post"
@@ -94,76 +99,78 @@ const FacebookEmbed = ({ postUrl }: { postUrl: string }) => {
   );
 };
 
+const platformDetailsMap: Record<
+  string,
+  { name: string; icon: React.ReactNode; className: string }
+> = {
+  twitter: { name: 'Twitter', icon: <FaTwitter />, className: 't' },
+  instagram: { name: 'Instagram', icon: <FaInstagram />, className: 'i' },
+  facebook: { name: 'Facebook', icon: <FaFacebook />, className: 'f' },
+  linkedin: { name: 'LinkedIn', icon: <FaLinkedin />, className: 'l' },
+  youtube: { name: 'YouTube', icon: <FaYoutube />, className: 'y' },
+};
+
+type SocialPostsData = Record<string, string[]>;
+
 const SocialMediaPosts = () => {
-  const [socialPosts, setSocialPosts] = useState<{
-    twitter?: string;
-    instagram?: string;
-    facebook?: string;
-    linkedin?: string;
-  } | null>(null);
+  const [postsData, setPostsData] = useState<SocialPostsData | null>(null);
 
   useEffect(() => {
     fetch('/json/general/social-posts.json')
       .then(res => res.json())
-      .then(data => setSocialPosts(data))
+      .then(data => setPostsData(data))
       .catch(err => console.error('Failed to load social posts:', err));
   }, []);
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 8000,
-    adaptiveHeight: true,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
-  if (!socialPosts) return <Loader />;
+  if (!postsData) return <Loader />;
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4 py-8 overflow-hidden max-h-[560px]">
-      <Slider {...settings}>
-        {socialPosts.twitter && (
-          <div style={{ maxHeight: '560px' }}>
-            <TwitterEmbed tweetUrl={socialPosts.twitter} />
-          </div>
-        )}
-        {socialPosts.instagram && (
-          <div>
-            <InstagramEmbed postUrl={socialPosts.instagram} />
-          </div>
-        )}
-        {socialPosts.facebook && (
-          <div>
-            <FacebookEmbed postUrl={socialPosts.facebook} />
-          </div>
-        )}
-        {/* {socialPosts.linkedin && (
-          <div>
-            <LinkedInEmbed embedUrl={socialPosts.linkedin} />
-          </div>
-        )} */}
-      </Slider>
+    <div className="social-media-container">
+
+      <div className="social-media-grid">
+        {Object.entries(postsData).map(([platform, urls]) => {
+          const platformInfo = platformDetailsMap[platform.toLowerCase()] || {
+            name: platform,
+            icon: null,
+            className: 'default-platform',
+          };
+
+          return (
+            <div
+              key={platform}
+              className={`social-media-card ${platformInfo.className}`}
+            >
+              <div className='social-icon-container'>
+              <div className="social-icon">{platformInfo.icon}</div>
+              <div className="social-media-name">{platformInfo.name}</div>
+              </div>
+              <div>
+              <div className="social-media-marquee-wrapper">
+                <div className="social-media-marquee">
+                  {urls.map((url, index) => (
+                    <a
+                      key={index}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-media-url"
+                    >
+                      {url}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
 
 export default SocialMediaPosts;
+
+
+
+
