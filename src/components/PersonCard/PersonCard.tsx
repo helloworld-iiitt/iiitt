@@ -71,7 +71,7 @@ const PersonCard: React.FC<PersonCardProps> = ({
             <strong>Room No: </strong>{Room}
           </p>
         )}
-        {dept && dept.trim() && src_type === "Warden" && (
+        {dept && dept.trim() && (src_type === "Warden"||src_type==="phd" ) && (
           <p className={styles.researchArea}>
             {dept}
           </p>

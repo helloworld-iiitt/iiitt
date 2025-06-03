@@ -24,20 +24,41 @@
     "research_scholars": [
       {
         "name": "Mr AKILAN I",
-        "topic": ""
+        "src": "/phd_students/AKILAN_I.jpg",
+        "dept": "Mechanical",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
       },
       {
         "name": "Mr. ARAVINDH RAJ B.R.",
-        "topic":""
+        "src": "/phd_students/ARAVINDH_RAJ.jpg",
+        "dept": "Mechanical",
+        "emailId": "",
+        "designation": "Research Scholar(Part Time)"
       },
       {
         "name": "Mr. VIJAYA KUMAR P",
-        "topic": ""
+        "src": "/phd_students/VIJAYA_KUMAR_P.jpg",
+        "dept": "Mechanical",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
       },
       {
         "name": "Mr. FRANKLIN",
-        "topic": ""
+        "src": "/phd_students/FRANKLIN.jpeg",
+        "dept": "Mechanical",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
+      },
+      {
+        "name": "Mr. L. MARIYA IRUDAYARAJ",
+        "src": "/phd_students/L_MARIYA_IRUDAYARAJRANKLIN.JPG",
+        "dept": "Mechanical",
+        "emailId": "",
+        "designation": "Research Scholar(Part Time)"
       }
+
+
     ],
     "announcements": [],
     "latest_news": [],

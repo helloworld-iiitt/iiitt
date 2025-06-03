@@ -23,6 +23,15 @@
   letter-spacing: 1px;
 }
 
+.scholargrid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -33,6 +42,8 @@
     transform: translateY(0);
   }
 }
+
+
 
 
 .departmentDesc {

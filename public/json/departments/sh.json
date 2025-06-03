@@ -29,12 +29,81 @@
     ],
     "research_scholars": [
       {
-        "name": "Angitha S",
-        "topic": ""
+        "name": "Bhakyalatha M",
+        "src": "/phd_students/Bhakyalatha.jpg",
+        "dept": "Physics",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
       },
       {
-        "name": "Bhakyalatha M",
-        "topic": ""
+        "name": "Angitha S",
+        "src": "/phd_students/angitha.JPG",
+        "dept": "Physics",
+        "emailId": "",
+        "designation": "Research Scholar & JRF"
+      },
+      {
+        "name": "Ms. M. Tasneem",
+        "src": "/phd_students/Tasneem.JPG",
+        "dept": "Physics",
+        "emailId": "",
+        "designation": "Research Scholar(Part Time)"
+      },
+      {
+        "name": "Mr. Gokula Krishnan J",
+        "src": "/phd_students/Gokula_Krishnan_J.JPG",
+        "dept": "Physics",
+        "emailId": "",
+        "designation": "Research Scholar & JRF"
+      },
+      {
+        "name": "Ms. Susmitha Priyadharshini D R",
+        "src": "/phd_students/Susmitha_Priyadharshini.png",
+        "dept": "Mathematics",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
+      },
+      {
+        "name": "Mr. Santhosh Thota",
+        "src": "/phd_students/Santhosh_Thota.png",
+        "dept": "Mathematics",
+        "emailId": "",
+        "designation": "Research Scholar(Part Time)"
+      },
+      {
+        "name": "Mr. Vengala Narender",
+        "src": "/phd_students/Vengala_Narender.JPG",
+        "dept": "Mathematics",
+        "emailId": "",
+        "designation": "Research Scholar(Part Time)"
+      },
+      {
+        "name": "Ms. Kumari Pratima Yadhav",
+        "src": "/phd_students/Pratima_Yadhav.JPG",
+        "dept": "Economics",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
+      },
+      {
+        "name": "Mr. Veeresh Tadahal",
+        "src": "/phd_students/Veeresh_Tadahal.JPG",
+        "dept": "Economics",
+        "emailId": "",
+        "designation": "Research Scholar(Part Time)"
+      },
+      {
+        "name": "Mr. Teenesh Kumaravel",
+        "src": "/phd_students/Teenesh_Kumaravel.png",
+        "dept": "English",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
+      },
+      {
+        "name": "Mrs. Gadha M R",
+        "src": "/phd_students/Gadha_M_R.JPG",
+        "dept": "English",
+        "emailId": "",
+        "designation": "Research Scholar(Full Time)"
       }
     ],
     "announcements": [],
