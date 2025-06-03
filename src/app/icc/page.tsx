@@ -12,11 +12,11 @@ export default function icc() {
             style={{ marginRight: "5px", color: "#007bff" }}
           />
           <a
-            href={`${nextConfig.env?.DOCUMENT}/notices/Gst_certificate.pdf`}
+            href={`${nextConfig.env?.DOCUMENT}/Revised Office Order - ICC - 17.02.2025.pdf`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            GST Certificate
+            Office Order
           </a>
         </Typography>
  </>
