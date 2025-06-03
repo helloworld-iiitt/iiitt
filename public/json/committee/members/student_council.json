@@ -1,54 +1,102 @@
 {
-    "": [
+    "General Secretary": [
         {
-            "name": "Ravindra Bhinchar",
-            "designation": " Vice President",
-            "emailId": "221241@iiitt.ac.in",
-            "src": "/studentsCouncil/vicepresident.jpg"
+            "name": "A Gnyan Sai",
+            "designation": " General Secretary",
+            "emailId": "221209@iiitt.ac.in",
+            "src": "/studentsCouncil/general_secretary.jpg"
         }
     ],
-    "Technical": [
+    "Sports Secretary": [
         {
-            "name": "Lakshendra Sejwani",
-            "designation": "Technical Secretary",
-            "emailId": "221229@iiitt.ac.in",
-            "src": "/studentsCouncil/technical.png"
-        }
-    ],
-    "Cultural": [
-        {
-            "name": "Atharva More",
-            "designation": "Cultural Secretary",
-            "emailId": "211105@iiitt.ac.in",
-            "src": "/studentsCouncil/cultural.jpg"
-        },
-        {
-            "name": "Asrij Sriramoju",
-            "designation": "Cultural Vice Secretary",
-            "emailId": "221156@iiitt.ac.in",
-            "src": "/studentsCouncil/culturalvice.jpg"
-        }
-    ],
-    "Sports": [
-        {
-            "name": "M Ram Charan",
+            "name": "Raahath Shaik",
             "designation": "Sports Secretary",
-            "emailId": "211119@iiitt.ac.in",
-            "src": "/studentsCouncil/sports.jpg"
-        },
-        {
-            "name": "Venh Arya",
-            "designation": "Sports Vice Secretary",
-            "emailId": "221165@iiitt.ac.in",
-            "src": "/studentsCouncil/Sports_VS_2025.png"
+            "emailId": "221245@iiitt.ac.in",
+            "src": "/studentsCouncil/sports.png"
         }
     ],
-    "Post Graduate secretary": [
+    "Academic Affairs Secretary": [
         {
-            "name": "Vighnesh M S",
-            "designation": "PG Secretary",
-            "emailId": "232104@iiitt.ac.in",
-            "src": "/studentsCouncil/pgsec.jpg"
+            "name": "S Kowshika",
+            "designation": "Academic Affairs Secretary (Girls)",
+            "emailId": "241232@iiitt.ac.in",
+            "src": "/studentsCouncil/academic_girls.jpg"
+        },
+        {
+            "name": "Shivam Sharma",
+            "designation": "Academic Affairs Secretary (Boys)",
+            "emailId": "241153@iiitt.ac.in",
+            "src": "/studentsCouncil/academic_boys.jpg"
+        }
+    ],
+
+    "Hostel Affairs Secretary": [
+        {
+            "name": "B. Raja Rajeswari",
+            "designation": "Hostel Affairs Secretary (Girls)",
+            "emailId": "221110@iiitt.ac.in",
+            "src": "/studentsCouncil/hostel_girls.jpg"
+        },
+        {
+            "name": "Alajingi Ganesh",
+            "designation": "Hostel Affairs Secretary (Boys)",
+            "emailId": "221103@iiitt.ac.in",
+            "src": "/studentsCouncil/hostel_boys.jpg"
+        }
+    ],
+    "Co-Curricular Affairs Secretary": [
+        {
+            "name": "Pravas Mohanty",
+            "designation": "Co-Curricular Affairs Secretary",
+            "emailId": "231146@iiitt.ac.in",
+            "src": "/studentsCouncil/co_curricular_boys.jpg"
+        }
+    ],
+    "Cultural Affairs Secretary": [
+        {
+            "name": "Tenali Likhita",
+            "designation": "Cultural Affairs Secretary (Girls)",
+            "emailId": "241157@iiitt.ac.in",
+            "src": "/studentsCouncil/cultural_girls.jpg"
+        },
+        {
+            "name": "Narahari Komal",
+            "designation": "Cultural Affairs Secretary (Boys)",
+            "emailId": "231141@iiitt.ac.in",
+            "src": "/studentsCouncil/cultural_boys.jpg"
+        }
+    ],
+    "Research Affairs Secretary":[
+        {
+            "name": "Sanjayan N",
+            "designation": "Research Affairs Secretary",
+            "emailId": "242104@iiitt.ac.in",
+            "src": "/studentsCouncil/research_boys.jpg"
+        }
+    ],
+    "Alumni & International Affairs Secretary":[
+        {
+            "name": "Barla Dhanush",
+            "designation": "Alumni & International Affairs Secretary",
+            "emailId": "231110@iiitt.ac.in",
+            "src": "/studentsCouncil/alumni_boys.jpg"
+        }
+    ],
+    "Joint Secretary": [
+        {
+            "name": "B Yojitha",
+            "designation": "Joint Secretary (Girls)",
+            "emailId": "241115@iiitt.ac.in",
+            "src": "/studentsCouncil/js_girls.jpg"
+        },
+        {
+            "name": "P Vamsi Krishna",
+            "designation": "Joint Secretary (Boys)",
+            "emailId": "241144@iiitt.ac.in",
+            "src": "/studentsCouncil/js_boys.jpg"
         }
     ]
+
+
+
 }
