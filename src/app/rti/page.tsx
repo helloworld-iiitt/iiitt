@@ -1,22 +1,26 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import styles from "./rti.module.css";
-import nextConfig from "../../../next.config";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {
+  Box,
   Card,
-  TableContainer,
+  List, ListItem,
+  ListItemIcon,
+  ListItemText,
+  Paper,
   Table,
   TableBody,
+  TableCell,
+  TableContainer,
   TableHead,
   TableRow,
-  TableCell,
-  Paper,
-  Skeleton,
-  Box,
-  Typography,
+  Typography
 } from "@mui/material";
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import nextConfig from "../../../next.config";
+import styles from "./rti.module.css";
 
 interface RTI {
   head: string;
@@ -27,6 +31,34 @@ interface RTI {
   fax?: string;
   src: string;
 }
+
+
+const bottomLinks = [
+  { label: "BOG members and minutes", href: "/bog" },
+  { label: "Chairperson", href: "" },
+  { label: "Director", href: "/director" },
+  { label: "Registrar", href: "/registrar" },
+  { label: "Senate members and minutes", href: "/senate" },
+  { label: "Finance Committee members and minutes", href: "/fc" },
+  { label: "Building Works Committee", href: "/bwc" },
+  { label: "Head of the Department", href: "/departments" },
+  { label: "List of faculty members", href: "/faculty" },
+  { label: "List of Non-teaching staffs", href: "/staff" },
+  { label: "Students Financial Support", href: "/scholarship" },
+  { label: "Festivals", href: "/festivals" },
+  { label: "Clubs", href: "/clubs" },
+  { label: "Software and Hardware Laboratories", href: "/facilities" },
+  { label: "C2S Project Laboratory", href: "/c2sproject" },
+  { label: "Hostel and Mess", href: "/hostel" },
+  { label: "Sports", href: "" },
+  { label: "Library", href: "/facilities" },
+  { label: "Canteen", href: "/facilities" },
+  { label: "Medical room", href: "/facilities" },
+  { label: "Security", href: "" },
+  { label: "Communication Services", href: "" },
+  { label: "Conference hall and seminar halls", href: "" },
+  { label: "Training and Placement Cell", href: "http://placement.iiitt.ac.in/" },
+];
 
 export default function RTI() {
   const [rtiList, setRtiList] = useState<RTI[]>([]);
@@ -127,6 +159,27 @@ export default function RTI() {
           </TableBody>
         </Table>
       </TableContainer>
+
+      <Box sx={{ mt: 8 }}>
+      <Typography variant="h5" gutterBottom>
+        Important Links
+      </Typography>
+
+      <List dense>
+        {bottomLinks.map((item, idx) => (
+          <ListItem key={idx} disableGutters>
+            <ListItemIcon sx={{ minWidth: 32 }}>
+              <OpenInNewIcon fontSize="small" />
+            </ListItemIcon>
+            <ListItemText>
+              <Link href={item.href || "#"} target="_blank" rel="noopener noreferrer">
+                {item.label}
+              </Link>
+            </ListItemText>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
     </div>
   );
 }

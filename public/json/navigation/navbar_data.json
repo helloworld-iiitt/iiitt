@@ -5,7 +5,7 @@
       "icon": "account_balance",
       "submenu": [
         {
-          "text": "IIIT Act 2017",
+          "text": "About IIITT",
           "link": "/about"
         },
         {
