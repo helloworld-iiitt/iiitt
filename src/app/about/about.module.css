@@ -13,6 +13,17 @@
   padding-left: 0;
 }
 
+.documentcontainer {
+  margin-top: 2rem;
+  margin-left: auto;
+  gap:1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: start;
+
+}
+
 /* Desktop styles */
 @media only screen and (min-width: 1000px) {
   #main_card {

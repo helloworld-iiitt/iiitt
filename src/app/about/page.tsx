@@ -202,9 +202,10 @@ const About = () => {
             Tamil Nadu, since March 2016. &nbsp;
           </Typography>
         </Card>
+        <div className={styles.documentcontainer}>
         <Typography align="center">
           <LinkIcon
-            style={{ marginRight: "5px", color: "#007bff" }}
+            style={{ marginRight: "2px", color: "#007bff" }}
           />
           <a
             href={`${nextConfig.env?.DOCUMENT}/notices/Gst_certificate.pdf`}
@@ -214,7 +215,32 @@ const About = () => {
             GST Certificate
           </a>
         </Typography>
+        <Typography align="center">
+          <LinkIcon
+            style={{ marginRight: "2px", color: "#007bff" }}
+          />
+          <a
+            href={`${nextConfig.env?.DOCUMENT}/notices/IIIT_Act_2017.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IIIT Act 2017
+          </a>
+        </Typography>
+        <Typography align="center">
+          <LinkIcon
+            style={{ marginRight: "2px", color: "#007bff" }}
+          />
+          <a
+            href={`${nextConfig.env?.DOCUMENT}/notices/IIITT Statutes.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IIITT Statutes
+          </a>
+        </Typography>
         <br />
+      </div>
       </div>
     </div>
   );
