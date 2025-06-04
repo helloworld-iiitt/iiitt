@@ -2,9 +2,21 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { Card, Typography, Box, CardMedia, CardContent } from "@mui/material";
 import styles from "./rti.module.css";
 import nextConfig from "../../../next.config";
+import {
+  Card,
+  TableContainer,
+  Table,
+  TableBody,
+  TableHead,
+  TableRow,
+  TableCell,
+  Paper,
+  Skeleton,
+  Box,
+  Typography,
+} from "@mui/material";
 
 interface RTI {
   head: string;
@@ -79,16 +91,42 @@ export default function RTI() {
                   <a href={`mailto:${rti.emailID}`} className={styles.emailLink}>
                     {rti.emailID}
                   </a>
-
-
-
-
                 </div>
               </div>
             </div>
           </Card>
         ))}
       </div>
+
+      <Typography variant="body1" sx={{ mb: 4, mt:4 }}>
+      This Area of Indian Institute of Information Technology, Tiruchirappalli website is for dissiminating information under the Right to Information Act 2005.
+      The information given here is in respect of the IIITT, Tiruchirappalli.
+      The BOG has appointed the following Public Information Officers to assist in discharging the duties under this Act.
+      </Typography>
+      <TableContainer component={Paper} className={styles.table} sx={{ mb: 4 }}>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell className={styles.tableHead}>SI. No.</TableCell>
+              <TableCell className={styles.tableHead}>Name &amp; Designation</TableCell>
+              <TableCell className={styles.tableHead}>Phone No. &amp; Email</TableCell>
+              <TableCell className={styles.tableHead}>Designated Position</TableCell>
+              <TableCell className={styles.tableHead}>Subject Matter</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {rtiList.slice(1).map((officer,idx) => (
+              <TableRow key={idx} className={styles.tableRow}>
+                <TableCell className={styles.tableCell}>{idx+1}</TableCell>
+                <TableCell className={styles.tableCell}>{officer.name}</TableCell>
+                <TableCell className={styles.tableCell} >{officer.emailID}</TableCell>
+                <TableCell className={styles.tableCell}>{officer.head}</TableCell>
+                <TableCell className={styles.tableCell}>All applications received under RTI act</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
     </div>
   );
 }

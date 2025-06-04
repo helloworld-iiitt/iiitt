@@ -22,8 +22,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   overflow: hidden;
-  max-width: 600px;
   margin: 0 auto;
+  width: 100%;
 }
 
 
@@ -33,10 +33,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .imageWrapper {
-  width: 200px;
+  width: fit-content;
   height: 250px;
   margin-bottom: 1.5rem;
   border-radius: 8px;
@@ -89,7 +90,24 @@
   word-break: break-all;
   transition: color 0.3s ease;
 }
+.table {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.tableHead {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.tableRow:hover {
+  background-color: #f9f9f9;
+}
+
+.tableCell {
+  padding: 10px;
+}
 
 @media (max-width: 768px) {
   .cardsContainer {
