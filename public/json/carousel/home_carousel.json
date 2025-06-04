@@ -300,10 +300,7 @@
       "name": "ParikshaPeCharcha2023",
       "path": "newslide/ParikshaPeCharcha2023.jpg"
     },
-    {
-      "name": "mainbuilding",
-      "path": "newslide/mainbuilding.png"
-    },
+    
     {
       "name": "boyshostel",
       "path": "newslide/boyshostel.jpg"
@@ -311,6 +308,10 @@
     {
       "name": "messblock",
       "path": "newslide/messblock.jpg"
+    },
+    {
+      "name": "mainbuilding",
+      "path": "newslide/mainbuilding.png"
     }
   ]
 }
