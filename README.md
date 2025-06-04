@@ -69,6 +69,10 @@ Adding new and innovative features are welcomed.
 [Mayank Sonkar](https://github.com/mayank2021) <br>
 [Sarthak Kumar](https://github.com/sarthak503) <br>
 [Jagmohan Dixit](https://github.com/Jagmohan-Dixit) <br>
+[Anurag Nandkumar Bansode](https://github.com/Anurag-Bansode)<br>
+[Amogh G C](https://github.com/Amogh-GC)<br>
+[Kuruva Pavani](https://github.com/kuruvapavani)<br>
+[Pravas Mohanty](https://github.com/PravasMohanty) <br>
 
 <!-- ## Available Scripts
 
