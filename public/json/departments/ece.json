@@ -9,16 +9,12 @@
     },
     "faculty_members": [
       {
-        "name": "Dr. G. Seetharaman",
-        "designation": "Professor & Registrar"
-      },
-      {
         "name": "Dr. M. Senthil Sivakumar",
         "designation": "Assistant Professor & Head of the Department"
       },
       {
-        "name": "Dr. M. Harish Adhithya",
-        "designation": "Assistant Professor"
+        "name": "Dr. G. Seetharaman",
+        "designation": "Professor & Registrar"
       },
       {
         "name": "Dr. R. Krishnamurthy",
@@ -34,6 +30,10 @@
       },
       {
         "name": "Dr. S. Padmathilagam",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Dr. M. Harish Adhithya",
         "designation": "Assistant Professor"
       }
     ],
