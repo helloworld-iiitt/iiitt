@@ -75,7 +75,6 @@
   margin-left: 1rem;
 }
 
-
 .name {
   color: #fff;
   flex: 1;
@@ -221,4 +220,13 @@
   .infoDiv {
     font-size: 0.85rem;
   }
+}
+
+@media (max-width:360px) {
+  .card {
+    width: 240px;
+    margin: 40px auto;
+    padding: 10px;
+ }
+
 }
