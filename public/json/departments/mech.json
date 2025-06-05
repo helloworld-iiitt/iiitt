@@ -26,36 +26,47 @@
         "name": "Mr AKILAN I",
         "src": "/phd_students/AKILAN_I.jpg",
         "dept": "Mechanical",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"Printing of Energy Storage Materials",
+        "supervisor":"Dr. C Velmurugan",
+        "PersonalPage":"",
+        "status":"Ongoing"
+
       },
       {
         "name": "Mr. ARAVINDH RAJ B.R.",
         "src": "/phd_students/ARAVINDH_RAJ.jpg",
         "dept": "Mechanical",
-        "emailId": "",
-        "designation": "Research Scholar(Part Time)"
+        "researchArea":"Additive Manufacturing, Polymers, Material Science",
+        "supervisor":"Dr. C Velmurugan",
+        "PersonalPage":"https://orcid.org/0000-0002-6996-9245",
+        "status":"Ongoing"
       },
       {
         "name": "Mr. VIJAYA KUMAR P",
         "src": "/phd_students/VIJAYA_KUMAR_P.jpg",
         "dept": "Mechanical",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"Printing of Metallic Materials for Biomedical Applications",
+        "supervisor":"Dr. C Velmurugan",
+        "PersonalPage":"",
+        "status":"Completed"
       },
       {
         "name": "Mr. FRANKLIN",
         "src": "/phd_students/FRANKLIN.jpeg",
         "dept": "Mechanical",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"Printing of Ceramics for Energy Storage Devices",
+        "supervisor":"Dr. C Velmurugan",
+        "PersonalPage":"",
+        "status":"Ongoing"
       },
       {
         "name": "Mr. L. MARIYA IRUDAYARAJ",
         "src": "/phd_students/L_MARIYA_IRUDAYARAJRANKLIN.JPG",
         "dept": "Mechanical",
-        "emailId": "",
-        "designation": "Research Scholar(Part Time)"
+        "researchArea":"Printing of Hydrogen Energy Storage Devices",
+        "supervisor":"Dr. C Velmurugan",
+        "PersonalPage":"",
+        "status":"Ongoing"
       }
 
 

@@ -39,17 +39,43 @@
     ],
     "faculty_profiles_link": "/faculty",
     "research_areas": [
-
+      "RF and Microwave",
+      "Low Power VLSI System Design",
+      "RF Front-End Design (Wireless and Antenna Technology)",
+      "Hardware (VLSI) Architectures for AI",
+      "Hardware and Software Co-Design"
     ],
     "research_scholars": [
-
+      {
+        "name": "Bharathi V",
+        "src": "/phd_students/Bharathi_V.jpg",
+        "dept": "ECE",
+        "researchArea": "RF and Microwave",
+        "supervisor": "Dr. Krishnamurthy Ramanujam",
+        "PersonalPage": "https://orcid.org/0009-0009-9160-112X",
+        "status": "Ongoing"
+      },
+      {
+        "name": "Gayathiri V",
+        "src": "/phd_students/Gayathiri_V.jpg",
+        "dept": "ECE",
+        "researchArea": "Low Power VLSI System Design",
+        "supervisor": "Dr. M. Senthil Sivakumar",
+        "PersonalPage": "https://www.linkedin.com/in/gayathiri-venkatesan-051725161/",
+        "status": "Ongoing"
+      },
+      {
+        "name": "Bhargava D S",
+        "src": "/phd_students/Bhargava_D_S.jpg",
+        "dept": "ECE",
+        "researchArea": "RF Front-End Design (Wireless and Antenna Technology),Hardware (VLSI) Architectures for AI,Hardware and Software Co-Design",
+        "supervisor": "Prof. G. Seetharaman",
+        "PersonalPage": "https://orcid.org/0009-0004-3472-9374",
+        "status": "Ongoing"
+      }
     ],
-    "announcements": [
-
-    ],
-    "latest_news": [
-
-    ],
+    "announcements": [],
+    "latest_news": [],
     "contact": {
       "department": "Department of Electronics and Communication Engineering",
       "college": "Indian Institute of Information Technology",
