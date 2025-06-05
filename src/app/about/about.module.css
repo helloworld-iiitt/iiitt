@@ -14,15 +14,14 @@
 }
 
 .documentcontainer {
-  margin-top: 2rem;
-  margin-left: auto;
-  gap:1.5rem;
+  margin-top: 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-self: start;
-
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
 }
+
 
 /* Desktop styles */
 @media only screen and (min-width: 1000px) {

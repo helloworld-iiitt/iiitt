@@ -125,6 +125,60 @@ const About = () => {
           </Typography>
           <br />
           <Divider />
+          <Box mt={4}>
+            <Typography variant="h5" align="center" color="primary" gutterBottom>
+              Official Documents
+            </Typography>
+            <Grid
+              container
+              spacing={2}
+              justifyContent="center"
+              className={styles.documentcontainer}
+            >
+              {[
+                {
+                  label: "IIIT Act 2017",
+                  file: "IIIT_Act_2017.pdf",
+                },
+                {
+                  label: "IIITT Statutes",
+                  file: "IIITT Statutes.pdf",
+                },
+                {
+                  label: "GST Certificate",
+                  file: "Gst_certificate.pdf",
+                },
+              ].map((doc) => (
+                <Grid key={doc.label}>
+                  <Card
+                    elevation={1}
+                    sx={{
+                      minWidth: 220,
+                      padding: "1rem",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 1,
+                      ":hover": {
+                        boxShadow: 3,
+                        backgroundColor: "#f5faff",
+                      },
+                    }}
+                  >
+                    <LinkIcon style={{ color: "#007bff" }} />
+                    <Link
+                      href={`${nextConfig.env?.DOCUMENT}/notices/${doc.file}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      underline="hover"
+                    >
+                      {doc.label}
+                    </Link>
+                  </Card>
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
+          <Divider />
           <br />
           <Grid size={8}>
             <Card style={{ height: "100%", boxShadow: "none" }}>
@@ -203,44 +257,21 @@ const About = () => {
           </Typography>
         </Card>
         <div className={styles.documentcontainer}>
-        <Typography align="center">
-          <LinkIcon
-            style={{ marginRight: "2px", color: "#007bff" }}
-          />
-          <a
-            href={`${nextConfig.env?.DOCUMENT}/notices/Gst_certificate.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GST Certificate
-          </a>
-        </Typography>
-        <Typography align="center">
-          <LinkIcon
-            style={{ marginRight: "2px", color: "#007bff" }}
-          />
-          <a
-            href={`${nextConfig.env?.DOCUMENT}/notices/IIIT_Act_2017.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IIIT Act 2017
-          </a>
-        </Typography>
-        <Typography align="center">
-          <LinkIcon
-            style={{ marginRight: "2px", color: "#007bff" }}
-          />
-          <a
-            href={`${nextConfig.env?.DOCUMENT}/notices/IIITT Statutes.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IIITT Statutes
-          </a>
-        </Typography>
-        <br />
-      </div>
+          <Typography align="center">
+            <LinkIcon
+              style={{ marginRight: "2px", color: "#007bff" }}
+            />
+            <a
+              href={`${nextConfig.env?.DOCUMENT}/notices/Gst_certificate.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GST Certificate
+            </a>
+          </Typography>
+
+          <br />
+        </div>
       </div>
     </div>
   );
