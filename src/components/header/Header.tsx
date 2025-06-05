@@ -100,6 +100,17 @@ const Header: React.FC = () => {
     inputRef.current?.blur();
   };
 
+{/*
+  <Image
+  src="/images/header.png"
+  alt="IIITT Logo"
+  width={1011}
+  height={241}
+  layout="responsive"
+  className="w-full h-auto"
+  priority
+/>
+*/}
   return (
     <div>
     <div className="hidden sm:block p-6 bg-white shadow-lg relative">
