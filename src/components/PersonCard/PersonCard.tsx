@@ -11,6 +11,10 @@ import SchoolIcon from "@mui/icons-material/School";
 import { validURL } from "@/types/validator";
 
 
+
+
+
+
 interface PersonCardProps {
   name: string;
   emailID?: string;
@@ -24,7 +28,9 @@ interface PersonCardProps {
   VidhwanLink?: string;
   Institute?: string;
   Room?: string;
-  PersonalPage?:string;
+  PersonalPage?: string;
+  Supervisor?: string
+  status?: string;
 }
 
 const PersonCard: React.FC<PersonCardProps> = ({
@@ -41,6 +47,8 @@ const PersonCard: React.FC<PersonCardProps> = ({
   Institute,
   Room,
   PersonalPage,
+  Supervisor,
+  status
 }) => {
   return (
     <div className={styles.card}>
@@ -50,6 +58,12 @@ const PersonCard: React.FC<PersonCardProps> = ({
             {name}
           </Link>
           <h4>{designation}</h4>
+          {Supervisor && Supervisor.trim() && (
+            <p className={styles.supervisor}>
+              <strong>Supervisor:</strong> {Supervisor}
+            </p>
+          )}
+
         </div>
 
         <div className={styles.circleImg}>
@@ -71,7 +85,7 @@ const PersonCard: React.FC<PersonCardProps> = ({
             <strong>Room No: </strong>{Room}
           </p>
         )}
-        {dept && dept.trim() && (src_type === "Warden"||src_type==="phd" ) && (
+        {dept && dept.trim() && (src_type === "Warden" || src_type === "phd") && (
           <p className={styles.researchArea}>
             {dept}
           </p>
@@ -82,6 +96,12 @@ const PersonCard: React.FC<PersonCardProps> = ({
             <strong>Research:</strong> {researchArea}
           </p>
         )}
+        {Supervisor && Supervisor.trim() && (
+          <p className={styles.incharge}>
+            <strong>Status: {status}</strong>
+          </p>
+        )}
+
 
         {Incharge && Incharge.trim() && (
           <p className={styles.incharge}>
@@ -129,18 +149,18 @@ const PersonCard: React.FC<PersonCardProps> = ({
         )}
       </div>
       {PersonalPage && PersonalPage.trim() && (
-      <div className={styles.infoDiv}>
-        <LanguageIcon className={styles.infoIcon} />
-        <a
-          href={PersonalPage}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.info}
-        >
-          More
-        </a>
-      </div>
-    )}
+        <div className={styles.infoDiv}>
+          <LanguageIcon className={styles.infoIcon} />
+          <a
+            href={PersonalPage}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.info}
+          >
+            More
+          </a>
+        </div>
+      )}
     </div>
   );
 };

@@ -26,7 +26,10 @@ interface Department {
     src: string;
     emailId:string;
     dept:string;
-    designation:string;
+    researchArea:string;
+    supervisor:string;
+    PersonalPage:string
+    status:string
   }[];
   research_areas: string[];
   announcements: {
@@ -165,7 +168,11 @@ const Cse: React.FC = () => {
                         src={scholar.src}
                         src_type="phd"
                         dept={scholar.dept}
-                        designation={scholar.designation}
+                        researchArea={scholar.researchArea}
+                        Supervisor={scholar.supervisor}
+                        PersonalPage={scholar.PersonalPage}
+                        status={scholar.status}
+
                       />
                     </div>
                   ))

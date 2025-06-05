@@ -47,6 +47,15 @@
       "Software Engineering and Agile Methodologies"
     ],
     "research_scholars": [
+      {
+        "name": "Vidhya V",
+        "src": "/phd_students/Vidhya_V.jpg",
+        "dept": "CCE",
+        "researchArea": "AI, ML & DL, Image Processing, Computer vision, NLP",
+        "supervisor": "Dr. G Devasena",
+        "PersonalPage": "https://scholar.google.com/citations?user=WPA8uxkAAAAJ&hl=en",
+        "status": "Ongoing"
+      }
 
     ],
     "lab_facilities": {

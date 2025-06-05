@@ -32,78 +32,100 @@
         "name": "Bhakyalatha M",
         "src": "/phd_students/Bhakyalatha.jpg",
         "dept": "Physics",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"Bioinspired Optoelectronic Nanomaterials",
+        "supervisor":"Dr. Kamakshi K",
+        "PersonalPage":"https://orcid.org/0000-0001-7840-3705",
+        "status":"Ongoing"
       },
       {
         "name": "Angitha S",
         "src": "/phd_students/angitha.JPG",
         "dept": "Physics",
-        "emailId": "",
-        "designation": "Research Scholar & JRF"
+        "researchArea":"plasmonic solar cells",
+        "supervisor":"Dr. Kamakshi K",
+        "PersonalPage":"https://scholar.google.com/citations?user=qmU9j_IAAAAJ&hl=en",
+        "status":"Ongoing"
       },
       {
         "name": "Ms. M. Tasneem",
         "src": "/phd_students/Tasneem.JPG",
         "dept": "Physics",
-        "emailId": "",
-        "designation": "Research Scholar(Part Time)"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Mr. Gokula Krishnan J",
         "src": "/phd_students/Gokula_Krishnan_J.JPG",
         "dept": "Physics",
-        "emailId": "",
-        "designation": "Research Scholar & JRF"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Ms. Susmitha Priyadharshini D R",
         "src": "/phd_students/Susmitha_Priyadharshini.png",
         "dept": "Mathematics",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Mr. Santhosh Thota",
         "src": "/phd_students/Santhosh_Thota.png",
         "dept": "Mathematics",
-        "emailId": "",
-        "designation": "Research Scholar(Part Time)"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Mr. Vengala Narender",
         "src": "/phd_students/Vengala_Narender.JPG",
         "dept": "Mathematics",
-        "emailId": "",
-        "designation": "Research Scholar(Part Time)"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Ms. Kumari Pratima Yadhav",
         "src": "/phd_students/Pratima_Yadhav.JPG",
         "dept": "Economics",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Mr. Veeresh Tadahal",
         "src": "/phd_students/Veeresh_Tadahal.JPG",
         "dept": "Economics",
-        "emailId": "",
-        "designation": "Research Scholar(Part Time)"
+        "researchArea":"",
+        "supervisor":"",
+        "PersonalPage":"",
+        "status":""
       },
       {
         "name": "Mr. Teenesh Kumaravel",
         "src": "/phd_students/Teenesh_Kumaravel.png",
         "dept": "English",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"Second Language Acquisition",
+        "supervisor":"Dr. Sindhu V",
+        "PersonalPage":"https://orcid.org/0000-0003-1608-116X",
+        "status":"Ongoing"
       },
       {
         "name": "Mrs. Gadha M R",
         "src": "/phd_students/Gadha_M_R.JPG",
         "dept": "English",
-        "emailId": "",
-        "designation": "Research Scholar(Full Time)"
+        "researchArea":"English Language Teaching",
+        "supervisor":"Dr. Sindhu V",
+        "PersonalPage":"https://orcid.org/0009-0004-1959-1928",
+        "status":"Ongoing"
       }
     ],
     "announcements": [],
