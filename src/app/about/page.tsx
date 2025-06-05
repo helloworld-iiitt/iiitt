@@ -126,7 +126,7 @@ const About = () => {
           <br />
           <Divider />
           <Box mt={4}>
-            <Typography variant="h5" align="center" color="primary" gutterBottom>
+            <Typography variant="h5" align="center" sx={{ color: "#2e8b57"}} gutterBottom>
               Official Documents
             </Typography>
             <Grid
@@ -164,12 +164,13 @@ const About = () => {
                       },
                     }}
                   >
-                    <LinkIcon style={{ color: "#007bff" }} />
+                    <LinkIcon sx={{ color: "#2e8b57"}} />
                     <Link
                       href={`${nextConfig.env?.DOCUMENT}/notices/${doc.file}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       underline="hover"
+                      sx={{ color: "#2e8b57"}}
                     >
                       {doc.label}
                     </Link>
