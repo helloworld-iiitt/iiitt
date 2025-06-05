@@ -12,7 +12,7 @@ const InfoSection: React.FC<{ title: string; children: React.ReactNode }> = ({
       className={styles.departmentThemeText}
       gutterBottom
     >
-      <Box component="span" fontWeight="fontWeightBold">
+      <Box component="span" fontWeight="fontWeightBold" sx={{mt:{xs:2}}}>
         {title}
       </Box>
     </Typography>
