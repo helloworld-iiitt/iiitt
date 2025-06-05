@@ -256,22 +256,7 @@ const About = () => {
             Tamil Nadu, since March 2016. &nbsp;
           </Typography>
         </Card>
-        <div className={styles.documentcontainer}>
-          <Typography align="center">
-            <LinkIcon
-              style={{ marginRight: "2px", color: "#007bff" }}
-            />
-            <a
-              href={`${nextConfig.env?.DOCUMENT}/notices/Gst_certificate.pdf`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GST Certificate
-            </a>
-          </Typography>
-
-          <br />
-        </div>
+            <br/>
       </div>
     </div>
   );
