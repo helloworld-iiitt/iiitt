@@ -48,7 +48,7 @@
     "research_scholars": [
       {
         "name": "Bharathi V",
-        "src": "/phd_students/Bharathi_V.jpg",
+        "src": "/phd_students/Bharathi_V.png",
         "dept": "ECE",
         "researchArea": "RF and Microwave",
         "supervisor": "Dr. Krishnamurthy Ramanujam",
@@ -71,6 +71,15 @@
         "researchArea": "RF Front-End Design (Wireless and Antenna Technology),Hardware (VLSI) Architectures for AI,Hardware and Software Co-Design",
         "supervisor": "Prof. G. Seetharaman",
         "PersonalPage": "https://orcid.org/0009-0004-3472-9374",
+        "status": "Ongoing"
+      },
+      {
+        "name": "Praveena S",
+        "src": "/phd_students/Praveena_S.jpg",
+        "dept": "ECE",
+        "researchArea": "RF and Microwave",
+        "supervisor": "Dr. Krishnamurthy Ramanujam",
+        "PersonalPage": "https://orcid.org/0000-0003-1022-6380",
         "status": "Ongoing"
       }
     ],

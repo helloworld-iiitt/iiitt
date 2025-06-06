@@ -55,8 +55,16 @@
         "supervisor": "Dr. G Devasena",
         "PersonalPage": "https://scholar.google.com/citations?user=WPA8uxkAAAAJ&hl=en",
         "status": "Ongoing"
+      },
+      {
+        "name": "Kiran Raj V",
+        "src": "/phd_students/KiranRajV.png",
+        "dept": "CCE",
+        "researchArea": "Neuroimaging, Biomedical Signal Processing & AI",
+        "supervisor": "Dr. Anoop Jacob Thomas",
+        "PersonalPage": "https://orcid.org/0000-0002-3202-9866",
+        "status": "Ongoing"
       }
-
     ],
     "lab_facilities": {
       "description": "Our department has state-of-the-art labs for students and researchers including AI Labs, Networking Labs, and IoT Labs.",
