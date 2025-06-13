@@ -8,6 +8,8 @@ import styles from "../department.module.css";
 import InfoSection from "@/components/InfoSection/InfoSection";
 import EmptyNotice from "@/components/EmptySection/EmptyNotice";
 import PersonCard from "@/components/PersonCard/PersonCard";
+import nextConfig from "../../../../next.config";
+import { validURL } from "@/types/validator";
 
 interface Department {
   department: string;
@@ -24,17 +26,18 @@ interface Department {
   research_scholars: {
     name: string;
     src: string;
-    emailId:string;
-    dept:string;
-    researchArea:string;
-    supervisor:string;
-    PersonalPage:string
-    status:string
+    emailId: string;
+    dept: string;
+    researchArea: string;
+    supervisor: string;
+    PersonalPage: string
+    status: string
   }[];
   research_areas: string[];
   announcements: {
     title: string;
     date: string;
+    link: string;
   }[];
   latest_news: {
     title: string;
@@ -158,30 +161,30 @@ const Cse: React.FC = () => {
               {/* Research Scholars */}
               <InfoSection title="Research Scholars">
                 <div className={styles.scholargrid}>
-                {Array.isArray(cseData.research_scholars) &&
-                  cseData.research_scholars.length > 0 ? (
-                  cseData.research_scholars.map((scholar, index) => (
-                    <div key={index}>
-                      <PersonCard
-                        name={scholar.name}
-                        emailID={scholar.emailId}
-                        src={scholar.src}
-                        src_type="phd"
-                        dept={scholar.dept}
-                        researchArea={scholar.researchArea}
-                        Supervisor={scholar.supervisor}
-                        PersonalPage={scholar.PersonalPage}
-                        status={scholar.status}
+                  {Array.isArray(cseData.research_scholars) &&
+                    cseData.research_scholars.length > 0 ? (
+                    cseData.research_scholars.map((scholar, index) => (
+                      <div key={index}>
+                        <PersonCard
+                          name={scholar.name}
+                          emailID={scholar.emailId}
+                          src={scholar.src}
+                          src_type="phd"
+                          dept={scholar.dept}
+                          researchArea={scholar.researchArea}
+                          Supervisor={scholar.supervisor}
+                          PersonalPage={scholar.PersonalPage}
+                          status={scholar.status}
 
-                      />
-                    </div>
-                  ))
-                ) : (
-                  <EmptyNotice />
-                )}
+                        />
+                      </div>
+                    ))
+                  ) : (
+                    <EmptyNotice />
+                  )}
                 </div>
               </InfoSection>
-   {/* Research Area */}
+              {/* Research Area */}
               <InfoSection title="Research Areas">
                 {Array.isArray(cseData.research_areas) &&
                   cseData.research_areas.length > 0 ? (
@@ -200,12 +203,23 @@ const Cse: React.FC = () => {
                 {Array.isArray(cseData.announcements) && cseData.announcements.length > 0 ? (
                   cseData.announcements.map((a, i) => (
                     <Box key={i} mb={1.5}>
-                      <Typography variant="subtitle1" fontWeight="bold">
-                        {a.title}
-                      </Typography>
-                      <Typography variant="caption" color="text.secondary">
-                        {a.date}
-                      </Typography>
+                      <a href={
+                        validURL(a.link)
+                          ? a.link
+                          : `${nextConfig.env?.DOCUMENT}/${a.link}`
+                      }
+                        className={styles.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Typography variant="subtitle1" fontWeight="bold">
+                          {a.title}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          {a.date}
+                        </Typography>
+
+                      </a>
                     </Box>
                   ))) : (<EmptyNotice />)}
 
