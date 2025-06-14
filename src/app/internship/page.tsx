@@ -16,6 +16,7 @@ import Grid from "@mui/material/Grid2";
 import { Link as MuiLink } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
 import nextConfig from "../../../next.config";
+import Link from "next/link";
 
 interface InternshipData {
   title: string;
@@ -29,6 +30,13 @@ interface Section {
   guidelines?: Guideline[];
   table?: TableRowData[];
   documents?: DocumentData[];
+  announcements?: Announcement[];
+}
+
+interface Announcement {
+  message: string;
+  date?: string;
+  link?: string;
 }
 
 interface CardData {
@@ -113,6 +121,45 @@ export default function Internship() {
                 </Grid>
               ))}
             </Grid>
+          )}
+          {section.announcements && (
+            <Box sx={{ backgroundColor: "#f1f1f1", p: 2, borderRadius: 2, border: "2px solid #00796b" }}>
+              <Typography variant="h6" mb={2} sx={{
+                backgroundColor: "#4CAF50",
+                color: "white",
+                p: 1
+              }}>
+                Announcements
+              </Typography>
+              <Box>
+                {section.announcements.map((item, idx) => (
+                  <Box key={idx} style={{ marginBottom: "0.75rem" }}>
+
+                    {item.link ? (
+                      <Link href={item.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                        <LaunchIcon sx={{ fontSize: 18, color: "primary.main" }} />
+                        <Box display="inline-flex" alignItems="center" gap={0.5}>
+                          <Typography variant="body1" component="span" color="primary" fontWeight="medium">
+                            {item.message}
+                          </Typography>
+
+                        </Box>
+                      </Link>
+
+                    ) : (
+                      <Typography variant="body1" component="span">
+                        {item.message}
+                      </Typography>
+                    )}
+                    {item.date && (
+                      <Typography variant="caption" component="div" color="text.secondary">
+                        {item.date}
+                      </Typography>
+                    )}
+                  </Box>
+                ))}
+              </Box>
+            </Box>
           )}
 
           {/* Guidelines */}
