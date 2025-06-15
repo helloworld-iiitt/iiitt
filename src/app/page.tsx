@@ -4,6 +4,7 @@ import MainCarousel from "@/components/Carousel/MainCarousel";
 import Marquee from "@/components/marquee/marquee";
 import MissionVision from "@/components/mission_vision/missionVision";
 import { PaperCard } from "@/components/PaperCard/PaperCard";
+import SocialMediaPosts from "@/components/PaperCard/SocialMediaPosts";
 import PlacementStats from "@/components/Placementdata/PlacementStats";
 import {
   Box,
@@ -16,8 +17,6 @@ import {
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import "./globals.css";
-import StaticSocialPosts from "@/components/PaperCard/SocialMediaPosts";
-import SocialMediaPosts from "@/components/PaperCard/SocialMediaPosts";
 interface Item {
   title: string;
   link: string;

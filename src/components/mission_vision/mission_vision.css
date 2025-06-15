@@ -17,21 +17,22 @@
   color: #555;
 }
 
-@media (max-width: 1100px) and (min-width: 920px) {
+@media (800px <width <1100px) {
+
   #vision,
   #mission {
     font-size: 0.9rem;
   }
 }
 
-@media (max-width: 920px) and (min-width: 600px) {
+@media (800px<width<920px) {
   #vision,
   #mission {
     font-size: 0.85rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #vision,
   #mission {
     font-size: 0.8rem;
