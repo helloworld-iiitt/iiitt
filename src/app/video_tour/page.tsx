@@ -14,7 +14,7 @@ export default function VirtualTour() {
     };
   }, []);
   return (
-    <Card sx={{ border: "2px solid #00796b", mb: 4 }}>
+    <Card sx={{ border: "2px solid #2e8b57", mb: 4 }}>
       <CardContent>
         <Typography variant="body1" textAlign="center" mb={2}>
           Explore IIIT Trichy through a 360° virtual experience.
