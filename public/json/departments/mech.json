@@ -71,7 +71,13 @@
 
 
     ],
-    "announcements": [],
+    "announcements": [
+      {
+        "title":"AICTE QIP sponsored PG certificate course on “3D Printing and Additive Manufacturing” (Offline 16-27th June 2025)",
+        "date": "14/05/2025",
+        "link": "events/4. IIITT-AICTE-QIP-PG pgm on 3D Printing.pdf"
+      }
+    ],
     "latest_news": [],
     "contact": {
       "department": "Department of Mechanical Engineering",
