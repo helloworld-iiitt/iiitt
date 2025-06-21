@@ -66,15 +66,15 @@ export default function Scholarship() {
                         </Box>
                     <ul>
                         <li>
-                        <a href={`${nextConfig.env?.DOCUMENT}/scholarships/Circular_NSP_2024_25.pdf`} target="_blank" rel="noopener noreferrer">
+                        <a href={`${nextConfig.env?.DOCUMENT}/scholarships/Letter to 265 institutions regarding NSP portal opening for the Year 2025-26`} target="_blank" rel="noopener noreferrer">
                             <Typography variant="h6" color="primary">
-                                Announcement for the NSP Scholarship 2024-2025
+                                Opening of National Scholarship Portal for A.Y. 2025-26
                             </Typography>
                         </a>
                         </li>
                     <li>
                     <Typography variant="h6" gutterBottom>
-                        National Scholarship Portal (NSP 2.0) is inviting applications (Fresh and Renewal) under various schemes for the year 2024-25.
+                        National Scholarship Portal (NSP 2.0) is inviting applications (Fresh and Renewal) under various schemes for the year 2025-26.
                     </Typography>
                     </li>
                     <ul>
