@@ -1,5 +1,19 @@
 {
     "data": [
+         {
+            "title": "Fee Structure AY 2025-26_ODD SEM",
+            "description": "Fee Structure AY 2025-26_ODD SEM",
+            "link": "admission/Fee Structure  AY 2025-26_ODD SEM_Final.pdf",
+            "isNew": true,
+            "date": "27/06/2025"
+        },
+        {
+            "title": "B.TECH ACADEMIC CALENDAR - ODD SEMESTER 2025",
+            "description": "B.TECH ACADEMIC CALENDAR - ODD SEMESTER 2025",
+            "link": "notices/Academic calendar_ODD-Annex XII_BTech_2025.pdf",
+            "isNew": true,
+            "date": "27/06/2025"
+        },
         {
             "title": "June 2025 Circular for Special  Supplementary Examination",
             "description": "June 2025 Circular for Special  Supplementary Examination",
@@ -18,7 +32,7 @@
             "title": "Ph.D_End Exam Schedule 2024-25 (Even sem)",
             "description": "Ph.D_End Exam Schedule 2024-25 (Even sem)",
             "link": "notices/Exam_schedule_2025/Ph.D_End exam schedule Ph.D 2024-25 Even sem.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "28/05/2025"
         },
         {
