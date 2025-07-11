@@ -11,7 +11,7 @@
             "title": "Fee Structure AY 2025-26_ODD SEM",
             "description": "Fee Structure AY 2025-26_ODD SEM",
             "link": "admission/Fee Structure  AY 2025-26_ODD SEM_Final.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "27/06/2025"
         },
         {
@@ -35,21 +35,6 @@
             "isNew": true,
             "date": "14/06/2025"
         },
-        {
-            "title": "Ph.D_End Exam Schedule 2024-25 (Even sem)",
-            "description": "Ph.D_End Exam Schedule 2024-25 (Even sem)",
-            "link": "notices/Exam_schedule_2025/Ph.D_End exam schedule Ph.D 2024-25 Even sem.pdf",
-            "isNew": false,
-            "date": "28/05/2025"
-        },
-        {
-            "title": "Ph.D_CT 2 Even semester 2024-25 Time table",
-            "description": "Ph.D_CT 2 Even semester 2024-25 Time table",
-            "link": "notices/Ph.D_CT 2 Even semester 2024-25 Time table.pdf",
-            "isNew": false,
-            "date": "01/05/2025"
-        },
-
         {
             "title": "B.Tech supplementary examination schedule April 2024",
             "description": "B.Tech supplementary examination schedule April 2024",
@@ -720,35 +705,6 @@
             "isNew": false
         },
         {
-            "title": "Fee Structure AY 2021-22 EVEN Semester",
-            "description": "Fee Structure AY 2021-22 EVEN Semester - Revised",
-            "link": "notices/FeeStructureAY2021-22_EVENSEM-revised.pdf",
-            "isNew": false
-        },
-        {
-            "title": "Guidelines and Application form for Duplicate Certificates",
-            "description": "Guidelines and Application form for Duplicate Certificates",
-            "link": "notices/Guidelines_and_Application_form_for_Duplicate_Certificates.pdf",
-            "isNew": false
-        },
-        {
-            "title": "Leave Form - Main campus address",
-            "description": "Leave Form - Main campus address",
-            "link": "notices/LeaveForm_main.pdf",
-            "isNew": false
-        },
-        {
-            "title": "75th Independence Day celebration",
-            "description": "75th Independence Day celebration",
-            "link": "notices/IndependenceDayCircular2021.pdf",
-            "isNew": false
-        },
-        {
-            "title": "Fee Structure (AY 2021-22) Semester III",
-            "description": "Fee Structure (AY 2021-22) Semester III",
-            "link": "notices/FeeStructureAY2021-22_odd-updated_IIISem.pdf",
-            "isNew": false
-        },
         {
             "title": "List of selected candidates for Ph.D June/July 2021",
             "description": "List of selected candidates for Ph.D June/July 2021",
