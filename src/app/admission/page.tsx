@@ -76,7 +76,7 @@ export default function AdmissionPage() {
             <li>
               <div style={{ display: "flex", alignItems: "flex-end" }}>
                 <Link
-                  href="/programs"
+                  href="/doctorate"
                   className={`${styles.themeText} ${styles.link}`}
                 >
                   Ph.D (full-time/part-time)
