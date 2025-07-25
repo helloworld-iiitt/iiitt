@@ -8,7 +8,10 @@
         "id": "ccmt2025",
         "title": "CCMT 2025",
         "items": [
-
+          {
+            "label": "MTech_Online_Reporting_Details_2025",
+            "url": "admission/MTech_Online_Reporting_Details_2025.pdf"
+          },
           {
             "label": "Link for NIC portal for CCMT",
             "url": "https://ccmt.admissions.nic.in/"
