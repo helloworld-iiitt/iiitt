@@ -5,6 +5,7 @@ interface Member {
   designation: string;
   role?: string;
   senate?: string;
+  mobileno?:string;
 }
 
 interface Meeting {

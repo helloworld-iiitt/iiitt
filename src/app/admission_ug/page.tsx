@@ -82,9 +82,45 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
+          <strong>Details of Physical Reporting Process</strong>
+        </Typography>
+      </Box>
+
+      <Box>
+        <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
+          <List sx={{ listStyleType: 'disc', pl: 2 }}>
+            {admissionData.PhysicalReporting.map((PhysicalReporting: { name: string; path: string }, index: number) => (
+              <ListItem
+                key={index}
+                sx={{ display: 'list-item', py: 0 }}
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={validURL(PhysicalReporting.path) ? PhysicalReporting.path : `${nextConfig?.env?.DOCUMENT}${PhysicalReporting.path}`}
+                  className={styles.link}
+                >
+                  {PhysicalReporting.name}
+                </a>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+
+      </Box>
+      <hr className={styles.hr} />
+
+      <Box mb={2}>
+        <Typography
+          variant="h4"
+          sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }} // Padding for the title
+          className={styles.themeText}
+          gutterBottom
+        >
           <strong>Fee Structure</strong>
         </Typography>
       </Box>
+
       <Box>
         <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
           <List sx={{ listStyleType: 'disc', pl: 2 }}>
@@ -269,7 +305,7 @@ const AdmissionUG: React.FC = () => {
             <Table className={styles.table}>
               <TableHead>
                 <TableRow className={styles.tableHeadRow}>
-                <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
+                  <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
                     Qualifying Examination
                   </TableCell>
                   <TableCell className={styles.tableHeadCell}>
@@ -279,7 +315,7 @@ const AdmissionUG: React.FC = () => {
               </TableHead>
               <TableBody>
                 <TableRow className={styles.tableBodyRow}>
-                <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
+                  <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
                     JEE (Advanced) 2024
                   </TableCell>
                   <TableCell className={styles.tableBodyCell}>
@@ -287,7 +323,7 @@ const AdmissionUG: React.FC = () => {
                   </TableCell>
                 </TableRow>
                 <TableRow className={styles.tableBodyRow}>
-                <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
+                  <TableCell className={`${styles.tableHeadCell} ${styles.firstColumn}`}>
                     JEE (Main) 2024 B.E./B.Tech.
                   </TableCell>
                   <TableCell
@@ -299,12 +335,12 @@ const AdmissionUG: React.FC = () => {
                   </TableCell>
                 </TableRow>
                 <TableRow className={styles.tableBodyRow}>
-                <TableCell className={`${styles.tableBodyCell} ${styles.firstColumn}`}>
+                  <TableCell className={`${styles.tableBodyCell} ${styles.firstColumn}`}>
                     JEE (Main) 2024 B.Arch.
                   </TableCell>
                 </TableRow>
                 <TableRow className={styles.tableBodyRow}>
-                <TableCell className={`${styles.tableBodyCell} ${styles.firstColumn}`}>
+                  <TableCell className={`${styles.tableBodyCell} ${styles.firstColumn}`}>
                     JEE (Main) 2024 B.Planning
                   </TableCell>
                 </TableRow>

@@ -2,17 +2,21 @@
     {
         "s_no": 1,
         "name": "Dr. G.Seetharaman",
-        "role": "Chairman, PI/ Professor, Department of ECE"
+        "role": "Professor,Dept. of ECE,IIIT Tiruchirappalli – 620012",
+        "mobileno": "9442531081"
     },
     {
         "s_no": 2,
-        "name": "Dr. V. Sindhu",
-        "role": " CSAB & CCMT Coordinator/ Assistant Professor, Department of S&H"
+        "name": "Dr. R. Dhanalakshmi",
+        "role": "Associate Professor,Dept. of CSE,IIIT Tiruchirappalli – 620012",
+        "mobileno": "9442045851"
     },
     {
         "s_no": 3,
-        "name": "Dr. G. Devasena",
-        "role": " CSAB & CCMT Reporting Officer/ Assistant Professor, Department of CSE"
+        "name": "Dr. M. Ambika,",
+        "role": "Assistant Professor,Dept. of CSE,IIIT Tiruchirappalli – 620012",
+        "mobileno": "9442583325"
     }
+
 ]
 }
