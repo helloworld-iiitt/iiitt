@@ -17,7 +17,7 @@ export default function CommitteePage({ committee }: { committee: string }) {
     pio: ["Name", "Designation", "Role"],
     fc: ["Name", "Designation", "Role"],
     icc: ["Name", "Designation", "Role"],
-    admission: ["Name", "Role"],
+    admission: ["Name", "Role","MobileNo"],
   };
   const committeeName = committee.toLowerCase();
   const formattedCommitteeName = committee.toUpperCase().replace("_", " ");
@@ -43,7 +43,7 @@ export default function CommitteePage({ committee }: { committee: string }) {
           No members available.
         </Typography>
       )}
-      
+
       {isMeetingJsonAvailable && committeeName!="admission" && (
         <>
           {loading ? (
