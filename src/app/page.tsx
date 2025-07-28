@@ -215,13 +215,13 @@ const Home: React.FC = () => {
 
               <PlacementStats />
 
-              <Button  href="http://placement.iiitt.ac.in/" sx={{ mt: 2 }}>
+              <Button href="http://placement.iiitt.ac.in/" sx={{ mt: 2 }}>
                 View Detailed Placement Stats
               </Button>
 
             </TabPanel>
             <TabPanel value={twitterTab} index={1}>
-              <SocialMediaPosts/>
+              <SocialMediaPosts />
             </TabPanel>
           </Paper>
         </div>
