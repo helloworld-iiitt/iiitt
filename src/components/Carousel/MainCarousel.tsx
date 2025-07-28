@@ -15,7 +15,7 @@ interface CarouselProps {
 
 const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
   return (
-    <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} interval={3000} >
+    <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} interval={2000} >
       {images.map((image, index) => {
         const imageUrl = `${nextConfig.env?.IMAGE}/${(image.path)}`;
         //console.log(`Image URL [${index}]:`, imageUrl);
