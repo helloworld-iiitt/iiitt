@@ -36,7 +36,7 @@ export default function Director() {
               <Typography variant="h6" gutterBottom>
                 Dr. N. Renugadevi
               </Typography>
-              <Typography variant="subtitle1">Registrar(i\c), IIIT Tiruchirappalli</Typography>
+              <Typography variant="subtitle1">Registrar(i/c), IIIT Tiruchirappalli</Typography>
               <br />
               <a href="mailto:registrar@iiitt.ac.in" className={styles.linkStyle}>
                 <ContactMailIcon /> registrar@iiitt.ac.in

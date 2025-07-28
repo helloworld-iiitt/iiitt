@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
@@ -15,10 +16,10 @@ interface CarouselProps {
 
 const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
   return (
-    <Carousel infiniteLoop showThumbs={false} autoPlay stopOnHover={false} interval={2000} >
+    <Carousel  showThumbs={false} autoPlay stopOnHover={false}  infiniteLoop interval={3000} >
       {images.map((image, index) => {
         const imageUrl = `${nextConfig.env?.IMAGE}/${(image.path)}`;
-        //console.log(`Image URL [${index}]:`, imageUrl);
+        console.log(`Image URL [${index}]:`, imageUrl);
 
         return (
           <div key={index}>
@@ -28,6 +29,7 @@ const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
               width={800}
               height={600}
               className="w-full h-auto"
+              priority
             />
             <p className="legend">{image.name}</p>
           </div>

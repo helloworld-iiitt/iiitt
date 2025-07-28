@@ -34,8 +34,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.30.3",
     "recharts": "^2.15.3",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^11.2.6"
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
