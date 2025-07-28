@@ -27,7 +27,7 @@ export default function Director() {
             <div className={styles.imageContainer}>
               <Image
                 src={`${nextConfig.env?.IMAGE}/ushanatesan.jpg`}
-                alt="Director( i\c)"
+                alt="Director(i\c)"
                 layout="fill"
                 objectFit="cover"
               />
@@ -36,7 +36,7 @@ export default function Director() {
               <Typography variant="h6" gutterBottom>
                 Prof. Usha Natesan
               </Typography>
-              <Typography variant="subtitle1">Director(i\c), IIIT Trichy</Typography>
+              <Typography variant="subtitle1">Director(i/c), IIIT Tiruchirappalli</Typography>
               <br />
               <a href="mailto:director@iiitt.ac.in" className={styles.linkStyle}>
                 <ContactMailIcon /> director@iiitt.ac.in
@@ -47,7 +47,7 @@ export default function Director() {
           <Card className={styles.messageCard}>
             <CardContent>
               <Typography variant="h5" className={styles.messageTitle} gutterBottom>
-                DIRECTOR'S MESSAGE
+                Director(i/c)'s Message
               </Typography>
               <Typography className={styles.messageText}>
                 As an Institute of National Importance under the Ministry of Education, Government of India, IIIT Tiruchirappalli is dedicated to advancing education, research, and innovation in Information Technology and related fields.
