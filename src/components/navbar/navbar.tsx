@@ -14,40 +14,38 @@ import {
   MenuItem,
   Typography,
 } from "@mui/material";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MouseEvent, useEffect, useState } from "react";
 
-import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
-import CallIcon from '@mui/icons-material/Call';
-import CodeIcon from '@mui/icons-material/Code';
-import EventNoteIcon from "@mui/icons-material/EventNote";
-import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
-import MenuIcon from "@mui/icons-material/Menu";
-import NoteAddIcon from '@mui/icons-material/NoteAdd';
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import PeopleIcon from '@mui/icons-material/People';
-import PersonIcon from '@mui/icons-material/Person';
-import SchoolIcon from '@mui/icons-material/School';
-import TwitterIcon from "@mui/icons-material/Twitter";
-import WorkIcon from '@mui/icons-material/Work';
-import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import {
+  AccountBalance as AccountBalanceIcon,
+  Call as CallIcon,
+  Code as CodeIcon,
+  EventNote as EventNoteIcon,
+  ExpandLess as ExpandLessIcon,
+  ExpandMore as ExpandMoreIcon,
+  HomeRounded as HomeRoundedIcon,
+  LocalLibrary as LocalLibraryIcon,
+  LibraryBooks as LibraryBooksIcon,
+  Menu as MenuIcon,
+  NoteAdd as NoteAddIcon,
+  Notifications as NotificationsIcon,
+  People as PeopleIcon,
+  Person as PersonIcon,
+  School as SchoolIcon,
+  Twitter as TwitterIcon,
+  Work as WorkIcon,
+  WorkspacePremium as WorkspacePremiumIcon
+} from "@mui/icons-material";
+
 import { styled } from "@mui/material/styles";
 import Image from "next/image";
-import NextLink from "next/link";
 import nextConfig from "../../../next.config";
+import { NavItem, SubMenuItem } from "@/types/nav.types";
+import "./Navbar.css";
 
-// Define types for navbar items
-interface SubMenuItem {
-  text: string;
-  link: string;
-  submenu?: SubMenuItem[];
-  icon?: string;
-}
 const iconMap: { [key: string]: React.ComponentType } = {
   account_balance: AccountBalanceIcon,
   academics: LocalLibraryIcon,
@@ -60,15 +58,8 @@ const iconMap: { [key: string]: React.ComponentType } = {
   workspace_premium: WorkspacePremiumIcon,
   work: WorkIcon,
   code: CodeIcon,
-  library:LibraryBooksIcon,
+  library: LibraryBooksIcon,
 };
-
-interface NavItem {
-  text: string;
-  link?: string;
-  submenu?: SubMenuItem[];
-  icon?: string;
-}
 
 const StyledHomeIcon = styled(HomeRoundedIcon)({
   color: "white",
@@ -79,24 +70,19 @@ const StyledButton = styled(Button)({
   color: "white",
 });
 
-
 const Navbar = () => {
-  const [navItems, setNavItems] = useState<NavItem[]>([]);
-  const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
   const pathname = usePathname();
+  const [navItems, setNavItems] = useState<NavItem[]>([]);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
   useEffect(() => {
     let isMounted = true;
-    const fetchNavItems = async () => {
-      try {
-        const res = await fetch("/json/navigation/navbar_data.json");
-        const data = await res.json();
+    fetch("/json/navigation/navbar_data.json")
+      .then((res) => res.json())
+      .then((data) => {
         if (isMounted) setNavItems(data.data);
-      } catch (error) {
-        console.error("Error loading navbar items:", error);
-      }
-    };
-
-    fetchNavItems();
+      })
+      .catch((error) => console.error("Error loading navbar items:", error));
     return () => {
       isMounted = false;
     };
@@ -104,77 +90,65 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Mobile Navbar */}
-      <div id="mobile_navbar" className="MuiAppBar-root MuiToolbar-regular">
-        <div id="quick_nav" style={{ display: "flex", gap: "10px",justifyContent:"space-evenly", margin:"auto"}}>
-          {/* Menu Icon */}
-          <IconButton color="inherit" aria-label="menu" onClick={() => setDrawerOpen(true)}>
-            <MenuIcon sx={{ color: "white", fontSize: { xs: 24, sm: 28 } }} />
+      {/* Mobile Menu */}
+      <div className="mobile-menu">
+        <IconButton onClick={() => setDrawerOpen(true)}>
+          <MenuIcon sx={{ color: "white", fontSize: 28 }} />
+        </IconButton>
+        <Link href="/#announcements_marquee">
+          <IconButton>
+            <NotificationsIcon sx={{ color: "white", fontSize: 28 }} />
           </IconButton>
-          <Link href="/#announcements_marquee">
-            <IconButton color="inherit">
-              <NotificationsIcon sx={{ color: "white", fontSize: { xs: 24, sm: 28 } }} />
-            </IconButton>
-          </Link>
-          <Link href="/#news_event_notice">
-            <IconButton color="inherit">
-              <EventNoteIcon sx={{ color: "white", fontSize: { xs: 24, sm: 28 } }} />
-            </IconButton>
-          </Link>
-          <Link href="/#twitter_timeline">
-            <IconButton color="inherit">
-              <TwitterIcon sx={{ color: "white", fontSize: { xs: 24, sm: 28 } }} />
-            </IconButton>
-          </Link>
-        </div>
+        </Link>
+        <Link href="/#news_event_notice">
+          <IconButton>
+            <EventNoteIcon sx={{ color: "white", fontSize: 28 }} />
+          </IconButton>
+        </Link>
+        <Link href="/#twitter_timeline">
+          <IconButton>
+            <TwitterIcon sx={{ color: "white", fontSize: 28 }} />
+          </IconButton>
+        </Link>
       </div>
 
-
-      {/* Desktop Navbar */}
-      <div id="desktop_menu" className="MuiAppBar-root MuiToolbar-regular">
-        <div style={{ display: "flex", gap: "20px", minHeight: "64px", justifyContent:"space-evenly", margin:"auto" }}>
-          {pathname !== "/" ? (
-            <Link href="/" id="home_button">
-              <StyledHomeIcon sx={{ fontSize: { xs: 28, sm: 36 } }} />
-            </Link>
-          ) : (
-            <Box sx={{ width: { xs: 28, sm: 36 }, pl: "10px" }} />
-          )}
-
-          {navItems.map((menuItem, index) => (
-            <DropdownMenu key={index} menu={menuItem} />
-          ))}
-        </div>
+      {/* Desktop Menu */}
+      <div className="desktop-menu navbar">
+        {pathname !== "/" ? (
+          <Link href="/" id="home_button">
+            <StyledHomeIcon sx={{ fontSize: 36 }} />
+          </Link>
+        ) : (
+          <Box sx={{ width: 36, pl: "10px" }} />
+        )}
+        {navItems.map((menuItem, index) => (
+          <DropdownMenu key={index} menu={menuItem} />
+        ))}
       </div>
 
-      {/* Sidebar Drawer */}
+      {/* Sidebar Drawer for Mobile */}
       <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
         <List>
           <Link href="/" onClick={() => setDrawerOpen(false)}>
-          <ListItem>
-            <ListItemIcon>
-              <Image
-                src={`${nextConfig.env?.IMAGE}/iiitt-logo.png`}
-                alt="IIITT Logo"
-                priority
-                width={40}
-                height={80}
-              />
-            </ListItemIcon>
-            <ListItemText>
-              <Typography variant="h6" sx={{ color: "Black" }}>IIITT</Typography>
-            </ListItemText>
-          </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <Image
+                  src={`${nextConfig.env?.IMAGE}/iiitt-logo.png`}
+                  alt="IIITT Logo"
+                  width={40}
+                  height={80}
+                />
+              </ListItemIcon>
+              <ListItemText>
+                <Typography variant="h6" sx={{ color: "Black" }}>IIITT</Typography>
+              </ListItemText>
+            </ListItem>
           </Link>
         </List>
         <Divider />
         <List>
           {navItems.map((menuItem, index) => (
-            <MobileMenuItem
-              key={index}
-              item={menuItem}
-              onClose={() => setDrawerOpen(false)}
-            />
+            <MobileMenuItem key={index} item={menuItem} onClose={() => setDrawerOpen(false)} />
           ))}
         </List>
       </Drawer>
@@ -182,20 +156,14 @@ const Navbar = () => {
   );
 };
 
-// Dropdown Menu Component with TypeScript
 const DropdownMenu: React.FC<{ menu: NavItem }> = ({ menu }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
-  const handleOpen = (event: MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  const handleOpen = (event: MouseEvent<HTMLButtonElement>) => setAnchorEl(event.currentTarget);
+  const handleClose = () => setAnchorEl(null);
 
   return (
-    <div>
+    <>
       {menu.submenu ? (
         <>
           <StyledButton onClick={handleOpen}>{menu.text}</StyledButton>
@@ -206,31 +174,27 @@ const DropdownMenu: React.FC<{ menu: NavItem }> = ({ menu }) => {
           </Menu>
         </>
       ) : (
-        <NextLink href={menu.link || "#"} passHref legacyBehavior>
+        <Link href={menu.link || "#"} passHref legacyBehavior>
           <StyledButton>{menu.text}</StyledButton>
-        </NextLink>
-
+        </Link>
       )}
-    </div>
+    </>
   );
 };
-const NestedDropdown: React.FC<{
-  menuItem: SubMenuItem;
-  onClose: () => void;
-}> = ({ menuItem, onClose }) => {
+
+const NestedDropdown: React.FC<{ menuItem: SubMenuItem; onClose: () => void }> = ({
+  menuItem,
+  onClose,
+}) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const hasSubmenu = !!menuItem.submenu?.length;
 
   const handleMouseEnter = (event: React.MouseEvent<HTMLElement>) => {
-    if (hasSubmenu) {
-      setAnchorEl(event.currentTarget);
-    }
+    if (hasSubmenu) setAnchorEl(event.currentTarget);
   };
 
   const handleMouseLeave = () => {
-    if (hasSubmenu) {
-      setAnchorEl(null);
-    }
+    if (hasSubmenu) setAnchorEl(null);
   };
 
   const menuItemNode = (
@@ -239,7 +203,7 @@ const NestedDropdown: React.FC<{
       onMouseLeave={handleMouseLeave}
       onClick={!hasSubmenu ? onClose : undefined}
       disableRipple
-      sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+      sx={{ justifyContent: "space-between" }}
     >
       <ListItemText>{menuItem.text}</ListItemText>
       {hasSubmenu && <ExpandMoreIcon fontSize="small" />}
@@ -255,7 +219,6 @@ const NestedDropdown: React.FC<{
       ) : (
         menuItemNode
       )}
-
       {hasSubmenu && (
         <Menu
           anchorEl={anchorEl}
@@ -266,7 +229,7 @@ const NestedDropdown: React.FC<{
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
           transformOrigin={{ vertical: "top", horizontal: "left" }}
         >
-          {menuItem?.submenu?.map((subItem, index) => (
+          {menuItem.submenu?.map((subItem, index) => (
             <NestedDropdown key={index} menuItem={subItem} onClose={onClose} />
           ))}
         </Menu>
@@ -275,22 +238,24 @@ const NestedDropdown: React.FC<{
   );
 };
 
-
-
-const MobileMenuItem = ({ item, depth = 0, onClose }: { item: NavItem | SubMenuItem; depth?: number; onClose: () => void }) => {
+const MobileMenuItem = ({
+  item,
+  depth = 0,
+  onClose,
+}: {
+  item: NavItem | SubMenuItem;
+  depth?: number;
+  onClose: () => void;
+}) => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const hasSubmenu = item.submenu && item.submenu.length > 0;
+  const hasSubmenu = !!item.submenu?.length;
   const IconComponent = item.icon ? iconMap[item.icon] : null;
 
   return (
     <>
       {!hasSubmenu ? (
-        <Link href={item.link || "#"} >
-          <ListItem
-
-            onClick={onClose}  // Close drawer when clicking a link
-            sx={{ pl: depth * 2 }}
-          >
+        <Link href={item.link || "#"}>
+          <ListItem onClick={onClose} sx={{ pl: depth * 2 }}>
             {IconComponent && (
               <ListItemIcon>
                 <IconComponent />
@@ -300,10 +265,7 @@ const MobileMenuItem = ({ item, depth = 0, onClose }: { item: NavItem | SubMenuI
           </ListItem>
         </Link>
       ) : (
-        <ListItem
-          onClick={() => setIsExpanded(!isExpanded)}
-          sx={{ pl: depth * 2 }}
-        >
+        <ListItem onClick={() => setIsExpanded(!isExpanded)} sx={{ pl: depth * 2 }}>
           {IconComponent && (
             <ListItemIcon>
               <IconComponent />
@@ -313,15 +275,13 @@ const MobileMenuItem = ({ item, depth = 0, onClose }: { item: NavItem | SubMenuI
           {isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
         </ListItem>
       )}
-      {hasSubmenu && isExpanded && item.submenu?.map((subItem, index) => (
-        <MobileMenuItem
-          key={index}
-          item={subItem}
-          depth={depth + 1}
-          onClose={onClose}
-        />
-      ))}
+      {hasSubmenu &&
+        isExpanded &&
+        item.submenu?.map((subItem, index) => (
+          <MobileMenuItem key={index} item={subItem} depth={depth + 1} onClose={onClose} />
+        ))}
     </>
   );
 };
+
 export default Navbar;
