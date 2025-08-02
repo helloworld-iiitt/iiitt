@@ -100,9 +100,10 @@ const Header: React.FC = () => {
     inputRef.current?.blur();
   };
 
-{/*
+  {/*
   <Image
-  src="/images/header.png"
+
+ src="/images/header.png"
   alt="IIITT Logo"
   width={1011}
   height={241}
@@ -113,24 +114,25 @@ const Header: React.FC = () => {
 */}
   return (
     <div>
-    <div className="hidden sm:block p-6 bg-white shadow-lg relative">
-      <center>
-        <div className="w-[80%] max-w-[600px] min-w-[200px]">
-          <Image
-            src={`${nextConfig.env?.IMAGE}/logo-iiit-new.png`}
-            alt="IIITT Logo"
-            width={1080}
-            height={150}
-            layout="responsive"
-            className="w-full h-auto"
-            priority
-          />
-        </div>
-      </center>
+      <div className="hidden sm:block p-6 bg-white shadow-lg relative">
+        <center>
+          <div className="w-[80%] max-w-[600px] min-w-[200px]">
+            <Image
+              src={`${nextConfig.env?.IMAGE}/logo-iiit-new.png`}
+
+              alt="IIITT Logo"
+              width={1080}
+              height={150}
+              layout="responsive"
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+        </center>
       </div>
       <div className="flex flex-wrap content-end justify-end">
         <div className="max-w-[300px]">
-          <div style={{display:"flex",justifyContent:"flex-end"}}>
+          <div style={{ display: "flex", justifyContent: "flex-end" }}>
             <input
               type="search"
               ref={inputRef}
@@ -145,7 +147,7 @@ const Header: React.FC = () => {
                 focusedIndex >= 0 ? `result-item-${focusedIndex}` : undefined
               }
               autoComplete="off"
-              style={{display:"flex",justifyContent:"flex-end"}}
+              style={{ display: "flex", justifyContent: "flex-end" }}
             />
           </div>
 
@@ -172,11 +174,10 @@ const Header: React.FC = () => {
                     role="option"
                     tabIndex={-1}
                     aria-selected={focusedIndex === idx}
-                    className={`cursor-pointer px-4 py-3 transition-colors duration-150 ${
-                      focusedIndex === idx
+                    className={`cursor-pointer px-4 py-3 transition-colors duration-150 ${focusedIndex === idx
                         ? "bg-blue-600 text-white"
                         : "hover:bg-blue-100 hover:text-blue-900"
-                    }`}
+                      }`}
                     onClick={() => onClickResult(item.url)}
                     onMouseEnter={() => setFocusedIndex(idx)}
                   >
