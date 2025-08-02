@@ -15,8 +15,10 @@ import {
   Tabs,
   Typography,
 } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import "./globals.css";
+
+
 interface Item {
   title: string;
   link: string;
@@ -64,6 +66,25 @@ const Home: React.FC = () => {
     achievements: [] as Item[],
     loading: true,
   });
+
+  let mainTabInterval: NodeJS.Timeout;
+  let twitterTabInterval: NodeJS.Timeout;
+  const mainTabIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const twitterTabIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const resetMainTabCycle = (startFrom: number) => {
+    if (mainTabIntervalRef.current) clearInterval(mainTabIntervalRef.current);
+    mainTabIntervalRef.current = setInterval(() => {
+      setMainTab(prev => (prev + 1) % 3);
+    }, 10000);
+  };
+
+  const resetTwitterTabCycle = (startFrom: number) => {
+    if (twitterTabIntervalRef.current) clearInterval(twitterTabIntervalRef.current);
+    twitterTabIntervalRef.current = setInterval(() => {
+      setTwitterTab(prev => (prev + 1) % 2);
+    }, 10000);
+  };
+
   useEffect(() => {
     document.title = "IIIT Tiruchirappalli";
     const fetchData = async () => {
@@ -95,6 +116,16 @@ const Home: React.FC = () => {
 
     fetchData();
   }, []);
+  useEffect(() => {
+    resetMainTabCycle(0);
+    resetTwitterTabCycle(0);
+
+    return () => {
+      if (mainTabIntervalRef.current) clearInterval(mainTabIntervalRef.current);
+      if (twitterTabIntervalRef.current) clearInterval(twitterTabIntervalRef.current);
+    };
+  }, []);
+
 
 
 
@@ -119,10 +150,14 @@ const Home: React.FC = () => {
 
   const handleMainTabChange = (_: React.SyntheticEvent, newValue: number) => {
     setMainTab(newValue);
+    resetMainTabCycle(newValue);
   };
+
   const handleTwitterTabChange = (_: React.SyntheticEvent, newValue: number) => {
     setTwitterTab(newValue);
+    resetTwitterTabCycle(newValue);
   };
+
 
 
   const a11yProps = (index: number) => ({

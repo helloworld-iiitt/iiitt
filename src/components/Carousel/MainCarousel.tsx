@@ -32,7 +32,7 @@ const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
           infiniteLoop
           showThumbs={false}
           stopOnHover={false}
-          interval={3000}
+          interval={5000}
         >
           {images.map((image, index) => {
             const imageUrl =`${nextConfig.env?.IMAGE}/${image.path}`;
