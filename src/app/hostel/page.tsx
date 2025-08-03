@@ -1,65 +1,47 @@
-"use client";;
-import { CircularProgress, Typography } from "@mui/material";
-import Grid from "@mui/material/Grid2";
+"use client";
+
+import {
+  Box,
+  Card,
+  CardContent,
+  CircularProgress,
+  Typography,
+} from "@mui/material";
+import Grid from "@mui/material/Grid2"
+import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
 import styles from "./hostel.module.css";
-import Image from "next/image";
 import PersonCard from "@/components/PersonCard/PersonCard";
 import TableComponent from "@/components/tablecomponent/tablecomponent";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import { Box } from "@mui/material";
-
-interface hosteldata {
-  title: string;
-  desc: string;
-  Hostelsrc: string;
-  Warden: string;
-  RoomNo: string;
-  Department: string;
-  emailId: string;
-  WardenImage: string;
-}
-interface mess extends hosteldata {
-  MessTimings: {
-    Breakfast: string;
-    Lunch: string;
-    Snacks: string;
-    Dinner: string;
-  };
-}
-interface FormData {
-  title: string;
-  link: string;
-}
+import {HostelData,MessData,FormData} from "@/types/hostel.types";
 
 export default function Hostel() {
-  const [hostelinfo, setHostelData] = useState<hosteldata[] | null>(null);
+  const [hostelInfo, setHostelInfo] = useState<HostelData[] | null>(null);
   const [forms, setForms] = useState<FormData[] | null>(null);
-  const [fromloading, setLoading] = useState<boolean>(true);
-  const [mess, setMessData] = useState<mess[] | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [messInfo, setMessInfo] = useState<MessData[] | null>(null);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
     try {
-      const [formresponse, response] = await Promise.allSettled([
+      const [formRes, hostelRes] = await Promise.allSettled([
         fetch("/json/students/hostelforms.json"),
         fetch("/json/students/hostels.json"),
       ]);
-      if (response.status === "fulfilled") {
-        const hstl = await response.value.json();
-        setHostelData(hstl.Hostel);
-        setMessData(hstl.Mess);
+
+      if (hostelRes.status === "fulfilled") {
+        const hostelJson = await hostelRes.value.json();
+        setHostelInfo(hostelJson.Hostel);
+        setMessInfo(hostelJson.Mess);
       }
 
-      if (formresponse.status === "fulfilled") {
-        const meetingsJson = await formresponse.value.json();
-        setForms(meetingsJson);
+      if (formRes.status === "fulfilled") {
+        const formJson = await formRes.value.json();
+        setForms(formJson);
       }
     } catch (error) {
-      console.error("Error fetching form data:", error);
+      console.error("Failed to fetch hostel/form data", error);
       setForms([]);
     } finally {
       setLoading(false);
@@ -75,87 +57,130 @@ export default function Hostel() {
   }, [fetchData]);
 
   return (
-    <div>
-      <Grid size={1} />
-      <div className={styles.title}><Typography variant="h2">Residence Hall</Typography></div>
+    <Box sx={{ px: { xs: 2, sm: 3, md: 5 }, py: 2 }}>
+      {/* Residence Hall Section */}
+      <Typography variant="h2" className={styles.title}>
+        Residence Hall
+      </Typography>
 
-      <div className={styles.cardContainer}>
-
-        {hostelinfo?.map((hInfo, index) => (
-          <Grid key={index} size={10}>
-
-            <Card sx={{
-              borderRadius: "12px",
-              boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
-              overflow: "hidden"
-            }}><div>
-              <Image src={`${nextConfig.env?.DOCUMENT}${hInfo.Hostelsrc}`} width={680} height={350} alt={hInfo.title}/>
-              </div>
+      <Grid container spacing={3} className={styles.cardContainer}>
+        {hostelInfo?.map((info, index) => (
+          <Grid size={{xs:12, sm:10 ,md:6}} key={index} gap={2}>
+            <Card  sx={{
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          borderRadius: 2,
+          boxShadow: 3,
+        }}>
+              <Image
+                src={`${nextConfig.env?.DOCUMENT}${info.Hostelsrc}`}
+                alt={info.title}
+                width={680}
+                height={462}
+                style={{ width: "100%", height:"350" }}
+              />
               <CardContent>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                  {hInfo.desc}
+                <Typography variant="body2" color="text.secondary" mb={2}>
+                  {info.desc}
                 </Typography>
-                <Typography sx={{ mx: 'auto', my: 'auto' }} variant="h6"> Chief Warden</Typography>
-                <PersonCard name={hInfo.Warden} src={hInfo.WardenImage} Room={hInfo.RoomNo} src_type="Warden" dept={hInfo.Department} emailID={hInfo.emailId} designation="">
-                </PersonCard>
+                <Typography variant="h6" gutterBottom>
+                  Chief Warden
+                </Typography>
+                <PersonCard
+                  name={info.Warden}
+                  src={info.WardenImage}
+                  Room={info.RoomNo}
+                  src_type="Warden"
+                  dept={info.Department}
+                  emailID={info.emailId}
+                  designation=""
+                />
               </CardContent>
             </Card>
           </Grid>
         ))}
+      </Grid>
 
-      </div>
       <div className={styles.sectiondivider}></div>
 
-      <Grid size={1} />
-      <div className={styles.title}><Typography variant="h2">Mess Hall</Typography></div>
-      <Grid size={1} />
-      <div className={styles.cardContainer}>
-        {mess?.map((hInfo, index) => (
-          <Grid key={index} size={10}>
-            <Card className={styles.cardContainer}>
-            <Image src={`${nextConfig.env?.DOCUMENT}${hInfo.Hostelsrc}`} width={600} height={350} alt={hInfo.title}/>
+      {/* Mess Hall Section */}
+      <Typography variant="h2" className={styles.title}>
+        Mess Hall
+      </Typography>
+
+      <Grid container spacing={3} className={styles.cardContainer}>
+        {messInfo?.map((mess, index) => (
+          <Grid size={{xs:12, sm:10 ,md:6}} key={index}>
+            <Card  sx={{
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          borderRadius: 2,
+          boxShadow: 3,
+        }}>
+              <Image
+                src={`${nextConfig.env?.DOCUMENT}${mess.Hostelsrc}`}
+                alt={mess.title}
+                width={600}
+                height={462}
+                style={{ width: "100%", height:"auto" }}
+              />
               <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                ></Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                  {hInfo.desc}
+                <Typography variant="body2" color="text.secondary" mb={2}>
+                  {mess.desc}
                 </Typography>
-                <div>
-                  <Box sx={{ display: "grid", gap: "10px" }}>
-                    {Object.entries(hInfo.MessTimings).map(([meal, time]) => (
-                      <Typography key={meal} variant="body2" sx={{ color: "text.secondary" }}>
-                        <b>{meal}:</b> {time}
-                      </Typography>
-                    ))}
-                  </Box>
-                </div>
-                <PersonCard name={hInfo.Warden} src={hInfo.WardenImage} Room={hInfo.RoomNo} src_type="Warden" dept={hInfo.Department} emailID={hInfo.emailId} designation="" />
+
+                <Box sx={{ display: "grid", gap: 1 }}>
+                  {Object.entries(mess.MessTimings).map(([meal, time]) => (
+                    <Typography key={meal} variant="body2">
+                      <strong>{meal}:</strong> {time}
+                    </Typography>
+                  ))}
+                </Box>
+
+                <Box mt={2}>
+                  <PersonCard
+                    name={mess.Warden}
+                    src={mess.WardenImage}
+                    Room={mess.RoomNo}
+                    src_type="Warden"
+                    dept={mess.Department}
+                    emailID={mess.emailId}
+                    designation=""
+                  />
+                </Box>
               </CardContent>
             </Card>
           </Grid>
         ))}
-      </div>
-      <Grid size={1} />
+      </Grid>
+
       <div className={styles.sectiondivider}></div>
-      <div className={styles.title}><Typography variant="h2">Hostel Forms</Typography></div>
-      {fromloading ? (
-        <CircularProgress />
+
+      {/* Forms Section */}
+      <Typography variant="h2" className={styles.title}>
+        Hostel Forms
+      </Typography>
+
+      {loading ? (
+        <Box sx={{ textAlign: "center", mt: 4 }}>
+          <CircularProgress />
+        </Box>
       ) : forms && forms.length > 0 ? (
-        <TableComponent
-          loading={fromloading}
-          columns={[]}
-          isMeetingTable={true}
-          members={forms}
-        ></TableComponent>
+        <Box mt={2}>
+          <TableComponent
+            loading={loading}
+            columns={[]}
+            isMeetingTable={true}
+            members={forms}
+          />
+        </Box>
       ) : (
-        <Typography variant="body1" color="error">
+        <Typography variant="body1" color="error" textAlign="center">
           No forms available.
         </Typography>
       )}
-
-    </div>
+    </Box>
   );
 }
