@@ -1,3 +1,11 @@
+/**
+ * Building and Works Committe Page
+ *
+ * Utilizes CommittePage
+ */
+
+
+
 "use client";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
 

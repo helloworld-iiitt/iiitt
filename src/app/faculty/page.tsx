@@ -1,28 +1,26 @@
+/**
+ *
+ * Faculty Page
+ *
+ * List all the faculties in IIITT
+ * utilizes Personcard Component
+ * fetches data from /json/faculty/faculty
+ *
+ * Also has Faculty Download book
+ *
+ */
+
+
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import PersonCard from "@/components/PersonCard/PersonCard";
+import { FacultyMember } from "@/types/faculty.types";
 import { Typography } from "@mui/material";
+import Head from "next/head";
 import Link from "next/link";
-import styles from "./faculty.module.css";
+import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
-
-interface FacultyMember {
-  name: string;
-  emailID: string;
-  src: string;
-  designation: string;
-  researchArea: string;
-  id: {
-    dept: string;
-    deptID: string;
-  };
-  Incharge?: string;
-  VidhwanLink?: string;
-  Institute?: string;
-  PersonalPage?:string;
-}
+import styles from "./faculty.module.css";
 
 const Faculty = () => {
   const [facultyData, setFacultyData] = useState<Record<string, FacultyMember[]> | null>(null);

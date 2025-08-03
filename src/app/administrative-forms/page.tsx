@@ -1,4 +1,15 @@
+/**
+ *  Administrative Forms
+ *
+ * Fetches data from /json/general/administativeForms
+ * Downloadable Forms
+ * Utilizes Circular Progress for loader image
+ * Utilizes TableComponent for data rendering
+ *
+ */
 "use client";
+
+// #region import
 import React, { useEffect, useState, useCallback } from "react";
 import {
   TableContainer,
@@ -15,11 +26,8 @@ import {
 import DownloadIcon from "@mui/icons-material/Download";
 import styles from "./forms.module.css";
 import nextConfig from "../../../next.config";
-interface FormData {
-  title: string;
-  link: string;
-}
-
+import { FormData } from "@/types/common.types";
+// #endregion
 
 
 export default function AdministrativeForms() {

@@ -1,3 +1,12 @@
+/***
+ *  Director's Page
+ *
+ *
+ *
+ *
+ */
+
+
 "use client";
 
 import { useEffect } from "react";

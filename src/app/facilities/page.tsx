@@ -1,17 +1,21 @@
+/**
+ *
+ * Facilities And Services
+ *
+ * fetches data from /json/general/facilities
+ *
+ */
+
 "use client";
 import { Typography, Card, CardContent } from "@mui/material";
 import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./facilites.module.css";
 import nextConfig from "../../../next.config";
-
-interface ImageData {
-  title: string;
-  url: string;
-}
+import { FormData } from "@/types/common.types";
 
 export default function Hostel() {
-  const [images, setForms] = useState<ImageData[] | null>(null);
+  const [images, setForms] = useState<FormData[] | null>(null);
 
   const fetchData = useCallback(async () => {
     try {
@@ -47,7 +51,7 @@ export default function Hostel() {
               </Typography>
             </CardContent>
             <Image
-              src={`${nextConfig?.env?.IMAGE}/${hInfo.url}`}
+              src={`${nextConfig?.env?.IMAGE}/${hInfo.link}`}
               alt={hInfo.title}
               width={100}
               height={500}

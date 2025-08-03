@@ -1,14 +1,20 @@
+/**
+ *
+ * Frequently Asked Question Page
+ *
+ * fetches data from /json/general/faqs
+ *
+ *
+ */
+
 "use client";
 import React, { useEffect, useState } from "react";
 import { Typography, Box } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import styles from "./faqs.module.css";
 import Faq from "@/components/faq/faq";
+import {FaqsData} from "@/types/common.types"
 
-interface FaqsData {
-  question: string;
-  answer: string;
-}
 
 const Faqs: React.FC = () => {
   const [faqs, setFaqs] = useState<FaqsData[] | null>(null);

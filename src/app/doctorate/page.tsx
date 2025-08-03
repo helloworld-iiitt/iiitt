@@ -1,3 +1,9 @@
+/**
+ * PhD Students Page
+ *
+ * fetches data from /json/students/doctorate
+ *
+ */
 "use client";
 import React, { useEffect, useState } from "react";
 import { Typography, Box } from "@mui/material";
@@ -5,14 +11,10 @@ import Grid from "@mui/material/Grid2";
 import styles from "../undergraduate/undergraduate.module.css";
 import LinkIcon from "@mui/icons-material/Link";
 import nextConfig from "../../../next.config";
-
-interface StudentLink {
-  title: string;
-  link: string;
-}
+import { FormData } from "@/types/common.types";
 
 interface Doctorate {
-  [category: string]: StudentLink[];
+  [category: string]: FormData[];
 }
 
 const Doctorate: React.FC = () => {
@@ -30,7 +32,7 @@ const Doctorate: React.FC = () => {
     fetch("/json/students/doctorate.json")
       .then((response) => {
         if (!response.ok) {
-          throw new Error("Failed to fetch PostGraduate data");
+          throw new Error("Failed to fetch Doctorate data");
         }
         return response.json();
       })

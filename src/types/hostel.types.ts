@@ -1,5 +1,5 @@
 
-export interface HostelData {
+interface HostelData {
   title: string;
   desc: string;
   Hostelsrc: string;
@@ -10,16 +10,11 @@ export interface HostelData {
   WardenImage: string;
 }
 
-export interface MessData extends HostelData {
+interface MessData extends HostelData {
   MessTimings: {
     Breakfast: string;
     Lunch: string;
     Snacks: string;
     Dinner: string;
   };
-}
-
-export interface FormData {
-  title: string;
-  link: string;
 }

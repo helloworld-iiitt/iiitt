@@ -1,14 +1,23 @@
+/**
+ * Annual Reports Page
+ *
+ * Fetches data from /json/general/annualreports
+ * utilizes TableComponent
+ * utilizes CircularProgressComponent
+ * uses numberToWords for conversion
+ */
+
+
 "use client"
 import TableComponent from "@/components/tablecomponent/tablecomponent";
 import { Box, CircularProgress, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import { useCallback, useEffect, useState } from "react";
 import styles from "../scholarship/scholarship.module.css";
+import { FormData } from "@/types/common.types";
 
-interface FormData {
-    title: string;
-    link: string;
-}
+
+
 export default function AnnualReports() {
     const [forms, setForms] = useState<FormData[] | null>(null);
     const [fromloading, setLoading] = useState<boolean>(true);

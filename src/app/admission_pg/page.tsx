@@ -1,4 +1,14 @@
+/**
+ * Post Graduate Admission Page
+ *
+ * Fetches data from /json/admission/pg
+ * uses validator for external/internal links
+ * uses numberToWords for conversion
+ */
+
 "use client";
+
+// #region import
 import { numberToWords } from "@/types/numbertoWords";
 import {
     Box, List, ListItem,
@@ -10,7 +20,7 @@ import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
 import { validURL } from "../../types/validator";
 import styles from './Admission_pg.module.css';
-
+// #endregion
 
 const Admission_pg: React.FC = () => {
     const [admissionData, setAdmissionData] = useState<any>(null);
@@ -29,23 +39,23 @@ const Admission_pg: React.FC = () => {
 
     return (
         <div>
-        <Box mb={2} display="flex" justifyContent="center">
-        <Typography
-          variant="h3"
-          sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
-          className={styles.themeText}
-        >
-          <strong>M.Tech. Admission 2025</strong>
-        </Typography>
-      </Box>
+            <Box mb={2} display="flex" justifyContent="center">
+                <Typography
+                    variant="h3"
+                    sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
+                    className={styles.themeText}
+                >
+                    <strong>M.Tech. Admission 2025</strong>
+                </Typography>
+            </Box>
             <Grid container className={styles.container} style={{ marginTop: "2rem" }}>
                 <Grid size={1} />
                 <Grid size={10}>
 
-                <Box mb={2}>
+                    <Box mb={2}>
                         <Typography
                             variant="h4"
-                            sx={{ color: "#2e8b57"}}
+                            sx={{ color: "#2e8b57" }}
                             className={styles.themeText}
                         >
                             <strong>List of Postgraduate Programs</strong>
@@ -60,18 +70,18 @@ const Admission_pg: React.FC = () => {
 
                     </Box>
                     <Box my={2} sx={{ pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}>
-        <List sx={{ listStyleType: 'disc', pl: 2 }}>
-          {admissionData.programs.map((program: string, index: number) => (
-            <ListItem
-              key={index}
-              sx={{ display: 'list-item', listStyleType: 'disc', pl: 2 }}
-              disableGutters
-            >
-              <ListItemText primary={program} />
-            </ListItem>
-          ))}
-        </List>
-      </Box>
+                        <List sx={{ listStyleType: 'disc', pl: 2 }}>
+                            {admissionData.programs.map((program: string, index: number) => (
+                                <ListItem
+                                    key={index}
+                                    sx={{ display: 'list-item', listStyleType: 'disc', pl: 2 }}
+                                    disableGutters
+                                >
+                                    <ListItemText primary={program} />
+                                </ListItem>
+                            ))}
+                        </List>
+                    </Box>
                     <Typography
                         variant="h3"
                         component="h3"
