@@ -2,28 +2,23 @@
     "data": [
         {
             "title": "Software Lab",
-            "url": "facilities/cselab.jpeg",
-            "link":""
+            "link": "facilities/cselab.jpeg"
         },
         {
             "title": "Hardware Lab",
-            "url": "facilities/ecelab.jpg",
-            "link":""
+            "link": "facilities/ecelab.jpg"
         },
         {
             "title": "Library",
-            "url": "facilities/library.jpg",
-            "link":""
+            "link": "facilities/library.jpg"
         },
         {
             "title": "Canteen",
-            "url": "facilities/canteen.jpeg",
-            "link":""
+            "link": "facilities/canteen.jpeg"
         },
         {
             "title": "Medical Room",
-            "url": "facilities/medicalroom.jpeg",
-            "link":""
+            "link": "facilities/medicalroom.jpeg"
         }
     ]
 }

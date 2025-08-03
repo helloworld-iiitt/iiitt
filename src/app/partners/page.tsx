@@ -1,3 +1,10 @@
+/**
+ *
+ * Industry Partner Page
+ *
+ * fetches data from /json/general/industry_partners
+ */
+
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -7,12 +14,7 @@ import styles from "./partners.module.css";
 import { Typography, Box } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import nextConfig from "../../../next.config";
-interface Partner {
-  name: string;
-  description: string;
-  logo: string;
-  link: string;
-}
+import { Partner } from "@/types/common.types";
 
 export default function Partners() {
   const [partners, setPartners] = useState<Partner[]>([]);
@@ -64,7 +66,7 @@ export default function Partners() {
                   <Link href={partner.link} target="_blank">
                     <Image
                       src={`${nextConfig.env?.IMAGE}/${partner.logo}`}
-                      
+
                       alt={`${partner.name} logo`}
                       width={150}
                       height={100}
@@ -80,7 +82,7 @@ export default function Partners() {
 
           <section className={styles.sectionPadding}>
             <Typography className={styles.text}>
-              The Department of Training and Placement collaborates with Industry Partners to facilitate campus 
+              The Department of Training and Placement collaborates with Industry Partners to facilitate campus
               placements and internships, enriching students’ programming skills and project experience.
             </Typography>
           </section>

@@ -1,5 +1,15 @@
+/**
+ *
+ * Festival Page
+ *
+ * fetches data from /json/events/festivals
+ * validUrl from type checking
+ *
+ */
+
 "use client";
 import MainCarousel from "@/components/Carousel/MainCarousel";
+import { FestivalData } from "@/types/common.types";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import { Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
@@ -7,26 +17,9 @@ import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
 import { validURL } from "../../types/validator";
 import styles from "./departments.module.css";
-interface Festival {
-  name: string;
-  description: string;
-  links: [
-    {
-      name: string;
-      url: string;
-      download: boolean;
-    }
-  ];
-  images: [
-    {
-      name: string;
-      path: string;
-    }
-  ];
-}
 
 const Festivals: React.FC = () => {
-  const [festivals, setFestivals] = useState<Festival[] | null>(null);
+  const [festivals, setFestivals] = useState<FestivalData[] | null>(null);
 
   useEffect(() => {
     document.title = "Festivals | IIIT Tiruchirappalli";

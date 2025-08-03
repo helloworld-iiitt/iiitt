@@ -1,4 +1,14 @@
+/**
+ * Under Graduate Admission Page
+ *
+ * Fetches data from /json/admission/ug
+ * uses validator for external/internal links
+ * uses numberToWords for conversion
+ */
+
+
 "use client";
+// #region import
 import { numberToWords } from "@/types/numbertoWords";
 import { validURL } from "@/types/validator";
 import {
@@ -16,6 +26,8 @@ import {
 import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
 import styles from "./ug.module.css";
+// #endregion
+
 const AdmissionUG: React.FC = () => {
   const [admissionData, setAdmissionData] = useState<any>(null);
 

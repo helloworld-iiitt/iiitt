@@ -1,3 +1,9 @@
+/**
+ *
+ * Virtual Tour of IIITT
+ *
+ * external lib kuula used
+ */
 "use client";
 import { useEffect, useRef } from "react";
 import { Box, Typography, Card, CardContent } from "@mui/material";

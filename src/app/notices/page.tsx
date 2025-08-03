@@ -1,3 +1,11 @@
+/**
+ * Notices Page
+ *
+ * fetches data from
+ * utilizes NoticeSection
+ *
+ */
+
 "use client";
 
 import NoticeSection from "@/components/NoticeSection/NoticeSection";
@@ -6,22 +14,13 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import { useEffect, useState } from "react";
 import styles from "./notices.module.css";
-
-interface Item {
-  title: string;
-  link: string;
-  date?: string;
-  isNew?: boolean;
-  text?: string;
-}
-
-
+import { EventItem } from "@/types/common.types";
 
 const Notices = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [oldNotices, setOldNotices] = useState<Item[]>([]);
-  const [newNotices, setNewNotices] = useState<Item[]>([]);
+  const [oldNotices, setOldNotices] = useState<EventItem[]>([]);
+  const [newNotices, setNewNotices] = useState<EventItem[]>([]);
 
   useEffect(() => {
     document.title = "Notices | IIIT Tiruchirappalli ";
@@ -31,7 +30,7 @@ const Notices = () => {
         if (!response.ok) throw new Error("Failed to fetch notices data");
 
         const data = await response.json();
-        const d: Item[] = data.data;
+        const d: EventItem[] = data.data;
         const latest = d
           .filter((x) => x.isNew)
           .sort((a, b) => new Date(b.date || "").getTime() - new Date(a.date || "").getTime());

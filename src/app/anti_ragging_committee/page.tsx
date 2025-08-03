@@ -1,14 +1,23 @@
+/**
+ * Anti Ragging Committe Page
+ *
+ * Fetches data from /json/admission/pg
+ * utilizes CommitteePage
+ *
+ */
+
+
+
 "use client";
 
 import {
-  Box,
-  Typography,
+  Typography
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import { useEffect } from "react";
 
-import styles from "./antiragging.module.css";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
+import styles from "./antiragging.module.css";
 
 const AntiRagging = () => {
   useEffect(() => {

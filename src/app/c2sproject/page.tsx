@@ -1,3 +1,12 @@
+/**
+ * Chip to startup Page
+ *
+ * fetches data from /json/general/c2s_links
+ *
+ */
+
+
+
 "use client";
 
 import {
@@ -12,16 +21,14 @@ import {
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
-
-type LinkItem = {
-  name: string;
-  href: string;
-};
+import { FormData } from "@/types/common.types";
 
 const C2SProject = () => {
-  const [links, setLinks] = useState<LinkItem[]>([]);
+  const [links, setLinks] = useState<FormData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  // Fallback for background image base path
   const base=`${process.env.NEXT_PUBLIC_CDN_IIITT}${process.env.NEXT_PUBLIC_DOCUMENT_URL}` || "http://store.iiitt.ac.in/downloads/c2s/bgimg2.jpg";
 
   useEffect(() => {
@@ -39,7 +46,7 @@ const C2SProject = () => {
         }
         return res.json();
       })
-      .then((data: LinkItem[]) => {
+      .then((data: FormData[]) => {
         setLinks(data);
         setError(null);
       })
@@ -117,7 +124,7 @@ const C2SProject = () => {
             {links.map((link, index) => (
               <Typography key={index} align="center" sx={{ marginBottom: 2 }}>
                 <Link
-                  href={`${nextConfig?.env?.DOCUMENT}/${link.href}`}
+                  href={`${nextConfig?.env?.DOCUMENT}/${link.link}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   underline="hover"
@@ -125,7 +132,7 @@ const C2SProject = () => {
                     color: "white"
                   }}
                 >
-                  {link.name}
+                  {link.title}
                 </Link>
               </Typography>
             ))}

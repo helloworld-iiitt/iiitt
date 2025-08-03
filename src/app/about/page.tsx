@@ -1,5 +1,12 @@
+/**
+ * About Page
+ *
+ * Hardcoded information about IIITT institute
+ */
+
 "use client";
 
+// #region import
 import LinkIcon from "@mui/icons-material/Link";
 import {
   Box,
@@ -15,7 +22,7 @@ import { useEffect } from "react";
 import nextConfig from "../../../next.config";
 import "../globals.css";
 import styles from "./about.module.css"
-
+// #endregion
 const About = () => {
   useEffect(() => {
     document.title = "About Us | IIIT Tiruchirappalli";

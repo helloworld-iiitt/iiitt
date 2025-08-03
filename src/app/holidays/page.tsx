@@ -1,18 +1,21 @@
+/**
+ * Holiday Page
+ *
+ * fetches data from /json/general/holidays
+ *
+ *
+ */
 "use client";
-import React, { useEffect, useState } from "react";
-import { Typography, Box } from "@mui/material";
-import Grid from "@mui/material/Grid2";
-import styles from "./holiday.module.css";
-import nextConfig from "../../../next.config";
+import { FormData } from "@/types/common.types";
 import EventIcon from "@mui/icons-material/Event";
-
-interface Calendar {
-  title: string;
-  url: string;
-}
+import { Box, Typography } from "@mui/material";
+import Grid from "@mui/material/Grid2";
+import React, { useEffect, useState } from "react";
+import nextConfig from "../../../next.config";
+import styles from "./holiday.module.css";
 
 const Holidays: React.FC = () => {
-  const [calendar, setCalendar] = useState<Calendar[] | null>(null);
+  const [calendar, setCalendar] = useState<FormData[] | null>(null);
 
   useEffect(() => {
     document.title = "Holiday | IIIT Tiruchirappalli ";
@@ -66,7 +69,7 @@ const Holidays: React.FC = () => {
                     {item.title}
                   </Typography>
                   <a
-                    href={`${nextConfig.env?.DOCUMENT}/${item.url}`}
+                    href={`${nextConfig.env?.DOCUMENT}/${item.link}`}
                     download={`${item.title}`}
                     className={styles.link}
                   >

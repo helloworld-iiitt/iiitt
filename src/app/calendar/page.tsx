@@ -1,3 +1,9 @@
+/**
+ * Academic Calendar Page
+ *
+ * Fetches data from /json/general/calendar
+ */
+
 "use client";
 import EventIcon from "@mui/icons-material/Event";
 import { Box, Typography } from "@mui/material";
@@ -6,17 +12,10 @@ import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
 import styles from "./calendar.module.css";
 
-interface Calendar {
-  title: string;
-  data: CalendarData[];
-}
-interface CalendarData {
-  title: string;
-  url: string;
-}
+import { CalendarData } from "@/types/common.types";
 
 const Calendar: React.FC = () => {
-  const [calendar, setCalendar] = useState<Calendar[] | null>(null);
+  const [calendar, setCalendar] = useState<CalendarData[] | null>(null);
   useEffect(() => {
     document.title = "Calendar | IIIT Tiruchirappalli";
     return () => {
@@ -62,7 +61,7 @@ const Calendar: React.FC = () => {
                   {d.data.map((dd, idx) => (
                     <div key={idx} className={styles.timelineItem}>
                       <div className={styles.timelineContent}>
-                        <a href={`${nextConfig.env?.DOCUMENT}/${dd.url}`} download={`${dd.title}`} className={styles.link}>
+                        <a href={`${nextConfig.env?.DOCUMENT}/${dd.link}`} download={`${dd.title}`} className={styles.link}>
                           {dd.title}
                         </a>
                       </div>

@@ -1,3 +1,11 @@
+/**
+ * Contact us Page
+ *
+ * utilizes EmailIcon,PhoneIcon
+ * utilizes embedded map for institute location
+ */
+
+
 "use client";
 import { Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
@@ -7,7 +15,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 const Contactus = () => {
   useEffect(() => {
-    document.title = "contactus Us | IIIT Tiruchirappalli";
+    document.title = "Contact Us | IIIT Tiruchirappalli";
     return () => {
       document.title = "IIIT Trichy";
     };

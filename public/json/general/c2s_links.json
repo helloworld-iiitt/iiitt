@@ -1,10 +1,10 @@
 [
-    { "name": "About C2S", "href": "c2s/1_About_C2S.pdf" },
-    { "name": "Project Details", "href": "c2s/2_Project_Details.pdf" },
-    { "name": "Project Investigators", "href": "c2s/3_Project_Investigators.pdf" },
-    { "name": "Hardware Details", "href": "c2s/4_Hardware_Details.pdf" },
-    { "name": "Software Details", "href": "c2s/5_Software_Details.pdf" },
-    { "name": "Phase I - UG students", "href": "c2s/6_Phase_I_UG.pdf" },
-    { "name": "Phase II - UG & PG students", "href": "c2s/7_Phase_II_UG_PG.pdf" }
+    { "title": "About C2S", "link": "c2s/1_About_C2S.pdf" },
+    { "title": "Project Details", "link": "c2s/2_Project_Details.pdf" },
+    { "title": "Project Investigators", "link": "c2s/3_Project_Investigators.pdf" },
+    { "title": "Hardware Details", "link": "c2s/4_Hardware_Details.pdf" },
+    { "title": "Software Details", "link": "c2s/5_Software_Details.pdf" },
+    { "title": "Phase I - UG students", "link": "c2s/6_Phase_I_UG.pdf" },
+    { "title": "Phase II - UG & PG students", "link": "c2s/7_Phase_II_UG_PG.pdf" }
   ]
   

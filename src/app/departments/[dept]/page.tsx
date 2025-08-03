@@ -1,55 +1,25 @@
+/**
+ *  Template for Department Page
+ *
+ * utilizes Infosection,EmptyNotice
+ * Utilizes Personcard Component
+ * utilizes validUrl for type checking
+ */
+
+
 "use client";
 
-import { Box, Typography, Skeleton } from "@mui/material";
+import EmptyNotice from "@/components/EmptySection/EmptyNotice";
+import InfoSection from "@/components/InfoSection/InfoSection";
+import PersonCard from "@/components/PersonCard/PersonCard";
+import { Department } from "@/types/Department.types";
+import { validURL } from "@/types/validator";
+import { Box, Skeleton, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import styles from "../department.module.css";
-import InfoSection from "@/components/InfoSection/InfoSection";
-import EmptyNotice from "@/components/EmptySection/EmptyNotice";
-import PersonCard from "@/components/PersonCard/PersonCard";
 import nextConfig from "../../../../next.config";
-import { validURL } from "@/types/validator";
-
-interface Department {
-  department: string;
-  about: string;
-  message_from_hod: {
-    name: string;
-    designation: string;
-    message: string;
-  };
-  faculty_members: {
-    name: string;
-    designation: string;
-  }[];
-  research_scholars: {
-    name: string;
-    src: string;
-    emailId: string;
-    dept: string;
-    researchArea: string;
-    supervisor: string;
-    PersonalPage: string
-    status: string
-  }[];
-  research_areas: string[];
-  announcements: {
-    title: string;
-    date: string;
-    link: string;
-  }[];
-  latest_news: {
-    title: string;
-  }[];
-  contact: {
-    department: string;
-    college: string;
-    location: string;
-    email: string;
-    phone: string;
-  };
-}
+import styles from "../department.module.css";
 
 const Cse: React.FC = () => {
   const params = useParams();

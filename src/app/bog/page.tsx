@@ -1,3 +1,11 @@
+/**
+ * Board of Governors Page
+ *
+ * Utilizes CommittePage
+ */
+
+
+
 "use client";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
 

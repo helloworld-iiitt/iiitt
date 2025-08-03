@@ -6,20 +6,13 @@ import styles from "./NoticeSection.module.css";
 import nextConfig from "../../../next.config";
 import { validURL } from "../../types/validator";
 import { FiberNew } from "@mui/icons-material";
-interface NoticeItem {
-  title: string;
-  link: string;
-  date?: string;
-  isNew?: boolean;
-  text?: string;
-}
-
+import { EventItem } from "@/types/common.types";
 const NoticeSection = ({
   title,
   notices,
 }: {
   title: string;
-  notices: NoticeItem[];
+  notices: EventItem[];
 }) => {
   if (notices.length === 0) return null;
 
@@ -46,7 +39,7 @@ const NoticeSection = ({
       <li key={item.title} style={{ marginBottom: "1.2rem" }}>
         <a
           href={
-            validURL(item.link)
+            validURL(item.link!)
               ? item.link
               : `${nextConfig.env?.DOCUMENT}/${item.link}`
           }

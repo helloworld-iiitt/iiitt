@@ -1,28 +1,37 @@
+/**
+ * Achievements Page
+ *
+ * Fetches data from /json/general/achievements.json
+ * seperates into new and old notices
+ * filters based on time frame
+ * utilizes Notice Component
+ *
+ */
+
 "use client";
 
+// #region import
 import NoticeSection from "@/components/NoticeSection/NoticeSection";
+import { Item } from "@/types/achievements.types";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import { useEffect, useState } from "react";
 import styles from "../notices/notices.module.css";
-
-interface Item {
-  title: string;
-  link: string;
-  date?: string;
-  isNew?: boolean;
-  text?: string;
-}
+// #endregion
 
 const Achievements = () => {
-  const [loading, setLoading] = useState<boolean>(true);
+
+  const [loading, setLoading] = useState<boolean>(true); // NOTE:renders Circular progress based on state
   const [error, setError] = useState<string | null>(null);
+
+
   const [oldNotices, setOldNotices] = useState<Item[]>([]);
   const [newNotices, setNewNotices] = useState<Item[]>([]);
 
   useEffect(() => {
     document.title = "Achievements | IIIT Tiruchirappalli";
+
     const fetchNoticesData = async () => {
       try {
         const response = await fetch("/json/general/achievements.json");

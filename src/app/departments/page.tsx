@@ -1,16 +1,22 @@
+/**
+ *  Parent Department Component
+ *
+ * fetches data from /json/departments/departments
+ * MUI for responsiveness
+ *
+ */
+
+
 "use client";
 import React, { useEffect, useState } from "react";
 import { Typography, Box } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import styles from "./departments.module.css";
-interface Department {
-  name: string;
-  description: string;
-  url: string;
-}
+import { DepartmentsData } from "@/types/Department.types";
+
 
 const Departments: React.FC = () => {
-  const [depts, setDepts] = useState<Department[] | null>(null);
+  const [depts, setDepts] = useState<DepartmentsData[] | null>(null);
 
   useEffect(() => {
     document.title = "Departments";

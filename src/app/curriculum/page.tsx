@@ -1,3 +1,10 @@
+/**
+ *  Curriculum Page
+ *
+ * fetches data from /jpon/general/curriculum
+ *
+ */
+
 "use client";
 import React, { useEffect, useState } from "react";
 import { Typography, Box, Table, TableRow, TableCell, TableBody, TableHead } from "@mui/material";
@@ -6,15 +13,8 @@ import styles from "./curriculum.module.css";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import nextConfig from "../../../next.config";
 
-interface CurriculumData {
-  curriculum: {
-    [department: string]: {
-      [program: string]: {
-        [year: string]: string;
-      };
-    };
-  };
-}
+import { CurriculumData } from "@/types/common.types";
+
 
 const Curriculum: React.FC = () => {
   const [curriculumData, setCurriculumData] = useState<CurriculumData | null>(null);

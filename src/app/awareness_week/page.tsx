@@ -1,3 +1,11 @@
+/**
+ * Awareness Week Page
+ *
+ * Page for Dissementaion of Government Initiatives for Educational Institutes
+ *
+ */
+
+
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { Box, Typography, Card, CardContent, Button, Stack } from "@mui/material";

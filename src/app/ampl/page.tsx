@@ -1,3 +1,11 @@
+/**
+ * AMPL Page
+ *
+ * Uses LabPage Component
+ *
+ */
+
+
 "use client";
 
 import LabPage from "@/components/LabComponent/LabComponent";

@@ -1,3 +1,11 @@
+
+/**
+ *Admission Page
+
+ * fetches data links
+ * utilizes CommittePage component
+ * utilizes Person Card component
+ */
 "use client";
 
 import { useEffect } from "react";

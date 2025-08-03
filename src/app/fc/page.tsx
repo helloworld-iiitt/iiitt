@@ -1,3 +1,10 @@
+/**
+ * Financial Committee
+ *
+ * utilizes CommittePage
+ */
+
+
 "use client";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
 
