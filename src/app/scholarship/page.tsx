@@ -1,3 +1,9 @@
+/**
+ *
+ * ScholarShip Form Page
+ *
+ * fetches data from /json/general/scholarship
+ */
 "use client"
 import { useEffect, useState, useCallback } from "react";
 import styles from "./scholarship.module.css"
@@ -7,11 +13,8 @@ import { Divider } from "@mui/material";
 import { CircularProgress } from "@mui/material";
 import TableComponent from "@/components/tablecomponent/tablecomponent";
 import nextConfig from "../../../next.config";
+import { FormData } from "@/types/common.types";
 
-interface FormData {
-    title: string;
-    link: string;
-}
 export default function Scholarship() {
     const [forms, setForms] = useState<FormData[] | null>(null);
     const [fromloading, setLoading] = useState<boolean>(true);

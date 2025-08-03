@@ -1,3 +1,9 @@
+/**
+ *
+ * Senate Page
+ *
+ * utilizes CommitteePage
+ */
 "use client";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
 

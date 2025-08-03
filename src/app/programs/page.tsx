@@ -1,6 +1,12 @@
-"use client";
+/**
+ *
+ * Programs Page
+ *
+ * fetches data from /json/admission/ug
+ * fetches data from /json/admission/pg
+ */
+"use client";;
 import React, { useEffect, useState } from "react";
-import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import { Typography, Divider, Card, CardContent } from "@mui/material";
 import SchoolIcon from "@mui/icons-material/School";
@@ -57,8 +63,6 @@ const Programs: React.FC = () => {
         >
           Programs
         </Typography>
-
-
 
         <Card className={styles.card}>
           <CardContent>

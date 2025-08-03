@@ -1,63 +1,31 @@
+/**
+ *
+ * Internship Page
+ *
+ * fetches data from /json/students/internship
+ *
+ */
+
 "use client";
 
-import { useEffect, useState } from "react";
+import { InternshipData } from "@/types/internships.types";
+import LaunchIcon from "@mui/icons-material/Launch";
 import {
   Box,
-  Typography,
   Card,
   CardContent,
+  Link as MuiLink,
   Table,
   TableBody,
   TableCell,
   TableHead,
   TableRow,
+  Typography,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { Link as MuiLink } from "@mui/material";
-import LaunchIcon from "@mui/icons-material/Launch";
-import nextConfig from "../../../next.config";
 import Link from "next/link";
-
-interface InternshipData {
-  title: string;
-  sections: Section[];
-}
-
-interface Section {
-  heading?: string;
-  cards?: CardData[];
-  list?: string[];
-  guidelines?: Guideline[];
-  table?: TableRowData[];
-  documents?: DocumentData[];
-  announcements?: Announcement[];
-}
-
-interface Announcement {
-  message: string;
-  date?: string;
-  link?: string;
-}
-
-interface CardData {
-  header: string;
-  list?: string[];
-}
-
-interface Guideline {
-  title: string;
-}
-
-interface TableRowData {
-  date: string;
-  event: string;
-}
-
-interface DocumentData {
-  title: string;
-  link: string;
-}
-
+import { useEffect, useState } from "react";
+import nextConfig from "../../../next.config";
 export default function Internship() {
   const [data, setData] = useState<InternshipData | null>(null);
 

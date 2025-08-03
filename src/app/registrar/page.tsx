@@ -1,10 +1,15 @@
+/**
+ *
+ * Registrar Page
+ */
+
 "use client";
 
-import { useEffect } from "react";
-import Image from "next/image";
-import Head from "next/head";
-import { Card, Typography, CardContent } from "@mui/material";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
+import { Card, CardContent, Typography } from "@mui/material";
+import Head from "next/head";
+import Image from "next/image";
+import { useEffect } from "react";
 import nextConfig from "../../../next.config";
 import styles from "../director/Director.module.css";
 

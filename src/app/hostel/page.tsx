@@ -1,3 +1,14 @@
+/**
+ *
+ * Hostel And Mess Page
+ *
+ * fetches data from /json/student/hostelforms
+ * fetches data from /json/student/hostels (contains both mess and hostel details)
+ *
+ * utilizes PersonCard,TableComponent
+ *
+ */
+
 "use client";
 
 import {
@@ -14,7 +25,7 @@ import nextConfig from "../../../next.config";
 import styles from "./hostel.module.css";
 import PersonCard from "@/components/PersonCard/PersonCard";
 import TableComponent from "@/components/tablecomponent/tablecomponent";
-import {HostelData,MessData,FormData} from "@/types/hostel.types";
+import {HostelData,MessData} from "@/types/hostel.types";
 
 export default function Hostel() {
   const [hostelInfo, setHostelInfo] = useState<HostelData[] | null>(null);

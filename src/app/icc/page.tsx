@@ -1,3 +1,9 @@
+/**
+ * Internal Conduct Committee
+ *
+ * utilizes CommitteePage
+ */
+
 "use client";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
 import { Typography } from "@mui/material";

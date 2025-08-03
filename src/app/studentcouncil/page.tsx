@@ -1,17 +1,20 @@
+/**
+ *
+ * Student Council  Page
+ *
+ * fetches data from /json/committee/members/student_council
+ * fetches css from /faculty/faculty.module.css
+ * utilizes PersonCard Component
+ */
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import PersonCard from "@/components/PersonCard/PersonCard";
+import { studentdata } from "@/types/common.types";
 import { Typography } from "@mui/material";
+import Head from "next/head";
+import React, { useEffect, useState } from "react";
 import styles from "../faculty/faculty.module.css";
 
-interface studentdata {
-  name: string;
-  designation: string;
-  emailId: string;
-  src: string;
-}
 
 const StudentCouncil = () => {
   const [studentCouncildata, setStudentCouncilData] = useState<Record<

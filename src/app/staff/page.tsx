@@ -1,24 +1,19 @@
+/**
+ *
+ * Administrative Staff Page
+ *
+ * fetches data from /json/faculty/staff
+ * fetches css from /faculty/faculty.module.css
+ * utilizes PersonCard Component
+ */
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import PersonCard from "@/components/PersonCard/PersonCard";
+import { FacultyMember } from "@/types/faculty.types";
 import { Typography } from "@mui/material";
+import Head from "next/head";
+import React, { useEffect, useState } from "react";
 import styles from "../faculty/faculty.module.css";
-interface FacultyMember {
-  name: string;
-  emailID: string;
-  src: string;
-  designation: string;
-  researchArea: string;
-  id: {
-    dept: string;
-    deptID: string;
-  };
-  Incharge?: string;
-  VidhwanLink?: string;
-  Institute?: string;
-}
 
 const Faculty = () => {
   const [facultyData, setFacultyData] = useState<Record<string, FacultyMember[]> | null>(null);

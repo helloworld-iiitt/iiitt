@@ -1,22 +1,23 @@
+/**
+ *
+ * UnderGraduate Detail and Forms Page
+ *
+ * fetches data from /json/students/undergraduate
+ * fetches css from /undergraduate/undergraduate
+ */
+
+
 "use client";
-import React, { useEffect, useState } from "react";
-import { Typography, Box } from "@mui/material";
-import Grid from "@mui/material/Grid2";
-import styles from "./undergraduate.module.css";
+import { PostGraduateData } from "@/types/common.types";
 import LinkIcon from "@mui/icons-material/Link";
+import { Box, Typography } from "@mui/material";
+import Grid from "@mui/material/Grid2";
+import React, { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
-
-interface StudentLink {
-  title: string;
-  link: string;
-}
-
-interface UndergraduateData {
-  [category: string]: StudentLink[];
-}
+import styles from "./undergraduate.module.css";
 
 const Undergraduate: React.FC = () => {
-  const [data, setData] = useState<UndergraduateData | null>(null);
+  const [data, setData] = useState<PostGraduateData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {

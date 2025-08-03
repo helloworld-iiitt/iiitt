@@ -1,28 +1,19 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Grid from "@mui/material/Grid2";
-import Box from "@mui/material/Box";
-import { Typography } from "@mui/material";
-import styles from "../notices/notices.module.css";
-import nextConfig from "../../../next.config";
-import { validURL } from "../../types/validator";
 import NoticeSection from "@/components/NoticeSection/NoticeSection";
-interface Item {
-  title: string;
-  link: string;
-  date?: string;
-  isNew?: boolean;
-  text?: string;
-}
-
+import { Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid2";
+import { useEffect, useState } from "react";
+import styles from "../notices/notices.module.css";
+import { EventItem } from "@/types/common.types";
 
 
 const Tenders = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [oldNotices, setOldNotices] = useState<Item[]>([]);
-  const [newNotices, setNewNotices] = useState<Item[]>([]);
+  const [oldNotices, setOldNotices] = useState<EventItem[]>([]);
+  const [newNotices, setNewNotices] = useState<EventItem[]>([]);
 
   useEffect(() => {
     document.title = "Tenders | IIIT Tiruchirappalli";
@@ -32,7 +23,7 @@ const Tenders = () => {
         if (!response.ok) throw new Error("Failed to fetch tenders data");
 
         const data = await response.json();
-        const d: Item[] = data.data;
+        const d: EventItem[] = data.data;
         const latest = d
           .filter((x) => x.isNew)
           .sort((a, b) => new Date(b.date || "").getTime() - new Date(a.date || "").getTime());

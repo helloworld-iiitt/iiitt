@@ -1,5 +1,14 @@
+/**
+ *
+ * Right To Information Page
+ *
+ * fetches data from /json/committee/members/rti.json
+ * additionally bottomLinks available in json
+ *
+ */
 "use client";
 
+import { RTIData } from '@/types/common.types';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {
   Box,
@@ -21,16 +30,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import nextConfig from "../../../next.config";
 import styles from "./rti.module.css";
-
-interface RTI {
-  head: string;
-  name: string;
-  designation: string;
-  emailID: string;
-  phone?: string;
-  fax?: string;
-  src: string;
-}
 
 
 const bottomLinks = [
@@ -61,7 +60,7 @@ const bottomLinks = [
 ];
 
 export default function RTI() {
-  const [rtiList, setRtiList] = useState<RTI[]>([]);
+  const [rtiList, setRtiList] = useState<RTIData[]>([]);
 
   useEffect(() => {
     document.title = "RTI | IIIT Tiruchirappalli ";

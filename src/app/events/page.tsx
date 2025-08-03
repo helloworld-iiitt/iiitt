@@ -1,7 +1,7 @@
 /**
  * Events Page
  *
- * fetches dara from
+ * fetches data from
  * utilizes NoticeSection
  *
  *

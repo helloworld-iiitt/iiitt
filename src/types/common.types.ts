@@ -54,3 +54,32 @@ export interface FestivalData {
     }
   ];
 }
+
+export interface Partner {
+  name: string;
+  description: string;
+  logo: string;
+  link: string;
+}
+export interface PostGraduateData {
+  [category: string]: FormData[];
+}
+
+export interface RTIData {
+  head: string;
+  name: string;
+  designation: string;
+  emailID: string;
+  phone?: string;
+  fax?: string;
+  src: string;
+}
+
+
+export interface studentdata {
+  name: string;
+  designation: string;
+  emailId: string;
+  src: string;
+}
+

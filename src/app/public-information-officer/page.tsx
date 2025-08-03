@@ -1,3 +1,9 @@
+/**
+ *  Public Information Officer Page
+ *
+ * utilizes  CommittePage
+ */
+
 "use client";
 import CommitteePage from "@/components/tablecomponent/CommitteePage";
 
