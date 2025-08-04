@@ -8,16 +8,16 @@
       "message": "Welcome to the Department of Electronics and Communication Engineering. Our department strives to empower students with the knowledge, skills, and confidence to excel in a dynamic and fast-evolving tech world. We promote research and industry partnerships to ensure our students are future-ready."
     },
     "faculty_members": [
-      {
-        "name": "Dr. M. Senthil Sivakumar",
+       {
+        "name": "Dr. R. Krishnamurthy",
         "designation": "Assistant Professor & Head of the Department"
       },
       {
-        "name": "Dr. G. Seetharaman",
-        "designation": "Professor & Registrar"
+        "name": "Prof. G. Seetharaman",
+        "designation": "Professor"
       },
       {
-        "name": "Dr. R. Krishnamurthy",
+        "name": "Dr. M. Senthil Sivakumar",
         "designation": "Assistant Professor"
       },
       {
