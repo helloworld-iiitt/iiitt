@@ -43,12 +43,12 @@
       "Institute": " Ph.D. CSE (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194473"
     },
-    "id": {
+    {"id": {
         "dept": "CSE",
         "deptID": "4"
       },
       "name": "Dr. G. Devasena",
-      "designation": "Assistant Professor ",
+      "designation": "Assistant Professor",
       "Incharge": "Training and Placement, AISHE portal, NSP portal",
       "Institute": "Ph.D. (Anna University)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194480",
@@ -111,7 +111,7 @@
       "name": "Dr. R. Krishnamurthy",
       "designation": "Assistant Professor, Head of the Department",
       "researchArea": " RF and Microwave Engineering, Optical Communication",
-      "emailID": "krishnamurthyr@iiitt.ac.in",
+      "emailID": "rkrishnamurthy@iiitt.ac.in",
       "src": "/faculty/Krishnamurthy.jpg",
       "Incharge": "Alhad and Atrang",
       "Institute": "Ph.D. ECE ( IISc. Bangalore) ",
