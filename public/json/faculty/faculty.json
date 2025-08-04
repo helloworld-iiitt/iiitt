@@ -1,19 +1,19 @@
 {
   "CSE": [
-    {
+    { 
       "id": {
         "dept": "CSE",
         "deptID": "1"
       },
-      "name": "Dr. G. Devasena",
+      "name": "Dr. Anoop Jacob Thomas",
       "designation": "Assistant Professor , Head of the Department",
-      "Incharge": "Training and Placement, AISHE portal, NSP portal",
-      "Institute": "Ph.D. (Anna University)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194480",
-      "researchArea": "Image Processing, Deep Learning and Machine  Learning, Video Processing, ",
-      "emailID": "devasenag@iiitt.ac.in",
-      "src": "/faculty/Devasena.jpg",
-      "PersonalPage": "https://sites.google.com/view/devasenagiiitt/home"
+      "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
+      "emailID": "anoopjt@iiitt.ac.in",
+      "src": "/faculty/AnoopJacobThomas.jpg",
+      "Incharge": "Campus Networking, EBSB, ERP, Exam Cell Member, Student Discipline, Hall Booking ",
+      "Institute": "Ph.D. CSE (IIT Ropar)",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
+      "PersonalPage":"https://www.linkedin.com/in/anoopjt/"
     },
     {
       "id": {
@@ -43,22 +43,21 @@
       "Institute": " Ph.D. CSE (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194473"
     },
-
-    {
-      "id": {
+    "id": {
         "dept": "CSE",
         "deptID": "4"
       },
-      "name": "Dr. Anoop Jacob Thomas",
-      "designation": "Assistant Professor",
-      "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
-      "emailID": "anoopjt@iiitt.ac.in",
-      "src": "/faculty/AnoopJacobThomas.jpg",
-      "Incharge": "Campus Networking, EBSB, ERP, Exam Cell Member, Student Discipline, Hall Booking ",
-      "Institute": "Ph.D. CSE (IIT Ropar)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
-      "PersonalPage":"https://www.linkedin.com/in/anoopjt/"
+      "name": "Dr. G. Devasena",
+      "designation": "Assistant Professor ",
+      "Incharge": "Training and Placement, AISHE portal, NSP portal",
+      "Institute": "Ph.D. (Anna University)",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194480",
+      "researchArea": "Image Processing, Deep Learning and Machine  Learning, Video Processing, ",
+      "emailID": "devasenag@iiitt.ac.in",
+      "src": "/faculty/Devasena.jpg",
+      "PersonalPage": "https://sites.google.com/view/devasenagiiitt/home"
     },
+   
     {
       "id": {
         "dept": "CSE",
@@ -105,20 +104,21 @@
     }
   ],
   "ECE": [
-    {
-      "id": {
+    {  "id": {
         "dept": "ECE",
         "deptID": "1"
       },
-      "name": "Dr. M. Senthil Sivakumar",
-      "designation": "Assistant Professor , Head of the Department",
-      "researchArea": " VLSI System Design and Testing, Analog and Mixed Signal IC Design, AI Hardware Accelerator and SoC Design",
-      "emailID": "msenthilsivakumar@iiitt.ac.in",
-      "src": "/faculty/MSenthilSivakumar.jpg",
-      "Incharge": "NBA, NIRF, and Internship, Institute Mess. ",
-      "Institute": "Ph.D. ECE (MIT Campus, Anna University Chennai)",
-      "VidhwanLink": "https://iiitt.irins.org/profile/194474"
+      "name": "Dr. R. Krishnamurthy",
+      "designation": "Assistant Professor, Head of the Department",
+      "researchArea": " RF and Microwave Engineering, Optical Communication",
+      "emailID": "krishnamurthyr@iiitt.ac.in",
+      "src": "/faculty/Krishnamurthy.jpg",
+      "Incharge": "Alhad and Atrang",
+      "Institute": "Ph.D. ECE ( IISc. Bangalore) ",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562856",
+      "PersonalPage":"https://sites.google.com/view/krishnamurthyramanujam/home?pli=1"
     },
+      
     {
       "id": {
         "dept": "ECE",
@@ -139,16 +139,17 @@
         "dept": "ECE",
         "deptID": "3"
       },
-      "name": "Dr. R. Krishnamurthy",
-      "designation": "Assistant Professor",
-      "researchArea": " RF and Microwave Engineering, Optical Communication",
-      "emailID": "krishnamurthyr@iiitt.ac.in",
-      "src": "/faculty/Krishnamurthy.jpg",
-      "Incharge": "Alhad and Atrang",
-      "Institute": "Ph.D. ECE ( IISc. Bangalore) ",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562856",
-      "PersonalPage":"https://sites.google.com/view/krishnamurthyramanujam/home?pli=1"
+      "name": "Dr. M. Senthil Sivakumar",
+      "designation": "Assistant Professor ",
+      "researchArea": " VLSI System Design and Testing, Analog and Mixed Signal IC Design, AI Hardware Accelerator and SoC Design",
+      "emailID": "msenthilsivakumar@iiitt.ac.in",
+      "src": "/faculty/MSenthilSivakumar.jpg",
+      "Incharge": "NBA, NIRF, and Internship, Institute Mess. ",
+      "Institute": "Ph.D. ECE (MIT Campus, Anna University Chennai)",
+      "VidhwanLink": "https://iiitt.irins.org/profile/194474"
     },
+      
+     
     {
       "id": {
         "dept": "ECE",
@@ -225,14 +226,32 @@
       "PersonalPage":"https://sites.google.com/view/velmuruganciiitt"
     }
   ],
-  "Science & Humanities": [
+ 
+  "Mathematics": [
+    {
+      "id": {
+        "dept": "MATH",
+        "deptID": "1"
+      },
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Assistant Professor,  Head of the Department",
+      "researchArea": "Computational Fluid Dynamics",
+      "emailID": "jagadeeshwarp@iiitt.ac.in",
+      "src": "/faculty/JagdishP.jpg",
+      "Incharge": " Liaison officer OBC, Anti ragging committee (ARC), Medical facility,Cafeteria Services and Stationery Points  ",
+      "Member": "Internal complaints committee (ICC), Fact finding committee, Disciplinary committee",
+      "Institute": "Ph.D. (NIT Warangal )",
+      "VidhwanLink": "https://iiitt.irins.org/profile/194477"
+    }
+  ],
+ "Science & Humanities": [
     {
       "id": {
         "dept": "PHY",
         "deptID": "1"
       },
       "name": "Dr. Kamakshi K",
-      "designation": "Assistant Professor , Head of the Department",
+      "designation": "Assistant Professor",
       "researchArea": "Photonics and Optoelectronic Devices",
       "emailID": "kamakshik@iiitt.ac.in",
       "src": "/faculty/Kamakshi1.jpeg",
@@ -243,23 +262,6 @@
 
     }
   ],
-  "Mathematics": [
-    {
-      "id": {
-        "dept": "MATH",
-        "deptID": "1"
-      },
-      "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Assistant Professor",
-      "researchArea": "Computational Fluid Dynamics",
-      "emailID": "jagadeeshwarp@iiitt.ac.in",
-      "src": "/faculty/JagdishP.jpg",
-      "Incharge": " Liaison Officer of OBC, ARC, ICC Member",
-      "Institute": "Ph.D. (NIT Warangal )",
-      "VidhwanLink": "https://iiitt.irins.org/profile/194477"
-    }
-  ],
-
   "English": [
     {
       "id": {
