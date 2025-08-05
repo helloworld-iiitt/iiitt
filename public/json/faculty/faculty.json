@@ -6,7 +6,7 @@
         "deptID": "1"
       },
       "name": "Dr. Anoop Jacob Thomas",
-      "designation": "Head of the Department,Assistant Professor",
+      "designation": "Assistant Professor",
       "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
       "emailID": "anoopjt@iiitt.ac.in",
       "src": "/faculty/AnoopJacobThomas.jpg",
@@ -110,7 +110,7 @@
         "deptID": "1"
       },
       "name": "Dr. R. Krishnamurthy",
-      "designation": "Head of the Department,Assistant Professor",
+      "designation": "Assistant Professor",
       "researchArea": " RF and Microwave Engineering, Optical Communication",
       "emailID": "rkrishnamurthy@iiitt.ac.in",
       "src": "/faculty/Krishnamurthy.jpg",
@@ -214,7 +214,7 @@
         "deptID": "1"
       },
       "name": "Dr. Velmurugan C",
-      "designation": "Head of the Department,Assistant Professor",
+      "designation": "Assistant Professor",
       "researchArea": " Additive Manufacturing, Modelling and Simulation, Smart Materials, Shape Memory Alloys, Energy Storage Materials and Device, Battery- materials and performance.",
       "emailID": "velmuruganc@iiitt.ac.in",
       "src": "/faculty/VELMURUGANC.jpg",
@@ -231,7 +231,7 @@
         "deptID": "1"
       },
       "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Head of the Department,Assistant Professor(Maths)",
+      "designation": "Assistant Professor(Maths)",
       "researchArea": "Computational Fluid Dynamics",
       "emailID": "jagadeeshwarp@iiitt.ac.in",
       "src": "/faculty/JagdishP.jpg",

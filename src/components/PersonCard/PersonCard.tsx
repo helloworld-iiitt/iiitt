@@ -16,6 +16,7 @@ import { validURL } from "@/types/validator";
 
 
 interface PersonCardProps {
+  isHOD?:boolean;
   name: string;
   emailID?: string;
   src: string;
@@ -34,6 +35,7 @@ interface PersonCardProps {
 }
 
 const PersonCard: React.FC<PersonCardProps> = ({
+  isHOD,
   name,
   emailID,
   src,
@@ -57,7 +59,9 @@ const PersonCard: React.FC<PersonCardProps> = ({
           <Link href="#" className={styles.name}>
             {name}
           </Link>
-          <h4>{designation}</h4>
+          {isHOD &&(<h4 style={{marginTop:"0.8rem"}}>Head of the Department</h4>)}
+          <h4 >{designation}</h4>
+          {/* INFO : see Departments Page */}
           {Supervisor && Supervisor.trim() && (
             <p className={styles.supervisor}>
               <strong>Supervisor:</strong> {Supervisor}
@@ -80,11 +84,13 @@ const PersonCard: React.FC<PersonCardProps> = ({
       </div>
 
       <div className={styles.bottom}>
+         {/* INFO : see Hostel Page */}
         {Room && Room.trim() && src_type === "Warden" && (
           <p className={styles.researchArea}>
             <strong>Room No: </strong>{Room}
           </p>
         )}
+        {/* INFO : To display the students, department (see S&H) */}
         {dept && dept.trim() && (src_type === "Warden" || src_type === "phd") && (
           <p className={styles.researchArea}>
             {dept}
