@@ -1,8 +1,6 @@
-
 .grp {
   color: #2e8b57;
 }
-
 
 .loading,
 .error {
@@ -16,7 +14,6 @@
   padding: 0 1rem;
 }
 
-
 .facultyContainer {
   display: flex;
   flex-direction: column;
@@ -24,7 +21,6 @@
   padding: 2rem 1rem;
   gap: 3rem;
 }
-
 
 .groupTitle {
   text-align: center;
@@ -49,10 +45,9 @@
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* *!minimum 20rem set for name related issues */
   gap: 1.5rem;
-  width: 100%;
-  max-width: 1200px;
+  max-width: 100vw; /* utilizes whole screen*/
 }
 
 .gridItem {
@@ -75,9 +70,7 @@
   color: #256f46;
 }
 
-
 @media (max-width: 768px) {
-
   .text a {
     font-size: 0.7rem !important;
   }
@@ -98,33 +91,8 @@
     padding: 1.5rem 0.75rem;
     gap: 2rem;
   }
-
-  .gridContainer {
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 1rem;
-    grid-template-columns: 1fr;
-  }
 }
 
-@media (max-width: 480px) {
+@media (min-width:768px)  {
 
-  .a {
-    font-size: 0.7rem;
-  }
-  .groupTitle {
-    font-size: 1.4rem;
-  }
-
-  .designationTitle {
-    font-size: 1rem;
-  }
-
-  .downloadLink {
-    font-size: 0.95rem;
-  }
-
-  .loading,
-  .error {
-    font-size: 1.2rem;
-  }
 }
