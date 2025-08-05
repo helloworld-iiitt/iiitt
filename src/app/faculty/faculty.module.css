@@ -7,16 +7,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 60vh;
   font-size: 1.5rem;
   color: red;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .facultyContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  padding: 2rem 1rem;
+  gap: 3rem;
 }
 
 .groupTitle {
@@ -24,16 +27,27 @@
   font-size: 2rem;
   font-weight: bold;
   color: #2e8b57;
-  margin-top: 3rem !important;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.designationTitle {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%;
+  max-width: 1200px;
+  color: #333;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* *!minimum 20rem set for name related issues */
   gap: 1.5rem;
-  width: 100%;
-  max-width: 1200px;
-  justify-content: center;
+  max-width: 100vw; /* utilizes whole screen*/
 }
 
 .gridItem {
@@ -54,4 +68,31 @@
 .downloadLink:hover {
   text-decoration: underline;
   color: #256f46;
+}
+
+@media (max-width: 768px) {
+  .text a {
+    font-size: 0.7rem !important;
+  }
+
+  .groupTitle {
+    font-size: 1.6rem;
+  }
+
+  .designationTitle {
+    font-size: 1.2rem;
+  }
+
+  .downloadLink {
+    font-size: 1rem;
+  }
+
+  .facultyContainer {
+    padding: 1.5rem 0.75rem;
+    gap: 2rem;
+  }
+}
+
+@media (min-width:768px)  {
+
 }

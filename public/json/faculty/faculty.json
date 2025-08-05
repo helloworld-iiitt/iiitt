@@ -1,19 +1,19 @@
 {
   "CSE": [
-    { 
+    {
       "id": {
         "dept": "CSE",
         "deptID": "1"
       },
       "name": "Dr. Anoop Jacob Thomas",
-      "designation": "Assistant Professor , Head of the Department",
+      "designation": "Assistant Professor",
       "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
       "emailID": "anoopjt@iiitt.ac.in",
       "src": "/faculty/AnoopJacobThomas.jpg",
       "Incharge": "Campus Networking,Training and Placement, Exam Cell Member, Student Discipline, Hall Booking ",
       "Institute": "Ph.D. CSE (IIT Ropar)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
-      "PersonalPage":"https://www.linkedin.com/in/anoopjt/"
+      "PersonalPage": "https://www.linkedin.com/in/anoopjt/"
     },
     {
       "id": {
@@ -43,7 +43,8 @@
       "Institute": " Ph.D. CSE (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194473"
     },
-    {"id": {
+    {
+      "id": {
         "dept": "CSE",
         "deptID": "4"
       },
@@ -57,7 +58,6 @@
       "src": "/faculty/Devasena.jpg",
       "PersonalPage": "https://sites.google.com/view/devasenagiiitt/home"
     },
-   
     {
       "id": {
         "dept": "CSE",
@@ -100,25 +100,25 @@
       "Incharge": "Website development,maintenance and Social Media, clubs - (Website Dev, Media, Competitive Coding), E-Cell ",
       "Institute": "Ph.D. CSE (NIT Tiruchirappalli) under Visvesvaraya Phd Scheme",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/212555",
-      "PersonalPage":"https://sites.google.com/site/kokilajrsnitt/?pli=1"
+      "PersonalPage": "https://sites.google.com/site/kokilajrsnitt/?pli=1"
     }
   ],
   "ECE": [
-    {  "id": {
+    {
+      "id": {
         "dept": "ECE",
         "deptID": "1"
       },
       "name": "Dr. R. Krishnamurthy",
-      "designation": "Assistant Professor, Head of the Department",
+      "designation": "Assistant Professor",
       "researchArea": " RF and Microwave Engineering, Optical Communication",
       "emailID": "rkrishnamurthy@iiitt.ac.in",
       "src": "/faculty/Krishnamurthy.jpg",
       "Incharge": "Alhad and Atrang",
       "Institute": "Ph.D. ECE ( IISc. Bangalore) ",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562856",
-      "PersonalPage":"https://sites.google.com/view/krishnamurthyramanujam/home?pli=1"
+      "PersonalPage": "https://sites.google.com/view/krishnamurthyramanujam/home?pli=1"
     },
-      
     {
       "id": {
         "dept": "ECE",
@@ -132,7 +132,7 @@
       "Incharge": "Admission (UG & PG)-Chairman ",
       "Institute": "Ph.D. ECE (NIT Tiruchirappalli) ",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194472",
-      "PersonalPage":"http://store.iiitt.ac.in/downloads/Faculty_Profiles/Prof_GS_profile.pdf"
+      "PersonalPage": "http://store.iiitt.ac.in/downloads/Faculty_Profiles/Prof_GS_profile.pdf"
     },
     {
       "id": {
@@ -140,7 +140,7 @@
         "deptID": "3"
       },
       "name": "Dr. M. Senthil Sivakumar",
-      "designation": "Assistant Professor ",
+      "designation": "Assistant Professor",
       "researchArea": " VLSI System Design and Testing, Analog and Mixed Signal IC Design, AI Hardware Accelerator and SoC Design",
       "emailID": "msenthilsivakumar@iiitt.ac.in",
       "src": "/faculty/MSenthilSivakumar.jpg",
@@ -148,8 +148,6 @@
       "Institute": "Ph.D. ECE (MIT Campus, Anna University Chennai)",
       "VidhwanLink": "https://iiitt.irins.org/profile/194474"
     },
-      
-     
     {
       "id": {
         "dept": "ECE",
@@ -163,7 +161,7 @@
       "Incharge": "Boys Hostel Warden, Indoor Games.",
       "Institute": "Ph.D. ECE (IIT Dhanbad)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562773",
-      "PersonalPage":"https://sites.google.com/view/ravibanothiitism"
+      "PersonalPage": "https://sites.google.com/view/ravibanothiitism"
     },
     {
       "id": {
@@ -192,7 +190,7 @@
       "Incharge": "Institute Library",
       "Institute": "Ph.D. ECE (CEG Campus, Anna University Chennai.)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/589595",
-      "PersonalPage":"https://sites.google.com/iiitt.ac.in/padmathilagamprofile/home"
+      "PersonalPage": "https://sites.google.com/iiitt.ac.in/padmathilagamprofile/home"
     },
     {
       "id": {
@@ -216,25 +214,24 @@
         "deptID": "1"
       },
       "name": "Dr. Velmurugan C",
-      "designation": "Assistant Professor , Head of the Department",
+      "designation": "Assistant Professor",
       "researchArea": " Additive Manufacturing, Modelling and Simulation, Smart Materials, Shape Memory Alloys, Energy Storage Materials and Device, Battery- materials and performance.",
       "emailID": "velmuruganc@iiitt.ac.in",
       "src": "/faculty/VELMURUGANC.jpg",
       "Incharge": "BWC, BoG Member, Assistant Registrar Accounts, Outsourcing Agency",
       "Institute": "Ph.D. MEC. Eng. (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194479",
-      "PersonalPage":"https://sites.google.com/view/velmuruganciiitt"
+      "PersonalPage": "https://sites.google.com/view/velmuruganciiitt"
     }
   ],
- 
-  "Mathematics": [
+  "Science & Humanities": [
     {
       "id": {
         "dept": "MATH",
         "deptID": "1"
       },
       "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Assistant Professor,  Head of the Department",
+      "designation": "Assistant Professor(Maths)",
       "researchArea": "Computational Fluid Dynamics",
       "emailID": "jagadeeshwarp@iiitt.ac.in",
       "src": "/faculty/JagdishP.jpg",
@@ -242,41 +239,36 @@
       "Member": "Internal complaints committee (ICC), Fact finding committee, Disciplinary committee",
       "Institute": "Ph.D. (NIT Warangal )",
       "VidhwanLink": "https://iiitt.irins.org/profile/194477"
-    }
-  ],
- "Science & Humanities": [
+    },
     {
       "id": {
         "dept": "PHY",
-        "deptID": "1"
+        "deptID": "2"
       },
       "name": "Dr. Kamakshi K",
-      "designation": "Assistant Professor",
+      "designation": "Assistant Professor(Physics)",
       "researchArea": "Photonics and Optoelectronic Devices",
       "emailID": "kamakshik@iiitt.ac.in",
       "src": "/faculty/Kamakshi1.jpeg",
       "Incharge": "Academic and Research",
       "Institute": "Ph.D. (IIT Roorkee) Post-doc. (University of Minho Portugal)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194482",
-      "PersonalPage":"/cmp"
-
-    }
-  ],
-  "English": [
+      "PersonalPage": "/cmp"
+    },
     {
       "id": {
         "dept": "ENG",
-        "deptID": "1"
+        "deptID": "3"
       },
       "name": "Dr. V. Sindhu",
-      "designation": "Assistant Professor",
+      "designation": "Assistant Professor(English)",
       "researchArea": "Applied Linguistics, English Language Teaching",
       "emailID": "sindhuv@iiitt.ac.in",
       "src": "/faculty/Sindhu.jpg",
       "Incharge": "Assistant Registrar, Aikyam - Multi-lingual Student Magazine, Annual Report – Preparation & Printing, Ministry Reply",
       "Institute": "Ph.D. (CEG Campus, Anna University Chennai.)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194483",
-      "PersonalPage":"http://store.iiitt.ac.in/downloads/Faculty_Profiles/Sindhu_Profile.pdf"
+      "PersonalPage": "http://store.iiitt.ac.in/downloads/Faculty_Profiles/Sindhu_Profile.pdf"
     }
   ]
 }
