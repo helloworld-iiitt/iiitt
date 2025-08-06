@@ -121,7 +121,14 @@ const PersonCard: React.FC<PersonCardProps> = ({
             {Institute}
           </div>
         )}
-
+        {isHOD && dept && (
+          <div className={styles.infoDiv}>
+            <MailIcon className={styles.infoIcon} />
+            <a href={`mailto:hod@${dept?.toLowerCase()}.iiitt.ac.in`} className={styles.info}>
+            {`hod@${dept?.toLowerCase()}.iiitt.ac.in`}
+            </a>
+          </div>
+        )}
         {emailID && emailID.trim() && (
           <div className={styles.infoDiv}>
             <MailIcon className={styles.infoIcon} />
