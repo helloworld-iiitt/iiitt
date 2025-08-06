@@ -156,7 +156,7 @@ const Faculty = () => {
           download
           className={styles.downloadLink}
         >
-          📄 Download Faculty Rule Book
+          Download Faculty Rule Book
         </Link>
       </Typography>
     </div>

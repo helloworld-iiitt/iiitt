@@ -210,7 +210,7 @@
   "ME": [
     {
       "id": {
-        "dept": "ME",
+        "dept": "mech",
         "deptID": "1"
       },
       "name": "Dr. Velmurugan C",
@@ -227,7 +227,7 @@
   "Science & Humanities": [
     {
       "id": {
-        "dept": "MATH",
+        "dept": "dsh",
         "deptID": "1"
       },
       "name": "Dr. Jagadeeshwar Pashikanti",
@@ -242,7 +242,7 @@
     },
     {
       "id": {
-        "dept": "PHY",
+        "dept": "dsh",
         "deptID": "2"
       },
       "name": "Dr. Kamakshi K",
@@ -257,7 +257,7 @@
     },
     {
       "id": {
-        "dept": "ENG",
+        "dept": "dsh",
         "deptID": "3"
       },
       "name": "Dr. V. Sindhu",
