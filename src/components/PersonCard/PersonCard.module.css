@@ -72,7 +72,7 @@
 .supervisor {
   color: #fff;
   flex: 1;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 .name {
   color: #fff;
@@ -171,8 +171,9 @@
   .incharge,
   .text h4,
   .infoDiv,
-  .infoIcon {
-    font-size: 0.8rem;
+  .infoIcon,
+  .supervisor {
+    font-size: 0.7rem !important;
    ;
   }
   .text a{
