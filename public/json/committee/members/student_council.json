@@ -15,6 +15,30 @@
             "src": "/studentsCouncil/sports.JPG"
         }
     ],
+    "Co-Curricular Affairs Secretary": [
+        {
+            "name": "Pravas Mohanty",
+            "designation": "Co-Curricular Affairs Secretary",
+            "emailId": "231146@iiitt.ac.in",
+            "src": "/studentsCouncil/co_curricular_boys.jpg"
+        }
+    ],
+    "Research Affairs Secretary":[
+        {
+            "name": "Sanjayan N",
+            "designation": "Research Affairs Secretary",
+            "emailId": "242104@iiitt.ac.in",
+            "src": "/studentsCouncil/research_boys.jpg"
+        }
+    ],
+    "Alumni & International Affairs Secretary":[
+        {
+            "name": "Barla Dhanush",
+            "designation": "Alumni & International Affairs Secretary",
+            "emailId": "231110@iiitt.ac.in",
+            "src": "/studentsCouncil/alumni_boys.jpg"
+        }
+    ],
     "Academic Affairs Secretary": [
         {
             "name": "S Kowshika",
@@ -44,14 +68,7 @@
             "src": "/studentsCouncil/hostel_boys.jpg"
         }
     ],
-    "Co-Curricular Affairs Secretary": [
-        {
-            "name": "Pravas Mohanty",
-            "designation": "Co-Curricular Affairs Secretary",
-            "emailId": "231146@iiitt.ac.in",
-            "src": "/studentsCouncil/co_curricular_boys.jpg"
-        }
-    ],
+
     "Cultural Affairs Secretary": [
         {
             "name": "Tenali Likhita",
@@ -66,22 +83,7 @@
             "src": "/studentsCouncil/cultural_boys.jpg"
         }
     ],
-    "Research Affairs Secretary":[
-        {
-            "name": "Sanjayan N",
-            "designation": "Research Affairs Secretary",
-            "emailId": "242104@iiitt.ac.in",
-            "src": "/studentsCouncil/research_boys.jpg"
-        }
-    ],
-    "Alumni & International Affairs Secretary":[
-        {
-            "name": "Barla Dhanush",
-            "designation": "Alumni & International Affairs Secretary",
-            "emailId": "231110@iiitt.ac.in",
-            "src": "/studentsCouncil/alumni_boys.jpg"
-        }
-    ],
+
     "Joint Secretary": [
         {
             "name": "B Yojitha",

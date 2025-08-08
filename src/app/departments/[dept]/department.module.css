@@ -1,0 +1,116 @@
+.departmentContainer {
+  padding: 3rem 1rem !important;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
+  flex-direction: row;
+}
+
+.departmentThemeText {
+  color: #1a5d3a;
+  text-align: center;
+  font-size: 2rem !important;
+  font-weight: 700;
+  background: linear-gradient(45deg, #1a5d3a, #2e8b57);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+.scholargrid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.departmentDesc {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.link {
+  text-decoration: none;
+  color: #1a5d3a;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #104e2b;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (min-width: 1024px) and (max-width:2160px) {
+  .scholargrid {
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .departmentContainer {
+    flex-direction: column;
+  }
+
+  .departmentThemeText {
+    font-size: 1.5rem !important;
+  }
+
+  .departmentDesc {
+    font-size: 0.95rem;
+  }
+
+  .scholargrid {
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .scholargrid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .departmentThemeText {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .scholargrid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .departmentThemeText {
+    font-size: 1.3rem !important;
+  }
+
+  .departmentDesc {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width:2161px) {
+  .scholargrid{
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+  }
+}

@@ -1,12 +1,3 @@
-/**
- *  Template for Department Page
- *
- * utilizes Infosection,EmptyNotice
- * Utilizes Personcard Component
- * utilizes validUrl for type checking
- */
-
-
 "use client";
 
 import EmptyNotice from "@/components/EmptySection/EmptyNotice";
@@ -19,7 +10,7 @@ import Grid from "@mui/material/Grid2";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import nextConfig from "../../../../next.config";
-import styles from "../department.module.css";
+import styles from "./department.module.css";
 
 const Cse: React.FC = () => {
   const params = useParams();
@@ -31,7 +22,7 @@ const Cse: React.FC = () => {
     return () => {
       document.title = "IIIT Trichy";
     };
-  }, []);
+  }, [dept]);
 
   useEffect(() => {
     fetch(`/json/departments/${dept}.json`)
@@ -47,10 +38,9 @@ const Cse: React.FC = () => {
 
   return (
     <div>
-      <Grid container className={styles.departmentContainer}>
-        <Grid size={1} />
-        <Grid size={10}>
-          {/* Department Title */}
+      <Grid container spacing={2} className={styles.departmentContainer}>
+        <Grid  size={{xs:12 ,sm:1}} />
+        <Grid  size={{xs:12 ,sm:10 }}>
           <Typography
             variant="h2"
             component="h2"
@@ -74,17 +64,14 @@ const Cse: React.FC = () => {
             </Box>
           </Typography>
 
-          {/* Content Section */}
           {cseData ? (
             <>
-              {/* About */}
               <InfoSection title="About">
                 <Box component="p" className={styles.departmentDesc}>
                   {cseData.about}
                 </Box>
               </InfoSection>
 
-              {/* Message from HOD */}
               <InfoSection title="Message from the Head of Department">
                 <Box
                   component="p"
@@ -99,18 +86,21 @@ const Cse: React.FC = () => {
                 </Typography>
               </InfoSection>
 
-              {/* Faculty Members */}
               <InfoSection title="Faculty Members">
                 {Array.isArray(cseData.faculty_members) &&
-                  cseData.faculty_members.length > 0 ? (
-                  cseData.faculty_members.map((faculty, index) => (
-                    <Box key={index} mb={1}>
-                      <Typography>{faculty.name}</Typography>
-                      <Typography variant="caption" color="text.secondary">
-                        {faculty.designation}
-                      </Typography>
-                    </Box>
-                  ))
+                cseData.faculty_members.length > 0 ? (
+                  <Grid container spacing={2}>
+                    {cseData.faculty_members.map((faculty, index) => (
+                      <Grid  size={{xs:12 ,sm:6 ,md:4}}  key={index}>
+                        <Box>
+                          <Typography>{faculty.name}</Typography>
+                          <Typography variant="caption" color="text.secondary">
+                            {faculty.designation}
+                          </Typography>
+                        </Box>
+                      </Grid>
+                    ))}
+                  </Grid>
                 ) : (
                   <EmptyNotice />
                 )}
@@ -128,11 +118,10 @@ const Cse: React.FC = () => {
                 </Box>
               </InfoSection>
 
-              {/* Research Scholars */}
               <InfoSection title="Research Scholars">
                 <div className={styles.scholargrid}>
                   {Array.isArray(cseData.research_scholars) &&
-                    cseData.research_scholars.length > 0 ? (
+                  cseData.research_scholars.length > 0 ? (
                     cseData.research_scholars.map((scholar, index) => (
                       <div key={index}>
                         <PersonCard
@@ -145,7 +134,6 @@ const Cse: React.FC = () => {
                           Supervisor={scholar.supervisor}
                           PersonalPage={scholar.PersonalPage}
                           status={scholar.status}
-
                         />
                       </div>
                     ))
@@ -154,10 +142,10 @@ const Cse: React.FC = () => {
                   )}
                 </div>
               </InfoSection>
-              {/* Research Area */}
+
               <InfoSection title="Research Areas">
                 {Array.isArray(cseData.research_areas) &&
-                  cseData.research_areas.length > 0 ? (
+                cseData.research_areas.length > 0 ? (
                   cseData.research_areas.map((area, i) => (
                     <Box key={i} mb={1.5}>
                       <Typography>{area}</Typography>
@@ -168,16 +156,17 @@ const Cse: React.FC = () => {
                 )}
               </InfoSection>
 
-              {/* Announcements */}
               <InfoSection title="Announcements">
-                {Array.isArray(cseData.announcements) && cseData.announcements.length > 0 ? (
+                {Array.isArray(cseData.announcements) &&
+                cseData.announcements.length > 0 ? (
                   cseData.announcements.map((a, i) => (
                     <Box key={i} mb={1.5}>
-                      <a href={
-                        validURL(a.link)
-                          ? a.link
-                          : `${nextConfig.env?.DOCUMENT}/${a.link}`
-                      }
+                      <a
+                        href={
+                          validURL(a.link)
+                            ? a.link
+                            : `${nextConfig.env?.DOCUMENT}/${a.link}`
+                        }
                         className={styles.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -188,19 +177,17 @@ const Cse: React.FC = () => {
                         <Typography variant="caption" color="text.secondary">
                           {a.date}
                         </Typography>
-
                       </a>
                     </Box>
-                  ))) : (<EmptyNotice />)}
-
-
+                  ))
+                ) : (
+                  <EmptyNotice />
+                )}
               </InfoSection>
 
-
-              {/* Latest News */}
               <InfoSection title="Latest News">
                 {Array.isArray(cseData.latest_news) &&
-                  cseData.latest_news.length > 0 ? (
+                cseData.latest_news.length > 0 ? (
                   cseData.latest_news.map((news, i) => (
                     <Box key={i} mb={1.5}>
                       <Typography>{news.title}</Typography>
@@ -211,7 +198,6 @@ const Cse: React.FC = () => {
                 )}
               </InfoSection>
 
-              {/* Contact Us */}
               {cseData.contact && (
                 <InfoSection title="Contact Us">
                   {cseData.contact.department && (
@@ -243,23 +229,20 @@ const Cse: React.FC = () => {
               )}
             </>
           ) : (
-            <>
-              {[...Array(5)].map((_, i) => (
-                <Skeleton
-                  key={i}
-                  variant="rectangular"
-                  height={150}
-                  sx={{ borderRadius: 2, mb: 2 }}
-                />
-              ))}
-            </>
+            [...Array(5)].map((_, i) => (
+              <Skeleton
+                key={i}
+                variant="rectangular"
+                height={150}
+                sx={{ borderRadius: 2, mb: 2, width: "100%" }}
+              />
+            ))
           )}
         </Grid>
-        <Grid size={1} />
+        <Grid  size={{xs:12 ,sm:1}} />
       </Grid>
     </div>
   );
 };
-
 
 export default Cse;

@@ -1,6 +1,37 @@
-.grp{
-    color: #2e8b57;
-    margin-top: 3rem;
-    margin-left: 1.3rem;
-
+.grp {
+  color: #2e8b57;
+  margin-top: 3rem;
+  margin-left: 1.3rem;
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(25rem, 1fr)
+  ); /* *!minimum 20rem acceptable for name related issues */
+  gap: 1.5rem;
+}
+.groupTitle {
+  margin-top: 2rem !important;
+  text-align: center;
+  font-size: 3rem !important;
+  color: #2e8b57;
+}
+
+.text h4 {
+  font-size: 1rem !important;
+}
+ @media (max-width:480px) {
+    .groupTitle{
+        font-size: 1.3rem !important;
+    }
+
+    .gridContainer{
+        min-height: auto;
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(20rem, 1fr)
+        );
+    }
+ }

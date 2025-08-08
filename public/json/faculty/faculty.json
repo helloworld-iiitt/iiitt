@@ -1,5 +1,5 @@
 {
-  "CSE": [
+  "Computer Science and Engineering | CSE": [
     {
       "id": {
         "dept": "CSE",
@@ -42,6 +42,21 @@
       "Incharge": " Registrar(i/c), Member Secretary (Ex-officio), Board of Governors, Finance Committee, Building and Works Committee, senate Committee, Exam Cell, Alumni Association, DigiLocker",
       "Institute": " Ph.D. CSE (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194473"
+    },
+    {
+      "id": {
+        "dept": "CSE",
+        "deptID": "2"
+      },
+      "name": "Dr. Anoop Jacob Thomas",
+      "designation": "Assistant Professor",
+      "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
+      "emailID": "anoopjt@iiitt.ac.in",
+      "src": "/faculty/AnoopJacobThomas.jpg",
+      "Incharge": "Campus Networking,Training and Placement, Exam Cell Member, Student Discipline, Hall Booking ",
+      "Institute": "Ph.D. CSE (IIT Ropar)",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
+      "PersonalPage": "https://www.linkedin.com/in/anoopjt/"
     },
     {
       "id": {
@@ -103,7 +118,7 @@
       "PersonalPage": "https://sites.google.com/site/kokilajrsnitt/?pli=1"
     }
   ],
-  "ECE": [
+  "Electronics and Communication Engineering | ECE": [
     {
       "id": {
         "dept": "ECE",
@@ -147,6 +162,21 @@
       "Incharge": "NBA, NIRF, and Internship, Institute Mess. ",
       "Institute": "Ph.D. ECE (MIT Campus, Anna University Chennai)",
       "VidhwanLink": "https://iiitt.irins.org/profile/194474"
+    },
+    {
+      "id": {
+        "dept": "ECE",
+        "deptID": "2"
+      },
+      "name": "Dr. R. Krishnamurthy",
+      "designation": "Assistant Professor",
+      "researchArea": " RF and Microwave Engineering, Optical Communication",
+      "emailID": "rkrishnamurthy@iiitt.ac.in",
+      "src": "/faculty/Krishnamurthy.jpg",
+      "Incharge": "Alhad and Atrang",
+      "Institute": "Ph.D. ECE ( IISc. Bangalore) ",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/562856",
+      "PersonalPage": "https://sites.google.com/view/krishnamurthyramanujam/home?pli=1"
     },
     {
       "id": {
@@ -207,7 +237,7 @@
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/588971"
     }
   ],
-  "ME": [
+  " Mechanical Engineering | ME": [
     {
       "id": {
         "dept": "mech",
@@ -224,7 +254,7 @@
       "PersonalPage": "https://sites.google.com/view/velmuruganciiitt"
     }
   ],
-  "Science & Humanities": [
+  "Science & Humanities | S&H ": [
     {
       "id": {
         "dept": "dsh",
@@ -251,9 +281,24 @@
       "emailID": "kamakshik@iiitt.ac.in",
       "src": "/faculty/Kamakshi1.jpeg",
       "Incharge": "Academic and Research",
-      "Institute": "Ph.D. (IIT Roorkee) Post-doc. (University of Minho Portugal)",
+      "Institute": "Ph.D. (IIT Roorkee) Post-doc.(University of Minho Portugal)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194482",
       "PersonalPage": "/cmp"
+    },
+    {
+      "id": {
+        "dept": "dsh",
+        "deptID": "2"
+      },
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Assistant Professor(Maths)",
+      "researchArea": "Computational Fluid Dynamics",
+      "emailID": "jagadeeshwarp@iiitt.ac.in",
+      "src": "/faculty/JagdishP.jpg",
+      "Incharge": " Liaison officer OBC, Anti ragging committee (ARC), Medical facility, Cafeteria Services and Stationery Points  ",
+      "Member": "Internal complaints committee (ICC), Fact finding committee, Disciplinary committee",
+      "Institute": "Ph.D. (NIT Warangal)",
+      "VidhwanLink": "https://iiitt.irins.org/profile/194477"
     },
     {
       "id": {
@@ -266,7 +311,7 @@
       "emailID": "sindhuv@iiitt.ac.in",
       "src": "/faculty/Sindhu.jpg",
       "Incharge": "Assistant Registrar, Aikyam - Multi-lingual Student Magazine, Annual Report – Preparation & Printing, Ministry Reply",
-      "Institute": "Ph.D. (CEG Campus, Anna University Chennai.)",
+      "Institute": "Ph.D. (CEG Campus, Anna University Chennai)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194483",
       "PersonalPage": "http://store.iiitt.ac.in/downloads/Faculty_Profiles/Sindhu_Profile.pdf"
     }

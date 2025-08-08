@@ -6,7 +6,7 @@
   padding: 1rem;
   gap: 1rem;
   margin: 1rem auto;
-  min-height: 220px;
+  min-height: 30rem;
   max-width: 500px;
 }
 
@@ -18,14 +18,14 @@
 
 .card {
   position: relative;
-  width: 23rem;
+  min-width: 22rem !important;
+  max-width: 40rem;
   margin: 40px auto;
   padding: 20px;
   border-radius: 12px;
-  background-color: #E1EEEE;
+  background-color: #e1eeee;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   text-align: left;
-  word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
   height: auto;
@@ -33,7 +33,8 @@
 
 .top {
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: auto;
   background-color: #256f46;
@@ -51,7 +52,7 @@
   display: block;
   max-width: 100%;
   min-width: max-content;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #fff;
   text-decoration: none;
@@ -64,7 +65,7 @@
 
 .text h4 {
   margin: 0.2rem 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   color: #fff;
   overflow-wrap: break-word;
 }
@@ -73,21 +74,20 @@
   flex: 1;
   margin-left: 1rem;
 }
-
 .name {
   color: #fff;
   flex: 1;
   margin-left: 1.5rem;
 }
-
 .circleImg {
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px 15px 15px auto;
-  width: 110px;
-  height: 110px;
+  margin: 0.4rem auto;
+  /*margin: 15px 15px 15px auto;*/
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
   border: 4px solid #fff;
   overflow: hidden;
@@ -101,16 +101,15 @@
 }
 
 .bottom {
-  margin-top: 150px;
-  background-color:  #E1EEEE;
+  margin-top: 14rem;
+  background-color: #e1eeee;
 }
-
 
 .researchArea,
 .incharge {
   margin-top: 10px;
   margin-left: 0.2rem;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
@@ -121,7 +120,7 @@
 }
 
 .incharge {
-  color: #3E3E3E;
+  color: #3e3e3e;
   font-weight: normal;
 }
 
@@ -130,7 +129,7 @@
   align-items: center;
   margin-top: 0.5rem;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   color: #434343 !important;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -153,4 +152,36 @@
 .info:hover {
   opacity: 0.85;
   color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    max-width: 20rem;
+
+  }
+  .circleImg {
+    width: 9rem;
+    height: 9rem;
+  }
+  .bottom {
+    margin-top: 10rem;
+  }
+  .text a,
+  .researchArea,
+  .incharge,
+  .text h4,
+  .infoDiv,
+  .infoIcon {
+    font-size: 0.8rem;
+   ;
+  }
+  .text a{
+    overflow-wrap: break-word !important
+  }
+}
+
+@media (min-width:482px) and (max-width:3840px) {
+  .card{
+    min-width: 32rem !important;
+  }
 }
