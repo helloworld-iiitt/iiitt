@@ -13,7 +13,7 @@ import { studentdata } from "@/types/common.types";
 import { Typography } from "@mui/material";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import styles from "../faculty/faculty.module.css";
+import styles from "../studentcouncil/studentcouncil.module.css";
 
 
 const StudentCouncil = () => {

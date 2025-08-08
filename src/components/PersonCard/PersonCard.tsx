@@ -16,7 +16,7 @@ import { validURL } from "@/types/validator";
 
 
 interface PersonCardProps {
-  isHOD?:boolean;
+  isHOD?: boolean;
   name: string;
   emailID?: string;
   src: string;
@@ -59,7 +59,7 @@ const PersonCard: React.FC<PersonCardProps> = ({
           <Link href="#" className={styles.name}>
             {name}
           </Link>
-          {isHOD &&(<h4 style={{marginTop:"0.8rem"}}>Head of the Department</h4>)}
+          {isHOD && (<h4 style={{ marginTop: "0.8rem" }}>Head of the Department</h4>)}
           <h4 >{designation}</h4>
           {/* INFO : see Departments Page */}
           {Supervisor && Supervisor.trim() && (
@@ -71,20 +71,18 @@ const PersonCard: React.FC<PersonCardProps> = ({
         </div>
 
         <div className={styles.circleImg}>
-          <Image
+          <img
             src={validURL(src) ? src : `${nextConfig.env?.IMAGE}${src}`}
             alt={name}
-            width={115}
-            height={115}
             className={styles.profileImage}
-            priority
+
           />
 
         </div>
       </div>
 
       <div className={styles.bottom}>
-         {/* INFO : see Hostel Page */}
+        {/* INFO : see Hostel Page */}
         {Room && Room.trim() && src_type === "Warden" && (
           <p className={styles.researchArea}>
             <strong>Room No: </strong>{Room}
@@ -125,11 +123,11 @@ const PersonCard: React.FC<PersonCardProps> = ({
           <div className={styles.infoDiv}>
             <MailIcon className={styles.infoIcon} />
             <a href={`mailto:hod@${dept?.toLowerCase()}.iiitt.ac.in`} className={styles.info}>
-            {`hod@${dept?.toLowerCase()}.iiitt.ac.in`}
+              {`hod@${dept?.toLowerCase()}.iiitt.ac.in`}
             </a>
           </div>
         )}
-        {emailID && emailID.trim() && (
+        {!isHOD && emailID && emailID.trim() && (
           <div className={styles.infoDiv}>
             <MailIcon className={styles.infoIcon} />
             <a href={`mailto:${emailID}`} className={styles.info}>
