@@ -18,7 +18,7 @@
 
 .card {
   position: relative;
-  min-width: 22rem !important;
+  min-width: 20rem !important;
   max-width: 40rem;
   margin: 40px auto;
   padding: 20px;
@@ -156,7 +156,7 @@
 
 @media screen and (max-width: 480px) {
   .card {
-    max-width: 20rem;
+    max-width: 20rem !important;
 
   }
   .circleImg {
@@ -186,3 +186,15 @@
     min-width: 32rem !important;
   }
 }
+@media (max-width:480px) {
+  .circleImg {
+    max-width: 6rem;
+    max-height: 6rem;
+  }
+  .text h4{
+    word-wrap: anywhere !important;
+  }
+
+}
+
+
