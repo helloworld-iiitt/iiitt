@@ -71,11 +71,12 @@ const PersonCard: React.FC<PersonCardProps> = ({
         </div>
 
         <div className={styles.circleImg}>
-          <img
+          <Image
             src={validURL(src) ? src : `${nextConfig.env?.IMAGE}${src}`}
             alt={name}
             className={styles.profileImage}
-
+            width={1920}
+            height={1080}
           />
 
         </div>
