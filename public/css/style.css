@@ -2,6 +2,12 @@ html {
   font-size: 16px;
   background-color: #e8f7ee;
 }
+:root{
+    --circle-image:clamp(6rem,10vw,20rem);
+    --scale-size:clamp(0.7,1vw+0.8,5);
+    --max-card-width: clamp(21rem, calc(15rem + 15vw), 60rem);
+
+}
 * {
   box-sizing: border-box;
 }
@@ -22,6 +28,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size:calc(1vw * var(--scale-size));
+
 }
 .navbar {
   min-height: 64px !important;

@@ -42,11 +42,16 @@
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(
-    auto-fit,
-    minmax(34rem, 1fr)
+    3,
+    minmax(20rem, 1fr)
   ); /* *!minimum 20rem acceptable for name related issues */
   gap: 1.5rem;
   max-width: 100vw; /* utilizes whole screen*/
+}
+.gridContainer:has(.gridItem:only-child) {
+  justify-content: center;
+  grid-template-columns: 1fr;
+margin: 0 auto;
 }
 
 .gridItem {
@@ -69,43 +74,9 @@
   color: #256f46;
 }
 
-
-
-@media (max-width: 768px) {
-  .text a {
-    font-size: 0.7rem !important;
-  }
-
-  .groupTitle {
-    font-size: 1.6rem;
-  }
-
-  .designationTitle {
-    font-size: 1.2rem;
-  }
-
-  .downloadLink {
-    font-size: 1rem;
-  }
-
-  .facultyContainer {
-    padding: 1.5rem 0.75rem;
-    gap: 2rem;
-  }
-}
-
-@media screen and (max-width:480px) {
+@media (max-width:1023px) {
   .gridContainer{
-    grid-template-columns: repeat(auto-fit,minmax(21rem,1fr));
-  }
-  .groupTitle{
-    font-size: 1.2rem !important;
-  }
-
-}
-@media (max-width:1024px) {
-  .facultyContainer{
-    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    grid-template-columns: 1fr;
   }
 
 }
