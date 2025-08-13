@@ -1,119 +1,224 @@
 {
   "data": [
     {
-      "name": "Web Devs Club",
-      "motto": "Not spiders, but the best web developers are found here.",
+      "name": "E-cell",
+      "motto": "Empowering entrepreneurs, building the future.",
       "facultyIncharge": "Dr. J. Kokila",
-      "emoji": "💻",
+      "emoji": "🚀",
       "tag": "tech",
       "coordinator": [
-        {
-          "name": "Anurag Nandkumar Bansode"
-        },
-        {
-          "name": "LAKSHENDRA SEJWANI"
-        },
-        {
-          "name": "Amogh G C"
-        },
-        {
-          "name": "RENTALA C S S S N Krishna Priya "
-        },
-        {
-          "name": "Priyanshu Makwana"
-        },
-        {
-          "name": "Kuruva Pavani "
-        },
-        {
-          "name": "Pravas Mohanty  "
-        }
+        { "name": "Hemanshu Choudhary" }
       ],
       "logo": "/images/webdevclub.jpg"
     },
     {
-      "name": " (N.E.R.D.) Robotics Club",
-      "motto": "Building robots is a daily task for them.",
+      "name": "Web Dev",
+      "motto": "Crafting digital experiences, one line at a time.",
+      "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "🌐",
+      "tag": "tech",
+      "coordinator": [
+        { "name": "Anurag Bansode" },
+        { "name": "Lakshendra Sejwani" },
+        { "name": "Pravas Mohanty" },
+        { "name": "Amogh G C" }
+      ],
+      "logo": "/images/webdevclub.jpg"
+    },
+    {
+      "name": "App Dev",
+      "motto": "Innovation in your pocket.",
+      "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "📱",
+      "tag": "tech",
+      "coordinator": [
+        { "name": "Shrikant Sharma" },
+        { "name": "Sanskruti Lad" }
+      ],
+      "logo": "/images/appdevclub.jpg"
+    },
+    {
+      "name": "Competitive Programming (CP)",
+      "motto": "Think, code, compete, excel.",
+      "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "⚡",
+      "tag": "tech",
+      "coordinator": [
+        { "name": "Shashi Pritam" },
+        { "name": "Utkarsh Pandey" }
+      ],
+      "logo": "/images/cpclub.jpg"
+    },
+    {
+      "name": "Robotics",
+      "motto": "Building tomorrow's automation today.",
       "facultyIncharge": "Dr. HARISH ADHITHYA M",
       "emoji": "🤖",
       "tag": "tech",
       "coordinator": [
-        {
-          "name": "Abhishek Mohanty"
-        },
-        {
-          "name": "Niel Amit Shah"
-        },
-        {
-          "name": "Arumella Rakesh Hanuma Sai"
-        },
-        {
-          "name": "Ayush Soni"
-        },
-        {
-          "name": "Pravas Mohanty"
-        }
+        { "name": "Rakesh Arumala" }
       ],
       "logo": "/images/robotics.jpeg"
     },
     {
-      "name": "Photography Club",
-      "motto": "Lights. Camera. Shoot!",
-      "facultyIncharge": "Dr. HARISH ADHITHYA M",
-      "emoji": "📸",
-      "tag": "cultural",
+      "name": "NetSec",
+      "motto": "Securing the digital frontier.",
+      "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "🔒",
+      "tag": "tech",
       "coordinator": [
-        {
-          "name": "Karthik Nivedhan"
-        },
-        {
-          "name": "Vidyala Jahnavi"
-        },
-        {
-          "name": "Akshaya RS"
-        },
-        {
-          "name": "Rishi Upadhayay"
-        },
-        {
-          "name": "Shashank Hippargi"
-        },
-        {
-          "name": "Sai Krishna Lalasa"
-        },
-        {
-          "name": "Abilashini V"
-        }
+        { "name": "Gnyan Sai" }
       ],
-      "logo": "/images/photographyclub.jpg"
+      "logo": "/images/netsecclub.jpg"
     },
     {
-      "name": "Dance Club",
-      "motto": "The most loving and caring people can easily be found here.",
-      "facultyIncharge": "Dr. HARISH ADHITHYA M",
-      "emoji": "💃",
-      "tag": "cultural",
+      "name": "Block Chain",
+      "motto": "Decentralizing the future of technology.",
+      "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "⛓️",
+      "tag": "tech",
       "coordinator": [
-        {
-          "name": "Ram Charan Tej"
-        },
-        {
-          "name": "Shaikh Raahath"
-        },
-        {
-          "name": "Apoorva Shankar"
-        },
-        {
-          "name": "Priya Singh"
-        },
-        {
-          "name": "Barla Dhanush"
-        },
-        {
-          "name": "Charu Mehra"
-        }
+        { "name": "Anurag Shingare - 3rd year" }
       ],
-      "logo": "/images/danceclub.jpg"
+      "logo": "/images/blockchainclub.jpg"
+    },
+    {
+      "name": "Badminton Club",
+      "motto": "Smash your limits, reach new heights.",
+      "facultyIncharge": "Dr. Banoth Ravi",
+      "emoji": "🏸",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "A Gnyan Sai (4th Year)" },
+        { "name": "Vivek Kumar (4th Year)" },
+        { "name": "S Monish Vardhan (3rd Year)" },
+        { "name": "B Shashank (3rd Year)" }
+      ],
+      "logo": "/images/badmintonclub.jpg"
+    },
+    {
+      "name": "Table Tennis Club",
+      "motto": "Fast-paced action, precision play.",
+      "facultyIncharge": "Dr. Banoth Ravi",
+      "emoji": "🏓",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Karnati Sai Rohit Gupta (3rd Year)" },
+        { "name": "Harsh Pandey (3rd Year)" },
+        { "name": "Shivam Sharma (2nd Year)" }
+      ],
+      "logo": "/images/ttclub.jpg"
+    },
+    {
+      "name": "Carrom",
+      "motto": "Strategy meets skill on the board.",
+      "facultyIncharge": "Dr. Banoth Ravi",
+      "emoji": "🎯",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Ganesh (4th Year)" },
+        { "name": "Rajnish (4th Year)" }
+      ],
+      "logo": "/images/carromclub.jpg"
+    },
+    {
+      "name": "Chess Club",
+      "motto": "Think ahead, plan your victory.",
+      "facultyIncharge": "Dr. Banoth Ravi",
+      "emoji": "♟️",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Pranjal Bisen (4th Year)" },
+        { "name": "Lakshendra Sejwani (4th Year)" },
+        { "name": "Amogh G C (3rd Year)" },
+        { "name": "Sarwesh Parsewar (3rd Year)" }
+      ],
+      "logo": "/images/chessclub.jpg"
+    },
+    {
+      "name": "Football Club",
+      "motto": "Passion, teamwork, victory.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "⚽",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Gonendra Verma (3rd Year)" },
+        { "name": "Mohammad Imraan (3rd Year)" },
+        { "name": "Madhav Murari Kartikeya (2nd Year)" },
+        { "name": "Adithya Nair (2nd Year)" }
+      ],
+      "logo": "/images/footballclub.jpg"
+    },
+    {
+      "name": "Cricket Club",
+      "motto": "Gentleman's game, fierce competition.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "🏏",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Raahath Shaik (4th Year)" },
+        { "name": "Harsha (3rd Year)" },
+        { "name": "Chakri (3rd Year)" },
+        { "name": "Uttam Ch (3rd Year)" },
+        { "name": "Gayakwad Nithin (2nd Year)" }
+      ],
+      "logo": "/images/cricketclub.jpg"
+    },
+    {
+      "name": "Athletics Field Events Club",
+      "motto": "Strength, power, and precision.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "🏋️",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "G Tagore (4th Year)" }
+      ],
+      "logo": "/images/athleticsfieldclub.jpg"
+    },
+    {
+      "name": "Volleyball Club",
+      "motto": "Spike, serve, and soar.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "🏐",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Karthikeya Saradhi (4th Year)" },
+        { "name": "Phanindra (4th Year)" }
+      ],
+      "logo": "/images/volleyballclub.jpg"
+    },
+    {
+      "name": "Athletics Track Events Club",
+      "motto": "Speed, endurance, and determination.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "🏃",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Charan Tej (4th Year)" }
+      ],
+      "logo": "/images/athleticsclub.jpg"
+    },
+    {
+      "name": "Kho Kho Club",
+      "motto": "Traditional sport, modern spirit.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "🏃‍♂️",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Indrasena Reddy (2nd Year)" }
+      ],
+      "logo": "/images/khokhoclub.jpg"
+    },
+    {
+      "name": "Kabaddi Club",
+      "motto": "Ancient game, endless excitement.",
+      "facultyIncharge": "Dr. D Suresh",
+      "emoji": "🤼",
+      "tag": "sport",
+      "coordinator": [
+        { "name": "Anand Sagar (3rd Year)" }
+      ],
+      "logo": "/images/kabaddiclub.jpg"
     },
     {
       "name": "Music Club",
@@ -122,29 +227,57 @@
       "emoji": "🎶",
       "tag": "cultural",
       "coordinator": [
-        {
-          "name": "Kancharla NVL Durga Mahitha"
-        },
-        {
-          "name": "Asrij Sriramoju"
-        },
-        {
-          "name": "Nehal Nandu"
-        },
-        {
-          "name": "Priyanshi Pandey"
-        },
-        {
-          "name": "V Mahijith"
-        },
-        {
-          "name": "Arushi Sharma"
-        },
-        {
-          "name": "Hendrik Marino A"
-        }
+        { "name": "Nehal Nandu" },
+        { "name": "Asrj Sriramoju" }
       ],
       "logo": "/images/musicclub.jpg"
+    },
+    {
+      "name": "Dance Club",
+      "motto": "Where rhythm meets passion.",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "💃",
+      "tag": "cultural",
+      "coordinator": [
+        { "name": "Shaik Raahath" },
+        { "name": "Apoorva" }
+      ],
+      "logo": "/images/danceclub.jpg"
+    },
+    {
+      "name": "Fine Arts Club",
+      "motto": "Creativity at its finest.",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "🎨",
+      "tag": "cultural",
+      "coordinator": [
+        { "name": "Phanindra" }
+      ],
+      "logo": "/images/fineartsclub.jpg"
+    },
+    {
+      "name": "Photography Club",
+      "motto": "Lights. Camera. Shoot!",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "📸",
+      "tag": "cultural",
+      "coordinator": [
+        { "name": "Gopika Saranya" },
+        { "name": "Karthik Nivedhan" }
+      ],
+      "logo": "/images/photographyclub.jpg"
+    },
+    {
+      "name": "EBSB Club (Ek Bharat Swachh Bharat)",
+      "motto": "Unity in diversity.",
+      "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "🤝",
+      "tag": "cultural",
+      "coordinator": [
+        { "name": "Cherukuri V L N Kartheek" },
+        { "name": "Manisha Das" }
+      ],
+      "logo": "/images/ebsbclub.jpg"
     },
     {
       "name": "Media Club",
@@ -153,27 +286,8 @@
       "emoji": "📺",
       "tag": "cultural",
       "coordinator": [
-        {
-          "name": "Srinidhi Kavuluru"
-        },
-        {
-          "name": "Atharva More "
-        },
-        {
-          "name": "Prakarti Prabhakar "
-        },
-        {
-          "name": "Venh Arya "
-        },
-        {
-          "name": "SK.Riza  "
-        },
-        {
-          "name": "V.V.Harshil  "
-        },
-        {
-          "name": "Tenali Likhitha  "
-        }
+        { "name": "Prakarti Prabhakar" },
+        { "name": "Venh Arya" }
       ],
       "logo": "/images/mediaclub.jpg"
     }

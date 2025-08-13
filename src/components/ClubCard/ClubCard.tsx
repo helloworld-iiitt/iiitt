@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./ClubCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
+
 interface ClubCardProps {
   club: {
     name: string;
@@ -24,18 +25,16 @@ const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
   const slug = generateSlug(club.name);
 
   return (
-    // <Link href={`/clubs/${slug}`}>
-    <div className={styles.parent}>
-      <div className={styles.header}>
-        <div className={styles.clubEmoji}>
-          {club.emoji}
+    <Link href={`/clubs/${slug}`}>
+      <div className={styles.parent}>
+        <div className={styles.header}>
+          <div className={styles.clubEmoji}>
+            {club.emoji}
+          </div>
+          <div className={styles.clubName}>{club.name}</div>
         </div>
-        <div className={styles.clubName}>{club.name}</div>
       </div>
-    </div>
-    // /* </Link> */ 
-
-
+    </Link>
   );
 };
 
