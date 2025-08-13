@@ -11,6 +11,8 @@ export interface CalendarData {
 export interface Club {
   name: string;
   motto: string;
+  emoji: string;
+  tag: string
   facultyIncharge: string;
   coordinator: { name: string }[];
 }

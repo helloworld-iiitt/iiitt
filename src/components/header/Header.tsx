@@ -175,8 +175,8 @@ const Header: React.FC = () => {
                     tabIndex={-1}
                     aria-selected={focusedIndex === idx}
                     className={`cursor-pointer px-4 py-3 transition-colors duration-150 ${focusedIndex === idx
-                        ? "bg-blue-600 text-white"
-                        : "hover:bg-blue-100 hover:text-blue-900"
+                      ? "bg-blue-600 text-white"
+                      : "hover:bg-blue-100 hover:text-blue-900"
                       }`}
                     onClick={() => onClickResult(item.url)}
                     onMouseEnter={() => setFocusedIndex(idx)}

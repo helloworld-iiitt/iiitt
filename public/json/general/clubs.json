@@ -4,6 +4,8 @@
       "name": "Web Devs Club",
       "motto": "Not spiders, but the best web developers are found here.",
       "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "💻",
+      "tag": "tech",
       "coordinator": [
         {
           "name": "Anurag Nandkumar Bansode"
@@ -27,13 +29,14 @@
           "name": "Pravas Mohanty  "
         }
       ],
-      "logo":"/images/webdevclub.jpg"
+      "logo": "/images/webdevclub.jpg"
     },
-
     {
       "name": " (N.E.R.D.) Robotics Club",
       "motto": "Building robots is a daily task for them.",
       "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "🤖",
+      "tag": "tech",
       "coordinator": [
         {
           "name": "Abhishek Mohanty"
@@ -51,12 +54,14 @@
           "name": "Pravas Mohanty"
         }
       ],
-      "logo":"/images/robotics.jpeg"
+      "logo": "/images/robotics.jpeg"
     },
-   {
+    {
       "name": "Photography Club",
       "motto": "Lights. Camera. Shoot!",
       "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "📸",
+      "tag": "cultural",
       "coordinator": [
         {
           "name": "Karthik Nivedhan"
@@ -80,12 +85,14 @@
           "name": "Abilashini V"
         }
       ],
-      "logo":"/images/photographyclub.jpg"
+      "logo": "/images/photographyclub.jpg"
     },
     {
       "name": "Dance Club",
       "motto": "The most loving and caring people can easily be found here.",
       "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "💃",
+      "tag": "cultural",
       "coordinator": [
         {
           "name": "Ram Charan Tej"
@@ -105,14 +112,17 @@
         {
           "name": "Charu Mehra"
         }
-      ],"logo":"/images/danceclub.jpg"
+      ],
+      "logo": "/images/danceclub.jpg"
     },
     {
       "name": "Music Club",
       "motto": "The most loving and caring people can easily be found here.",
       "facultyIncharge": "Dr. HARISH ADHITHYA M",
+      "emoji": "🎶",
+      "tag": "cultural",
       "coordinator": [
-         {
+        {
           "name": "Kancharla NVL Durga Mahitha"
         },
         {
@@ -133,12 +143,15 @@
         {
           "name": "Hendrik Marino A"
         }
-      ],"logo":"/images/musicclub.jpg"
+      ],
+      "logo": "/images/musicclub.jpg"
     },
     {
       "name": "Media Club",
       "motto": "Media & Social Media Posts",
       "facultyIncharge": "Dr. J. Kokila",
+      "emoji": "📺",
+      "tag": "cultural",
       "coordinator": [
         {
           "name": "Srinidhi Kavuluru"
@@ -162,7 +175,7 @@
           "name": "Tenali Likhitha  "
         }
       ],
-      "logo":"/images/mediaclub.jpg"
+      "logo": "/images/mediaclub.jpg"
     }
   ]
 }

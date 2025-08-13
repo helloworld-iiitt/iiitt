@@ -39,3 +39,17 @@
     gap: 1rem;
   }
 }
+
+.sectionHeading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 3px solid #00b266;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}

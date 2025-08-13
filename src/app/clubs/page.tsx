@@ -1,5 +1,5 @@
 /**
- * Club Committe Page
+ * Club Committee Page
  *
  * fetches data from /json/general/clubs
  * Utilizes ClubCard Component
@@ -42,20 +42,55 @@ const Clubs: React.FC = () => {
       });
   }, []);
 
+  // Function to categorize clubs by tag
+  const categorizeClubs = (clubs: Club[]) => {
+    const categories = {
+      tech: clubs.filter(club => club.tag === "tech"),
+      cultural: clubs.filter(club => club.tag === "cultural"),
+      sport: clubs.filter(club => club.tag === "sport")
+    };
+    return categories;
+  };
+
+  // Function to render a section with heading and clubs
+  const renderClubSection = (title: string, clubList: Club[], emoji: string) => {
+    if (clubList.length === 0) return null;
+
+    return (
+      <div className={styles.sectionContainer}>
+        <h2 className={styles.sectionHeading}>
+          <span className={styles.sectionEmoji}>{emoji}</span>
+          {title}
+        </h2>
+        <div className={styles.cardContainer}>
+          {clubList.map((club, index) => (
+            <ClubCard key={`${title}-${index}`} club={club} />
+          ))}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className={styles.facultyContainer}>
       {loading ? (
-        <CircularProgress/>
+        <CircularProgress />
       ) : (
-        <div className={styles.cardContainer}>
-          {clubs?.map((club, index) => (
-            <ClubCard key={index} club={club} />
-          ))}
+        <div className={styles.clubsContent}>
+          {clubs && (() => {
+            const categorizedClubs = categorizeClubs(clubs);
+            return (
+              <>
+                {renderClubSection("TECHNICAL CLUBS", categorizedClubs.tech, "💻")}
+                {renderClubSection("CULTURAL CLUBS", categorizedClubs.cultural, "🎭")}
+                {renderClubSection("SPORTS CLUBS", categorizedClubs.sport, "⚽")}
+              </>
+            );
+          })()}
         </div>
       )}
     </div>
   );
-
 };
 
 export default Clubs;
