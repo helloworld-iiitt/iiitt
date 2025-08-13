@@ -43,21 +43,7 @@
       "Institute": " Ph.D. CSE (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194473"
     },
-    {
-      "id": {
-        "dept": "CSE",
-        "deptID": "2"
-      },
-      "name": "Dr. Anoop Jacob Thomas",
-      "designation": "Assistant Professor",
-      "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
-      "emailID": "anoopjt@iiitt.ac.in",
-      "src": "/faculty/AnoopJacobThomas.jpg",
-      "Incharge": "Campus Networking,Training and Placement, Exam Cell Member, Student Discipline, Hall Booking ",
-      "Institute": "Ph.D. CSE (IIT Ropar)",
-      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
-      "PersonalPage": "https://www.linkedin.com/in/anoopjt/"
-    },
+
     {
       "id": {
         "dept": "CSE",
@@ -72,6 +58,21 @@
       "emailID": "devasenag@iiitt.ac.in",
       "src": "/faculty/Devasena.jpg",
       "PersonalPage": "https://sites.google.com/view/devasenagiiitt/home"
+    },
+    {
+      "id": {
+        "dept": "CSE",
+        "deptID": "2"
+      },
+      "name": "Dr. Anoop Jacob Thomas",
+      "designation": "Assistant Professor",
+      "researchArea": "Medical Image Processing, Neuroimage Processing, Image Processing, Algorithms",
+      "emailID": "anoopjt@iiitt.ac.in",
+      "src": "/faculty/AnoopJacobThomas.jpg",
+      "Incharge": "Campus Networking,Training and Placement, Exam Cell Member, Student Discipline, Hall Booking ",
+      "Institute": "Ph.D. CSE (IIT Ropar)",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194478",
+      "PersonalPage": "https://www.linkedin.com/in/anoopjt/"
     },
     {
       "id": {
