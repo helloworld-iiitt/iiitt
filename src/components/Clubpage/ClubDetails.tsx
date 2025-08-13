@@ -1,34 +1,8 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import styles from './ClubDetails.module.css';
-
+import { ClubDetailsProps } from '@/types/common.types';
 // Type definitions
-interface Coordinator {
-  name: string;
-}
-
-interface Club {
-  name: string;
-  motto: string;
-  facultyIncharge: string;
-  emoji: string;
-  tag: string;
-  coordinator: Coordinator[];
-  logo: string;
-}
-
-interface Event {
-  title: string;
-  date: string;
-  description: string;
-  time?: string;
-  venue?: string;
-}
-
-interface ClubDetailsProps {
-  club: Club;
-  upcomingEvents?: Event[]; // Optional events prop
-}
 
 const ClubDetails: React.FC<ClubDetailsProps> = ({ club, upcomingEvents = [] }) => {
   const [activeTab, setActiveTab] = useState<'members' | 'events'>('members');

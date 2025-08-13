@@ -12,10 +12,31 @@ export interface Club {
   name: string;
   motto: string;
   emoji: string;
+  logo?: string;
   tag: string
   facultyIncharge: string;
   coordinator: { name: string }[];
 }
+
+
+interface Event {
+  title: string;
+  date: string;
+  description: string;
+  time?: string;
+  venue?: string;
+}
+
+export interface ClubDetailsProps {
+  club: Club;
+  upcomingEvents?: Event[]; // Optional events prop
+}
+
+
+
+
+
+
 
 
 export interface CurriculumData {
