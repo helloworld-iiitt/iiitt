@@ -1,176 +1,285 @@
-
-
+/* Modern College Club Card - Professional Light Theme */
 .parent {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 3rem;
-  padding-bottom : 1rem;
-  width: 30rem;
-  background-color: #fff;
-
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  outline: solid 2px #a1d99b;
+  padding: 2.5rem 2rem;
+  width: 32rem;
+  max-width: 100%;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 20px;
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.08),
+    0 4px 15px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(59, 130, 246, 0.1);
+  border: 2px solid transparent;
+  background-clip: padding-box;
   text-align: center;
-  margin-bottom: 4rem;
-  transition : 0.3s;
+  margin-bottom: 2rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  overflow: hidden;
 }
 
-
-
-.imageWrapper {
+/* Subtle academic background pattern */
+.parent::before {
+  content: '';
   position: absolute;
-  top: -40px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
 }
 
-.imagecontainer {
+.parent > * {
+  position: relative;
+  z-index: 1;
+}
+
+.parent:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.12),
+    0 10px 30px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(59, 130, 246, 0.2);
+  border-color: rgba(100, 255, 152, 0.4);
+}
+
+/* Enhanced focus state for accessibility */
+.parent:focus {
+  outline: 3px solid rgba(59, 130, 246, 0.3);
+  outline-offset: 4px;
+}
+
+/* Header containing emoji + name */
+.header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: white;
-  color: #a1d99b;
-  outline: solid 2px #a1d99b;
-  font-weight: bold;
-  height: 120px;
-  width: 120px;
-  border-radius: 5%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
+/* Enhanced emoji with subtle animation */
+.clubEmoji {
+  font-size: 5rem;
+  line-height: 1;
+  transition: transform 0.3s ease;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parent:hover .clubEmoji {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Professional club name styling */
 .clubName {
-  color: #333333;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 50px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  letter-spacing: -0.02em;
+  margin: 0;
 }
 
+/* Professional text styling */
 .clubMotto,
 .clubIncharge {
-  margin-top: 10px;
-  color: #444444;
-  font-size: 1rem;
+  margin-top: 0.75rem;
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
+.clubMotto {
+  font-style: italic;
+  opacity: 0.9;
+  color: #64748b;
+}
+
+.clubIncharge {
+  font-weight: 600;
+  color: #334155;
+}
+
+/* Modern button container */
 .btn {
   display: flex;
-  gap: 18px;
-  margin: 2rem;
-  transition : 0.3s;
-
-  /* padding : 1rem 2rem; */
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+/* Professional college button styling */
 .btn button {
-  background-color: #2b9348;
+  position: relative;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   color: white;
-  padding: 0.75rem 1.2rem;
-  border-radius: 6px;
+  padding: 0.875rem 1.5rem;
+  border-radius: 12px;
   border: none;
-  font-weight: bold;
-  font-size : 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
   cursor: pointer;
-  transition : 0.3s;
-  font-family : arial;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 
+    0 4px 15px rgba(59, 130, 246, 0.2),
+    0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+/* Button shine effect */
+.btn button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn button:hover::before {
+  left: 100%;
 }
 
 .btn button:hover {
-  background-color: #007f5f;
-  box-shadow: 0 0 10px #88d4ab,
-              0 0 10px #88d4ab,
-              0 0 10px #88d4ab;
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  box-shadow: 
+    0 8px 25px rgba(59, 130, 246, 0.3),
+    0 4px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
 }
 
-@media (max-width: 900px) {
-  .cardContainer {
-    flex-direction: column;
-    align-items: center;
-  }
+.btn button:active {
+  transform: translateY(0);
+  box-shadow: 
+    0 4px 15px rgba(59, 130, 246, 0.2),
+    0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.active{
-  padding : 1 rem;
+/* Secondary button variant (if needed) */
+.btn button.secondary {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  box-shadow: 
+    0 4px 15px rgba(16, 185, 129, 0.2),
+    0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.clubHead{
-  padding : 0.5rem 1rem;
-  font-family : arial;
-  font-weight : bold;
-  border-radius : 4px;
-  background-color : #2b9348;
-  margin : 0.5rem;
-  color : #fff;
+.btn button.secondary:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  box-shadow: 
+    0 8px 25px rgba(16, 185, 129, 0.3),
+    0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-
+/* Enhanced responsive design */
 @media (max-width: 768px) {
   .parent {
-    width: 90%;
-    padding: 1.5rem 1rem;
+    width: 95%;
+    padding: 2rem 1.5rem;
+    margin-bottom: 1.5rem;
   }
-
-  .imagecontainer {
-    width: 70px;
-    height: 70px;
+  
+  .clubEmoji {
+    font-size: 4rem;
   }
-  .logo{
-    height: 70px;
-    width: 70px;
-  }
-
+  
   .clubName {
-    font-size: 1.3rem;
-    margin-top: 45px;
+    font-size: 1.5rem;
   }
-
+  
   .clubMotto,
   .clubIncharge {
-    font-size: 0.95rem;
-  }
-
-  .btn {
-    flex-direction: column;
-    gap: 0.5rem;
-    margin: 1.5rem 0;
-  }
-
-  .btn button {
     font-size: 1rem;
-    padding: 0.6rem 1rem;
   }
-
-  .clubHead {
+  
+  .btn {
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  
+  .btn button {
+    padding: 0.75rem 1.25rem;
     font-size: 0.95rem;
-    padding: 0.4rem 0.8rem;
   }
 }
 
 @media (max-width: 480px) {
-  .imagecontainer {
-    width: 60px;
-    height: 60px;
+  .parent {
+    padding: 1.5rem 1rem;
   }
-
+  
+  .clubEmoji {
+    font-size: 3.5rem;
+  }
+  
   .clubName {
-    font-size: 1.1rem;
-    margin-top: 40px;
+    font-size: 1.3rem;
   }
-
-  .btn button {
+  
+  .clubMotto,
+  .clubIncharge {
     font-size: 0.95rem;
-    padding: 0.5rem 0.9rem;
+    margin-top: 0.5rem;
   }
-
-  .clubHead {
-    font-size: 0.85rem;
+  
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
   }
+  
+  .btn button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
 
-  .logo{
-    height: 70px;
-    width: 70px;
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .parent,
+  .clubEmoji,
+  .btn button {
+    transition: none;
+  }
+  
+  .parent:hover {
+    transform: none;
+  }
+  
+  .parent:hover .clubEmoji {
+    transform: none;
+  }
+}
+
+/* Print styles for college brochures */
+@media print {
+  .parent {
+    box-shadow: none;
+    border: 2px solid #e2e8f0;
+    background: white;
+    break-inside: avoid;
+  }
+  
+  .btn button {
+    background: #374151;
+    color: white;
   }
 }

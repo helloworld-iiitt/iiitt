@@ -1,67 +1,41 @@
 import React, { useState } from "react";
 import styles from "./ClubCard.module.css";
 import Image from "next/image";
+import Link from "next/link";
 interface ClubCardProps {
   club: {
     name: string;
     motto: string;
+    emoji: string;
     facultyIncharge: string;
     coordinator: { name: string }[];
-    logo?:string;
+    logo?: string;
   };
+}
+
+const generateSlug = (name: string): string => {
+  return name.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
 }
 
 const ClubCard: React.FC<ClubCardProps> = ({ club }) => {
   const [selectedTab, setSelectedTab] = useState<"about us" | "coordinator">(
     "about us"
   );
-
-  const toggleTab = () => {
-    setSelectedTab((prev) => (prev === "about us" ? "coordinator" : "about us"));
-  };
+  const slug = generateSlug(club.name);
 
   return (
+    // <Link href={`/clubs/${slug}`}>
     <div className={styles.parent}>
-      <div className={styles.imageWrapper}>
-      <div className={styles.imagecontainer}>
-  {club.logo && (
-    <Image
-      src={club.logo}
-      alt={`${club.name} logo`}
-      width={120}
-      height={120}
-      className={styles.logo}
-    />
-  )}
-</div>
-      </div>
-      <div className={styles.clubName}>{club.name}</div>
-
-      <div className={styles.clubContent}>
-        {selectedTab === "about us" ? (
-          <>
-            <div className={styles.clubIncharge}>Incharge: {club.facultyIncharge}</div>
-            <div className={styles.clubMotto}>{club.motto}</div>
-          </>
-        ) : (
-          <ul className="clubCoordinator">
-            <div className={styles.clubHead}> CLUB CO-ORDINATORS : </div>
-            {club.coordinator.map((student, idx) => (
-              <li key={idx}>{student.name}</li>
-            ))}
-          </ul>
-        )}
-      </div>
-
-      <div className={styles.btn}>
-        <button
-          className={styles.active}
-          onClick={toggleTab}
-        >
-          {selectedTab === "about us" ? "Show More" : "Show Less"}
-        </button>
+      <div className={styles.header}>
+        <div className={styles.clubEmoji}>
+          {club.emoji}
+        </div>
+        <div className={styles.clubName}>{club.name}</div>
       </div>
     </div>
+    // /* </Link> */ 
+
+
   );
 };
 
