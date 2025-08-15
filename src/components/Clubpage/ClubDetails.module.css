@@ -1,0 +1,256 @@
+/* ClubDetails.module.css */
+
+.clubContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    sans-serif;
+}
+
+/* Club Header Styles */
+.clubHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, #22577a 0%, #80ed99 100%);
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logoSection {
+  flex-shrink: 0;
+}
+
+.logo {
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.clubInfo {
+  flex: 1;
+}
+
+.clubName {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.clubMotto {
+  font-size: 1.1rem;
+  margin: 0 0 15px 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.clubTag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Tab Navigation */
+.tabNavigation {
+  display: flex;
+  margin-bottom: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.tabButton {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  color: #666;
+}
+
+.tabButton:hover {
+  background: #e9ecef;
+  color: #333;
+}
+
+.activeTab {
+  background: #2e8b57 !important;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Tab Content */
+.tabContent {
+  min-height: 300px;
+}
+
+/* Members Tab Styles */
+.membersTab {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e9ecef;
+}
+
+.sectionTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+.facultyCard {
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #28a745;
+}
+
+.facultyName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.coordinatorsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.coordinatorCard {
+  background: #f8f9fa;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border-left: 4px solid #007bff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.coordinatorCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.coordinatorName {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Events Tab Styles */
+.eventsTab {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e9ecef;
+}
+
+.eventsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eventCard {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.eventCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.eventTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.eventDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.eventDate,
+.eventTime,
+.eventVenue {
+  font-size: 0.9rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.eventDescription {
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.noEvents {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.noEvents p {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .clubHeader {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .clubName {
+    font-size: 1.8rem;
+  }
+
+  .coordinatorsList {
+    grid-template-columns: 1fr;
+  }
+
+  .eventDetails {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .tabButton {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+}

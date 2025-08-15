@@ -1,6 +1,7 @@
 "use client";
 
 import MainCarousel from "@/components/Carousel/MainCarousel";
+import LiveStream from "@/components/LiveEvents/LiveStream";
 import Marquee from "@/components/marquee/marquee";
 import MissionVision from "@/components/mission_vision/missionVision";
 import { PaperCard } from "@/components/PaperCard/PaperCard";
@@ -172,7 +173,7 @@ const Home: React.FC = () => {
           <div className="mission">
             <MissionVision />
           </div>
-          <div className="carousel">
+                  <div className="carousel">
             <MainCarousel images={carouselData.data} />
           </div>
           <div className="marquee" id="announcements_marquee">
