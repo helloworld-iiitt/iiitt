@@ -1,6 +1,7 @@
 "use client";
 
 import MainCarousel from "@/components/Carousel/MainCarousel";
+import LiveStream from "@/components/LiveEvents/LiveStream";
 import Marquee from "@/components/marquee/marquee";
 import MissionVision from "@/components/mission_vision/missionVision";
 import { PaperCard } from "@/components/PaperCard/PaperCard";
@@ -173,8 +174,39 @@ const Home: React.FC = () => {
             <MissionVision />
           </div>
           <div className="carousel">
+          <LiveStream
+            youtubeUrl="https://www.youtube.com/embed/your-video-id"
+            eventDate={new Date("2025-08-15T08:30:00+05:30")}
+            durationMins={120}
+            fallback={
+              <div style={{ position: "relative" }}>
+                <MainCarousel images={carouselData.data} />
+                {/* Countdown Overlay */}
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                    background: "rgba(0, 0, 0, 0.6)",
+                    padding: "20px 30px",
+                    borderRadius: "12px",
+                    color: "#fff",
+                    fontSize: "1.5rem",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
+                  }}
+                >
+                  Live Event Starts Soon!
+                </div>
+              </div>
+            }
+          />
+        </div>
+   {/*       <div className="carousel">
             <MainCarousel images={carouselData.data} />
-          </div>
+          </div>*/}
           <div className="marquee" id="announcements_marquee">
             <Marquee />
           </div>
