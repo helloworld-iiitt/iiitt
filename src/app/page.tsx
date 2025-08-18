@@ -1,7 +1,7 @@
 "use client";
 
 import MainCarousel from "@/components/Carousel/MainCarousel";
-import LiveStream from "@/components/LiveEvents/LiveStream";
+import LiveStreamPopup from "@/components/LiveEvents/LiveStream";
 import Marquee from "@/components/marquee/marquee";
 import MissionVision from "@/components/mission_vision/missionVision";
 import { PaperCard } from "@/components/PaperCard/PaperCard";
@@ -180,6 +180,11 @@ const Home: React.FC = () => {
             <Marquee />
           </div>
         </div>
+              <LiveStreamPopup
+        youtubeUrl="https://www.youtube.com/embed/your-video-id"
+        eventDate={new Date("2025-08-15T08:30:00+05:30")}
+        durationMins={120}
+      />
 
         <div className="row">
           {/* Tabbed Section */}
