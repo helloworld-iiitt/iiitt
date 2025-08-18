@@ -1,7 +1,7 @@
 "use client";
 
 import MainCarousel from "@/components/Carousel/MainCarousel";
-import LiveStream from "@/components/LiveEvents/LiveStream";
+import LiveStreamPopup from "@/components/LiveEvents/LiveStream";
 import Marquee from "@/components/marquee/marquee";
 import MissionVision from "@/components/mission_vision/missionVision";
 import { PaperCard } from "@/components/PaperCard/PaperCard";
@@ -180,6 +180,7 @@ const Home: React.FC = () => {
             <Marquee />
           </div>
         </div>
+
 
         <div className="row">
           {/* Tabbed Section */}

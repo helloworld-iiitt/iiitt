@@ -8,10 +8,6 @@
         "id": "ccmt2025",
         "title": "CCMT 2025",
         "items": [
-           {
-            "label": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026",
-            "url": "admission/MTECH self support Brochure_ August 2025 - Final.pdf"
-          },
           {
             "label": "MTech_Online_Reporting_Details_2025",
             "url": "admission/MTech_Online_Reporting_Details_2025.pdf"
@@ -27,6 +23,16 @@
           {
             "label": "Fee Refund Structure 2025",
             "url": "admission/1. M.Tech Fee Refund Structure 2025-26.pdf"
+          }
+        ]
+      },
+        {
+        "id": "MTech Self Supporting Programmes 2025-2026",
+        "title": "MTech (Self Supporting) Programmes 2025-2026",
+        "items": [
+           {
+            "label": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026",
+            "url": "admission/MTECH self support Brochure_ August 2025 - Final.pdf"
           }
         ]
       }
