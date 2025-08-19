@@ -38,19 +38,28 @@ const Marquee = ({ src = "/general/announcements.json" }: { src?: string }) => {
           {announcements ? (
             <ul className="marquee-content">
               {announcements.map((item, idx) => (
-                <li key={idx} className="marquee-item">
+                <li
+                key={idx}
+                className="marquee-item"
+                style={{
+                  color: item.isNew ? "red" : "inherit",
+                  fontWeight: item.isNew ? "bold" : "normal",
+                }}
+              >
                   {item.link ? (
                     item.link.endsWith('.pdf') ? (
-                      <a href={`${nextConfig?.env?.DOCUMENT}${item.link}`} target="_blank" rel="noopener noreferrer">
+                      <a href={`${nextConfig?.env?.DOCUMENT}${item.link}`} target="_blank" rel="noopener noreferrer" style={{
+                        color: item.isNew ? "red" : "inherit",
+                        fontWeight: item.isNew ? "bold" : "normal",
+                      }}>
                         {item.text}
-                        {item.isNew && (<FiberNew style={{
-                        color: "red",
-                        fontSize: "1.5rem",
-                        marginLeft: "8px",
-                      }}/>)}
+
                       </a>
                     ) : (
-                      <Link href={item.link}>
+                      <Link href={item.link} style={{
+                        color: item.isNew ? "red" : "inherit",
+                        fontWeight: item.isNew ? "bold" : "normal",
+                      }}>
                         {item.text}
                       </Link>
                     )
