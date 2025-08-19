@@ -2,7 +2,7 @@
   "data": [
     {
       "text": "Information for Physical Reporting Process of B.Tech. I Semester (2025-26)",
-       "bold": true,
+      "style": "font-weight: bold; color: red;",
       "link": "/admission/First yr Reporting details 2025-26 - Final.pdf"
       "isNew": true
     }, 
