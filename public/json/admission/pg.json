@@ -4,7 +4,17 @@
     "M.Tech. VLSI Systems (2 Years, Master of Technology)"
   ],
   "programdetails": [
-      {
+     {
+        "id": "MTech Self Supporting Programmes 2025-2026",
+        "title": "MTech (Self Supporting) Programmes 2025-2026",
+        "items": [
+           {
+            "label": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026",
+            "url": "admission/MTECH self support Brochure_ August 2025 - Final.pdf"
+          }
+        ]
+      },
+      {   
         "id": "ccmt2025",
         "title": "CCMT 2025",
         "items": [
@@ -25,18 +35,8 @@
             "url": "admission/1. M.Tech Fee Refund Structure 2025-26.pdf"
           }
         ]
-      },
-        {
-        "id": "MTech Self Supporting Programmes 2025-2026",
-        "title": "MTech (Self Supporting) Programmes 2025-2026",
-        "items": [
-           {
-            "label": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026",
-            "url": "admission/MTECH self support Brochure_ August 2025 - Final.pdf"
-          }
-        ]
       }
-
+       
     ]
   }
   
