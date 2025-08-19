@@ -1,11 +1,13 @@
 {
   "data": [
     {
-      "text": "<b> Information for Physical Reporting Process of B.Tech. I Semester (2025-26)</b>",
+      "text": "Information for Physical Reporting Process of B.Tech. I Semester (2025-26)",
+       "bold": true,
       "link": "/admission/First yr Reporting details 2025-26 - Final.pdf"
     }, 
     {
-      "text": "<b> ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026 <b>",
+      "text": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026",
+      "bold": true,
       "link": "/admission/MTECH self support Brochure_ August 2025 - Final.pdf"
     },
       {
