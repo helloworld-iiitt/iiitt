@@ -4,10 +4,12 @@ import { useEffect, useState } from "react";
 import { Card, CardContent, CircularProgress, Divider, Link } from "@mui/material";
 import "./marquee.css";
 import nextConfig from "../../../next.config";
+import { FiberNew } from "@mui/icons-material";
 
 interface Announcement {
   text: string;
   link: string;
+  isNew?:boolean;
 }
 
 const Marquee = ({ src = "/general/announcements.json" }: { src?: string }) => {
@@ -41,6 +43,11 @@ const Marquee = ({ src = "/general/announcements.json" }: { src?: string }) => {
                     item.link.endsWith('.pdf') ? (
                       <a href={`${nextConfig?.env?.DOCUMENT}${item.link}`} target="_blank" rel="noopener noreferrer">
                         {item.text}
+                        {item.isNew && (<FiberNew style={{
+                        color: "red",
+                        fontSize: "1.5rem",
+                        marginLeft: "8px",
+                      }}/>)}
                       </a>
                     ) : (
                       <Link href={item.link}>
@@ -50,6 +57,7 @@ const Marquee = ({ src = "/general/announcements.json" }: { src?: string }) => {
                   ) : (
                     item.text
                   )}
+
 
                   {idx !== announcements.length - 1 && <Divider />}
                 </li>
