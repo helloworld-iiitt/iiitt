@@ -20,21 +20,11 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             set -e
-
-            APP_NAME=myapp
-            APP_DIR=~/myapp
-            IMAGE_NAME=${APP_NAME}
-            COMMIT_SHA=${GITHUB_SHA::7}
-
-            # Step 1: Clone or update repo
-            if [ ! -d "$APP_DIR" ]; then
-              git clone https://github.com/${{ github.repository }} $APP_DIR
-            fi
-            cd $APP_DIR
+            APP_NAME=iiitt-new-dev
+            echo "Updating repository..."
             git fetch origin main
-            git reset --hard origin/main
+            git pull origin main
 
-            # Step 2: Backup running container
             if [ "$(docker ps -q -f name=$APP_NAME)" ]; then
               echo "Backing up current container..."
               docker commit $APP_NAME ${IMAGE_NAME}:backup
@@ -42,28 +32,17 @@ jobs:
               docker rm $APP_NAME || true
             fi
 
-            # Step 3: Build new image (latest + commit SHA)
             echo "Building new image..."
             docker build -t ${IMAGE_NAME}:latest -t ${IMAGE_NAME}:${COMMIT_SHA} .
 
-            # Step 4: Run new container
             echo "Running new container..."
-            docker run -d --name $APP_NAME -p 80:80 ${IMAGE_NAME}:latest
+            docker run -d --name $APP_NAME -p ${SERVER_PORT}:${DOCKER_PORT} ${IMAGE_NAME}:latest
 
-            # Step 5: Health check
-            echo "Running health check..."
-            sleep 10
-            if ! curl -fs http://localhost:80/health; then
-              echo "Health check failed. Rolling back..."
-              docker stop $APP_NAME || true
-              docker rm $APP_NAME || true
-              docker run -d --name $APP_NAME -p 80:80 ${IMAGE_NAME}:backup
-              exit 1
-            fi
-
-            # Step 6: Cleanup old images after 2 days
             echo "Cleaning up old images..."
-            docker image prune -a --filter "until=48h" -f
-
-            # Step 7: Log success
-            echo "$(date) - Deployment successful (commit ${COMMIT_SHA})" >> $APP_DIR/deploy.log
+            docker image prune -a --filter "until=48h" --filter "dangling=true" -f
+            for img in $(docker images -q); do
+              if ! docker ps -a --format '{{.Image}}' | grep -q $img; then
+                echo "Removing unused image $img"
+                docker rmi -f $img || true
+              fi
+            done
