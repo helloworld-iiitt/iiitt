@@ -1,48 +1,17 @@
-name: CI/CD Direct Deploy to Server
+name: Auto Deploy
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy to server via SSH
-        uses: appleboy/ssh-action@v1.1.0
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
-          script: |
-            set -e
-            APP_NAME=iiitt-new-dev
-            echo "Updating repository..."
-            git fetch origin main
-            git pull origin main
-
-            if [ "$(docker ps -q -f name=$APP_NAME)" ]; then
-              echo "Backing up current container..."
-              docker commit $APP_NAME ${IMAGE_NAME}:backup
-              docker stop $APP_NAME || true
-              docker rm $APP_NAME || true
-            fi
-
-            echo "Building new image..."
-            docker build -t ${IMAGE_NAME}:latest -t ${IMAGE_NAME}:${COMMIT_SHA} .
-
-            echo "Running new container..."
-            docker run -d --name $APP_NAME -p ${SERVER_PORT}:${DOCKER_PORT} ${IMAGE_NAME}:latest
-
-            echo "Cleaning up old images..."
-            docker image prune -a --filter "until=48h" --filter "dangling=true" -f
-            for img in $(docker images -q); do
-              if ! docker ps -a --format '{{.Image}}' | grep -q $img; then
-                echo "Removing unused image $img"
-                docker rmi -f $img || true
-              fi
-            done
+      - name: Run deployment script
+        run: ./deploy.sh

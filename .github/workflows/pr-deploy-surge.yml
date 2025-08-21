@@ -3,7 +3,7 @@ name: pr-deploy-surge
 on:
   pull_request:
     branches:
-         - master
+         - main
 jobs:
   console-for-all:
     runs-on: ubuntu-latest
