@@ -2,7 +2,7 @@ name: deploy-surge
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
