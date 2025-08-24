@@ -34,9 +34,9 @@ const NoticeSection = ({
   </Typography>
 
   <ul className="doclist">
-    {notices.map((item) => (
+    {notices.map((item,i) => (
 
-      <li key={item.title} style={{ marginBottom: "1.2rem" }}>
+      <li key={i} style={{ marginBottom: "1.2rem" }}>
         <a
           href={
             validURL(item.link!)
