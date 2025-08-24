@@ -4,32 +4,78 @@
             "title": "Ph.D. Viva-Voce Notification - Mr. I. Akilan (Dept. ME)",
             "description": "Ph.D. Viva-Voce Notification - Mr. I. Akilan (Dept. ME)",
             "link": "notices/PhD Viva Notification_ Mr. I. Akilan_ Dept of ME_August2025.pdf",
-             "isNew": true,
+            "isNew": true,
             "date": "22/08/2025"
         },
-
         {
             "title": "Orientation Programme 2025 on 25-08-2025 in Smt. Sudha Murty Conference Hall at IIITT",
             "description": "Orientation Programme 2025",
             "link": "admission/2025-26 Orientation.pdf",
-             "isNew": true,
+            "isNew": true,
             "date": "23/08/2025"
         },
-        
-          {
+        {
+            "text": "WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (Mathematics in the Department of S&H) On 18 August 2025",
+            "description": "WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (Mathematics in the Department of S&H) On 18 August 2025",
+            "link": "/news/2025-26_Odd Sem_DSH_walkin _Modified.pdf",
+            "isNew": false
+        },
+        {
+            "text": "(New) WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (CSE) On 13 August 2025",
+            "description": "(New) WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (CSE) On 13 August 2025",
+            "link": "/news/Dept_CSE_walkin_final_II_2025.pdf",
+            "isNew": false
+        },
+        {
+            "text": "Information for Physical Reporting Process of B.Tech. I Semester (2025-26)",
+            "description": "Information for Physical Reporting Process of B.Tech. I Semester (2025-26)",
+            "isNew": false,
+            "link": "/admission/First yr Reporting details 2025-26 - Final.pdf"
+        },
+        {
+            "text": "WALK-IN-INTERVIEW FOR TEMPORARY FACULTY",
+            "description": "WALK-IN-INTERVIEW FOR TEMPORARY FACULTY",
+            "link": "/news/Dept_CSE_walkin_final.pdf",
+            "isNew": false
+        },
+        {
+            "text": "(Extended) Advertisement for JRF position under ANRF - PMECRG Sponsored Project_2025",
+            "description": "(Extended) Advertisement for JRF position under ANRF - PMECRG Sponsored Project_2025",
+            "link": "/news/JRF_Advertisement_2025.pdf",
+            "isNew":false
+          },
+           {
+            "text": "Information for Online PI Reporting to M.Tech. Programmes ",
+            "description": "Information for Online PI Reporting to M.Tech. Programmes ",
+            "link": "/admission/MTech_Online_Reporting_Details_2025.pdf",
+            "isNew":false
+          },
+        {
+            "text": "List of Shortlisted Candidates (Ph.D Admission 2025-26 July Session) ",
+            "description": "List of Shortlisted Candidates (Ph.D Admission 2025-26 July Session) ",
+            "link": "/admission/Ph.D admission - Final Selection list_July_2025.pdf",
+            "isNew": false
+        },
+        {
             "title": "Special Supplementary Examination Schedule July 2025",
             "description": "Special Supplementary Examination Schedule July 2025",
             "link": "notices/Exam_schedule_2025/Special  supplementary examination schedule Jul 2025.pdf",
             "isNew": false,
             "date": "11/07/2025"
         },
-         {
+        {
             "title": "Fee Structure AY 2025-26_ODD SEM",
             "description": "Fee Structure AY 2025-26_ODD SEM",
             "link": "admission/Fee Structure  AY 2025-26_ODD SEM_Final.pdf",
             "isNew": false,
             "date": "27/06/2025"
         },
+        {
+            "text": "WALK-IN- INTERVIEW FOR BOAT APPRENTICESHIP TRAINEES",
+            "description": "WALK-IN- INTERVIEW FOR BOAT APPRENTICESHIP TRAINEES",
+            "link": "/news/IIITT - Apprenticeship - Advertisement-2.pdf",
+            "isNew":false
+          },
         {
             "title": "B.TECH ACADEMIC CALENDAR - ODD SEMESTER 2025",
             "description": "B.TECH ACADEMIC CALENDAR - ODD SEMESTER 2025",
@@ -720,7 +766,6 @@
             "link": "notices/Revised_UG_Fee_Structure_AY_2021_22_EVEN_SEM.pdf",
             "isNew": false
         },
-        
         {
             "title": "List of selected candidates for Ph.D June/July 2021",
             "description": "List of selected candidates for Ph.D June/July 2021",

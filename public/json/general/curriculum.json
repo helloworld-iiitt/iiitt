@@ -5,7 +5,9 @@
           "2015": "curriculum/Curriculum_IIITTUGCSE15.pdf",
           "2016": "curriculum/CSE_Syllabus_16.pdf",
           "2020": "curriculum/UG_CSE_2020-Revised241121.pdf",
-          "2024": "curriculum/CSE_Curriculum_2024.pdf"
+          "2024": "curriculum/CSE_Curriculum_2024.pdf",
+          "Amendments to B.Tech. (CSE and ECE) 2024 Curriculum": "curriculum/Amendments to B.Tech_Curriculum_25.pdf"
+
         },
         "CSE (Artifical Intelligence and Data Science) ":{
           "2025": "curriculum/CSE_AIDS-Curriculum_2025-subjects-syllabus.pdf"
@@ -23,7 +25,8 @@
           "2015": "curriculum/Curriculum_IIITTUGECE15.pdf",
           "2016": "curriculum/Syllabus_ECE_16.pdf",
           "2020": "curriculum/UG_ECE_2020.pdf",
-          "2024": "curriculum/ECE_Curriculum_2024.pdf"
+          "2024": "curriculum/ECE_Curriculum_2024.pdf",
+          "Amendments to B.Tech. (CSE and ECE) 2024 Curriculum": "curriculum/Amendments to B.Tech_Curriculum_25.pdf"
         },
         "M.Tech. VLSI Systems": {
           "2021": "curriculum/ECE_M.Tech_Syllabus_2021-Revised.pdf"
