@@ -42,14 +42,14 @@ const Marquee = ({ src = "/general/announcements.json" }: { src?: string }) => {
                 key={idx}
                 className="marquee-item"
                 style={{
-                  color: item.isNew ? "red" : "inherit",
+                  color: item.isNew ? "green" : "inherit",
                   fontWeight: item.isNew ? "bold" : "normal",
                 }}
               >
                   {item.link ? (
                     item.link.endsWith('.pdf') ? (
                       <a href={`${nextConfig?.env?.DOCUMENT}${item.link}`} target="_blank" rel="noopener noreferrer" style={{
-                        color: item.isNew ? "red" : "inherit",
+                        color: item.isNew ? "green" : "inherit",
                         fontWeight: item.isNew ? "bold" : "normal",
                       }}>
                         {item.text}
