@@ -1,17 +1,25 @@
 {
     "data": [
-    {
+    
+        {
+            "title": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Ongoing)",
+            "description": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Ongoing)",
+            "link": "events/2. AICTE_PG_CSE_ML and CPS final flyer_2025 .pdf",
+            "isNew":true
+
+        },
+        {
+            "title": "AICTE QIP sponsored PG certificate course on “3D Printing and Additive Manufacturing” (Ongoing) ",
+            "description": "AICTE QIP sponsored PG certificate course on “3D Printing and Additive Manufacturing” (Ongoing) ",
+            "link": "events/AICTE_QIP_PhaseII_brochure.pdf",
+            "isNew": true
+        },
+
+        {
       "text": "Live Stream of Orientation Programme 2025",
       "link": "https://youtube.com/live/VrQP3ys8FE0?feature=share",
       "isNew":false
-    },
-        {
-            "title": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Offline 16-27th June 2025)",
-            "description": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Offline 16-27th June 2025)",
-            "link": "events/2. AICTE_PG_CSE_ML and CPS final flyer_2025 .pdf",
-            "isNew": false
-
-        },
+       },
         {
             "title": "Invitation of Institute Day Celebration 2025",
             "description": "Invitation of Institute Day Celebration 2025",
