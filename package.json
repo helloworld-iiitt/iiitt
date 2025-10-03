@@ -48,5 +48,18 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
-  "export": "npm run build && next export"
+  "export": "npm run build && next export",
+  "description": "This project was bootstrapped with [npx create-next-app my-app](https://github.com/facebook/create-react-app).\r The project is targeted to revamp the old Official website of IIIT Trichy. The new website will have\r advanced styling and interactive interface.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amogh-GC/iiitt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amogh-GC/iiitt/issues"
+  },
+  "homepage": "https://github.com/Amogh-GC/iiitt#readme"
 }

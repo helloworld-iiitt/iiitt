@@ -1,0 +1,60 @@
+.container {
+  padding: 2rem 1rem;
+}
+
+.themeText {
+  color: #2e8b57;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  width: auto;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #1976d2;
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+.image {
+  width: 100%;
+}
+
+.doclist {
+  list-style-position: inside;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.doclist li {
+  margin-bottom: 0.5rem;
+}
+
+.seekhelp a {
+  font-size: 18px;
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+.seekhelp a:hover {
+  text-decoration: underline;
+}
+
+/* Card hover effects */
+.cardHover {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.cardHover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+    
