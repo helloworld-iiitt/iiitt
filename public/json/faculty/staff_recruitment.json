@@ -1,0 +1,142 @@
+{
+  "title": "Faculty and Staff Recruitment",
+  "description": "IIIT Tiruchirappalli is committed to excellence in education, research, and innovation. We invite applications from highly qualified and motivated individuals to join our growing community of faculty and staff members.",
+  "lastUpdated": "2025-10-03",
+  "currentOpenings": {
+    "faculty": {
+      "title": "Faculty Positions",
+      "description": "We are seeking exceptional faculty members across various departments including:",
+      "departments": [
+        {
+          "name": "Computer Science and Engineering",
+          "positions": [
+
+          ]
+        },
+        {
+          "name": "Electronics and Communication Engineering",
+          "positions": [
+
+          ]
+        },
+        {
+          "name": "Mechanical Engineering",
+          "positions": [
+
+          ]
+        },
+        {
+          "name": "Science and Humanities",
+          "positions": [
+
+          ]
+        }
+      ]
+    },
+    "staff": {
+      "title": "Staff Positions",
+      "description": "We regularly recruit staff for various administrative and technical positions:",
+      "categories": [
+        {
+          "name": "Administrative Staff",
+          "positions": [
+
+          ]
+        },
+        {
+          "name": "Technical Staff",
+          "positions": [
+
+          ]
+        },
+        {
+          "name": "Library Staff",
+          "positions": [
+
+          ]
+        },
+        {
+          "name": "Support Staff",
+          "positions": [
+
+          ]
+        }
+      ]
+    }
+  },
+  "applicationProcess": {
+    "title": "How to Apply",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check Notifications",
+        "description": "Check the latest recruitment notifications in our Notices section",
+        "link": "/notices"
+      },
+      {
+        "step": 2,
+        "title": "Review Requirements",
+        "description": "Review the eligibility criteria and job requirements carefully"
+      },
+      {
+        "step": 3,
+        "title": "Prepare Documents",
+        "description": "Prepare all required documents as mentioned in the notification"
+      },
+      {
+        "step": 4,
+        "title": "Submit Application",
+        "description": "Submit your application through the specified mode (online/offline)"
+      },
+      {
+        "step": 5,
+        "title": "Follow Selection Process",
+        "description": "Follow up on the selection process as outlined in the notification"
+      }
+    ],
+    "requiredDocuments": [
+      "Updated CV/Resume",
+      "Educational certificates and mark sheets",
+      "Experience certificates",
+      "Research publications (for faculty positions)",
+      "No Objection Certificate (if employed)",
+      "Passport size photographs",
+      "Identity proof (Aadhar/PAN/Passport)",
+      "Caste certificate (if applicable)",
+      "Medical fitness certificate"
+    ]
+  },
+  "contact": {
+    "title": "Contact Information",
+    "recruitment": {
+      "title": "For Recruitment Queries",
+      "office": "Registrar Office",
+      "address": {
+        "line1": "Indian Institute of Information Technology Tiruchirappalli",
+        "line2": "National Institute of Technology Campus",
+        "line3": "Tiruchirappalli - 620015",
+        "line4": "Tamil Nadu, India"
+      },
+      "email": "registrar@iiitt.ac.in",
+      "phone": "+91-431-2503116",
+      "website": "https://www.iiitt.ac.in"
+    },
+    "hr": {
+      "title": "HR Department",
+      "email": "hr@iiitt.ac.in",
+      "phone": "+91-431-2503117"
+    }
+  },
+  "importantLinks": [
+    {
+      "title": "Official Notifications",
+      "link": "/notices",
+      "description": "Latest recruitment notifications and updates"
+    },
+    {
+      "title": "Contact Us",
+      "link": "/contactus",
+      "description": "Complete contact information"
+    }
+  ]
+}

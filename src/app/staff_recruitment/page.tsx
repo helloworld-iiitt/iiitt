@@ -105,7 +105,10 @@ const StaffRecruitment = () => {
     // Fetch recruitment data
     const fetchData = async () => {
       try {
-        const response = await fetch('/json/general/staff_recruitment.json');
+        const response = await fetch('/json/faculty/staff_recruitment.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data = await response.json();
         setRecruitmentData(data);
       } catch (error) {
@@ -140,9 +143,12 @@ const StaffRecruitment = () => {
     return (
       <div className="page-container">
         <Grid container>
-          <Grid size={12}>
-            <Typography variant="h4" align="center" sx={{ marginTop: 4 }}>
-              Error loading recruitment data
+          <Grid size={12} sx={{ textAlign: 'center', color: 'text.secondary', my: 8 }}>
+            <Typography variant="h4" component="h2" sx={{ mb: 2 }}>
+              No Current Openings
+            </Typography>
+            <Typography variant="body1">
+              Please check back later for future opportunities.
             </Typography>
           </Grid>
         </Grid>
@@ -185,45 +191,54 @@ const StaffRecruitment = () => {
             </Typography>
             <Divider sx={{ marginBottom: 3 }} />
 
-            <Typography variant="body1" paragraph>
-              {recruitmentData.currentOpenings.faculty.description}
-            </Typography>
-
-            {recruitmentData.currentOpenings.faculty.departments.map((dept, index) => (
-              <Accordion key={index} sx={{ marginBottom: 2 }}>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <Box display="flex" alignItems="center">
-                    <SchoolIcon sx={{ marginRight: 1 }} />
-                    <Typography variant="h6">{dept.name}</Typography>
-                  </Box>
-                </AccordionSummary>
-                <AccordionDetails>
-                  {dept.positions.map((position, posIndex) => (
-                    <Card key={posIndex} sx={{ marginBottom: 2 }}>
-                      <CardContent>
-                        <Typography variant="h6" gutterBottom color="primary">
-                          {position.title}
-                        </Typography>
-                        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-                          <strong>Qualification:</strong> {position.qualification}
-                        </Typography>
-                        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-                          <strong>Experience:</strong> {position.experience}
-                        </Typography>
-                        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-                          <strong>Specializations:</strong>
-                        </Typography>
-                        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                          {position.specializations.map((spec, specIndex) => (
-                            <Chip key={specIndex} label={spec} size="small" variant="outlined" />
-                          ))}
-                        </Box>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </AccordionDetails>
-              </Accordion>
-            ))}
+            {recruitmentData.currentOpenings.faculty.departments.some(
+              (dept) => dept.positions.length > 0
+            ) ? (
+              <>
+                <Typography variant="body1" paragraph>
+                  {recruitmentData.currentOpenings.faculty.description}
+                </Typography>
+                {recruitmentData.currentOpenings.faculty.departments.map((dept, index) => (
+                <Accordion key={index} sx={{ marginBottom: 2 }}>
+                  <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                    <Box display="flex" alignItems="center">
+                      <SchoolIcon sx={{ marginRight: 1 }} />
+                      <Typography variant="h6">{dept.name}</Typography>
+                    </Box>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    {dept.positions.map((position, posIndex) => (
+                      <Card key={posIndex} sx={{ marginBottom: 2 }}>
+                        <CardContent>
+                          <Typography variant="h6" gutterBottom color="primary">
+                            {position.title}
+                          </Typography>
+                          <Typography variant="body2" sx={{ marginBottom: 1 }}>
+                            <strong>Qualification:</strong> {position.qualification}
+                          </Typography>
+                          <Typography variant="body2" sx={{ marginBottom: 1 }}>
+                            <strong>Experience:</strong> {position.experience}
+                          </Typography>
+                          <Typography variant="body2" sx={{ marginBottom: 1 }}>
+                            <strong>Specializations:</strong>
+                          </Typography>
+                          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+                            {position.specializations.map((spec, specIndex) => (
+                              <Chip key={specIndex} label={spec} size="small" variant="outlined" />
+                            ))}
+                          </Box>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </AccordionDetails>
+                </Accordion>
+              ))}
+              </>
+            ) : (
+              <Typography variant="body1" sx={{ fontStyle: 'italic', marginTop: 2 }}>
+                No faculty positions are available at the moment. Please check back later.
+              </Typography>
+            )}
           </Grid>
 
           {/* Staff Positions */}
@@ -233,50 +248,59 @@ const StaffRecruitment = () => {
             </Typography>
             <Divider sx={{ marginBottom: 3 }} />
 
-            <Typography variant="body1" paragraph>
-              {recruitmentData.currentOpenings.staff.description}
-            </Typography>
-
-            {recruitmentData.currentOpenings.staff.categories.map((category, index) => (
-              <Accordion key={index} sx={{ marginBottom: 2 }}>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <Box display="flex" alignItems="center">
-                    <WorkIcon sx={{ marginRight: 1 }} />
-                    <Typography variant="h6">{category.name}</Typography>
-                  </Box>
-                </AccordionSummary>
-                <AccordionDetails>
-                  {category.positions.map((position, posIndex) => (
-                    <Card key={posIndex} sx={{ marginBottom: 2 }}>
-                      <CardContent>
-                        <Typography variant="h6" gutterBottom color="primary">
-                          {position.title}
-                        </Typography>
-                        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-                          <strong>Qualification:</strong> {position.qualification}
-                        </Typography>
-                        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-                          <strong>Experience:</strong> {position.experience}
-                        </Typography>
-                        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-                          <strong>Key Responsibilities:</strong>
-                        </Typography>
-                        <List dense>
-                          {position.responsibilities.map((resp, respIndex) => (
-                            <ListItem key={respIndex}>
-                              <ListItemIcon>
-                                <CheckCircleIcon fontSize="small" />
-                              </ListItemIcon>
-                              <ListItemText primary={resp} />
-                            </ListItem>
-                          ))}
-                        </List>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </AccordionDetails>
-              </Accordion>
-            ))}
+            {recruitmentData.currentOpenings.staff.categories.some(
+              (category) => category.positions.length > 0
+            ) ? (
+              <>
+                <Typography variant="body1" paragraph>
+                  {recruitmentData.currentOpenings.staff.description}
+                </Typography>
+                {recruitmentData.currentOpenings.staff.categories.map((category, index) => (
+                  <Accordion key={index} sx={{ marginBottom: 2 }}>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                      <Box display="flex" alignItems="center">
+                        <WorkIcon sx={{ marginRight: 1 }} />
+                        <Typography variant="h6">{category.name}</Typography>
+                      </Box>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                      {category.positions.map((position, posIndex) => (
+                        <Card key={posIndex} sx={{ marginBottom: 2 }}>
+                          <CardContent>
+                            <Typography variant="h6" gutterBottom color="primary">
+                              {position.title}
+                            </Typography>
+                            <Typography variant="body2" sx={{ marginBottom: 1 }}>
+                              <strong>Qualification:</strong> {position.qualification}
+                            </Typography>
+                            <Typography variant="body2" sx={{ marginBottom: 1 }}>
+                              <strong>Experience:</strong> {position.experience}
+                            </Typography>
+                            <Typography variant="body2" sx={{ marginBottom: 1 }}>
+                              <strong>Key Responsibilities:</strong>
+                            </Typography>
+                            <List dense>
+                              {position.responsibilities.map((resp, respIndex) => (
+                                <ListItem key={respIndex}>
+                                  <ListItemIcon>
+                                    <CheckCircleIcon fontSize="small" />
+                                  </ListItemIcon>
+                                  <ListItemText primary={resp} />
+                                </ListItem>
+                              ))}
+                            </List>
+                          </CardContent>
+                        </Card>
+                      ))}
+                    </AccordionDetails>
+                  </Accordion>
+                ))}
+              </>
+            ) : (
+              <Typography variant="body1" sx={{ fontStyle: 'italic', marginTop: 2 }}>
+                No staff positions are available at the moment. Please check back later.
+              </Typography>
+            )}
           </Grid>
 
           {/* Application Process */}
