@@ -1,6 +1,6 @@
 {
     "data": [
-    
+        
         {
             "title": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Ongoing)",
             "description": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Ongoing)",
@@ -14,7 +14,13 @@
             "link": "events/AICTE_QIP_PhaseII_brochure.pdf",
             "isNew": true
         },
+       {
+            "title": "7th Convocation 2025 – Live Streaming",
+            "description": "7th Convocation 2025 – Live Streaming",
+            "link": "https://youtube.com/live/9gx9a7NE3S0?feature=share",
+            "isNew":true
 
+        },
         {
       "text": "Live Stream of Orientation Programme 2025",
       "link": "https://youtube.com/live/VrQP3ys8FE0?feature=share",
