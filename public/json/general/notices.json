@@ -1,6 +1,6 @@
 {
     "data": [
-          {
+        {
             "title": "(Revised) CYCLE TEST – II Examination Schedule Odd Semester 2025-26 B.Tech (II, III, IV Year)",
             "description": "CYCLE TEST – II Examination Schedule Odd Semester 2025-26 B.Tech (II, III, IV Year)",
             "link": "notices/Exam_schedule_2025/CT 2 Exam Schedule (2025-26_Odd Sem).pdf",
@@ -22,32 +22,61 @@
             "date": "06/10/2025"
         },
         {
+            "text": "M.Tech. (Self-Sponsored) Admission - Notification of Spot Round",
+            "link": "/admission/M.Tech Spot Round Notification - Written Exam, interview, certificate verifcation.pdf",
+            "isNew": false
+        },
+        {
+            "text": "M.Tech. (Self-Sponsored) Admission - Shortlisted Candidates",
+            "link": "/admission/M.Tech_self_supported_shortlisted_candidates_online_application-1.pdf",
+            "isNew": false
+        },
+        {
+            "text": "Orientation Programme 2025 on 25-08-2025 in Smt. Sudha Murty Conference Hall, IIITT",
+            "link": "/admission/2025-26 Orientation.pdf",
+            "isNew": false
+        },
+        {
+            "text": "Information for Physical Reporting Process of B.Tech. I Semester (2025-26)",
+            "link": "/admission/First yr Reporting details 2025-26 - Final.pdf",
+            "isNew": false
+        },
+        {
+            "text": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2025-2026",
+            "link": "/admission/MTECH self support Brochure_ August 2025 - Final.pdf",
+            "isNew": false
+        },
+        {
             "title": "CYCLE TEST – I Examination Schedule (Odd Semester 2025-26) First Year M.Tech. (CSE and VLSI)",
             "description": "CYCLE TEST – I Examination Schedule (Odd Semester 2025-26) First Year M.Tech. (CSE and VLSI)",
             "link": "notices/M.Tech CT 1 (2025-26)Odd semster Time table.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "19/09/2025"
         },
-        
-         {
+        {
+            "text": "[New][Updated on 26th] WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (CSE & DSH) On 28 August 2025",
+            "link": "/notices/Dept_CSE_walkin_final_III_2025 temporary faculty inteview_26_Aug2025.pdf",
+            "isNew": false
+        },
+        {
             "title": "(Revised) CYCLE TEST – I Examination Schedule Odd Semester 2025-26 B.Tech (II, III, IV Year)",
             "description": "(Revised) CYCLE TEST – I Examination Schedule Odd Semester 2025-26 B.Tech (II, III, IV Year)",
             "link": "notices/CT1 Exam Schedule (2025-26_Odd Sem).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "04/09/2025"
         },
         {
             "title": "Ph.D. Viva-Voce Notification - Mr. I. Akilan (Dept. ME)",
             "description": "Ph.D. Viva-Voce Notification - Mr. I. Akilan (Dept. ME)",
             "link": "notices/PhD Viva Notification_ Mr. I. Akilan_ Dept of ME_August2025.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "22/08/2025"
         },
         {
             "title": "Orientation Programme 2025 on 25-08-2025 in Smt. Sudha Murty Conference Hall at IIITT",
             "description": "Orientation Programme 2025",
             "link": "admission/2025-26 Orientation.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "23/08/2025"
         },
         {

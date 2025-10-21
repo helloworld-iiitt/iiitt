@@ -3,95 +3,80 @@
       {
         "s_no": 1,
         "name": "Prof. Usha Natesan",
-        "designation": "Director In-charge, IIITT",
-        "senate": "Chairperson"
+        "designation": "Director, IIIT Tiruchirappalli",
+        "senate": "Ex-officio Chairman"
       },
       {
         "s_no": 2,
-        "name": "Head, Department of CSE",
-        "designation": "Head, Department of CSE, NITT",
-        "senate": "Member"
+        "name": "Dr. Anoop Jacob Thomas",
+        "designation": "Head, Department of Computer Science and Engineering, IIIT Tiruchirappalli",
+        "senate": "Ex-officio"
       },
       {
         "s_no": 3,
-        "name": "Head, Department of ECE",
-        "designation": "Head, Department of ECE, NITT",
-        "senate": "Member"
+        "name": "Dr. R. Krishnamurthy",
+        "designation": "Head, Department of Electronics and Communication Engineering, IIIT Tiruchirappalli",
+        "senate": "Ex-officio"
       },
       {
         "s_no": 4,
-        "name": "Head, Department of Humanities",
-        "designation": "Head, Department of Humanities, NITT",
-        "senate": "Member"
+        "name": "Dr. Velmurugan. C",
+        "designation": "Head, Department of Mechanical Engineering, IIIT Tiruchirappalli",
+        "senate": "Ex-officio"
       },
       {
         "s_no": 5,
-        "name": "Head, Department of Mathematics",
-        "designation": "Head, Department of Mathematics, NITT",
-        "senate": "Member"
+        "name": "Dr. Jagadeeshwar Pashikanti",
+        "designation": "Head, Department of S&H, IIIT Tiruchirappalli",
+        "senate": "Ex-officio"
       },
       {
         "s_no": 6,
-        "name": "Head, Department of Physics",
-        "designation": "Head, Department of Physics, NITT",
+        "name": "Dr. G. Seetharaman",
+        "designation": "Professor, Department of Electronics and Communication Engineering, NIT Tiruchirappalli",
         "senate": "Member"
       },
+
       {
         "s_no": 7,
+        "name": "Dr. Kunwar Singh",
+        "designation": "Head, Department of Computer Science and Engineering, NIT Tiruchirappalli",
+        "senate": "Member"
+      },
+
+      {
+        "s_no": 8,
+        "name": "Dr. G.S. Mahapatra",
+        "designation": "Professor, Department of Mathematics, NIT Puducherry",
+        "senate": "Member"
+      },
+
+      {
+        "s_no": 9,
         "name": "Prof. M. V. Kartikeyan",
         "designation": "Director, IIITDM Kancheepuram",
         "senate": "Member"
       },
       {
-        "s_no": 8,
-        "name": "Prof. G. Lakshminarayanan",
-        "designation": "Professor, Dept. of ECE, NITT",
-        "senate": "Member"
-      },
-      {
-        "s_no": 9,
-        "name": "Prof. C. Mala",
-        "designation": "Professor, Dept. of CSE, NITT",
-        "senate": "Member"
-      },
-      {
         "s_no": 10,
         "name": "Shri. Vasu Uppli",
-        "designation": "TCS",
+        "designation": "Tata Consultancy Services (TCS)",
         "senate": "Member"
       },
       {
         "s_no": 11,
-        "name": "Ms. Shymala Natarajan",
-        "designation": "CTS",
+        "name": "Ms. Malliga Balasubramanian",
+        "designation": "Cognizant Technology Solutions (CTS)",
         "senate": "Member"
       },
       {
         "s_no": 12,
-        "name": "Dr. Anoop Jacob Thomas",
-        "designation": "Head, Department of CSE, IIIT Tiruchirappalli",
+        "name": "Nominated Member from RAMCO Systems",
+        "designation": "RAMCO Systems",
         "senate": "Member"
       },
       {
         "s_no": 13,
-        "name": "Dr. R. Krishnamurthy",
-        "designation": "Head, Department of ECE, IIIT Tiruchirappalli",
-        "senate": "Member"
-      },
-      {
-        "s_no": 14,
-        "name": "Dr. Jagadeeshwar Pashikanti",
-        "designation": "Head, Department of S&H, IIIT Tiruchirappalli",
-        "senate": "Member"
-      },
-      {
-        "s_no": 15,
-        "name": "Dr. Velmurugan. C",
-        "designation": "Head, Department of Mechanical Engineering, IIIT Tiruchirappalli",
-        "senate": "Member"
-      },
-      {
-        "s_no": 16,
         "name": "Dr N. Renugadevi",
         "designation": "Registrar (i/c), IIIT Tiruchirappalli",
         "senate": "Secretary(Ex-officio Member)"

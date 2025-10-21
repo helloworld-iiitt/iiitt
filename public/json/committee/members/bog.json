@@ -9,7 +9,7 @@
     {
       "s_no": 2,
       "name": "Ms. Soumya Gupta, I.A.S.",
-      "designation": "Joint Secretary, Ministry of Education, New Delhi",
+      "designation": "Joint Secretary(TE) & Bureau Head, Department of Higher Education,Shastri Bhavan, MoE, Government of India, New Delhi",
       "role": "Member"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "s_no": 5,
-      "name": "Ms. Maya Sreekumar",
+      "name": "Smt. Maya Sreekumar",
       "designation": "Cognizant Technology Solutions India (P) Ltd, Coimbatore",
       "role": "Member"
     },
@@ -35,45 +35,57 @@
       "name": "Shri. P.R. Venkatrama Raja",
       "designation": "Managing Director, Ramco Systems, Chennai",
       "role": "Member"
-    },
-    {
+    },    {
       "s_no": 7,
+      "name": "Dr. K. P. Kartikeyan, I.A.S",
+      "designation": "The Managing Director,ELCOT,Chennai",
+      "role": "Member"
+    },
+
+    {
+      "s_no": 8,
       "name": "Dr. Tessy Thomas",
       "designation": "Director General (Retd.), DRDO, Bengaluru",
       "role": "Member"
     },
     {
-      "s_no": 8,
+      "s_no": 9,
       "name": "Prof. M V Kartikeyan",
       "designation": "Director, IIITDM Kancheepuram, Chennai-600127",
       "role": "Member"
     },
     {
-      "s_no": 9,
+      "s_no": 10,
       "name": "Prof. (Dr.) M Hanumantha Rao",
       "designation": "Director, All India Institute of Medical Sciences (AIIMS), Madurai",
       "role": "Member"
     },
     {
-      "s_no": 10,
+      "s_no": 11,
       "name": "Prof. G. Aghila",
       "designation": "Director, NIT Tiruchirappalli",
       "role": "Member"
     },
     {
-      "s_no": 11,
+      "s_no": 12,
       "name": "Prof. Usha Natesan",
       "designation": "Director In-charge, IIIT Tiruchirappalli, Sethurapatti, Tiruchirappalli-12",
       "role": "Director"
     },
     {
-      "s_no": 12,
+      "s_no": 13,
+      "name": "Prof. G. Seetharaman",
+      "designation": "Professor, Department of ECE, IIIT Tiruchirappalli",
+      "role": "Member"
+    },
+    {
+      "s_no": 14,
       "name": "Dr N. Renugadevi",
       "designation": "Registrar (i/c), IIIT Tiruchirappalli",
       "role": "Secretary(Ex-officio Member)"
     },
     {
-      "s_no": 13,
+      "s_no": 15,
       "name": "Dr. Velmurugan C",
       "designation": "Asst Professor, Head, Dept of Mechanical Engineering, IIIT Tiruchirappalli",
       "role": "Member"
