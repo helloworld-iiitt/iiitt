@@ -45,7 +45,7 @@ export default function Director() {
               <Typography variant="h6" gutterBottom>
                 Prof. Usha Natesan
               </Typography>
-              <Typography variant="subtitle1">Director(i/c), IIIT Tiruchirappalli</Typography>
+              <Typography variant="subtitle1">Director(i/c), IIIT Tiruchirappalli,Member(Ex-officio)</Typography>
               <br />
               <a href="mailto:director@iiitt.ac.in" className={styles.linkStyle}>
                 <ContactMailIcon /> director@iiitt.ac.in
