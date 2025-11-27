@@ -1,6 +1,28 @@
 {
     "data": [
+
          {
+            "title": "End Lab Exam B.Tech. 1st Year Schedule Odd Semester (2025-26)  ",
+            "description": "End Lab Exam B.Tech. 1st Year Schedule Odd Semester (2025-26) ",
+            "link": "notices/Exam_schedule_2025/End Lab exam schedule 1st 2025-26 Odd sem.pdf",
+            "isNew": true,
+            "date": "27/11/2025"
+        },
+         {
+            "title": "End Exam B.Tech.1st year Odd semester(2025-26) Time table ",
+            "description": "End Exam B.Tech. 1st year Odd semester(2025-26) Time table",
+            "link": "notices/Exam_schedule_2025/End examination schedule 1st  2025-26 Odd sem.pdf",
+            "isNew": true,
+            "date": "27/11/2025"
+        },
+         {
+            "title": "End Exam Ph. D. Odd semester(2025-26) Time table ",
+            "description": "End Exam Ph. D. Odd semester(2025-26) Time table",
+            "link": "notices/Exam_schedule_2025/Ph.D_End exam schedule Ph.D 2025-26 Odd sem.pdf",
+            "isNew": true,
+            "date": "27/11/2025"
+        },
+        {
             "title": "End Exam M.Tech 1st year Odd semester(2025-26) Time table ",
             "description": "End Exam M.Tech 1st year Odd semester(2025-26) Time table",
             "link": "notices/Exam_schedule_2025/End Exam M.Tech 1st year Odd semester Time table.pdf",
@@ -11,7 +33,7 @@
             "title": "End Lab Exam Schedule_2025-26_Odd sem M. Tech",
             "description": "End Lab Exam Schedule_2025-26_Odd sem M. Tech ",
             "link": "notices/Exam_schedule_2025/End Lab Exam Schedule_2025-26_Odd sem M. Tech.pdf",
-            "isNew": true,
+            "isNew": true
             "date": "17/11/2025"
         },
         {
@@ -25,28 +47,28 @@
             "title": "CYCLE TEST – II B.Tech I Year Examination Schedule (Odd Semester 2025-26)",
             "description": "CYCLE TEST – II B.Tech I Year Examination Schedule (Odd Semester 2025-26)",
             "link": "notices/Exam_schedule_2025/CT 2 Odd semester Time table 1st  years 2024-25.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "05/11/2025"
         },
         {
             "title": "CYCLE TEST – II Ph. D. Examination Schedule (Odd Semester 2025-26) ",
             "description": "CYCLE TEST – II Ph. D. Examination Schedule (Odd Semester 2025-26)",
             "link": "notices/Exam_schedule_2025/Ph.D CT 2 Odd semster Time table.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "05/11/2025"
         },
           {
             "title": "End Lab Exam Schedule_2025-26_ODD_B.Tech (III,V, VII - Sem)",
             "description": "End Lab Exam Schedule_2025-26_ODD_B.Tech (III,V, VII - Sem)",
             "link": "notices/Exam_schedule_2025/End Lab Exam Schedule_2025-26_Odd_B.Tech (III,V,VII Sem).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "01/11/2025"
         },
           {
             "title": "End Exam schedule 2025-26 ODD B.Tech. (III,V, VII - Sem)",
             "description": "End Exam Schedule 2025-26 ODD B.Tech. (III,V, VII - Sem)",
             "link": "notices/Exam_schedule_2025/End exam schedule Odd sem 2025-26 (III, V, VII).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "01/11/2025"
         },
         {
