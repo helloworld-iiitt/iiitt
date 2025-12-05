@@ -142,12 +142,12 @@ export default function AdmissionPage() {
                   IIIT Tiruchirappalli.
                 </Typography>
                 <PersonCard
-                  name="Dr. G. Seetharaman"
+                  name="Dr. Kamakshi K"
                   designation="Chairman Admissions"
                   emailID="admissions@iiitt.ac.in"
-                  src="/faculty/Seetharaman.jpg"
+                  src="/faculty/Kamakshi1.jpeg"
                   src_type="faculty"
-                  phone="9486631181"
+                  phone="8978163865"
                 />
               </section>
             </Grid>
