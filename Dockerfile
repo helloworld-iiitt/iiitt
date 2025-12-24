@@ -8,6 +8,8 @@ FROM base AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
+RUN npm i -g npm@latest
+
 # Install dependencies based on the preferred package manager
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
 RUN \
@@ -17,6 +19,7 @@ RUN \
     else echo "Lockfile not found." && exit 1; \
     fi
 
+RUN npm audit fix || true
 
 # Rebuild the source code only when needed
 FROM base AS builder
