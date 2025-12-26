@@ -44,3 +44,4 @@ convertor.py
 conversionScripts/
 github-sample.txt
 Dockerfile
+.idea/
