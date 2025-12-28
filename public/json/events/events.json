@@ -1,24 +1,30 @@
 {
     "data": [
+        {
+            "title": "[New] AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems"(Application End date 15th January 2026)",
+            "description": "[New] AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems" (Application End date 15th January 2026)",
+            "link": "events/IIITT_Machine Learning and Cyber Physical Systems_jan2026.pdf",
+            "isNew":true
+        },
         
         {
             "title": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Ongoing)",
             "description": "AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems” (Ongoing)",
             "link": "events/2. AICTE_PG_CSE_ML and CPS final flyer_2025 .pdf",
-            "isNew":true
+            "isNew":false
 
         },
         {
             "title": "AICTE QIP sponsored PG certificate course on “3D Printing and Additive Manufacturing” (Ongoing) ",
             "description": "AICTE QIP sponsored PG certificate course on “3D Printing and Additive Manufacturing” (Ongoing) ",
             "link": "events/4. IIITT-AICTE-QIP-PG pgm on 3D Printing.pdf",
-            "isNew": true
+            "isNew": false
         },
        {
             "title": "7th Convocation 2025 – Live Streaming",
             "description": "7th Convocation 2025 – Live Streaming",
             "link": "https://youtube.com/live/9gx9a7NE3S0?feature=share",
-            "isNew":true
+            "isNew":false
 
         },
         {
