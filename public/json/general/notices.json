@@ -1,6 +1,13 @@
 {
     "data": [
          {
+            "title": "Fee Structure AY 2025-26_Even SEM (Payment Only Through SBI iCollect) ",
+            "description": "Fee Structure AY 2025-26_Even SEM (Payment Only Through SBI iCollect) ",
+            "link": "admission/2025-26 Even sem fee structure( Btech, Mtech and PhD).pdf",
+            "isNew": true,
+            "date": "03/01/2026"
+        },
+         {
             "title": "ACADEMIC CALENDAR EVEN SEMESTER 2025-26",
             "description": "ACADEMIC CALENDAR EVEN SEMESTER 2025-26",
             "link": "calendar/Academicc Calendar_Even_25-26.pdf",
@@ -18,7 +25,7 @@
             "title": "End Lab Exam B.Tech. 1st Year Schedule Odd Semester (2025-26)  ",
             "description": "End Lab Exam B.Tech. 1st Year Schedule Odd Semester (2025-26) ",
             "link": "notices/Exam_schedule_2025/End Lab exam schedule 1st 2025-26 Odd sem.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "27/11/2025"
         },
          {
@@ -32,28 +39,28 @@
             "title": "(Updated) End Exam Ph. D. Odd semester(2025-26) Time table ",
             "description": "End Exam Ph. D. Odd semester(2025-26) Time table",
             "link": "notices/Exam_schedule_2025/Ph.D_End exam schedule Ph.D 2025-26 Odd sem.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "28/11/2025"
         },
         {
             "title": "End Exam M.Tech 1st year Odd semester(2025-26) Time table ",
             "description": "End Exam M.Tech 1st year Odd semester(2025-26) Time table",
             "link": "notices/Exam_schedule_2025/End Exam M.Tech 1st year Odd semester Time table.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "17/11/2025"
         },
          {
             "title": "End Lab Exam Schedule_2025-26_Odd sem M. Tech",
             "description": "End Lab Exam Schedule_2025-26_Odd sem M. Tech ",
             "link": "notices/Exam_schedule_2025/End Lab Exam Schedule_2025-26_Odd sem M. Tech.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "17/11/2025"
         },
         {
             "title": "Supplementary Exam Nov 2025 Schedule ",
             "description": "Supplementary Exam Nov 2025 Schedule ",
             "link": "notices/Exam_schedule_2025/B.Tech supplementary examination schedule Nov 2025.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "12/11/2025"
         },
        {
