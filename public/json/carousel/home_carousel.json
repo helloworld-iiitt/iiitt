@@ -1,5 +1,13 @@
 {
   "data": [ 
+     {
+      "name":"MoU with Kauvery Hospital Trichy",
+      "path":"MoU_2026/MoU_2026KH2.jpeg"
+    },
+    {
+      "name":"MoU with Kauvery Hospital Trichy",
+      "path":"MoU_2026/MoU_2026KH5.jpeg"
+    }, 
     {
       "name":"Inauguration of Gym Facilities at Boys’ Hostel ",
       "path":"gym_2026/Bgym1.png"
@@ -36,7 +44,6 @@
       "name":"7th Convocation 2025 – Awardees: CSE, ECE, PhD, Gold Medalists ",
       "path":"Convocation_2025/Medal_ECE_Con_2025.jpeg" 
     }, 
-    
     {
       "name":"7th Convocation Ceremony 2025 at IIITT ",
       "path":"admin/Convocation_Final_2025.jpg"
