@@ -1,4 +1,3 @@
-
 export interface HostelData {
   title: string;
   desc: string;
@@ -17,4 +16,15 @@ export interface MessData extends HostelData {
     Snacks: string;
     Dinner: string;
   };
+}
+
+export interface GymData extends HostelData {
+  GymTimings: {
+    Morning: string;
+    Evening: string;
+  };
+  forms: {
+    title: string;
+    url: string;
+  }[];
 }
