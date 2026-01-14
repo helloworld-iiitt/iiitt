@@ -1,0 +1,34 @@
+{
+  "title": "Exam Cell",
+  "cardDetails": {
+    "title": "Exam Cell Process Overview",
+    "details": [
+      {
+        "step": 1,
+        "title": "Exam Notifications",
+        "description": "View the latest exam schedules, notifications, and circulars.",
+        "link": "/exam-notices"
+      },
+      {
+        "step": 2,
+        "title": "Hall Ticket Generation",
+        "description": "Download your hall ticket once it is released for the semester exams."
+      },
+      {
+        "step": 3,
+        "title": "Exam Guidelines",
+        "description": "Read the rules and regulations to be followed during examinations."
+      },
+      {
+        "step": 4,
+        "title": "Results Declaration",
+        "description": "Check your exam results and grade sheets when announced."
+      },
+      {
+        "step": 5,
+        "title": "Revaluation Process",
+        "description": "Apply for revaluation or rechecking of answer scripts if required."
+      }
+    ]
+  }
+}
