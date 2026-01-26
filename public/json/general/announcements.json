@@ -1,9 +1,14 @@
 { 
   "data": [
+      {
+      "text": "77th Republic day celebration 2026",
+      "link": "https://www.youtube.com/live/TwykQRhAj8U",
+      "isNew": true
+    },
     {
       "text": "ADDENDUM: WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (Dept. of CSE – 2, ECE – 2, DSH – 1) scheduled on 19 January 2026",
       "link": "/news/(New) Walkin_final_I_2026 temporary faculty inteview (CSE,ECE, DSH).pdf",
-      "isNew": true
+      "isNew": false
     },
      {
       "text": "WALK-IN-INTERVIEW FOR TEMPORARY FACULTY (Dept. CSE, ECE, DSH) On 19 January 2026",
