@@ -11,18 +11,23 @@ export interface HostelData {
 
 export interface MessData extends HostelData {
   MessTimings: {
-    Breakfast: string;
-    Lunch: string;
-    Snacks: string;
-    Dinner: string;
+    Weekdays: {
+      Breakfast: string;
+      Lunch: string;
+      Snacks: string;
+      Dinner: string;
+    };
+    Weekends: {
+      Breakfast: string;
+      Lunch: string;
+      Snacks: string;
+      Dinner: string;
+    };
   };
 }
 
 export interface GymData extends HostelData {
-  GymTimings: {
-    Morning: string;
-    Evening: string;
-  };
+  GymTimings: string[];
   forms: {
     title: string;
     url: string;

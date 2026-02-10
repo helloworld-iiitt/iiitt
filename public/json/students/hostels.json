@@ -7,7 +7,7 @@
             "Warden": "Dr Banoth Ravi",
             "RoomNo": "2065",
             "Department": "Department of Electronics and Communication Engineering,Indian Institute of Information Technology,Tiruchirappalli-620012.",
-            "emailId": "messwarden@iiitt.ac.in",
+            "emailId": "chiefwarden@iiitt.ac.in",
             "WardenImage": "/faculty/raviB_2024.jpeg"
         },
         {
@@ -32,27 +32,38 @@
             "emailId": "messwarden@iiitt.ac.in",
             "WardenImage": "/faculty/HarishAdhithyaM.JPG",
             "MessTimings": {
-                "Breakfast": "7.00 am to 9.00 am",
-                "Lunch": "12.30 pm to 2.00 pm",
-                "Snacks": "4.30 pm to 5.30 pm",
-                "Dinner": "7.00 pm to 9.00 pm"
+                "Weekdays": {
+                    "Breakfast": "7.40 am to 9.10 am",
+                    "Lunch": "12.30 pm to 2.00 pm",
+                    "Snacks": "5.00 pm to 6.00 pm",
+                    "Dinner": "7.30 pm to 9.00 pm"
+                },
+                "Weekends": {
+                    "Breakfast": "8.00 am to 10.00 am",
+                    "Lunch": "1.15 pm to 2.30 pm",
+                    "Snacks": "5.00 pm to 6.00 pm",
+                    "Dinner": "7.30 pm to 9.00 pm"
+                }
             }
         }
     ],
     "Gym": [
         {
             "title": "Smt. Savithribai Phule Dining Hall",
-            "Hostelsrc": "/hostel/IIITT_Mess.jpg",
+            "Hostelsrc": "/gym_2026/Bgym1.png",
             "desc": "Our college hostel gym is a well-equipped fitness facility designed to promote a healthy and active lifestyle among students. It provides a safe and convenient space for daily workouts, helping students relieve stress and maintain physical well-being alongside their academic routine",
             "Warden": "Dr. D Suresh",
             "RoomNo": "",
             "Department": "Department of Electronics and Communication Engineering, Indian Institute of Information Technology, Tiruchirappalli-620012.",
             "emailId": "sureshd@iiitt.ac.in",
             "WardenImage": "/faculty/SureshD.jpg",
-            "GymTimings": {
-                "Morning": "5:30 am to 7:30 am",
-                "Evening": "4:00 pm to 8:00 pm"
-            },
+            "GymTimings": [
+                "05:00 AM – 06:50 AM: B.Tech 1st & 4th Year, M.Tech 1st & 2nd Year and Ph.D.",
+                "07:00 AM – 08:40 AM: B.Tech 2nd & 3rd Year ",
+                "04:00 PM – 5:00 PM: B.Tech 4th Year ",
+                "5:10 PM – 6:40 PM: B.Tech 2nd & 3rd Year",
+                "6:50 PM – 8:30 PM: B.Tech 1st Year , M.Tech 1st & 2nd Year and Ph.D."
+            ],
             "forms": [
                 {
                     "title": "Gym Guidelines",

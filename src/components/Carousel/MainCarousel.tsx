@@ -14,9 +14,17 @@ interface ImageData {
 
 interface CarouselProps {
   images: ImageData[];
+  height?: number;
+  imageFit?: any;
+  repeat?: boolean;
 }
 
-const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
+const MainCarousel: React.FC<CarouselProps> = ({
+  images,
+  height,
+  imageFit,
+  repeat = true,
+}) => {
   const [fallbackIndexes, setFallbackIndexes] = useState<number[]>([]);
 
   const handleImageError = (index: number) => {
@@ -30,8 +38,8 @@ const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
 
     const firstFive = images.slice(0, 5);
     const rest = images.slice(5);
-    return [...firstFive, ...firstFive, ...rest];
-  }, [images]);
+    return [...firstFive, ...(repeat ? firstFive : []), ...rest];
+  }, [images, repeat]);
 
   return (
     <>
@@ -52,10 +60,11 @@ const MainCarousel: React.FC<CarouselProps> = ({ images }) => {
                   src={imageUrl}
                   alt={image.name || "carousel image"}
                   width={800}
-                  height={600}
+                  height={height ? height : 600}
                   className="w-full h-auto"
                   priority
                   onError={() => handleImageError(index)}
+                  style={{ objectFit: imageFit ? imageFit : "fill" }}
                 />
                 <p className="legend">{image.name}</p>
               </div>

@@ -27,6 +27,7 @@ import PersonCard from "@/components/PersonCard/PersonCard";
 import TableComponent from "@/components/tablecomponent/tablecomponent";
 import { GymData, HostelData, MessData } from "@/types/hostel.types";
 import FeedIcon from "@mui/icons-material/Feed";
+import MainCarousel from "@/components/Carousel/MainCarousel";
 
 export default function Hostel() {
   const [hostelInfo, setHostelInfo] = useState<HostelData[] | null>(null);
@@ -34,13 +35,17 @@ export default function Hostel() {
   const [loading, setLoading] = useState<boolean>(true);
   const [messInfo, setMessInfo] = useState<MessData[] | null>(null);
   const [gymInfo, setGymInfo] = useState<GymData[] | null>(null);
+  const [carouselData, setCarouselData] = useState<{ data: any[] }>({
+    data: [],
+  });
 
   const fetchData = useCallback(async () => {
     setLoading(true);
     try {
-      const [formRes, hostelRes] = await Promise.allSettled([
+      const [formRes, hostelRes, carouselRes] = await Promise.allSettled([
         fetch("/json/students/hostelforms.json"),
         fetch("/json/students/hostels.json"),
+        fetch("/json/students/hostel_carousel.json"),
       ]);
 
       if (hostelRes.status === "fulfilled") {
@@ -54,6 +59,11 @@ export default function Hostel() {
         const formJson = await formRes.value.json();
         setForms(formJson);
       }
+
+      if (carouselRes.status === "fulfilled") {
+        const carouselJson = await carouselRes.value.json();
+        setCarouselData(carouselJson);
+      }
     } catch (error) {
       console.error("Failed to fetch hostel/form data", error);
       setForms([]);
@@ -61,6 +71,7 @@ export default function Hostel() {
       setLoading(false);
     }
   }, []);
+  console.log(carouselData);
 
   useEffect(() => {
     document.title = "Hostel | IIIT Tiruchirappalli";
@@ -120,9 +131,9 @@ export default function Hostel() {
 
       <div className={styles.sectiondivider}></div>
 
-      <Grid container spacing={4}>
+      <Grid container spacing={4} alignItems="stretch">
         {/* Mess Hall Section */}
-        <Grid size={{ xs: 12, md: 6 }}>
+        <Grid size={{ xs: 12, md: 6 }} display="flex" flexDirection="column">
           <Typography variant="h2" className={styles.title}>
             Mess Hall
           </Typography>
@@ -132,12 +143,13 @@ export default function Hostel() {
             spacing={3}
             alignItems="stretch"
             className={styles.cardContainer}
+            sx={{ flex: 1 }}
           >
             {messInfo?.map((mess, index) => (
               <Grid key={index} size={{ xs: 12 }} display="flex">
                 <Card
                   sx={{
-                    height: "100%",
+                    flex: 1,
                     display: "flex",
                     flexDirection: "column",
                     borderRadius: 2,
@@ -147,9 +159,9 @@ export default function Hostel() {
                   <Image
                     src={`${nextConfig.env?.DOCUMENT}${mess.Hostelsrc}`}
                     alt={mess.title}
-                    width={600}
-                    height={462}
-                    style={{ width: "100%", height: "auto" }}
+                    width={786}
+                    height={600}
+                    style={{ objectFit: "fill" }}
                   />
 
                   <CardContent sx={{ flexGrow: 1 }}>
@@ -158,11 +170,19 @@ export default function Hostel() {
                     </Typography>
 
                     <Box sx={{ display: "grid", gap: 1 }}>
-                      {Object.entries(mess.MessTimings).map(([meal, time]) => (
-                        <Typography key={meal} variant="body2">
-                          <strong>{meal}:</strong> {time}
-                        </Typography>
-                      ))}
+                      {Object.entries(mess.MessTimings).map(
+                        ([type, meal_obj]) => (
+                          <Typography key={type} variant="body1">
+                            <strong>{type}</strong>
+                            {Object.entries(meal_obj).map(([meal, time]) => (
+                              <Typography key={meal} variant="body2">
+                                <strong>{meal}: </strong>
+                                {time}
+                              </Typography>
+                            ))}
+                          </Typography>
+                        ),
+                      )}
                     </Box>
 
                     <Box mt="auto">
@@ -183,7 +203,7 @@ export default function Hostel() {
         </Grid>
 
         {/* Gym Section */}
-        <Grid size={{ xs: 12, md: 6 }}>
+        <Grid size={{ xs: 12, md: 6 }} display="flex" flexDirection="column">
           <Typography variant="h2" className={styles.title}>
             Gym
           </Typography>
@@ -193,35 +213,40 @@ export default function Hostel() {
             spacing={3}
             alignItems="stretch"
             className={styles.cardContainer}
+            sx={{ flex: 1 }}
           >
             {gymInfo?.map((gym, index) => (
               <Grid key={index} size={{ xs: 12 }} display="flex">
                 <Card
                   sx={{
-                    height: "100%",
+                    flex: 1,
                     display: "flex",
                     flexDirection: "column",
                     borderRadius: 2,
                     boxShadow: 3,
                   }}
                 >
-                  <Image
-                    src={`${nextConfig.env?.DOCUMENT}${gym.Hostelsrc}`}
-                    alt={gym.title}
-                    width={600}
-                    height={462}
-                    style={{ width: "100%", height: "auto" }}
-                  />
+                  <div className="carousel">
+                    <MainCarousel
+                      images={carouselData.data}
+                      height={600}
+                      imageFit="cover"
+                      repeat={false}
+                    />
+                  </div>
 
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography variant="body2" color="text.secondary" mb={2}>
                       {gym.desc}
                     </Typography>
 
+                    <Typography>
+                      <strong>Timings:</strong>
+                    </Typography>
                     <Box sx={{ display: "grid", gap: 1 }}>
-                      {Object.entries(gym.GymTimings).map(([day, time]) => (
-                        <Typography key={day} variant="body2">
-                          <strong>{day}:</strong> {time}
+                      {gym.GymTimings.map((time, idx) => (
+                        <Typography key={idx} variant="body2">
+                          {time}
                         </Typography>
                       ))}
                     </Box>
