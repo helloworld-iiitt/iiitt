@@ -1,20 +1,10 @@
 {
     "Office staff": [
+     
       {
         "id": {
           "dept": "officestaff",
           "deptID": "1"
-        },
-        "name": "Mrs. M. Saraswathy",
-        "designation": "Administrative Assistant",
-        "src": "/admin/saraswathy.jpg",
-        "phone":""
-      ,"emailID":"msaraswathy.office@iiitt.ac.in"
-      },
-      {
-        "id": {
-          "dept": "officestaff",
-          "deptID": "2"
         },
         "name": "Mr. R. Kannan",
         "designation": "Administrative Assistant",
