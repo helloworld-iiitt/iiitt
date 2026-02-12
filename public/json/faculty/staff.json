@@ -12,6 +12,28 @@
         "phone":""
         ,"emailID":"rkannan.office@iiitt.ac.in"
       },
+        {
+        "id": {
+          "dept": "officestaff",
+          "deptID": "3"
+        },
+        "name": "Mrs. Ruby Catherin D ",
+        "designation": "Accounts Assistant",
+        "src": "/admin/Ruby.jpg",
+        "phone":""
+        ,"emailID":"accounts@iiitt.ac.in"
+      } 
+         {
+        "id": {
+          "dept": "officestaff",
+          "deptID": "4"
+        },
+        "name": "Mrs. T S UDAYASREE ",
+        "designation": "ADMIN Assistant",
+        "src": "/admin/Udaya.jpg",
+        "phone":""
+        ,"emailID":"tsudayasree.office@iiitt.ac.in"
+      }
       {
         "id": {
           "dept": "officestaff",
