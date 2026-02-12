@@ -22,7 +22,7 @@
         "src": "/admin/Ruby.jpg",
         "phone":""
         ,"emailID":"accounts@iiitt.ac.in"
-      } 
+      },
          {
         "id": {
           "dept": "officestaff",
@@ -33,7 +33,7 @@
         "src": "/admin/Udaya.jpg",
         "phone":""
         ,"emailID":"tsudayasree.office@iiitt.ac.in"
-      }
+      },
       {
         "id": {
           "dept": "officestaff",
