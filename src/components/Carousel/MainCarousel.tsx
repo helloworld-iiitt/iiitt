@@ -17,6 +17,7 @@ interface CarouselProps {
   height?: number;
   imageFit?: any;
   repeat?: boolean;
+  basePath?: string;
 }
 
 const MainCarousel: React.FC<CarouselProps> = ({
@@ -24,6 +25,7 @@ const MainCarousel: React.FC<CarouselProps> = ({
   height,
   imageFit,
   repeat = true,
+  basePath,
 }) => {
   const [fallbackIndexes, setFallbackIndexes] = useState<number[]>([]);
 
@@ -52,7 +54,7 @@ const MainCarousel: React.FC<CarouselProps> = ({
           interval={5000}
         >
           {Images.map((image, index) => {
-            const imageUrl = `${nextConfig.env?.IMAGE}/${image.path}`;
+            const imageUrl = `${basePath ? basePath : nextConfig.env?.IMAGE}/${image.path}`;
 
             return (
               <div key={index}>

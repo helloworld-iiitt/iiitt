@@ -232,6 +232,7 @@ export default function Hostel() {
                       height={600}
                       imageFit="cover"
                       repeat={false}
+                      basePath={nextConfig.env?.DOCUMENT}
                     />
                   </div>
 
