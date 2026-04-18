@@ -1,100 +1,106 @@
 {
     "General Secretary": [
         {
-            "name": "A Gnyan Sai",
-            "designation": " General Secretary",
-            "emailId": "221209@iiitt.ac.in",
+            "name": "Mohammed Imraan",
+            "designation": "General Secretary",
+            "emailId": "231136@iiitt.ac.in",
             "src": "/studentsCouncil/general_secretary.jpg"
         }
     ],
     "Sports Secretary": [
         {
-            "name": "Raahath Shaik",
-            "designation": "Sports Secretary",
-            "emailId": "221245@iiitt.ac.in",
+            "name": "Venepally Haripriya",
+            "designation": "Sports Secretary (Girls)",
+            "emailId": "231167@iiitt.ac.in",
+            "src": "/studentsCouncil/academic_girls.jpg"
+        },
+        {
+            "name": "Gouni Koushik Reddy",
+            "designation": "Sports Secretary (Boys)",
+            "emailId": "231119@iiitt.ac.in",
             "src": "/studentsCouncil/sports.JPG"
         }
     ],
     "Co-Curricular Affairs Secretary": [
         {
-            "name": "Pravas Mohanty",
+            "name": "Ayush Soni",
             "designation": "Co-Curricular Affairs Secretary",
-            "emailId": "231146@iiitt.ac.in",
+            "emailId": "231214@iiitt.ac.in",
             "src": "/studentsCouncil/co_curricular_boys.jpg"
         }
     ],
     "Research Affairs Secretary":[
         {
-            "name": "Sanjayan N",
+            "name": "Adityam Rajeev",
             "designation": "Research Affairs Secretary",
-            "emailId": "242104@iiitt.ac.in",
+            "emailId": "252102@iiitt.ac.in",
             "src": "/studentsCouncil/research_boys.jpg"
         }
     ],
     "Alumni & International Affairs Secretary":[
         {
-            "name": "Barla Dhanush",
+            "name": "R.S. Vignesh",
             "designation": "Alumni & International Affairs Secretary",
-            "emailId": "231110@iiitt.ac.in",
+            "emailId": "241159@iiitt.ac.in",
             "src": "/studentsCouncil/alumni_boys.jpg"
         }
     ],
     "Academic Affairs Secretary": [
         {
-            "name": "S Kowshika",
+            "name": "Madhurya Sruthi",
             "designation": "Academic Affairs Secretary (Girls)",
-            "emailId": "241232@iiitt.ac.in",
+            "emailId": "231207@iiitt.ac.in",
             "src": "/studentsCouncil/academic_girls.jpg"
         },
         {
-            "name": "Shivam Sharma",
+            "name": "Badavath Shashank ",
             "designation": "Academic Affairs Secretary (Boys)",
-            "emailId": "241153@iiitt.ac.in",
+            "emailId": "231109@iiitt.ac.in",
             "src": "/studentsCouncil/academic_boys.jpg"
         }
     ],
 
     "Hostel Affairs Secretary": [
         {
-            "name": "B. Raja Rajeswari",
+            "name": "Swati Singh",
             "designation": "Hostel Affairs Secretary (Girls)",
-            "emailId": "221110@iiitt.ac.in",
+            "emailId": "251256@iiitt.ac.in",
             "src": "/studentsCouncil/hostel_girls.jpg"
         },
         {
-            "name": "Sunkara Monish Vardhan",
+            "name": "Atharva Sanjay Kanade",
             "designation": "Hostel Affairs Secretary (Boys)",
-            "emailId": "231248@iiitt.ac.in",
+            "emailId": "231129@iiitt.ac.in",
             "src": "/studentsCouncil/hostel_boys.jpg"
         }
     ],
 
     "Cultural Affairs Secretary": [
         {
-            "name": "Tenali Likhita",
+            "name": "Rentala C S S S N Krishna Priya ",
             "designation": "Cultural Affairs Secretary (Girls)",
-            "emailId": "241157@iiitt.ac.in",
+            "emailId": "231153@iiitt.ac.in",
             "src": "/studentsCouncil/cultural_girls.jpg"
         },
         {
-            "name": "Narahari Komal",
+            "name": "Goutham",
             "designation": "Cultural Affairs Secretary (Boys)",
-            "emailId": "231141@iiitt.ac.in",
+            "emailId": "231120@iiitt.ac.in",
             "src": "/studentsCouncil/cultural_boys.jpg"
         }
     ],
 
     "Joint Secretary": [
         {
-            "name": "B Yojitha",
+            "name": "Dungavath Bhavana",
             "designation": "Joint Secretary (Girls)",
-            "emailId": "241115@iiitt.ac.in",
+            "emailId": "251214@iiitt.ac.in",
             "src": "/studentsCouncil/js_girls.jpg"
         },
         {
-            "name": "P Vamsi Krishna",
+            "name": "Pranav Pa",
             "designation": "Joint Secretary (Boys)",
-            "emailId": "241144@iiitt.ac.in",
+            "emailId": "251322@iiitt.ac.in",
             "src": "/studentsCouncil/js_boys.jpg"
         }
     ]
