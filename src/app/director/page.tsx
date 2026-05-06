@@ -35,7 +35,7 @@ export default function Director() {
           <Card className={styles.styledCard}>
             <div className={styles.imageContainer}>
               <Image
-                src={`${nextConfig.env?.IMAGE}/ushanatesan.jpg`}
+                src={`${nextConfig.env?.IMAGE}/admin/Director_2026/Prof (Dr.). Anupam Sukla_Sir.jpeg`}
                 alt="Director(i\c)"
                 layout="fill"
                 objectFit="cover"
@@ -43,9 +43,9 @@ export default function Director() {
             </div>
             <CardContent>
               <Typography variant="h6" gutterBottom>
-                Prof. Usha Natesan
+                Prof. (Dr.) Anupam Shukla
               </Typography>
-              <Typography variant="subtitle1">Director(i/c), IIIT Tiruchirappalli,Member(Ex-officio)</Typography>
+              <Typography variant="subtitle1">Director(i/c), IIIT Tiruchirappalli. </Typography>
               <br />
               <a href="mailto:director@iiitt.ac.in" className={styles.linkStyle}>
                 <ContactMailIcon /> director@iiitt.ac.in
@@ -55,31 +55,38 @@ export default function Director() {
 
           <Card className={styles.messageCard}>
             <CardContent>
-              <Typography variant="h5" className={styles.messageTitle} gutterBottom>
-                Director(i/c)'s Message
-              </Typography>
-              <Typography className={styles.messageText}>
-                As an Institute of National Importance under the Ministry of Education, Government of India, IIIT Tiruchirappalli is dedicated to advancing education, research, and innovation in Information Technology and related fields.
-              </Typography>
-              <Typography className={styles.messageText}>
-                In today's fast-paced digital era, we strive to shape engineers, innovators, and leaders through rigorous, industry-relevant, and research-driven programmes. Our dynamic curriculum, aligned with emerging domains such as Artificial Intelligence, Machine Learning, Data Science, Cybersecurity, and the Internet of Things, ensures that students are equipped to lead and transform society.
-              </Typography>
-              <Typography className={styles.messageText}>
-                Our faculty members bring in rich experience from leading institutions and are actively engaged in pioneering research across diverse areas of computing technologies and electronics.
-              </Typography>
-              <Typography className={styles.messageText}>
-                We strongly believe in the holistic development of our students and strive to shape them into visionaries who will lead the technological transformation of the future. Hence, they are encouraged to think critically, engage in interdisciplinary research, participate in national and international competitions, and contribute to societal challenges through technology-driven solutions.
-              </Typography>
-              <Typography className={styles.messageText}>
-                IIITT is proud to be a part of the collaborative Public-Private Partnership (PPP) model, drawing strength from both academic autonomy and industry partnership. This synergy helps us bridge the gap between academia and industry, making our students future-ready professionals.
-              </Typography>
-              <Typography className={styles.messageText}>
-                The Institute also emphasizes fostering the entrepreneurial skills of the students through various startup-related initiatives, innovation labs, and incubation support.
-              </Typography>
-              <Typography className={styles.messageText}>
-                IIITT remains steadfast in its mission to advance knowledge, foster innovation, and serve as a catalyst for technological and societal progress. With a commitment to academic excellence, cutting-edge research, and strong industry partnerships, the Institute continues to evolve as a hub of intellectual growth and impactful contributions at the global level.
-              </Typography>
-            </CardContent>
+  <Typography variant="h5" className={styles.messageTitle} gutterBottom>
+    About the Director
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    Prof. (Dr.) Anupam Shukla took charge as Director (i/c) of IIIT Tiruchirappalli on 28 April 2026. He is also serving as the Director of SVNIT Surat and previously served as the Director of the Indian Institute of Information Technology, Pune.
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    He is a Professor in the Department of Information and Communication Technology (ICT) at ABV-IIITM Gwalior and a visiting faculty at IIM Rohtak, with over 31 years of experience in administration, research, and teaching.
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    A globally recognized researcher in Artificial Intelligence, he has authored four books published by CRC Press and Springer, 182 peer-reviewed publications, edited four books by IGI Global, and mentored 123 doctoral and postgraduate theses.
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    He has successfully completed 13 government-sponsored projects worth ₹10 Crores, focusing on IT applications for Indian farmers, youth skill development, and institutional infrastructure.
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    He currently serves as a nominated expert member of the National Board of Accreditation (NBA) and as a member of the Project Review & Steering Group (PRSG), MeitY, Government of India. He has also served as a member of the Board of Governors at ABV-IIITM Gwalior.
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    At NIT Raipur, he was the founding Head of the Departments of Biomedical Engineering and Computer Science and Engineering, and the founding coordinator of the Chhattisgarh–IIT Kanpur Knowledge Sharing Program, a pioneering e-learning initiative in India.
+  </Typography>
+
+  <Typography className={styles.messageText}>
+    His vision is to enhance institutional rankings, deliver comprehensive and integrative education, and advance high-quality research in Engineering, Science, and Technology in alignment with the National Education Policy (NEP) 2020 for national development.
+  </Typography>
+</CardContent>
           </Card>
         </div>
       </div>
