@@ -27,13 +27,13 @@
       {
         "s_no": 5,
         "name": "Dr. Jagadeeshwar Pashikanti",
-        "designation": "Head, Department of S&H, IIIT Tiruchirappalli",
+        "designation": "Head,Department of Science and Humanities, IIIT Tiruchirappalli",
         "senate": "Ex-officio"
       },
       {
         "s_no": 6,
         "name": "Dr. G. Seetharaman",
-        "designation": "Professor, Department of Electronics and Communication Engineering, NIT Tiruchirappalli",
+        "designation": "Professor, Department of Electronics and Communication Engineering, IIIT Tiruchirappalli",
         "senate": "Member"
       },
 
@@ -79,7 +79,7 @@
         "s_no": 13,
         "name": "Dr N. Renugadevi",
         "designation": "Registrar (i/c), IIIT Tiruchirappalli",
-        "senate": "Secretary(Ex-officio Member)"
+        "senate": "Ex-Officio Secretary"
       }
     ]
   }
