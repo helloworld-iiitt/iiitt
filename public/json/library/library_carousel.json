@@ -1,0 +1,32 @@
+{
+  "data": [ 
+        {
+            "name": "Library",
+            "path": "Library_photo_2026/L1.jpeg"
+        },
+        {
+            "name": "Printer",
+            "path": "Library_photo_2026/L2.jpeg"
+        },
+        {
+            "name": "Library",
+            "path": "Library_photo_2026/L3.jpeg"
+        },
+        {
+            "name": "Library",
+            "path": "Library_photo_2026/L4.jpeg"
+        },
+        {
+            "name": "Library",
+            "path": "Library_photo_2026/L5.jpeg"
+        },
+        {
+            "name": "Library",
+            "path": "Library_photo_2026/L6.jpeg"
+        },
+        {
+            "name": "Library",
+            "path": "Library_photo_2026/L7.jpeg"
+        }
+    ]
+}

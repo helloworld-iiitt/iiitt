@@ -225,7 +225,7 @@
       "text": "Library",
       "icon": "library",
       "name": "Library",
-      "link": "https://lib-webpage.vercel.app/"
+      "link": "/library"
     },
     {
       "text": "Contact Us",
