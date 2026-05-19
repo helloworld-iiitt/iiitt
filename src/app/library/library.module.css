@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggTu7DsNwN06djRJalUksB-4Ev7Od5gqiLK3tGUianJl7nbaRoUcOpxpOSlfVMmt4l2bBQejcsUfEqP_AJp0j_fZDzXftR7fz_wZ2-SBFA1NaaFVBSVQAyMZR6NJO14iRApHY7mW5NYbg/s1600/Library.png') no-repeat center center;
+    background-size: cover;
+    padding: 90px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+:root {
+    --card-width: 280px;
+}
+
+.themeText {
+    color: #2e8b57;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.column {
+    flex: 1;
+    width: 70%;
+    text-align: center;
+    color: #2e8b57;
+    font-size: 25px;
+}
+
+.about {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.blue {
+    background-color: #2e8b57;
+}
+
+.red {
+    background-color: #2e8b57;
+}
+
+.librarytimings {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* .librarytimings Image {
+    max-width: 51%;
+    height: auto;
+    display: block;
+    margin: auto;
+} */
+
+/* Cards Container */
+.cardscontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 80px 20px 50px;
+}
+
+/* Individual Card Styling */
+.card {
+    text-decoration: none;
+    background: #2e8b57;
+    border-radius: 10px;
+    color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: var(--card-width);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    background: #246b44;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+.card i {
+    margin-bottom: 15px;
+    color: #fdd835;
+}
+
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 10px;
+}
+
+.Newscard {
+    width: 100%;
+    max-width: calc(var(--card-width) * 3 + 55px*3);
+    height: 200px;
+    margin: 90px auto 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #2e8b57;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.Misc {
+    display: flex;
+    width: 100%;
+    max-width: calc(var(--card-width) * 3 + 55px*3);
+    margin: 90px auto 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #2e8b57;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Header Section */
+.Newsheader h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+/* Body Section */
+.Newsbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .column {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
