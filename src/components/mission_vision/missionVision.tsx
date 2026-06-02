@@ -6,6 +6,12 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Link from "next/link";
 import "./mission_vision.css";
 
+const missionPoints = [
+  "To impart Information Technology education to students and future leaders.",
+  "To establish Centers of Excellence in Information Technology.",
+  "To engage in cutting-edge technology research to meet the current needs and future challenges of India and the world at large.",
+];
+
 const MissionVision = () => {
   return (
     <>
@@ -13,10 +19,11 @@ const MissionVision = () => {
         variant="outlined"
         id="mission_vision"
         sx={{
-          minWidth: 275,
-          p: 2,
+          minWidth: 340,
+          p: 3,
           mb: 3,
-          display: { xs: "none", md: "block" }, // Show only on desktop
+          maxWidth: "100%",
+          display: { xs: "none", md: "block" },
         }}
       >
         <CardContent>
@@ -25,21 +32,30 @@ const MissionVision = () => {
           </Typography>
           <Divider />
           <Typography color="textSecondary" id="vision" sx={{ mb: 2 }}>
-            To achieve  &quot;World Class Excellence in Information and Communication Technology &quot;.
+            To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
           </Typography>
 
           <Typography variant="h5" component="h1" sx={{ color: "#2e8b57" }}>
             Mission
           </Typography>
           <Divider />
-          <Typography color="textSecondary" id="mission">
-            • To impart Information Technology education to students and future leaders.
-            <br />
-            • To establish Centers of Excellence in Information Technology.
-            <br />
-            • To engage in cutting-edge technology research to meet the current needs and future challenges of India and the world at large.
-          </Typography>
-          <br />
+          <div className="mission-copy" id="mission">
+            <Typography color="textSecondary" className="mission-intro">
+              Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
+              research and innovation, and prepares students to be leaders and innovators in the field of Information
+              Technology and related fields. We aim to achieve this by:
+            </Typography>
+            <ul className="mission-list">
+              {missionPoints.map((point) => (
+                <li key={point}>
+                  <Typography color="textSecondary" component="span" className="mission-item">
+                    {point}
+                  </Typography>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <Typography variant="h5" component="h1" sx={{ color: "#2e8b57", mt: 2 }}>
             Explore
           </Typography>
@@ -65,14 +81,14 @@ const MissionVision = () => {
         </CardActions>
       </Card>
 
-      {/* Mobile View */}
       <Card
         variant="outlined"
         id="mission_vision"
         sx={{
-          minWidth: 275,
-          p: 2,
-          display: { xs: "block", md: "none" }, // Show only on mobile
+          minWidth: 320,
+          p: 2.5,
+          maxWidth: "100%",
+          display: { xs: "block", md: "none" },
         }}
       >
         <CardContent>
@@ -81,20 +97,30 @@ const MissionVision = () => {
           </Typography>
           <Divider />
           <Typography color="textSecondary" id="vision" sx={{ mb: 2 }}>
-            To achieve  &quot;World Class Excellence in Information and Communication Technology &quot;.
+            To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
           </Typography>
 
           <Typography variant="h5" component="h1" sx={{ color: "#2e8b57" }}>
             Mission
           </Typography>
           <Divider />
-          <Typography color="textSecondary" id="mission">
-            • To impart Information Technology education to students and future leaders.
-            <br />
-            • To establish Centers of Excellence in Information Technology.
-            <br />
-            • To engage in cutting-edge technology research to meet the current needs and future challenges of India and the world at large.
-          </Typography>
+          <div className="mission-copy" id="mission">
+            <Typography color="textSecondary" className="mission-intro">
+              Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
+              research and innovation, and prepares students to be leaders and innovators in the field of Information
+              Technology and related fields. We aim to achieve this by:
+            </Typography>
+            <ul className="mission-list">
+              {missionPoints.map((point) => (
+                <li key={point}>
+                  <Typography color="textSecondary" component="span" className="mission-item">
+                    {point}
+                  </Typography>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <Typography variant="h5" component="h1" sx={{ color: "#2e8b57", mt: 2 }}>
             Explore
           </Typography>
