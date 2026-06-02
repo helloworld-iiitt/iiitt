@@ -61,6 +61,8 @@ const bottomLinks = [
 
 export default function RTI() {
   const [rtiList, setRtiList] = useState<RTIData[]>([]);
+  const currentOfficers = rtiList.slice(0, 2);
+  const tenureHistory = rtiList.slice(2);
 
   useEffect(() => {
     document.title = "RTI | IIIT Tiruchirappalli ";
@@ -92,7 +94,7 @@ export default function RTI() {
       </Typography>
 
       <div className={styles.cardsContainer}>
-        {rtiList.map((rti, index) => (
+        {currentOfficers.map((rti, index) => (
           <Card key={index} className={styles.card}>
             <div className={styles.cardContent}>
               <div className={styles.imageWrapper}>
@@ -134,25 +136,29 @@ export default function RTI() {
       The information given here is in respect of the IIITT, Tiruchirappalli.
       The BOG has appointed the following Public Information Officers to assist in discharging the duties under this Act.
       </Typography>
+
+      <Typography variant="h5" gutterBottom className={styles.sectionTitle}>
+        RTI Tenure History
+      </Typography>
       <TableContainer component={Paper} className={styles.table} sx={{ mb: 4 }}>
         <Table>
           <TableHead>
             <TableRow>
               <TableCell className={styles.tableHead}>SI. No.</TableCell>
-              <TableCell className={styles.tableHead}>Name &amp; Designation</TableCell>
-              <TableCell className={styles.tableHead}>Phone No. &amp; Email</TableCell>
-              <TableCell className={styles.tableHead}>Designated Position</TableCell>
-              <TableCell className={styles.tableHead}>Subject Matter</TableCell>
+              <TableCell className={styles.tableHead}>Designation</TableCell>
+              <TableCell className={styles.tableHead}>Name</TableCell>
+              <TableCell className={styles.tableHead}>From Date</TableCell>
+              <TableCell className={styles.tableHead}>To Date</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {rtiList.slice(1).map((officer,idx) => (
+            {tenureHistory.map((officer,idx) => (
               <TableRow key={idx} className={styles.tableRow}>
                 <TableCell className={styles.tableCell}>{idx+1}</TableCell>
+                <TableCell className={styles.tableCell}>{officer.designation}</TableCell>
                 <TableCell className={styles.tableCell}>{officer.name}</TableCell>
-                <TableCell className={styles.tableCell} >{officer.emailID}</TableCell>
-                <TableCell className={styles.tableCell}>{officer.head}</TableCell>
-                <TableCell className={styles.tableCell}>All applications received under RTI act</TableCell>
+                <TableCell className={styles.tableCell}>{officer.fromDate || "-"}</TableCell>
+                <TableCell className={styles.tableCell}>{officer.toDate || "-"}</TableCell>
               </TableRow>
             ))}
           </TableBody>

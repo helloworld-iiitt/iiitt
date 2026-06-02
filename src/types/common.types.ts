@@ -18,7 +18,17 @@ export interface Club {
   coordinator: { name: string }[];
 }
 
-
+export interface RTIData {
+  head: string;
+  name: string;
+  designation: string;
+  emailID: string;
+  phone?: string;
+  fax?: string;
+  src: string;
+  fromDate?: string;
+  toDate?: string;
+}
 interface Event {
   title: string;
   date: string;

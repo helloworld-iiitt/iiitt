@@ -1,20 +1,114 @@
 {
   "data": [
     {
-      "head": "First Appellate Authority ",
-      "name": "Prof.  G. Seetharaman",
-      "designation": "Professor,Dept. ECE ",
+      "head": "First Appellate Authority",
+      "name": "Prof. G. Seetharaman",
+      "designation": "Professor, Dept. ECE",
       "emailID": "gsraman@iiitt.ac.in",
       "phone": "",
-      "src": "faculty/Seetharaman.jpg"
+      "src": "faculty/Seetharaman.jpg",
+      "fromDate": "30.07.2025",
+      "toDate": "Till Date"
     },
     {
-      "head":"PIO(Nodal)",
-      "name": "Dr. V. Sindhu",
+      "head": "PIO (Nodal)",
+      "name": "Dr. Sindhu V",
       "designation": "Assistant Registrar (i/c) / Administration",
       "emailID": "sindhuv@iiitt.ac.in",
       "phone": "",
-      "src": "faculty/Sindhu.jpg"
+      "src": "faculty/Sindhu.jpg",
+      "fromDate": "30.07.2025",
+      "toDate": "Till Date"
+    },
+    {
+      "head": "Central Public Information Officer",
+      "name": "Prof. G. Seetharaman",
+      "designation": "Central Public Information Officer",
+      "emailID": "gsraman@iiitt.ac.in",
+      "phone": "",
+      "src": "faculty/Seetharaman.jpg",
+      "fromDate": "07.03.2022",
+      "toDate": "31.07.2025"
+    },
+    {
+      "head": "Public Information Officer",
+      "name": "Dr. Rinshu",
+      "designation": "Public Information Officer",
+      "emailID": "",
+      "phone": "",
+      "src": "",
+      "fromDate": "07.03.2022",
+      "toDate": "11.10.2023"
+    },
+    {
+      "head": "Public Information Officer",
+      "name": "Dr. Sindhu V",
+      "designation": "Public Information Officer",
+      "emailID": "sindhuv@iiitt.ac.in",
+      "phone": "",
+      "src": "faculty/Sindhu.jpg",
+      "fromDate": "07.03.2022",
+      "toDate": "03.07.2024"
+    },
+    {
+      "head": "Nodal Officer",
+      "name": "Dr. Sindhu V",
+      "designation": "Nodal Officer",
+      "emailID": "sindhuv@iiitt.ac.in",
+      "phone": "",
+      "src": "faculty/Sindhu.jpg",
+      "fromDate": "04.07.2024",
+      "toDate": "Till Date"
+    },
+    {
+      "head": "Public Information Officer",
+      "name": "Dr. G. Devasena",
+      "designation": "Public Information Officer",
+      "emailID": "",
+      "phone": "",
+      "src": "",
+      "fromDate": "11.10.2023",
+      "toDate": "04.07.2024"
+    },
+    {
+      "head": "Public Information Officer",
+      "name": "Dr. K. Kamakshi",
+      "designation": "Public Information Officer",
+      "emailID": "",
+      "phone": "",
+      "src": "",
+      "fromDate": "04.07.2024",
+      "toDate": "30.07.2025"
+    },
+    {
+      "head": "Public Information Officer",
+      "name": "Dr. M. Senthil Sivakumar",
+      "designation": "Public Information Officer",
+      "emailID": "",
+      "phone": "",
+      "src": "",
+      "fromDate": "04.07.2024",
+      "toDate": "30.07.2025"
+    },
+    {
+      "head": "Public Information Officer",
+      "name": "Dr. Sindhu V",
+      "designation": "Public Information Officer",
+      "emailID": "sindhuv@iiitt.ac.in",
+      "phone": "",
+      "src": "faculty/Sindhu.jpg",
+      "fromDate": "30.07.2025",
+      "toDate": "Till Date"
+    },
+    {
+      "head": "First Appellate Authority",
+      "name": "Prof. G. Seetharaman",
+      "designation": "First Appellate Authority",
+      "emailID": "gsraman@iiitt.ac.in",
+      "phone": "",
+      "src": "faculty/Seetharaman.jpg",
+      "fromDate": "30.07.2025",
+      "toDate": "Till Date"
     }
   ]
 }
