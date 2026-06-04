@@ -89,15 +89,13 @@
 
 .tabbedPane,
 .achievements {
-  width: 32%;
+  min-width: 30%;
   min-height: 680px;
   height: 100%;
+  /*margin-left: -2rem;*/
 }
 
-.a {
-  display: block;
- text-align: justify;
-}
+
 
 @media only screen and (max-width: 800px) {
   .row {

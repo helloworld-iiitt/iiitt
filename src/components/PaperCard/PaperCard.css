@@ -1,4 +1,4 @@
-.root {
+.papercard-root {
   display: flex;
   flex-wrap: wrap;
 }
@@ -17,7 +17,7 @@
 }
 
 
-.root > * {
+.papercard-root > * {
   margin: 8px;
   width: 100%;
 }

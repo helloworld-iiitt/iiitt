@@ -34,7 +34,7 @@ const PaperCard: React.FC<PaperCardProps> = ({
   linkToOlder,
 }) => {
   return (
-    <div className="root">
+    <div className="papercard-root">
       <OutlinedCard title={title} items={items} linkToOlder={linkToOlder} />
     </div>
   );

@@ -133,7 +133,7 @@ const About = () => {
           <br />
           <Divider />
           <Box mt={4}>
-            <Typography variant="h5" align="center" sx={{ color: "#2e8b57"}} gutterBottom>
+            <Typography variant="h5" align="center" sx={{ color: "#2e8b57" }} gutterBottom>
               Official Documents
             </Typography>
             <Grid
@@ -171,13 +171,13 @@ const About = () => {
                       },
                     }}
                   >
-                    <LinkIcon sx={{ color: "#2e8b57"}} />
+                    <LinkIcon sx={{ color: "#2e8b57" }} />
                     <Link
                       href={`${nextConfig.env?.DOCUMENT}/notices/${doc.file}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       underline="hover"
-                      sx={{ color: "#2e8b57"}}
+                      sx={{ color: "#2e8b57" }}
                     >
                       {doc.label}
                     </Link>
@@ -195,9 +195,8 @@ const About = () => {
                   Vision
                 </Typography>
                 <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                <Typography color="textSecondary">
-                  To achieve &quot;World Class Excellence in Information and
-                  Communication Technology&quot;.
+                <Typography color="textSecondary" style={{ display: 'block', textAlign: 'justify' }}>
+                  To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
                 </Typography>
                 <br />
 
@@ -205,18 +204,22 @@ const About = () => {
                   Mission
                 </Typography>
                 <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
+                <Typography color="textSecondary" className="mission-intro" style={{ textAlign: 'justify', display: 'block' }}>
+                  Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
+                  research and innovation, and prepares students to be leaders and innovators in the field of Information
+                  Technology and related fields. We aim to achieve this by:
+                </Typography>
                 <Typography color="textSecondary">
-                  {bull} To impart Information Technology education to
-                  students and future leaders.
+                  {bull} Providing state-of-the-art infrastructure and facilities that support high-quality teaching, learning and research.
                   <br />
                   <br />
-                  {bull} To establish Center of Excellences in Information
-                  Technology.
+                  {bull} Offering industry-relevant and contemporary programs that cater to the needs of the industry and society.
                   <br />
                   <br />
-                  {bull} To engage in cutting edge technology research to meet
-                  the current needs and future challenges of India and the
-                  world at large.
+                  {bull} Providing opportunities for students to engage in research and innovation, and to develop skills and competencies required for the industry and society.
+                  <br />
+                  <br />
+                  {bull}Fostering a culture of inclusivity, diversity and social responsibility, where students and faculty are encouraged to make a positive contribution to society.
                 </Typography>
               </CardContent>
             </Card>
@@ -264,7 +267,7 @@ const About = () => {
             Tamil Nadu, since March 2016. &nbsp;
           </Typography>
         </Card>
-            <br/>
+        <br />
       </div>
     </div>
   );
