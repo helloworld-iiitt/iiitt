@@ -51,7 +51,7 @@ export default function PublicInformationOfficerPage() {
   return (
     <div className={styles.pageContainer}>
       <Typography variant="h2" component="h2" gutterBottom className={styles.heading}>
-        Public Information Officer
+        Right to Information - List of Public Information Officers
       </Typography>
 
       <Typography variant="body1" sx={{ mb: 4 }}>
