@@ -27,11 +27,11 @@ const MissionVision = () => {
         }}
       >
         <CardContent>
-          <Typography variant="h5" component="h1" sx={{ color: "#2e8b57" }}>
+          <Typography variant="h5" component="h1" sx={{ color: "#2e8b57" }} >
             Vision
           </Typography>
           <Divider />
-          <Typography color="textSecondary" id="vision" sx={{ mb: 2 }}>
+          <Typography color="textSecondary" id="vision" sx={{ mb: 2 ,mt: 1 }} style={{textAlign:'justify' , display:'block'}}>
             To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
           </Typography>
 
@@ -40,12 +40,12 @@ const MissionVision = () => {
           </Typography>
           <Divider />
           <div className="mission-copy" id="mission">
-            <Typography color="textSecondary" className="mission-intro">
+            <Typography color="textSecondary" className="mission-intro" style={{textAlign:'justify' , display:'block'}}>
               Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
               research and innovation, and prepares students to be leaders and innovators in the field of Information
               Technology and related fields. We aim to achieve this by:
             </Typography>
-            <ul className="mission-list"  style={{ listStyleType: 'disc' , paddingLeft:'10px', margin:0}} >
+            <ul className="mission-list"  style={{ listStyleType: 'disc' , paddingLeft:'10px', margin:0 }}>
               {missionPoints.map((point) => (
                 <li key={point}>
                   <Typography color="textSecondary" component="span" className="mission-item">
@@ -96,16 +96,16 @@ const MissionVision = () => {
             Vision
           </Typography>
           <Divider />
-          <Typography color="textSecondary" id="vision" sx={{ mb: 2 }}>
+          <Typography color="textSecondary" id="vision" sx={{ mb: 2 }} style={{textAlign:'justify' , display:'block'}}>
             To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
           </Typography>
 
-          <Typography variant="h5" component="h1" sx={{ color: "#2e8b57" }}>
+          <Typography variant="h5" component="h1" sx={{ color: "#2e8b57" }} >
             Mission
           </Typography>
           <Divider />
           <div className="mission-copy" id="mission">
-            <Typography color="textSecondary" className="mission-intro">
+            <Typography color="textSecondary" className="mission-intro" style={{textAlign:'justify' , display:'block'}}>
               Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
               research and innovation, and prepares students to be leaders and innovators in the field of Information
               Technology and related fields. We aim to achieve this by:
@@ -113,7 +113,7 @@ const MissionVision = () => {
             <ul className="mission-list">
               {missionPoints.map((point) => (
                 <li key={point}>
-                  <Typography color="textSecondary" component="span" className="mission-item">
+                  <Typography color="textSecondary" component="span" className="mission-item" >
                     {point}
                   </Typography>
                 </li>
