@@ -7,7 +7,7 @@
   text-align: center;
   width: 100%;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 52px;
   margin-bottom: 5px;
   font-weight: 400;
@@ -44,7 +44,7 @@
     text-align: center;
     width: 100%;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     line-height: 52px;
     margin-bottom: 5px;
 font-weight: 400;
@@ -64,7 +64,7 @@ font-weight: 400;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 400;
     color: #2e8b57; 
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     line-height: 52px;
     margin-bottom: 5px;
     font-size: 5.7vw;
@@ -82,7 +82,7 @@ font-weight: 400;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 400;
     color: #2e8b57;
-    text-transform: uppercase;
+    /*text-transform: uppercase; */
     line-height: 52px;
     margin-bottom: 5px;
     font-size: 10.7vw;
@@ -94,7 +94,7 @@ font-weight: 400;
   font-weight: 400;
   font-size: 1.5rem;
   color:#2e8b57;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: inline-block;
   line-height: 52px;
   margin-bottom: 5px;

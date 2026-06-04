@@ -1,7 +1,7 @@
 #mission_vision {
   height: 100%;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 5px;
   margin-bottom: 24px;
 }
 
@@ -19,7 +19,7 @@
 
 .mission-copy {
   font-size: 0.8rem !important;
-  margin-top: 0.3rem;
+  margin-top: 0.1rem;
 }
 
 .mission-intro {
@@ -37,12 +37,15 @@
 
 .mission-list li {
   font-size: 0.72rem !important;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.55rem; 
+  display: list-item;
+  list-style-type: disc;
+  text-align: justify;
 }
 
 .mission-item {
   font-size: 0.72rem !important;
-  line-height: 0.6;
+  line-height: 0.4;
   color: #555;
 }
 

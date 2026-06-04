@@ -201,6 +201,7 @@ body {
 
 a {
   display: block;
+  text-align: justify !important;
 }
 .mobile {
   display: none;

@@ -18,7 +18,8 @@
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   font-weight: 400;
   color: #2e8b57;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  /*text-transform: uppercase;*/
   display: inline-block;
   line-height: 1.3;
   margin-bottom: 5px;

@@ -7,9 +7,11 @@ import Link from "next/link";
 import "./mission_vision.css";
 
 const missionPoints = [
-  "To impart Information Technology education to students and future leaders.",
-  "To establish Centers of Excellence in Information Technology.",
-  "To engage in cutting-edge technology research to meet the current needs and future challenges of India and the world at large.",
+ "Providing state-of-the-art infrastructure and facilities that support high-quality teaching, learning and research.", 
+ "Offering industry-relevant and contemporary programs that cater to the needs of the industry and society.",
+ "Providing opportunities for students to engage in research and innovation, and to develop skills and competencies required for the industry and society.",
+ "Fostering a culture of inclusivity, diversity and social responsibility, where students and faculty are encouraged to make a positive contribution to society."
+
 ];
 
 const MissionVision = () => {
@@ -45,7 +47,7 @@ const MissionVision = () => {
               research and innovation, and prepares students to be leaders and innovators in the field of Information
               Technology and related fields. We aim to achieve this by:
             </Typography>
-            <ul className="mission-list"  style={{ listStyleType: 'disc' , paddingLeft:'10px', margin:0 }}>
+            <ul className="mission-list"  style={{ listStyleType: 'disc' , paddingLeft:'10px', margin:0}}>
               {missionPoints.map((point) => (
                 <li key={point}>
                   <Typography color="textSecondary" component="span" className="mission-item">
