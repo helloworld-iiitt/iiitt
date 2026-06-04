@@ -138,7 +138,7 @@ export default function RTI() {
       </Typography>
 
       <Typography variant="h5" gutterBottom className={styles.sectionTitle}>
-        RTI Tenure History
+        Right to Information - List of Public Information Officers
       </Typography>
       <TableContainer component={Paper} className={styles.table} sx={{ mb: 4 }}>
         <Table>
