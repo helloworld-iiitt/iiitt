@@ -1,16 +1,67 @@
 {"data":[
-    {
-        "s_no": 1,
-        "name": "Dr N. Renugadevi",
-        "designation":"Registrar (i/c)",
-        "role": "CPIO"
-    },
-    {
-        "s_no": 2,
-        "name": "Dr. V. Sindhu",
-        "designation":"AR (i/c) Administration",
-        "role": "PIO(nodal)"
-    }
+  {
+    "s_no": 1,
+    "designation": "Central Public Information Officer",
+    "name": "Prof. G. Seetharaman",
+    "from_date": "07.03.2022",
+    "to_date": "31.07.2025"
+  },
+  {
+    "s_no": 2,
+    "designation": "Public Information Officer",
+    "name": "Dr. Rinshu",
+    "from_date": "07.03.2022",
+    "to_date": "11.10.2023"
+  },
+  {
+    "s_no": 3,
+    "designation": "Public Information Officer",
+    "name": "Dr. Sindhu V",
+    "from_date": "07.03.2022",
+    "to_date": "03.07.2024"
+  },
+  {
+    "s_no": 4,
+    "designation": "Nodal Officer",
+    "name": "Dr. Sindhu V",
+    "from_date": "04.07.2024",
+    "to_date": "Till Date"
+  },
+  {
+    "s_no": 5,
+    "designation": "Public Information Officer",
+    "name": "Dr. G. Devasena",
+    "from_date": "11.10.2023",
+    "to_date": "04.07.2024"
+  },
+  {
+    "s_no": 6,
+    "designation": "Public Information Officer",
+    "name": "Dr. K. Kamakshi",
+    "from_date": "04.07.2024",
+    "to_date": "30.07.2025"
+  },
+  {
+    "s_no": 7,
+    "designation": "Public Information Officer",
+    "name": "Dr. M. Senthil Sivakumar",
+    "from_date": "04.07.2024",
+    "to_date": "30.07.2025"
+  },
+  {
+    "s_no": 8,
+    "designation": "Public Information Officer",
+    "name": "Dr. Sindhu V",
+    "from_date": "30.07.2025",
+    "to_date": "Till Date"
+  },
+  {
+    "s_no": 9,
+    "designation": "First Appellate Authority",
+    "name": "Prof. G. Seetharaman",
+    "from_date": "30.07.2025",
+    "to_date": "Till Date"
+  }
 
 ]
 }
