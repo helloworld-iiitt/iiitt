@@ -195,41 +195,32 @@ const About = () => {
                   Vision
                 </Typography>
                 <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                <Typography color="textSecondary">
-                  To be a world-class institute of excellence in the field of Information 
-                  Technology and allied fields, with a strong focus on research and innovation, 
-                  producing socially responsible, skilled professionals capable of contributing
-                  to the development of the nation and the world.
+                <Typography color="textSecondary" style={{ display: 'block', textAlign: 'justify' }}>
+                  To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
                 </Typography>
                 <br />
 
-               <Typography color="textSecondary">
-              {bull} Our mission is to provide a conducive and dynamic learning
-               environment that fosters academic excellence, research and innovation,
-               and prepares students to be leaders and innovators in the field of
-               Information Technology and related fields.
-               <br />
-               <br />
-               We aim to achieve this by:
-              <br />
-              <br />
-              {bull} Providing state-of-the-art infrastructure and facilities that
-              support high-quality teaching, learning and research.
-              <br />
-              <br />
-              {bull} Offering industry-relevant and contemporary programs that cater
-              to the needs of the industry and society.
-              <br />
-              <br />
-              {bull} Providing opportunities for students to engage in research and
-              innovation, and to develop skills and competencies required for the
-              industry and society.
-              <br />
-              <br />
-              {bull} Fostering a culture of inclusivity, diversity, and social
-              responsibility, where students and faculty are encouraged to make a
-              positive contribution to society.
-              </Typography>
+                <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                  Mission
+                </Typography>
+                <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
+                <Typography color="textSecondary" className="mission-intro" style={{ textAlign: 'justify', display: 'block' }}>
+                  Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
+                  research and innovation, and prepares students to be leaders and innovators in the field of Information
+                  Technology and related fields. We aim to achieve this by:
+                </Typography>
+                <Typography color="textSecondary">
+                  {bull} Providing state-of-the-art infrastructure and facilities that support high-quality teaching, learning and research.
+                  <br />
+                  <br />
+                  {bull} Offering industry-relevant and contemporary programs that cater to the needs of the industry and society.
+                  <br />
+                  <br />
+                  {bull} Providing opportunities for students to engage in research and innovation, and to develop skills and competencies required for the industry and society.
+                  <br />
+                  <br />
+                  {bull}Fostering a culture of inclusivity, diversity and social responsibility, where students and faculty are encouraged to make a positive contribution to society.
+                </Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -274,15 +265,6 @@ const About = () => {
             operating in the temporary campus within the premises of National
             Institute of Technology (NIT) Campus, Tiruchirappalli – 620 015,
             Tamil Nadu, since March 2016. &nbsp;
-             <br />
-            IIIT Tiruchirappalli and Sardar Vallabhbhai National Institute of 
-            Technology Surat have signed a Memorandum of Understanding (MoU)
-            to foster collaboration in joint research, academic activities, 
-            and innovation.
-            The MoU aims to promote collaborative academic programs, including
-            internship opportunities for B.Tech. and M.Tech. students, as well 
-            as joint research initiatives and innovation-driven projects 
-            between the two institutions.
           </Typography>
         </Card>
         <br />
