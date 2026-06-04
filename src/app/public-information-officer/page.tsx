@@ -19,7 +19,8 @@ const isPioRelatedRole = (officer: RTIData) => {
   return (
     combinedRole.includes("public information officer") ||
     combinedRole.includes("pio") ||
-    combinedRole.includes("nodal officer")
+    combinedRole.includes("nodal officer") ||
+    combinedRole.includes("first appellate authority")
   );
 };
 
