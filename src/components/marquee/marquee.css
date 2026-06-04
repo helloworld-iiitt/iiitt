@@ -15,8 +15,9 @@
 
 /* Responsive font sizes */
 .newshead {
-  font-family: "Playfair Display", serif;
-  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  color: #2e8b57;
   text-transform: uppercase;
   display: inline-block;
   line-height: 1.3;

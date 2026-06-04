@@ -45,7 +45,7 @@ const MissionVision = () => {
               research and innovation, and prepares students to be leaders and innovators in the field of Information
               Technology and related fields. We aim to achieve this by:
             </Typography>
-            <ul className="mission-list">
+            <ul className="mission-list"  style={{ listStyleType: 'disc' , paddingLeft:'10px', margin:0}} >
               {missionPoints.map((point) => (
                 <li key={point}>
                   <Typography color="textSecondary" component="span" className="mission-item">
