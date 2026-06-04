@@ -61,8 +61,8 @@ const MainCarousel: React.FC<CarouselProps> = ({
                 <Image
                   src={imageUrl}
                   alt={image.name || "carousel image"}
-                  width={800}
-                  height={height ? height : 630}
+                  width={1024}
+                  height={height ? height : 1024 }
                   className="w-full h-auto"
                   priority
                   onError={() => handleImageError(index)}

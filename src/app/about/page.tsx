@@ -22,6 +22,7 @@ import { useEffect } from "react";
 import nextConfig from "../../../next.config";
 import "../globals.css";
 import styles from "./about.module.css"
+import { missionPoints } from "@/components/mission_vision/missionVision";
 // #endregion
 const About = () => {
   useEffect(() => {
@@ -30,9 +31,6 @@ const About = () => {
       document.title = "IIIT Trichy";
     };
   }, []);
-
-  const bull = <span>•</span>;
-
   return (
     <div className="page-container">
       <div className={styles.parent}>
@@ -66,6 +64,7 @@ const About = () => {
               textAlign: "justify",
               lineHeight: "2",
               marginInline: "1rem",
+              fontSize:'1.2rem'
             }}
           >
             <Box component="span" fontWeight="fontWeightBold">
@@ -191,36 +190,36 @@ const About = () => {
           <Grid size={8}>
             <Card style={{ height: "100%", boxShadow: "none" }}>
               <CardContent id="mission-vision">
-                <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                <Typography variant="h4" style={{ color: "#2e8b57" }}>
                   Vision
                 </Typography>
                 <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                <Typography color="textSecondary" style={{ display: 'block', textAlign: 'justify' }}>
+                <Typography color="textSecondary" style={{ display: 'block', textAlign: 'justify',fontSize:'1.2rem' }}>
                   To be a world-class institute of excellence in the field of Information Technology and allied fields, with a strong focus on research and innovation, producing socially responsible, skilled professionals capable of contributing to the development of the nation and the world.
                 </Typography>
                 <br />
 
-                <Typography variant="h5" style={{ color: "#2e8b57" }}>
+                <Typography variant="h4" style={{ color: "#2e8b57" }}>
                   Mission
                 </Typography>
                 <Divider style={{ margin: "0.2rem 0 1rem 0px" }} />
-                <Typography color="textSecondary" className="mission-intro" style={{ textAlign: 'justify', display: 'block' }}>
+                <Typography color="textSecondary"  style={{ textAlign: 'justify', display: 'block' , fontSize:'1.2rem' }}>
                   Our mission is to provide a conducive and dynamic learning environment that fosters academic excellence,
                   research and innovation, and prepares students to be leaders and innovators in the field of Information
-                  Technology and related fields. We aim to achieve this by:
+                  Technology and related fields. 
+                  <br></br>
+                  We aim to achieve this by:
                 </Typography>
-                <Typography color="textSecondary">
-                  {bull} Providing state-of-the-art infrastructure and facilities that support high-quality teaching, learning and research.
                   <br />
-                  <br />
-                  {bull} Offering industry-relevant and contemporary programs that cater to the needs of the industry and society.
-                  <br />
-                  <br />
-                  {bull} Providing opportunities for students to engage in research and innovation, and to develop skills and competencies required for the industry and society.
-                  <br />
-                  <br />
-                  {bull}Fostering a culture of inclusivity, diversity and social responsibility, where students and faculty are encouraged to make a positive contribution to society.
-                </Typography>
+                <ul className="mission-list"  style={{ listStyleType: 'disc' , paddingLeft:'10px', margin:0}}>
+                              {missionPoints.map((point) => (
+                                <li key={point}>
+                                  <Typography color="textSecondary" component="span" style={{ fontSize:'1.2rem'}}>
+                                    {point}
+                                  </Typography>
+                                </li>
+                              ))}
+                  </ul>
               </CardContent>
             </Card>
           </Grid>
@@ -241,6 +240,7 @@ const About = () => {
               textAlign: "left",
               lineHeight: "2",
               marginInline: "1rem",
+              fontSize:"1.2rem"
             }}
           >
             The focus is to address the challenges faced by the Indian IT
