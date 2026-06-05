@@ -256,7 +256,6 @@ const About = () => {
             in various domains. While the number of students produced would be
             small, the impact they create would be great.
             <br />
-            <br />
             As of June 14, 2021, IIIT Tiruchirappalli has started operating
             from the permanent campus at Sethurappatti. Before that IIIT
             Tiruchirappalli operated from temporary campus within the premises
@@ -265,6 +264,7 @@ const About = () => {
             operating in the temporary campus within the premises of National
             Institute of Technology (NIT) Campus, Tiruchirappalli – 620 015,
             Tamil Nadu, since March 2016. &nbsp;
+             <br />
              <br />
             IIIT Tiruchirappalli and Sardar Vallabhbhai National Institute of Technology 
             Surat have signed a Memorandum of Understanding (MoU) to foster collaboration 
