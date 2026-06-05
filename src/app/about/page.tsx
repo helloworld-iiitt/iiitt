@@ -265,6 +265,13 @@ const About = () => {
             operating in the temporary campus within the premises of National
             Institute of Technology (NIT) Campus, Tiruchirappalli – 620 015,
             Tamil Nadu, since March 2016. &nbsp;
+             <br />
+            IIIT Tiruchirappalli and Sardar Vallabhbhai National Institute of Technology 
+            Surat have signed a Memorandum of Understanding (MoU) to foster collaboration 
+            in joint research, academic activities, and innovation.
+            The MoU aims to promote collaborative academic programs, including internship
+            opportunities for B.Tech. and M.Tech. students, as well as joint research 
+            initiatives and innovation-driven projects between the two institutions.
           </Typography>
         </Card>
         <br />
