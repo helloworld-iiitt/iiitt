@@ -1,6 +1,11 @@
 { 
   "data": [
     {
+      "text": "[Modified] Tender Notification for Providing Mess Services in the Hostel at the Institute campus of IIIT Tiruchirappalli",
+      "link": "/tenders/Tender_Notification_for_ Providing_Mess_Services_JULY2026_Modified.pdf",
+       "isNew": true
+    },
+    {
       "text": "Advertisement for inviting applications under NOS 2026-27",
       "link": "/news/Advertisement for inviting applications under NOS 2026-27.pdf",
       "isNew": true
@@ -18,7 +23,7 @@
      {
       "text": "[Extension] Tender Notification for Providing Mess Services in the Hostel Mess at the Institute campus of IIIT Tiruchirappalli",
       "link": "/tenders/Tender_Notification_for_ Providing_Mess_Services_JULY2026 - Extension.pdf",
-       "isNew": true
+       "isNew": false
     },
      {
       "text": "Tender Notification for Providing Mess Services in the Hostel Mess at the Institute campus of IIIT Tiruchirappalli",
