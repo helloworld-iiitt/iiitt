@@ -88,8 +88,8 @@ export default function Scholarship() {
                         </li>
                         <br/>
                         <li className={styles.linear}>
-                            To apply on National Scholarship Portal (use the link:&nbsp;
-                            <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer">
+                            To apply on National Scholarship Portal (use the link:&nbsp; <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer">
+                               https://scholarships.gov.in/
                             </a>)
                         </li>
                     </ul>
