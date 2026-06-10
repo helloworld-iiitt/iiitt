@@ -69,28 +69,27 @@ export default function Scholarship() {
                         </Box>
                     <ul>
                         <li>
-                        <a href={`${nextConfig.env?.DOCUMENT}/scholarships/Letter to 265 institutions regarding NSP portal opening for the Year 2025-26.pdf`} target="_blank" rel="noopener noreferrer">
+                        <a href={`${nextConfig.env?.DOCUMENT}/scholarships/Slots of Colleges under Top Class College for OBCs_2026.pdf`} target="_blank" rel="noopener noreferrer">
                             <Typography variant="h6" color="primary">
-                                Opening of National Scholarship Portal for A.Y. 2025-26
+                                Opening of National Scholarship Portal (NSP) for Academic year 2026-27
                             </Typography>
                         </a>
                         </li>
                     <li>
                     <Typography variant="h6" gutterBottom>
-                        National Scholarship Portal (NSP 2.0) is inviting applications (Fresh and Renewal) under various schemes for the year 2025-26.
+                        National Scholarship Portal (NSP 2.0) is inviting applications (Fresh and Renewal) under various schemes for the year 2026-27.
                     </Typography>
                     </li>
                     <ul>
                         <li className={styles.linear}>
                             For information (use the link:&nbsp;<a href="https://scholarships.gov.in/All-Scholarships" target="_blank" rel="noopener noreferrer">
-                                https://scholarships.gov.in/All-Scholarships
+                                https://scholarships.gov.in/All-Scholarships 
                             </a>)
                         </li>
                         <br/>
                         <li className={styles.linear}>
                             To apply on National Scholarship Portal (use the link:&nbsp;
                             <a href="https://scholarships.gov.in/" target="_blank" rel="noopener noreferrer">
-                                https://scholarships.gov.in/
                             </a>)
                         </li>
                     </ul>
