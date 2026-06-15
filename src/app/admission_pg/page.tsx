@@ -45,7 +45,7 @@ const Admission_pg: React.FC = () => {
                     sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
                     className={styles.themeText}
                 >
-                    <strong>M.Tech. Admission 2025</strong>
+                    <strong>M.Tech. Admission 2026</strong>
                 </Typography>
             </Box>
             <Grid container className={styles.container} style={{ marginTop: "2rem" }}>
