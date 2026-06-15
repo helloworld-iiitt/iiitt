@@ -7,35 +7,39 @@
     ],
     "PhysicalReporting": [
         {
-            "name": "Details of Physical Reporting Process for I Semester (2025-26)",
-            "path": "/admission/First yr Reporting details 2025-26 - Final.pdf"
+            "name": "Details of Physical Reporting Process for I Semester (2026-27) (Soon details will be updated)",
+            "path": "#"
         }
     ],
     "feeStructures": [
         {
-            "name": "Fee Structure 2025",
-            "path": "/admission/1. B.Tech Fee structure 2025.pdf"
+            "name": "Fee Structure 2026",
+            "path": "#"
         },
         {
-            "name": "Refund Fee Structure 2025",
-            "path": "/admission/2. Fee Refund Structure 2025-2026.pdf"
+            "name": "Refund Fee Structure 2026",
+            "path": "#"
         },
         {
-            "name": "PRADHAN MANTRI VIDYALAXMI (PM-Vidyalaxmi) SCHEME GUIDELINES",
-            "path": "/admission/PM_Vidyalaxmi_Scheme_Guidelines.pdf"
+            "name": "National Scholarship Portal is open for Fresh and Renewal Applications - Opening of National Scholarship Portal (NSP) for Academic year 2026-27",
+            "path": "https://iiitt.ac.in/scholarship"
         }
     ],
     "forms": [
         {
             "name": "Undertaking form",
-            "path": "/admission/undertaking_2025-26.pdf"
+            "path": "#"
         },
         {
             "name": "Admission Cancellation Form",
-            "path": "/admission/Admission_cancellation_form2025-26.pdf"
+            "path": "#"
         }
     ],
     "openingRanks": [
+          {
+            "year": "2025",
+            "path": "/admission/Opening_and_Closing_Rank2026_Final.pdf"
+        },
         {
             "year": "2024",
             "path": "/admission/Opening_and_Closing_Rank 2025.pdf"
