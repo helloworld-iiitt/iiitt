@@ -97,14 +97,18 @@ const Admission_pg: React.FC = () => {
                             <hr></hr>
                             {program.items.map((item: any, index: number) => (
                                 <p key={index}>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href={validURL(item.url) ? item.url : `${nextConfig?.env?.DOCUMENT}/${item.url}`}
-                                        className={styles.link}
-                                    >
-                                        {item.label}
-                                    </a>
+                                     {item.url ? (
+                                              <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href={validURL(item.url)  ? item.url: `${nextConfig?.env?.DOCUMENT}/${item.url}`
+                                       }
+                                      className={styles.link}
+                                        >
+                                      {item.label}
+                                       </a> ) : (
+                                        item.label
+                                        )}
                                 </p>
                             ))}
 
