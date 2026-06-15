@@ -107,12 +107,19 @@ const AdmissionUG: React.FC = () => {
                 sx={{ display: 'list-item', py: 0 }}
               >
                 <a
-                  target="_blank"
+                  target={PhysicalReporting?.path ? "_blank" : "_self"}
                   rel="noopener noreferrer"
-                  href={validURL(PhysicalReporting.path) ? PhysicalReporting.path : `${nextConfig?.env?.DOCUMENT}${PhysicalReporting.path}`}
-                  className={styles.link}
+                  href={
+                  PhysicalReporting?.path
+                  ? (validURL(PhysicalReporting.path)
+                  ? PhysicalReporting.path
+                  : `${nextConfig?.env?.DOCUMENT}${PhysicalReporting.path}`)
+                 : "#"
+                 }
+                onClick={!PhysicalReporting?.path ? (e) => e.preventDefault() : undefined}
+                className={styles.link}
                 >
-                  {PhysicalReporting.name}
+                {PhysicalReporting.name}
                 </a>
               </ListItem>
             ))}
@@ -141,14 +148,22 @@ const AdmissionUG: React.FC = () => {
                 key={index}
                 sx={{ display: 'list-item', py: 0 }}
               >
+               
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={validURL(feeStructure.path) ? feeStructure.path : `${nextConfig?.env?.DOCUMENT}${feeStructure.path}`}
-                  className={styles.link}
-                >
+                 target={feeStructure?.path ? "_blank" : "_self"}
+                 rel="noopener noreferrer"
+                 href={
+                 feeStructure?.path
+                 ? (validURL(feeStructure.path)
+                 ? feeStructure.path
+                 : `${nextConfig?.env?.DOCUMENT}${feeStructure.path}`)
+                 : "#"
+                 }
+                 onClick={!feeStructure?.path ? (e) => e.preventDefault() : undefined}
+                 className={styles.link}
+                  >
                   {feeStructure.name}
-                </a>
+                  </a>
               </ListItem>
             ))}
           </List>
@@ -196,14 +211,21 @@ const AdmissionUG: React.FC = () => {
                 key={index}
                 sx={{ display: 'list-item', py: 0 }}
               >
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={validURL(forms.path) ? forms.path : `${nextConfig?.env?.DOCUMENT}${forms.path}`}
-                  className={styles.link}
-                >
-                  {forms.name}
-                </a>
+                  <a
+                   target={forms?.path ? "_blank" : "_self"}
+                   rel="noopener noreferrer"
+                   href={
+                   forms?.path
+                   ? (validURL(forms.path)
+                   ? forms.path
+                   : `${nextConfig?.env?.DOCUMENT}${forms.path}`)
+                   : "#"
+                   }
+                   onClick={!forms?.path ? (e) => e.preventDefault() : undefined}
+                   className={styles.link}
+                  >
+                 {forms.name}
+                 </a>
               </ListItem>
             ))}
           </List>
