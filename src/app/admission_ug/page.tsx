@@ -51,7 +51,7 @@ const AdmissionUG: React.FC = () => {
           sx={{ color: "#2e8b57", pl: { xs: 2, sm: 6 }, pr: { xs: 2, sm: 6 } }}
           className={styles.themeText}
         >
-          <strong>B.Tech Admission 2025</strong>
+          <strong>B.Tech Admission 2026</strong>
         </Typography>
       </Box>
       <Box mb={2}>
@@ -94,7 +94,7 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
-          <strong>Details of Physical Reporting Process</strong>
+          <strong>Details of Physical Reporting Process (Details will be updated shortly)</strong>
         </Typography>
       </Box>
 
@@ -129,7 +129,7 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
-          <strong>Fee Structure</strong>
+          <strong>Fee Structure (Soon Details will be Updated) </strong>
         </Typography>
       </Box>
 
@@ -183,7 +183,7 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
-          <strong>Forms</strong>
+          <strong>Forms (Soon Details will be Updated) </strong>
         </Typography>
       </Box>
 
