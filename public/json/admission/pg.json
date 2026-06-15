@@ -6,10 +6,10 @@
   "programdetails": [
       {   
         "id": "ccmt2026",
-        "title": "CCMT 2026 (Soon Details will be Updated) ",
+        "title": "CCMT 2026 (Soon Details will be Updated) "
         "items": [
           {
-            "label": "MTech_Online_Reporting_Details_2026",
+            "label": "MTech_Online_Reporting_Details_2026"
         
           },
           {
@@ -17,11 +17,11 @@
             "url": "https://ccmt.admissions.nic.in/"
           },
           {
-            "label": "M.Tech. Fee Structure 2026",
+            "label": "M.Tech. Fee Structure 2026"
       
           },
           {
-            "label": "Fee Refund Structure 2026",
+            "label": "Fee Refund Structure 2026"
            
           }
         ]
@@ -31,7 +31,7 @@
         "title": "MTech (Self Supporting) Programmes 2026-2027 (Soon Details will be Updated",
         "items": [
            {
-            "label": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2026-2027",
+            "label": "ADMISSION TO M. Tech. (Self-Support) PROGRAMMES 2026-2027"
             
           }
         ]
