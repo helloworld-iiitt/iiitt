@@ -71,10 +71,18 @@ export default function Scholarship() {
                         <li>
                         <a href={`${nextConfig.env?.DOCUMENT}/scholarships/Slots of Colleges under Top Class College for OBCs_2026.pdf`} target="_blank" rel="noopener noreferrer">
                             <Typography variant="h6" color="primary">
-                                Opening of National Scholarship Portal (NSP) for Academic year 2026-27
+                                Opening of National Scholarship Portal (NSP) for OBC, EBC and DNT students - (Academic year 2026-27)
                             </Typography>
                         </a>
                         </li>
+                        <li>
+                        <a href={`${nextConfig.env?.DOCUMENT}/scholarships/NFS for HE of ST A.Y 2026–27.pdf`} target="_blank" rel="noopener noreferrer">
+                            <Typography variant="h6" color="primary">
+                                National Fellowship and Scholarship for Higher Education of ST Students- Top Class Scheme (Academic year 2026-27)
+                            </Typography>
+                        </a>
+                        </li>
+                                               
                     <li>
                     <Typography variant="h6" gutterBottom>
                         National Scholarship Portal (NSP 2.0) is inviting applications (Fresh and Renewal) under various schemes for the year 2026-27.
