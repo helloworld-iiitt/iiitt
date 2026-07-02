@@ -8,7 +8,6 @@
  */
 "use client";
 
-import { RTIData } from '@/types/common.types';
 import { RTIData, RTIReturn, RTIResponse } from '@/types/common.types';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {
