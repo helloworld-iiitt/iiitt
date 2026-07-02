@@ -165,6 +165,51 @@ export default function RTI() {
         </Table>
       </TableContainer>
 
+  <Typography variant="h5" gutterBottom className={styles.sectionTitle}>
+  Report on RTI Returns for 2025–26
+</Typography>
+
+<TableContainer component={Paper} className={styles.table} sx={{ mb: 4 }}>
+  <Table>
+    <TableHead>
+      <TableRow>
+        <TableCell className={styles.tableHead}>Quarter</TableCell>
+        <TableCell className={styles.tableHead} align="center">
+          Opening Balance
+        </TableCell>
+        <TableCell className={styles.tableHead} align="center">
+          No. of RTIs Received
+        </TableCell>
+        <TableCell className={styles.tableHead} align="center">
+          No. of RTIs Replied
+        </TableCell>
+      </TableRow>
+    </TableHead>
+
+    <TableBody>
+      {rtiReturns.map((item, index) => (
+        <TableRow key={index}>
+          <TableCell className={styles.tableCell}>
+            {item.quarter}
+          </TableCell>
+
+          <TableCell className={styles.tableCell} align="center">
+            {item.openingBalance}
+          </TableCell>
+
+          <TableCell className={styles.tableCell} align="center">
+            {item.received}
+          </TableCell>
+
+          <TableCell className={styles.tableCell} align="center">
+            {item.replied}
+          </TableCell>
+        </TableRow>
+      ))}
+    </TableBody>
+  </Table>
+</TableContainer>
+
       <Box sx={{ mt: 8 }}>
       <Typography variant="h5" gutterBottom>
         Important Links
