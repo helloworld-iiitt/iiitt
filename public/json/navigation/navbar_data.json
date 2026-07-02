@@ -226,6 +226,12 @@
       "link": "http://placement.iiitt.ac.in/"
     },
     {
+      "text": "manuals",
+      "icon": "manuals",
+      "name": "manuals",
+      "link": "/manuals"
+    },
+    {
       "text": "Library",
       "icon": "library",
       "name": "Library",
