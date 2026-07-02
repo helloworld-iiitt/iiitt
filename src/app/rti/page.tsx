@@ -9,6 +9,7 @@
 "use client";
 
 import { RTIData } from '@/types/common.types';
+import { RTIData, RTIReturn, RTIResponse } from '@/types/common.types';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {
   Box,
@@ -61,6 +62,7 @@ const bottomLinks = [
 
 export default function RTI() {
   const [rtiList, setRtiList] = useState<RTIData[]>([]);
+  const [rtiReturns, setRtiReturns] = useState<RTIReturn[]>([]);
   const currentOfficers = rtiList.slice(0, 2);
   const tenureHistory = rtiList.slice(2);
 
@@ -75,8 +77,9 @@ export default function RTI() {
     const fetchRTIData = async () => {
       try {
         const response = await fetch("/json/committee/members/rti.json");
-        const data = await response.json();
+        const data: RTIResponse = await response.json();
         setRtiList(data.data);
+        setRtiReturns(data.rtiReturns);
       } catch (error) {
         console.error("Error fetching RTI data:", error);
       }
@@ -165,22 +168,44 @@ export default function RTI() {
         </Table>
       </TableContainer>
 
-  <Typography variant="h5" gutterBottom className={styles.sectionTitle}>
+     <Typography
+  variant="h5"
+  gutterBottom
+  className={styles.sectionTitle}
+>
   Report on RTI Returns for 2025–26
 </Typography>
 
-<TableContainer component={Paper} className={styles.table} sx={{ mb: 4 }}>
+<TableContainer
+  component={Paper}
+  className={styles.table}
+  sx={{ mb: 4 }}
+>
   <Table>
     <TableHead>
       <TableRow>
-        <TableCell className={styles.tableHead}>Quarter</TableCell>
-        <TableCell className={styles.tableHead} align="center">
+        <TableCell className={styles.tableHead}>
+          Quarter
+        </TableCell>
+
+        <TableCell
+          className={styles.tableHead}
+          align="center"
+        >
           Opening Balance
         </TableCell>
-        <TableCell className={styles.tableHead} align="center">
+
+        <TableCell
+          className={styles.tableHead}
+          align="center"
+        >
           No. of RTIs Received
         </TableCell>
-        <TableCell className={styles.tableHead} align="center">
+
+        <TableCell
+          className={styles.tableHead}
+          align="center"
+        >
           No. of RTIs Replied
         </TableCell>
       </TableRow>
@@ -193,15 +218,21 @@ export default function RTI() {
             {item.quarter}
           </TableCell>
 
-          <TableCell className={styles.tableCell} align="center">
+          <TableCell
+            className={styles.tableCell}
+            align="center">
             {item.openingBalance}
           </TableCell>
 
-          <TableCell className={styles.tableCell} align="center">
+          <TableCell
+            className={styles.tableCell}
+            align="center">
             {item.received}
           </TableCell>
 
-          <TableCell className={styles.tableCell} align="center">
+          <TableCell
+            className={styles.tableCell}
+            align="center">
             {item.replied}
           </TableCell>
         </TableRow>
