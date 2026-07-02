@@ -107,6 +107,17 @@ export interface RTIData {
   fax?: string;
   src: string;
 }
+export interface RTIReturn {
+  quarter: string;
+  openingBalance: number;
+  received: number;
+  replied: number;
+}
+
+export interface RTIResponse {
+  data: RTIData[];
+  rtiReturns: RTIReturn[];
+}
 
 
 export interface studentdata {
