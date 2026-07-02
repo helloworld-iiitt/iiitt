@@ -165,6 +165,39 @@ export default function RTI() {
         </Table>
       </TableContainer>
 
+     <Typography variant="h5" gutterBottom className={styles.sectionTitle}>
+        Report on RTI Returns for 2025-26
+      </Typography>
+      <TableContainer component={Paper} className={styles.table} sx={{ mb: 4 }}>
+        <Table>
+         <TableHead>
+         <TableRow>
+                   <TableCell className={styles.tableHead}>SI. No.</TableCell>
+                   <TableCell className={styles.tableHead}>Quarters</TableCell>
+                   <TableCell className={styles.tableHead}>Opening Balance</TableCell>
+                   <TableCell className={styles.tableHead}>No. of RTIs Received</TableCell>
+                   <TableCell className={styles.tableHead}>No. of RTIs Replied</TableCell>
+          </TableRow>
+         </TableHead>
+        <TableBody>
+         {[
+             { quarter: "1st Quarter April–June", opening: 13, received: 37, replied: 41 },
+             { quarter: "2nd Quarter July–September", opening: 34, received: 53, replied: 73 },
+             { quarter: "3rd Quarter October–December", opening: 45, received: 48, replied: 83 },
+             { quarter: "4th Quarter January–March", opening: 43, received: 51, replied: 75 }
+             ].map((row, idx) => (
+            <TableRow key={idx} className={styles.tableRow}>
+            <TableCell className={styles.tableCell}>{idx + 1}</TableCell>
+            <TableCell className={styles.tableCell}>{row.quarter}</TableCell>
+            <TableCell className={styles.tableCell}>{row.opening}</TableCell>
+           <TableCell className={styles.tableCell}>{row.received}</TableCell>
+           <TableCell className={styles.tableCell}>{row.replied}</TableCell>
+          </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+   </TableContainer> 
+
       <Box sx={{ mt: 8 }}>
       <Typography variant="h5" gutterBottom>
         Important Links
