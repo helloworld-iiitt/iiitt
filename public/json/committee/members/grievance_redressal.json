@@ -1,0 +1,122 @@
+{
+  "internal_complaints": [
+    {
+      "name": "Dr. R. Dhanalakshmi",
+      "designation": "Associate Professor, IIITT",
+      "position": "Chairperson"
+    },
+    {
+      "name": "Dr. Kamakshi Koppole",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. Anoop Jacob Thomas",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. T. Sugirtha",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. Banoth Ravi",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Medical Officer",
+      "designation": "Medical Practitioner, NITT or Harshamitra Speciality Cancer Hospital, Trichy",
+      "position": "External Member"
+    }
+  ],
+  "disciplinary": [
+    {
+      "name": "Dr. Kamakshi Koppole",
+      "designation": "Associate Professor, IIITT",
+      "position": "Chairperson"
+    },
+    {
+      "name": "Head (ECE)",
+      "designation": "Faculty Member of IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Head (CSE)",
+      "designation": "Faculty Member of IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. T. Sugirtha",
+      "designation": "Associate Professor, IIITT (Warden)",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. Banoth Ravi",
+      "designation": "Associate Professor, IIITT (Warden)",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    },
+    {
+      "name": "Dr. Anoop Jacob Thomas",
+      "designation": "Associate Professor, IIITT",
+      "position": "Member"
+    }
+  ],
+  "anti_ragging": [
+    {
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Associate Professor, IIITT",
+      "role": "In-charge"
+    },
+    {
+      "name": "Dr. R. Krishnamurthy",
+      "designation": "Associate Professor, IIITT",
+      "role": "Member"
+    },
+    {
+      "name": "Dr. T. Sugirtha",
+      "designation": "Associate Professor, IIITT",
+      "role": "Member"
+    }
+  ],
+  "sc_st": [
+    {
+      "name": "Dr. R. Dhanalakshmi",
+      "designation": "Associate Professor, IIITT",
+      "role": "In-charge"
+    },
+    {
+      "name": "Dr. R. Krishnamurthy",
+      "designation": "Associate Professor, IIITT",
+      "role": "In-charge"
+    },
+    {
+      "name": "Dr. M. Ambika",
+      "designation": "Associate Professor, IIITT",
+      "role": "Member"
+    }
+  ],
+  "liaison": [
+    {
+      "name": "Dr. Velmurugan C",
+      "designation": "Associate Professor, IIITT",
+      "role": "SC/ST Liaison Officer"
+    },
+    {
+      "name": "Dr. Jagadeeshwar Pashikanti",
+      "designation": "Associate Professor, IIITT",
+      "role": "OBC Liaison Officer"
+    }
+  ]
+}

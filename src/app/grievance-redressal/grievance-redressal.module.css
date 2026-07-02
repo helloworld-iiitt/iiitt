@@ -1,0 +1,40 @@
+.pageContainer {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  color: #2e8b57;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.sectionTitle {
+  color: #256f46;
+  font-weight: 800;
+  margin-top: 2rem;
+}
+
+.table {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px rgba(17, 24, 39, 0.06);
+  border: 1px solid #e3efe7;
+  overflow: hidden;
+}
+
+.tableHead {
+  font-weight: bold;
+  background-color: #eef7f1;
+  color: #1f3f2d;
+}
+
+.tableRow:hover {
+  background-color: #f9f9f9;
+}
+
+.tableCell {
+  padding: 10px;
+}
