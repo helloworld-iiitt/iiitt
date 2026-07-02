@@ -111,4 +111,31 @@
       "toDate": "Till Date"
     }
   ]
+  "rtiReturns": [
+    {
+      "quarter": "1st Quarter (April-June)",
+      "openingBalance": 13,
+      "received": 37,
+      "replied": 41
+    },
+    {
+      "quarter": "2nd Quarter (July-September)",
+      "openingBalance": 34,
+      "received": 53,
+      "replied": 73
+    },
+    {
+      "quarter": "3rd Quarter (October-December)",
+      "openingBalance": 45,
+      "received": 48,
+      "replied": 83
+    },
+    {
+      "quarter": "4th Quarter (January-March)",
+      "openingBalance": 43,
+      "received": 51,
+      "replied": 75
+    }
+  ]
 }
+
