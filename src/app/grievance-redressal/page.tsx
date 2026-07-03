@@ -47,6 +47,13 @@ export default function GrievanceRedressal() {
     useState<GrievanceRedressalList | null>(null);
 
   useEffect(() => {
+    document.title = "Grievance Redressal | IIIT Tiruchirappalli ";
+    return () => {
+      document.title = "IIIT Trichy";
+    };
+  }, []);
+
+  useEffect(() => {
     const fetchGrievanceRedressalData = async () => {
       try {
         const response = await fetch(
@@ -64,7 +71,9 @@ export default function GrievanceRedressal() {
 
   return (
     <div className={styles.pageContainer}>
-      <Typography variant="h2" className={styles.heading}>Grievance Redressal</Typography>
+      <Typography variant="h2" className={styles.heading}>
+        Grievance Redressal
+      </Typography>
       <Typography variant="body1" sx={{ mb: 4, mt: 4 }}>
         The Institute has the following committees to address the Grievances of
         the Stakeholders alongside the Public Grievance Portal of the Government
