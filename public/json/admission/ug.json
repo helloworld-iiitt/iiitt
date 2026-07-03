@@ -8,17 +8,15 @@
     "PhysicalReporting": [
         {
             "name": "Details of Physical Reporting Process for I Semester (2026-27) (Soon details will be updated)"
-            
         }
     ],
     "feeStructures": [
         {
-            "name": "Fee Structure 2026" 
+            "name": "Fee Structure 2026",
             "path": "admission/IIITT-Fee Structure for the AY-202627 ODD Semester_ Final.pdf"
         },
         {
             "name": "Refund Fee Structure 2026"
-            
         },
         {
             "name": "National Scholarship Portal is open for Fresh and Renewal Applications - Opening of National Scholarship Portal (NSP) for Academic year 2026-27",
@@ -28,15 +26,13 @@
     "forms": [
         {
             "name": "Undertaking form"
-           
         },
         {
             "name": "Admission Cancellation Form"
-           
         }
     ],
     "openingRanks": [
-          {
+        {
             "year": "2025",
             "path": "/admission/Opening_and_Closing_Rank2026_Final.pdf"
         },
