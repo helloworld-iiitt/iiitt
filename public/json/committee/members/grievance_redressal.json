@@ -7,27 +7,27 @@
     },
     {
       "name": "Dr. Kamakshi Koppole",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     },
     {
       "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     },
     {
       "name": "Dr. Anoop Jacob Thomas",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     },
     {
       "name": "Dr. T. Sugirtha",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     },
     {
       "name": "Dr. Banoth Ravi",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     },
     {
@@ -39,7 +39,7 @@
   "disciplinary": [
     {
       "name": "Dr. Kamakshi Koppole",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Chairperson"
     },
     {
@@ -54,39 +54,39 @@
     },
     {
       "name": "Dr. T. Sugirtha",
-      "designation": "Associate Professor, IIITT (Warden)",
+      "designation": "Assistant Professor, IIITT (Warden)",
       "position": "Member"
     },
     {
       "name": "Dr. Banoth Ravi",
-      "designation": "Associate Professor, IIITT (Warden)",
+      "designation": "Assistant Professor, IIITT (Warden)",
       "position": "Member"
     },
     {
       "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     },
     {
       "name": "Dr. Anoop Jacob Thomas",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "position": "Member"
     }
   ],
   "anti_ragging": [
     {
       "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "In-charge"
     },
     {
       "name": "Dr. R. Krishnamurthy",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "Member"
     },
     {
       "name": "Dr. T. Sugirtha",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "Member"
     }
   ],
@@ -98,24 +98,24 @@
     },
     {
       "name": "Dr. R. Krishnamurthy",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "In-charge"
     },
     {
       "name": "Dr. M. Ambika",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "Member"
     }
   ],
   "liaison": [
     {
       "name": "Dr. Velmurugan C",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "SC/ST Liaison Officer"
     },
     {
       "name": "Dr. Jagadeeshwar Pashikanti",
-      "designation": "Associate Professor, IIITT",
+      "designation": "Assistant Professor, IIITT",
       "role": "OBC Liaison Officer"
     }
   ]
