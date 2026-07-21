@@ -1,5 +1,6 @@
 {
     "curriculum": {
+    "CSE":{
        "B.Tech Minor and Honors Degrees":{
             "Syllabus (2026)":"curriculum/IIITT_Honors_Minors_Syllabus.pdf"
         },
@@ -39,4 +40,4 @@
       }
     }
   }
-  
+}  
