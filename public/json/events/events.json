@@ -1,6 +1,12 @@
 {
     "data": [
         {
+            "title": "[New] AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems & Machine Learning and Cyber Physical Systems for Trustworthy UAV Systems”",
+            "description": "[New] AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems & Machine Learning and Cyber Physical Systems for Trustworthy UAV Systems”",
+            "link": "events/AICTE -QIP-PG MLCPS_Phase-II_Courses_2026.jpeg",
+            "isNew":true
+        },
+        {
             "title": "Invitation of Institute Day Celebration 2026",
             "description": "Invitation of Institute Day Celebration 2026",
             "link": "https://youtube.com/live/EHnwf0drIcI?feature=share",
@@ -22,7 +28,7 @@
             "title": "[New] AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems”",
             "description": "[New] AICTE QIP sponsored PG certificate programme on “Machine Learning and Cyber Physical Systems”",
             "link": "events/IIITT_Machine Learning and Cyber Physical Systems_jan2026.pdf",
-            "isNew":true
+            "isNew":false
         },
         {
             "title": "[New] AICTE QIP sponsored PG certificate course on “3D Printing and Additive Manufacturing” ",
