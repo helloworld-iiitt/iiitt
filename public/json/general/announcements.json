@@ -1,5 +1,10 @@
 { 
   "data": [ 
+          {
+        "text": "Admission to M.Tech. (Self-Support) Programme - (AY 2026–2027) ",
+        "link": "https://iiitt.ac.in/admission_pg",
+        "isNew": true
+        },
          {
          "text": "Rolling Advertisement For The Post of Project Staff Under IIT MANDI IHUB & HCI FOUNDATION FUNDED PROJECT",
          "link": "/c2s/IIT Mandi - Project staff Advertisement.pdf",
@@ -7,7 +12,7 @@
          },
          {
          "text": "Physical Reporting for First-Year B.Tech. and M.Tech. Programmes (Admission 2026): 20.08.2026 and 21.08.2026.",
-         "link": "https://iiitt.ac.in/",
+         "link": "https://iiitt.ac.in/admission",
          "isNew": true
         },
         {
@@ -20,11 +25,6 @@
          "link": "/news/Dept_CSE_walkin_final_I_2026 temporary faculty inteview - July_ODD_Sem.pdf",
          "isNew": true
         },
-        {
-        "text": "Admission to M.Tech. (Self-Support) Programme - (AY 2026–2027) ",
-        "link": "/admission/MTECH self support Brochure_ July 2026_self.pdf",
-        "isNew": true
-      },
       {
       "text": "Fee Structure for B.Tech. (II, III & IV Year), M.Tech. (II Year), and Ph.D. Programmes – Odd Semester (AY 2026–2027) ",
       "link": "/admission/Fees Structure II III IV Year_July2026.pdf",
