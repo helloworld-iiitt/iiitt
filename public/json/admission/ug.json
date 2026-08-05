@@ -7,13 +7,16 @@
     ],
     "PhysicalReporting": [
         {
+            "name": "Physical Reporting for First-Year B.Tech. Programmes (Admission 2026): 20.08.2026 and 21.08.2026."
+        },
+        {
             "name": "Details of Physical Reporting Process for I Semester (2026-27) (Soon details will be updated)"
         }
     ],
     "feeStructures": [
         {
             "name": "Fee Structure 2026",
-            "path": "/admission/IIITT-Fee Structure for the AY-202627 ODD Semester_ Final.pdf" 
+            "path": "/admission/B.Tech. Fee Structure for the AY-202627 ODD Semester_ 1 sem.pdf" 
         },
         {
             "name": "Refund Fee Structure 2026"
