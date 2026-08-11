@@ -136,6 +136,154 @@
       "received": 51,
       "replied": 75
     }
+  ],
+  "links": [
+    {
+      "label": "BOG members and minutes",
+      "href": "/bog"
+    },
+    {
+      "label": "Chairpersn",
+      "href": ""
+    },
+    {
+      "label": "Director",
+      "href": "/director"
+    },
+    {
+      "label": "Registrar",
+      "href": "/registrar"
+    },
+    {
+      "label": "Senate members and minutes",
+      "href": "/senate"
+    },
+    {
+      "label": "Finance Committee members and minutes",
+      "href": "/fc"
+    },
+    {
+      "label": "Building Works Committee",
+      "href": "/bwc"
+    },
+    {
+      "label": "Head of the Department",
+      "href": "/departments"
+    },
+    {
+      "label": "List of faculty members",
+      "href": "/faculty"
+    },
+    {
+      "label": "List of Non-teaching staffs",
+      "href": "/staff"
+    },
+    {
+      "label": "Students Financial Support",
+      "href": "/scholarship"
+    },
+    {
+      "label": "Festivals",
+      "href": "/festivals"
+    },
+    {
+      "label": "Clubs",
+      "href": "/clubs"
+    },
+    {
+      "label": "Software and Hardware Laboratories",
+      "href": "/facilities"
+    },
+    {
+      "label": "C2S Project Laboratory",
+      "href": "/c2sproject"
+    },
+    {
+      "label": "Hostel and Mess",
+      "href": "/hostel"
+    },
+    {
+      "label": "Spors",
+      "href": ""
+    },
+    {
+      "label": "Library",
+      "href": "/facilities"
+    },
+    {
+      "label": "Canteen",
+      "href": "/facilities"
+    },
+    {
+      "label": "Medical room",
+      "href": "/facilities"
+    },
+    {
+      "label": "Securiy",
+      "href": ""
+    },
+    {
+      "label": "Communication Servics",
+      "href": ""
+    },
+    {
+      "label": "Conference hall and seminar hals",
+      "href": ""
+    },
+    {
+      "label": "Training and Placement Cell",
+      "href": "http://placement.iiitt.ac.in/"
+    }
+  ],
+  "purchaseManuals": [
+    {
+      "name": "Purchase_Manual_IIITT",
+      "path": "1. Purchase_Manual_IIITT.pdf"
+    },
+    {
+      "name": "RTI Act 2005 (English)",
+      "path": "2. RTI Act 2005 (English).pdf"
+    },
+    {
+      "name": "RTI Act 2005 (Hindi)",
+      "path": "3. RTI Act 2005 (Hindi).pdf"
+    },
+    {
+      "name": "Institute's Organogram",
+      "path": "4. Institute's Organogram.pdf"
+    },
+    {
+      "name": "Nodal Officers",
+      "path": "5. Nodal Officers.pdf"
+    },
+    {
+      "name": "IIITT - Directory of Officials",
+      "path": "6. IIITT - Directory of Officials.pdf"
+    },
+    {
+      "name": "Monthly Remuneration of Employees",
+      "path": "7. Monthly Remuneration of Employees.pdf"
+    },
+    {
+      "name": "National Scholarship Data 2025-26",
+      "path": "8. National Scholarship Data 2025-26.pdf"
+    },
+    {
+      "name": "Parlimentary Questions and Replies for 2025-26",
+      "path": "9. Parlimentary Questions and Replies for 2025-26.pdf"
+    },
+    {
+      "name": "RTI Quarterly Returns 2025-26",
+      "path": "10. RTI Quarterly Returns 2025-26.pdf"
+    },
+    {
+      "name": "STQC For CCTV Cameras - CPPLUS",
+      "path": "11. STQC For CCTV Cameras - CPPLUS.pdf"
+    },
+    {
+      "name": "Third Party Transparency Audit Report 2024-25",
+      "path": "12. Third Party Transparency Audit Report 2024-25.pdf"
+    }
   ]
 }
 

@@ -13,7 +13,7 @@ export interface Club {
   motto: string;
   emoji: string;
   logo?: string;
-  tag: string
+  tag: string;
   facultyIncharge: string;
   coordinator: { name: string }[];
 }
@@ -41,13 +41,6 @@ export interface ClubDetailsProps {
   club: Club;
   upcomingEvents?: Event[]; // Optional events prop
 }
-
-
-
-
-
-
-
 
 export interface CurriculumData {
   curriculum: {
@@ -78,13 +71,13 @@ export interface FestivalData {
       name: string;
       url: string;
       download: boolean;
-    }
+    },
   ];
   images: [
     {
       name: string;
       path: string;
-    }
+    },
   ];
 }
 
@@ -117,8 +110,9 @@ export interface RTIReturn {
 export interface RTIResponse {
   data: RTIData[];
   rtiReturns: RTIReturn[];
+  links: { label: string; href: string }[];
+  purchaseManuals: { name: string; path: string }[];
 }
-
 
 export interface studentdata {
   name: string;
@@ -126,4 +120,3 @@ export interface studentdata {
   emailId: string;
   src: string;
 }
-
