@@ -94,7 +94,7 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
-          <strong>Details of Physical Reporting Process (Details will be updated shortly)</strong>
+          <strong>Details of Physical Reporting Process </strong>
         </Typography>
       </Box>
 
@@ -136,7 +136,7 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
-          <strong>Fee Structure (Soon Details will be Updated) </strong>
+          <strong>Fee Structure </strong>
         </Typography>
       </Box>
 
