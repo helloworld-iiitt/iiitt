@@ -198,7 +198,7 @@ const AdmissionUG: React.FC = () => {
           className={styles.themeText}
           gutterBottom
         >
-          <strong>Forms (Soon Details will be Updated) </strong>
+          <strong>Forms </strong>
         </Typography>
       </Box>
 
