@@ -34,7 +34,7 @@
     "forms": [
          {
           "name": "Hostel accommodation form",
-          "path": "admission/Hostel-Accommodation_Form_2026.pdf"
+          "path": "/admission/Hostel-Accommodation_Form_2026.pdf"
         },
         {
             "name": "Admission Cancellation Form"
