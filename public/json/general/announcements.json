@@ -1,6 +1,16 @@
 { 
   "data": [ 
-          {
+        {
+         "text": "Physical Reporting for First-Year B.Tech. Programmes (Admission 2026) with Reporting Detials: 20.08.2026 and 21.08.2026.",
+         "link": "/admission/First yearr Reporting details 2026-27 - Final - V2.pdf",
+         "isNew": true
+        },
+         {
+         "text": "Physical Reporting for First-Year B.Tech. Programmes (Admission 2026) with Reporting Detials - DASA Students: 20.08.2026 and 21.08.2026.",
+         "link": "/admission/DASA - First yearr Reporting details 2026-27 -1.pdf",
+         "isNew": true
+        },
+        {
          "text": "Shortlisted Candidates for the Written Test – M.Tech. Admissions (Self-Supporting), 2026–2027",
          "link": "/admission/M.Tech -August -2026_ shortlisted_written test.pdf",
          "isNew": true
@@ -20,11 +30,7 @@
             "link": "/admission/IIITT-Fee Structure for the AY-202627 ODD Semester_ DASA.pdf",
             "isNew": true
            },
-         {
-         "text": "Physical Reporting for First-Year B.Tech. Programmes (Admission 2026) with Reporting Detials: 20.08.2026 and 21.08.2026.",
-         "link": "/admission/First year Reporting details 2026-27 - Final.pdf",
-         "isNew": true
-        },
+        
        {
         "text": "Admission to M.Tech. (Self-Support) Programme - AY 2026–2027 (Last Date of filling up Online Application Extended upto - 7th August 2026.) ",
         "link": "https://iiitt.ac.in/admission_pg",
