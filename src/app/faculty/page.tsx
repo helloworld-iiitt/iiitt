@@ -13,6 +13,7 @@ const orderofDesignation = [
   "Professor",
   "Associate Professor",
   "Assistant Professor",
+  "Temporary Faculty",
 ];
 
 const Faculty = () => {
@@ -25,6 +26,7 @@ const Faculty = () => {
 
   const normalizeDesignation = (designation: string): string => {
     const lower = designation.toLowerCase();
+    if (lower.includes("temporary")) return "Temporary Faculty";
     if (lower.includes("assistant")) return "Assistant Professor";
     if (lower.includes("associate")) return "Associate Professor";
     if (lower.includes("professor")) return "Professor";
@@ -157,7 +159,7 @@ const Faculty = () => {
                             </div>
                           ))}
                         </div>
-                        {designation === "Assistant Professor" && <hr></hr>}
+                        {designation === "Temporary Faculty" && <hr></hr>}
 
                       </div>
                     );
