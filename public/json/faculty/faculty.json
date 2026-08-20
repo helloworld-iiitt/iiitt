@@ -117,8 +117,34 @@
       "Institute": "Ph.D. CSE (NIT Tiruchirappalli) under Visvesvaraya Phd Scheme",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/212555",
       "PersonalPage": "https://sites.google.com/site/kokilajrsnitt/?pli=1"
-    }
+    },
+    {
+      "id": {
+        "dept": "dsh",
+        "deptID": "8"
+      },
+      "name": "Dr. A. Preethi",
+      "designation": "Temporary Faculty",
+      "researchArea": "Deep Learning, Machine Learning and Image Processing",
+      "emailID": "preethia.tf@iiitt.ac.in",
+      "src": "/faculty/PreethiA.JPG",
+      "Institute": "Ph.D (CSE) - Annamalai University, Chidambaram"
+    },
+    {
+      "id": {
+        "dept": "dsh",
+        "deptID": "9"
+      },
+      "name": "Dr. K. Jayasri",
+      "designation": "Temporary Faculty",
+      "researchArea": "Blockchain Technology, Information Security, Data Privacy, Cryptography and Optimization Algorithms",
+      "emailID": "jayasrik.tf@iiitt.ac.in",
+      "src": "/faculty/JayasriK.jpg",
+      "Institute": "Ph. D - CSE - Anna University, Tiruchirappalli",
+      "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/731549"
+    } 
   ],
+
   "Electronics and Communication Engineering | ECE": [
     {
       "id": {
@@ -237,6 +263,18 @@
       "Institute": "Ph.D. ECE (NIT Tiruchirappalli)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/588971",
        "PersonalPage": "https://sites.google.com/iiitt.ac.in/dr-harish-adhithya-m/about-me"
+    },
+    {
+      "id": {
+        "dept": "dsh",
+        "deptID": "8"
+      },
+      "name": "Dr. T Devashena",
+      "designation": "Temporary Faculty",
+      "researchArea": "Robotics, Smart Materials and Automation",
+      "emailID": "tdevashena@gmail.com",
+      "src": "/faculty/ Devashenat.png",
+      "Institute": "Ph.D. (NIT Tiruchirappalli), M.E.(Anna University), B.E.(Bharathidasan University)"
     }
   ],
   " Mechanical Engineering | ME": [
@@ -316,6 +354,30 @@
       "Institute": "Ph.D. (CEG Campus, Anna University Chennai)",
       "VidhwanLink": "https://vidwan.inflibnet.ac.in/profile/194483",
       "PersonalPage": "http://store.iiitt.ac.in/downloads/Faculty_Profiles/Sindhu_Profile.pdf"
+    },
+    {
+      "id": {
+        "dept": "dsh",
+        "deptID": "4"
+      },
+      "name": "KARUPPASAMY S",
+      "designation": "Temporary Faculty",
+      "researchArea": "ALGEBRA",
+      "emailID": "karuppasamys.tf@iiitt.ac.in",
+      "src": "/faculty/Karuppasamys.jpg",
+      "Institute": "M. Sc., Mathematics (Bharathiar University)"
+    },
+    {
+      "id": {
+        "dept": "dsh",
+        "deptID": "5"
+      },
+      "name": "Dr. Poornima P",
+      "designation": "Temporary Faculty",
+      "researchArea": "Construction of refinement masks using spectral data",
+      "emailID": "poornimap.tf@iiitt.ac.in",
+      "src": "/faculty/PoornimaP.jpeg",
+      "Institute": "Ph .D. - Mathematics (NIT Tiruchirappalli)"
     }
   ]
 }
