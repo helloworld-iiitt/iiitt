@@ -12,7 +12,7 @@ import styles from "./faculty.module.css";
 const orderofDesignation = [
   "Professor",
   "Associate Professor",
-  "Assistant Professor",
+  "Assistant Professor"
 ];
 
 const Faculty = () => {
@@ -28,6 +28,7 @@ const Faculty = () => {
     if (lower.includes("assistant")) return "Assistant Professor";
     if (lower.includes("associate")) return "Associate Professor";
     if (lower.includes("professor")) return "Professor";
+    if (lower.includes("temporary")) return "Teaching Faculty";
     return "Other";
   };
   const groupByDesignation = (
