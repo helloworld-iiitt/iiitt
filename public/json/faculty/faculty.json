@@ -120,7 +120,7 @@
     },
     {
       "id": {
-        "dept": "dsh",
+        "dept": "CSE",
         "deptID": "8"
       },
       "name": "Dr. A. Preethi",
@@ -132,7 +132,7 @@
     },
     {
       "id": {
-        "dept": "dsh",
+        "dept": "CSE",
         "deptID": "9"
       },
       "name": "Dr. K. Jayasri",
@@ -266,15 +266,15 @@
     },
     {
       "id": {
-        "dept": "dsh",
+        "dept": "ECE",
         "deptID": "8"
       },
       "name": "Dr. T Devashena",
       "designation": "Temporary Faculty",
       "researchArea": "Robotics, Smart Materials and Automation",
-      "emailID": "tdevashena@gmail.com",
+      "emailID": "devashenat.tf@iiitt.ac.in",
       "src": "/faculty/ Devashenat.png",
-      "Institute": "Ph.D. (NIT Tiruchirappalli), M.E.(Anna University), B.E.(Bharathidasan University)"
+      "Institute": "Ph.D. (NIT Tiruchirappalli)"
     }
   ],
   " Mechanical Engineering | ME": [
