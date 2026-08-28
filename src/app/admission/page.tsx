@@ -147,7 +147,6 @@ export default function AdmissionPage() {
                   emailID="admissions@iiitt.ac.in"
                   src="/faculty/Kamakshi1.jpeg"
                   src_type="faculty"
-                  phone="8978163865"
                 />
               </section>
             </Grid>
