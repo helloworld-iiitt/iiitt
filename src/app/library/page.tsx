@@ -90,10 +90,10 @@ export default function Library() {
           <a href="#" className={styles.blue}>
             Login →
           </a>
-          <a href="resources.html" className={styles.blue}>
+          <a href="/library/resources" className={styles.blue}>
             Inventory →
           </a>
-          <a href="ones.html" className={styles.blue}>
+          <a href="/library/onos" className={styles.blue}>
             ONOS E-Resources →
           </a>
         </div>

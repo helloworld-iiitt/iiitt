@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "sno": 1,
+            "resources": "Books",
+            "collections": 2440
+        },
+        {
+            "sno": 3,
+            "resources": "ONOS journals",
+            "collections": 30
+        },
+        {
+            "sno": 5,
+            "resources": "Thesis",
+            "collections": 6
+        },
+        {
+            "sno": 6,
+            "resources": "Magazines and Newspapers",
+            "collections": 14
+        }
+    ],
+    "onos": [
+        {
+            "resource": "AAAS - Science",
+            "href": "https://www.science.org"
+        },
+        {
+            "resource": "ACM Digital Library",
+            "href": "https://dl.acm.org"
+        },
+        {
+            "resource": "American Chemical Society Journals",
+            "href": "https://pubs.acs.org"
+        },
+        {
+            "resource": "AIAA Journals",
+            "href": "https://arc.aiaa.org"
+        },
+        {
+            "resource": "American Institute of Physics Journals",
+            "href": "https://aip.scitation.org"
+        },
+        {
+            "resource": "American Mathematical Society Journals",
+            "href": "https://www.ams.org/journals"
+        },
+        {
+            "resource": "American Physical Society",
+            "href": "https://journals.aps.org"
+        },
+        {
+            "resource": "American Society for Microbiology Journals",
+            "href": "https://journals.asm.org"
+        },
+        {
+            "resource": "Annual Reviews Journals",
+            "href": "https://www.annualreviews.org"
+        },
+        {
+            "resource": "ASCE Journals Online",
+            "href": "https://ascelibrary.org"
+        },
+        {
+            "resource": "ASME Journals Online",
+            "href": "https://asmedigitalcollection.asme.org"
+        },
+        {
+            "resource": "Bentham Science Journals",
+            "href": "https://www.eurekaselect.com"
+        },
+        {
+            "resource": "BMJ Journals",
+            "href": "https://www.bmj.com/journals"
+        },
+        {
+            "resource": "Cambridge University Press Journals",
+            "href": "https://www.cambridge.org/core"
+        },
+        {
+            "resource": "Cold Spring Harbor Laboratory Press Journals",
+            "href": "https://cshlpress.org"
+        },
+        {
+            "resource": "Elsevier ScienceDirect Journals",
+            "href": "https://www.sciencedirect.com"
+        },
+        {
+            "resource": "Emerald Publishing Journals",
+            "href": "https://www.emerald.com/insight"
+        },
+        {
+            "resource": "ICE Publishing Journals",
+            "href": "https://www.icevirtuallibrary.com"
+        },
+        {
+            "resource": "IEEE Journals",
+            "href": "https://ieeexplore.ieee.org"
+        },
+        {
+            "resource": "IndianJournals.com",
+            "href": "https://www.indianjournals.com"
+        },
+        {
+            "resource": "Institute of Physics Journals",
+            "href": "https://iopscience.iop.org"
+        },
+        {
+            "resource": "Lippincott Williams & Wilkins (Wolters Kluwer)",
+            "href": "https://www.lww.com"
+        },
+        {
+            "resource": "Oxford University Press Journals",
+            "href": "https://academic.oup.com/journals"
+        },
+        {
+            "resource": "Project Muse",
+            "href": "https://muse.jhu.edu"
+        },
+        {
+            "resource": "Sage Publishing Journals",
+            "href": "https://journals.sagepub.com"
+        },
+        {
+            "resource": "SPIE Digital Library",
+            "href": "https://www.spiedigitallibrary.org"
+        },
+        {
+            "resource": "Springer Nature Journals",
+            "href": "https://www.springer.com/gp"
+        },
+        {
+            "resource": "Taylor and Francis Journals",
+            "href": "https://www.tandfonline.com"
+        },
+        {
+            "resource": "Thieme Journals",
+            "href": "https://www.thieme.com"
+        },
+        {
+            "resource": "Wiley Journals",
+            "href": "https://onlinelibrary.wiley.com"
+        }
+    ]
+}

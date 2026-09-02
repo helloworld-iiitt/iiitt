@@ -1,0 +1,27 @@
+.container {
+  padding: 2rem 8rem;
+}
+
+.themeText {
+  color: #2e8b57;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.list {
+    margin-bottom: 10px;
+    background: #2e8b57;
+    padding: 12px 18px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
