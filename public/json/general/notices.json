@@ -1,12 +1,26 @@
 {
     "data": [
-         {
+           {
+            "title": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
+            "description": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
+            "link": "notices/Exam_Schedule_2026/Ph.D 1 semester 2026-27 EXAM SCHEDULE.pdf",
+            "isNew": true,
+            "date": "04/09/2026"
+           },
+           {
+            "title": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: B.TECH.",
+            "description": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: B.TECH.",
+            "link": "notices/Exam_Schedule_2026/CT1 Exam Schedule (2026-27_Odd Sem).pdf",
+            "isNew": true,
+            "date": "04/09/2026"
+          },
+          {
             "title": "ACADEMIC CALENDAR – ODD SEMESTER 2026–27 (I - Year UG, PG & Ph.D. Programmes)",
             "description": "ACADEMIC CALENDAR – ODD SEMESTER 2026–27 (I - Year  UG, PG & Ph.D. Programmes)",
             "link": "admission/Academic calendar_ODD SEM I Year_2026.pdf",
             "isNew": true,
             "date": "19/08/2026"
-        },
+          },
         {
             "title": "ACADEMIC CALENDAR – ODD SEMESTER 2026–27 (II Year Onwards for UG, PG & Ph.D. Programmes)",
             "description": "ACADEMIC CALENDAR – ODD SEMESTER 2026–27 (II Year Onwards for UG, PG & Ph.D. Programmes)",
