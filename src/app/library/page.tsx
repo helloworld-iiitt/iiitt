@@ -112,7 +112,7 @@ export default function Library() {
           <i className="fas fa-university fa-3x"></i>
           <h3>Library Administration</h3>
           <p>
-            <strong>Library-in-charge:</strong> Dr. S. Padmathilagam
+            <strong>Library-in-charge:</strong> Dr.T.Sugirtha
           </p>
           <p>
             <strong>Contact:</strong> library@iiitt.ac.in
