@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "name": "Original detailed discharge summary"
+        },
+        {
+            "name": "Original Consolidated main bill"
+        },
+        {
+            "name": "Original break-up bill for main bill"
+        },
+        {
+            "name": "All lab original investigation reports"
+        },
+        {
+            "name": "Original Pharmacy bill"
+        },
+        {
+            "name": "Original cash paid receipt"
+        },
+        {
+            "name": "Original cancelled cheque leaf"
+        },
+        {
+            "name": "Original implant stickers (If an implant was used in surgery)"
+        },
+        {
+            "name": "Original Implant invoice (If an implant was used in surgery)"
+        },
+        {
+            "name": "Case sheet Xerox copy"
+        },
+        {
+            "name": "Policy holder's PAN card Xerox"
+        },
+        {
+            "name": "Patient's Aadhaar card Xerox"
+        },
+        {
+            "name": "Duly filled claim form"
+        },
+        {
+            "name": "FIR copy/AR copy (if it is an accident claim)"
+        },
+        {
+            "name": "Alcohol intoxication certificate from the treating doctor (if it is an accident claim)"
+        }
+    ]
+}

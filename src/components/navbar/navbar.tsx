@@ -37,7 +37,8 @@ import {
   School as SchoolIcon,
   Twitter as TwitterIcon,
   Work as WorkIcon,
-  WorkspacePremium as WorkspacePremiumIcon
+  WorkspacePremium as WorkspacePremiumIcon,
+  MedicalServices as MedicalServicesIcon
 } from "@mui/icons-material";
 
 import { styled } from "@mui/material/styles";
@@ -59,6 +60,7 @@ const iconMap: { [key: string]: React.ComponentType } = {
   work: WorkIcon,
   code: CodeIcon,
   library: LibraryBooksIcon,
+  medical_insurance: MedicalServicesIcon,
 };
 
 const StyledHomeIcon = styled(HomeRoundedIcon)({
