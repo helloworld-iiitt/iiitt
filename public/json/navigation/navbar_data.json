@@ -170,14 +170,12 @@
         {
           "text": "Code of Conduct (2025 onwards) – Revised with Amendment on Hostel Accommodation",
           "link": "http://store.iiitt.ac.in/downloads/hostel/Regulations for Academic and Hostel Students_IIITT-2025.pdf"
+        },
+        {
+          "text": "Medical Insurance",
+          "link": "/medical-insurance"
         }
       ]
-    },
-    {
-      "text": "Medical Insurance",
-      "icon": "medical_insurance",
-      "name": "medical-insurance",
-      "link": "/medical-insurance"
     },
     {
       "text": "Campus Life",

@@ -3,6 +3,7 @@
 import {
   Box,
   Container,
+  Link,
   List,
   ListItem,
   ListItemText,
@@ -10,6 +11,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
+import nextConfig from "../../../next.config";
 
 export default function MedicalInsurancePage() {
   const [documents, setDocuments] = useState<any[]>([]);
@@ -110,13 +112,31 @@ export default function MedicalInsurancePage() {
 
       <List dense sx={{ pl: 2 }}>
         <ListItem disablePadding>
-          <ListItemText primary="Medi Assist – Reimbursement Claim Form" />
+          <ListItemText
+            primary={
+              <Link href={`${nextConfig.env?.DOCUMENT}/Medi_Ins/Medi Assist - NOC format.pdf`} target="_blank" underline="hover">
+                Medi Assist – Reimbursement Claim Form
+              </Link>
+            }
+          />
         </ListItem>
         <ListItem disablePadding>
-          <ListItemText primary="Medi Assist – NOC Format" />
+          <ListItemText
+            primary={
+              <Link href={`${nextConfig.env?.DOCUMENT}/Medi_Ins/Medi Assist - Reimbursement Claim Form.pdf`} target="_blank" underline="hover">
+                Medi Assist – NOC Format
+              </Link>
+            }
+          />
         </ListItem>
         <ListItem disablePadding>
-          <ListItemText primary="Vidyarthi Mediclaim Policy Prospectus" />
+          <ListItemText
+            primary={
+              <Link href={`${nextConfig.env?.DOCUMENT}/Medi_Ins/Vidyarthi Prospectus.pdf`} target="_blank" underline="hover">
+                Vidyarthi Mediclaim Policy Prospectus
+              </Link>
+            }
+          />
         </ListItem>
       </List>
 
