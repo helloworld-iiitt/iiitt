@@ -133,7 +133,7 @@ export default function RTI() {
                     Chennai - 620012.
                     <br />
                     Email:
-                    <a href="gsraman@iiitt.ac.in">registrar@iiitdm.ac.in</a>
+                    <a href="gsraman@iiitt.ac.in">gsraman@iiitt.ac.in</a>
                   </Box>
                 </Box>
               </TableCell>
@@ -159,7 +159,7 @@ export default function RTI() {
                     Chennai - 620012.
                     <br />
                     Email:
-                    <a href="sindhuv@iiitt.ac.in">registrar@iiitdm.ac.in</a>
+                    <a href="sindhuv@iiitt.ac.in">sindhuv@iiitt.ac.in</a>
                   </Box>
                 </Box>
               </TableCell>
