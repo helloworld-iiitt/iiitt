@@ -79,9 +79,9 @@ const Programs: React.FC = () => {
               <b>The Reservation Policy as per Government of India guidelines are as follows:</b>
             </Typography>
             <ul className={styles.list}>
-            <li>1. The Gazette of India, Part II., Section 1,No. 29, dated 09, July 2019 and The Gazette of India, No.2289, dated 12, July 2019 regarding 
+            <li>1). The Gazette of India, Part II., Section 1,No. 29, dated 09, July 2019 and The Gazette of India, No.2289, dated 12, July 2019 regarding 
                    “The Central Educational Institutions (Reservation in Teacher's Cadre) Act, 2019”.</li>
-            <li>2. GoI, No. No.36039/1/2019-Estt (Res), dated 31, January 2019 regarding “Reservation for EWSs”.</li>    
+            <li>2). GoI, No. No.36039/1/2019-Estt (Res), dated 31, January 2019 regarding “Reservation for EWSs”.</li>    
           </ul>
           </CardContent>
         </Card>
