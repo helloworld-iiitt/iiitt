@@ -50,10 +50,5 @@ ul.list {
   font-weight: 300;
 }
 
-.list li::before {
-  content: "• ";
 
-  color: #2e8b57;
-  margin-right: 5px;
-}
 
