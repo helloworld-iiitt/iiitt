@@ -8,7 +8,16 @@
 
 import React, { useEffect } from "react";
 import Grid from "@mui/material/Grid2";
-import { Typography, Divider, Card, CardContent } from "@mui/material";
+import {
+  Typography,
+  Divider,
+  Card,
+  CardContent,
+  List,
+  ListItem,
+  ListItemText,
+  Link,
+} from "@mui/material";
 import styles from "./reservation.module.css";
 
 const Programs: React.FC = () => {
@@ -54,20 +63,21 @@ const Programs: React.FC = () => {
             </Typography>
 
             <List dense sx={{ pl: 2 }}>
-            <ListItem disablePadding>
-            <ListItemText
-              primary={
-             <Link
-              href={`${nextConfig.env?.DOCUMENT}/IIITT_Reservation Roster as per GoI Guidelines.pdf`}
-              target="_blank"
-              underline="hover"
-             >
-             Reservation Roster as per GoI Guidelines
-             </Link>
-             }
-             />
-            </ListItem>
-            </List>
+  <ListItem disablePadding>
+    <ListItemText
+      primary={
+        <Link
+          href={`${nextConfig.env?.DOCUMENT}/IIITT_Reservation%20Roster%20as%20per%20GoI%20Guidelines.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+        >
+          Reservation Roster as per GoI Guidelines
+        </Link>
+      }
+    />
+  </ListItem>
+</List>
 
             <Typography>
               <b>
