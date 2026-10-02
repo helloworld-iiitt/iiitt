@@ -67,7 +67,7 @@ const Programs: React.FC = () => {
     <ListItemText
       primary={
         <Link
-          href={`${nextConfig.env?.DOCUMENT}/IIITT_Reservation Roster as per GoI Guidelines.pdf`}
+          href={`${nextConfig.env?.DOCUMENT}/IIITT _Reservation_Roster _as_per_GoI_Guidelines.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           underline="hover"
