@@ -19,7 +19,7 @@ import {
   Link,
 } from "@mui/material";
 import styles from "./reservation.module.css";
-
+import nextConfig from "../../../next.config";
 const Programs: React.FC = () => {
   useEffect(() => {
     document.title =
@@ -67,7 +67,7 @@ const Programs: React.FC = () => {
     <ListItemText
       primary={
         <Link
-          href={`${nextConfig.env?.DOCUMENT}/IIITT_Reservation%20Roster%20as%20per%20GoI%20Guidelines.pdf`}
+          href={`${nextConfig.env?.DOCUMENT}/IIITT_Reservation Roster as per GoI Guidelines.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           underline="hover"
