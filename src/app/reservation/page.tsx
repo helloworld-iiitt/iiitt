@@ -53,14 +53,21 @@ const Programs: React.FC = () => {
               valid.
             </Typography>
 
-            <div className={styles.sectionPadding}>
-              <a
-                href="http://store.iiitt.ac.in/downloads/IIITT_Reservation Roster as per GoI Guidelines.pdf"
-                target="_blank"
-              >
-                Reservation Roster as per GoI Guidelines
-              </a>
-            </div>
+            <List dense sx={{ pl: 2 }}>
+            <ListItem disablePadding>
+            <ListItemText
+              primary={
+             <Link
+              href={`${nextConfig.env?.DOCUMENT}/IIITT_Reservation Roster as per GoI Guidelines.pdf`}
+              target="_blank"
+              underline="hover"
+             >
+             Reservation Roster as per GoI Guidelines
+             </Link>
+             }
+             />
+            </ListItem>
+            </List>
 
             <Typography>
               <b>
