@@ -55,10 +55,10 @@ const Programs: React.FC = () => {
 
             <div className={styles.sectionPadding}>
               <a
-                href="http://store.iiitt.ac.in/downloads/news/IIITT - Reservation Roster as per Gol Guidelines - 02.10.2026.pdf"
+                href="http://store.iiitt.ac.in/downloads/IIITT_Reservation Roster as per GoI Guidelines.pdf"
                 target="_blank"
               >
-                Reservation Roster as per Gol Guidelines
+                Reservation Roster as per GoI Guidelines
               </a>
             </div>
 
