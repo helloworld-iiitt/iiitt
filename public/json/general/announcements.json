@@ -1,6 +1,16 @@
 { 
   "data": [ 
            {
+            "text": "Tender Notification for Hiring of Vehicle at IIIT Tiruchirappalli",
+            "link": "/tenders/Tender_Vehicle Hire_21OCT2026.pdf",
+            "isNew": true
+            },
+            {
+             "text": "Tender Notification for Providing Housekeeping Services at IIIT Tiruchirappalli Campus",
+             "link": "/tenders/Tender_Housekeeping_21OCT2026.pdf",
+             "isNew": true
+           },
+           {
            "text": "ROLLING ADVERTISEMENT FOR THE POST OF POST GRADUATE PROJECT STAFF UNDER IIT MANDI IHUB & HCI FOUNDATION FUNDED PROJECT",
            "link": "/c2s/IIITT - PG Project staff Advertisement.pdf",
            "isNew": true
@@ -13,32 +23,23 @@
            {
            "text": "SUBMISSION DATE EXTENDED - ROLLING ADVERTISEMENT FOR THE POST OF PROJECT STAFF UNDER IIT MANDI IHUB & HCI FOUNDATION FUNDED PROJECT",
            "link": "/c2s/IIITT - Project staff Advertisement - DATE EXTENDED.pdf",
-           "isNew": true
+           "isNew": false
            },
-          {
-           "text": "80th Independence Day Celebration 2026 – Live Streaming",
-           "link": "https://youtube.com/live/47atnvs1qcU?feature=share",
-           "isNew": true
-          },
-         {
-         "text": "ORIENTATION PROGRAMME-2026 AUGUST 22, 2026",
-         "link": "/admission/2026-27 Orientation with chief guest.pdf",
-         "isNew": true
-        },
+          
         {
          "text": "Physical Reporting for First-Year B.Tech. Programmes (Admission 2026) with Reporting Detials: 20.08.2026 and 21.08.2026.",
          "link": "/admission/First yearr Reporting details 2026-27 - Final - V2.pdf",
-         "isNew": true
+         "isNew": false
         },
          {
          "text": "Physical Reporting for First-Year B.Tech. Programmes (Admission 2026) with Reporting Detials - DASA Students: 20.08.2026 and 21.08.2026.",
          "link": "/admission/DASA - First yearr Reporting details 2026-27 -1.pdf",
-         "isNew": true
+         "isNew": false
         },
         {
          "text": "Shortlisted Candidates for the Written Test – M.Tech. Admissions (Self-Supporting), 2026–2027",
          "link": "/admission/M.Tech -August -2026_ shortlisted_written test.pdf",
-         "isNew": true
+         "isNew": false
          },
           {
          "text": "Code of Conduct (2025 onwards) – Revised with Amendment on Hostel Accommodation",
@@ -48,7 +49,7 @@
           {
          "text": "SUBMISSION DATE EXTENDED - ROLLING ADVERTISEMENT FOR THE POST OF PROJECT STAFF UNDER IIT MANDI IHUB & HCI FOUNDATION FUNDED PROJECT",
          "link": "/c2s/IIITT - Project staff Advertisement -revised.pdf",
-         "isNew": true
+         "isNew": false
          },
           {
             "text": "Fee Structure for B.Tech. Programmes – I Year, I Semester (AY 2026–27) – DASA Students",
@@ -59,19 +60,19 @@
        {
         "text": "Admission to M.Tech. (Self-Support) Programme - AY 2026–2027 (Last Date of filling up Online Application Extended upto - 7th August 2026.) ",
         "link": "https://iiitt.ac.in/admission_pg",
-        "isNew": true
+        "isNew": false
         },
 
        {
          "text": "Physical Reporting for First-Year M.Tech. Programmes (Admission 2026): 10.08.2026 and 11.08.2026.",
          "link": "https://iiitt.ac.in/admission_pg",
-         "isNew": true
+         "isNew": false
         },
       
          {
          "text": "Rolling Advertisement For The Post of Project Staff Under IIT MANDI IHUB & HCI FOUNDATION FUNDED PROJECT",
          "link": "/c2s/IIT Mandi - Project staff Advertisement.pdf",
-         "isNew": true
+         "isNew": false
          },
         {
          "text": "Admissions Notice AY 2026-27 (CSAB Special Rounds & DASA (UG))",
