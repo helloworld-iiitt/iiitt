@@ -1,6 +1,11 @@
 { 
   "data": [ 
            {
+              "text": "Atrang 2026 Fest at IIITT | 23–25 October 2026 | Visit the Official Website",
+              "link": "https://atrang.vercel.app",
+              "isNew": true
+           },
+           {
              "text": "Tender Notification for Providing Housekeeping Services at IIIT Tiruchirappalli",
               "link": "/tenders/Tender_Housekeeping_21OCT2026.pdf",
               "isNew": true
