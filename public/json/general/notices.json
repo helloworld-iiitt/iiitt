@@ -1,5 +1,61 @@
 {
     "data": [
+            {
+            "title":"END Semester Theory (Regular/Supplementary) Examination Schedule(Odd Semester 2026-27) PROGRAMME: B.TECH & M.TECH. ",
+            "description":"END Semester Theory (Regular/Supplementary) Examination Schedule (Odd Semester 2026-27) PROGRAMME: B.TECH & M.TECH.",
+            "link": "notices/Exam_Schedule_2026/End examination schedule 1st  2026-27 Odd sem.pdf",
+            "isNew": true,
+            "date": "20/11/2026"
+             }, 
+              {
+            "title":"END Semester Theory Examination Schedule(Odd Semester 2026-27) PROGRAMME: Ph.D. ",
+            "description":"END Semester Theory Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
+            "link": "notices/Exam_Schedule_2026/END Semester Theory Examination Schedule-Nov_2026_PHD.pdf",
+            "isNew": true,
+            "date": "05/11/2026"
+             }, 
+             {
+            "title":"END Semester Theory Examination Schedule(Odd Semester 2026-27 - III, V, VII) PROGRAMME: B.TECH.",
+            "description":"END Semester Theory Examination Schedule (Odd Semester 2026-27 - III, V, VII) PROGRAMME: B.TECH.",
+            "link": "notices/Exam_Schedule_2026/END Semester Theory Examination Schedule_Nov 2026.pdf",
+            "isNew": true,
+            "date": "03/11/2026"
+             }, 
+            {
+            "title": "CYCLE TEST – II Examination Schedule (Odd Semester 2026-27) B.Tech. and M.Tech. First Semester",
+            "description": "CYCLE TEST – II Examination Schedule (Odd Semester 2026-27) B.Tech. and M.Tech. First Semester",
+            "link": "notices/Exam_Schedule_2026/CYCLE TEST-2_First year_ODD_2026.pdf",
+            "isNew": true,
+            "date": "03/11/2026"
+           },
+             {
+            "title": "End Laboratory Examination Schedule Odd Semester (2026-27)",
+            "description": "End Laboratory Examination Schedule Odd Semester (2026-27)",
+            "link": "notices/Exam_Schedule_2026/End Laboratory Examination Schedule Odd Semester_2026-27.pdf",
+            "isNew": true,
+            "date": "31/10/2026"
+             },
+            {
+            "title": "REASSESSMENT / SUPPLEMENTARY EXAMINATION REGISTRATION FORM",
+            "description": "REASSESSMENT / SUPPLEMENTARY EXAMINATION REGISTRATION FORM",
+            "link": "notices/Supplementary Examination Registration Form_2026.pdf",
+            "isNew": true,
+            "date": "17/10/2026"
+           },
+            {
+            "title": "CYCLE TEST – II Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
+            "description": "CYCLE TEST – II Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
+            "link": "notices/Exam_Schedule_2026/Ct-2 _ph.d _odd sem_ timetable_2026.pdf",
+            "isNew": true,
+            "date": "08/10/2026"
+           },
+           {
+            "title": "CYCLE TEST – II Examination Schedule (Odd Semester 2026-27 - III, V, VII) PROGRAMME: B.TECH.",
+            "description": "CYCLE TEST – II Examination Schedule (Odd Semester 2026-27 - III, V, VII) PROGRAMME: B.TECH.",
+            "link": "notices/Exam_Schedule_2026/CT-2 ODD SEM _ 2,3,4 YEAR.pdf",
+            "isNew": true,
+            "date": "08/10/2026"
+          },
            {
             "title": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) B.Tech. and M.Tech. First Semester",
             "description": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) B.Tech. and M.Tech. First Semester",
@@ -11,14 +67,14 @@
             "title": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
             "description": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: Ph.D.",
             "link": "notices/Exam_Schedule_2026/Ph.D 1 semester 2026-2027 EXAM SCHEDULE.pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "05/09/2026"
            },
            {
             "title": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: B.TECH.",
             "description": "CYCLE TEST – I Examination Schedule (Odd Semester 2026-27) PROGRAMME: B.TECH.",
             "link": "notices/Exam_Schedule_2026/CT1 Exam Schedule (2026-27_Odd Sem).pdf",
-            "isNew": true,
+            "isNew": false,
             "date": "04/09/2026"
           },
           {
