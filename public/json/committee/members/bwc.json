@@ -4,43 +4,65 @@
         "s_no": 1,
         "name": "Prof. (Dr.) Anupam Shukla",
         "designation": "Director In-charge, IIIT Tiruchirappalli",
-        "role": "Chairperson (Ex-Officio)"
+        "role": "Chairperson (Ex-Officio)",
+        "email":"director@iiitt.ac.in",
+        "contact_no":"+91 9575048000"
       },
       {
         "s_no": 2,
-        "name": "Prof. Kotluru V L Subramaniam",
-        "designation": "Professor, Department of Civil Engineering, IIT Hyderabad (Member Nominee, MoE, New Delhi)",
-        "role": "Member"
+        "name": "Prof. Dr. K. Baskar",
+        "designation": "Professor(HAG),Department of civil Engineering, National Institute of Technology Tiruchirappalli(Nominee of the Government of India/Ministry of Education (MoE)), TamilNadu",
+        "role": "Member",
+        "email":"kbaskar@nitt.edu",
+        "contact_no":"+91 9361004674,+91-431-2503161 "
       },
       {
         "s_no": 3,
-        "name": "Prof. Gunneswara Rao T D",
-        "designation": "Professor, Department of Civil Engineering, NIT Warangal",
-        "role": "Member"
+        "name": "Prof. Er. P. Senthilkumar",
+        "designation": "Professor, Department of ECE Engineering, Retired Superintending Engineer, Public Works Department(Nominee Government of Tamil Nadu)",
+        "role": "Member",
+        "email":"acesk10@gmail.com",
+        "contact_no":"+91 88832 80680, +91 9385761966"
       },
       {
         "s_no": 4,
-        "name": "Shri. Lakshminarayanan",
-        "designation": "Senior General Manager, Finance, Tata Consultancy Service, Chennai",
-        "role": "Member"
+        "name": "Thiru. B. Vishnu Chandran",
+        "designation": "I.A.S., Managing Director,ELCOT(Nominee of the Industry Partner)",
+        "role": "Member",
+        "email":"md@elcot.in",
+        "contact_no":"+91-44-42152200"
       },
       {
         "s_no": 5,
-        "name": "Prof. K. Baskar",
-        "designation": "Professor, Dept. of Civil Eng., NIT Tiruchirappalli",
-        "role": "Member"
+        "name": "Dr N. Renugadevi",
+        "designation": "Faculty (i/c), Planning and Development, IIIT Tiruchirappalli",
+        "role": "Member",
+        "email":"plandev@iiitt.ac.in",
+        "contact_no":"+91 8903118377"
       },
       {
         "s_no": 6,
-        "name": "Dr N. Renugadevi",
-        "designation": "Faculty (i/c), Planning and Development, IIIT Tiruchirappalli",
-        "role": "Member"
+        "name": "Dr Rajesh Kumar Tripathi",
+        "designation": "Professor (HAG) in Civil Engineering, National Institute of Technology Raipur,Chhattisgarh",
+        "role": "Member",
+        "email":"rktripathi.ce@nitrr.ac.in",
+        "contact_no":"+91 9425508900"
       },
       {
         "s_no": 7,
+        "name": "Dr J Prabakar, Scientist-G",
+        "designation": "CSIR-Structural Engineering Research Centre (SERC),Taramani, Chennai, Tamil Nadu",
+        "role": "Member",
+        "email":"prabakar.serc@csir.res.in",
+        "contact_no":"+91 9444158434"
+      },
+      {
+        "s_no": 8,
         "name": "Dr N. Renugadevi",
         "designation": "Registrar (i/c), IIIT Tiruchirappalli",
-        "role": "Member (Ex-Officio)"
+        "role": "Secretary (Ex-Officio)",
+        "email":"registrar@iiitt.ac.in",
+        "contact_no":"+91 8903118377"
       }
     ]
 }

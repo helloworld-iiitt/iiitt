@@ -13,7 +13,7 @@ export default function CommitteePage({ committee }: { committee: string }) {
   const columnMapping: Record<string, string[]> = {
     senate: ["Name", "Designation", "Senate"],
     bog: ["Name", "Designation", "Role"],
-    bwc: ["Name", "Designation", "Role"],
+    bwc: ["Name", "Designation", "Role","Email","Contact_No"],
     pio: ["Name", "Designation", "Role"],
     fc: ["Name", "Designation", "Role"],
     icc: ["Name", "Designation", "Role"],
